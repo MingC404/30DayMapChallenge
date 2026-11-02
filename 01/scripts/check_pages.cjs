@@ -1,8 +1,8 @@
 // HTTP-only validation of docs/ mounted under a GitHub Pages repository prefix.
 const fs=require('fs'),path=require('path'),http=require('http'),assert=require('assert/strict'),crypto=require('crypto');
-const root=path.resolve(__dirname,'..'),docs=path.join(root,'docs'),prefix='/30DayMapChallenge/';
+const day=path.resolve(__dirname,'..'),root=path.resolve(day,'..'),docs=path.join(root,'docs'),prefix='/30DayMapChallenge/';
 const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
-for(const [source,target] of [['nyc_changing_station_explorer.html','index.html'],['nyc_changing_station_explorer.png','preview.png'],['nyc_changing_station_explorer.gif','preview.gif']])assert.equal(hash(path.join(root,'outputs',source)),hash(path.join(docs,'nyc-changing-stations',target)),`Pages asset out of sync: ${target}`);
+for(const [source,target] of [['nyc_changing_station_explorer.html','index.html'],['nyc_changing_station_explorer.png','preview.png'],['nyc_changing_station_explorer.gif','preview.gif']])assert.equal(hash(path.join(day,'outputs',source)),hash(path.join(docs,'nyc-changing-stations',target)),`Pages asset out of sync: ${target}`);
 assert.ok(fs.existsSync(path.join(docs,'.nojekyll')));
 for(const relative of ['index.html','nyc-changing-stations/index.html']){
   const file=path.join(docs,relative),html=fs.readFileSync(file,'utf8');
@@ -35,6 +35,7 @@ async function main(){
     const base=`http://127.0.0.1:${server.address().port}${prefix}`;
     await page.goto(base);
     assert.ok(await page.locator('a[href="nyc-changing-stations/"]').count());
+    assert.ok((await page.locator('h2').first().innerText()).includes('Day 01'));
     await page.waitForFunction(()=>document.querySelector('img').complete&&document.querySelector('img').naturalWidth===1200);
     await page.goto(base+'nyc-changing-stations/');
     await page.waitForFunction(()=>basemapReady&&streetsLayer&&streetsLayer.getMaplibreMap().areTilesLoaded(),null,{timeout:60000});

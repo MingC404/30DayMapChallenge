@@ -4,7 +4,6 @@
   "origin": "https://github.com/MingC404/30DayMapChallenge.git",
   "branch": "main",
   "repository_type": "personal portfolio repository",
-  "confirmation": "User confirmed personal repository and authorized preparing docs/; public GitHub API returned 404, so fork status was not inferred from its owner name.",
   "publish_directory": "docs",
   "map_path": "nyc-changing-stations"
 }

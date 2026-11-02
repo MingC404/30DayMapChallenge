@@ -1,7 +1,7 @@
 // Capture real browser rendering at a fixed camera; used by the Python GIF exporter.
 const fs=require('fs'),path=require('path'),http=require('http');
 const assert=require('assert/strict');
-const root=path.resolve(__dirname,'..');
+const root=path.resolve(__dirname,'../..');
 const states=[
   {key:'all-start',keys:null,title:'All changing-table records',duration:3000},
   {key:'unspecified',keys:['unspecified'],title:'Restroom with changing table',subtitle:'Restroom type not specified.',duration:2000},
@@ -12,7 +12,7 @@ const states=[
 ];
 
 async function capture(){
-  const out=process.argv[2];if(!out)throw Error('Usage: node scripts/capture_explorer.cjs <temporary-frame-directory>');
+  const out=process.argv[2];if(!out)throw Error('Usage: node 01/scripts/capture_explorer.cjs <temporary-frame-directory>');
   fs.mkdirSync(out,{recursive:true});
   const server=http.createServer((request,response)=>{
     const file=path.resolve(root,'.'+decodeURIComponent(new URL(request.url,'http://localhost').pathname));
@@ -29,7 +29,7 @@ async function capture(){
     const errors=[],badResponses=[];
     page.on('pageerror',error=>errors.push(error.message));
     page.on('response',response=>{if(response.status()>=400&&/tiles\.openfreemap\.org|unpkg\.com/.test(response.url()))badResponses.push({url:response.url(),status:response.status()});});
-    await page.goto(`http://127.0.0.1:${server.address().port}/outputs/nyc_changing_station_explorer.html`);
+    await page.goto(`http://127.0.0.1:${server.address().port}/01/outputs/nyc_changing_station_explorer.html`);
     await page.waitForFunction(()=>basemapMode==='streets'&&basemapReady&&streetsLayer&&streetsLayer.getMaplibreMap().isStyleLoaded()&&streetsLayer.getMaplibreMap().areTilesLoaded(),null,{timeout:60000});
     await page.evaluate(()=>document.fonts.ready);
     assert.equal(await page.locator('#total').innerText(),'0');

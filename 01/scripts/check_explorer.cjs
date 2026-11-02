@@ -1,8 +1,8 @@
-// Optional browser QA: npm install playwright; node scripts/check_explorer.cjs --browser
+// Optional browser QA: node 01/scripts/check_explorer.cjs --browser
 const fs=require('fs'), vm=require('vm'), path=require('path'), http=require('http');
 const assert=require('assert/strict');
-const root=path.resolve(__dirname,'..');
-const html=fs.readFileSync(path.join(root,'outputs/nyc_changing_station_explorer.html'),'utf8');
+const day=path.resolve(__dirname,'..'),root=path.resolve(day,'..');
+const html=fs.readFileSync(path.join(day,'outputs/nyc_changing_station_explorer.html'),'utf8');
 const data=JSON.parse(html.match(/<script id="explorer-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 new vm.Script([...html.matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1]);
 assert.equal(data.points.length,795);
@@ -31,7 +31,7 @@ async function browserCheck(){
     const errors=[],tileResponses=[];
     page.on('pageerror',error=>errors.push(error.message));
     page.on('response',response=>{if(/tiles\.openfreemap\.org|basemaps\.cartocdn\.com/.test(response.url()))tileResponses.push({url:response.url(),status:response.status()});});
-    await page.goto(`http://127.0.0.1:${server.address().port}/outputs/nyc_changing_station_explorer.html`);
+    await page.goto(`http://127.0.0.1:${server.address().port}/01/outputs/nyc_changing_station_explorer.html`);
     await page.waitForFunction(()=>basemapReady,{timeout:45000});
     await page.waitForFunction(()=>map&&markers.length===795);
     assert.equal(await page.locator('.basemap-compare,input[name="basemap"]').count(),0);
@@ -104,7 +104,6 @@ async function browserCheck(){
     assert.equal((await page.locator('.info-tooltip').textContent()).includes('(recorded)'),false);
     const cardFits=await page.evaluate(()=>{const card=document.querySelector('.info-tooltip').getBoundingClientRect(),box=map.getContainer().getBoundingClientRect();return card.left>=box.left&&card.right<=box.right&&card.top>=box.top&&card.bottom<=box.bottom;});
     assert.ok(cardFits);
-    await page.screenshot({path:path.join(root,'outputs/nyc_changing_station_information_card.png')});
     await page.evaluate(()=>{markers.find(({point})=>point.name===document.querySelector('.info-tooltip strong').textContent).marker.openPopup();});
     assert.ok((await page.locator('.leaflet-popup').textContent()).includes('Original changing-table label'));
     assert.ok((await page.locator('.leaflet-popup').textContent()).includes('only'));
@@ -126,12 +125,11 @@ async function browserCheck(){
     await page.waitForTimeout(2500);
     assert.deepEqual(await page.evaluate(()=>basemapErrors),[]);
     assert.equal(await page.locator('#load-error').isVisible(),false);
-    await page.screenshot({path:path.join(root,'outputs/nyc_changing_station_explorer.png')});
     await page.setViewportSize({width:390,height:844});await page.waitForTimeout(350);
     const layout=await page.evaluate(()=>({aside:document.querySelector('aside').getBoundingClientRect().top,map:document.querySelector('.map-wrap').getBoundingClientRect().bottom,overflow:document.documentElement.scrollWidth>innerWidth}));
     assert.ok(layout.aside>=layout.map-1);assert.equal(layout.overflow,false);assert.deepEqual(errors,[]);
     console.log('PASS: HTTP QA, fixed Light streets with unfilled outlines, initial empty selection, no basemap control, 16 filter combinations, OR overlap, tooltips/popups, view buttons, mobile layout.');
-    console.log('Screenshot saved. Visually inspect imagery for blocked/key placeholders; tile status alone is insufficient.');
+    console.log('Existing PNG/GIF files were not changed by browser QA.');
   }finally{if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}
 }
 if(process.argv.includes('--browser'))browserCheck().catch(error=>{console.error(error);process.exitCode=1;});

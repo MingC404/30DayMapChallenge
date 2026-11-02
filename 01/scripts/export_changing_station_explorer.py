@@ -3,6 +3,7 @@
 Requires Pillow, Node.js and Playwright (plus a browser). No animation redraws.
 """
 import json
+import argparse
 from pathlib import Path
 import shutil
 import subprocess
@@ -10,17 +11,21 @@ import tempfile
 
 from PIL import Image, ImageChops
 
-ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / 'outputs'
+DAY = Path(__file__).resolve().parents[1]
+ROOT = DAY.parent
+OUTPUT = DAY / 'outputs'
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--verify-only', action='store_true', help='Capture and validate in a temporary directory without replacing outputs.')
+    arguments = parser.parse_args()
     node = shutil.which('node')
     if not node:
         raise SystemExit('Node.js is required for browser capture.')
     with tempfile.TemporaryDirectory(prefix='nyc-explorer-frames-') as directory:
         temporary = Path(directory)
-        subprocess.run([node, str(ROOT / 'scripts/capture_explorer.cjs'), str(temporary)], cwd=ROOT, check=True)
+        subprocess.run([node, str(DAY / 'scripts/capture_explorer.cjs'), str(temporary)], cwd=ROOT, check=True)
         manifest = json.loads((temporary / 'manifest.json').read_text(encoding='utf-8'))
         rgb_frames = [Image.open(temporary / state['file']).convert('RGB') for state in manifest['states']]
         # One shared palette preserves stable type/label colors and supports delta compression.
@@ -37,6 +42,9 @@ def main():
                 check.seek(index)
                 assert check.info['duration'] == manifest['states'][index]['duration']
                 assert ImageChops.difference(check.convert('RGB'), expected.convert('RGB')).getbbox() is None
+        if arguments.verify_only:
+            print('Verified six rendered states and GIF encoding; existing outputs unchanged.')
+            return
         OUTPUT.mkdir(exist_ok=True)
         shutil.copyfile(candidate, OUTPUT / 'nyc_changing_station_explorer.gif')
         shutil.copyfile(temporary / manifest['states'][0]['file'], OUTPUT / 'nyc_changing_station_explorer.png')

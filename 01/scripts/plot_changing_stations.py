@@ -9,9 +9,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[1]
+DAY = Path(__file__).resolve().parents[1]
+ROOT = DAY.parent
 SOURCE = ROOT / "data_raw" / "family" / "Public_Restrooms_20261024.csv"
-OUTPUT = ROOT / "outputs" / "nyc_changing_stations.png"
+OUTPUT = DAY / "outputs" / "nyc_changing_stations.png"
 
 # 只根据原始字段分类；普通 Yes 不代表位于男厕或女厕。
 CATEGORIES = {

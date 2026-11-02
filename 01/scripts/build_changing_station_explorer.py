@@ -6,9 +6,10 @@ import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+DAY = Path(__file__).resolve().parents[1]
+ROOT = DAY.parent
 SOURCE = ROOT / 'data_raw/family/Public_Restrooms_20261024.csv'
-OUTPUT = ROOT / 'outputs/nyc_changing_station_explorer.html'
+OUTPUT = DAY / 'outputs/nyc_changing_station_explorer.html'
 CATEGORIES = [
     ('unspecified', 'Restroom with changing table', '#72B8AC'),
     ('women', 'In women’s restrooms', '#F29B87'),
@@ -205,7 +206,7 @@ def main():
                   data_updated_date='Not reported in project; filename date is not a verified update date',
                   address_field='Absent', boundary_layer='NYC DCP 26b land-only boroughs; local GeoJSON; simplified 15m')
     payload = json.dumps(dict(initialSelectedKeys=[], boroughs=boroughs, fieldCoverage=coverage, basemapStyle=basemap_style(), categories=[dict(key=k,name=n,description='Restroom type not specified.' if k=='unspecified' else '',color=c,count=counts[i]) for i,(k,n,c) in enumerate(CATEGORIES)], points=points), ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
-    template = (ROOT / 'scripts/explorer_template.html').read_text(encoding='utf-8')
+    template = (DAY / 'scripts/explorer_template.html').read_text(encoding='utf-8')
     OUTPUT.parent.mkdir(exist_ok=True)
     OUTPUT.write_text(template.replace('__DATA__', payload), encoding='utf-8')
     from prepare_pages import sync_pages_if_enabled

@@ -1,0 +1,52 @@
+{
+  "source": "data_raw\\family\\Public_Restrooms_20261024.csv",
+  "total_records": 1066,
+  "confirmed_yes": 795,
+  "no": 174,
+  "unclear_labels": {
+    "N/A, restrooms closed": 8,
+    "<blank>": 86,
+    "N/A": 1,
+    "N/A - closed for capital": 2
+  },
+  "coordinate_checks_all_records": {
+    "valid": 1066,
+    "missing_or_non_numeric": 0,
+    "suspected_swapped": 0,
+    "outside_world_range": 0,
+    "outside_nyc_envelope": 0
+  },
+  "excluded_confirmed_yes": {
+    "missing_or_non_numeric": 0,
+    "suspected_swapped": 0,
+    "outside_world_range": 0,
+    "outside_nyc_envelope": 0
+  },
+  "original_world_range_counts": [
+    659,
+    83,
+    27,
+    26
+  ],
+  "reference_counts": [
+    659,
+    83,
+    27,
+    26
+  ],
+  "dashboard_counts": [
+    659,
+    83,
+    27,
+    26
+  ],
+  "operational_statuses": {
+    "Not Operational": 73,
+    "Operational": 975,
+    "Closed for Construction": 17,
+    "Closed": 1
+  },
+  "data_updated_date": "Not reported in project; filename date is not a verified update date",
+  "address_field": "Absent",
+  "boundary_layer": "Not included; no local boundary dataset"
+}
