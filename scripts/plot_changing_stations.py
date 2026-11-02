@@ -54,7 +54,7 @@ def main():
         print(f"Plotted {value}: {selected.sum()}")
 
     ax.set(title="NYC Public Restrooms: Changing Stations", xlabel="Longitude", ylabel="Latitude")
-    # 近似补偿纽约纬度下经度与纬度的距离差；仍是经纬度点图。
+
     ax.set_aspect(1 / 0.758)
     ax.grid(alpha=0.2)
     ax.legend(loc="best", fontsize=8, framealpha=0.95)
