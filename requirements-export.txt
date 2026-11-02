@@ -1,0 +1,3 @@
+# Dashboard generation itself uses only Python standard library.
+Pillow>=10,<13
+# Browser capture also needs Node.js + npm package playwright (see README).

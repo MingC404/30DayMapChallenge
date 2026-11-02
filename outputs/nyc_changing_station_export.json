@@ -1,0 +1,82 @@
+{
+  "width": 1200,
+  "height": 900,
+  "camera": {
+    "center": [
+      40.734997150655346,
+      -73.95981003690089
+    ],
+    "zoom": 11.75,
+    "size": [
+      872,
+      748
+    ]
+  },
+  "basemap": {
+    "features": 679,
+    "errors": [],
+    "overlay": true,
+    "unfilled": true
+  },
+  "states": [
+    {
+      "key": "all-start",
+      "keys": null,
+      "title": "All changing-table records",
+      "duration": 3000,
+      "count": 795,
+      "file": "0-all-start.png"
+    },
+    {
+      "key": "unspecified",
+      "keys": [
+        "unspecified"
+      ],
+      "title": "Restroom with changing table",
+      "subtitle": "Restroom type not specified.",
+      "duration": 2000,
+      "count": 659,
+      "file": "1-unspecified.png"
+    },
+    {
+      "key": "women",
+      "keys": [
+        "women"
+      ],
+      "title": "In women’s restrooms",
+      "duration": 2000,
+      "count": 83,
+      "file": "2-women.png"
+    },
+    {
+      "key": "men",
+      "keys": [
+        "men"
+      ],
+      "title": "In men’s restrooms",
+      "duration": 2000,
+      "count": 27,
+      "file": "3-men.png"
+    },
+    {
+      "key": "all-gender",
+      "keys": [
+        "all_gender"
+      ],
+      "title": "In all-gender restrooms",
+      "duration": 2000,
+      "count": 26,
+      "file": "4-all-gender.png"
+    },
+    {
+      "key": "all-end",
+      "keys": null,
+      "title": "All changing-table records",
+      "duration": 3000,
+      "count": 795,
+      "file": "5-all-end.png"
+    }
+  ],
+  "gif_bytes": 231355,
+  "total_duration_ms": 14000
+}
