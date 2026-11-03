@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (1942198 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="40.7014000" minlon="-74.0310000" maxlat="40.7098000" maxlon="-74.0230000"/>
+ <node id="166878947" visible="true" version="47" changeset="138155153" timestamp="2023-07-05T16:26:18Z" user="kguenther24" uid="11697944" lat="40.7024496" lon="-74.0055028">
+  <tag k="amenity" v="ferry_terminal"/>
+  <tag k="ferry" v="yes"/>
+  <tag k="name" v="Pier 11 / Wall St. Terminal"/>
+  <tag k="network" v="East River, Astoria, South Brooklyn, Rockaway (NYC Ferry), Highlands, Atlantic Highlands, Sandy Hook Beach (Seastreak), IKEA Express (Water Taxi), Port Liberte, Hoboken, Paulus Hook, Port Imperial Weehawken (NY Waterway)"/>
+  <tag k="operator" v="NYC Ferry/Hornblower, New York Water Taxi, NY Waterway, Seastreak"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="194613371" visible="true" version="33" changeset="14112769" timestamp="2012-12-01T15:54:29Z" user="Michael Yap" uid="1093326" lat="40.7069792" lon="-74.0191227"/>
+ <node id="680053870" visible="true" version="4" changeset="9727457" timestamp="2011-11-03T03:51:27Z" user="ymapper" uid="5139" lat="40.7087202" lon="-74.0342448"/>
+ <node id="1262585259" visible="true" version="10" changeset="129864324" timestamp="2022-12-08T14:53:52Z" user="MacLondon" uid="322039" lat="40.7350368" lon="-74.0265592">
+  <tag k="amenity" v="ferry_terminal"/>
+  <tag k="ferry" v="yes"/>
+  <tag k="name" v="Hoboken NJ Transit Terminal"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="survey:date" v="2021-08-15"/>
+ </node>
+ <node id="1759000781" visible="true" version="1" changeset="11647046" timestamp="2012-05-19T22:30:36Z" user="NE2" uid="207745" lat="40.7042263" lon="-74.0268997"/>
+ <node id="1759000782" visible="true" version="1" changeset="11647046" timestamp="2012-05-19T22:30:36Z" user="NE2" uid="207745" lat="40.7491873" lon="-74.0172027"/>
+ <node id="1759000790" visible="true" version="1" changeset="11647046" timestamp="2012-05-19T22:30:36Z" user="NE2" uid="207745" lat="40.7584286" lon="-74.0135533"/>
+ <node id="1759000793" visible="true" version="1" changeset="11647046" timestamp="2012-05-19T22:30:37Z" user="NE2" uid="207745" lat="40.8095878" lon="-73.9752869"/>
+ <node id="2176641969" visible="true" version="4" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7301972" lon="-74.0218035"/>
+ <node id="2892409681" visible="true" version="7" changeset="187606136" timestamp="2026-08-17T19:32:11Z" user="kguenther24" uid="11697944" lat="40.7138230" lon="-74.0321239">
+  <tag k="amenity" v="ferry_terminal"/>
+  <tag k="ferry" v="yes"/>
+  <tag k="name" v="Paulus Hook Ferry Terminal"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="3969169960" visible="true" version="1" changeset="36823767" timestamp="2016-01-26T19:33:13Z" user="MCM7" uid="2421207" lat="40.8805399" lon="-73.9339240"/>
+ <node id="3999369123" visible="true" version="3" changeset="174119320" timestamp="2025-11-02T19:49:58Z" user="quincylvania" uid="4515353" lat="40.6999376" lon="-74.0290731"/>
+ <node id="6600869752" visible="true" version="1" changeset="72067242" timestamp="2019-07-09T18:49:05Z" user="Антін Сартенченко" uid="571410" lat="40.7077713" lon="-74.0261354"/>
+ <node id="6746710797" visible="true" version="6" changeset="187617698" timestamp="2026-08-18T04:02:02Z" user="kguenther24" uid="11697944" lat="40.7151567" lon="-74.0180709">
+  <tag k="alt_name" v="Battery Park City / Vesey St."/>
+  <tag k="amenity" v="ferry_terminal"/>
+  <tag k="ferry" v="yes"/>
+  <tag k="name" v="Brookfield Place / Battery Park City"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="wikidata" v="Q4869871"/>
+ </node>
+ <node id="8348497572" visible="true" version="2" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7103866" lon="-74.0258686"/>
+ <node id="8353679244" visible="true" version="1" changeset="98002461" timestamp="2021-01-23T02:29:50Z" user="JDP11220" uid="12469543" lat="40.7096311" lon="-74.0300272"/>
+ <node id="8353679245" visible="true" version="1" changeset="98002461" timestamp="2021-01-23T02:29:50Z" user="JDP11220" uid="12469543" lat="40.7104847" lon="-74.0305143"/>
+ <node id="9053423902" visible="true" version="2" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.6482074" lon="-74.0673463"/>
+ <node id="9053423904" visible="true" version="2" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.6499223" lon="-74.0647352"/>
+ <node id="9053423907" visible="true" version="3" changeset="129761932" timestamp="2022-12-06T01:36:44Z" user="lexande" uid="747352" lat="40.7087991" lon="-74.0237113"/>
+ <node id="9053423908" visible="true" version="5" changeset="153874123" timestamp="2024-07-12T22:21:12Z" user="henjaffe" uid="11438736" lat="40.6460869" lon="-74.0741749">
+  <tag k="ferry" v="yes"/>
+  <tag k="name" v="St. George - NYC Ferry Landing"/>
+  <tag k="operator" v="NYC Ferry"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="start_date" v="2021-08-23"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/st-george/"/>
+ </node>
+ <node id="9053423912" visible="true" version="2" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.6463939" lon="-74.0728379"/>
+ <node id="9915156034" visible="true" version="2" changeset="129778452" timestamp="2022-12-06T11:09:51Z" user="lexande" uid="747352" lat="40.7345645" lon="-74.0252458"/>
+ <node id="9915156101" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7134263" lon="-74.0304178"/>
+ <node id="9915156103" visible="true" version="2" changeset="174395276" timestamp="2025-11-08T21:30:30Z" user="quincylvania" uid="4515353" lat="40.7140802" lon="-74.0316153"/>
+ <node id="9915156107" visible="true" version="2" changeset="174395276" timestamp="2025-11-08T21:30:30Z" user="quincylvania" uid="4515353" lat="40.7141203" lon="-74.0308625"/>
+ <node id="9915156108" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7138251" lon="-74.0305005"/>
+ <node id="9915156109" visible="true" version="2" changeset="174395276" timestamp="2025-11-08T21:30:30Z" user="quincylvania" uid="4515353" lat="40.7141674" lon="-74.0312328"/>
+ <node id="9915156122" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.7001194" lon="-74.0071132"/>
+ <node id="9915156124" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6998234" lon="-74.0068302"/>
+ <node id="9915156127" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6977970" lon="-74.0129362"/>
+ <node id="9915156174" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7318678" lon="-74.0220698"/>
+ <node id="9915156175" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7336146" lon="-74.0235604"/>
+ <node id="9915156180" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6981675" lon="-74.0098392"/>
+ <node id="9915156181" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6987828" lon="-74.0101216"/>
+ <node id="9915156185" visible="true" version="3" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6983239" lon="-74.0182541"/>
+ <node id="9915156186" visible="true" version="3" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6985711" lon="-74.0149153"/>
+ <node id="9915156187" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6984483" lon="-74.0126417"/>
+ <node id="9915156190" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.7073451" lon="-74.0252319"/>
+ <node id="9915156191" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.6922115" lon="-74.0297646"/>
+ <node id="9915156192" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.6865962" lon="-74.0328866"/>
+ <node id="9915156193" visible="true" version="1" changeset="124149787" timestamp="2022-07-27T16:45:16Z" user="quincylvania" uid="4515353" lat="40.6894039" lon="-74.0310252"/>
+ <node id="10241391837" visible="true" version="1" changeset="129761932" timestamp="2022-12-06T01:36:44Z" user="lexande" uid="747352" lat="40.7119878" lon="-74.0213084"/>
+ <node id="10241391840" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.7009208" lon="-74.0224632"/>
+ <node id="10241391841" visible="true" version="1" changeset="129761932" timestamp="2022-12-06T01:36:44Z" user="lexande" uid="747352" lat="40.7089191" lon="-74.0255614"/>
+ <node id="10241391842" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.7016265" lon="-74.0208522"/>
+ <node id="10241391843" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6991942" lon="-74.0173842"/>
+ <node id="10241391844" visible="true" version="2" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6979634" lon="-74.0160964"/>
+ <node id="10241452116" visible="true" version="1" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6993887" lon="-74.0083878"/>
+ <node id="10241452118" visible="true" version="1" changeset="129762885" timestamp="2022-12-06T03:01:03Z" user="lexande" uid="747352" lat="40.6989037" lon="-74.0080248"/>
+ <node id="13900128232" visible="true" version="1" changeset="183471517" timestamp="2026-05-31T23:37:32Z" user="quincylvania" uid="4515353" lat="40.7762979" lon="-74.0001914"/>
+ <way id="179058314" visible="true" version="3" changeset="183405734" timestamp="2026-05-30T15:28:57Z" user="quincylvania" uid="4515353">
+  <nd ref="680053870"/>
+  <nd ref="6600869752"/>
+  <nd ref="194613371"/>
+ </way>
+ <way id="207411163" visible="true" version="21" changeset="169797630" timestamp="2025-08-01T04:25:59Z" user="Swihail" uid="15458726">
+  <nd ref="1262585259"/>
+  <nd ref="9915156034"/>
+  <nd ref="9915156175"/>
+  <nd ref="9915156174"/>
+  <nd ref="2176641969"/>
+  <nd ref="8348497572"/>
+  <nd ref="10241391841"/>
+  <nd ref="9915156190"/>
+  <nd ref="10241391842"/>
+  <nd ref="10241391843"/>
+  <nd ref="9915156186"/>
+  <nd ref="9915156187"/>
+  <nd ref="9915156181"/>
+  <nd ref="10241452116"/>
+  <nd ref="9915156122"/>
+  <nd ref="166878947"/>
+  <tag k="duration" v="00:12"/>
+  <tag k="foot" v="yes"/>
+  <tag k="motorcycle" v="yes"/>
+  <tag k="name" v="Hoboken NJ Transit - Pier 11 / Wall Street"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="operator" v="NY Waterway"/>
+  <tag k="route" v="ferry"/>
+  <tag k="toll" v="yes"/>
+ </way>
+ <way id="285585246" visible="true" version="27" changeset="155306513" timestamp="2024-08-16T01:50:59Z" user="quincylvania" uid="4515353">
+  <nd ref="166878947"/>
+  <nd ref="9915156124"/>
+  <nd ref="10241452118"/>
+  <nd ref="9915156180"/>
+  <nd ref="9915156127"/>
+  <nd ref="10241391844"/>
+  <nd ref="9915156185"/>
+  <nd ref="10241391840"/>
+  <nd ref="8353679244"/>
+  <nd ref="8353679245"/>
+  <nd ref="9915156101"/>
+  <nd ref="9915156108"/>
+  <nd ref="9915156107"/>
+  <nd ref="9915156109"/>
+  <nd ref="9915156103"/>
+  <nd ref="2892409681"/>
+  <tag k="access" v="yes"/>
+  <tag k="bicycle" v="dismount"/>
+  <tag k="duration" v="00:10"/>
+  <tag k="foot" v="yes"/>
+  <tag k="horse" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Paulus Hook – Pier 11 / Wall Street"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="operator" v="NY Waterway"/>
+  <tag k="ref" v="PH-11"/>
+  <tag k="route" v="ferry"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="http://www.nywaterway.com/PalHo-Pier11WallStRoute.aspx"/>
+ </way>
+ <way id="459202666" visible="true" version="12" changeset="183471517" timestamp="2026-05-31T23:37:32Z" user="quincylvania" uid="4515353">
+  <nd ref="3969169960"/>
+  <nd ref="1759000793"/>
+  <nd ref="13900128232"/>
+  <nd ref="1759000790"/>
+  <nd ref="1759000782"/>
+  <nd ref="6600869752"/>
+  <tag k="boat" v="yes"/>
+  <tag k="canoe" v="yes"/>
+  <tag k="canoe:description" v="Paddlers should avoid the ship channel when possible and stay alert for rough and changing conditions."/>
+  <tag k="deep_draft" v="yes"/>
+  <tag k="intermittent" v="no"/>
+  <tag k="motorboat" v="yes"/>
+  <tag k="name" v="Hudson River"/>
+  <tag k="name:es" v="Río Hudson"/>
+  <tag k="oneway:canoe" v="no"/>
+  <tag k="rapids" v="no"/>
+  <tag k="ship" v="yes"/>
+  <tag k="source" v="ywms"/>
+  <tag k="source:deep_draft" v="National Transportation Atlas Database 2011"/>
+  <tag k="tidal" v="yes"/>
+  <tag k="waterway" v="river"/>
+ </way>
+ <way id="978417772" visible="true" version="10" changeset="175682009" timestamp="2025-12-08T18:54:33Z" user="quincylvania" uid="4515353">
+  <nd ref="9053423908"/>
+  <nd ref="9053423912"/>
+  <nd ref="9053423902"/>
+  <nd ref="9053423904"/>
+  <nd ref="9915156192"/>
+  <nd ref="9915156193"/>
+  <nd ref="9915156191"/>
+  <nd ref="9053423907"/>
+  <nd ref="10241391837"/>
+  <nd ref="6746710797"/>
+  <tag k="bicycle" v="dismount"/>
+  <tag k="duration" v="00:18"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="St. George"/>
+  <tag k="horse" v="no"/>
+  <tag k="motorcar" v="no"/>
+  <tag k="name" v="St. George – Battery Park City"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="route" v="ferry"/>
+  <tag k="seamark:type" v="ferry_route"/>
+  <tag k="to" v="Battery Park City"/>
+  <tag k="toll" v="yes"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/st-george/"/>
+  <tag k="wheelchair" v="yes"/>
+ </way>
+ <way id="1446968859" visible="true" version="1" changeset="174119320" timestamp="2025-11-02T19:49:58Z" user="quincylvania" uid="4515353">
+  <nd ref="6600869752"/>
+  <nd ref="1759000781"/>
+  <nd ref="3999369123"/>
+  <tag k="boat" v="yes"/>
+  <tag k="canoe" v="yes"/>
+  <tag k="canoe:description" v="Paddlers should avoid the ship channel when possible and stay alert for rough and changing conditions."/>
+  <tag k="deep_draft" v="yes"/>
+  <tag k="intermittent" v="no"/>
+  <tag k="motorboat" v="yes"/>
+  <tag k="name" v="Hudson River"/>
+  <tag k="name:es" v="Río Hudson"/>
+  <tag k="oneway:canoe" v="no"/>
+  <tag k="rapids" v="no"/>
+  <tag k="ship" v="yes"/>
+  <tag k="source" v="ywms"/>
+  <tag k="source:deep_draft" v="National Transportation Atlas Database 2011"/>
+  <tag k="tidal" v="yes"/>
+  <tag k="waterway" v="river"/>
+ </way>
+ <relation id="2148192" visible="true" version="60" changeset="174119320" timestamp="2025-11-02T19:49:58Z" user="quincylvania" uid="4515353">
+  <member type="way" ref="160568685" role="main_stream"/>
+  <member type="way" ref="980728805" role="main_stream"/>
+  <member type="way" ref="291750824" role="main_stream"/>
+  <member type="way" ref="919309545" role="main_stream"/>
+  <member type="way" ref="919309540" role="main_stream"/>
+  <member type="way" ref="160568661" role="main_stream"/>
+  <member type="way" ref="1231423172" role="main_stream"/>
+  <member type="way" ref="1231423180" role="main_stream"/>
+  <member type="way" ref="1231423179" role="main_stream"/>
+  <member type="way" ref="1231423178" role="main_stream"/>
+  <member type="way" ref="1231423183" role="main_stream"/>
+  <member type="way" ref="1231423184" role="main_stream"/>
+  <member type="way" ref="1231423177" role="main_stream"/>
+  <member type="way" ref="1088952244" role="main_stream"/>
+  <member type="way" ref="1088952243" role="main_stream"/>
+  <member type="way" ref="1231423176" role="main_stream"/>
+  <member type="way" ref="1231565714" role="main_stream"/>
+  <member type="way" ref="1231565715" role="main_stream"/>
+  <member type="way" ref="1231565700" role="main_stream"/>
+  <member type="way" ref="1231565701" role="main_stream"/>
+  <member type="way" ref="1231565702" role="main_stream"/>
+  <member type="way" ref="1231565703" role="main_stream"/>
+  <member type="way" ref="1231565704" role="main_stream"/>
+  <member type="way" ref="1231565705" role="main_stream"/>
+  <member type="way" ref="1231565708" role="main_stream"/>
+  <member type="way" ref="1231565709" role="main_stream"/>
+  <member type="way" ref="1231565706" role="main_stream"/>
+  <member type="way" ref="1231565707" role="main_stream"/>
+  <member type="way" ref="1231565710" role="main_stream"/>
+  <member type="way" ref="1231565711" role="main_stream"/>
+  <member type="way" ref="1231565712" role="main_stream"/>
+  <member type="way" ref="1231565713" role="main_stream"/>
+  <member type="way" ref="137720814" role="main_stream"/>
+  <member type="way" ref="1231565699" role="main_stream"/>
+  <member type="way" ref="55497239" role="main_stream"/>
+  <member type="way" ref="39632807" role="main_stream"/>
+  <member type="way" ref="160568695" role="main_stream"/>
+  <member type="way" ref="1271487467" role="main_stream"/>
+  <member type="way" ref="1231580252" role="main_stream"/>
+  <member type="way" ref="319523098" role="main_stream"/>
+  <member type="way" ref="319523099" role="main_stream"/>
+  <member type="way" ref="319523100" role="main_stream"/>
+  <member type="way" ref="1231575331" role="main_stream"/>
+  <member type="way" ref="1231575334" role="main_stream"/>
+  <member type="way" ref="1231575333" role="main_stream"/>
+  <member type="way" ref="1231575332" role="main_stream"/>
+  <member type="way" ref="32784822" role="main_stream"/>
+  <member type="way" ref="1286707429" role="main_stream"/>
+  <member type="way" ref="1286707428" role="main_stream"/>
+  <member type="way" ref="319525010" role="main_stream"/>
+  <member type="way" ref="1231572335" role="side_stream"/>
+  <member type="way" ref="1231423182" role="side_stream"/>
+  <member type="way" ref="319525012" role="main_stream"/>
+  <member type="way" ref="1231572332" role="main_stream"/>
+  <member type="way" ref="233472965" role="main_stream"/>
+  <member type="way" ref="319525016" role="main_stream"/>
+  <member type="way" ref="1248838329" role="main_stream"/>
+  <member type="way" ref="1248838330" role="main_stream"/>
+  <member type="way" ref="319525017" role="main_stream"/>
+  <member type="way" ref="1382837474" role="main_stream"/>
+  <member type="way" ref="1248838328" role="main_stream"/>
+  <member type="way" ref="319525022" role="main_stream"/>
+  <member type="way" ref="1382837487" role="main_stream"/>
+  <member type="way" ref="1382837486" role="main_stream"/>
+  <member type="way" ref="1382837485" role="main_stream"/>
+  <member type="way" ref="1248838325" role="main_stream"/>
+  <member type="way" ref="319525021" role="main_stream"/>
+  <member type="way" ref="319525025" role="main_stream"/>
+  <member type="way" ref="164250680" role="main_stream"/>
+  <member type="way" ref="319526523" role="main_stream"/>
+  <member type="way" ref="1284687757" role="main_stream"/>
+  <member type="way" ref="164250682" role="main_stream"/>
+  <member type="way" ref="164250703" role="main_stream"/>
+  <member type="way" ref="164250702" role="main_stream"/>
+  <member type="way" ref="319527506" role="main_stream"/>
+  <member type="way" ref="164250693" role="main_stream"/>
+  <member type="way" ref="319527507" role="main_stream"/>
+  <member type="way" ref="319527508" role="main_stream"/>
+  <member type="way" ref="319527580" role="main_stream"/>
+  <member type="way" ref="319532786" role="main_stream"/>
+  <member type="way" ref="319532787" role="main_stream"/>
+  <member type="way" ref="164250700" role="main_stream"/>
+  <member type="way" ref="319532788" role="main_stream"/>
+  <member type="way" ref="1284683917" role="main_stream"/>
+  <member type="way" ref="1284683918" role="main_stream"/>
+  <member type="way" ref="319532789" role="main_stream"/>
+  <member type="way" ref="164250685" role="main_stream"/>
+  <member type="way" ref="319532797" role="main_stream"/>
+  <member type="way" ref="1284682585" role="main_stream"/>
+  <member type="way" ref="1046995272" role="main_stream"/>
+  <member type="way" ref="319532807" role="main_stream"/>
+  <member type="way" ref="319532806" role="main_stream"/>
+  <member type="way" ref="1284680751" role="side_stream"/>
+  <member type="way" ref="319532800" role="main_stream"/>
+  <member type="way" ref="1284680743" role="side_stream"/>
+  <member type="way" ref="1231580262" role="side_stream"/>
+  <member type="way" ref="1248838326" role="side_stream"/>
+  <member type="way" ref="1248858656" role="side_stream"/>
+  <member type="way" ref="164250587" role="side_stream"/>
+  <member type="way" ref="1267299433" role="side_stream"/>
+  <member type="way" ref="1280382159" role="side_stream"/>
+  <member type="way" ref="1280382162" role="side_stream"/>
+  <member type="way" ref="1280382163" role="side_stream"/>
+  <member type="way" ref="319532808" role="main_stream"/>
+  <member type="way" ref="1284680739" role="side_stream"/>
+  <member type="way" ref="1284680737" role="side_stream"/>
+  <member type="way" ref="1284680741" role="side_stream"/>
+  <member type="way" ref="1284680740" role="side_stream"/>
+  <member type="way" ref="1284680738" role="side_stream"/>
+  <member type="way" ref="319532810" role="main_stream"/>
+  <member type="way" ref="164250692" role="main_stream"/>
+  <member type="way" ref="319532812" role="main_stream"/>
+  <member type="way" ref="319532813" role="main_stream"/>
+  <member type="way" ref="319533454" role="main_stream"/>
+  <member type="way" ref="1216158190" role="main_stream"/>
+  <member type="way" ref="164250699" role="main_stream"/>
+  <member type="way" ref="1424599070" role="main_stream"/>
+  <member type="way" ref="1248858662" role="main_stream"/>
+  <member type="way" ref="1248858657" role="main_stream"/>
+  <member type="way" ref="160568672" role="main_stream"/>
+  <member type="way" ref="459202667" role="main_stream"/>
+  <member type="way" ref="239904048" role="main_stream"/>
+  <member type="way" ref="239912536" role="main_stream"/>
+  <member type="way" ref="37810294" role="main_stream"/>
+  <member type="way" ref="37810322" role="main_stream"/>
+  <member type="way" ref="37788881" role="main_stream"/>
+  <member type="way" ref="37788613" role="main_stream"/>
+  <member type="way" ref="459202666" role="main_stream"/>
+  <member type="way" ref="1446968859" role="main_stream"/>
+  <member type="way" ref="1284680742" role="main_stream"/>
+  <member type="way" ref="1284680734" role="main_stream"/>
+  <member type="way" ref="1284680735" role="main_stream"/>
+  <member type="way" ref="1284682582" role="side_stream"/>
+  <member type="way" ref="1284682586" role="side_stream"/>
+  <member type="way" ref="1284682584" role="side_stream"/>
+  <member type="way" ref="1284682583" role="side_stream"/>
+  <member type="way" ref="1284685279" role="side_stream"/>
+  <member type="way" ref="94580863" role="side_stream"/>
+  <member type="way" ref="1382837473" role="side_stream"/>
+  <member type="way" ref="1382837484" role="side_stream"/>
+  <member type="way" ref="987005581" role="side_stream"/>
+  <member type="way" ref="1382837483" role="side_stream"/>
+  <member type="way" ref="1421771152" role="side_stream"/>
+  <member type="way" ref="1421771153" role="side_stream"/>
+  <member type="way" ref="1421771155" role="side_stream"/>
+  <member type="way" ref="1421771154" role="side_stream"/>
+  <member type="way" ref="1421771156" role="side_stream"/>
+  <member type="way" ref="1421771157" role="side_stream"/>
+  <member type="node" ref="3999369123" role="mouth"/>
+  <tag k="destination" v="New York Bay"/>
+  <tag k="distance" v="507"/>
+  <tag k="name" v="Hudson River"/>
+  <tag k="name:en" v="Hudson River"/>
+  <tag k="name:iro" v="Muh-he-kun-ne-tuk"/>
+  <tag k="name:unm" v="Muhheakantuck"/>
+  <tag k="type" v="waterway"/>
+  <tag k="waterway" v="river"/>
+  <tag k="wikidata" v="Q3140"/>
+  <tag k="wikipedia" v="en:Hudson River"/>
+ </relation>
+ <relation id="2389611" visible="true" version="48" changeset="187607740" timestamp="2026-08-17T20:07:36Z" user="kguenther24" uid="11697944">
+  <member type="way" ref="207411156" role="outer"/>
+  <member type="way" ref="539100353" role="outer"/>
+  <member type="way" ref="724381700" role="outer"/>
+  <member type="way" ref="830193965" role="outer"/>
+  <member type="way" ref="464354735" role="outer"/>
+  <member type="way" ref="781952225" role="outer"/>
+  <member type="way" ref="179053993" role="outer"/>
+  <member type="way" ref="1524789682" role="outer"/>
+  <member type="way" ref="1524790592" role="outer"/>
+  <member type="way" ref="1524790590" role="outer"/>
+  <member type="way" ref="1524789684" role="outer"/>
+  <member type="way" ref="1524789686" role="outer"/>
+  <member type="way" ref="1524789687" role="outer"/>
+  <member type="way" ref="179053998" role="outer"/>
+  <member type="way" ref="1525221465" role="outer"/>
+  <member type="way" ref="1525861697" role="outer"/>
+  <member type="way" ref="1525221466" role="outer"/>
+  <member type="way" ref="1525221469" role="outer"/>
+  <member type="way" ref="1525861702" role="outer"/>
+  <member type="way" ref="1525861696" role="outer"/>
+  <member type="way" ref="1525221467" role="outer"/>
+  <member type="way" ref="1524925343" role="outer"/>
+  <member type="way" ref="1525221473" role="outer"/>
+  <member type="way" ref="1525221471" role="outer"/>
+  <member type="way" ref="1525861708" role="outer"/>
+  <member type="way" ref="1525221475" role="outer"/>
+  <member type="way" ref="1525221476" role="outer"/>
+  <member type="way" ref="1525861709" role="outer"/>
+  <member type="way" ref="1524925341" role="outer"/>
+  <member type="way" ref="1524788798" role="outer"/>
+  <member type="way" ref="1525235209" role="outer"/>
+  <member type="way" ref="1525235212" role="outer"/>
+  <member type="way" ref="1525235214" role="outer"/>
+  <member type="way" ref="1525235221" role="outer"/>
+  <member type="way" ref="1525235223" role="outer"/>
+  <member type="way" ref="1525235207" role="outer"/>
+  <member type="way" ref="1525235219" role="outer"/>
+  <member type="way" ref="1525000215" role="outer"/>
+  <member type="way" ref="1525000213" role="outer"/>
+  <member type="way" ref="1524903603" role="outer"/>
+  <member type="way" ref="463545995" role="outer"/>
+  <member type="way" ref="1524782389" role="outer"/>
+  <member type="way" ref="1524782390" role="outer"/>
+  <member type="way" ref="1524997411" role="outer"/>
+  <member type="way" ref="1524997412" role="outer"/>
+  <member type="way" ref="1524997410" role="outer"/>
+  <member type="way" ref="1524912806" role="outer"/>
+  <member type="way" ref="1524912809" role="outer"/>
+  <member type="way" ref="1525861488" role="outer"/>
+  <member type="way" ref="1524912803" role="outer"/>
+  <member type="way" ref="1524619577" role="outer"/>
+  <member type="way" ref="1524619578" role="outer"/>
+  <member type="way" ref="1234203919" role="outer"/>
+  <member type="way" ref="1524619575" role="outer"/>
+  <member type="way" ref="1524782386" role="outer"/>
+  <member type="way" ref="1524903602" role="outer"/>
+  <member type="way" ref="1524782387" role="outer"/>
+  <member type="way" ref="891757872" role="outer"/>
+  <member type="way" ref="1524782380" role="outer"/>
+  <member type="way" ref="1524782378" role="outer"/>
+  <member type="way" ref="179058314" role="outer"/>
+  <member type="way" ref="833335529" role="inner"/>
+  <tag k="intermittent" v="no"/>
+  <tag k="natural" v="water"/>
+  <tag k="tidal" v="yes"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="water" v="river"/>
+ </relation>
+ <relation id="2389632" visible="true" version="54" changeset="183405734" timestamp="2026-05-30T15:28:57Z" user="quincylvania" uid="4515353">
+  <member type="way" ref="354559627" role="inner"/>
+  <member type="way" ref="354558760" role="inner"/>
+  <member type="way" ref="1447050195" role="outer"/>
+  <member type="way" ref="113082101" role="outer"/>
+  <member type="way" ref="605476553" role="outer"/>
+  <member type="way" ref="509943582" role="outer"/>
+  <member type="way" ref="4820652" role="outer"/>
+  <member type="way" ref="702879087" role="outer"/>
+  <member type="way" ref="702879085" role="outer"/>
+  <member type="way" ref="179058316" role="outer"/>
+  <member type="way" ref="1524619579" role="outer"/>
+  <member type="way" ref="179058314" role="outer"/>
+  <member type="way" ref="1115589315" role="outer"/>
+  <member type="way" ref="179060407" role="outer"/>
+  <member type="way" ref="1115589309" role="outer"/>
+  <member type="way" ref="1115589318" role="outer"/>
+  <member type="way" ref="22701360" role="outer"/>
+  <member type="way" ref="1088189750" role="outer"/>
+  <member type="way" ref="1088189753" role="outer"/>
+  <member type="way" ref="1088189762" role="outer"/>
+  <member type="way" ref="1088189763" role="outer"/>
+  <member type="way" ref="1088189767" role="outer"/>
+  <member type="way" ref="1088189768" role="outer"/>
+  <member type="way" ref="1088189770" role="outer"/>
+  <member type="way" ref="1088189733" role="outer"/>
+  <member type="way" ref="1088189771" role="outer"/>
+  <member type="way" ref="1088189736" role="outer"/>
+  <member type="way" ref="992661248" role="outer"/>
+  <member type="way" ref="1088189746" role="outer"/>
+  <member type="way" ref="1088189743" role="outer"/>
+  <member type="way" ref="1088189744" role="outer"/>
+  <member type="way" ref="1088189740" role="outer"/>
+  <member type="way" ref="1088189741" role="outer"/>
+  <member type="way" ref="1088189739" role="outer"/>
+  <member type="way" ref="1088196397" role="outer"/>
+  <member type="way" ref="1088196398" role="outer"/>
+  <member type="way" ref="1088220471" role="outer"/>
+  <member type="way" ref="1088196394" role="outer"/>
+  <member type="way" ref="1088220475" role="outer"/>
+  <member type="way" ref="1088220470" role="outer"/>
+  <member type="way" ref="1088220467" role="outer"/>
+  <member type="way" ref="1088220468" role="outer"/>
+  <member type="way" ref="1088220698" role="outer"/>
+  <member type="way" ref="1088220699" role="outer"/>
+  <member type="way" ref="1088220700" role="outer"/>
+  <member type="way" ref="692654571" role="outer"/>
+  <member type="way" ref="538979062" role="outer"/>
+  <member type="way" ref="702879081" role="outer"/>
+  <member type="way" ref="702879083" role="outer"/>
+  <member type="way" ref="35822177" role="outer"/>
+  <member type="way" ref="35822266" role="outer"/>
+  <member type="way" ref="1447050194" role="outer"/>
+  <member type="way" ref="246091496" role="inner"/>
+  <member type="way" ref="259895471" role="inner"/>
+  <member type="way" ref="27459262" role="inner"/>
+  <member type="way" ref="4820654" role="inner"/>
+  <member type="way" ref="704222894" role="inner"/>
+  <member type="way" ref="704222895" role="inner"/>
+  <member type="way" ref="704222896" role="inner"/>
+  <member type="way" ref="1447050193" role="outer"/>
+  <tag k="gnis:feature_id" v="881377"/>
+  <tag k="name" v="Upper New York Bay"/>
+  <tag k="name:en" v="Upper New York Bay"/>
+  <tag k="name:es" v="Bahía de Nueva York Alto"/>
+  <tag k="name:ru" v="бухта Аппер-Нью-Йорк-Бей"/>
+  <tag k="natural" v="bay"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="water" v="river"/>
+  <tag k="wikidata" v="Q1064776"/>
+ </relation>
+ <relation id="2788570" visible="true" version="7" changeset="129965054" timestamp="2022-12-11T14:47:53Z" user="MacLondon" uid="322039">
+  <member type="node" ref="1262585259" role="stop"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="way" ref="207411163" role=""/>
+  <tag k="foot" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Hoboken NJ Transit - Pier 11 / Wall Street"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="opening_hours" v="Mo-Fr"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="HT-11"/>
+  <tag k="route" v="ferry"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2788571" visible="true" version="6" changeset="129983985" timestamp="2022-12-12T04:57:54Z" user="MacLondon" uid="322039">
+  <member type="node" ref="1262585259" role="stop"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="way" ref="718436922" role=""/>
+  <tag k="foot" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Hoboken NJ Transit – Brookfield Place"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="HT-BPC"/>
+  <tag k="route" v="ferry"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2788572" visible="true" version="6" changeset="129965121" timestamp="2022-12-11T14:49:53Z" user="MacLondon" uid="322039">
+  <member type="node" ref="3601383031" role="stop"/>
+  <member type="node" ref="2892409681" role="stop"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="way" ref="207411168" role=""/>
+  <member type="way" ref="285585246" role=""/>
+  <tag k="foot" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Liberty Harbor / Marin Blvd - Paulus Hook - Pier 11/Wall Street"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="MB-PH-11"/>
+  <tag k="route" v="ferry"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.nywaterway.com/LbryHarMarin-Pier11WallStRoute.aspx"/>
+ </relation>
+ <relation id="2788576" visible="true" version="9" changeset="129864324" timestamp="2022-12-08T14:53:52Z" user="MacLondon" uid="322039">
+  <member type="node" ref="2892409681" role="stop"/>
+  <member type="way" ref="285548974" role="platform"/>
+  <member type="node" ref="1262585259" role="stop"/>
+  <member type="node" ref="4695187428" role="stop"/>
+  <member type="way" ref="285554297" role=""/>
+  <member type="way" ref="578679495" role=""/>
+  <tag k="foot" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Paulus Hook - Hoboken NJ Transit - Midtown / W. 39th Street"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="opening_hours" v="Mo-Fr"/>
+  <tag k="operator" v="NY Waterway"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="PH-HT-M"/>
+  <tag k="route" v="ferry"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="http://www.nywaterway.com/PaulusHookRoute.aspx"/>
+ </relation>
+ <relation id="2788578" visible="true" version="7" changeset="129965002" timestamp="2022-12-11T14:46:33Z" user="MacLondon" uid="322039">
+  <member type="node" ref="2892409681" role="stop"/>
+  <member type="way" ref="285548974" role="platform"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="way" ref="285578513" role=""/>
+  <tag k="duration" v="00:07"/>
+  <tag k="foot" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Paulus Hook - Brookfield Place"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="operator" v="NY Waterway"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="PH-BPC"/>
+  <tag k="route" v="ferry"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2788581" visible="true" version="6" changeset="129965198" timestamp="2022-12-11T14:52:47Z" user="MacLondon" uid="322039">
+  <member type="node" ref="2404083733" role="stop"/>
+  <member type="node" ref="199276809" role="stop"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="way" ref="718436924" role=""/>
+  <member type="way" ref="452146009" role=""/>
+  <member type="way" ref="1119734897" role=""/>
+  <tag k="foot" v="yes"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Port Imperial - Hoboken 14th Street - Brookfield Place - Pier 11 / Wall Street"/>
+  <tag k="network" v="NY Waterway"/>
+  <tag k="network:wikidata" v="Q6956135"/>
+  <tag k="network:wikipedia" v="en:NY Waterway"/>
+  <tag k="opening_hours" v="Mo-Fr"/>
+  <tag k="operator" v="NY Waterway"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="PI-H14-BPC-11"/>
+  <tag k="route" v="ferry"/>
+  <tag k="type" v="route"/>
+ </relation>
+ <relation id="2788583" visible="true" version="20" changeset="129761932" timestamp="2022-12-06T01:36:44Z" user="lexande" uid="747352">
+  <member type="way" ref="27807149" role=""/>
+  <member type="way" ref="91748780" role=""/>
+  <member type="relation" ref="14975517" role=""/>
+  <member type="relation" ref="2788579" role=""/>
+  <member type="relation" ref="2788581" role=""/>
+  <member type="relation" ref="2788568" role=""/>
+  <member type="relation" ref="2788571" role=""/>
+  <member type="relation" ref="2788570" role=""/>
+  <member type="relation" ref="2788576" role=""/>
+  <member type="relation" ref="2788578" role=""/>
+  <member type="relation" ref="2788572" role=""/>
+  <tag k="name" v="NY Waterway"/>
+  <tag k="type" v="operator"/>
+ </relation>
+ <relation id="14396564" visible="true" version="5" changeset="178921616" timestamp="2026-02-23T00:23:12Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="4695187428" role="stop_entry_only"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="9053423908" role="stop"/>
+  <member type="node" ref="7075572963" role="stop"/>
+  <member type="node" ref="5538389631" role="stop"/>
+  <member type="node" ref="166878947" role="stop_exit_only"/>
+  <member type="way" ref="1082108755" role=""/>
+  <member type="way" ref="978417772" role=""/>
+  <member type="way" ref="1456975665" role=""/>
+  <member type="way" ref="1082108759" role=""/>
+  <member type="way" ref="1082108761" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#D10065"/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="01:08"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Midtown West"/>
+  <tag k="horse" v="no"/>
+  <tag k="motorcar" v="no"/>
+  <tag k="name" v="St. George"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="STG"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Pier 11"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/st-george/"/>
+  <tag k="wheelchair" v="yes"/>
+ </relation>
+ <relation id="14396565" visible="true" version="6" changeset="182603902" timestamp="2026-05-13T14:08:00Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="5470356011" role="stop_entry_only"/>
+  <member type="node" ref="5470351481" role="stop"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="node" ref="6746682104" role="stop"/>
+  <member type="node" ref="3144067349" role="stop"/>
+  <member type="node" ref="5849990392" role="stop"/>
+  <member type="node" ref="9374947233" role="stop_exit_only"/>
+  <member type="way" ref="568622821" role=""/>
+  <member type="way" ref="568622543" role=""/>
+  <member type="way" ref="894440577" role=""/>
+  <member type="way" ref="1482072445" role=""/>
+  <member type="way" ref="1482072444" role=""/>
+  <member type="way" ref="1082108756" role=""/>
+  <member type="way" ref="1513061614" role=""/>
+  <member type="way" ref="1513061613" role=""/>
+  <member type="way" ref="1513061610" role=""/>
+  <member type="way" ref="1513061611" role=""/>
+  <member type="way" ref="932035360" role=""/>
+  <member type="way" ref="618999128" role=""/>
+  <member type="way" ref="1016437416" role=""/>
+  <member type="node" ref="1437051378" role="stop"/>
+  <tag k="bicycle" v="dismount"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#4C078C"/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="02:03"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Rockaway"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Rockaway-Soundview"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="RWS"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Ferry Point Park"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/rockaway-soundview/"/>
+ </relation>
+ <relation id="14396566" visible="true" version="7" changeset="178922076" timestamp="2026-02-23T00:53:48Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="3351139473" role="stop_entry_only"/>
+  <member type="node" ref="5523008816" role="stop"/>
+  <member type="node" ref="5538389631" role="stop"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="node" ref="8313261673" role="stop"/>
+  <member type="node" ref="1437051378" role="stop_exit_only"/>
+  <member type="way" ref="961990669" role=""/>
+  <member type="way" ref="1082108760" role=""/>
+  <member type="way" ref="1082108761" role=""/>
+  <member type="way" ref="1082108757" role=""/>
+  <member type="way" ref="1482075441" role=""/>
+  <member type="way" ref="1482075442" role=""/>
+  <member type="way" ref="1456975664" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#FAB83B"/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="00:39"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Governors Island"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="South Brooklyn"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="SBK"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="East 34th Street"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://ferry.nyc/routes-and-schedules/route/south-brooklyn/"/>
+ </relation>
+ <relation id="14396567" visible="true" version="9" changeset="188094054" timestamp="2026-08-27T12:33:32Z" user="hillanit" uid="11201682">
+  <member type="node" ref="166878947" role="stop_entry_only"/>
+  <member type="node" ref="1437051166" role="stop"/>
+  <member type="node" ref="1437051216" role="stop"/>
+  <member type="node" ref="1437051266" role="stop"/>
+  <member type="node" ref="1437051302" role="stop"/>
+  <member type="node" ref="1437051359" role="stop"/>
+  <member type="node" ref="1437051378" role="stop_exit_only"/>
+  <member type="way" ref="1082108758" role=""/>
+  <member type="way" ref="1082168059" role=""/>
+  <member type="way" ref="1082168060" role=""/>
+  <member type="way" ref="328294125" role=""/>
+  <member type="way" ref="1456980628" role=""/>
+  <member type="way" ref="1082168061" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#027992"/>
+  <tag k="description" v="This is the &quot;local route&quot; combined service pattern, operating on weekends and other off-peak times"/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="00:53"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Pier 11"/>
+  <tag k="hgv" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="East River Local"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="ER"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="East 34th Street"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/east-river/"/>
+ </relation>
+ <relation id="14397507" visible="true" version="10" changeset="191346052" timestamp="2026-11-02T02:46:22Z" user="ZLima12" uid="11026102">
+  <member type="node" ref="166878947" role="stop_entry_only"/>
+  <member type="node" ref="1437051378" role="stop"/>
+  <member type="node" ref="5648096858" role="stop"/>
+  <member type="node" ref="5067030107" role="stop"/>
+  <member type="node" ref="5067279983" role="stop"/>
+  <member type="node" ref="3144067349" role="stop_exit_only"/>
+  <member type="way" ref="1082168062" role=""/>
+  <member type="way" ref="1082168063" role=""/>
+  <member type="way" ref="1513061616" role=""/>
+  <member type="way" ref="1513061617" role=""/>
+  <member type="way" ref="1513061620" role=""/>
+  <member type="way" ref="1513061621" role=""/>
+  <member type="way" ref="1082168064" role=""/>
+  <member type="way" ref="1481634301" role=""/>
+  <member type="way" ref="1481634302" role=""/>
+  <member type="way" ref="1082168065" role=""/>
+  <member type="way" ref="1481634306" role=""/>
+  <member type="way" ref="1481634305" role=""/>
+  <member type="way" ref="741751513" role=""/>
+  <member type="way" ref="1082168066" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="colour" v="#FE4A01"/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="00:54"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Pier 11"/>
+  <tag k="hgv" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Astoria"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="AST"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="East 90th Street"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/astoria/"/>
+ </relation>
+ <relation id="14975616" visible="true" version="6" changeset="174395377" timestamp="2025-11-08T21:34:03Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="2176641914" role="stop_entry_only"/>
+  <member type="node" ref="13288041723" role="stop"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="2892409681" role="stop"/>
+  <member type="node" ref="4695187428" role="stop_exit_only"/>
+  <member type="way" ref="207411167" role=""/>
+  <member type="way" ref="1448293181" role=""/>
+  <member type="way" ref="1448500557" role=""/>
+  <member type="way" ref="1448500558" role=""/>
+  <tag k="check_date" v="2025-11-08"/>
+  <tag k="duration" v="01:15"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Belford"/>
+  <tag k="horse" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="network" v="Seastreak"/>
+  <tag k="operator" v="Seastreak"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="West 39th Street"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="Battery Maritime Building;Brookfield Place;Paulus Hook"/>
+  <tag k="website" v="https://seastreak.com/ferry-routes-and-schedules/between-new-jersey-and-new-york-city/"/>
+ </relation>
+ <relation id="16470342" visible="true" version="11" changeset="153994766" timestamp="2024-07-16T02:20:10Z" user="Adam Franco" uid="27832">
+  <member type="way" ref="37788881" role=""/>
+  <member type="way" ref="37788613" role=""/>
+  <member type="way" ref="459202666" role=""/>
+  <member type="way" ref="1215466816" role=""/>
+  <member type="way" ref="1215466817" role=""/>
+  <member type="way" ref="164250582" role=""/>
+  <member type="way" ref="1301650928" role=""/>
+  <member type="way" ref="164250583" role=""/>
+  <member type="way" ref="49151572" role=""/>
+  <member type="way" ref="1301650927" role=""/>
+  <member type="way" ref="164250577" role=""/>
+  <member type="way" ref="1301650926" role=""/>
+  <member type="way" ref="164250584" role=""/>
+  <member type="way" ref="49151575" role=""/>
+  <member type="way" ref="1301650925" role=""/>
+  <member type="way" ref="164250576" role=""/>
+  <member type="way" ref="1219087266" role=""/>
+  <member type="way" ref="164250572" role=""/>
+  <member type="way" ref="164250579" role=""/>
+  <member type="way" ref="164250591" role=""/>
+  <member type="way" ref="164250573" role=""/>
+  <member type="way" ref="164250588" role=""/>
+  <member type="way" ref="164250680" role=""/>
+  <member type="way" ref="319526523" role=""/>
+  <member type="way" ref="164250571" role=""/>
+  <member type="way" ref="164250581" role=""/>
+  <member type="way" ref="164250585" role=""/>
+  <member type="way" ref="164250703" role=""/>
+  <member type="way" ref="49151569" role=""/>
+  <member type="way" ref="97559800" role=""/>
+  <member type="way" ref="164250574" role=""/>
+  <member type="way" ref="164250580" role=""/>
+  <member type="way" ref="164250693" role=""/>
+  <member type="way" ref="319527507" role=""/>
+  <member type="way" ref="319527508" role=""/>
+  <member type="way" ref="319527580" role=""/>
+  <member type="way" ref="319532786" role=""/>
+  <member type="way" ref="319532787" role=""/>
+  <member type="way" ref="164250700" role=""/>
+  <member type="way" ref="164250589" role=""/>
+  <member type="way" ref="164250578" role=""/>
+  <member type="way" ref="1267299434" role=""/>
+  <member type="way" ref="1298535314" role=""/>
+  <member type="way" ref="164250587" role=""/>
+  <member type="way" ref="164250685" role=""/>
+  <member type="way" ref="164250687" role=""/>
+  <member type="way" ref="319532799" role=""/>
+  <member type="way" ref="319532798" role=""/>
+  <member type="way" ref="319532807" role=""/>
+  <member type="way" ref="319532806" role=""/>
+  <member type="way" ref="319532800" role=""/>
+  <member type="way" ref="319532808" role=""/>
+  <member type="way" ref="1284680736" role=""/>
+  <member type="way" ref="164250686" role=""/>
+  <member type="way" ref="164250676" role=""/>
+  <member type="way" ref="319532810" role=""/>
+  <member type="way" ref="164250586" role=""/>
+  <member type="way" ref="164250575" role=""/>
+  <member type="way" ref="164250590" role=""/>
+  <member type="way" ref="319532813" role=""/>
+  <member type="way" ref="319533454" role=""/>
+  <member type="way" ref="1216158190" role=""/>
+  <member type="way" ref="164250699" role=""/>
+  <member type="way" ref="1248858659" role=""/>
+  <member type="way" ref="164030708" role=""/>
+  <member type="way" ref="1248858658" role=""/>
+  <member type="way" ref="160568672" role=""/>
+  <member type="way" ref="459202667" role=""/>
+  <member type="way" ref="239904048" role=""/>
+  <member type="way" ref="239912536" role=""/>
+  <member type="way" ref="37810294" role=""/>
+  <member type="way" ref="37810322" role=""/>
+  <tag k="description" v="For lock access, radio Marine Channel 13 or call phone number listed at https://www.canals.ny.gov/wwwapps/boating/locks.aspx. Avoid the ship channel when possible. Stay alert for rough and changing conditions. Sea kayak recommended on tidal Hudson."/>
+  <tag k="name" v="Hudson River Greenway Water Trail"/>
+  <tag k="network" v="npn"/>
+  <tag k="ref" v="HRGWT"/>
+  <tag k="route" v="canoe"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://hudsonrivergreenwaywatertrail.org"/>
+  <tag k="wikidata" v="Q66049272"/>
+ </relation>
+ <relation id="16504666" visible="true" version="5" changeset="188541881" timestamp="2026-09-04T19:26:07Z" user="Flap Slimy Outward" uid="22417964">
+  <member type="relation" ref="16481525" role=""/>
+  <member type="relation" ref="16470342" role=""/>
+  <member type="relation" ref="16505004" role=""/>
+  <member type="relation" ref="16505125" role=""/>
+  <member type="relation" ref="16505089" role=""/>
+  <member type="relation" ref="16505119" role=""/>
+  <member type="relation" ref="16505086" role=""/>
+  <member type="relation" ref="16924039" role=""/>
+  <tag k="name" v="Empire State Water Trail"/>
+  <tag k="network" v="npn"/>
+  <tag k="route" v="canoe"/>
+  <tag k="type" v="superroute"/>
+  <tag k="website" v="https://www.empirestatewatertrail.org/"/>
+  <tag k="wikidata" v="Q123089475"/>
+ </relation>
+ <relation id="16924039" visible="true" version="6" changeset="174251855" timestamp="2025-11-05T17:38:46Z" user="quincylvania" uid="4515353">
+  <member type="way" ref="394173648" role=""/>
+  <member type="way" ref="702873055" role=""/>
+  <member type="way" ref="702873056" role=""/>
+  <member type="way" ref="1447760063" role=""/>
+  <member type="way" ref="1447760064" role=""/>
+  <member type="way" ref="605476565" role=""/>
+  <member type="way" ref="1447760066" role=""/>
+  <member type="way" ref="1447760065" role=""/>
+  <member type="way" ref="1447760068" role=""/>
+  <member type="way" ref="1447760069" role=""/>
+  <member type="way" ref="1447760073" role=""/>
+  <member type="way" ref="1447760076" role=""/>
+  <member type="way" ref="1447760077" role=""/>
+  <member type="way" ref="1447760078" role=""/>
+  <member type="way" ref="1447760087" role=""/>
+  <member type="way" ref="1447760088" role=""/>
+  <member type="way" ref="1447760106" role=""/>
+  <member type="way" ref="1447760107" role=""/>
+  <member type="way" ref="1447760102" role=""/>
+  <member type="way" ref="1447760103" role=""/>
+  <member type="way" ref="1447760091" role=""/>
+  <member type="way" ref="1447760092" role=""/>
+  <member type="way" ref="1447760093" role=""/>
+  <member type="way" ref="1447760094" role=""/>
+  <member type="way" ref="1447760095" role=""/>
+  <member type="way" ref="1447760096" role=""/>
+  <member type="way" ref="393871978" role=""/>
+  <member type="way" ref="1447760101" role=""/>
+  <member type="way" ref="1447760098" role=""/>
+  <member type="way" ref="1447760079" role=""/>
+  <member type="way" ref="1447760080" role=""/>
+  <member type="way" ref="1447760061" role=""/>
+  <member type="way" ref="1447760058" role=""/>
+  <member type="way" ref="1447760082" role=""/>
+  <member type="way" ref="1447760081" role=""/>
+  <member type="way" ref="1447760083" role=""/>
+  <member type="way" ref="605476567" role=""/>
+  <member type="way" ref="459202666" role=""/>
+  <member type="way" ref="1446968859" role=""/>
+  <member type="way" ref="1447760067" role=""/>
+  <member type="way" ref="1447760071" role=""/>
+  <member type="way" ref="1447760070" role=""/>
+  <member type="way" ref="702873057" role=""/>
+  <member type="way" ref="1236438203" role=""/>
+  <member type="way" ref="394173649" role=""/>
+  <member type="way" ref="394173650" role=""/>
+  <member type="way" ref="999755798" role=""/>
+  <member type="way" ref="1447760072" role=""/>
+  <member type="way" ref="1447760075" role=""/>
+  <member type="way" ref="1447760074" role=""/>
+  <member type="way" ref="1447760084" role=""/>
+  <member type="way" ref="1447760086" role=""/>
+  <member type="way" ref="1447760085" role=""/>
+  <member type="way" ref="1447760099" role=""/>
+  <member type="way" ref="1447760100" role=""/>
+  <member type="way" ref="1447760097" role=""/>
+  <member type="way" ref="1447760090" role=""/>
+  <member type="way" ref="1447760105" role=""/>
+  <member type="way" ref="1447760104" role=""/>
+  <member type="way" ref="1447760089" role=""/>
+  <member type="way" ref="1447760109" role=""/>
+  <member type="way" ref="1447760108" role=""/>
+  <member type="way" ref="1447761956" role=""/>
+  <member type="way" ref="1447761958" role=""/>
+  <member type="way" ref="1447761957" role=""/>
+  <tag k="alt_name" v="NYC Water Trail"/>
+  <tag k="name" v="New York City Water Trail"/>
+  <tag k="route" v="canoe"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://nycwatertrail.org"/>
+ </relation>
+ <relation id="19807577" visible="true" version="2" changeset="174395969" timestamp="2025-11-08T21:53:44Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="2176641914" role="stop_entry_only"/>
+  <member type="node" ref="13288041723" role="stop"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="2892409681" role="stop_exit_only"/>
+  <member type="way" ref="207411167" role=""/>
+  <member type="way" ref="1448293181" role=""/>
+  <member type="way" ref="1448500557" role=""/>
+  <tag k="check_date" v="2025-11-08"/>
+  <tag k="duration" v="01:15"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Belford"/>
+  <tag k="network" v="Seastreak"/>
+  <tag k="operator" v="Seastreak"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="Paulus Hook"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="Battery Maritime Building;Brookfield Place"/>
+ </relation>
+ <relation id="19807578" visible="true" version="2" changeset="174395969" timestamp="2025-11-08T21:53:44Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="2176641914" role="stop_entry_only"/>
+  <member type="node" ref="13288041723" role="stop"/>
+  <member type="node" ref="6746710797" role="stop_exit_only"/>
+  <member type="way" ref="207411167" role=""/>
+  <member type="way" ref="1448293181" role=""/>
+  <tag k="check_date" v="2025-11-08"/>
+  <tag k="duration" v="00:45"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Belford"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="network" v="Seastreak"/>
+  <tag k="operator" v="Seastreak"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="Brookfield Place"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="Battery Maritime Building"/>
+ </relation>
+ <relation id="19807685" visible="true" version="1" changeset="174395969" timestamp="2025-11-08T21:53:44Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="4695187428" role="stop_entry_only"/>
+  <member type="node" ref="2892409681" role="stop"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="13288041723" role="stop"/>
+  <member type="node" ref="2176641914" role="stop_exit_only"/>
+  <member type="way" ref="1448500558" role=""/>
+  <member type="way" ref="1448500557" role=""/>
+  <member type="way" ref="1448293181" role=""/>
+  <member type="way" ref="207411167" role=""/>
+  <tag k="check_date" v="2025-11-08"/>
+  <tag k="duration" v="01:20"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="West 39th Street"/>
+  <tag k="horse" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="network" v="Seastreak"/>
+  <tag k="operator" v="Seastreak"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="Belford"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="Paulus Hook;Brookfield Place;Battery Maritime Building"/>
+  <tag k="website" v="https://seastreak.com/ferry-routes-and-schedules/between-new-jersey-and-new-york-city/"/>
+ </relation>
+ <relation id="19807688" visible="true" version="1" changeset="174395969" timestamp="2025-11-08T21:53:44Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="6746710797" role="stop_entry_only"/>
+  <member type="node" ref="13288041723" role="stop"/>
+  <member type="node" ref="2176641914" role="stop_exit_only"/>
+  <member type="way" ref="1448293181" role=""/>
+  <member type="way" ref="207411167" role=""/>
+  <tag k="check_date" v="2025-11-08"/>
+  <tag k="duration" v="00:55"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Brookfield Place"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="network" v="Seastreak"/>
+  <tag k="operator" v="Seastreak"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="Belford"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="Battery Maritime Building"/>
+ </relation>
+ <relation id="19807689" visible="true" version="1" changeset="174395969" timestamp="2025-11-08T21:53:44Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="2892409681" role="stop_entry_only"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="13288041723" role="stop"/>
+  <member type="node" ref="2176641914" role="stop_exit_only"/>
+  <member type="way" ref="1448500557" role=""/>
+  <member type="way" ref="1448293181" role=""/>
+  <member type="way" ref="207411167" role=""/>
+  <tag k="check_date" v="2025-11-08"/>
+  <tag k="duration" v="01:15"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Paulus Hook"/>
+  <tag k="network" v="Seastreak"/>
+  <tag k="operator" v="Seastreak"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="Belford"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="via" v="Brookfield Place;Battery Maritime Building"/>
+ </relation>
+ <relation id="19935138" visible="true" version="4" changeset="188094054" timestamp="2026-08-27T12:33:25Z" user="hillanit" uid="11201682">
+  <member type="node" ref="166878947" role="stop_entry_only"/>
+  <member type="node" ref="1437051166" role="stop"/>
+  <member type="node" ref="1437051266" role="stop"/>
+  <member type="node" ref="1437051359" role="stop"/>
+  <member type="node" ref="1437051378" role="stop_exit_only"/>
+  <member type="way" ref="1082108758" role=""/>
+  <member type="way" ref="1456980631" role=""/>
+  <member type="way" ref="1456980630" role=""/>
+  <member type="way" ref="1082168061" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#027992"/>
+  <tag k="description" v="This is the &quot;A&quot; service pattern, operating at peak times."/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="00:29"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Pier 11"/>
+  <tag k="hgv" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="East River A"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="ERA"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="East 34th Street"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/east-river/"/>
+ </relation>
+ <relation id="19935139" visible="true" version="4" changeset="185284421" timestamp="2026-07-07T17:49:47Z" user="Cofaidh" uid="22973217">
+  <member type="node" ref="166878947" role="stop_entry_only"/>
+  <member type="node" ref="1437051166" role="stop"/>
+  <member type="node" ref="1437051216" role="stop"/>
+  <member type="node" ref="1437051302" role="stop"/>
+  <member type="node" ref="1437051378" role="stop_exit_only"/>
+  <member type="way" ref="1082108758" role=""/>
+  <member type="way" ref="1082168059" role=""/>
+  <member type="way" ref="1456980629" role=""/>
+  <member type="way" ref="1120509028" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#027992"/>
+  <tag k="description" v="This is the &quot;B&quot; service pattern, operating at peak times."/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="00:31"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Pier 11"/>
+  <tag k="hgv" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="East River B"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="ERB"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="East 34th Street"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/east-river/"/>
+ </relation>
+ <relation id="20252284" visible="true" version="1" changeset="178921616" timestamp="2026-02-23T00:23:12Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="1437051378" role="stop_entry_only"/>
+  <member type="node" ref="1437051302" role="stop"/>
+  <member type="node" ref="1437051216" role="stop"/>
+  <member type="node" ref="1437051166" role="stop"/>
+  <member type="node" ref="166878947" role="stop_exit_only"/>
+  <member type="way" ref="1120509028" role=""/>
+  <member type="way" ref="1456980629" role=""/>
+  <member type="way" ref="1082168059" role=""/>
+  <member type="way" ref="1082108758" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#027992"/>
+  <tag k="description" v="This is the &quot;B&quot; service pattern, operating at peak times."/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="00:31"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="East 34th Street"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="East River B"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="ERB"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Pier 11"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/east-river/"/>
+ </relation>
+ <relation id="20252285" visible="true" version="2" changeset="188094054" timestamp="2026-08-27T12:33:38Z" user="hillanit" uid="11201682">
+  <member type="node" ref="1437051378" role="stop_entry_only"/>
+  <member type="node" ref="1437051359" role="stop"/>
+  <member type="node" ref="1437051266" role="stop"/>
+  <member type="node" ref="1437051166" role="stop"/>
+  <member type="node" ref="166878947" role="stop_exit_only"/>
+  <member type="way" ref="1082168061" role=""/>
+  <member type="way" ref="1456980630" role=""/>
+  <member type="way" ref="1456980631" role=""/>
+  <member type="way" ref="1082108758" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#027992"/>
+  <tag k="description" v="This is the &quot;A&quot; service pattern, operating at peak times."/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="00:29"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="East 34th Street"/>
+  <tag k="hgv" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="East River A"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="ERA"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Pier 11"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/east-river/"/>
+ </relation>
+ <relation id="20252286" visible="true" version="7" changeset="191346052" timestamp="2026-11-02T02:46:22Z" user="ZLima12" uid="11026102">
+  <member type="node" ref="3144067349" role="stop_entry_only"/>
+  <member type="node" ref="5067279983" role="stop"/>
+  <member type="node" ref="11613036562" role="stop"/>
+  <member type="node" ref="13588621315" role="stop"/>
+  <member type="node" ref="13824799757" role="stop"/>
+  <member type="node" ref="166878947" role="stop_exit_only"/>
+  <member type="way" ref="1082168066" role=""/>
+  <member type="way" ref="741751513" role=""/>
+  <member type="way" ref="1481634303" role=""/>
+  <member type="way" ref="1481634304" role=""/>
+  <member type="way" ref="1082168065" role=""/>
+  <member type="way" ref="1481634299" role=""/>
+  <member type="way" ref="1481634298" role=""/>
+  <member type="way" ref="1082168064" role=""/>
+  <member type="way" ref="1513061618" role=""/>
+  <member type="way" ref="1513061619" role=""/>
+  <member type="way" ref="1513061620" role=""/>
+  <member type="way" ref="1513061615" role=""/>
+  <member type="way" ref="1082168063" role=""/>
+  <member type="way" ref="1082168062" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="colour" v="#FE4A01"/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="00:54"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="East 90th Street"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Astoria"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="AST"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="to" v="Pier 11"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/astoria/"/>
+ </relation>
+ <relation id="20252287" visible="true" version="2" changeset="188094054" timestamp="2026-08-27T12:33:43Z" user="hillanit" uid="11201682">
+  <member type="node" ref="1437051378" role="stop_entry_only"/>
+  <member type="node" ref="1437051359" role="stop"/>
+  <member type="node" ref="1437051302" role="stop"/>
+  <member type="node" ref="1437051266" role="stop"/>
+  <member type="node" ref="1437051216" role="stop"/>
+  <member type="node" ref="1437051166" role="stop"/>
+  <member type="node" ref="166878947" role="stop_exit_only"/>
+  <member type="way" ref="1082168061" role=""/>
+  <member type="way" ref="1456980628" role=""/>
+  <member type="way" ref="328294125" role=""/>
+  <member type="way" ref="1082168060" role=""/>
+  <member type="way" ref="1082168059" role=""/>
+  <member type="way" ref="1082108758" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#027992"/>
+  <tag k="description" v="This is the &quot;local route&quot; combined service pattern, operating on weekends and other off-peak times"/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="00:53"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="East 34th Street"/>
+  <tag k="hgv" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="East River Local"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="ER"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Pier 11"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/east-river/"/>
+ </relation>
+ <relation id="20252288" visible="true" version="2" changeset="178922076" timestamp="2026-02-23T00:53:48Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="1437051378" role="stop_entry_only"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="node" ref="5538389631" role="stop"/>
+  <member type="node" ref="5523008816" role="stop"/>
+  <member type="node" ref="3351139473" role="stop_exit_only"/>
+  <member type="node" ref="13591695297" role="stop"/>
+  <member type="way" ref="1456975664" role=""/>
+  <member type="way" ref="1482075439" role=""/>
+  <member type="way" ref="1482075440" role=""/>
+  <member type="way" ref="1082108757" role=""/>
+  <member type="way" ref="1082108761" role=""/>
+  <member type="way" ref="1082108760" role=""/>
+  <member type="way" ref="961990669" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#FAB83B"/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="00:39"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="East 34th Street"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="South Brooklyn"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="SBK"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Governors Island"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://ferry.nyc/routes-and-schedules/route/south-brooklyn/"/>
+ </relation>
+ <relation id="20252289" visible="true" version="3" changeset="182603902" timestamp="2026-05-13T14:08:00Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="9374947233" role="stop_entry_only"/>
+  <member type="node" ref="5849990392" role="stop"/>
+  <member type="node" ref="3144067349" role="stop"/>
+  <member type="node" ref="166878947" role="stop"/>
+  <member type="node" ref="5470351481" role="stop"/>
+  <member type="node" ref="5470356011" role="stop_exit_only"/>
+  <member type="node" ref="13591653048" role="stop"/>
+  <member type="node" ref="13824799757" role="stop"/>
+  <member type="way" ref="1016437416" role=""/>
+  <member type="way" ref="618999128" role=""/>
+  <member type="way" ref="932035360" role=""/>
+  <member type="way" ref="1513061606" role=""/>
+  <member type="way" ref="1513061607" role=""/>
+  <member type="way" ref="1513061610" role=""/>
+  <member type="way" ref="1082108756" role=""/>
+  <member type="way" ref="1482072443" role=""/>
+  <member type="way" ref="1482072442" role=""/>
+  <member type="way" ref="894440577" role=""/>
+  <member type="way" ref="568622543" role=""/>
+  <member type="way" ref="568622821" role=""/>
+  <member type="way" ref="1513061612" role=""/>
+  <tag k="bicycle" v="dismount"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#4C078C"/>
+  <tag k="direction" v="southbound"/>
+  <tag k="duration" v="02:03"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Ferry Point Park"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Rockaway-Soundview"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="RWS"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Rockaway"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/rockaway-soundview/"/>
+ </relation>
+ <relation id="20252290" visible="true" version="1" changeset="178921616" timestamp="2026-02-23T00:23:12Z" user="quincylvania" uid="4515353">
+  <member type="node" ref="166878947" role="stop_entry_only"/>
+  <member type="node" ref="5538389631" role="stop"/>
+  <member type="node" ref="7075572963" role="stop"/>
+  <member type="node" ref="9053423908" role="stop"/>
+  <member type="node" ref="6746710797" role="stop"/>
+  <member type="node" ref="4695187428" role="stop_exit_only"/>
+  <member type="way" ref="1082108761" role=""/>
+  <member type="way" ref="1082108759" role=""/>
+  <member type="way" ref="1456975665" role=""/>
+  <member type="way" ref="978417772" role=""/>
+  <member type="way" ref="1082108755" role=""/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="check_date" v="2025-12-08"/>
+  <tag k="colour" v="#D10065"/>
+  <tag k="direction" v="northbound"/>
+  <tag k="duration" v="01:08"/>
+  <tag k="foot" v="yes"/>
+  <tag k="from" v="Pier 11"/>
+  <tag k="horse" v="no"/>
+  <tag k="motorcar" v="no"/>
+  <tag k="name" v="St. George"/>
+  <tag k="network" v="NYC Ferry"/>
+  <tag k="network:wikidata" v="Q26987418"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="operator" v="Hornblower Cruises"/>
+  <tag k="operator:wikidata" v="Q5904087"/>
+  <tag k="ref" v="STG"/>
+  <tag k="roundtrip" v="no"/>
+  <tag k="route" v="ferry"/>
+  <tag k="start_date" v="2025-12-08"/>
+  <tag k="to" v="Midtown West"/>
+  <tag k="toll" v="yes"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.ferry.nyc/routes-and-schedules/route/st-george/"/>
+  <tag k="wheelchair" v="yes"/>
+ </relation>
+</osm>

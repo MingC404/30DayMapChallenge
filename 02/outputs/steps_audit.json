@@ -1,0 +1,5579 @@
+{
+  "drawing_order": [
+    "complete light basemap",
+    "ordinary teal paths",
+    "purple dashed steps",
+    "labels"
+  ],
+  "clip": "same waterfront envelope as ordinary paths",
+  "check_image": "../.work/steps_highlight_check.png",
+  "regions": {
+    "jersey_city": [
+      {
+        "osm_id": 515932089,
+        "tags": {
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "yes",
+          "ramp:wheelchair": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0389712,
+              40.6986686
+            ],
+            [
+              -74.0390468,
+              40.6986098
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0389712,
+              40.6986686
+            ],
+            [
+              -74.0390468,
+              40.6986098
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1165434642,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "rock"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0406805,
+              40.6979673
+            ],
+            [
+              -74.0406293,
+              40.6979268
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0406805,
+              40.6979673
+            ],
+            [
+              -74.0406293,
+              40.6979268
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 515932076,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0389326,
+              40.6986633
+            ],
+            [
+              -74.0389456,
+              40.6986733
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0389326,
+              40.6986633
+            ],
+            [
+              -74.0389456,
+              40.6986733
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 515932080,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0389635,
+              40.6986872
+            ],
+            [
+              -74.0389771,
+              40.6986978
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0389635,
+              40.6986872
+            ],
+            [
+              -74.0389771,
+              40.6986978
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 515932094,
+        "tags": {
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "yes",
+          "ramp:wheelchair": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.038849,
+              40.6987652
+            ],
+            [
+              -74.0389334,
+              40.6986982
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.038849,
+              40.6987652
+            ],
+            [
+              -74.0389334,
+              40.6986982
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 232065171,
+        "tags": {
+          "foot": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Hudson River Waterfront Walkway",
+          "ramp": "no",
+          "segregated": "no",
+          "step_count": "5",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0382084,
+              40.7061808
+            ],
+            [
+              -74.0382362,
+              40.7061839
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0382084,
+              40.7061808
+            ],
+            [
+              -74.0382362,
+              40.7061839
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 632337846,
+        "tags": {
+          "bicycle": "yes",
+          "foot": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lcn": "yes",
+          "lit": "yes",
+          "name": "Hudson River Waterfront Walkway",
+          "ramp": "no",
+          "segregated": "no",
+          "step_count": "5",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0347465,
+              40.7089619
+            ],
+            [
+              -74.0347185,
+              40.7089342
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0347465,
+              40.7089619
+            ],
+            [
+              -74.0347185,
+              40.7089342
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 632337848,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "no",
+          "name": "Hudson River Waterfront Walkway",
+          "ramp": "no",
+          "step_count": "4",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0349065,
+              40.7059518
+            ],
+            [
+              -74.0349021,
+              40.7059744
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0349065,
+              40.7059518
+            ],
+            [
+              -74.0349021,
+              40.7059744
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1078303981,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "step_count": "7",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0350424,
+              40.7122038
+            ],
+            [
+              -74.0350154,
+              40.7122309
+            ],
+            [
+              -74.034971,
+              40.7122744
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0350424,
+              40.7122038
+            ],
+            [
+              -74.0350154,
+              40.7122309
+            ],
+            [
+              -74.034971,
+              40.7122744
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1218901035,
+        "tags": {
+          "highway": "steps",
+          "incline": "down",
+          "level": "-1;-2"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.033343,
+              40.7168071
+            ],
+            [
+              -74.033297,
+              40.7168025
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.033343,
+              40.7168071
+            ],
+            [
+              -74.033297,
+              40.7168025
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1218901039,
+        "tags": {
+          "highway": "steps",
+          "incline": "down",
+          "indoor": "yes",
+          "layer": "0;-2"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0323546,
+              40.7167483
+            ],
+            [
+              -74.0327681,
+              40.7167958
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0323546,
+              40.7167483
+            ],
+            [
+              -74.0327681,
+              40.7167958
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1218901040,
+        "tags": {
+          "conveying": "forward",
+          "highway": "steps",
+          "incline": "down",
+          "indoor": "yes",
+          "level": "0;-2"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0323576,
+              40.7167318
+            ],
+            [
+              -74.0327706,
+              40.7167748
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0323576,
+              40.7167318
+            ],
+            [
+              -74.0327706,
+              40.7167748
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1218901041,
+        "tags": {
+          "conveying": "forward",
+          "highway": "steps",
+          "incline": "up",
+          "indoor": "yes",
+          "level": "0;-2"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0327725,
+              40.7167573
+            ],
+            [
+              -74.0323608,
+              40.7167144
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0327725,
+              40.7167573
+            ],
+            [
+              -74.0323608,
+              40.7167144
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 377371382,
+        "tags": {
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "lit": "yes",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0426096,
+              40.71964
+            ],
+            [
+              -74.0426847,
+              40.7194971
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 631638019,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0400028,
+              40.7265347
+            ],
+            [
+              -74.0399946,
+              40.7265989
+            ],
+            [
+              -74.040094,
+              40.726605
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 631638020,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0400028,
+              40.7265347
+            ],
+            [
+              -74.0400125,
+              40.7264551
+            ],
+            [
+              -74.0401131,
+              40.7264647
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 793637226,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0394184,
+              40.7212628
+            ],
+            [
+              -74.0393527,
+              40.7212548
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 793637227,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0394749,
+              40.720925
+            ],
+            [
+              -74.0394026,
+              40.7209205
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 793637234,
+        "tags": {
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0412241,
+              40.7191957
+            ],
+            [
+              -74.0411187,
+              40.7191972
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 812603625,
+        "tags": {
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0426103,
+              40.7192921
+            ],
+            [
+              -74.0427485,
+              40.7193356
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 812603627,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0411595,
+              40.7192783
+            ],
+            [
+              -74.0411831,
+              40.7192803
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 783393510,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0328356,
+              40.7263654
+            ],
+            [
+              -74.0328273,
+              40.7263724
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0328356,
+              40.7263654
+            ],
+            [
+              -74.0328273,
+              40.7263724
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 790783439,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "lit": "no",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0548348,
+              40.7291654
+            ],
+            [
+              -74.0547093,
+              40.7292638
+            ],
+            [
+              -74.0547758,
+              40.7293146
+            ],
+            [
+              -74.0546984,
+              40.7293701
+            ],
+            [
+              -74.0546351,
+              40.7293222
+            ],
+            [
+              -74.0545537,
+              40.7293857
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1035888292,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0547808,
+              40.7298523
+            ],
+            [
+              -74.0548086,
+              40.7298753
+            ],
+            [
+              -74.0550185,
+              40.7299362
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1035888294,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "lit": "no",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.054371,
+              40.7295281
+            ],
+            [
+              -74.0543394,
+              40.7295533
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1035888298,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0547049,
+              40.7302308
+            ],
+            [
+              -74.0545757,
+              40.7301332
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1189503871,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0489592,
+              40.7335142
+            ],
+            [
+              -74.0493513,
+              40.7335895
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1338696351,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0547093,
+              40.7292638
+            ],
+            [
+              -74.0546429,
+              40.7292149
+            ],
+            [
+              -74.0545679,
+              40.7292712
+            ],
+            [
+              -74.0546351,
+              40.7293222
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1338696352,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0541971,
+              40.7306181
+            ],
+            [
+              -74.0540556,
+              40.7305116
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1344664497,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.052419,
+              40.7319229
+            ],
+            [
+              -74.0524556,
+              40.7319459
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1344664498,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0523416,
+              40.7319819
+            ],
+            [
+              -74.052352,
+              40.7319882
+            ],
+            [
+              -74.0523309,
+              40.7320062
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1344664500,
+        "tags": {
+          "access": "private",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0520928,
+              40.7316785
+            ],
+            [
+              -74.0521038,
+              40.7316682
+            ],
+            [
+              -74.0521229,
+              40.7316806
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 631638013,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0399177,
+              40.72767
+            ],
+            [
+              -74.0398241,
+              40.7276602
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 791946782,
+        "tags": {
+          "highway": "steps",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.045813,
+              40.7334401
+            ],
+            [
+              -74.0458003,
+              40.7335167
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      }
+    ],
+    "brooklyn": [
+      {
+        "osm_id": 894369902,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0008383,
+              40.6937269
+            ],
+            [
+              -74.0007421,
+              40.6937
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0008383,
+              40.6937269
+            ],
+            [
+              -74.0007421,
+              40.6937
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 510228140,
+        "tags": {
+          "description": "S6",
+          "handrail": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "lit": "yes",
+          "location": "underground",
+          "surface": "concrete",
+          "tactile_paving": "no",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9928363,
+              40.6944823
+            ],
+            [
+              -73.9929239,
+              40.6945069
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228141,
+        "tags": {
+          "description": "S4",
+          "handrail": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "lit": "yes",
+          "location": "underground",
+          "surface": "concrete",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9926938,
+              40.6944463
+            ],
+            [
+              -73.992609,
+              40.694423
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228127,
+        "tags": {
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9903443,
+              40.6923159
+            ],
+            [
+              -73.9902539,
+              40.6922995
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228128,
+        "tags": {
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9904469,
+              40.6923344
+            ],
+            [
+              -73.9905405,
+              40.6923513
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228129,
+        "tags": {
+          "description": "P3",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9901221,
+              40.692367
+            ],
+            [
+              -73.9901858,
+              40.6923747
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228130,
+        "tags": {
+          "description": "P10",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9905367,
+              40.6924209
+            ],
+            [
+              -73.9904734,
+              40.6924141
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228131,
+        "tags": {
+          "description": "P12",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9909732,
+              40.6924793
+            ],
+            [
+              -73.9909002,
+              40.6924673
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228132,
+        "tags": {
+          "description": "P13",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9908811,
+              40.6925753
+            ],
+            [
+              -73.9909456,
+              40.6925823
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228133,
+        "tags": {
+          "description": "P2",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9900945,
+              40.6924999
+            ],
+            [
+              -73.9901525,
+              40.692507
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228134,
+        "tags": {
+          "description": "P4",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9902734,
+              40.6925202
+            ],
+            [
+              -73.990215,
+              40.6925144
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228135,
+        "tags": {
+          "description": "P8",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9903996,
+              40.6925325
+            ],
+            [
+              -73.9903334,
+              40.692527
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228136,
+        "tags": {
+          "description": "P11",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9905103,
+              40.6925436
+            ],
+            [
+              -73.9904503,
+              40.6925374
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228146,
+        "tags": {
+          "description": "PL4",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-2",
+          "level": "-3;-2",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9897812,
+              40.692743
+            ],
+            [
+              -73.9897612,
+              40.6927126
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228147,
+        "tags": {
+          "description": "PL3",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-2",
+          "level": "-3;-2",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9897594,
+              40.6927058
+            ],
+            [
+              -73.9897354,
+              40.6926637
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228148,
+        "tags": {
+          "description": "PL1",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-2",
+          "level": "-3;-2",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9902307,
+              40.6935379
+            ],
+            [
+              -73.9901797,
+              40.69345
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228150,
+        "tags": {
+          "description": "P1",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9903959,
+              40.6936799
+            ],
+            [
+              -73.9903756,
+              40.6936528
+            ],
+            [
+              -73.990353,
+              40.6936235
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228151,
+        "tags": {
+          "description": "P1",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "surface": "concrete",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9913759,
+              40.6939723
+            ],
+            [
+              -73.9913396,
+              40.6939645
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228152,
+        "tags": {
+          "description": "P2",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "surface": "concrete",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9914379,
+              40.6939919
+            ],
+            [
+              -73.9913996,
+              40.6939812
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228153,
+        "tags": {
+          "description": "P4",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "surface": "concrete",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9915809,
+              40.6940289
+            ],
+            [
+              -73.9915294,
+              40.6940151
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228155,
+        "tags": {
+          "description": "P3",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "location": "underground",
+          "surface": "concrete",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9916398,
+              40.6940441
+            ],
+            [
+              -73.9915995,
+              40.6940339
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228158,
+        "tags": {
+          "description": "P5",
+          "handrail": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-2;-1",
+          "lit": "yes",
+          "location": "underground",
+          "surface": "concrete",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9925045,
+              40.6942845
+            ],
+            [
+              -73.992576,
+              40.6943067
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228166,
+        "tags": {
+          "description": "S2",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.990575,
+              40.6936084
+            ],
+            [
+              -73.9905534,
+              40.6936558
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228168,
+        "tags": {
+          "description": "S3",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "location": "underground",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9905859,
+              40.693723
+            ],
+            [
+              -73.9905501,
+              40.6937123
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 510228176,
+        "tags": {
+          "description": "S5",
+          "handrail": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "lit": "yes",
+          "location": "underground",
+          "surface": "concrete",
+          "tactile_paving": "no",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9926473,
+              40.6942479
+            ],
+            [
+              -73.9925579,
+              40.6942213
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1051668427,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9892903,
+              40.6930186
+            ],
+            [
+              -73.9894282,
+              40.6930232
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1262646070,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "ramp": "no",
+          "step_count": "14",
+          "surface": "paving_stones",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9902853,
+              40.6929384
+            ],
+            [
+              -73.9902808,
+              40.6929775
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1262646083,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9905171,
+              40.6926034
+            ],
+            [
+              -73.9905428,
+              40.6926059
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1262646088,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9903259,
+              40.6925882
+            ],
+            [
+              -73.9903269,
+              40.6925785
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1262646093,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9901342,
+              40.6925619
+            ],
+            [
+              -73.9901105,
+              40.6925598
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263118152,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9901098,
+              40.6938059
+            ],
+            [
+              -73.9901083,
+              40.6938427
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263118167,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "step_count": "12",
+          "surface": "paving_stones",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9896751,
+              40.6939104
+            ],
+            [
+              -73.9896206,
+              40.693909
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263137159,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.990575,
+              40.6936084
+            ],
+            [
+              -73.9905907,
+              40.6935743
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263137161,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9905859,
+              40.693723
+            ],
+            [
+              -73.9906273,
+              40.6937349
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263137196,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9891895,
+              40.6938881
+            ],
+            [
+              -73.989175,
+              40.6938877
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1203181900,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0004229,
+              40.6980216
+            ],
+            [
+              -74.0004918,
+              40.6979797
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0004229,
+              40.6980216
+            ],
+            [
+              -74.0004918,
+              40.6979797
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 100606735,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "step_count": "20",
+          "surface": "paving_stones",
+          "tactile_paving": "no",
+          "width": "6"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9974099,
+              40.7020753
+            ],
+            [
+              -73.9973397,
+              40.7020702
+            ],
+            [
+              -73.997274,
+              40.7020625
+            ],
+            [
+              -73.9972196,
+              40.7020529
+            ],
+            [
+              -73.9971681,
+              40.7020424
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9974099,
+              40.7020753
+            ],
+            [
+              -73.9973397,
+              40.7020702
+            ],
+            [
+              -73.997274,
+              40.7020625
+            ],
+            [
+              -73.9972196,
+              40.7020529
+            ],
+            [
+              -73.9971681,
+              40.7020424
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 230751650,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "indoor": "no",
+          "lit": "yes",
+          "ramp": "no",
+          "step_count": "4",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961823,
+              40.7016011
+            ],
+            [
+              -73.9961721,
+              40.7015711
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961823,
+              40.7016011
+            ],
+            [
+              -73.9961721,
+              40.7015711
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 328246654,
+        "tags": {
+          "access": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "asphalt"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.996588,
+              40.7016505
+            ],
+            [
+              -73.9965484,
+              40.7016724
+            ],
+            [
+              -73.9965051,
+              40.701705
+            ],
+            [
+              -73.9964724,
+              40.7017339
+            ],
+            [
+              -73.996461,
+              40.7017451
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.996588,
+              40.7016505
+            ],
+            [
+              -73.9965484,
+              40.7016724
+            ],
+            [
+              -73.9965051,
+              40.701705
+            ],
+            [
+              -73.9964724,
+              40.7017339
+            ],
+            [
+              -73.996461,
+              40.7017451
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 888758825,
+        "tags": {
+          "covered": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "indoor": "no",
+          "lit": "no",
+          "ramp": "no",
+          "step_count": "14",
+          "surface": "asphalt",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9976569,
+              40.7017815
+            ],
+            [
+              -73.9976208,
+              40.7017998
+            ],
+            [
+              -73.997552,
+              40.7018317
+            ],
+            [
+              -73.9975053,
+              40.7018552
+            ],
+            [
+              -73.997453,
+              40.7018849
+            ],
+            [
+              -73.997399,
+              40.701913
+            ],
+            [
+              -73.9973368,
+              40.7019364
+            ],
+            [
+              -73.9972637,
+              40.701954
+            ],
+            [
+              -73.9972347,
+              40.7019586
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9976569,
+              40.7017815
+            ],
+            [
+              -73.9976208,
+              40.7017998
+            ],
+            [
+              -73.997552,
+              40.7018317
+            ],
+            [
+              -73.9975053,
+              40.7018552
+            ],
+            [
+              -73.997453,
+              40.7018849
+            ],
+            [
+              -73.997399,
+              40.701913
+            ],
+            [
+              -73.9973368,
+              40.7019364
+            ],
+            [
+              -73.9972637,
+              40.701954
+            ],
+            [
+              -73.9972347,
+              40.7019586
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 888758864,
+        "tags": {
+          "access": "yes",
+          "covered": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.995391,
+              40.7020785
+            ],
+            [
+              -73.9953786,
+              40.7020772
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.995391,
+              40.7020785
+            ],
+            [
+              -73.9953786,
+              40.7020772
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1199257107,
+        "tags": {
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "step_count": "14",
+          "surface": "asphalt;concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9989185,
+              40.6956197
+            ],
+            [
+              -73.998945,
+              40.6956009
+            ],
+            [
+              -73.998984,
+              40.6955768
+            ],
+            [
+              -73.9990158,
+              40.6955647
+            ],
+            [
+              -73.9990654,
+              40.6955607
+            ],
+            [
+              -73.9991131,
+              40.695562
+            ],
+            [
+              -73.9991503,
+              40.6955661
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9989185,
+              40.6956197
+            ],
+            [
+              -73.998945,
+              40.6956009
+            ],
+            [
+              -73.998984,
+              40.6955768
+            ],
+            [
+              -73.9990158,
+              40.6955647
+            ],
+            [
+              -73.9990654,
+              40.6955607
+            ],
+            [
+              -73.9991131,
+              40.695562
+            ],
+            [
+              -73.9991503,
+              40.6955661
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1199257110,
+        "tags": {
+          "check_date": "2023-06-21",
+          "covered": "no",
+          "handrail": "yes",
+          "handrail:left": "yes",
+          "handrail:right": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "step_count": "20",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9992665,
+              40.695594
+            ],
+            [
+              -73.9992862,
+              40.6956041
+            ],
+            [
+              -73.9992975,
+              40.6956102
+            ],
+            [
+              -73.9993077,
+              40.6956172
+            ],
+            [
+              -73.9993188,
+              40.6956257
+            ],
+            [
+              -73.9993282,
+              40.6956344
+            ],
+            [
+              -73.9993374,
+              40.695647
+            ],
+            [
+              -73.9993435,
+              40.6956572
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9992665,
+              40.695594
+            ],
+            [
+              -73.9992862,
+              40.6956041
+            ],
+            [
+              -73.9992975,
+              40.6956102
+            ],
+            [
+              -73.9993077,
+              40.6956172
+            ],
+            [
+              -73.9993188,
+              40.6956257
+            ],
+            [
+              -73.9993282,
+              40.6956344
+            ],
+            [
+              -73.9993374,
+              40.695647
+            ],
+            [
+              -73.9993435,
+              40.6956572
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1199257111,
+        "tags": {
+          "check_date": "2018-07-26",
+          "handrail": "yes",
+          "handrail:left": "yes",
+          "handrail:right": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "mapillary": "527945901533602",
+          "surface": "metal",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9990283,
+              40.6957948
+            ],
+            [
+              -73.9991084,
+              40.6958519
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9990283,
+              40.6957948
+            ],
+            [
+              -73.9991084,
+              40.6958519
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1200971303,
+        "tags": {
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "yes",
+          "step_count": "12",
+          "surface": "asphalt",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9968694,
+              40.7014619
+            ],
+            [
+              -73.9968127,
+              40.701466
+            ],
+            [
+              -73.9967189,
+              40.7014705
+            ],
+            [
+              -73.9966365,
+              40.7014764
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9968694,
+              40.7014619
+            ],
+            [
+              -73.9968127,
+              40.701466
+            ],
+            [
+              -73.9967189,
+              40.7014705
+            ],
+            [
+              -73.9966365,
+              40.7014764
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1203266119,
+        "tags": {
+          "highway": "steps"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9973749,
+              40.6982329
+            ],
+            [
+              -73.9974687,
+              40.6982109
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9973749,
+              40.6982329
+            ],
+            [
+              -73.9974687,
+              40.6982109
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1203283199,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "ramp": "no",
+          "step_count": "14",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0000353,
+              40.6983388
+            ],
+            [
+              -74.0000279,
+              40.6984828
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0000353,
+              40.6983388
+            ],
+            [
+              -74.0000279,
+              40.6984828
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1203283551,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "ramp": "no",
+          "step_count": "12",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0001824,
+              40.6982501
+            ],
+            [
+              -74.0002642,
+              40.6983201
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -74.0001824,
+              40.6982501
+            ],
+            [
+              -74.0002642,
+              40.6983201
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1203284187,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9996194,
+              40.697477
+            ],
+            [
+              -73.999587,
+              40.6975271
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9996194,
+              40.697477
+            ],
+            [
+              -73.999587,
+              40.6975271
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1256929321,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9953113,
+              40.7010674
+            ],
+            [
+              -73.9953151,
+              40.7010596
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9953113,
+              40.7010674
+            ],
+            [
+              -73.9953151,
+              40.7010596
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1257995232,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "asphalt"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9962505,
+              40.7021021
+            ],
+            [
+              -73.9961974,
+              40.7021197
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9962505,
+              40.7021021
+            ],
+            [
+              -73.9961974,
+              40.7021197
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1259265391,
+        "tags": {
+          "access": "yes",
+          "covered": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "indoor": "no",
+          "lit": "yes",
+          "ramp": "no",
+          "step_count": "4",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961913,
+              40.7016446
+            ],
+            [
+              -73.9961859,
+              40.7016148
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961913,
+              40.7016446
+            ],
+            [
+              -73.9961859,
+              40.7016148
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045045,
+        "tags": {
+          "access": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9965073,
+              40.700875
+            ],
+            [
+              -73.9965041,
+              40.7008669
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9965073,
+              40.700875
+            ],
+            [
+              -73.9965041,
+              40.7008669
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045050,
+        "tags": {
+          "access": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9965102,
+              40.7008193
+            ],
+            [
+              -73.9965127,
+              40.7008113
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9965102,
+              40.7008193
+            ],
+            [
+              -73.9965127,
+              40.7008113
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045051,
+        "tags": {
+          "access": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9965015,
+              40.7008464
+            ],
+            [
+              -73.9965028,
+              40.7008384
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9965015,
+              40.7008464
+            ],
+            [
+              -73.9965028,
+              40.7008384
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045056,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961527,
+              40.7005742
+            ],
+            [
+              -73.9961431,
+              40.7005686
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961527,
+              40.7005742
+            ],
+            [
+              -73.9961431,
+              40.7005686
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045058,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961761,
+              40.7005875
+            ],
+            [
+              -73.9961665,
+              40.7005819
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9961761,
+              40.7005875
+            ],
+            [
+              -73.9961665,
+              40.7005819
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045063,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9958617,
+              40.7011858
+            ],
+            [
+              -73.9958331,
+              40.7011779
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9958617,
+              40.7011858
+            ],
+            [
+              -73.9958331,
+              40.7011779
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045074,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9956963,
+              40.7015186
+            ],
+            [
+              -73.9956819,
+              40.701514
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9956963,
+              40.7015186
+            ],
+            [
+              -73.9956819,
+              40.701514
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045076,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.995725,
+              40.7015278
+            ],
+            [
+              -73.9957106,
+              40.7015232
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.995725,
+              40.7015278
+            ],
+            [
+              -73.9957106,
+              40.7015232
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045088,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9955993,
+              40.7016879
+            ],
+            [
+              -73.995591,
+              40.7016857
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9955993,
+              40.7016879
+            ],
+            [
+              -73.995591,
+              40.7016857
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045090,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9955557,
+              40.7017796
+            ],
+            [
+              -73.9955475,
+              40.7017774
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9955557,
+              40.7017796
+            ],
+            [
+              -73.9955475,
+              40.7017774
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262045102,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9960309,
+              40.7007686
+            ],
+            [
+              -73.9960403,
+              40.7007706
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9960309,
+              40.7007686
+            ],
+            [
+              -73.9960403,
+              40.7007706
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1262608386,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9949211,
+              40.7016265
+            ],
+            [
+              -73.9948987,
+              40.7016025
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9949211,
+              40.7016265
+            ],
+            [
+              -73.9948987,
+              40.7016025
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1540884316,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "step_count": "5",
+          "surface": "concrete",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9995595,
+              40.6982861
+            ],
+            [
+              -73.9994884,
+              40.6983904
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9995595,
+              40.6982861
+            ],
+            [
+              -73.9994884,
+              40.6983904
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 39513382,
+        "tags": {
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Brookyln Bridge Promenade",
+          "name:etymology:wikidata": "Q18419",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9898694,
+              40.7005829
+            ],
+            [
+              -73.9898885,
+              40.7005957
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 357266833,
+        "tags": {
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "step_count": "16",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9866954,
+              40.6995358
+            ],
+            [
+              -73.9866937,
+              40.6995827
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 684029987,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "step_count": "3"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9891824,
+              40.6988327
+            ],
+            [
+              -73.9891647,
+              40.6988321
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 684029989,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "step_count": "3"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9889369,
+              40.6988251
+            ],
+            [
+              -73.9889178,
+              40.6988245
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 700017164,
+        "tags": {
+          "foot": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9882749,
+              40.6992786
+            ],
+            [
+              -73.9882743,
+              40.6992963
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 700017165,
+        "tags": {
+          "foot": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9914115,
+              40.6994114
+            ],
+            [
+              -73.9913887,
+              40.699462
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 809728337,
+        "tags": {
+          "foot": "yes",
+          "highway": "steps",
+          "indoor": "yes",
+          "layer": "-1",
+          "level": "-1;0",
+          "tunnel": "yes"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9889206,
+              40.6991913
+            ],
+            [
+              -73.9889211,
+              40.699178
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "non_operational_or_indoor",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 847594866,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9867548,
+              40.6991151
+            ],
+            [
+              -73.9867235,
+              40.6991147
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 894048028,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "step_count": "9",
+          "surface": "paving_stones",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9897618,
+              40.6947945
+            ],
+            [
+              -73.9899033,
+              40.6947985
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 894048030,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "step_count": "6",
+          "surface": "paving_stones",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9895252,
+              40.6947888
+            ],
+            [
+              -73.9896083,
+              40.6947908
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 894048031,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "step_count": "7",
+          "surface": "paving_stones",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9897277,
+              40.6948357
+            ],
+            [
+              -73.9897234,
+              40.6949194
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 969848685,
+        "tags": {
+          "access": "destination",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.991719,
+              40.7004799
+            ],
+            [
+              -73.9916869,
+              40.700471
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1092351083,
+        "tags": {
+          "highway": "steps",
+          "incline": "up",
+          "layer": "1"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9917155,
+              40.6985269
+            ],
+            [
+              -73.9917559,
+              40.6985379
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1092351089,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "layer": "1",
+          "ramp": "no",
+          "surface": "concrete",
+          "tactile_paving": "no",
+          "wheelchair": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9922635,
+              40.6987448
+            ],
+            [
+              -73.992292,
+              40.6986851
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1092351090,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "layer": "1",
+          "ramp": "no",
+          "surface": "concrete",
+          "tactile_paving": "no",
+          "wheelchair": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9923198,
+              40.6986268
+            ],
+            [
+              -73.992292,
+              40.6986851
+            ],
+            [
+              -73.9922489,
+              40.6986733
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1092703585,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9904476,
+              40.6986574
+            ],
+            [
+              -73.9904516,
+              40.698547
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1095507352,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9924538,
+              40.6982778
+            ],
+            [
+              -73.9923916,
+              40.6982598
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1104782146,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9908281,
+              40.6967571
+            ],
+            [
+              -73.9909227,
+              40.6967558
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1104782147,
+        "tags": {
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9911164,
+              40.6970857
+            ],
+            [
+              -73.9912201,
+              40.6970917
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1104782150,
+        "tags": {
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "step_count": "5"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9901665,
+              40.6984319
+            ],
+            [
+              -73.9903497,
+              40.6984362
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1104782151,
+        "tags": {
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9912616,
+              40.698458
+            ],
+            [
+              -73.9911471,
+              40.6984552
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1106649133,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9907869,
+              40.6986813
+            ],
+            [
+              -73.9907914,
+              40.6985551
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1106649135,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9910377,
+              40.6984526
+            ],
+            [
+              -73.9910076,
+              40.6984519
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1106667114,
+        "tags": {
+          "access": "private",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9914614,
+              40.6997417
+            ],
+            [
+              -73.9915158,
+              40.6997567
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1106667116,
+        "tags": {
+          "access": "private",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9914907,
+              40.6997264
+            ],
+            [
+              -73.9915119,
+              40.6996822
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1218536934,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9864527,
+              40.7014228
+            ],
+            [
+              -73.986449,
+              40.7014132
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1256165016,
+        "tags": {
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Brookyln Bridge Promenade",
+          "name:etymology:wikidata": "Q18419",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9899444,
+              40.7006343
+            ],
+            [
+              -73.9899749,
+              40.7006553
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1256165018,
+        "tags": {
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Brookyln Bridge Promenade",
+          "name:etymology:wikidata": "Q18419",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9899035,
+              40.7006063
+            ],
+            [
+              -73.9899312,
+              40.7006253
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1259285779,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9882761,
+              40.6992433
+            ],
+            [
+              -73.9882749,
+              40.6992786
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1259285781,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9889224,
+              40.6991433
+            ],
+            [
+              -73.9889211,
+              40.699178
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1259470397,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9864607,
+              40.7014442
+            ],
+            [
+              -73.9864574,
+              40.7014354
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1262001710,
+        "tags": {
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "step_count": "3",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9866553,
+              40.6996285
+            ],
+            [
+              -73.9866369,
+              40.6996346
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1262001713,
+        "tags": {
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "step_count": "3",
+          "surface": "paving_stones",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.98673,
+              40.6995127
+            ],
+            [
+              -73.9867176,
+              40.6995124
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263263220,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9902997,
+              40.6953391
+            ],
+            [
+              -73.9903344,
+              40.6953401
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263263225,
+        "tags": {
+          "access": "yes",
+          "check_date:ramp": "2023-11-09",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "yes",
+          "ramp:wheelchair": "yes",
+          "step_count": "3",
+          "surface": "stone",
+          "tactile_paving": "no"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9906472,
+              40.6960012
+            ],
+            [
+              -73.9906489,
+              40.6959671
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263263236,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9902662,
+              40.6959352
+            ],
+            [
+              -73.9903013,
+              40.6959361
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263534186,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9895481,
+              40.6951325
+            ],
+            [
+              -73.9895489,
+              40.6951194
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263534190,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9900139,
+              40.6953225
+            ],
+            [
+              -73.9899814,
+              40.6953209
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263534196,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9900069,
+              40.6955884
+            ],
+            [
+              -73.9899672,
+              40.6955868
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263534198,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9900021,
+              40.695911
+            ],
+            [
+              -73.9899486,
+              40.6959095
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263534203,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9899237,
+              40.6959912
+            ],
+            [
+              -73.9899224,
+              40.6960147
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263534204,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9899265,
+              40.6959386
+            ],
+            [
+              -73.9899253,
+              40.6959611
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263616484,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9858177,
+              40.6965241
+            ],
+            [
+              -73.9858464,
+              40.696525
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263616489,
+        "tags": {
+          "access": "yes",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.985876,
+              40.6967371
+            ],
+            [
+              -73.9858756,
+              40.6967522
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1263616534,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9859349,
+              40.6966711
+            ],
+            [
+              -73.985901,
+              40.6966702
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1267718244,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9910255,
+              40.696906
+            ],
+            [
+              -73.9910242,
+              40.6968627
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1267921140,
+        "tags": {
+          "access": "destination",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9920899,
+              40.69916
+            ],
+            [
+              -73.9920629,
+              40.6991524
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1267921141,
+        "tags": {
+          "access": "destination",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.991954,
+              40.6991703
+            ],
+            [
+              -73.9919747,
+              40.6991277
+            ]
+          ]
+        },
+        "original_category": null,
+        "selected": false,
+        "exclusion_reason": "restricted_general_access_conservatively_excluded",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1362686702,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9910649,
+              40.6987987
+            ],
+            [
+              -73.9910692,
+              40.6987187
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1366100190,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9865862,
+              40.7016608
+            ],
+            [
+              -73.986583,
+              40.7017353
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1366100191,
+        "tags": {
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9865862,
+              40.7016608
+            ],
+            [
+              -73.9866497,
+              40.7016643
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": false,
+        "exclusion_reason": "outside_waterfront_envelope",
+        "clipped_geometry": null
+      },
+      {
+        "osm_id": 1257080559,
+        "tags": {
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9943575,
+              40.7034541
+            ],
+            [
+              -73.9943405,
+              40.7034443
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9943575,
+              40.7034541
+            ],
+            [
+              -73.9943405,
+              40.7034443
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1257080560,
+        "tags": {
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9944239,
+              40.703446
+            ],
+            [
+              -73.9944399,
+              40.7034314
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9944239,
+              40.703446
+            ],
+            [
+              -73.9944399,
+              40.7034314
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1417858151,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9951869,
+              40.7024779
+            ],
+            [
+              -73.9952326,
+              40.7024517
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9951869,
+              40.7024779
+            ],
+            [
+              -73.9952326,
+              40.7024517
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1417858153,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9957196,
+              40.7026897
+            ],
+            [
+              -73.9956629,
+              40.7026948
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9957196,
+              40.7026897
+            ],
+            [
+              -73.9956629,
+              40.7026948
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1417858154,
+        "tags": {
+          "highway": "steps",
+          "incline": "up"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9951109,
+              40.7028288
+            ],
+            [
+              -73.9951655,
+              40.7028087
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9951109,
+              40.7028288
+            ],
+            [
+              -73.9951655,
+              40.7028087
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 698881896,
+        "tags": {
+          "highway": "steps",
+          "layer": "1"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9916768,
+              40.7037751
+            ],
+            [
+              -73.9916784,
+              40.7037245
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9916768,
+              40.7037751
+            ],
+            [
+              -73.9916784,
+              40.7037245
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 888758989,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paved"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9875653,
+              40.7049805
+            ],
+            [
+              -73.9875525,
+              40.7049654
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9875653,
+              40.7049805
+            ],
+            [
+              -73.9875525,
+              40.7049654
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1111190574,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9896132,
+              40.7040463
+            ],
+            [
+              -73.9896393,
+              40.7040745
+            ],
+            [
+              -73.9896423,
+              40.7040777
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9896132,
+              40.7040463
+            ],
+            [
+              -73.9896393,
+              40.7040745
+            ],
+            [
+              -73.9896423,
+              40.7040777
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1148000310,
+        "tags": {
+          "highway": "steps",
+          "layer": "2"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9918082,
+              40.7037896
+            ],
+            [
+              -73.9918452,
+              40.7038443
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9918082,
+              40.7037896
+            ],
+            [
+              -73.9918452,
+              40.7038443
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1197084993,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.992192,
+              40.7043015
+            ],
+            [
+              -73.9921601,
+              40.7043015
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.992192,
+              40.7043015
+            ],
+            [
+              -73.9921601,
+              40.7043015
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1197084996,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9925362,
+              40.7045987
+            ],
+            [
+              -73.9925357,
+              40.7045736
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9925362,
+              40.7045987
+            ],
+            [
+              -73.9925357,
+              40.7045736
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1254451504,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9866909,
+              40.7045841
+            ],
+            [
+              -73.9866576,
+              40.7045568
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9866909,
+              40.7045841
+            ],
+            [
+              -73.9866576,
+              40.7045568
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1255157549,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9876424,
+              40.7047936
+            ],
+            [
+              -73.9876297,
+              40.7048111
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9876424,
+              40.7047936
+            ],
+            [
+              -73.9876297,
+              40.7048111
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1255414698,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "concrete"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9896526,
+              40.7040887
+            ],
+            [
+              -73.9896822,
+              40.7041203
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9896526,
+              40.7040887
+            ],
+            [
+              -73.9896822,
+              40.7041203
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1255470707,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "asphalt"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9894623,
+              40.7039821
+            ],
+            [
+              -73.989438,
+              40.7039897
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9894623,
+              40.7039821
+            ],
+            [
+              -73.989438,
+              40.7039897
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1257049157,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9922359,
+              40.7045768
+            ],
+            [
+              -73.9922366,
+              40.704601
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9922359,
+              40.7045768
+            ],
+            [
+              -73.9922366,
+              40.704601
+            ]
+          ]
+        }
+      },
+      {
+        "osm_id": 1257049158,
+        "tags": {
+          "access": "yes",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "paving_stones"
+        },
+        "original_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9921956,
+              40.704549
+            ],
+            [
+              -73.9921673,
+              40.7045489
+            ]
+          ]
+        },
+        "original_category": "steps",
+        "selected": true,
+        "exclusion_reason": null,
+        "clipped_geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -73.9921956,
+              40.704549
+            ],
+            [
+              -73.9921673,
+              40.7045489
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

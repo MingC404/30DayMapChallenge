@@ -1,0 +1,135 @@
+{
+  "source": "Official OpenStreetMap map API (Overpass fallback)",
+  "retrieved_at_utc": "2026-11-02T20:22:37.234741+00:00",
+  "bbox_south_west_north_east": [
+    40.687,
+    -74.008,
+    40.71,
+    -73.985
+  ],
+  "requests": [
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0080000,40.6870000,-74.0003333,40.6946667",
+      "bbox_south_west_north_east": [
+        40.687,
+        -74.008,
+        40.69466666666666,
+        -74.00033333333333
+      ],
+      "file": "brooklyn_osm_map_0_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:55.165518+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0003333,40.6870000,-73.9926667,40.6946667",
+      "bbox_south_west_north_east": [
+        40.687,
+        -74.00033333333333,
+        40.69466666666666,
+        -73.99266666666666
+      ],
+      "file": "brooklyn_osm_map_0_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:57.800615+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9926667,40.6870000,-73.9850000,40.6946667",
+      "bbox_south_west_north_east": [
+        40.687,
+        -73.99266666666666,
+        40.69466666666666,
+        -73.985
+      ],
+      "file": "brooklyn_osm_map_0_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:00.843439+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0080000,40.6946667,-74.0003333,40.7023333",
+      "bbox_south_west_north_east": [
+        40.69466666666666,
+        -74.008,
+        40.702333333333335,
+        -74.00033333333333
+      ],
+      "file": "brooklyn_osm_map_1_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:01.804473+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0003333,40.6946667,-73.9926667,40.7023333",
+      "bbox_south_west_north_east": [
+        40.69466666666666,
+        -74.00033333333333,
+        40.702333333333335,
+        -73.99266666666666
+      ],
+      "file": "brooklyn_osm_map_1_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:04.007126+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9926667,40.6946667,-73.9850000,40.7023333",
+      "bbox_south_west_north_east": [
+        40.69466666666666,
+        -73.99266666666666,
+        40.702333333333335,
+        -73.985
+      ],
+      "file": "brooklyn_osm_map_1_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:07.272852+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0080000,40.7023333,-74.0003333,40.7100000",
+      "bbox_south_west_north_east": [
+        40.702333333333335,
+        -74.008,
+        40.71,
+        -74.00033333333333
+      ],
+      "file": "brooklyn_osm_map_2_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:09.653014+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0003333,40.7023333,-73.9926667,40.7100000",
+      "bbox_south_west_north_east": [
+        40.702333333333335,
+        -74.00033333333333,
+        40.71,
+        -73.99266666666666
+      ],
+      "file": "brooklyn_osm_map_2_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:11.271988+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9926667,40.7023333,-73.9850000,40.7100000",
+      "bbox_south_west_north_east": [
+        40.702333333333335,
+        -73.99266666666666,
+        40.71,
+        -73.985
+      ],
+      "file": "brooklyn_osm_map_2_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:12.859759+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/2389630/full",
+      "file": "brooklyn_osm_water_relation_2389630.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:28.373612+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/2389633/full",
+      "file": "brooklyn_osm_water_relation_2389633.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:29.282289+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/17310406/full",
+      "file": "brooklyn_osm_water_relation_17310406.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:29.668287+00:00"
+    }
+  ],
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "copyright": "https://www.openstreetmap.org/copyright",
+  "license": "ODbL 1.0",
+  "notes": [
+    "Original unmodified responses are the XML tiles. JSON is a derived relevant-object geometry conversion.",
+    "Map API may omit distant members of background relations. Only truly closed available rings are filled.",
+    "Overpass primary endpoint returned an error; kumi mirror timed out; private.coffee status request timed out.",
+    "Map API selects ways touching tiles and may include complete geometry beyond the query extent."
+  ]
+}

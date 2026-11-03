@@ -1,0 +1,154 @@
+[
+  {
+    "width": 1366,
+    "height": 768,
+    "pageWidth": 1366,
+    "pageHeight": 768,
+    "bodyOverflow": "visible",
+    "viewports": [
+      {
+        "viewBox": "0 40 550 1015",
+        "bounds": {
+          "x": 156.859375,
+          "y": 0,
+          "width": 411.8125,
+          "height": 760,
+          "top": 0,
+          "right": 568.671875,
+          "bottom": 760,
+          "left": 156.859375
+        },
+        "stroke": "3.2px"
+      },
+      {
+        "viewBox": "60 225 600 650",
+        "bounds": {
+          "x": 596.6875,
+          "y": 76,
+          "width": 612.4375,
+          "height": 663.46875,
+          "top": 76,
+          "right": 1209.125,
+          "bottom": 739.46875,
+          "left": 596.6875
+        },
+        "stroke": "3.2px"
+      }
+    ],
+    "curbLabel": "Curbs"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "pageWidth": 1440,
+    "pageHeight": 900,
+    "bodyOverflow": "visible",
+    "viewports": [
+      {
+        "viewBox": "0 40 550 1015",
+        "bounds": {
+          "x": 99,
+          "y": 0,
+          "width": 483.34375,
+          "height": 892,
+          "top": 0,
+          "right": 582.34375,
+          "bottom": 892,
+          "left": 99
+        },
+        "stroke": "3.2px"
+      },
+      {
+        "viewBox": "60 225 600 650",
+        "bounds": {
+          "x": 610.34375,
+          "y": 76,
+          "width": 730.625,
+          "height": 791.515625,
+          "top": 76,
+          "right": 1340.96875,
+          "bottom": 867.515625,
+          "left": 610.34375
+        },
+        "stroke": "3.2px"
+      }
+    ],
+    "curbLabel": "Curbs"
+  },
+  {
+    "width": 1536,
+    "height": 864,
+    "pageWidth": 1536,
+    "pageHeight": 864,
+    "bodyOverflow": "visible",
+    "viewports": [
+      {
+        "viewBox": "0 40 550 1015",
+        "bounds": {
+          "x": 172.875,
+          "y": 0,
+          "width": 463.828125,
+          "height": 856,
+          "top": 0,
+          "right": 636.703125,
+          "bottom": 856,
+          "left": 172.875
+        },
+        "stroke": "3.2px"
+      },
+      {
+        "viewBox": "60 225 600 650",
+        "bounds": {
+          "x": 664.71875,
+          "y": 76,
+          "width": 698.390625,
+          "height": 756.59375,
+          "top": 76,
+          "right": 1363.109375,
+          "bottom": 832.59375,
+          "left": 664.71875
+        },
+        "stroke": "3.2px"
+      }
+    ],
+    "curbLabel": "Curbs"
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "pageWidth": 1920,
+    "pageHeight": 1080,
+    "bodyOverflow": "visible",
+    "viewports": [
+      {
+        "viewBox": "0 40 550 1015",
+        "bounds": {
+          "x": 209.640625,
+          "y": 0,
+          "width": 580.875,
+          "height": 1072,
+          "top": 0,
+          "right": 790.515625,
+          "bottom": 1072,
+          "left": 209.640625
+        },
+        "stroke": "3.2px"
+      },
+      {
+        "viewBox": "60 225 600 650",
+        "bounds": {
+          "x": 818.53125,
+          "y": 76,
+          "width": 891.796875,
+          "height": 966.109375,
+          "top": 76,
+          "right": 1710.328125,
+          "bottom": 1042.109375,
+          "left": 818.53125
+        },
+        "stroke": "3.2px"
+      }
+    ],
+    "curbLabel": "Curbs"
+  }
+]

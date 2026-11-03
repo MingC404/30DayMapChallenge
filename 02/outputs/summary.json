@@ -1,0 +1,163 @@
+{
+  "jersey_city": {
+    "selected_osm_ways": 799,
+    "previous_area_eligible_ways": 2364,
+    "by_highway": {
+      "path": 13,
+      "footway": 720,
+      "pedestrian": 48,
+      "steps": 11,
+      "residential": 4,
+      "tertiary": 3
+    },
+    "by_access_evidence": {
+      "unconfirmed": 689,
+      "explicit": 110
+    },
+    "ordinary_ways": 788,
+    "steps_ways": 11,
+    "steps_in_original_area": 34,
+    "excluded_within_envelope": {
+      "other_road_without_explicit_foot_permission": 379,
+      "restricted_general_access_conservatively_excluded": 69,
+      "pedestrian_area_not_linear_path": 17,
+      "restricted_or_nonstandard_foot": 4,
+      "non_operational_or_indoor": 13,
+      "major_road_foot_tag_requires_manual_review": 2
+    },
+    "selection_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -74.023,
+            40.735
+          ],
+          [
+            -74.023,
+            40.693
+          ],
+          [
+            -74.055,
+            40.693
+          ],
+          [
+            -74.055,
+            40.698
+          ],
+          [
+            -74.049,
+            40.705
+          ],
+          [
+            -74.041,
+            40.709
+          ],
+          [
+            -74.0395,
+            40.713
+          ],
+          [
+            -74.0385,
+            40.719
+          ],
+          [
+            -74.0369,
+            40.724
+          ],
+          [
+            -74.036,
+            40.729
+          ],
+          [
+            -74.0348,
+            40.732
+          ],
+          [
+            -74.0348,
+            40.735
+          ],
+          [
+            -74.023,
+            40.735
+          ]
+        ]
+      ]
+    },
+    "source_sha256": "e855b70ea00d79dc3c67bf80cf6f14aad7e80294257a9ef68f9ea02d39e3b355"
+  },
+  "brooklyn": {
+    "selected_osm_ways": 937,
+    "previous_area_eligible_ways": 2546,
+    "by_highway": {
+      "footway": 872,
+      "steps": 48,
+      "path": 5,
+      "pedestrian": 11,
+      "cycleway": 1
+    },
+    "by_access_evidence": {
+      "unconfirmed": 888,
+      "explicit": 49
+    },
+    "ordinary_ways": 889,
+    "steps_ways": 48,
+    "steps_in_original_area": 133,
+    "excluded_within_envelope": {
+      "other_road_without_explicit_foot_permission": 165,
+      "restricted_general_access_conservatively_excluded": 16,
+      "restricted_or_nonstandard_foot": 5,
+      "transriver_bridge_not_waterfront_connection": 26,
+      "major_road_foot_tag_requires_manual_review": 37,
+      "pedestrian_area_not_linear_path": 47
+    },
+    "selection_geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -73.9913,
+            40.7021
+          ],
+          [
+            -73.9935,
+            40.7007
+          ],
+          [
+            -73.9962,
+            40.696
+          ],
+          [
+            -73.9973,
+            40.6912
+          ],
+          [
+            -74.005,
+            40.6912
+          ],
+          [
+            -74.005,
+            40.699
+          ],
+          [
+            -73.994,
+            40.7055
+          ],
+          [
+            -73.985,
+            40.7055
+          ],
+          [
+            -73.985,
+            40.7025
+          ],
+          [
+            -73.9913,
+            40.7021
+          ]
+        ]
+      ]
+    },
+    "source_sha256": "d694ffed5054010472f41e85979c822c26add6fc9141bbfef05bf343de509ad0"
+  }
+}

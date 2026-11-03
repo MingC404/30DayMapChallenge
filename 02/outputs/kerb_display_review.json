@@ -1,0 +1,44 @@
+{
+  "unique_osm_nodes": 324,
+  "duplicate_id_excess": 0,
+  "duplicate_coordinate_groups": 0,
+  "raw_tag_mismatches": 0,
+  "kerb_values": {
+    "lowered": 285,
+    "raised": 21,
+    "flush": 12,
+    "no": 4,
+    "<not recorded>": 2
+  },
+  "barrier_values": {
+    "kerb": 324
+  },
+  "nodes_referenced_by_multiple_selected_ways": 318,
+  "selected_way_node_associations_not_object_count": 655,
+  "selected_way_reference_count_distribution": {
+    "4": 1,
+    "2": 305,
+    "3": 12,
+    "0": 1,
+    "1": 5
+  },
+  "bounds_w_s_e_n": [
+    -74.0012023,
+    40.6912633,
+    -73.9864807,
+    40.7045177
+  ],
+  "latitude_bands": {
+    "north_40.701_and_above": 188,
+    "middle_40.696_to_40.701": 66,
+    "south_below_40.696": 70
+  },
+  "previous_grouping": {
+    "objects": 324,
+    "clusters": 71,
+    "radius_svg_units": 13
+  },
+  "grouping_rule": "Within each category and region, sort unique OSM type/ID strings; add to the first existing cluster whose fixed anchor lies within 13 map-SVG units, otherwise start a cluster at this object. No transitive merging; zoom does not change membership. Former badge = member count. Counts are NOT capacity, severity or curb height.",
+  "current_display": "No numeric badges. Curbs default off. Every group has an actual hover tooltip and a click/tap member list with source tags. Gates & barriers excludes barrier=kerb objects to avoid drawing the same curb through a second category. Crossings display removed, raw cache preserved.",
+  "interpretation": "lowered/flush/raised/no/missing remain distinct raw evidence. No default impassability or obstacle score. Distinct OSM objects are not automatically distinct physical installations."
+}

@@ -1,0 +1,256 @@
+{
+  "source": "Official OpenStreetMap map API (Overpass fallback)",
+  "retrieved_at_utc": "2026-11-02T20:22:36.074280+00:00",
+  "bbox_south_west_north_east": [
+    40.693,
+    -74.055,
+    40.735,
+    -74.023
+  ],
+  "requests": [
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.6930000,-74.0470000,40.7014000",
+      "bbox_south_west_north_east": [
+        40.693,
+        -74.055,
+        40.7014,
+        -74.047
+      ],
+      "file": "jersey_city_osm_map_0_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:27.961264+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.6930000,-74.0390000,40.7014000",
+      "bbox_south_west_north_east": [
+        40.693,
+        -74.047,
+        40.7014,
+        -74.039
+      ],
+      "file": "jersey_city_osm_map_0_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:28.943969+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.6930000,-74.0310000,40.7014000",
+      "bbox_south_west_north_east": [
+        40.693,
+        -74.039,
+        40.7014,
+        -74.031
+      ],
+      "file": "jersey_city_osm_map_0_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:29.689949+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.6930000,-74.0230000,40.7014000",
+      "bbox_south_west_north_east": [
+        40.693,
+        -74.031,
+        40.7014,
+        -74.023
+      ],
+      "file": "jersey_city_osm_map_0_3.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:30.281043+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7014000,-74.0470000,40.7098000",
+      "bbox_south_west_north_east": [
+        40.7014,
+        -74.055,
+        40.7098,
+        -74.047
+      ],
+      "file": "jersey_city_osm_map_1_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:31.239262+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7014000,-74.0390000,40.7098000",
+      "bbox_south_west_north_east": [
+        40.7014,
+        -74.047,
+        40.7098,
+        -74.039
+      ],
+      "file": "jersey_city_osm_map_1_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:32.254060+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7014000,-74.0310000,40.7098000",
+      "bbox_south_west_north_east": [
+        40.7014,
+        -74.039,
+        40.7098,
+        -74.031
+      ],
+      "file": "jersey_city_osm_map_1_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:33.046868+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7014000,-74.0230000,40.7098000",
+      "bbox_south_west_north_east": [
+        40.7014,
+        -74.031,
+        40.7098,
+        -74.023
+      ],
+      "file": "jersey_city_osm_map_1_3.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:33.615203+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7098000,-74.0470000,40.7182000",
+      "bbox_south_west_north_east": [
+        40.7098,
+        -74.055,
+        40.718199999999996,
+        -74.047
+      ],
+      "file": "jersey_city_osm_map_2_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:35.093134+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7098000,-74.0390000,40.7182000",
+      "bbox_south_west_north_east": [
+        40.7098,
+        -74.047,
+        40.718199999999996,
+        -74.039
+      ],
+      "file": "jersey_city_osm_map_2_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:36.893566+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7098000,-74.0310000,40.7182000",
+      "bbox_south_west_north_east": [
+        40.7098,
+        -74.039,
+        40.718199999999996,
+        -74.031
+      ],
+      "file": "jersey_city_osm_map_2_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:38.963836+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7098000,-74.0230000,40.7182000",
+      "bbox_south_west_north_east": [
+        40.7098,
+        -74.031,
+        40.718199999999996,
+        -74.023
+      ],
+      "file": "jersey_city_osm_map_2_3.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:39.777064+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7182000,-74.0470000,40.7266000",
+      "bbox_south_west_north_east": [
+        40.718199999999996,
+        -74.055,
+        40.7266,
+        -74.047
+      ],
+      "file": "jersey_city_osm_map_3_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:42.123308+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7182000,-74.0390000,40.7266000",
+      "bbox_south_west_north_east": [
+        40.718199999999996,
+        -74.047,
+        40.7266,
+        -74.039
+      ],
+      "file": "jersey_city_osm_map_3_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:44.463881+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7182000,-74.0310000,40.7266000",
+      "bbox_south_west_north_east": [
+        40.718199999999996,
+        -74.039,
+        40.7266,
+        -74.031
+      ],
+      "file": "jersey_city_osm_map_3_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:46.150079+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7182000,-74.0230000,40.7266000",
+      "bbox_south_west_north_east": [
+        40.718199999999996,
+        -74.031,
+        40.7266,
+        -74.023
+      ],
+      "file": "jersey_city_osm_map_3_3.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:46.839259+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7266000,-74.0470000,40.7350000",
+      "bbox_south_west_north_east": [
+        40.7266,
+        -74.055,
+        40.735,
+        -74.047
+      ],
+      "file": "jersey_city_osm_map_4_0.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:48.907064+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7266000,-74.0390000,40.7350000",
+      "bbox_south_west_north_east": [
+        40.7266,
+        -74.047,
+        40.735,
+        -74.039
+      ],
+      "file": "jersey_city_osm_map_4_1.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:50.626850+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7266000,-74.0310000,40.7350000",
+      "bbox_south_west_north_east": [
+        40.7266,
+        -74.039,
+        40.735,
+        -74.031
+      ],
+      "file": "jersey_city_osm_map_4_2.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:52.280432+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7266000,-74.0230000,40.7350000",
+      "bbox_south_west_north_east": [
+        40.7266,
+        -74.031,
+        40.735,
+        -74.023
+      ],
+      "file": "jersey_city_osm_map_4_3.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:19:53.359789+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/8262630/full",
+      "file": "jersey_city_osm_background_relation_8262630.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:22:35.870622+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/2788561/full",
+      "file": "jersey_city_osm_water_relation_2788561.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:25.226895+00:00"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/relation/2389611/full",
+      "file": "jersey_city_osm_water_relation_2389611.xml",
+      "cached_file_mtime_utc": "2026-11-02T20:20:26.275494+00:00"
+    }
+  ],
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "copyright": "https://www.openstreetmap.org/copyright",
+  "license": "ODbL 1.0",
+  "notes": [
+    "Original unmodified responses are the XML tiles. JSON is a derived relevant-object geometry conversion.",
+    "Map API may omit distant members of background relations. Only truly closed available rings are filled.",
+    "Overpass primary endpoint returned an error; kumi mirror timed out; private.coffee status request timed out.",
+    "Map API selects ways touching tiles and may include complete geometry beyond the query extent."
+  ]
+}

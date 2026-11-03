@@ -1,5 +1,9 @@
 # Map credits
 
+Original dataset: NYC Open Data, [Public Restrooms](https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku) (dataset `i7jb-7jku`; listed agency: Mayor’s Office of Operations, with records contributed by city agencies and partner institutions).
+
+Source identification was checked against the official download: 1,057 of the local 1,066 records match by facility name and coordinates, and 585 match across all 14 original fields. The current official export contains 1,100 records and an additional field, so it is not identical to this retained snapshot. The original download URL and snapshot update date are not recorded; the filename date is not a verified update date.
+
 Restroom records: `data_raw/family/Public_Restrooms_20261024.csv`, shared at repository root. The filename date is not a verified data update date. Facility labels do not guarantee current availability; all recorded operational statuses are included.
 
 Borough outlines: NYC Department of City Planning, Borough Boundaries 26b, excluding water. [Official source](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/gthc-hcne). Retrieved 2026-11-02 and simplified at 15 metres for display. The published geometry is `boroughs.geojson` in this folder; the original and metadata remain in shared data.

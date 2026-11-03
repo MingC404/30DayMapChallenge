@@ -1,0 +1,144 @@
+{
+  "locator": {
+    "width": 720,
+    "height": 1120,
+    "bounds": [
+      [
+        -74.10973684210492,
+        40.61828596141447
+      ],
+      [
+        -73.92026315789472,
+        40.8416351978031
+      ]
+    ],
+    "zoom": 11.383636799547986,
+    "features": 942,
+    "tilesLoaded": true
+  },
+  "jersey_city": {
+    "width": 640,
+    "height": 1120,
+    "bounds": [
+      [
+        -74.05807284768252,
+        40.688699532447686
+      ],
+      [
+        -74.01992715231808,
+        40.739298123674246
+      ]
+    ],
+    "zoom": 13.526117118873502,
+    "features": 1265,
+    "tilesLoaded": true
+  },
+  "brooklyn": {
+    "width": 680,
+    "height": 1120,
+    "bounds": [
+      [
+        -74.00661490683164,
+        40.68384508504431
+      ],
+      [
+        -73.983385093167,
+        40.71285268220484
+      ]
+    ],
+    "zoom": 14.329122640468988,
+    "features": 1946,
+    "tilesLoaded": true
+  },
+  "source": {
+    "captured_at_utc": "2026-11-02T21:30:48.967Z",
+    "style": "Day 02 cream-land / baby-blue-water variant of existing light-map recipe; no Day 01 edits",
+    "requests": [
+      {
+        "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm@2x.json",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm@2x.json",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm@2x.json",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm@2x.png",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm@2x.png",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm@2x.png",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/11/602/769.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/13/2410/3080.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/14/4823/6160.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/14/4823/6161.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/14/4824/6160.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/11/603/769.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/13/2410/3079.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/11/602/770.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/13/2411/3080.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/13/2411/3079.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/14/4824/6161.pbf",
+        "status": 200
+      },
+      {
+        "url": "https://tiles.openfreemap.org/planet/20261025_080012_pt/11/603/770.pbf",
+        "status": 200
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source": "OpenFreeMap / OpenMapTiles / OpenStreetMap contributors",
+  "style": "Cool white land, blue-gray water, sage parks",
+  "bounds": [
+    [
+      -74.10973684210471,
+      40.61828596141416
+    ],
+    [
+      -73.92026315789472,
+      40.84163519780256
+    ]
+  ],
+  "camera_preserved_from": "day02_basemap/basemap_manifest.json",
+  "captured_at_utc": "2026-11-03T03:59:26.982Z"
+}

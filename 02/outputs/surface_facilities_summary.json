@@ -1,0 +1,924 @@
+{
+  "jersey_city": {
+    "selected_way_count": 799,
+    "unique_length_m": 58173.33304839346,
+    "surface_valid_single_value_coverage_pct": 60.44801306483711,
+    "surface_informative_including_multimaterial_coverage_pct": 60.44801306483711,
+    "raw_surface_shares": [
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "<missing>",
+        "way_count": 421,
+        "unique_length_m": 23019.847029,
+        "denominator_m": 58173.333048,
+        "length_pct": 39.571133,
+        "material_class": "unknown",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "asphalt",
+        "way_count": 106,
+        "unique_length_m": 10310.09552,
+        "denominator_m": 58173.333048,
+        "length_pct": 17.723061,
+        "material_class": "asphalt",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "compacted",
+        "way_count": 1,
+        "unique_length_m": 29.933296,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.051455,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "concrete",
+        "way_count": 93,
+        "unique_length_m": 7312.634714,
+        "denominator_m": 58173.333048,
+        "length_pct": 12.570424,
+        "material_class": "concrete",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "concrete:plates",
+        "way_count": 3,
+        "unique_length_m": 216.83098,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.372733,
+        "material_class": "concrete",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "dirt",
+        "way_count": 1,
+        "unique_length_m": 90.473323,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.155524,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "fine_gravel",
+        "way_count": 10,
+        "unique_length_m": 816.597705,
+        "denominator_m": 58173.333048,
+        "length_pct": 1.403732,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "grass",
+        "way_count": 2,
+        "unique_length_m": 338.445225,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.581788,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "gravel",
+        "way_count": 5,
+        "unique_length_m": 1119.106337,
+        "denominator_m": 58173.333048,
+        "length_pct": 1.923745,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "paved",
+        "way_count": 19,
+        "unique_length_m": 907.803797,
+        "denominator_m": 58173.333048,
+        "length_pct": 1.560515,
+        "material_class": "paved_unspecified",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "paving_stones",
+        "way_count": 126,
+        "unique_length_m": 12175.99907,
+        "denominator_m": 58173.333048,
+        "length_pct": 20.930551,
+        "material_class": "stone_pavers",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "plastic",
+        "way_count": 1,
+        "unique_length_m": 56.950927,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.097899,
+        "material_class": "other_material",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "rock",
+        "way_count": 1,
+        "unique_length_m": 6.239225,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.010725,
+        "material_class": "other_material",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "sett",
+        "way_count": 2,
+        "unique_length_m": 31.277543,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.053766,
+        "material_class": "stone_pavers",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "jersey_city",
+        "level": "raw_surface",
+        "value": "wood",
+        "way_count": 8,
+        "unique_length_m": 1752.2363,
+        "denominator_m": 58173.333048,
+        "length_pct": 3.012095,
+        "material_class": "other_material",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      }
+    ],
+    "material_class_shares": [
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "asphalt",
+        "way_count": 106,
+        "unique_length_m": 10310.09552,
+        "denominator_m": 58173.333048,
+        "length_pct": 17.723061,
+        "material_class": "asphalt",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "concrete",
+        "way_count": 96,
+        "unique_length_m": 7529.465693,
+        "denominator_m": 58173.333048,
+        "length_pct": 12.943157,
+        "material_class": "concrete",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "stone_pavers",
+        "way_count": 128,
+        "unique_length_m": 12207.276613,
+        "denominator_m": 58173.333048,
+        "length_pct": 20.984317,
+        "material_class": "stone_pavers",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "loose_ground",
+        "way_count": 19,
+        "unique_length_m": 2394.555886,
+        "denominator_m": 58173.333048,
+        "length_pct": 4.116243,
+        "material_class": "loose_ground",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "other_material",
+        "way_count": 10,
+        "unique_length_m": 1815.426452,
+        "denominator_m": 58173.333048,
+        "length_pct": 3.120719,
+        "material_class": "other_material",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "paved_unspecified",
+        "way_count": 19,
+        "unique_length_m": 907.803797,
+        "denominator_m": 58173.333048,
+        "length_pct": 1.560515,
+        "material_class": "paved_unspecified",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "multiple",
+        "way_count": 0,
+        "unique_length_m": 0,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.0,
+        "material_class": "multiple",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "unclassified",
+        "way_count": 0,
+        "unique_length_m": 0,
+        "denominator_m": 58173.333048,
+        "length_pct": 0.0,
+        "material_class": "unclassified",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "jersey_city",
+        "level": "material_class",
+        "value": "unknown",
+        "way_count": 421,
+        "unique_length_m": 23019.847029,
+        "denominator_m": 58173.333048,
+        "length_pct": 39.571133,
+        "material_class": "unknown",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      }
+    ],
+    "raw_value_sum_minus_denominator_m": 11.137942606539582,
+    "facilities": {
+      "original_bbox": {
+        "bench": {
+          "objects": 369,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 359
+        },
+        "drinking_water": {
+          "objects": 4,
+          "explicitly_restricted": 1,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/10940731303",
+              "tags": {
+                "access": "customers"
+              }
+            }
+          ],
+          "permission_unconfirmed": 3
+        },
+        "toilet": {
+          "objects": 9,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 4
+        },
+        "crossing": {
+          "objects": 1408,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 1408
+        },
+        "kerb": {
+          "objects": 45,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 45
+        },
+        "barrier": {
+          "objects": 238,
+          "explicitly_restricted": 14,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/6098579088",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/10171368247",
+              "tags": {
+                "access": "permit"
+              }
+            },
+            {
+              "osm_uid": "node/10171368245",
+              "tags": {
+                "access": "permit"
+              }
+            },
+            {
+              "osm_uid": "node/10171368246",
+              "tags": {
+                "access": "permit"
+              }
+            },
+            {
+              "osm_uid": "node/11026167941",
+              "tags": {
+                "foot": "customers"
+              }
+            },
+            {
+              "osm_uid": "node/3627480210",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6053144488",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/11134331493",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6052012427",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6052012433",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6744030965",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6612957377",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6612957378",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/11951303336",
+              "tags": {
+                "access": "private",
+                "locked": "yes"
+              }
+            }
+          ],
+          "permission_unconfirmed": 221
+        }
+      },
+      "waterfront_selection": {
+        "bench": {
+          "objects": 313,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 303
+        },
+        "drinking_water": {
+          "objects": 3,
+          "explicitly_restricted": 1,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/10940731303",
+              "tags": {
+                "access": "customers"
+              }
+            }
+          ],
+          "permission_unconfirmed": 2
+        },
+        "toilet": {
+          "objects": 6,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 2
+        },
+        "crossing": {
+          "objects": 396,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 396
+        },
+        "kerb": {
+          "objects": 4,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 4
+        },
+        "barrier": {
+          "objects": 65,
+          "explicitly_restricted": 4,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/6098579088",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/11026167941",
+              "tags": {
+                "foot": "customers"
+              }
+            },
+            {
+              "osm_uid": "node/6612957378",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/11951303336",
+              "tags": {
+                "access": "private",
+                "locked": "yes"
+              }
+            }
+          ],
+          "permission_unconfirmed": 60
+        }
+      }
+    },
+    "steps": 11
+  },
+  "brooklyn": {
+    "selected_way_count": 937,
+    "unique_length_m": 32792.525364610796,
+    "surface_valid_single_value_coverage_pct": 89.92415993101147,
+    "surface_informative_including_multimaterial_coverage_pct": 89.9904339746527,
+    "raw_surface_shares": [
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "<missing>",
+        "way_count": 108,
+        "unique_length_m": 3282.389478,
+        "denominator_m": 32792.525365,
+        "length_pct": 10.009566,
+        "material_class": "unknown",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "asphalt",
+        "way_count": 298,
+        "unique_length_m": 6624.279154,
+        "denominator_m": 32792.525365,
+        "length_pct": 20.200576,
+        "material_class": "asphalt",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "asphalt;concrete",
+        "way_count": 1,
+        "unique_length_m": 21.732933,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.066274,
+        "material_class": "multiple",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "compacted",
+        "way_count": 4,
+        "unique_length_m": 90.187344,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.275024,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "concrete",
+        "way_count": 259,
+        "unique_length_m": 11002.148191,
+        "denominator_m": 32792.525365,
+        "length_pct": 33.55078,
+        "material_class": "concrete",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "concrete:plates",
+        "way_count": 124,
+        "unique_length_m": 8020.271267,
+        "denominator_m": 32792.525365,
+        "length_pct": 24.45762,
+        "material_class": "concrete",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "gravel",
+        "way_count": 1,
+        "unique_length_m": 26.080533,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.079532,
+        "material_class": "loose_ground",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "metal",
+        "way_count": 5,
+        "unique_length_m": 31.329337,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.095538,
+        "material_class": "other_material",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "paved",
+        "way_count": 14,
+        "unique_length_m": 1089.928872,
+        "denominator_m": 32792.525365,
+        "length_pct": 3.323711,
+        "material_class": "paved_unspecified",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "paving_stones",
+        "way_count": 103,
+        "unique_length_m": 2219.069914,
+        "denominator_m": 32792.525365,
+        "length_pct": 6.766999,
+        "material_class": "stone_pavers",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "pebblestone",
+        "way_count": 1,
+        "unique_length_m": 24.077303,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.073423,
+        "material_class": "unclassified",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "sett",
+        "way_count": 7,
+        "unique_length_m": 81.918466,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.249808,
+        "material_class": "stone_pavers",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      },
+      {
+        "region": "brooklyn",
+        "level": "raw_surface",
+        "value": "wood",
+        "way_count": 12,
+        "unique_length_m": 279.112574,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.851147,
+        "material_class": "other_material",
+        "note": "Length union within layer/level/bridge/tunnel groups. Raw-value shares may overlap when coincident ways disagree; do not force their sum to 100."
+      }
+    ],
+    "material_class_shares": [
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "asphalt",
+        "way_count": 298,
+        "unique_length_m": 6624.279154,
+        "denominator_m": 32792.525365,
+        "length_pct": 20.200576,
+        "material_class": "asphalt",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "concrete",
+        "way_count": 383,
+        "unique_length_m": 19022.419459,
+        "denominator_m": 32792.525365,
+        "length_pct": 58.008401,
+        "material_class": "concrete",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "stone_pavers",
+        "way_count": 110,
+        "unique_length_m": 2300.988379,
+        "denominator_m": 32792.525365,
+        "length_pct": 7.016808,
+        "material_class": "stone_pavers",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "loose_ground",
+        "way_count": 5,
+        "unique_length_m": 116.267877,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.354556,
+        "material_class": "loose_ground",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "other_material",
+        "way_count": 17,
+        "unique_length_m": 310.441911,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.946685,
+        "material_class": "other_material",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "paved_unspecified",
+        "way_count": 14,
+        "unique_length_m": 1089.928872,
+        "denominator_m": 32792.525365,
+        "length_pct": 3.323711,
+        "material_class": "paved_unspecified",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "multiple",
+        "way_count": 1,
+        "unique_length_m": 21.732933,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.066274,
+        "material_class": "multiple",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "unclassified",
+        "way_count": 1,
+        "unique_length_m": 24.077303,
+        "denominator_m": 32792.525365,
+        "length_pct": 0.073423,
+        "material_class": "unclassified",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      },
+      {
+        "region": "brooklyn",
+        "level": "material_class",
+        "value": "unknown",
+        "way_count": 108,
+        "unique_length_m": 3282.389478,
+        "denominator_m": 32792.525365,
+        "length_pct": 10.009566,
+        "material_class": "unknown",
+        "note": "Categorical material grouping, not smoothness or pushing difficulty. Includes steps in surface statistics; steps are purple on map."
+      }
+    ],
+    "raw_value_sum_minus_denominator_m": 1.3892058632336557e-06,
+    "facilities": {
+      "original_bbox": {
+        "bench": {
+          "objects": 1166,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 1166
+        },
+        "drinking_water": {
+          "objects": 53,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 34
+        },
+        "toilet": {
+          "objects": 21,
+          "explicitly_restricted": 1,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/13745836174",
+              "tags": {
+                "access": "customers"
+              }
+            }
+          ],
+          "permission_unconfirmed": 11
+        },
+        "crossing": {
+          "objects": 992,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 992
+        },
+        "kerb": {
+          "objects": 1774,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 1774
+        },
+        "barrier": {
+          "objects": 2156,
+          "explicitly_restricted": 14,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/42481992",
+              "tags": {
+                "access": "no",
+                "foot": "no"
+              }
+            },
+            {
+              "osm_uid": "node/6285880254",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/10765178607",
+              "tags": {
+                "access": "no"
+              }
+            },
+            {
+              "osm_uid": "node/10766601125",
+              "tags": {
+                "access": "no"
+              }
+            },
+            {
+              "osm_uid": "node/5473303632",
+              "tags": {
+                "access": "destination"
+              }
+            },
+            {
+              "osm_uid": "node/5473303633",
+              "tags": {
+                "access": "private"
+              }
+            },
+            {
+              "osm_uid": "node/6993160946",
+              "tags": {
+                "access": "no"
+              }
+            },
+            {
+              "osm_uid": "node/451029341",
+              "tags": {
+                "foot": "no"
+              }
+            },
+            {
+              "osm_uid": "node/4593915859",
+              "tags": {
+                "access": "no"
+              }
+            },
+            {
+              "osm_uid": "node/8246939450",
+              "tags": {
+                "foot": "private",
+                "locked": "yes"
+              }
+            },
+            {
+              "osm_uid": "node/10001058326",
+              "tags": {
+                "access": "no"
+              }
+            },
+            {
+              "osm_uid": "node/10157372301",
+              "tags": {
+                "foot": "private",
+                "locked": "yes"
+              }
+            },
+            {
+              "osm_uid": "node/13360699045",
+              "tags": {
+                "foot": "private",
+                "locked": "yes"
+              }
+            },
+            {
+              "osm_uid": "node/11543863057",
+              "tags": {
+                "access": "private"
+              }
+            }
+          ],
+          "permission_unconfirmed": 2129
+        }
+      },
+      "waterfront_selection": {
+        "bench": {
+          "objects": 302,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 302
+        },
+        "drinking_water": {
+          "objects": 16,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 13
+        },
+        "toilet": {
+          "objects": 13,
+          "explicitly_restricted": 1,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/13745836174",
+              "tags": {
+                "access": "customers"
+              }
+            }
+          ],
+          "permission_unconfirmed": 5
+        },
+        "crossing": {
+          "objects": 184,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 184
+        },
+        "kerb": {
+          "objects": 324,
+          "explicitly_restricted": 0,
+          "restriction_examples": [],
+          "permission_unconfirmed": 324
+        },
+        "barrier": {
+          "objects": 405,
+          "explicitly_restricted": 1,
+          "restriction_examples": [
+            {
+              "osm_uid": "node/6285880254",
+              "tags": {
+                "access": "private"
+              }
+            }
+          ],
+          "permission_unconfirmed": 395
+        }
+      }
+    },
+    "steps": 48
+  }
+}

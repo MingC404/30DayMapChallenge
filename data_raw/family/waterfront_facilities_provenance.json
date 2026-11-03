@@ -1,0 +1,414 @@
+{
+  "generated_at_utc": "2026-11-02T21:35:35.898817+00:00",
+  "method": "Local XML extraction only; original road selections and XML unchanged. Object identity is OSM type+ID.",
+  "regions": {
+    "jersey_city": {
+      "metadata_file": "jersey_city_metadata.json",
+      "requests": [
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.6930000,-74.0470000,40.7014000",
+          "bbox_south_west_north_east": [
+            40.693,
+            -74.055,
+            40.7014,
+            -74.047
+          ],
+          "file": "jersey_city_osm_map_0_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:27.961264+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.6930000,-74.0390000,40.7014000",
+          "bbox_south_west_north_east": [
+            40.693,
+            -74.047,
+            40.7014,
+            -74.039
+          ],
+          "file": "jersey_city_osm_map_0_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:28.943969+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.6930000,-74.0310000,40.7014000",
+          "bbox_south_west_north_east": [
+            40.693,
+            -74.039,
+            40.7014,
+            -74.031
+          ],
+          "file": "jersey_city_osm_map_0_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:29.689949+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.6930000,-74.0230000,40.7014000",
+          "bbox_south_west_north_east": [
+            40.693,
+            -74.031,
+            40.7014,
+            -74.023
+          ],
+          "file": "jersey_city_osm_map_0_3.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:30.281043+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7014000,-74.0470000,40.7098000",
+          "bbox_south_west_north_east": [
+            40.7014,
+            -74.055,
+            40.7098,
+            -74.047
+          ],
+          "file": "jersey_city_osm_map_1_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:31.239262+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7014000,-74.0390000,40.7098000",
+          "bbox_south_west_north_east": [
+            40.7014,
+            -74.047,
+            40.7098,
+            -74.039
+          ],
+          "file": "jersey_city_osm_map_1_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:32.254060+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7014000,-74.0310000,40.7098000",
+          "bbox_south_west_north_east": [
+            40.7014,
+            -74.039,
+            40.7098,
+            -74.031
+          ],
+          "file": "jersey_city_osm_map_1_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:33.046868+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7014000,-74.0230000,40.7098000",
+          "bbox_south_west_north_east": [
+            40.7014,
+            -74.031,
+            40.7098,
+            -74.023
+          ],
+          "file": "jersey_city_osm_map_1_3.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:33.615203+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7098000,-74.0470000,40.7182000",
+          "bbox_south_west_north_east": [
+            40.7098,
+            -74.055,
+            40.718199999999996,
+            -74.047
+          ],
+          "file": "jersey_city_osm_map_2_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:35.093134+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7098000,-74.0390000,40.7182000",
+          "bbox_south_west_north_east": [
+            40.7098,
+            -74.047,
+            40.718199999999996,
+            -74.039
+          ],
+          "file": "jersey_city_osm_map_2_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:36.893566+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7098000,-74.0310000,40.7182000",
+          "bbox_south_west_north_east": [
+            40.7098,
+            -74.039,
+            40.718199999999996,
+            -74.031
+          ],
+          "file": "jersey_city_osm_map_2_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:38.963836+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7098000,-74.0230000,40.7182000",
+          "bbox_south_west_north_east": [
+            40.7098,
+            -74.031,
+            40.718199999999996,
+            -74.023
+          ],
+          "file": "jersey_city_osm_map_2_3.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:39.777064+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7182000,-74.0470000,40.7266000",
+          "bbox_south_west_north_east": [
+            40.718199999999996,
+            -74.055,
+            40.7266,
+            -74.047
+          ],
+          "file": "jersey_city_osm_map_3_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:42.123308+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7182000,-74.0390000,40.7266000",
+          "bbox_south_west_north_east": [
+            40.718199999999996,
+            -74.047,
+            40.7266,
+            -74.039
+          ],
+          "file": "jersey_city_osm_map_3_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:44.463881+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7182000,-74.0310000,40.7266000",
+          "bbox_south_west_north_east": [
+            40.718199999999996,
+            -74.039,
+            40.7266,
+            -74.031
+          ],
+          "file": "jersey_city_osm_map_3_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:46.150079+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7182000,-74.0230000,40.7266000",
+          "bbox_south_west_north_east": [
+            40.718199999999996,
+            -74.031,
+            40.7266,
+            -74.023
+          ],
+          "file": "jersey_city_osm_map_3_3.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:46.839259+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0550000,40.7266000,-74.0470000,40.7350000",
+          "bbox_south_west_north_east": [
+            40.7266,
+            -74.055,
+            40.735,
+            -74.047
+          ],
+          "file": "jersey_city_osm_map_4_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:48.907064+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0470000,40.7266000,-74.0390000,40.7350000",
+          "bbox_south_west_north_east": [
+            40.7266,
+            -74.047,
+            40.735,
+            -74.039
+          ],
+          "file": "jersey_city_osm_map_4_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:50.626850+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0390000,40.7266000,-74.0310000,40.7350000",
+          "bbox_south_west_north_east": [
+            40.7266,
+            -74.039,
+            40.735,
+            -74.031
+          ],
+          "file": "jersey_city_osm_map_4_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:52.280432+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0310000,40.7266000,-74.0230000,40.7350000",
+          "bbox_south_west_north_east": [
+            40.7266,
+            -74.031,
+            40.735,
+            -74.023
+          ],
+          "file": "jersey_city_osm_map_4_3.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:53.359789+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/relation/8262630/full",
+          "file": "jersey_city_osm_background_relation_8262630.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:22:35.870622+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/relation/2788561/full",
+          "file": "jersey_city_osm_water_relation_2788561.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:25.226895+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/relation/2389611/full",
+          "file": "jersey_city_osm_water_relation_2389611.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:26.275494+00:00"
+        }
+      ],
+      "source_files_sha256": {
+        "jersey_city_osm_map_0_0.xml": "468efe05ab95a932f8c2fb14dbc9f6bd85df5117d54f1d2d1bd8c69c317bd0d0",
+        "jersey_city_osm_map_0_1.xml": "0c53de78aed19692aa434004751e6e6ed4d1dd1bb33321462ea16646e047a2a4",
+        "jersey_city_osm_map_0_2.xml": "2cfde3f70e5cec29a6108208142e610af25b057e44dc1a4d40a9a9c52ea27cce",
+        "jersey_city_osm_map_0_3.xml": "a998ceabe10cc38a36ff5d1fa5b17987f17f19bcfe074b3e996f27fdd305a50f",
+        "jersey_city_osm_map_1_0.xml": "7c0ec3fb9c439f9939ce2f0de963949bb6f84d6144cb12e1f407f7b7f99c05e9",
+        "jersey_city_osm_map_1_1.xml": "b2679a3cc8cb7cc684fd21149bc25f42ada327eaddecd37e04a159478be179c7",
+        "jersey_city_osm_map_1_2.xml": "1264e50c3baaf854ff7bac6f2ff13cd2ed0f8a07f284beac9501bc71a4718a49",
+        "jersey_city_osm_map_1_3.xml": "bd51536957e25577f6790d86b003af9b140eff48947378d401e26075f828d0a2",
+        "jersey_city_osm_map_2_0.xml": "48b8472060d76af3edfc10d3abf67640ba3028003e68e7afa98d758d90932acf",
+        "jersey_city_osm_map_2_1.xml": "49ad3e8dae756ff8b93517a97dc3e3ef6b36ed9411b685b47b7ea9ccc28b0dd2",
+        "jersey_city_osm_map_2_2.xml": "fd3b11c028213e2e22c5768de163d2b7412d933619aed893c108c7170e117d31",
+        "jersey_city_osm_map_2_3.xml": "2bd6a730749392e970bf2ee3abe52cd31fefc62bf1524b302ca1e91008006711",
+        "jersey_city_osm_map_3_0.xml": "31be852131a2ba1033c91f0fd6ea623737fd512476873e5f167b34db5d20d9ae",
+        "jersey_city_osm_map_3_1.xml": "837fdbbb4449469a03c6e3d4615d861e265c7990e144101c1bbd8744f85170bd",
+        "jersey_city_osm_map_3_2.xml": "d487953481c02670ca7641e3a2c31a604ca3b2d7d4cb804556373fb1dd27b5a4",
+        "jersey_city_osm_map_3_3.xml": "019764a03d7ae5888815e52724e60c542aacda6c6250a7ce6bc79dff0350e8bb",
+        "jersey_city_osm_map_4_0.xml": "44912226b29128bf7dc115bfe78634609b90a97aab95cd10280c5912fc59cc46",
+        "jersey_city_osm_map_4_1.xml": "458393a8fe2763907811cce18ad2a352695b7152f7d3e0d0e2aa90523a9030ee",
+        "jersey_city_osm_map_4_2.xml": "11e7b7eb63833ef340fe1b80d9c44c6a754f1895c818625cfe8e8688fc35c045",
+        "jersey_city_osm_map_4_3.xml": "db486613448adb88ec31cf7ea40e69668b61f0e6d7c18dc025ce852cc90b50ff",
+        "jersey_city_osm_background_relation_8262630.xml": "3121b61977fbb93d506fe068fd6a2bdac247c8a2f47d9f0a91ae5f3f527c64c4",
+        "jersey_city_osm_water_relation_2788561.xml": "0c5a31f3fde6d557e6196f910c77e45f0cbcf1548091ea2e0e8f61f0c460537b",
+        "jersey_city_osm_water_relation_2389611.xml": "0f09f034720876ebb4337bbf91018b7e96728526fad227dfe36059b3f0f2b4e8"
+      },
+      "selection_sha256": "b80db9cb4b832e89b9024fdabe262f5b5141e602370548dd8eea762a49f030fb",
+      "path_file_sha256": "443d59b14c3ba541ffc25a34795fa51146a908f3913ebcff5415cd4132b3f846",
+      "output_crs": "WGS84 EPSG:4326, lon/lat",
+      "length_crs": "WGS84 UTM18N EPSG:32618",
+      "attribution": "© OpenStreetMap contributors / ODbL 1.0"
+    },
+    "brooklyn": {
+      "metadata_file": "brooklyn_metadata.json",
+      "requests": [
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0080000,40.6870000,-74.0003333,40.6946667",
+          "bbox_south_west_north_east": [
+            40.687,
+            -74.008,
+            40.69466666666666,
+            -74.00033333333333
+          ],
+          "file": "brooklyn_osm_map_0_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:55.165518+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0003333,40.6870000,-73.9926667,40.6946667",
+          "bbox_south_west_north_east": [
+            40.687,
+            -74.00033333333333,
+            40.69466666666666,
+            -73.99266666666666
+          ],
+          "file": "brooklyn_osm_map_0_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:19:57.800615+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9926667,40.6870000,-73.9850000,40.6946667",
+          "bbox_south_west_north_east": [
+            40.687,
+            -73.99266666666666,
+            40.69466666666666,
+            -73.985
+          ],
+          "file": "brooklyn_osm_map_0_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:00.843439+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0080000,40.6946667,-74.0003333,40.7023333",
+          "bbox_south_west_north_east": [
+            40.69466666666666,
+            -74.008,
+            40.702333333333335,
+            -74.00033333333333
+          ],
+          "file": "brooklyn_osm_map_1_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:01.804473+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0003333,40.6946667,-73.9926667,40.7023333",
+          "bbox_south_west_north_east": [
+            40.69466666666666,
+            -74.00033333333333,
+            40.702333333333335,
+            -73.99266666666666
+          ],
+          "file": "brooklyn_osm_map_1_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:04.007126+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9926667,40.6946667,-73.9850000,40.7023333",
+          "bbox_south_west_north_east": [
+            40.69466666666666,
+            -73.99266666666666,
+            40.702333333333335,
+            -73.985
+          ],
+          "file": "brooklyn_osm_map_1_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:07.272852+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0080000,40.7023333,-74.0003333,40.7100000",
+          "bbox_south_west_north_east": [
+            40.702333333333335,
+            -74.008,
+            40.71,
+            -74.00033333333333
+          ],
+          "file": "brooklyn_osm_map_2_0.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:09.653014+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0003333,40.7023333,-73.9926667,40.7100000",
+          "bbox_south_west_north_east": [
+            40.702333333333335,
+            -74.00033333333333,
+            40.71,
+            -73.99266666666666
+          ],
+          "file": "brooklyn_osm_map_2_1.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:11.271988+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9926667,40.7023333,-73.9850000,40.7100000",
+          "bbox_south_west_north_east": [
+            40.702333333333335,
+            -73.99266666666666,
+            40.71,
+            -73.985
+          ],
+          "file": "brooklyn_osm_map_2_2.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:12.859759+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/relation/2389630/full",
+          "file": "brooklyn_osm_water_relation_2389630.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:28.373612+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/relation/2389633/full",
+          "file": "brooklyn_osm_water_relation_2389633.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:29.282289+00:00"
+        },
+        {
+          "url": "https://api.openstreetmap.org/api/0.6/relation/17310406/full",
+          "file": "brooklyn_osm_water_relation_17310406.xml",
+          "cached_file_mtime_utc": "2026-11-02T20:20:29.668287+00:00"
+        }
+      ],
+      "source_files_sha256": {
+        "brooklyn_osm_map_0_0.xml": "bd59abf1ff940dd2ff430f55a95f4c9593e246650dd06e7ccd061e3ad853bd3f",
+        "brooklyn_osm_map_0_1.xml": "a9e2ac35fd4d56dacd5fd04f6a9c47040f278cd6a262350c069aba9ab16b4c48",
+        "brooklyn_osm_map_0_2.xml": "64646869387a523663022657ca1491c442c223daca9652f89676e1c2e1db5d02",
+        "brooklyn_osm_map_1_0.xml": "44d5bd09cd4db076555d93d6c0b1975e365c3118088f93cad76ea23d03984c60",
+        "brooklyn_osm_map_1_1.xml": "813bfa7d6df47758894aeab5d68dd532d4a547171ba4402a7e713914ddc84fde",
+        "brooklyn_osm_map_1_2.xml": "63b9077b316711e5929f8ec50c9c996138e8e790cd03429a5c6da0394c742f7a",
+        "brooklyn_osm_map_2_0.xml": "b1881e588b5372e84c77bf0f3e809d69bfd689cd5261b0173fc9cb18f7179c8a",
+        "brooklyn_osm_map_2_1.xml": "dfe4394046a9feef48f06e5f9c33012d772b8a18a2ae50c0b0484dae6784a385",
+        "brooklyn_osm_map_2_2.xml": "e7edf945f9498c0f312d2b9e9821d40aeb836ecee4cec26772e3ec0ae0bbd785",
+        "brooklyn_osm_water_relation_2389630.xml": "796166bd6743c11b0674818ecdca7a2d2d59a0f26650dbe6b02ee22e98073344",
+        "brooklyn_osm_water_relation_2389633.xml": "757b199558b0fa0cde720525e131f59562b7e5d8012339311c5b6f3d2ba7fef9",
+        "brooklyn_osm_water_relation_17310406.xml": "bb1263aaa36aba586cb9e9ae246958a476dca17aa61c03acf05b80967c230694"
+      },
+      "selection_sha256": "036088d633161c2771667a0a5e4932ecc01ac69da70d35ecfd549f08bb63a805",
+      "path_file_sha256": "d65852c1b844eecea0f02940aa9a332761d4bf55159cf40b5c2a0c28c86a08b5",
+      "output_crs": "WGS84 EPSG:4326, lon/lat",
+      "length_crs": "WGS84 UTM18N EPSG:32618",
+      "attribution": "© OpenStreetMap contributors / ODbL 1.0"
+    }
+  }
+}

@@ -44,6 +44,6 @@ Export with `--verify-only` to check temporary captures without replacing media.
 
 ## Outputs and publishing
 
-Final HTML, PNG, GIF, audits, export metadata, legacy scatter, and historical versions live in `01/outputs/`. Generation and export synchronize `docs/nyc-changing-stations/`; gallery source is `scripts/maps_index_template.html`. Manual synchronization: `python 01/scripts/prepare_pages.py`. Day-specific settings are in `01/pages_config.json`.
+Current HTML, PNG, GIF, the latest audit (`nyc_changing_station_audit_v4.json`), and export metadata live in `01/outputs/`. Superseded previews, historical explorer backups, older audits, and the unused scatter script/output were removed during pre-commit cleanup. Generation and export synchronize `docs/nyc-changing-stations/`; gallery source is `scripts/maps_index_template.html`. Manual synchronization: `python 01/scripts/prepare_pages.py`. Day-specific settings are in `01/pages_config.json`.
 
 The [public map URL is planned](https://mingc404.github.io/30DayMapChallenge/nyc-changing-stations/); deployment is unconfirmed. When publishing is authorized, GitHub Pages can use `main` and `/docs`. No commit, push, or hosting changes are performed by these scripts.
