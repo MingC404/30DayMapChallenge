@@ -1,0 +1,5305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "official/fec36f46d336c736",
+      "properties": {
+        "id": "official/fec36f46d336c736",
+        "source": "JC Open Data",
+        "name": "CLAREMONT AVENUE PLAYGROUND",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.0757002656043,
+            "lat": 40.70719850749779
+          },
+          "park": "CLAREMONT AVENUE PLAYGROUND",
+          "govt": "PRIVATE",
+          "area": 9945.28,
+          "acre": 0.228,
+          "x": 6.097,
+          "4": 6.828
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.07579899521096,
+              40.70737698493496
+            ],
+            [
+              -74.07546643160663,
+              40.70727453973008
+            ],
+            [
+              -74.07560151272531,
+              40.70702009261536
+            ],
+            [
+              -74.07591202540206,
+              40.70711559378792
+            ],
+            [
+              -74.0759340763663,
+              40.70712236579362
+            ],
+            [
+              -74.07579899521096,
+              40.70737698493496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/d1abea4202a5d2d2",
+      "properties": {
+        "id": "official/d1abea4202a5d2d2",
+        "source": "JC Open Data",
+        "name": "PAVONIA/MARION PLAYGROUND POOL",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.07060139735843,
+            "lat": 40.73492454422242
+          },
+          "park": "PAVONIA/MARION PLAYGROUND POOL",
+          "govt": "CITY",
+          "area": 48139.73,
+          "acre": 1.105,
+          "x": 6.111,
+          "4": 6.929
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "spatial counterpart",
+        "counterpart_ids": "way/798501324"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.07068838271027,
+              40.734627043073914
+            ],
+            [
+              -74.07083903069865,
+              40.73438346912331
+            ],
+            [
+              -74.07101493550984,
+              40.734421180631564
+            ],
+            [
+              -74.07119106615822,
+              40.734458892710734
+            ],
+            [
+              -74.07101489255433,
+              40.734743890478875
+            ],
+            [
+              -74.07097660240974,
+              40.73480602558874
+            ],
+            [
+              -74.0709380866718,
+              40.73486815975871
+            ],
+            [
+              -74.07089979748649,
+              40.73493012320528
+            ],
+            [
+              -74.07086128160418,
+              40.7349922574354
+            ],
+            [
+              -74.07082299117329,
+              40.735054392402354
+            ],
+            [
+              -74.07078447514708,
+              40.7351165266048
+            ],
+            [
+              -74.07074618567528,
+              40.735178489996294
+            ],
+            [
+              -74.07070766950582,
+              40.73524062408321
+            ],
+            [
+              -74.07066937878747,
+              40.73530275908294
+            ],
+            [
+              -74.0706308624741,
+              40.735364893142155
+            ],
+            [
+              -74.07046771894001,
+              40.73530646943128
+            ],
+            [
+              -74.07038603402471,
+              40.73527734284414
+            ],
+            [
+              -74.07030435016934,
+              40.73524804465109
+            ],
+            [
+              -74.07026605907316,
+              40.735310179427174
+            ],
+            [
+              -74.0701843753466,
+              40.73528088114987
+            ],
+            [
+              -74.07010269058785,
+              40.735251754362864
+            ],
+            [
+              -74.0700210068897,
+              40.73522245596994
+            ],
+            [
+              -74.06993932227444,
+              40.73519332906775
+            ],
+            [
+              -74.06997783912941,
+              40.73513119515235
+            ],
+            [
+              -74.07001613038882,
+              40.735069060470764
+            ],
+            [
+              -74.07003527549747,
+              40.735038078855084
+            ],
+            [
+              -74.07005464709931,
+              40.735006926615526
+            ],
+            [
+              -74.07009293711154,
+              40.73494496336649
+            ],
+            [
+              -74.07013145367821,
+              40.73488282948354
+            ],
+            [
+              -74.07045773837355,
+              40.734999677621325
+            ],
+            [
+              -74.07049625463391,
+              40.73493754361569
+            ],
+            [
+              -74.0705347708222,
+              40.73487540959618
+            ],
+            [
+              -74.07055391551923,
+              40.73484442789149
+            ],
+            [
+              -74.070573286939,
+              40.73481327547494
+            ],
+            [
+              -74.07061157635837,
+              40.73475131213661
+            ],
+            [
+              -74.0706500923308,
+              40.734689178075534
+            ],
+            [
+              -74.07068838271027,
+              40.734627043073914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/a6898bfba44a598b",
+      "properties": {
+        "id": "official/a6898bfba44a598b",
+        "source": "JC Open Data",
+        "name": "FIRST STREET PLAYGROUND",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.05164023272543,
+            "lat": 40.72282882922412
+          },
+          "park": "FIRST STREET PLAYGROUND",
+          "govt": "CITY",
+          "area": 5457.96,
+          "acre": 0.125,
+          "x": 6.163,
+          "4": 6.885
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.05167981284708,
+              40.722976644638756
+            ],
+            [
+              -74.0516143352321,
+              40.722956052537725
+            ],
+            [
+              -74.05156253701853,
+              40.72293972232824
+            ],
+            [
+              -74.05154661528542,
+              40.722934750458116
+            ],
+            [
+              -74.05154663797029,
+              40.722934708587836
+            ],
+            [
+              -74.05147979438291,
+              40.722913629533224
+            ],
+            [
+              -74.05161418885743,
+              40.72266642827703
+            ],
+            [
+              -74.0516747252196,
+              40.72269829245688
+            ],
+            [
+              -74.05173548411223,
+              40.72273033051465
+            ],
+            [
+              -74.05179624306325,
+              40.722762368540586
+            ],
+            [
+              -74.05167981284708,
+              40.722976644638756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/c1ca6a0de3b9b114",
+      "properties": {
+        "id": "official/c1ca6a0de3b9b114",
+        "source": "JC Open Data",
+        "name": "PAT DeANGELO PLAYGROUND",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.0494589951141,
+            "lat": 40.72643737777658
+          },
+          "park": "PAT DeANGELO PLAYGROUND",
+          "govt": "PRIVATE",
+          "area": 2670.77,
+          "acre": 0.061,
+          "x": 6.169,
+          "4": 6.898
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.04958593091138,
+              40.72649759221268
+            ],
+            [
+              -74.04931705056563,
+              40.72647423942918
+            ],
+            [
+              -74.04933161102953,
+              40.72637754813086
+            ],
+            [
+              -74.04960061678217,
+              40.726400065522476
+            ],
+            [
+              -74.04958593091138,
+              40.72649759221268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/07318f41bec43388",
+      "properties": {
+        "id": "official/07318f41bec43388",
+        "source": "JC Open Data",
+        "name": "SIXTEENTH STREET PLAYGROUND",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.0422250174482,
+            "lat": 40.732915090391444
+          },
+          "park": "SIXTEENTH STREET PLAYGROUND",
+          "govt": "CITY",
+          "area": 20007.63,
+          "acre": 0.459,
+          "x": 6.189,
+          "4": 6.922
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.04244101042865,
+              40.73312546066197
+            ],
+            [
+              -74.04208286322924,
+              40.73309195813128
+            ],
+            [
+              -74.04199315761596,
+              40.733083538745205
+            ],
+            [
+              -74.04190367648016,
+              40.73307529173231
+            ],
+            [
+              -74.04194772121429,
+              40.73280268140649
+            ],
+            [
+              -74.04203720093017,
+              40.732811099931475
+            ],
+            [
+              -74.04212690606825,
+              40.732819519281314
+            ],
+            [
+              -74.042137747319,
+              40.73275145184579
+            ],
+            [
+              -74.0421488152376,
+              40.732683213667706
+            ],
+            [
+              -74.04250696028208,
+              40.73271671598454
+            ],
+            [
+              -74.04249611941266,
+              40.73278478354504
+            ],
+            [
+              -74.0424850518308,
+              40.73285302175704
+            ],
+            [
+              -74.04247398540139,
+              40.7329210883319
+            ],
+            [
+              -74.04246314446326,
+              40.73298915588653
+            ],
+            [
+              -74.04245207798772,
+              40.73305722245744
+            ],
+            [
+              -74.04244101042865,
+              40.73312546066197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/159a5f5fb547294e",
+      "properties": {
+        "id": "official/159a5f5fb547294e",
+        "source": "JC Open Data",
+        "name": "EGE AVENUE PLAYGROUND",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.08625895333087,
+            "lat": 40.71571788666441
+          },
+          "park": "EGE AVENUE PLAYGROUND",
+          "govt": "PRIVATE",
+          "area": 7311.84,
+          "acre": 0.168,
+          "x": 6.068,
+          "4": 6.859
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.08636944244495,
+              40.71582022714949
+            ],
+            [
+              -74.08630487477608,
+              40.71586974919863
+            ],
+            [
+              -74.08603539972198,
+              40.71572878723966
+            ],
+            [
+              -74.08608648272973,
+              40.715672182892234
+            ],
+            [
+              -74.08613756565073,
+              40.715615578521216
+            ],
+            [
+              -74.08618864742336,
+              40.71555914558761
+            ],
+            [
+              -74.0864988021232,
+              40.715721355297454
+            ],
+            [
+              -74.08643423453029,
+              40.71577087742032
+            ],
+            [
+              -74.08636944244495,
+              40.71582022714949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/b93ab24316ab70c6",
+      "properties": {
+        "id": "official/b93ab24316ab70c6",
+        "source": "JC Open Data",
+        "name": "WAYNE STREET PLAYGROUND",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.04606161203758,
+            "lat": 40.71989813796251
+          },
+          "park": "WAYNE STREET PLAYGROUND",
+          "govt": "CITY",
+          "area": 9990.11,
+          "acre": 0.229,
+          "x": 6.179,
+          "4": 6.874
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0461598651656,
+              40.72007716193676
+            ],
+            [
+              -74.04607638470041,
+              40.72005109916754
+            ],
+            [
+              -74.04599312977224,
+              40.720025037224985
+            ],
+            [
+              -74.04590964932268,
+              40.719998974335205
+            ],
+            [
+              -74.04582639452481,
+              40.719972912360674
+            ],
+            [
+              -74.04596318802089,
+              40.719719193534154
+            ],
+            [
+              -74.04604666802771,
+              40.719745256384286
+            ],
+            [
+              -74.04612992391017,
+              40.7197711467404
+            ],
+            [
+              -74.04621340404844,
+              40.71979720938256
+            ],
+            [
+              -74.04629688425172,
+              40.71982327205243
+            ],
+            [
+              -74.0461598651656,
+              40.72007716193676
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "official/a5bada6b72ac901c",
+      "properties": {
+        "id": "official/a5bada6b72ac901c",
+        "source": "JC Open Data",
+        "name": "PAVONIA/MARION PLAYGROUND POOL",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "geo_point_2d": {
+            "lon": -74.07110559729257,
+            "lat": 40.733929470350475
+          },
+          "park": "PAVONIA/MARION PLAYGROUND POOL",
+          "govt": "CITY",
+          "area": 48455.28,
+          "acre": 1.112,
+          "x": 6.109,
+          "4": 6.925
+        },
+        "id_method": "export feature ID or content SHA256 (not invented municipal ID)",
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.07128066687717,
+              40.73430431611905
+            ],
+            [
+              -74.07092897417337,
+              40.73422801881512
+            ],
+            [
+              -74.0708413502784,
+              40.734209131513104
+            ],
+            [
+              -74.0707532864611,
+              40.73419010373751
+            ],
+            [
+              -74.07066544821502,
+              40.734171076645914
+            ],
+            [
+              -74.07056815084474,
+              40.73414995558345
+            ],
+            [
+              -74.07075754238477,
+              40.73384373376448
+            ],
+            [
+              -74.0707575820577,
+              40.73384366978861
+            ],
+            [
+              -74.07079605769108,
+              40.73378159964159
+            ],
+            [
+              -74.0708343474075,
+              40.73371946457848
+            ],
+            [
+              -74.07087286256993,
+              40.733657330427896
+            ],
+            [
+              -74.0709111510402,
+              40.733595366973056
+            ],
+            [
+              -74.07094966617487,
+              40.73353323270739
+            ],
+            [
+              -74.0712847215978,
+              40.73365319932991
+            ],
+            [
+              -74.07130774037374,
+              40.733615884104374
+            ],
+            [
+              -74.07163447202261,
+              40.733732730595754
+            ],
+            [
+              -74.0715729398294,
+              40.73383200873696
+            ],
+            [
+              -74.07153465073254,
+              40.733894144047
+            ],
+            [
+              -74.07149613604541,
+              40.733956278418255
+            ],
+            [
+              -74.07145784680507,
+              40.73401841370076
+            ],
+            [
+              -74.07141933307486,
+              40.73408037649639
+            ],
+            [
+              -74.07128066687717,
+              40.73430431611905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354394026",
+      "properties": {
+        "id": "way/354394026",
+        "source": "OSM",
+        "name": "Wildlife Challenge",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "leisure": "playground",
+          "name": "Wildlife Challenge"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-12-09T00:04:58Z",
+        "osm_version": 4,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.054088,
+              40.707718
+            ],
+            [
+              -74.0540505,
+              40.7077241
+            ],
+            [
+              -74.0539432,
+              40.7077953
+            ],
+            [
+              -74.053852,
+              40.7078868
+            ],
+            [
+              -74.0537876,
+              40.7080027
+            ],
+            [
+              -74.0537957,
+              40.7081064
+            ],
+            [
+              -74.0538654,
+              40.7081796
+            ],
+            [
+              -74.0539137,
+              40.7081816
+            ],
+            [
+              -74.0539989,
+              40.7081591
+            ],
+            [
+              -74.0540276,
+              40.7082149
+            ],
+            [
+              -74.0542757,
+              40.7081399
+            ],
+            [
+              -74.0542503,
+              40.7080916
+            ],
+            [
+              -74.0542362,
+              40.7080959
+            ],
+            [
+              -74.0541507,
+              40.7079332
+            ],
+            [
+              -74.054223,
+              40.7079114
+            ],
+            [
+              -74.0541846,
+              40.707838
+            ],
+            [
+              -74.0541336,
+              40.7077424
+            ],
+            [
+              -74.054088,
+              40.707718
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6780805083",
+      "properties": {
+        "id": "node/6780805083",
+        "source": "OSM",
+        "name": "Liberty State Park Playground",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "name": "Liberty State Park Playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-06-27T22:47:29Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0443149,
+          40.7051469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/77705617",
+      "properties": {
+        "id": "way/77705617",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "survey:date": "2021-12-19"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-12-19T19:03:17Z",
+        "osm_version": 4,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0447988,
+              40.7050987
+            ],
+            [
+              -74.0443674,
+              40.7048496
+            ],
+            [
+              -74.0446962,
+              40.7045225
+            ],
+            [
+              -74.0451275,
+              40.7047717
+            ],
+            [
+              -74.0450186,
+              40.70488
+            ],
+            [
+              -74.0447988,
+              40.7050987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6579197132",
+      "properties": {
+        "id": "node/6579197132",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2019-06-29T23:03:20Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.039068,
+          40.7113929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/741915620",
+      "properties": {
+        "id": "way/741915620",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-03-11T17:10:07Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0467344,
+              40.7179201
+            ],
+            [
+              -74.0468023,
+              40.7177823
+            ],
+            [
+              -74.0466497,
+              40.7176988
+            ],
+            [
+              -74.0466056,
+              40.7176445
+            ],
+            [
+              -74.0464963,
+              40.7178415
+            ],
+            [
+              -74.0467344,
+              40.7179201
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1051663928",
+      "properties": {
+        "id": "way/1051663928",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "playground:theme": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-07-13T00:02:16Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0449576,
+              40.7150051
+            ],
+            [
+              -74.0448377,
+              40.7150729
+            ],
+            [
+              -74.0447879,
+              40.7150698
+            ],
+            [
+              -74.0447229,
+              40.7150074
+            ],
+            [
+              -74.0447544,
+              40.7148402
+            ],
+            [
+              -74.0447798,
+              40.7148279
+            ],
+            [
+              -74.0449719,
+              40.7148495
+            ],
+            [
+              -74.0449871,
+              40.7148649
+            ],
+            [
+              -74.0449576,
+              40.7150051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1083576828",
+      "properties": {
+        "id": "way/1083576828",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-08-03T18:09:49Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0418249,
+              40.7161131
+            ],
+            [
+              -74.0419626,
+              40.7161283
+            ],
+            [
+              -74.0419006,
+              40.71645
+            ],
+            [
+              -74.0417628,
+              40.7164347
+            ],
+            [
+              -74.0418249,
+              40.7161131
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469608908",
+      "properties": {
+        "id": "way/469608908",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2025-04-24T22:42:12Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0363822,
+              40.7125199
+            ],
+            [
+              -74.0363332,
+              40.7127412
+            ],
+            [
+              -74.0363028,
+              40.7127474
+            ],
+            [
+              -74.0361394,
+              40.7125252
+            ],
+            [
+              -74.0361931,
+              40.7124943
+            ],
+            [
+              -74.0363822,
+              40.7125199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1051665611",
+      "properties": {
+        "id": "way/1051665611",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-07-20T11:59:51Z",
+        "osm_version": 4,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0382065,
+              40.715273
+            ],
+            [
+              -74.037963,
+              40.7152464
+            ],
+            [
+              -74.0379627,
+              40.7151892
+            ],
+            [
+              -74.0379237,
+              40.7151479
+            ],
+            [
+              -74.0378495,
+              40.7151314
+            ],
+            [
+              -74.0378924,
+              40.7149417
+            ],
+            [
+              -74.0379181,
+              40.7149445
+            ],
+            [
+              -74.0382608,
+              40.7149871
+            ],
+            [
+              -74.0382065,
+              40.715273
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1218901025",
+      "properties": {
+        "id": "way/1218901025",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-03-16T19:02:54Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0325401,
+              40.7165895
+            ],
+            [
+              -74.0325451,
+              40.7165495
+            ],
+            [
+              -74.0323028,
+              40.7165195
+            ],
+            [
+              -74.0322825,
+              40.7165609
+            ],
+            [
+              -74.0322959,
+              40.7165848
+            ],
+            [
+              -74.0323098,
+              40.716573
+            ],
+            [
+              -74.0323312,
+              40.7165679
+            ],
+            [
+              -74.0325401,
+              40.7165895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/468563304",
+      "properties": {
+        "id": "way/468563304",
+        "source": "OSM",
+        "name": "Villa Borinquen playground",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "Villa Borinquen playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-24T23:49:47Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0419105,
+              40.7242604
+            ],
+            [
+              -74.0411827,
+              40.7241859
+            ],
+            [
+              -74.0412318,
+              40.7239101
+            ],
+            [
+              -74.0419597,
+              40.7239846
+            ],
+            [
+              -74.0419105,
+              40.7242604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/957044523",
+      "properties": {
+        "id": "way/957044523",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-06-22T06:46:43Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0393129,
+              40.7190934
+            ],
+            [
+              -74.0393207,
+              40.7190766
+            ],
+            [
+              -74.0393239,
+              40.7190681
+            ],
+            [
+              -74.0393274,
+              40.7190514
+            ],
+            [
+              -74.0393282,
+              40.7190341
+            ],
+            [
+              -74.039325,
+              40.7190148
+            ],
+            [
+              -74.0393189,
+              40.7189961
+            ],
+            [
+              -74.0393101,
+              40.7189806
+            ],
+            [
+              -74.0392987,
+              40.7189647
+            ],
+            [
+              -74.0392833,
+              40.7189513
+            ],
+            [
+              -74.0392624,
+              40.7189374
+            ],
+            [
+              -74.0392407,
+              40.7189282
+            ],
+            [
+              -74.0392158,
+              40.7189184
+            ],
+            [
+              -74.0391985,
+              40.7189126
+            ],
+            [
+              -74.0391553,
+              40.7189941
+            ],
+            [
+              -74.039147,
+              40.7190115
+            ],
+            [
+              -74.0391542,
+              40.7190137
+            ],
+            [
+              -74.0391403,
+              40.7190398
+            ],
+            [
+              -74.0391673,
+              40.719048
+            ],
+            [
+              -74.0391698,
+              40.7190432
+            ],
+            [
+              -74.0391814,
+              40.7190468
+            ],
+            [
+              -74.0391789,
+              40.7190514
+            ],
+            [
+              -74.0392103,
+              40.7190611
+            ],
+            [
+              -74.0392129,
+              40.7190564
+            ],
+            [
+              -74.0392226,
+              40.7190595
+            ],
+            [
+              -74.0392204,
+              40.7190636
+            ],
+            [
+              -74.0393129,
+              40.7190934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1384195825",
+      "properties": {
+        "id": "way/1384195825",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2025-05-07T01:23:30Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0335634,
+              40.7218227
+            ],
+            [
+              -74.0336971,
+              40.7218328
+            ],
+            [
+              -74.0336827,
+              40.7219256
+            ],
+            [
+              -74.0337464,
+              40.7219312
+            ],
+            [
+              -74.0337275,
+              40.7220071
+            ],
+            [
+              -74.0335377,
+              40.7219929
+            ],
+            [
+              -74.0335634,
+              40.7218227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469554020",
+      "properties": {
+        "id": "way/469554020",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "wheelchair": "limited"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-11-29T18:53:09Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0503425,
+              40.7283546
+            ],
+            [
+              -74.0503085,
+              40.7283655
+            ],
+            [
+              -74.0502716,
+              40.7283674
+            ],
+            [
+              -74.0502361,
+              40.7283601
+            ],
+            [
+              -74.0502056,
+              40.7283446
+            ],
+            [
+              -74.0501834,
+              40.7283224
+            ],
+            [
+              -74.050172,
+              40.7282959
+            ],
+            [
+              -74.0501724,
+              40.728268
+            ],
+            [
+              -74.0501847,
+              40.7282418
+            ],
+            [
+              -74.0502076,
+              40.72822
+            ],
+            [
+              -74.0502386,
+              40.728205
+            ],
+            [
+              -74.0502743,
+              40.7281984
+            ],
+            [
+              -74.0503109,
+              40.7282009
+            ],
+            [
+              -74.0503445,
+              40.7282123
+            ],
+            [
+              -74.0503714,
+              40.7282315
+            ],
+            [
+              -74.0503887,
+              40.7282562
+            ],
+            [
+              -74.0503919,
+              40.7282717
+            ],
+            [
+              -74.0503945,
+              40.7282839
+            ],
+            [
+              -74.050388,
+              40.7283114
+            ],
+            [
+              -74.05037,
+              40.7283359
+            ],
+            [
+              -74.0503425,
+              40.7283546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469610934",
+      "properties": {
+        "id": "way/469610934",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T05:06:13Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0544445,
+              40.7313072
+            ],
+            [
+              -74.0545174,
+              40.7312544
+            ],
+            [
+              -74.0545107,
+              40.7312381
+            ],
+            [
+              -74.0544946,
+              40.7312208
+            ],
+            [
+              -74.0544731,
+              40.7312035
+            ],
+            [
+              -74.0544973,
+              40.7311863
+            ],
+            [
+              -74.0544745,
+              40.7311659
+            ],
+            [
+              -74.0544476,
+              40.7311802
+            ],
+            [
+              -74.0544154,
+              40.7311568
+            ],
+            [
+              -74.0543725,
+              40.7311568
+            ],
+            [
+              -74.0543162,
+              40.7312025
+            ],
+            [
+              -74.0543242,
+              40.7312259
+            ],
+            [
+              -74.0543524,
+              40.7312493
+            ],
+            [
+              -74.0543229,
+              40.7312726
+            ],
+            [
+              -74.0543551,
+              40.731292
+            ],
+            [
+              -74.0543833,
+              40.7312777
+            ],
+            [
+              -74.0544141,
+              40.7313031
+            ],
+            [
+              -74.0544445,
+              40.7313072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469610935",
+      "properties": {
+        "id": "way/469610935",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T05:06:14Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0542007,
+              40.7311168
+            ],
+            [
+              -74.0542668,
+              40.7310644
+            ],
+            [
+              -74.0542617,
+              40.7310259
+            ],
+            [
+              -74.0541946,
+              40.7309782
+            ],
+            [
+              -74.054159,
+              40.7309782
+            ],
+            [
+              -74.0540879,
+              40.7310329
+            ],
+            [
+              -74.0540869,
+              40.7310613
+            ],
+            [
+              -74.054159,
+              40.7311168
+            ],
+            [
+              -74.0542007,
+              40.7311168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469610947",
+      "properties": {
+        "id": "way/469610947",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T05:06:14Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0542472,
+              40.7311502
+            ],
+            [
+              -74.0542572,
+              40.7311596
+            ],
+            [
+              -74.0542709,
+              40.7311658
+            ],
+            [
+              -74.0542865,
+              40.7311682
+            ],
+            [
+              -74.054301,
+              40.7311667
+            ],
+            [
+              -74.0543142,
+              40.7311619
+            ],
+            [
+              -74.0543247,
+              40.7311543
+            ],
+            [
+              -74.0543317,
+              40.7311445
+            ],
+            [
+              -74.0543342,
+              40.7311336
+            ],
+            [
+              -74.0543322,
+              40.7311226
+            ],
+            [
+              -74.0543258,
+              40.7311127
+            ],
+            [
+              -74.0543156,
+              40.7311047
+            ],
+            [
+              -74.0543026,
+              40.7310996
+            ],
+            [
+              -74.0542869,
+              40.7310977
+            ],
+            [
+              -74.0542713,
+              40.7311
+            ],
+            [
+              -74.0542576,
+              40.7311062
+            ],
+            [
+              -74.0542474,
+              40.7311154
+            ],
+            [
+              -74.054242,
+              40.7311268
+            ],
+            [
+              -74.0542419,
+              40.7311388
+            ],
+            [
+              -74.0542472,
+              40.7311502
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1235042851",
+      "properties": {
+        "id": "node/1235042851",
+        "source": "OSM",
+        "name": "Hamilton Park Playground",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "Hamilton Park Playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2011-04-06T19:27:49Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0453711,
+          40.7282363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/470446463",
+      "properties": {
+        "id": "way/470446463",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-09-13T07:06:12Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0450904,
+              40.7278337
+            ],
+            [
+              -74.0450167,
+              40.728322
+            ],
+            [
+              -74.0454627,
+              40.7283566
+            ],
+            [
+              -74.0454713,
+              40.7283511
+            ],
+            [
+              -74.0454612,
+              40.7283426
+            ],
+            [
+              -74.0454848,
+              40.7283265
+            ],
+            [
+              -74.0454906,
+              40.7283338
+            ],
+            [
+              -74.0455394,
+              40.7283336
+            ],
+            [
+              -74.0455517,
+              40.728324
+            ],
+            [
+              -74.0455578,
+              40.728288
+            ],
+            [
+              -74.0455395,
+              40.7282566
+            ],
+            [
+              -74.0455448,
+              40.7282043
+            ],
+            [
+              -74.0455525,
+              40.7281296
+            ],
+            [
+              -74.0452081,
+              40.7278049
+            ],
+            [
+              -74.0451512,
+              40.7278253
+            ],
+            [
+              -74.0450904,
+              40.7278337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469557168",
+      "properties": {
+        "id": "way/469557168",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-30T05:49:11Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0322153,
+              40.7316269
+            ],
+            [
+              -74.0318974,
+              40.7315273
+            ],
+            [
+              -74.031821,
+              40.7315039
+            ],
+            [
+              -74.031772,
+              40.7315085
+            ],
+            [
+              -74.0317448,
+              40.731527
+            ],
+            [
+              -74.0317284,
+              40.7315476
+            ],
+            [
+              -74.0316855,
+              40.7318281
+            ],
+            [
+              -74.0322622,
+              40.7318799
+            ],
+            [
+              -74.0322957,
+              40.731635
+            ],
+            [
+              -74.0322507,
+              40.7316304
+            ],
+            [
+              -74.0322153,
+              40.7316269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4987027881",
+      "properties": {
+        "id": "node/4987027881",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "playground": "structure"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-07-22T18:38:19Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05174,
+          40.7415474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6945365356",
+      "properties": {
+        "id": "node/6945365356",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "baby": "yes",
+          "playground": "swing",
+          "wheelchair": "no"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2019-11-04T14:11:16Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0476841,
+          40.7179832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6945365359",
+      "properties": {
+        "id": "node/6945365359",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "baby": "no",
+          "playground": "swing",
+          "wheelchair": "no"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2019-11-04T14:11:16Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0475695,
+          40.7179462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8676357082",
+      "properties": {
+        "id": "node/8676357082",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "map"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-04-28T12:59:13Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0979179,
+          40.6939933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8676358900",
+      "properties": {
+        "id": "node/8676358900",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "map"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-04-28T12:59:13Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0775962,
+          40.7047515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11836274078",
+      "properties": {
+        "id": "node/11836274078",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "playhouse"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-04-22T02:17:00Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/264155166",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0431843,
+          40.7453382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11878484454",
+      "properties": {
+        "id": "node/11878484454",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "stepping_stone"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/354426521",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0685021,
+          40.7121236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11878484465",
+      "properties": {
+        "id": "node/11878484465",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "springy"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/354426521",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0683893,
+          40.7124222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11878484512",
+      "properties": {
+        "id": "node/11878484512",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "slide"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/576931759",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0622642,
+          40.7141226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11878484513",
+      "properties": {
+        "id": "node/11878484513",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "slide"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/576931759",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0623904,
+          40.7141461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11878484562",
+      "properties": {
+        "id": "node/11878484562",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "monkey_bars"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/1279587376",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0703486,
+          40.714738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/225187581",
+      "properties": {
+        "id": "way/225187581",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2013-06-11T00:38:18Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1055725,
+              40.7042254
+            ],
+            [
+              -74.1057423,
+              40.7041652
+            ],
+            [
+              -74.105749,
+              40.704176
+            ],
+            [
+              -74.1058089,
+              40.7042729
+            ],
+            [
+              -74.1057625,
+              40.7042894
+            ],
+            [
+              -74.105639,
+              40.7043332
+            ],
+            [
+              -74.1056311,
+              40.7043204
+            ],
+            [
+              -74.1055725,
+              40.7042254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/264155166",
+      "properties": {
+        "id": "way/264155166",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "survey:date": "2021-12-19"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-10-01T00:37:56Z",
+        "osm_version": 5,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0432472,
+              40.7453708
+            ],
+            [
+              -74.0432583,
+              40.7453227
+            ],
+            [
+              -74.0432322,
+              40.7452601
+            ],
+            [
+              -74.0431922,
+              40.7452042
+            ],
+            [
+              -74.0431046,
+              40.7451043
+            ],
+            [
+              -74.043078,
+              40.7450889
+            ],
+            [
+              -74.0430276,
+              40.7450963
+            ],
+            [
+              -74.0429099,
+              40.7450748
+            ],
+            [
+              -74.0427887,
+              40.7451298
+            ],
+            [
+              -74.0427816,
+              40.745176
+            ],
+            [
+              -74.0428064,
+              40.7452129
+            ],
+            [
+              -74.0429241,
+              40.7452551
+            ],
+            [
+              -74.042997,
+              40.7452526
+            ],
+            [
+              -74.0430667,
+              40.7452983
+            ],
+            [
+              -74.043083,
+              40.7453307
+            ],
+            [
+              -74.0432193,
+              40.7453822
+            ],
+            [
+              -74.0432472,
+              40.7453708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354382740",
+      "properties": {
+        "id": "way/354382740",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "survey:date": "2021-12-19"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-12-19T19:03:05Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0570331,
+              40.6921811
+            ],
+            [
+              -74.0569452,
+              40.6923101
+            ],
+            [
+              -74.0570968,
+              40.6923695
+            ],
+            [
+              -74.0571847,
+              40.6922404
+            ],
+            [
+              -74.0570331,
+              40.6921811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354423618",
+      "properties": {
+        "id": "way/354423618",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-07-19T01:43:10Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0589507,
+              40.712909
+            ],
+            [
+              -74.0588984,
+              40.7129324
+            ],
+            [
+              -74.0588326,
+              40.7129415
+            ],
+            [
+              -74.0587602,
+              40.7129293
+            ],
+            [
+              -74.0587039,
+              40.7129029
+            ],
+            [
+              -74.0586637,
+              40.7128612
+            ],
+            [
+              -74.0586422,
+              40.7128175
+            ],
+            [
+              -74.0586409,
+              40.7127748
+            ],
+            [
+              -74.0586476,
+              40.7127311
+            ],
+            [
+              -74.0586771,
+              40.7126914
+            ],
+            [
+              -74.0589507,
+              40.712909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354426518",
+      "properties": {
+        "id": "way/354426518",
+        "source": "OSM",
+        "name": "spray park",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "spray park",
+          "playground": "splash_pad"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-12-19T14:14:38Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0685681,
+              40.7119202
+            ],
+            [
+              -74.0687062,
+              40.7119754
+            ],
+            [
+              -74.0689002,
+              40.7116966
+            ],
+            [
+              -74.068762,
+              40.7116414
+            ],
+            [
+              -74.0685681,
+              40.7119202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354426521",
+      "properties": {
+        "id": "way/354426521",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2015-06-18T03:04:00Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0683222,
+              40.7125632
+            ],
+            [
+              -74.0686338,
+              40.7121195
+            ],
+            [
+              -74.0684501,
+              40.7120455
+            ],
+            [
+              -74.0681387,
+              40.7124891
+            ],
+            [
+              -74.0683222,
+              40.7125632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354429486",
+      "properties": {
+        "id": "way/354429486",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2015-06-18T03:35:37Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.102268,
+              40.6968352
+            ],
+            [
+              -74.1021266,
+              40.6967706
+            ],
+            [
+              -74.1019463,
+              40.6969756
+            ],
+            [
+              -74.1019783,
+              40.6969948
+            ],
+            [
+              -74.1019984,
+              40.6970772
+            ],
+            [
+              -74.1020561,
+              40.6970924
+            ],
+            [
+              -74.1021057,
+              40.6970802
+            ],
+            [
+              -74.1022358,
+              40.6970599
+            ],
+            [
+              -74.102386,
+              40.6969002
+            ],
+            [
+              -74.102268,
+              40.6968352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/413233046",
+      "properties": {
+        "id": "way/413233046",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "area": "yes",
+          "playground": "swing"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-09-09T23:03:51Z",
+        "osm_version": 2,
+        "containing_site_ids": "way/1093180997",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0818599,
+              40.7226761
+            ],
+            [
+              -74.0817957,
+              40.7227599
+            ],
+            [
+              -74.0816319,
+              40.7226878
+            ],
+            [
+              -74.0816961,
+              40.722604
+            ],
+            [
+              -74.0818599,
+              40.7226761
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469233043",
+      "properties": {
+        "id": "way/469233043",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T21:29:58Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0567773,
+              40.7524519
+            ],
+            [
+              -74.0567267,
+              40.7524459
+            ],
+            [
+              -74.0566335,
+              40.7524156
+            ],
+            [
+              -74.0565988,
+              40.7523046
+            ],
+            [
+              -74.0567067,
+              40.7522098
+            ],
+            [
+              -74.0569224,
+              40.7522784
+            ],
+            [
+              -74.0567773,
+              40.7524519
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469526025",
+      "properties": {
+        "id": "way/469526025",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "fixme": "Tried my best to stay within the boder of the area, if anyone is better at it, please improve.",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T18:51:22Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0969682,
+              40.6965689
+            ],
+            [
+              -74.0969308,
+              40.6965762
+            ],
+            [
+              -74.0969055,
+              40.6965738
+            ],
+            [
+              -74.0968599,
+              40.696562
+            ],
+            [
+              -74.0968237,
+              40.6965053
+            ],
+            [
+              -74.0967997,
+              40.6964317
+            ],
+            [
+              -74.0968134,
+              40.6963778
+            ],
+            [
+              -74.096837,
+              40.6963336
+            ],
+            [
+              -74.0968821,
+              40.6963208
+            ],
+            [
+              -74.0969294,
+              40.6963278
+            ],
+            [
+              -74.0969778,
+              40.6963401
+            ],
+            [
+              -74.0970131,
+              40.6963826
+            ],
+            [
+              -74.0969801,
+              40.6964044
+            ],
+            [
+              -74.096993,
+              40.6964505
+            ],
+            [
+              -74.0969997,
+              40.6964989
+            ],
+            [
+              -74.0970147,
+              40.6965409
+            ],
+            [
+              -74.0969682,
+              40.6965689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469532023",
+      "properties": {
+        "id": "way/469532023",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T19:21:59Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0870655,
+              40.707491
+            ],
+            [
+              -74.0873305,
+              40.7072726
+            ],
+            [
+              -74.0870332,
+              40.7070636
+            ],
+            [
+              -74.0869577,
+              40.7070332
+            ],
+            [
+              -74.0866942,
+              40.7072434
+            ],
+            [
+              -74.086779,
+              40.70731
+            ],
+            [
+              -74.0870655,
+              40.707491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469537729",
+      "properties": {
+        "id": "way/469537729",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T19:53:39Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0808187,
+              40.6984581
+            ],
+            [
+              -74.0808066,
+              40.6984154
+            ],
+            [
+              -74.0807731,
+              40.6983798
+            ],
+            [
+              -74.0807289,
+              40.6983544
+            ],
+            [
+              -74.080631,
+              40.6983432
+            ],
+            [
+              -74.0805378,
+              40.6984103
+            ],
+            [
+              -74.0804472,
+              40.6984774
+            ],
+            [
+              -74.0805284,
+              40.6985511
+            ],
+            [
+              -74.0805703,
+              40.69859
+            ],
+            [
+              -74.080631,
+              40.6986167
+            ],
+            [
+              -74.0808187,
+              40.6984581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469559844",
+      "properties": {
+        "id": "way/469559844",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T21:40:34Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0574074,
+              40.7470325
+            ],
+            [
+              -74.0572576,
+              40.7470225
+            ],
+            [
+              -74.0572715,
+              40.7469031
+            ],
+            [
+              -74.0574212,
+              40.7469131
+            ],
+            [
+              -74.0574074,
+              40.7470325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469597846",
+      "properties": {
+        "id": "way/469597846",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T04:10:34Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0589415,
+              40.7195252
+            ],
+            [
+              -74.0589256,
+              40.7194917
+            ],
+            [
+              -74.0589194,
+              40.7194702
+            ],
+            [
+              -74.0589168,
+              40.7194427
+            ],
+            [
+              -74.0589159,
+              40.7194239
+            ],
+            [
+              -74.0589194,
+              40.7194085
+            ],
+            [
+              -74.0589247,
+              40.7193904
+            ],
+            [
+              -74.0589398,
+              40.7193683
+            ],
+            [
+              -74.0589477,
+              40.7193515
+            ],
+            [
+              -74.0589699,
+              40.7193347
+            ],
+            [
+              -74.0589783,
+              40.7193233
+            ],
+            [
+              -74.0589937,
+              40.7193146
+            ],
+            [
+              -74.0590097,
+              40.7193039
+            ],
+            [
+              -74.0590424,
+              40.7192891
+            ],
+            [
+              -74.0590725,
+              40.7192838
+            ],
+            [
+              -74.0590822,
+              40.7193012
+            ],
+            [
+              -74.0590893,
+              40.71933
+            ],
+            [
+              -74.0590946,
+              40.7193542
+            ],
+            [
+              -74.0590964,
+              40.7193783
+            ],
+            [
+              -74.0590911,
+              40.7194112
+            ],
+            [
+              -74.0590787,
+              40.7194387
+            ],
+            [
+              -74.059069,
+              40.7194648
+            ],
+            [
+              -74.0590362,
+              40.719493
+            ],
+            [
+              -74.0590026,
+              40.7195198
+            ],
+            [
+              -74.0589672,
+              40.7195299
+            ],
+            [
+              -74.0589415,
+              40.7195252
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469597847",
+      "properties": {
+        "id": "way/469597847",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T04:10:34Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0584425,
+              40.7193602
+            ],
+            [
+              -74.0584823,
+              40.7193468
+            ],
+            [
+              -74.0585283,
+              40.719316
+            ],
+            [
+              -74.0585522,
+              40.7192905
+            ],
+            [
+              -74.0585744,
+              40.719263
+            ],
+            [
+              -74.0585841,
+              40.7192415
+            ],
+            [
+              -74.0585859,
+              40.7192294
+            ],
+            [
+              -74.0585894,
+              40.7192093
+            ],
+            [
+              -74.0585894,
+              40.7191872
+            ],
+            [
+              -74.0586071,
+              40.7191852
+            ],
+            [
+              -74.0585965,
+              40.7191356
+            ],
+            [
+              -74.0585797,
+              40.7191396
+            ],
+            [
+              -74.0585699,
+              40.7191255
+            ],
+            [
+              -74.058523,
+              40.7191423
+            ],
+            [
+              -74.0584673,
+              40.7191765
+            ],
+            [
+              -74.0584363,
+              40.7192301
+            ],
+            [
+              -74.0584248,
+              40.719261
+            ],
+            [
+              -74.0584204,
+              40.7192925
+            ],
+            [
+              -74.0584425,
+              40.7193602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/550920917",
+      "properties": {
+        "id": "way/550920917",
+        "source": "OSM",
+        "name": "Pershing Field Playground",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "name": "Pershing Field Playground",
+          "surface": "asphalt"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-01-02T18:32:15Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0540891,
+              40.7414307
+            ],
+            [
+              -74.0530936,
+              40.7410259
+            ],
+            [
+              -74.0531682,
+              40.7409223
+            ],
+            [
+              -74.0541593,
+              40.7413282
+            ],
+            [
+              -74.0540891,
+              40.7414307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576930358",
+      "properties": {
+        "id": "way/576930358",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "area": "yes",
+          "capacity": "6",
+          "playground": "swing"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 2,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0626421,
+              40.7146967
+            ],
+            [
+              -74.0626195,
+              40.7147169
+            ],
+            [
+              -74.0626044,
+              40.7147304
+            ],
+            [
+              -74.0624734,
+              40.7147125
+            ],
+            [
+              -74.0624542,
+              40.7146637
+            ],
+            [
+              -74.0624586,
+              40.7146468
+            ],
+            [
+              -74.0624805,
+              40.7146248
+            ],
+            [
+              -74.0624971,
+              40.7146081
+            ],
+            [
+              -74.0626384,
+              40.7146328
+            ],
+            [
+              -74.0626421,
+              40.7146967
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576931759",
+      "properties": {
+        "id": "way/576931759",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-04-06T02:28:42Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0624092,
+              40.7141275
+            ],
+            [
+              -74.0623496,
+              40.7140802
+            ],
+            [
+              -74.0622997,
+              40.7140771
+            ],
+            [
+              -74.0622816,
+              40.714096
+            ],
+            [
+              -74.0622664,
+              40.7140992
+            ],
+            [
+              -74.0622553,
+              40.7140887
+            ],
+            [
+              -74.0622303,
+              40.7140855
+            ],
+            [
+              -74.0622095,
+              40.7141013
+            ],
+            [
+              -74.0622123,
+              40.714138
+            ],
+            [
+              -74.0622816,
+              40.7141927
+            ],
+            [
+              -74.0622802,
+              40.7142043
+            ],
+            [
+              -74.0622969,
+              40.7142116
+            ],
+            [
+              -74.062387,
+              40.7142116
+            ],
+            [
+              -74.0624425,
+              40.7141738
+            ],
+            [
+              -74.0624369,
+              40.7141475
+            ],
+            [
+              -74.0624092,
+              40.7141275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576931761",
+      "properties": {
+        "id": "way/576931761",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "playground": "water_sprayer"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0625257,
+              40.7140393
+            ],
+            [
+              -74.0625229,
+              40.7140676
+            ],
+            [
+              -74.0626005,
+              40.7140771
+            ],
+            [
+              -74.0626019,
+              40.7140456
+            ],
+            [
+              -74.0626296,
+              40.7140161
+            ],
+            [
+              -74.062656,
+              40.7140193
+            ],
+            [
+              -74.0626726,
+              40.713951
+            ],
+            [
+              -74.0625783,
+              40.7139342
+            ],
+            [
+              -74.0625797,
+              40.7139447
+            ],
+            [
+              -74.062552,
+              40.7139447
+            ],
+            [
+              -74.0625159,
+              40.7139541
+            ],
+            [
+              -74.0624619,
+              40.7139962
+            ],
+            [
+              -74.0625202,
+              40.7140356
+            ],
+            [
+              -74.0625257,
+              40.7140393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576931763",
+      "properties": {
+        "id": "way/576931763",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-04-06T02:28:42Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0631317,
+              40.7145401
+            ],
+            [
+              -74.0631938,
+              40.7145975
+            ],
+            [
+              -74.0632491,
+              40.7146486
+            ],
+            [
+              -74.0633049,
+              40.7146524
+            ],
+            [
+              -74.0634564,
+              40.7145508
+            ],
+            [
+              -74.0632716,
+              40.7144101
+            ],
+            [
+              -74.0631675,
+              40.7144757
+            ],
+            [
+              -74.0631725,
+              40.7145111
+            ],
+            [
+              -74.0631317,
+              40.7145401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/581018079",
+      "properties": {
+        "id": "way/581018079",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-04-17T23:53:02Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0740166,
+              40.7253121
+            ],
+            [
+              -74.0739467,
+              40.7253291
+            ],
+            [
+              -74.0738643,
+              40.7253159
+            ],
+            [
+              -74.0738375,
+              40.7253031
+            ],
+            [
+              -74.0738132,
+              40.7252771
+            ],
+            [
+              -74.0738232,
+              40.7252478
+            ],
+            [
+              -74.0738294,
+              40.7252157
+            ],
+            [
+              -74.0738494,
+              40.7251826
+            ],
+            [
+              -74.0738806,
+              40.7251617
+            ],
+            [
+              -74.0739517,
+              40.7251599
+            ],
+            [
+              -74.0740203,
+              40.7251703
+            ],
+            [
+              -74.0740453,
+              40.7251901
+            ],
+            [
+              -74.0740603,
+              40.7252147
+            ],
+            [
+              -74.0740665,
+              40.7252478
+            ],
+            [
+              -74.0740603,
+              40.7252818
+            ],
+            [
+              -74.0740415,
+              40.7252989
+            ],
+            [
+              -74.0740166,
+              40.7253121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/586108104",
+      "properties": {
+        "id": "way/586108104",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-05-06T19:15:59Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1068339,
+              40.7121126
+            ],
+            [
+              -74.1066916,
+              40.7121811
+            ],
+            [
+              -74.1066326,
+              40.7121071
+            ],
+            [
+              -74.1066111,
+              40.7119288
+            ],
+            [
+              -74.1066871,
+              40.7119227
+            ],
+            [
+              -74.1067014,
+              40.7119234
+            ],
+            [
+              -74.106713,
+              40.7119241
+            ],
+            [
+              -74.1068339,
+              40.7121126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/667611893",
+      "properties": {
+        "id": "way/667611893",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2019-02-01T05:55:01Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0471062,
+              40.7384658
+            ],
+            [
+              -74.0470782,
+              40.7384715
+            ],
+            [
+              -74.0469722,
+              40.7384348
+            ],
+            [
+              -74.046964,
+              40.738412
+            ],
+            [
+              -74.0470071,
+              40.7383488
+            ],
+            [
+              -74.0470426,
+              40.7383426
+            ],
+            [
+              -74.0471411,
+              40.7383804
+            ],
+            [
+              -74.0471472,
+              40.7384172
+            ],
+            [
+              -74.0471062,
+              40.7384658
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/798501324",
+      "properties": {
+        "id": "way/798501324",
+        "source": "OSM",
+        "name": "Children's play area",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "Children's play area"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-04-30T20:01:40Z",
+        "osm_version": 1,
+        "comparison": "spatial counterpart",
+        "counterpart_ids": "official/d1abea4202a5d2d2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0702683,
+              40.735232
+            ],
+            [
+              -74.0703097,
+              40.7351617
+            ],
+            [
+              -74.0702323,
+              40.7351336
+            ],
+            [
+              -74.0700872,
+              40.7351723
+            ],
+            [
+              -74.0702683,
+              40.735232
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/832366127",
+      "properties": {
+        "id": "way/832366127",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "playground": "structure"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-07-30T20:45:29Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0494889,
+              40.7334311
+            ],
+            [
+              -74.0495254,
+              40.7333851
+            ],
+            [
+              -74.0495329,
+              40.7333181
+            ],
+            [
+              -74.0494878,
+              40.7333177
+            ],
+            [
+              -74.049343,
+              40.7333156
+            ],
+            [
+              -74.0491751,
+              40.7334677
+            ],
+            [
+              -74.0492333,
+              40.7335123
+            ],
+            [
+              -74.0492978,
+              40.7335554
+            ],
+            [
+              -74.0493615,
+              40.7335595
+            ],
+            [
+              -74.0494889,
+              40.7334311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1093180997",
+      "properties": {
+        "id": "way/1093180997",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-09-09T23:03:51Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0818101,
+              40.7228275
+            ],
+            [
+              -74.0820904,
+              40.7224637
+            ],
+            [
+              -74.0813825,
+              40.7221542
+            ],
+            [
+              -74.0811503,
+              40.7221023
+            ],
+            [
+              -74.0810519,
+              40.7221089
+            ],
+            [
+              -74.08096,
+              40.7221243
+            ],
+            [
+              -74.0808946,
+              40.7221615
+            ],
+            [
+              -74.0808638,
+              40.72223
+            ],
+            [
+              -74.0809003,
+              40.722346
+            ],
+            [
+              -74.0809901,
+              40.7224514
+            ],
+            [
+              -74.0811035,
+              40.722528
+            ],
+            [
+              -74.0818101,
+              40.7228275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1250443761",
+      "properties": {
+        "id": "way/1250443761",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-02-23T07:10:11Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.083078,
+              40.7294204
+            ],
+            [
+              -74.0831591,
+              40.7292228
+            ],
+            [
+              -74.0835396,
+              40.7293124
+            ],
+            [
+              -74.0834586,
+              40.7295101
+            ],
+            [
+              -74.083078,
+              40.7294204
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587372",
+      "properties": {
+        "id": "way/1279587372",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "area": "yes",
+          "baby": "yes",
+          "capacity": "6",
+          "playground": "swing"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/354426521",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0682041,
+              40.7124994
+            ],
+            [
+              -74.0682684,
+              40.7124007
+            ],
+            [
+              -74.0682367,
+              40.7123888
+            ],
+            [
+              -74.0681724,
+              40.7124875
+            ],
+            [
+              -74.0682041,
+              40.7124994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587373",
+      "properties": {
+        "id": "way/1279587373",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "area": "yes",
+          "baby": "yes",
+          "capacity": "6",
+          "playground": "swing"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/354426521",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0682951,
+              40.7125307
+            ],
+            [
+              -74.0683594,
+              40.7124319
+            ],
+            [
+              -74.0683277,
+              40.7124201
+            ],
+            [
+              -74.0682633,
+              40.7125188
+            ],
+            [
+              -74.0682951,
+              40.7125307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587374",
+      "properties": {
+        "id": "way/1279587374",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "area": "yes",
+          "baby": "yes",
+          "capacity": "4",
+          "playground": "swing"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/576931763",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0632257,
+              40.7145179
+            ],
+            [
+              -74.0632918,
+              40.7144729
+            ],
+            [
+              -74.0632694,
+              40.714454
+            ],
+            [
+              -74.0632033,
+              40.714499
+            ],
+            [
+              -74.0632257,
+              40.7145179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587375",
+      "properties": {
+        "id": "way/1279587375",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0701854,
+              40.7146372
+            ],
+            [
+              -74.0701945,
+              40.7145624
+            ],
+            [
+              -74.0702717,
+              40.7145161
+            ],
+            [
+              -74.0702851,
+              40.7144235
+            ],
+            [
+              -74.0700921,
+              40.7145019
+            ],
+            [
+              -74.0700637,
+              40.7146031
+            ],
+            [
+              -74.0700717,
+              40.7146591
+            ],
+            [
+              -74.0701854,
+              40.7146372
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587376",
+      "properties": {
+        "id": "way/1279587376",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0702331,
+              40.7148115
+            ],
+            [
+              -74.0703773,
+              40.714803
+            ],
+            [
+              -74.0704771,
+              40.7147621
+            ],
+            [
+              -74.0705046,
+              40.7147104
+            ],
+            [
+              -74.0704041,
+              40.7146669
+            ],
+            [
+              -74.0703446,
+              40.7147046
+            ],
+            [
+              -74.0702588,
+              40.7147168
+            ],
+            [
+              -74.0702331,
+              40.7148115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332668025",
+      "properties": {
+        "id": "way/1332668025",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "private",
+          "leisure": "playground",
+          "surface": "grass"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-11-10T18:36:35Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.057981,
+              40.7410588
+            ],
+            [
+              -74.0580066,
+              40.7407461
+            ],
+            [
+              -74.0578174,
+              40.7407389
+            ],
+            [
+              -74.0578161,
+              40.7407568
+            ],
+            [
+              -74.0576589,
+              40.7407501
+            ],
+            [
+              -74.0576576,
+              40.7407774
+            ],
+            [
+              -74.0575229,
+              40.7407707
+            ],
+            [
+              -74.0575013,
+              40.7410381
+            ],
+            [
+              -74.057981,
+              40.7410588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334919519",
+      "properties": {
+        "id": "way/1334919519",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "private",
+          "leisure": "playground",
+          "operator": "Patricia M. Noonan Elementary School"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-11-18T01:16:14Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0562626,
+              40.7390393
+            ],
+            [
+              -74.05614,
+              40.7389783
+            ],
+            [
+              -74.0563051,
+              40.738788
+            ],
+            [
+              -74.0563167,
+              40.7387746
+            ],
+            [
+              -74.0563334,
+              40.7387553
+            ],
+            [
+              -74.0564214,
+              40.7387998
+            ],
+            [
+              -74.0564155,
+              40.7388058
+            ],
+            [
+              -74.0564323,
+              40.738815
+            ],
+            [
+              -74.0564492,
+              40.7388242
+            ],
+            [
+              -74.0562626,
+              40.7390393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391249471",
+      "properties": {
+        "id": "way/1391249471",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2025-05-31T22:03:26Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0639655,
+              40.6992866
+            ],
+            [
+              -74.0639006,
+              40.6993502
+            ],
+            [
+              -74.0639124,
+              40.6994281
+            ],
+            [
+              -74.0639328,
+              40.6994507
+            ],
+            [
+              -74.0639603,
+              40.6994593
+            ],
+            [
+              -74.0639835,
+              40.6994572
+            ],
+            [
+              -74.064001,
+              40.6994464
+            ],
+            [
+              -74.0640204,
+              40.6994259
+            ],
+            [
+              -74.0640342,
+              40.6994266
+            ],
+            [
+              -74.0640612,
+              40.6993976
+            ],
+            [
+              -74.064055,
+              40.699376
+            ],
+            [
+              -74.0640602,
+              40.6993606
+            ],
+            [
+              -74.0639911,
+              40.6992877
+            ],
+            [
+              -74.0639655,
+              40.6992866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/225190035",
+      "properties": {
+        "id": "way/225190035",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2013-06-11T00:54:28Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.1056704,
+            40.7043895
+          ],
+          [
+            -74.105639,
+            40.7043332
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/225190036",
+      "properties": {
+        "id": "way/225190036",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2013-06-11T00:54:28Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.1055459,
+            40.7041773
+          ],
+          [
+            -74.1055725,
+            40.7042254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1284316631",
+      "properties": {
+        "id": "way/1284316631",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "chain_link",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-05-18T06:35:19Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0707402,
+            40.7352483
+          ],
+          [
+            -74.070685,
+            40.7352285
+          ],
+          [
+            -74.0705538,
+            40.7351821
+          ],
+          [
+            -74.0704058,
+            40.7351296
+          ],
+          [
+            -74.0704745,
+            40.7350183
+          ],
+          [
+            -74.070499,
+            40.734982
+          ],
+          [
+            -74.0705626,
+            40.7348878
+          ],
+          [
+            -74.0708982,
+            40.7350004
+          ],
+          [
+            -74.0707402,
+            40.7352483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1284316633",
+      "properties": {
+        "id": "way/1284316633",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "chain_link",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-05-18T06:35:19Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0705626,
+            40.7348878
+          ],
+          [
+            -74.0706918,
+            40.7346726
+          ],
+          [
+            -74.0706336,
+            40.7346537
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1284316637",
+      "properties": {
+        "id": "way/1284316637",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "chain_link",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-05-18T06:35:19Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0701723,
+            40.7348665
+          ],
+          [
+            -74.070116,
+            40.7349506
+          ],
+          [
+            -74.0699742,
+            40.7351632
+          ],
+          [
+            -74.0699537,
+            40.7351924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1284316640",
+      "properties": {
+        "id": "way/1284316640",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "chain_link",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-05-18T06:35:19Z",
+        "osm_version": 1,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0699537,
+            40.7351924
+          ],
+          [
+            -74.0706603,
+            40.735376
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332532141",
+      "properties": {
+        "id": "way/1332532141",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "bars",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-11-10T03:02:01Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/1334919519",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0564492,
+            40.7388242
+          ],
+          [
+            -74.0564323,
+            40.738815
+          ],
+          [
+            -74.0564155,
+            40.7388058
+          ],
+          [
+            -74.0564214,
+            40.7387998
+          ],
+          [
+            -74.0563334,
+            40.7387553
+          ],
+          [
+            -74.0563167,
+            40.7387746
+          ],
+          [
+            -74.0563051,
+            40.738788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332668024",
+      "properties": {
+        "id": "way/1332668024",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "bars",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-11-18T01:16:14Z",
+        "osm_version": 2,
+        "containing_site_ids": "",
+        "assignment": "unassigned; no containing site boundary"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0573547,
+            40.7400435
+          ],
+          [
+            -74.0572677,
+            40.7399875
+          ],
+          [
+            -74.0572633,
+            40.7399914
+          ],
+          [
+            -74.0572202,
+            40.739968
+          ],
+          [
+            -74.0571746,
+            40.7399602
+          ],
+          [
+            -74.0569144,
+            40.7402055
+          ],
+          [
+            -74.0568851,
+            40.7402331
+          ],
+          [
+            -74.0566951,
+            40.7404121
+          ],
+          [
+            -74.0570148,
+            40.7406184
+          ],
+          [
+            -74.0570992,
+            40.7406105
+          ],
+          [
+            -74.0571597,
+            40.7405522
+          ],
+          [
+            -74.0571736,
+            40.7405606
+          ],
+          [
+            -74.0576112,
+            40.740207
+          ],
+          [
+            -74.0576816,
+            40.7402535
+          ],
+          [
+            -74.0580726,
+            40.7402652
+          ],
+          [
+            -74.0580285,
+            40.7407467
+          ],
+          [
+            -74.0580066,
+            40.7407461
+          ],
+          [
+            -74.057981,
+            40.7410588
+          ],
+          [
+            -74.0575013,
+            40.7410381
+          ],
+          [
+            -74.0574863,
+            40.7410374
+          ],
+          [
+            -74.0574244,
+            40.7413418
+          ],
+          [
+            -74.0572845,
+            40.7414719
+          ],
+          [
+            -74.0566254,
+            40.7414402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334919520",
+      "properties": {
+        "id": "way/1334919520",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "facility_or_attribute_object",
+        "geometry_type": "LineString",
+        "geometry_status": "linear",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "fence_type": "chain_link",
+          "material": "metal"
+        },
+        "cache": "Day03 independent fence download",
+        "osm_timestamp": "2024-11-18T01:16:14Z",
+        "osm_version": 1,
+        "containing_site_ids": "way/1332668025",
+        "assignment": "contained in site geometry"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.0580066,
+            40.7407461
+          ],
+          [
+            -74.0578174,
+            40.7407389
+          ],
+          [
+            -74.0578161,
+            40.7407568
+          ],
+          [
+            -74.0576589,
+            40.7407501
+          ],
+          [
+            -74.0576576,
+            40.7407774
+          ],
+          [
+            -74.0575229,
+            40.7407707
+          ],
+          [
+            -74.0575013,
+            40.7410381
+          ]
+        ]
+      }
+    }
+  ]
+}

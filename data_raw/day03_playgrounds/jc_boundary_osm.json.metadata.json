@@ -1,0 +1,5 @@
+{
+  "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A40%5D%3Brel%5B%22boundary%22%3D%22administrative%22%5D%5B%22name%22%3D%22Jersey+City%22%5D%3Bout+meta+geom%3B",
+  "retrieved_at_utc": "2026-11-03T15:59:29.765058+00:00",
+  "errors": []
+}

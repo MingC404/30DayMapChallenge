@@ -1,0 +1,14 @@
+{
+  "official_background_records": 86,
+  "osm_records": 50,
+  "polygon_records": 46,
+  "point_records": 4,
+  "matched_to_park": 32,
+  "unmatched_to_park": 18,
+  "manual_review_pairs": 9,
+  "point_polygon_intersections": 1,
+  "polygon_polygon_intersections": 0,
+  "osm_geometry_unchanged": true,
+  "no_records_merged": true,
+  "all_50_number_labels_placed": true
+}

@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-03",
+  "official_url": "https://data.jerseycitynj.gov/api/explore/v2.1/catalog/datasets/jersey-city-parks-map/exports/geojson",
+  "official_metadata": {
+    "domain": "analyzejerseycity",
+    "staged": false,
+    "visibility": "domain",
+    "metadata_processed": "2026-06-17T13:01:55.771751+00:00",
+    "data_processed": "2018-12-12T14:39:55+00:00",
+    "modified": "2018-12-11T23:34:57+00:00",
+    "description": "<p>Jersey City Parks boundary map and list.</p><table><tbody><tr><td>Jersey City Parks Map</td><td><a href=\"https://data.jerseycitynj.gov/map/embed/jersey_city_parks/?&amp;static=false&amp;scrollWheelZoom=true\" target=\"_blank\">View map</a></td></tr><tr><td>List of Parks</td><td><a href=\"https://us.ftp.opendatasoft.com/analyzejerseycity/files/Parks/AlphabeticalListofJerseyCityParks.pdf\" target=\"_blank\">Preview</a></td></tr><tr><td>Parks List (CSV)</td><td><a href=\"https://us.ftp.opendatasoft.com/analyzejerseycity/files/Parks/jerseycityparkshistory.csv\" target=\"_blank\">Download Link</a></td></tr><tr><td>Open Space Map (PDF)<br/></td><td><a href=\"https://us.ftp.opendatasoft.com/analyzejerseycity/files/Parks/660%20Parks%20JC.pdf\" target=\"_blank\">View Map</a><br/></td></tr></tbody></table>",
+    "publisher": "Parks/Forestry",
+    "theme": [
+      "Environment"
+    ],
+    "title": "Jersey City Parks",
+    "keyword": [
+      "Parks",
+      "Map",
+      "PDF"
+    ],
+    "federated": false,
+    "modified_updates_on_metadata_change": false,
+    "geographic_reference_auto": true,
+    "modified_updates_on_data_change": false,
+    "bbox": {
+      "coordinates": [
+        [
+          [
+            -74.02933459728956,
+            40.75474805664271
+          ],
+          [
+            -74.10349826328456,
+            40.75474805664271
+          ],
+          [
+            -74.10349826328456,
+            40.68850839044899
+          ],
+          [
+            -74.02933459728956,
+            40.68850839044899
+          ],
+          [
+            -74.02933459728956,
+            40.75474805664271
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    },
+    "references": "https://us.ftp.opendatasoft.com/analyzejerseycity/files/Parks/jerseycityparkshistory.csv",
+    "metadata_languages": [
+      "en"
+    ],
+    "geographic_reference": [
+      "us_80_3651000",
+      "us_80_3436000"
+    ],
+    "language": "en",
+    "geometry_types": [
+      "Polygon"
+    ],
+    "territory": [
+      "New York",
+      "Jersey City"
+    ],
+    "records_count": 86
+  },
+  "files": [
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_boundary_osm.json",
+      "bytes": 29536,
+      "sha256": "9bdb7134989d9af5f8bc01c84052ed59c161a537e1045bb31ea50def4929dc39",
+      "file_mtime_utc": "2026-11-03T15:59:29.764804+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_boundary_osm.json.metadata.json",
+      "bytes": 276,
+      "sha256": "958241b73fdbd866dad1717f6bd15c1cad671278e8b413cd86b7599a8932892b",
+      "file_mtime_utc": "2026-11-03T15:59:29.764804+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_boundary_osm.json.ql",
+      "bytes": 92,
+      "sha256": "d9d38152de05555266e573250c9764591c87e9bfc945a6cf09fef149ec40f865",
+      "file_mtime_utc": "2026-11-03T16:01:35.813674+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_fences_osm.json",
+      "bytes": 894837,
+      "sha256": "f22bac5bc081f67dd714885bdff37f6e6d0f9c583efffb7da5da30b37709353e",
+      "file_mtime_utc": "2026-11-03T16:02:54.413508+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_fences_osm.json.metadata.json",
+      "bytes": 132,
+      "sha256": "9afd4a12e6321d9a2648fd1ed9023fa95f6e310be6dfcb71f8cb5f33eb963d65",
+      "file_mtime_utc": "2026-11-03T16:02:54.413508+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_fences_osm.json.ql",
+      "bytes": 88,
+      "sha256": "7c4da2e466cde0255eab4c3c3744fb7666541b0ddc516d4bcd84c0ee162bdfba",
+      "file_mtime_utc": "2026-11-03T16:02:12.479708+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_parks_metadata.json",
+      "bytes": 4761,
+      "sha256": "2b8317840319a5f92502dfa7c6f73908e123ad90f2982f5b1035742a6f3fb4a7",
+      "file_mtime_utc": "2026-11-03T15:58:29.415242+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_parks_official.geojson",
+      "bytes": 96516,
+      "sha256": "18b64d2d998d88220fe184287883fe8b92cbb93b49436338549808785f474e6c",
+      "file_mtime_utc": "2026-11-03T15:58:29.303983+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_playgrounds_osm.json",
+      "bytes": 270840,
+      "sha256": "9040a358f18a3687292d4a8f3223ccc7e595897bf36b99b5dbaa36df6642cd80",
+      "file_mtime_utc": "2026-11-03T16:02:12.478697+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_playgrounds_osm.json.metadata.json",
+      "bytes": 132,
+      "sha256": "ab3435eb67db198426bd6493d2a6c419ac001a3229db82023c407883c4b21838",
+      "file_mtime_utc": "2026-11-03T16:02:12.478697+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\jc_playgrounds_osm.json.ql",
+      "bytes": 261,
+      "sha256": "7569703cfd86649623f9c3f11b161746ea2c08ae984dc7b35e77f4ef5d70f1b0",
+      "file_mtime_utc": "2026-11-03T16:01:35.813674+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\osm_map_0_1.xml",
+      "bytes": 5280543,
+      "sha256": "063689bc123c7619c55fd9a73cb49294544844b9f383c58a9e7cb969aa4bb389",
+      "file_mtime_utc": "2026-11-03T16:02:46.584802+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\osm_map_0_2.xml",
+      "bytes": 2437345,
+      "sha256": "4c3a69e293af2c972fde246b0d1edd78e4075333f050e7370c029449841e916b",
+      "file_mtime_utc": "2026-11-03T16:02:41.297315+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\osm_map_0_3.xml",
+      "bytes": 2375696,
+      "sha256": "e6fc114ec5bac9f58c549cc1bc5e3c246ef4e4d3c9594d9c9524545d318a5c47",
+      "file_mtime_utc": "2026-11-03T16:02:47.603849+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\osm_map_1_0.xml",
+      "bytes": 2650856,
+      "sha256": "f474978053fbc4f267690302f3ba41beb422c847779fc005b09fb1ae441907bd",
+      "file_mtime_utc": "2026-11-03T16:02:52.448912+00:00"
+    },
+    {
+      "path": "data_raw\\day03_playgrounds\\osm_map_1_1.xml",
+      "bytes": 6748894,
+      "sha256": "e3d59190ccd73eb543a3d6d31b4d69307bc41a1e7381a81346bc346b0121e8ef",
+      "file_mtime_utc": "2026-11-03T16:02:58.496097+00:00"
+    }
+  ],
+  "notes": "XML prefetch tiles not used: Overpass POST succeeded; raw responses retained. Dates are acquisition/metadata dates, not field surveys."
+}

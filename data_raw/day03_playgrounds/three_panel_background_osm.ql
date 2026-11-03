@@ -1,0 +1,1 @@
+[out:json][timeout:90];(way["highway"](40.702,-74.071,40.762,-74.022);nwr["leisure"="park"](40.702,-74.071,40.762,-74.022);nwr["natural"="water"](40.702,-74.071,40.762,-74.022););out meta geom;

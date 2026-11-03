@@ -1,0 +1,8 @@
+{
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1734236,39.9482978,-75.1703487,39.9506612",
+  "retrieved_at_utc": "2026-11-03T20:09:15.063801+00:00",
+  "scope": "All named park parts plus approximately 35 m of context",
+  "park_ids": [
+    "way/32122312"
+  ]
+}

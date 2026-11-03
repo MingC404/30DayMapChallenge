@@ -1,0 +1,1 @@
+[out:json][timeout:40];rel["boundary"="administrative"]["admin_level"="8"]["name"="Hoboken"](40.70,-74.07,40.79,-74.01);out meta geom;

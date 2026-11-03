@@ -1,0 +1,11 @@
+{
+  "file": "clark_discovery_map.osm",
+  "source": "Official OSM map API",
+  "park_relation": "relation/2588200",
+  "outer_way_ids": [
+    "30863033",
+    "30856590"
+  ],
+  "scope": "Reused complete local extract; both north and south sections retained",
+  "file_mtime_utc": "2026-11-03T20:10:17.818393+00:00"
+}

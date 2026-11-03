@@ -1,0 +1,9 @@
+{
+  "unique_records": 83,
+  "sites": 58,
+  "coverage_rows": 580,
+  "all_geometries_valid": true,
+  "all_osm_tags_unchanged": true,
+  "original_point_geometry_preserved": true,
+  "no_source_merge": true
+}

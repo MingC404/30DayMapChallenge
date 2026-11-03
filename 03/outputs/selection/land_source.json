@@ -1,0 +1,8 @@
+{
+  "url": "https://www2.census.gov/geo/tiger/GENZ2024/kml/cb_2024_34_place_500k.zip",
+  "source_year": 2024,
+  "scale": "1:500000",
+  "sha256": "80dc7eeda3948e40a5f66f8075d0d010804d0915c19d68d64f18a586d4eba0c1",
+  "downloaded_at_utc": "2026-11-03T17:08:01.183587+00:00",
+  "description": "Generalized Census cartographic land background; does not modify playground geometry."
+}

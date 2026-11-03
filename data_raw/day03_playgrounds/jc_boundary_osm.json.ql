@@ -1,0 +1,1 @@
+[out:json][timeout:40];rel["boundary"="administrative"]["name"="Jersey City"];out meta geom;

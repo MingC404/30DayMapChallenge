@@ -1,0 +1,10 @@
+﻿a,a_number,b,b_number,a_type,b_type,distance_m,intersection_m2,intersects
+way/469610934,11,way/469610947,12,Polygon,Polygon,3.14,0.0,False
+way/469610934,11,way/469610935,13,Polygon,Polygon,13.55,0.0,False
+way/469610947,12,way/469610935,13,Polygon,Polygon,2.65,0.0,False
+node/1235042851,16,way/470446463,17,Point,Polygon,0.0,0.0,True
+way/469597846,22,way/469597847,23,Polygon,Polygon,32.78,0.0,False
+way/1279587376,30,way/1279587375,31,Polygon,Polygon,10.81,0.0,False
+way/576931759,33,way/576931761,34,Polygon,Polygon,11.44,0.0,False
+way/354426521,37,way/354426518,39,Polygon,Polygon,16.99,0.0,False
+node/6780805083,43,way/77705617,44,Point,Polygon,29.01,0.0,False

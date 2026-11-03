@@ -1,0 +1,5 @@
+{
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:40];(nwr[\"leisure\"=\"playground\"](40.7303,-74.015,40.7592,-74.0142);nwr[\"playground\"](40.7303,-74.015,40.7592,-74.0142);nwr[~\"^playground:\"~\".\"](40.7303,-74.015,40.7592,-74.0142);nwr[\"leisure\"=\"spray_park\"](40.7303,-74.015,40.7592,-74.0142););out meta geom;",
+  "retrieved_at_utc": "2026-11-03T18:11:26.695502+00:00"
+}

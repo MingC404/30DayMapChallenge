@@ -1,0 +1,30 @@
+{
+  "official": 8,
+  "osm_sites": 50,
+  "osm_geometry": {
+    "Polygon": 46,
+    "Point": 4
+  },
+  "facilities": 25,
+  "facility_assignment": {
+    "unassigned; no containing site boundary": 13,
+    "contained in site geometry": 12
+  },
+  "geometry_issues": [],
+  "official_names": [
+    "CLAREMONT AVENUE PLAYGROUND",
+    "PAVONIA/MARION PLAYGROUND POOL",
+    "FIRST STREET PLAYGROUND",
+    "PAT DeANGELO PLAYGROUND",
+    "SIXTEENTH STREET PLAYGROUND",
+    "EGE AVENUE PLAYGROUND",
+    "WAYNE STREET PLAYGROUND",
+    "PAVONIA/MARION PLAYGROUND POOL"
+  ],
+  "boundary_id": 170953,
+  "osm_base_timestamp": {
+    "timestamp_osm_base": "2026-11-03T16:00:46Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "retained_day02_objects": 0
+}

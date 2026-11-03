@@ -1,0 +1,1 @@
+[out:json][timeout:50];nwr["leisure"="park"]["name"~"^(Clark Park|Rittenhouse Square)"](39.93,-75.23,39.97,-75.15);out meta geom;

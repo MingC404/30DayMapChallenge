@@ -1,0 +1,3961 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/469233043",
+      "properties": {
+        "id": "way/469233043",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T21:29:58Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "01",
+        "park_matches": [
+          {
+            "number": "01",
+            "osm_id": "way/469233043",
+            "park_id": "official/e002e3ac75036d1e",
+            "park_name": "TERRACE AVENUE /  EDWARD CRINCOLI",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.819061,
+            "intersection_m2": 368.75,
+            "park_geometry_used_as_playground": false
+          },
+          {
+            "number": "01",
+            "osm_id": "way/469233043",
+            "park_id": "official/de3f2307e2af575b",
+            "park_name": "TERRANCE AVENUE PARK",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.06534,
+            "intersection_m2": 29.42,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "TERRACE AVENUE /  EDWARD CRINCOLI; TERRANCE AVENUE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0567773,
+              40.7524519
+            ],
+            [
+              -74.0567267,
+              40.7524459
+            ],
+            [
+              -74.0566335,
+              40.7524156
+            ],
+            [
+              -74.0565988,
+              40.7523046
+            ],
+            [
+              -74.0567067,
+              40.7522098
+            ],
+            [
+              -74.0569224,
+              40.7522784
+            ],
+            [
+              -74.0567773,
+              40.7524519
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469559844",
+      "properties": {
+        "id": "way/469559844",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T21:40:34Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "02",
+        "park_matches": [
+          {
+            "number": "02",
+            "osm_id": "way/469559844",
+            "park_id": "official/0530f6dca4dcbf68",
+            "park_name": "LEONARD GORDON PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 169.23,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LEONARD GORDON PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0574074,
+              40.7470325
+            ],
+            [
+              -74.0572576,
+              40.7470225
+            ],
+            [
+              -74.0572715,
+              40.7469031
+            ],
+            [
+              -74.0574212,
+              40.7469131
+            ],
+            [
+              -74.0574074,
+              40.7470325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/264155166",
+      "properties": {
+        "id": "way/264155166",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "survey:date": "2021-12-19"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-10-01T00:37:56Z",
+        "osm_version": 5,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "03",
+        "park_matches": [
+          {
+            "number": "03",
+            "osm_id": "way/264155166",
+            "park_id": "official/9001918bc8a5d854",
+            "park_name": "FISK PARK",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.782569,
+            "intersection_m2": 565.49,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "FISK PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0432472,
+              40.7453708
+            ],
+            [
+              -74.0432583,
+              40.7453227
+            ],
+            [
+              -74.0432322,
+              40.7452601
+            ],
+            [
+              -74.0431922,
+              40.7452042
+            ],
+            [
+              -74.0431046,
+              40.7451043
+            ],
+            [
+              -74.043078,
+              40.7450889
+            ],
+            [
+              -74.0430276,
+              40.7450963
+            ],
+            [
+              -74.0429099,
+              40.7450748
+            ],
+            [
+              -74.0427887,
+              40.7451298
+            ],
+            [
+              -74.0427816,
+              40.745176
+            ],
+            [
+              -74.0428064,
+              40.7452129
+            ],
+            [
+              -74.0429241,
+              40.7452551
+            ],
+            [
+              -74.042997,
+              40.7452526
+            ],
+            [
+              -74.0430667,
+              40.7452983
+            ],
+            [
+              -74.043083,
+              40.7453307
+            ],
+            [
+              -74.0432193,
+              40.7453822
+            ],
+            [
+              -74.0432472,
+              40.7453708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4987027881",
+      "properties": {
+        "id": "node/4987027881",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "playground": "structure"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-07-22T18:38:19Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "04",
+        "park_matches": [],
+        "locator_reference": "Near PERSHING FIELD (61 m; reference only)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05174,
+          40.7415474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/550920917",
+      "properties": {
+        "id": "way/550920917",
+        "source": "OSM",
+        "name": "Pershing Field Playground",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "name": "Pershing Field Playground",
+          "surface": "asphalt"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-01-02T18:32:15Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "05",
+        "park_matches": [
+          {
+            "number": "05",
+            "osm_id": "way/550920917",
+            "park_id": "official/5d7e684a2d8ce9ad",
+            "park_name": "PERSHING FIELD",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 1237.0,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "PERSHING FIELD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0540891,
+              40.7414307
+            ],
+            [
+              -74.0530936,
+              40.7410259
+            ],
+            [
+              -74.0531682,
+              40.7409223
+            ],
+            [
+              -74.0541593,
+              40.7413282
+            ],
+            [
+              -74.0540891,
+              40.7414307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1332668025",
+      "properties": {
+        "id": "way/1332668025",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "private",
+          "leisure": "playground",
+          "surface": "grass"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-11-10T18:36:35Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "06",
+        "park_matches": [],
+        "locator_reference": "Near PERSHING FIELD (195 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.057981,
+              40.7410588
+            ],
+            [
+              -74.0580066,
+              40.7407461
+            ],
+            [
+              -74.0578174,
+              40.7407389
+            ],
+            [
+              -74.0578161,
+              40.7407568
+            ],
+            [
+              -74.0576589,
+              40.7407501
+            ],
+            [
+              -74.0576576,
+              40.7407774
+            ],
+            [
+              -74.0575229,
+              40.7407707
+            ],
+            [
+              -74.0575013,
+              40.7410381
+            ],
+            [
+              -74.057981,
+              40.7410588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1334919519",
+      "properties": {
+        "id": "way/1334919519",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "private",
+          "leisure": "playground",
+          "operator": "Patricia M. Noonan Elementary School"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-11-18T01:16:14Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "07",
+        "park_matches": [],
+        "locator_reference": "Near PERSHING FIELD (290 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0562626,
+              40.7390393
+            ],
+            [
+              -74.05614,
+              40.7389783
+            ],
+            [
+              -74.0563051,
+              40.738788
+            ],
+            [
+              -74.0563167,
+              40.7387746
+            ],
+            [
+              -74.0563334,
+              40.7387553
+            ],
+            [
+              -74.0564214,
+              40.7387998
+            ],
+            [
+              -74.0564155,
+              40.7388058
+            ],
+            [
+              -74.0564323,
+              40.738815
+            ],
+            [
+              -74.0564492,
+              40.7388242
+            ],
+            [
+              -74.0562626,
+              40.7390393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/667611893",
+      "properties": {
+        "id": "way/667611893",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2019-02-01T05:55:01Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "08",
+        "park_matches": [],
+        "locator_reference": "Near CUENO PLACE PARK (17 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0471062,
+              40.7384658
+            ],
+            [
+              -74.0470782,
+              40.7384715
+            ],
+            [
+              -74.0469722,
+              40.7384348
+            ],
+            [
+              -74.046964,
+              40.738412
+            ],
+            [
+              -74.0470071,
+              40.7383488
+            ],
+            [
+              -74.0470426,
+              40.7383426
+            ],
+            [
+              -74.0471411,
+              40.7383804
+            ],
+            [
+              -74.0471472,
+              40.7384172
+            ],
+            [
+              -74.0471062,
+              40.7384658
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/798501324",
+      "properties": {
+        "id": "way/798501324",
+        "source": "OSM",
+        "name": "Children's play area",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "Children's play area"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-04-30T20:01:40Z",
+        "osm_version": 1,
+        "comparison": "spatial counterpart",
+        "counterpart_ids": "official/d1abea4202a5d2d2",
+        "selection_number": "09",
+        "park_matches": [
+          {
+            "number": "09",
+            "osm_id": "way/798501324",
+            "park_id": "official/d1abea4202a5d2d2",
+            "park_name": "PAVONIA/MARION PLAYGROUND POOL",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 104.61,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "PAVONIA/MARION PLAYGROUND POOL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0702683,
+              40.735232
+            ],
+            [
+              -74.0703097,
+              40.7351617
+            ],
+            [
+              -74.0702323,
+              40.7351336
+            ],
+            [
+              -74.0700872,
+              40.7351723
+            ],
+            [
+              -74.0702683,
+              40.735232
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469557168",
+      "properties": {
+        "id": "way/469557168",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-30T05:49:11Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "10",
+        "park_matches": [
+          {
+            "number": "10",
+            "osm_id": "way/469557168",
+            "park_id": "official/6941bd1aa1a4a5dc",
+            "park_name": "Newport Green?",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 1569.34,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "Newport Green?"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0322153,
+              40.7316269
+            ],
+            [
+              -74.0318974,
+              40.7315273
+            ],
+            [
+              -74.031821,
+              40.7315039
+            ],
+            [
+              -74.031772,
+              40.7315085
+            ],
+            [
+              -74.0317448,
+              40.731527
+            ],
+            [
+              -74.0317284,
+              40.7315476
+            ],
+            [
+              -74.0316855,
+              40.7318281
+            ],
+            [
+              -74.0322622,
+              40.7318799
+            ],
+            [
+              -74.0322957,
+              40.731635
+            ],
+            [
+              -74.0322507,
+              40.7316304
+            ],
+            [
+              -74.0322153,
+              40.7316269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469610934",
+      "properties": {
+        "id": "way/469610934",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T05:06:13Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "11",
+        "park_matches": [],
+        "locator_reference": "Near SGT. ANTHONY PARK (234 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0544445,
+              40.7313072
+            ],
+            [
+              -74.0545174,
+              40.7312544
+            ],
+            [
+              -74.0545107,
+              40.7312381
+            ],
+            [
+              -74.0544946,
+              40.7312208
+            ],
+            [
+              -74.0544731,
+              40.7312035
+            ],
+            [
+              -74.0544973,
+              40.7311863
+            ],
+            [
+              -74.0544745,
+              40.7311659
+            ],
+            [
+              -74.0544476,
+              40.7311802
+            ],
+            [
+              -74.0544154,
+              40.7311568
+            ],
+            [
+              -74.0543725,
+              40.7311568
+            ],
+            [
+              -74.0543162,
+              40.7312025
+            ],
+            [
+              -74.0543242,
+              40.7312259
+            ],
+            [
+              -74.0543524,
+              40.7312493
+            ],
+            [
+              -74.0543229,
+              40.7312726
+            ],
+            [
+              -74.0543551,
+              40.731292
+            ],
+            [
+              -74.0543833,
+              40.7312777
+            ],
+            [
+              -74.0544141,
+              40.7313031
+            ],
+            [
+              -74.0544445,
+              40.7313072
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469610947",
+      "properties": {
+        "id": "way/469610947",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T05:06:14Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "12",
+        "park_matches": [],
+        "locator_reference": "Near SGT. ANTHONY PARK (236 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0542472,
+              40.7311502
+            ],
+            [
+              -74.0542572,
+              40.7311596
+            ],
+            [
+              -74.0542709,
+              40.7311658
+            ],
+            [
+              -74.0542865,
+              40.7311682
+            ],
+            [
+              -74.054301,
+              40.7311667
+            ],
+            [
+              -74.0543142,
+              40.7311619
+            ],
+            [
+              -74.0543247,
+              40.7311543
+            ],
+            [
+              -74.0543317,
+              40.7311445
+            ],
+            [
+              -74.0543342,
+              40.7311336
+            ],
+            [
+              -74.0543322,
+              40.7311226
+            ],
+            [
+              -74.0543258,
+              40.7311127
+            ],
+            [
+              -74.0543156,
+              40.7311047
+            ],
+            [
+              -74.0543026,
+              40.7310996
+            ],
+            [
+              -74.0542869,
+              40.7310977
+            ],
+            [
+              -74.0542713,
+              40.7311
+            ],
+            [
+              -74.0542576,
+              40.7311062
+            ],
+            [
+              -74.0542474,
+              40.7311154
+            ],
+            [
+              -74.054242,
+              40.7311268
+            ],
+            [
+              -74.0542419,
+              40.7311388
+            ],
+            [
+              -74.0542472,
+              40.7311502
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469610935",
+      "properties": {
+        "id": "way/469610935",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T05:06:14Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "13",
+        "park_matches": [],
+        "locator_reference": "Near SGT. ANTHONY PARK (231 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0542007,
+              40.7311168
+            ],
+            [
+              -74.0542668,
+              40.7310644
+            ],
+            [
+              -74.0542617,
+              40.7310259
+            ],
+            [
+              -74.0541946,
+              40.7309782
+            ],
+            [
+              -74.054159,
+              40.7309782
+            ],
+            [
+              -74.0540879,
+              40.7310329
+            ],
+            [
+              -74.0540869,
+              40.7310613
+            ],
+            [
+              -74.054159,
+              40.7311168
+            ],
+            [
+              -74.0542007,
+              40.7311168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1250443761",
+      "properties": {
+        "id": "way/1250443761",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-02-23T07:10:11Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "14",
+        "park_matches": [
+          {
+            "number": "14",
+            "osm_id": "way/1250443761",
+            "park_id": "official/2ae7776784560370",
+            "park_name": "LINCOLN PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 774.68,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LINCOLN PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.083078,
+              40.7294204
+            ],
+            [
+              -74.0831591,
+              40.7292228
+            ],
+            [
+              -74.0835396,
+              40.7293124
+            ],
+            [
+              -74.0834586,
+              40.7295101
+            ],
+            [
+              -74.083078,
+              40.7294204
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469554020",
+      "properties": {
+        "id": "way/469554020",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "wheelchair": "limited"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-11-29T18:53:09Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "15",
+        "park_matches": [
+          {
+            "number": "15",
+            "osm_id": "way/469554020",
+            "park_id": "official/4d99f1ca48960823",
+            "park_name": "ENOS JONES PARK / ROBERTO CLEMENTE",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 274.99,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "ENOS JONES PARK / ROBERTO CLEMENTE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0503425,
+              40.7283546
+            ],
+            [
+              -74.0503085,
+              40.7283655
+            ],
+            [
+              -74.0502716,
+              40.7283674
+            ],
+            [
+              -74.0502361,
+              40.7283601
+            ],
+            [
+              -74.0502056,
+              40.7283446
+            ],
+            [
+              -74.0501834,
+              40.7283224
+            ],
+            [
+              -74.050172,
+              40.7282959
+            ],
+            [
+              -74.0501724,
+              40.728268
+            ],
+            [
+              -74.0501847,
+              40.7282418
+            ],
+            [
+              -74.0502076,
+              40.72822
+            ],
+            [
+              -74.0502386,
+              40.728205
+            ],
+            [
+              -74.0502743,
+              40.7281984
+            ],
+            [
+              -74.0503109,
+              40.7282009
+            ],
+            [
+              -74.0503445,
+              40.7282123
+            ],
+            [
+              -74.0503714,
+              40.7282315
+            ],
+            [
+              -74.0503887,
+              40.7282562
+            ],
+            [
+              -74.0503919,
+              40.7282717
+            ],
+            [
+              -74.0503945,
+              40.7282839
+            ],
+            [
+              -74.050388,
+              40.7283114
+            ],
+            [
+              -74.05037,
+              40.7283359
+            ],
+            [
+              -74.0503425,
+              40.7283546
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1235042851",
+      "properties": {
+        "id": "node/1235042851",
+        "source": "OSM",
+        "name": "Hamilton Park Playground",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "Hamilton Park Playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2011-04-06T19:27:49Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "16",
+        "park_matches": [
+          {
+            "number": "16",
+            "osm_id": "node/1235042851",
+            "park_id": "official/bb27c31a09b29f51",
+            "park_name": "HAMILTON PARK",
+            "relationship": "point covered by park",
+            "playground_overlap_fraction": "Not applicable (point)",
+            "intersection_m2": 0.0,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "HAMILTON PARK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0453711,
+          40.7282363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/470446463",
+      "properties": {
+        "id": "way/470446463",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2020-09-13T07:06:12Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "17",
+        "park_matches": [
+          {
+            "number": "17",
+            "osm_id": "way/470446463",
+            "park_id": "official/bb27c31a09b29f51",
+            "park_name": "HAMILTON PARK",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.983671,
+            "intersection_m2": 1910.81,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "HAMILTON PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0450904,
+              40.7278337
+            ],
+            [
+              -74.0450167,
+              40.728322
+            ],
+            [
+              -74.0454627,
+              40.7283566
+            ],
+            [
+              -74.0454713,
+              40.7283511
+            ],
+            [
+              -74.0454612,
+              40.7283426
+            ],
+            [
+              -74.0454848,
+              40.7283265
+            ],
+            [
+              -74.0454906,
+              40.7283338
+            ],
+            [
+              -74.0455394,
+              40.7283336
+            ],
+            [
+              -74.0455517,
+              40.728324
+            ],
+            [
+              -74.0455578,
+              40.728288
+            ],
+            [
+              -74.0455395,
+              40.7282566
+            ],
+            [
+              -74.0455448,
+              40.7282043
+            ],
+            [
+              -74.0455525,
+              40.7281296
+            ],
+            [
+              -74.0452081,
+              40.7278049
+            ],
+            [
+              -74.0451512,
+              40.7278253
+            ],
+            [
+              -74.0450904,
+              40.7278337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/581018079",
+      "properties": {
+        "id": "way/581018079",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-04-17T23:53:02Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "18",
+        "park_matches": [
+          {
+            "number": "18",
+            "osm_id": "way/581018079",
+            "park_id": "official/d9108bad0a6f65b0",
+            "park_name": "BOYD-McGUINESS PARK",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.445633,
+            "intersection_m2": 141.83,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "BOYD-McGUINESS PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0740166,
+              40.7253121
+            ],
+            [
+              -74.0739467,
+              40.7253291
+            ],
+            [
+              -74.0738643,
+              40.7253159
+            ],
+            [
+              -74.0738375,
+              40.7253031
+            ],
+            [
+              -74.0738132,
+              40.7252771
+            ],
+            [
+              -74.0738232,
+              40.7252478
+            ],
+            [
+              -74.0738294,
+              40.7252157
+            ],
+            [
+              -74.0738494,
+              40.7251826
+            ],
+            [
+              -74.0738806,
+              40.7251617
+            ],
+            [
+              -74.0739517,
+              40.7251599
+            ],
+            [
+              -74.0740203,
+              40.7251703
+            ],
+            [
+              -74.0740453,
+              40.7251901
+            ],
+            [
+              -74.0740603,
+              40.7252147
+            ],
+            [
+              -74.0740665,
+              40.7252478
+            ],
+            [
+              -74.0740603,
+              40.7252818
+            ],
+            [
+              -74.0740415,
+              40.7252989
+            ],
+            [
+              -74.0740166,
+              40.7253121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/468563304",
+      "properties": {
+        "id": "way/468563304",
+        "source": "OSM",
+        "name": "Villa Borinquen playground",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "Villa Borinquen playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-24T23:49:47Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "19",
+        "park_matches": [],
+        "locator_reference": "Near ROBERTO CLEMENTE LL (113 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0419105,
+              40.7242604
+            ],
+            [
+              -74.0411827,
+              40.7241859
+            ],
+            [
+              -74.0412318,
+              40.7239101
+            ],
+            [
+              -74.0419597,
+              40.7239846
+            ],
+            [
+              -74.0419105,
+              40.7242604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1093180997",
+      "properties": {
+        "id": "way/1093180997",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-09-09T23:03:51Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "20",
+        "park_matches": [
+          {
+            "number": "20",
+            "osm_id": "way/1093180997",
+            "park_id": "official/2ae7776784560370",
+            "park_name": "LINCOLN PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 4477.59,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LINCOLN PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0818101,
+              40.7228275
+            ],
+            [
+              -74.0820904,
+              40.7224637
+            ],
+            [
+              -74.0813825,
+              40.7221542
+            ],
+            [
+              -74.0811503,
+              40.7221023
+            ],
+            [
+              -74.0810519,
+              40.7221089
+            ],
+            [
+              -74.08096,
+              40.7221243
+            ],
+            [
+              -74.0808946,
+              40.7221615
+            ],
+            [
+              -74.0808638,
+              40.72223
+            ],
+            [
+              -74.0809003,
+              40.722346
+            ],
+            [
+              -74.0809901,
+              40.7224514
+            ],
+            [
+              -74.0811035,
+              40.722528
+            ],
+            [
+              -74.0818101,
+              40.7228275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1384195825",
+      "properties": {
+        "id": "way/1384195825",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2025-05-07T01:23:30Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "21",
+        "park_matches": [],
+        "locator_reference": "Near Unnamed official park (176 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0335634,
+              40.7218227
+            ],
+            [
+              -74.0336971,
+              40.7218328
+            ],
+            [
+              -74.0336827,
+              40.7219256
+            ],
+            [
+              -74.0337464,
+              40.7219312
+            ],
+            [
+              -74.0337275,
+              40.7220071
+            ],
+            [
+              -74.0335377,
+              40.7219929
+            ],
+            [
+              -74.0335634,
+              40.7218227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469597846",
+      "properties": {
+        "id": "way/469597846",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T04:10:34Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "22",
+        "park_matches": [],
+        "locator_reference": "Near GATEWAY PARK COMPLEX (97 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0589415,
+              40.7195252
+            ],
+            [
+              -74.0589256,
+              40.7194917
+            ],
+            [
+              -74.0589194,
+              40.7194702
+            ],
+            [
+              -74.0589168,
+              40.7194427
+            ],
+            [
+              -74.0589159,
+              40.7194239
+            ],
+            [
+              -74.0589194,
+              40.7194085
+            ],
+            [
+              -74.0589247,
+              40.7193904
+            ],
+            [
+              -74.0589398,
+              40.7193683
+            ],
+            [
+              -74.0589477,
+              40.7193515
+            ],
+            [
+              -74.0589699,
+              40.7193347
+            ],
+            [
+              -74.0589783,
+              40.7193233
+            ],
+            [
+              -74.0589937,
+              40.7193146
+            ],
+            [
+              -74.0590097,
+              40.7193039
+            ],
+            [
+              -74.0590424,
+              40.7192891
+            ],
+            [
+              -74.0590725,
+              40.7192838
+            ],
+            [
+              -74.0590822,
+              40.7193012
+            ],
+            [
+              -74.0590893,
+              40.71933
+            ],
+            [
+              -74.0590946,
+              40.7193542
+            ],
+            [
+              -74.0590964,
+              40.7193783
+            ],
+            [
+              -74.0590911,
+              40.7194112
+            ],
+            [
+              -74.0590787,
+              40.7194387
+            ],
+            [
+              -74.059069,
+              40.7194648
+            ],
+            [
+              -74.0590362,
+              40.719493
+            ],
+            [
+              -74.0590026,
+              40.7195198
+            ],
+            [
+              -74.0589672,
+              40.7195299
+            ],
+            [
+              -74.0589415,
+              40.7195252
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469597847",
+      "properties": {
+        "id": "way/469597847",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-28T04:10:34Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "23",
+        "park_matches": [],
+        "locator_reference": "Near GATEWAY PARK COMPLEX (61 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0584425,
+              40.7193602
+            ],
+            [
+              -74.0584823,
+              40.7193468
+            ],
+            [
+              -74.0585283,
+              40.719316
+            ],
+            [
+              -74.0585522,
+              40.7192905
+            ],
+            [
+              -74.0585744,
+              40.719263
+            ],
+            [
+              -74.0585841,
+              40.7192415
+            ],
+            [
+              -74.0585859,
+              40.7192294
+            ],
+            [
+              -74.0585894,
+              40.7192093
+            ],
+            [
+              -74.0585894,
+              40.7191872
+            ],
+            [
+              -74.0586071,
+              40.7191852
+            ],
+            [
+              -74.0585965,
+              40.7191356
+            ],
+            [
+              -74.0585797,
+              40.7191396
+            ],
+            [
+              -74.0585699,
+              40.7191255
+            ],
+            [
+              -74.058523,
+              40.7191423
+            ],
+            [
+              -74.0584673,
+              40.7191765
+            ],
+            [
+              -74.0584363,
+              40.7192301
+            ],
+            [
+              -74.0584248,
+              40.719261
+            ],
+            [
+              -74.0584204,
+              40.7192925
+            ],
+            [
+              -74.0584425,
+              40.7193602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/957044523",
+      "properties": {
+        "id": "way/957044523",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-06-22T06:46:43Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "24",
+        "park_matches": [],
+        "locator_reference": "Near FITZGERALD-HOLOTA PARK (225 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0393129,
+              40.7190934
+            ],
+            [
+              -74.0393207,
+              40.7190766
+            ],
+            [
+              -74.0393239,
+              40.7190681
+            ],
+            [
+              -74.0393274,
+              40.7190514
+            ],
+            [
+              -74.0393282,
+              40.7190341
+            ],
+            [
+              -74.039325,
+              40.7190148
+            ],
+            [
+              -74.0393189,
+              40.7189961
+            ],
+            [
+              -74.0393101,
+              40.7189806
+            ],
+            [
+              -74.0392987,
+              40.7189647
+            ],
+            [
+              -74.0392833,
+              40.7189513
+            ],
+            [
+              -74.0392624,
+              40.7189374
+            ],
+            [
+              -74.0392407,
+              40.7189282
+            ],
+            [
+              -74.0392158,
+              40.7189184
+            ],
+            [
+              -74.0391985,
+              40.7189126
+            ],
+            [
+              -74.0391553,
+              40.7189941
+            ],
+            [
+              -74.039147,
+              40.7190115
+            ],
+            [
+              -74.0391542,
+              40.7190137
+            ],
+            [
+              -74.0391403,
+              40.7190398
+            ],
+            [
+              -74.0391673,
+              40.719048
+            ],
+            [
+              -74.0391698,
+              40.7190432
+            ],
+            [
+              -74.0391814,
+              40.7190468
+            ],
+            [
+              -74.0391789,
+              40.7190514
+            ],
+            [
+              -74.0392103,
+              40.7190611
+            ],
+            [
+              -74.0392129,
+              40.7190564
+            ],
+            [
+              -74.0392226,
+              40.7190595
+            ],
+            [
+              -74.0392204,
+              40.7190636
+            ],
+            [
+              -74.0393129,
+              40.7190934
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/741915620",
+      "properties": {
+        "id": "way/741915620",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-03-11T17:10:07Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "25",
+        "park_matches": [
+          {
+            "number": "25",
+            "osm_id": "way/741915620",
+            "park_id": "official/d9641d5e1d08d06b",
+            "park_name": "VAN VORST PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 410.22,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "VAN VORST PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0467344,
+              40.7179201
+            ],
+            [
+              -74.0468023,
+              40.7177823
+            ],
+            [
+              -74.0466497,
+              40.7176988
+            ],
+            [
+              -74.0466056,
+              40.7176445
+            ],
+            [
+              -74.0464963,
+              40.7178415
+            ],
+            [
+              -74.0467344,
+              40.7179201
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1218901025",
+      "properties": {
+        "id": "way/1218901025",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-03-16T19:02:54Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "26",
+        "park_matches": [
+          {
+            "number": "26",
+            "osm_id": "way/1218901025",
+            "park_id": "official/f1c60342baacb33c",
+            "park_name": "EXCHANGE PLACE",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.671011,
+            "intersection_m2": 70.54,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "EXCHANGE PLACE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0325401,
+              40.7165895
+            ],
+            [
+              -74.0325451,
+              40.7165495
+            ],
+            [
+              -74.0323028,
+              40.7165195
+            ],
+            [
+              -74.0322825,
+              40.7165609
+            ],
+            [
+              -74.0322959,
+              40.7165848
+            ],
+            [
+              -74.0323098,
+              40.716573
+            ],
+            [
+              -74.0323312,
+              40.7165679
+            ],
+            [
+              -74.0325401,
+              40.7165895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1083576828",
+      "properties": {
+        "id": "way/1083576828",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-08-03T18:09:49Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "27",
+        "park_matches": [],
+        "locator_reference": "Near Unnamed official park (53 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0418249,
+              40.7161131
+            ],
+            [
+              -74.0419626,
+              40.7161283
+            ],
+            [
+              -74.0419006,
+              40.71645
+            ],
+            [
+              -74.0417628,
+              40.7164347
+            ],
+            [
+              -74.0418249,
+              40.7161131
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1051665611",
+      "properties": {
+        "id": "way/1051665611",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-07-20T11:59:51Z",
+        "osm_version": 4,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "28",
+        "park_matches": [],
+        "locator_reference": "Near PAULUS HOOK PARK (21 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0382065,
+              40.715273
+            ],
+            [
+              -74.037963,
+              40.7152464
+            ],
+            [
+              -74.0379627,
+              40.7151892
+            ],
+            [
+              -74.0379237,
+              40.7151479
+            ],
+            [
+              -74.0378495,
+              40.7151314
+            ],
+            [
+              -74.0378924,
+              40.7149417
+            ],
+            [
+              -74.0379181,
+              40.7149445
+            ],
+            [
+              -74.0382608,
+              40.7149871
+            ],
+            [
+              -74.0382065,
+              40.715273
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1051663928",
+      "properties": {
+        "id": "way/1051663928",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "playground:theme": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2022-07-13T00:02:16Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "29",
+        "park_matches": [],
+        "locator_reference": "Near Unnamed official park (169 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0449576,
+              40.7150051
+            ],
+            [
+              -74.0448377,
+              40.7150729
+            ],
+            [
+              -74.0447879,
+              40.7150698
+            ],
+            [
+              -74.0447229,
+              40.7150074
+            ],
+            [
+              -74.0447544,
+              40.7148402
+            ],
+            [
+              -74.0447798,
+              40.7148279
+            ],
+            [
+              -74.0449719,
+              40.7148495
+            ],
+            [
+              -74.0449871,
+              40.7148649
+            ],
+            [
+              -74.0449576,
+              40.7150051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587376",
+      "properties": {
+        "id": "way/1279587376",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "30",
+        "park_matches": [
+          {
+            "number": "30",
+            "osm_id": "way/1279587376",
+            "park_id": "official/bd633b31acdc5885",
+            "park_name": "ARLINGTON PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 226.56,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "ARLINGTON PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0702331,
+              40.7148115
+            ],
+            [
+              -74.0703773,
+              40.714803
+            ],
+            [
+              -74.0704771,
+              40.7147621
+            ],
+            [
+              -74.0705046,
+              40.7147104
+            ],
+            [
+              -74.0704041,
+              40.7146669
+            ],
+            [
+              -74.0703446,
+              40.7147046
+            ],
+            [
+              -74.0702588,
+              40.7147168
+            ],
+            [
+              -74.0702331,
+              40.7148115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1279587375",
+      "properties": {
+        "id": "way/1279587375",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "31",
+        "park_matches": [
+          {
+            "number": "31",
+            "osm_id": "way/1279587375",
+            "park_id": "official/bd633b31acdc5885",
+            "park_name": "ARLINGTON PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 254.85,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "ARLINGTON PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0701854,
+              40.7146372
+            ],
+            [
+              -74.0701945,
+              40.7145624
+            ],
+            [
+              -74.0702717,
+              40.7145161
+            ],
+            [
+              -74.0702851,
+              40.7144235
+            ],
+            [
+              -74.0700921,
+              40.7145019
+            ],
+            [
+              -74.0700637,
+              40.7146031
+            ],
+            [
+              -74.0700717,
+              40.7146591
+            ],
+            [
+              -74.0701854,
+              40.7146372
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576931763",
+      "properties": {
+        "id": "way/576931763",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-04-06T02:28:42Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "32",
+        "park_matches": [
+          {
+            "number": "32",
+            "osm_id": "way/576931763",
+            "park_id": "official/94f9d9b0358c3603",
+            "park_name": "LAFAYETTE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 407.12,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LAFAYETTE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0631317,
+              40.7145401
+            ],
+            [
+              -74.0631938,
+              40.7145975
+            ],
+            [
+              -74.0632491,
+              40.7146486
+            ],
+            [
+              -74.0633049,
+              40.7146524
+            ],
+            [
+              -74.0634564,
+              40.7145508
+            ],
+            [
+              -74.0632716,
+              40.7144101
+            ],
+            [
+              -74.0631675,
+              40.7144757
+            ],
+            [
+              -74.0631725,
+              40.7145111
+            ],
+            [
+              -74.0631317,
+              40.7145401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576931759",
+      "properties": {
+        "id": "way/576931759",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-04-06T02:28:42Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "33",
+        "park_matches": [
+          {
+            "number": "33",
+            "osm_id": "way/576931759",
+            "park_id": "official/94f9d9b0358c3603",
+            "park_name": "LAFAYETTE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 203.93,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LAFAYETTE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0624092,
+              40.7141275
+            ],
+            [
+              -74.0623496,
+              40.7140802
+            ],
+            [
+              -74.0622997,
+              40.7140771
+            ],
+            [
+              -74.0622816,
+              40.714096
+            ],
+            [
+              -74.0622664,
+              40.7140992
+            ],
+            [
+              -74.0622553,
+              40.7140887
+            ],
+            [
+              -74.0622303,
+              40.7140855
+            ],
+            [
+              -74.0622095,
+              40.7141013
+            ],
+            [
+              -74.0622123,
+              40.714138
+            ],
+            [
+              -74.0622816,
+              40.7141927
+            ],
+            [
+              -74.0622802,
+              40.7142043
+            ],
+            [
+              -74.0622969,
+              40.7142116
+            ],
+            [
+              -74.062387,
+              40.7142116
+            ],
+            [
+              -74.0624425,
+              40.7141738
+            ],
+            [
+              -74.0624369,
+              40.7141475
+            ],
+            [
+              -74.0624092,
+              40.7141275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/576931761",
+      "properties": {
+        "id": "way/576931761",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "playground": "water_sprayer"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2024-05-04T08:37:41Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "34",
+        "park_matches": [
+          {
+            "number": "34",
+            "osm_id": "way/576931761",
+            "park_id": "official/94f9d9b0358c3603",
+            "park_name": "LAFAYETTE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 167.06,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LAFAYETTE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0625257,
+              40.7140393
+            ],
+            [
+              -74.0625229,
+              40.7140676
+            ],
+            [
+              -74.0626005,
+              40.7140771
+            ],
+            [
+              -74.0626019,
+              40.7140456
+            ],
+            [
+              -74.0626296,
+              40.7140161
+            ],
+            [
+              -74.062656,
+              40.7140193
+            ],
+            [
+              -74.0626726,
+              40.713951
+            ],
+            [
+              -74.0625783,
+              40.7139342
+            ],
+            [
+              -74.0625797,
+              40.7139447
+            ],
+            [
+              -74.062552,
+              40.7139447
+            ],
+            [
+              -74.0625159,
+              40.7139541
+            ],
+            [
+              -74.0624619,
+              40.7139962
+            ],
+            [
+              -74.0625202,
+              40.7140356
+            ],
+            [
+              -74.0625257,
+              40.7140393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354423618",
+      "properties": {
+        "id": "way/354423618",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-07-19T01:43:10Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "35",
+        "park_matches": [
+          {
+            "number": "35",
+            "osm_id": "way/354423618",
+            "park_id": "official/5132ae4185b7b29c",
+            "park_name": "DR. LENA EDWARDS PARK",
+            "relationship": "partial polygon overlap",
+            "playground_overlap_fraction": 0.946813,
+            "intersection_m2": 343.98,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "DR. LENA EDWARDS PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0589507,
+              40.712909
+            ],
+            [
+              -74.0588984,
+              40.7129324
+            ],
+            [
+              -74.0588326,
+              40.7129415
+            ],
+            [
+              -74.0587602,
+              40.7129293
+            ],
+            [
+              -74.0587039,
+              40.7129029
+            ],
+            [
+              -74.0586637,
+              40.7128612
+            ],
+            [
+              -74.0586422,
+              40.7128175
+            ],
+            [
+              -74.0586409,
+              40.7127748
+            ],
+            [
+              -74.0586476,
+              40.7127311
+            ],
+            [
+              -74.0586771,
+              40.7126914
+            ],
+            [
+              -74.0589507,
+              40.712909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469608908",
+      "properties": {
+        "id": "way/469608908",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2025-04-24T22:42:12Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "36",
+        "park_matches": [
+          {
+            "number": "36",
+            "osm_id": "way/469608908",
+            "park_id": "official/4d2d2a9728ede3eb",
+            "park_name": "Not recorded",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 321.48,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "Unnamed official park (name Not recorded)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0363822,
+              40.7125199
+            ],
+            [
+              -74.0363332,
+              40.7127412
+            ],
+            [
+              -74.0363028,
+              40.7127474
+            ],
+            [
+              -74.0361394,
+              40.7125252
+            ],
+            [
+              -74.0361931,
+              40.7124943
+            ],
+            [
+              -74.0363822,
+              40.7125199
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354426521",
+      "properties": {
+        "id": "way/354426521",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2015-06-18T03:04:00Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "37",
+        "park_matches": [
+          {
+            "number": "37",
+            "osm_id": "way/354426521",
+            "park_id": "official/833ae1c1ec54a599",
+            "park_name": "Berry Lane",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 981.67,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "Berry Lane"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0683222,
+              40.7125632
+            ],
+            [
+              -74.0686338,
+              40.7121195
+            ],
+            [
+              -74.0684501,
+              40.7120455
+            ],
+            [
+              -74.0681387,
+              40.7124891
+            ],
+            [
+              -74.0683222,
+              40.7125632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/586108104",
+      "properties": {
+        "id": "way/586108104",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-05-06T19:15:59Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "38",
+        "park_matches": [],
+        "locator_reference": "Near METRO FIELD (937 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1068339,
+              40.7121126
+            ],
+            [
+              -74.1066916,
+              40.7121811
+            ],
+            [
+              -74.1066326,
+              40.7121071
+            ],
+            [
+              -74.1066111,
+              40.7119288
+            ],
+            [
+              -74.1066871,
+              40.7119227
+            ],
+            [
+              -74.1067014,
+              40.7119234
+            ],
+            [
+              -74.106713,
+              40.7119241
+            ],
+            [
+              -74.1068339,
+              40.7121126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354426518",
+      "properties": {
+        "id": "way/354426518",
+        "source": "OSM",
+        "name": "spray park",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground",
+          "name": "spray park",
+          "playground": "splash_pad"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-12-19T14:14:38Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "39",
+        "park_matches": [
+          {
+            "number": "39",
+            "osm_id": "way/354426518",
+            "park_id": "official/833ae1c1ec54a599",
+            "park_name": "Berry Lane",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 462.3,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "Berry Lane"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0685681,
+              40.7119202
+            ],
+            [
+              -74.0687062,
+              40.7119754
+            ],
+            [
+              -74.0689002,
+              40.7116966
+            ],
+            [
+              -74.068762,
+              40.7116414
+            ],
+            [
+              -74.0685681,
+              40.7119202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6579197132",
+      "properties": {
+        "id": "node/6579197132",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2019-06-29T23:03:20Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "40",
+        "park_matches": [],
+        "locator_reference": "Near LIBERTY STATE PARK (54 m; reference only)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.039068,
+          40.7113929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354394026",
+      "properties": {
+        "id": "way/354394026",
+        "source": "OSM",
+        "name": "Wildlife Challenge",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "leisure": "playground",
+          "name": "Wildlife Challenge"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2018-12-09T00:04:58Z",
+        "osm_version": 4,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "41",
+        "park_matches": [
+          {
+            "number": "41",
+            "osm_id": "way/354394026",
+            "park_id": "official/3f535f8eed07951a",
+            "park_name": "LIBERTY STATE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 1446.53,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LIBERTY STATE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.054088,
+              40.707718
+            ],
+            [
+              -74.0540505,
+              40.7077241
+            ],
+            [
+              -74.0539432,
+              40.7077953
+            ],
+            [
+              -74.053852,
+              40.7078868
+            ],
+            [
+              -74.0537876,
+              40.7080027
+            ],
+            [
+              -74.0537957,
+              40.7081064
+            ],
+            [
+              -74.0538654,
+              40.7081796
+            ],
+            [
+              -74.0539137,
+              40.7081816
+            ],
+            [
+              -74.0539989,
+              40.7081591
+            ],
+            [
+              -74.0540276,
+              40.7082149
+            ],
+            [
+              -74.0542757,
+              40.7081399
+            ],
+            [
+              -74.0542503,
+              40.7080916
+            ],
+            [
+              -74.0542362,
+              40.7080959
+            ],
+            [
+              -74.0541507,
+              40.7079332
+            ],
+            [
+              -74.054223,
+              40.7079114
+            ],
+            [
+              -74.0541846,
+              40.707838
+            ],
+            [
+              -74.0541336,
+              40.7077424
+            ],
+            [
+              -74.054088,
+              40.707718
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469532023",
+      "properties": {
+        "id": "way/469532023",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T19:21:59Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "42",
+        "park_matches": [
+          {
+            "number": "42",
+            "osm_id": "way/469532023",
+            "park_id": "official/1dda0acaf07f6070",
+            "park_name": "AUDUBON PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 1402.35,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "AUDUBON PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0870655,
+              40.707491
+            ],
+            [
+              -74.0873305,
+              40.7072726
+            ],
+            [
+              -74.0870332,
+              40.7070636
+            ],
+            [
+              -74.0869577,
+              40.7070332
+            ],
+            [
+              -74.0866942,
+              40.7072434
+            ],
+            [
+              -74.086779,
+              40.70731
+            ],
+            [
+              -74.0870655,
+              40.707491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6780805083",
+      "properties": {
+        "id": "node/6780805083",
+        "source": "OSM",
+        "name": "Liberty State Park Playground",
+        "role": "site",
+        "geometry_type": "Point",
+        "geometry_status": "location_only",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "name": "Liberty State Park Playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-06-27T22:47:29Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "43",
+        "park_matches": [
+          {
+            "number": "43",
+            "osm_id": "node/6780805083",
+            "park_id": "official/3f535f8eed07951a",
+            "park_name": "LIBERTY STATE PARK",
+            "relationship": "point covered by park",
+            "playground_overlap_fraction": "Not applicable (point)",
+            "intersection_m2": 0.0,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LIBERTY STATE PARK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0443149,
+          40.7051469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/77705617",
+      "properties": {
+        "id": "way/77705617",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "survey:date": "2021-12-19"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-12-19T19:03:17Z",
+        "osm_version": 4,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "44",
+        "park_matches": [
+          {
+            "number": "44",
+            "osm_id": "way/77705617",
+            "park_id": "official/3f535f8eed07951a",
+            "park_name": "LIBERTY STATE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 2094.2,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LIBERTY STATE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0447988,
+              40.7050987
+            ],
+            [
+              -74.0443674,
+              40.7048496
+            ],
+            [
+              -74.0446962,
+              40.7045225
+            ],
+            [
+              -74.0451275,
+              40.7047717
+            ],
+            [
+              -74.0450186,
+              40.70488
+            ],
+            [
+              -74.0447988,
+              40.7050987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/225187581",
+      "properties": {
+        "id": "way/225187581",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "barrier": "fence",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2013-06-11T00:38:18Z",
+        "osm_version": 2,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "45",
+        "park_matches": [],
+        "locator_reference": "Near THOMAS McGOVERN PARK (843 m; reference only)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1055725,
+              40.7042254
+            ],
+            [
+              -74.1057423,
+              40.7041652
+            ],
+            [
+              -74.105749,
+              40.704176
+            ],
+            [
+              -74.1058089,
+              40.7042729
+            ],
+            [
+              -74.1057625,
+              40.7042894
+            ],
+            [
+              -74.105639,
+              40.7043332
+            ],
+            [
+              -74.1056311,
+              40.7043204
+            ],
+            [
+              -74.1055725,
+              40.7042254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1391249471",
+      "properties": {
+        "id": "way/1391249471",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2025-05-31T22:03:26Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "46",
+        "park_matches": [
+          {
+            "number": "46",
+            "osm_id": "way/1391249471",
+            "park_id": "official/b5b54cb331378a41",
+            "park_name": "LIBERTY STATE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 180.13,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LIBERTY STATE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0639655,
+              40.6992866
+            ],
+            [
+              -74.0639006,
+              40.6993502
+            ],
+            [
+              -74.0639124,
+              40.6994281
+            ],
+            [
+              -74.0639328,
+              40.6994507
+            ],
+            [
+              -74.0639603,
+              40.6994593
+            ],
+            [
+              -74.0639835,
+              40.6994572
+            ],
+            [
+              -74.064001,
+              40.6994464
+            ],
+            [
+              -74.0640204,
+              40.6994259
+            ],
+            [
+              -74.0640342,
+              40.6994266
+            ],
+            [
+              -74.0640612,
+              40.6993976
+            ],
+            [
+              -74.064055,
+              40.699376
+            ],
+            [
+              -74.0640602,
+              40.6993606
+            ],
+            [
+              -74.0639911,
+              40.6992877
+            ],
+            [
+              -74.0639655,
+              40.6992866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469537729",
+      "properties": {
+        "id": "way/469537729",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T19:53:39Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "47",
+        "park_matches": [
+          {
+            "number": "47",
+            "osm_id": "way/469537729",
+            "park_id": "official/b3cf8c3e9b85351e",
+            "park_name": "BAYSIDE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 552.75,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "BAYSIDE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0808187,
+              40.6984581
+            ],
+            [
+              -74.0808066,
+              40.6984154
+            ],
+            [
+              -74.0807731,
+              40.6983798
+            ],
+            [
+              -74.0807289,
+              40.6983544
+            ],
+            [
+              -74.080631,
+              40.6983432
+            ],
+            [
+              -74.0805378,
+              40.6984103
+            ],
+            [
+              -74.0804472,
+              40.6984774
+            ],
+            [
+              -74.0805284,
+              40.6985511
+            ],
+            [
+              -74.0805703,
+              40.69859
+            ],
+            [
+              -74.080631,
+              40.6986167
+            ],
+            [
+              -74.0808187,
+              40.6984581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354429486",
+      "properties": {
+        "id": "way/354429486",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2015-06-18T03:35:37Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "48",
+        "park_matches": [
+          {
+            "number": "48",
+            "osm_id": "way/354429486",
+            "park_id": "official/1a98f53666b90a75",
+            "park_name": "THOMAS McGOVERN PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 769.23,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "THOMAS McGOVERN PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.102268,
+              40.6968352
+            ],
+            [
+              -74.1021266,
+              40.6967706
+            ],
+            [
+              -74.1019463,
+              40.6969756
+            ],
+            [
+              -74.1019783,
+              40.6969948
+            ],
+            [
+              -74.1019984,
+              40.6970772
+            ],
+            [
+              -74.1020561,
+              40.6970924
+            ],
+            [
+              -74.1021057,
+              40.6970802
+            ],
+            [
+              -74.1022358,
+              40.6970599
+            ],
+            [
+              -74.102386,
+              40.6969002
+            ],
+            [
+              -74.102268,
+              40.6968352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/469526025",
+      "properties": {
+        "id": "way/469526025",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "fixme": "Tried my best to stay within the boder of the area, if anyone is better at it, please improve.",
+          "leisure": "playground"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2017-01-27T18:51:22Z",
+        "osm_version": 1,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "49",
+        "park_matches": [
+          {
+            "number": "49",
+            "osm_id": "way/469526025",
+            "park_id": "official/66b9abe2f07f33af",
+            "park_name": "COLUMBIA PARK GREENVILLE MEMORIAL",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 392.21,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "COLUMBIA PARK GREENVILLE MEMORIAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0969682,
+              40.6965689
+            ],
+            [
+              -74.0969308,
+              40.6965762
+            ],
+            [
+              -74.0969055,
+              40.6965738
+            ],
+            [
+              -74.0968599,
+              40.696562
+            ],
+            [
+              -74.0968237,
+              40.6965053
+            ],
+            [
+              -74.0967997,
+              40.6964317
+            ],
+            [
+              -74.0968134,
+              40.6963778
+            ],
+            [
+              -74.096837,
+              40.6963336
+            ],
+            [
+              -74.0968821,
+              40.6963208
+            ],
+            [
+              -74.0969294,
+              40.6963278
+            ],
+            [
+              -74.0969778,
+              40.6963401
+            ],
+            [
+              -74.0970131,
+              40.6963826
+            ],
+            [
+              -74.0969801,
+              40.6964044
+            ],
+            [
+              -74.096993,
+              40.6964505
+            ],
+            [
+              -74.0969997,
+              40.6964989
+            ],
+            [
+              -74.0970147,
+              40.6965409
+            ],
+            [
+              -74.0969682,
+              40.6965689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/354382740",
+      "properties": {
+        "id": "way/354382740",
+        "source": "OSM",
+        "name": "Not recorded",
+        "role": "site",
+        "geometry_type": "Polygon",
+        "geometry_status": "boundary",
+        "city_selection": "intersects boundary; original geometry retained",
+        "tags": {
+          "access": "yes",
+          "leisure": "playground",
+          "survey:date": "2021-12-19"
+        },
+        "cache": "Day03 citywide download",
+        "osm_timestamp": "2021-12-19T19:03:05Z",
+        "osm_version": 3,
+        "comparison": "source-only in this extraction",
+        "counterpart_ids": "",
+        "selection_number": "50",
+        "park_matches": [
+          {
+            "number": "50",
+            "osm_id": "way/354382740",
+            "park_id": "official/3f535f8eed07951a",
+            "park_name": "LIBERTY STATE PARK",
+            "relationship": "park covers playground",
+            "playground_overlap_fraction": 1.0,
+            "intersection_m2": 232.74,
+            "park_geometry_used_as_playground": false
+          }
+        ],
+        "locator_reference": "LIBERTY STATE PARK"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.0570331,
+              40.6921811
+            ],
+            [
+              -74.0569452,
+              40.6923101
+            ],
+            [
+              -74.0570968,
+              40.6923695
+            ],
+            [
+              -74.0571847,
+              40.6922404
+            ],
+            [
+              -74.0570331,
+              40.6921811
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+[out:json][timeout:40];nwr["barrier"="fence"](40.64,-74.17,40.79,-74.015);out meta geom;

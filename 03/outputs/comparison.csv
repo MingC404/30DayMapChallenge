@@ -1,0 +1,12 @@
+﻿a,a_name,b,b_name,relationship,distance_m,intersection_m2
+official/d1abea4202a5d2d2,PAVONIA/MARION PLAYGROUND POOL,official/a5bada6b72ac901c,PAVONIA/MARION PLAYGROUND POOL,same official name; distinct records,18.62,0.0
+official/d1abea4202a5d2d2,PAVONIA/MARION PLAYGROUND POOL,way/798501324,Children's play area,spatial match / possible duplicate; original objects retained,0.0,104.61
+node/6780805083,Liberty State Park Playground,way/77705617,Not recorded,nearby candidate <=50 m; unconfirmed,29.01,0.0
+way/469610934,Not recorded,way/469610935,Not recorded,nearby candidate <=50 m; unconfirmed,13.55,0.0
+way/469610934,Not recorded,way/469610947,Not recorded,nearby candidate <=50 m; unconfirmed,3.14,0.0
+way/469610935,Not recorded,way/469610947,Not recorded,nearby candidate <=50 m; unconfirmed,2.65,0.0
+node/1235042851,Hamilton Park Playground,way/470446463,Not recorded,spatial match / possible duplicate; original objects retained,0.0,0.0
+way/354426518,spray park,way/354426521,Not recorded,nearby candidate <=50 m; unconfirmed,16.99,0.0
+way/469597846,Not recorded,way/469597847,Not recorded,nearby candidate <=50 m; unconfirmed,32.78,0.0
+way/576931759,Not recorded,way/576931761,Not recorded,nearby candidate <=50 m; unconfirmed,11.44,0.0
+way/1279587375,Not recorded,way/1279587376,Not recorded,nearby candidate <=50 m; unconfirmed,10.81,0.0

@@ -1,0 +1,1 @@
+[out:json][timeout:40];(nwr["leisure"="playground"](40.7303,-74.015,40.7592,-74.0142);nwr["playground"](40.7303,-74.015,40.7592,-74.0142);nwr[~"^playground:"~"."](40.7303,-74.015,40.7592,-74.0142);nwr["leisure"="spray_park"](40.7303,-74.015,40.7592,-74.0142););out meta geom;

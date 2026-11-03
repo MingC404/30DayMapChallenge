@@ -1,0 +1,6 @@
+{
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:40];rel[\"boundary\"=\"administrative\"][\"admin_level\"=\"8\"][\"name\"=\"Hoboken\"](40.70,-74.07,40.79,-74.01);out meta geom;",
+  "retrieved_at_utc": "2026-11-03T18:09:53.837491+00:00",
+  "playgrounds": "Reused jc_playgrounds_osm.json for Hoboken land; narrow eastern municipal-water strip checked separately in hoboken_east_strip_osm.json."
+}

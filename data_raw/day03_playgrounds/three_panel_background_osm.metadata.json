@@ -1,0 +1,5 @@
+{
+  "url": "https://overpass-api.de/api/interpreter",
+  "retrieved_at_utc": "2026-11-03T18:34:03.812438+00:00",
+  "query": "[out:json][timeout:90];(way[\"highway\"](40.702,-74.071,40.762,-74.022);nwr[\"leisure\"=\"park\"](40.702,-74.071,40.762,-74.022);nwr[\"natural\"=\"water\"](40.702,-74.071,40.762,-74.022););out meta geom;"
+}
