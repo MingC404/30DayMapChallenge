@@ -4,7 +4,11 @@ Changing tables reported in NYC public restrooms. The page starts empty; Select 
 
 ## Data and limitations
 
+Original dataset: NYC Open Data, [Public Restrooms](https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku) (dataset `i7jb-7jku`; listed agency: Mayor’s Office of Operations, with records contributed by city agencies and partner institutions).
+
 Shared input: [`Public_Restrooms_20261024.csv`](../data_raw/family/Public_Restrooms_20261024.csv). Its filename date is not a verified update date. [Borough outlines](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/gthc-hcne) are NYC DCP 26b; [OpenFreeMap](https://openfreemap.org/) supplies monochrome streets. Sources and licenses remain in [`data_raw/`](../data_raw/).
+
+Source identification was checked against the official download: 1,057 of the local 1,066 records match by facility name and coordinates, and 585 match across all 14 original fields. The current official export contains 1,100 records and an additional field, so it is not identical to this retained snapshot. The original download URL and snapshot update date are not recorded; the filename date is not a verified update date.
 
 Only explicit changing-table labels determine placement. Plain Yes means unspecified; single-stall alone does not imply all-gender. OR filters count records, not unique locations. Missing fields are omitted. All operational statuses remain included; availability is not guaranteed. Overlapping points may hide records. Basemaps require internet access.
 

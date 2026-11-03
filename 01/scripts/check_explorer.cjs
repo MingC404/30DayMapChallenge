@@ -105,8 +105,8 @@ async function browserCheck(){
     const cardFits=await page.evaluate(()=>{const card=document.querySelector('.info-tooltip').getBoundingClientRect(),box=map.getContainer().getBoundingClientRect();return card.left>=box.left&&card.right<=box.right&&card.top>=box.top&&card.bottom<=box.bottom;});
     assert.ok(cardFits);
     await page.evaluate(()=>{markers.find(({point})=>point.name===document.querySelector('.info-tooltip strong').textContent).marker.openPopup();});
-    assert.ok((await page.locator('.leaflet-popup').textContent()).includes('Original changing-table label'));
-    assert.ok((await page.locator('.leaflet-popup').textContent()).includes('only'));
+    assert.equal((await page.locator('.leaflet-popup').textContent()).includes('Original changing-table label'),false);
+    assert.ok((await page.locator('.leaflet-popup').textContent()).includes('Changing table'));
     assert.ok((await page.locator('.leaflet-popup').textContent()).includes('Access / entry'));
     assert.equal((await page.locator('.leaflet-popup').textContent()).includes('Not reported'),false);
     const omitted=await page.evaluate(()=>{

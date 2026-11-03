@@ -16,8 +16,8 @@
 <body>
 <header><div><h1>NYC Changing Station Explorer</h1><p>Changing tables in NYC public restrooms</p></div><span class="edition">New York City · Five boroughs</span></header>
 <main class="dashboard"><section class="map-wrap" aria-label="Interactive map of changing table records"><div id="map"></div><div id="load-error" role="status">Map resources could not load. Connect to the internet and reload to see the basemap and map controls.</div></section>
-<aside aria-label="Map filters"><p class="eyebrow">Explore the records</p><h2>Find a changing table</h2><div class="total" id="total" aria-live="polite"></div><div class="total-label">matching records</div><div class="actions"><button class="text-button" id="select-all">Select all</button><button class="text-button" id="clear">Clear</button></div><div id="filters"></div><div class="multi-note"><span class="swatch multi-swatch"></span><span>Segmented dot: multiple reported types</span></div><p class="explanation">Changing table reported; restroom type not specified.<br><br>Selections use OR: a record matching any selected type appears once. Category counts may overlap and sum to more than the total.</p><div class="notes"><p>Facility labels do not guarantee current availability. All operational statuses are included.</p><p>Each dot represents one record. Coordinates are unchanged; overlapping records may share a dot. Use View all locations to see the full extent.</p><p>Data: <strong>Public_Restrooms_20261024.csv</strong><br>Data update date: not reported.<br>2026-10-24 is the filename date only.</p></div></aside></main>
-<footer><span>Source: project public-restrooms CSV · NYC Changing Station Explorer</span><span id="map-credit">Boundaries: NYC Department of City Planning · NYC Open Data</span></footer>
+<aside aria-label="Map filters"><p class="eyebrow">Explore the records</p><h2>Find a changing table</h2><div class="total" id="total" aria-live="polite"></div><div class="total-label">matching records</div><div class="actions"><button class="text-button" id="select-all">Select all</button><button class="text-button" id="clear">Clear</button></div><div id="filters"></div><div class="multi-note"><span class="swatch multi-swatch"></span><span>Segmented dot: multiple reported types</span></div><p class="explanation">Changing table reported; restroom type not specified.<br><br>Selections use OR: a record matching any selected type appears once. Category counts may overlap and sum to more than the total.</p><div class="notes"><p>Facility labels do not guarantee current availability. All operational statuses are included.</p><p>Each dot represents one record. Coordinates are unchanged; overlapping records may share a dot. Use View all locations to see the full extent.</p><p>Data: <a href="https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku" target="_blank" rel="noopener noreferrer">NYC Open Data · Public Restrooms</a><br>Agency: Mayor’s Office of Operations; multiple contributors.<br>Retained snapshot: <strong>Public_Restrooms_20261024.csv</strong><br>Data update date: not reported.<br>2026-10-24 is the filename date only.</p></div></aside></main>
+<footer><span>Source: <a href="https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku">NYC Open Data · Public Restrooms</a> (project CSV snapshot)</span><span id="map-credit">Boundaries: NYC Department of City Planning · NYC Open Data</span></footer>
 <script id="explorer-data" type="application/json">__DATA__</script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -42,15 +42,67 @@ const ready=()=>{basemapReady=true;};
 if(gl.loaded())ready();else {gl.once('load',ready);gl.once('idle',ready);}
 gl.on('error',event=>{basemapErrors.push(String(event.error));document.getElementById('load-error').style.display='block';});
 }
-let visibleRecords;
-function update(){const selected=new Set(data.categories.filter((_,i)=>active[i]).map(c=>c.key));const matched=data.points.filter(p=>recordMatches(p,selected));document.getElementById('total').textContent=matched.length.toLocaleString('en-US');if(map){visibleRecords.clearLayers();markers.forEach(({point,marker})=>{if(recordMatches(point,selected))visibleRecords.addLayer(marker);});}}
+// Resolve all POIs in one screen-space index. Separate full-size Canvas panes
+// must never compete for DOM events, even over their transparent pixels.
+const POI_HIT_RADIUS=11, POI_CELL_SIZE=POI_HIT_RADIUS*2;
+const poiIndex=new Map();
+let visibleRecords, poiHover=null, poiMoving=false;
+function clearPoiHover(){
+  if(poiHover)poiHover.marker.closeTooltip();
+  poiHover=null;
+  if(map)map.getContainer().style.cursor='';
+}
+function rebuildPoiIndex(){
+  poiIndex.clear();
+  if(!map||!visibleRecords)return;
+  markers.forEach((entry,order)=>{
+    if(!visibleRecords.hasLayer(entry.marker))return;
+    const position=map.latLngToContainerPoint(entry.marker.getLatLng());
+    const key=Math.floor(position.x/POI_CELL_SIZE)+','+Math.floor(position.y/POI_CELL_SIZE);
+    if(!poiIndex.has(key))poiIndex.set(key,[]);
+    poiIndex.get(key).push({entry,position,order});
+  });
+}
+function nearestPoi(position){
+  const x=Math.floor(position.x/POI_CELL_SIZE), y=Math.floor(position.y/POI_CELL_SIZE);
+  let nearest=null, distance=POI_HIT_RADIUS*POI_HIT_RADIUS, order=Infinity;
+  for(let dx=-1;dx<=1;dx++)for(let dy=-1;dy<=1;dy++){
+    for(const candidate of poiIndex.get((x+dx)+','+(y+dy))||[]){
+      const px=candidate.position.x-position.x, py=candidate.position.y-position.y;
+      const squared=px*px+py*py;
+      if(squared<distance||(squared===distance&&candidate.order<order)){
+        nearest=candidate.entry;distance=squared;order=candidate.order;
+      }
+    }
+  }
+  return nearest;
+}
+function bindPoiInteraction(){
+  map.on('mousemove',event=>{
+    if(poiMoving)return;
+    const entry=nearestPoi(event.containerPoint);
+    if(entry===poiHover)return;
+    clearPoiHover();
+    if(entry){poiHover=entry;entry.marker.openTooltip();map.getContainer().style.cursor='pointer';}
+  });
+  map.on('mouseout',clearPoiHover);
+  map.on('click',event=>{
+    if(poiMoving)return;
+    const entry=nearestPoi(event.containerPoint);
+    clearPoiHover();
+    if(entry)entry.marker.openPopup();
+  });
+  map.on('movestart zoomstart',()=>{poiMoving=true;clearPoiHover();});
+  map.on('moveend zoomend resize',()=>{poiMoving=false;clearPoiHover();rebuildPoiIndex();});
+}
+function update(){const selected=new Set(data.categories.filter((_,i)=>active[i]).map(c=>c.key));const matched=data.points.filter(p=>recordMatches(p,selected));document.getElementById('total').textContent=matched.length.toLocaleString('en-US');if(map){clearPoiHover();visibleRecords.clearLayers();markers.forEach(({point,marker})=>{if(recordMatches(point,selected))visibleRecords.addLayer(marker);});rebuildPoiIndex();}}
 data.categories.forEach((c,i)=>{const label=document.createElement('label');label.className='category';label.innerHTML=`<span class="swatch" style="background:${c.color}"></span><span class="category-name">${escapeHTML(c.name)}${c.description?`<small class="category-description">${escapeHTML(c.description)}</small>`:''}</span><span class="count">${c.count}</span><input type="checkbox" aria-label="Show ${escapeHTML(c.name)}">`;label.querySelector('input').checked=active[i];label.querySelector('input').addEventListener('change',event=>{active[i]=event.target.checked;update();});document.getElementById('filters').append(label);});
 function setAll(value){active.fill(value);document.querySelectorAll('#filters input').forEach(el=>el.checked=value);update();}
 document.getElementById('select-all').onclick=()=>setAll(true);document.getElementById('clear').onclick=()=>setAll(false);
 if(typeof L==='undefined'){document.getElementById('load-error').style.display='block';}else{
 map=L.map('map',{preferCanvas:true,zoomControl:false,zoomSnap:.25, minZoom:9,maxZoom:19}).setView([40.713,-73.96],11.25);
 L.control.zoom({position:'topleft'}).addTo(map);
-map.createPane('outline');map.getPane('outline').style.zIndex=300;
+map.createPane('outline');map.getPane('outline').style.zIndex=300;map.getPane('outline').style.pointerEvents='none';
 map.createPane('boroughNames');map.getPane('boroughNames').style.zIndex=390;map.getPane('boroughNames').style.pointerEvents='none';
 outlineLayer=L.geoJSON(data.boroughs,{pane:'outline',interactive:false,style:{color:'#D7D7D7',weight:.7,fill:false,fillOpacity:0}});
 boroughLabels=L.layerGroup(data.boroughs.features.map(feature=>L.marker(feature.properties.label,{pane:'boroughNames',interactive:false,icon:L.divIcon({className:'borough-label',html:escapeHTML(feature.properties.name),iconSize:[150,20],iconAnchor:[75,10]})})));
@@ -59,7 +111,7 @@ map.attributionControl.addAttribution(boundaryCredit);map.attributionControl.add
 document.getElementById('map-credit').innerHTML='Light streets: '+streetsCredit+' · '+boundaryCredit;
 ensureStreets().catch(error=>{basemapErrors.push(String(error));document.getElementById('load-error').textContent='Light streets could not load. Connect to the internet and reload.';document.getElementById('load-error').style.display='block';});
 visibleRecords=L.layerGroup().addTo(map);
-['unspecified','known','multiple'].forEach((name,i)=>{map.createPane(name);map.getPane(name).style.zIndex=410+i;});
+['unspecified','known','multiple'].forEach((name,i)=>{map.createPane(name);map.getPane(name).style.zIndex=410+i;map.getPane(name).style.pointerEvents='none';});
 }
 function placementText(p){return p.matches.map(key=>key==='unspecified'?'Restroom type not specified':categoryByKey[key].name).join(' + ');}
 function present(value){return value!=null&&!['','n/a','na','null','none','nan','not reported','not available','not applicable','unknown','-','--'].includes(String(value).trim().toLowerCase());}
@@ -67,12 +119,13 @@ function field(label,value){return present(value)?`<dt>${escapeHTML(label)}</dt>
 function metadata(p){const text=[p.locationType,p.operator].filter(present).map(escapeHTML).join(' · ');return text?`<div class="card-meta">${text}</div>`:'';}
 function tooltipHTML(p){return `${present(p.name)?`<strong>${escapeHTML(p.name)}</strong>`:''}${metadata(p)}<dl>${field('Hours',p.hours)}${field('Accessibility',p.accessibility)}${field('Changing table',placementText(p)+(p.singleStall?' · Single-stall':''))}${field('Restroom',p.restroomType)}${field('Status',p.status)}${p.matches.length>1?field('Multiple types','Segmented dot; matches each reported type.'):''}</dl><div class="details-hint">Click for details</div>`;}
 function openingPattern(p){const key=value=>String(value||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();return present(p.open)&&!key(p.hours).includes(key(p.open))?p.open:'';}
-function popupHTML(p){const website=/^https?:\/\//i.test(p.website||'')?`<p><a href="${escapeHTML(p.website)}" target="_blank" rel="noopener noreferrer">Facility website</a></p>`:'';return `<div class="popup">${present(p.name)?`<h3>${escapeHTML(p.name)}</h3>`:''}${metadata(p)}<dl>${data.fieldCoverage.address.mapped_records?field('Address',p.address):''}${field('Location',p.location)}${field('Hours',p.hours)}${field('Opening pattern',openingPattern(p))}${data.fieldCoverage.access.mapped_records?field('Access / entry',p.access):''}${field('Accessibility',p.accessibility)}${field('Changing table',placementText(p))}${field('Setting',p.singleStall?'Single-stall':'')}${field('Restroom',p.restroomType)}${field('Status',p.status)}${field('Original changing-table label',p.raw)}${field('Additional notes',p.notes)}</dl>${website}</div>`;}
-function makeMarker(p){const multiple=p.matches.length>1;let marker;if(multiple){const segment=100/p.matches.length;const colors=p.matches.map((key,i)=>`${categoryByKey[key].color} ${i*segment}% ${(i+1)*segment}%`).join(',');marker=L.marker([p.lat,p.lon],{pane:'multiple',icon:L.divIcon({className:'multi-marker',html:`<span style="display:block;width:100%;height:100%;border-radius:50%;background:conic-gradient(${colors})"></span>`,iconSize:[11,11],iconAnchor:[5.5,5.5]})});}else{const key=p.matches[0];marker=L.circleMarker([p.lat,p.lon],{pane:key==='unspecified'?'unspecified':'known',radius:4.5,color:'#fff',weight:.8,opacity:1,fillColor:categoryByKey[key].color,fillOpacity:key==='unspecified'?.83:.96});}marker.bindTooltip(tooltipHTML(p),{direction:'auto',className:'info-tooltip',offset:[0,0]}).bindPopup(popupHTML(p),{maxWidth:300,minWidth:260,maxHeight:420,autoPanPadding:[18,18]});
+function popupHTML(p){const website=/^https?:\/\//i.test(p.website||'')?`<p><a href="${escapeHTML(p.website)}" target="_blank" rel="noopener noreferrer">Facility website</a></p>`:'';return `<div class="popup">${present(p.name)?`<h3>${escapeHTML(p.name)}</h3>`:''}${metadata(p)}<dl>${data.fieldCoverage.address.mapped_records?field('Address',p.address):''}${field('Location',p.location)}${field('Hours',p.hours)}${field('Opening pattern',openingPattern(p))}${data.fieldCoverage.access.mapped_records?field('Access / entry',p.access):''}${field('Accessibility',p.accessibility)}${field('Changing table',placementText(p))}${field('Setting',p.singleStall?'Single-stall':'')}${field('Restroom',p.restroomType)}${field('Status',p.status)}${field('Additional notes',p.notes)}</dl>${website}</div>`;}
+function makeMarker(p){const multiple=p.matches.length>1;let marker;if(multiple){const segment=100/p.matches.length;const colors=p.matches.map((key,i)=>`${categoryByKey[key].color} ${i*segment}% ${(i+1)*segment}%`).join(',');marker=L.marker([p.lat,p.lon],{pane:'multiple',interactive:false,keyboard:false,icon:L.divIcon({className:'multi-marker',html:`<span style="display:block;width:100%;height:100%;border-radius:50%;background:conic-gradient(${colors})"></span>`,iconSize:[11,11],iconAnchor:[5.5,5.5]})});}else{const key=p.matches[0];marker=L.circleMarker([p.lat,p.lon],{pane:key==='unspecified'?'unspecified':'known',interactive:false,radius:4.5,color:'#fff',weight:.8,opacity:1,fillColor:categoryByKey[key].color,fillOpacity:key==='unspecified'?.83:.96});}marker.bindTooltip(tooltipHTML(p),{direction:'auto',className:'info-tooltip',offset:[0,0]}).bindPopup(popupHTML(p),{maxWidth:300,minWidth:260,maxHeight:420,autoPanPadding:[18,18]});
 // Keep the full card within the map at all edges; Leaflet's auto direction only checks left/right.
 marker.on('tooltipopen',event=>{const tip=event.tooltip,el=tip.getElement(),container=map.getContainer().getBoundingClientRect();if(!el)return;const card=el.getBoundingClientRect();const shiftX=Math.max(container.left+8-card.left,Math.min(0,container.right-8-card.right));const shiftY=Math.max(container.top+8-card.top,Math.min(0,container.bottom-8-card.bottom));if(shiftX||shiftY){const pos=L.DomUtil.getPosition(el);L.DomUtil.setPosition(el,pos.add([shiftX,shiftY]));}});return marker;}
 if(map){
 data.points.forEach(point=>markers.push({point,marker:makeMarker(point)}));
+bindPoiInteraction();
 const bounds=L.latLngBounds([[40.49,-74.26],[40.92,-73.70]]);
 let defaultView;
 function resetView(){map.closePopup();markers.forEach(({marker})=>marker.closeTooltip());map.setView(defaultView.center,defaultView.zoom,{animate:false});}
