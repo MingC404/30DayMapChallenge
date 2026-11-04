@@ -1,0 +1,34 @@
+{
+  "old_osm": {
+    "broad_query_objects_including_schools": 183,
+    "broad_objects_after_boundary": 119,
+    "raw_childcare_candidates_after_tag_name_check_before_boundary": 19,
+    "childcare_after_boundary": 15,
+    "participating_groups": 11,
+    "hidden_unmatched": 4,
+    "old_main_selected_groups": 5
+  },
+  "official": {
+    "downloaded_hudson": 407,
+    "municipality_names_JC_Hoboken": 216,
+    "within_OSM_city_boundaries": 216,
+    "municipality_named_but_outside_boundary": [],
+    "boundary_but_other_municipality": [],
+    "school_age_only_excluded": 10,
+    "duplicates_removed": 0,
+    "age_unknown_retained": 0,
+    "retained": 206,
+    "retained_by_city": {
+      "Hoboken": 46,
+      "Jersey City": 160
+    },
+    "age_categories": {
+      "toddler_preschool": 72,
+      "infant_toddler_preschool": 134
+    },
+    "source_download_dates_utc": [
+      "2026-10-06T10:34:22+00:00"
+    ]
+  },
+  "method": "Replace OSM with official systematic baseline; crosswalk names + addresses without merging on distance; preserve age-unknown official rows; no new geocoding"
+}

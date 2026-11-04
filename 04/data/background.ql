@@ -1,0 +1,1 @@
+[out:json][timeout:120];(way["highway"~"^(motorway|trunk|primary|secondary|tertiary|residential|unclassified|living_street)$"](40.66,-74.13,40.78,-74.005);nwr["leisure"="park"](40.66,-74.13,40.78,-74.005););out geom;

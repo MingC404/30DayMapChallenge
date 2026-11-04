@@ -1,0 +1,16 @@
+﻿osm_id,osm_name,osm_address,city,official_id,official_name,official_address,match_status,action
+node/3579497749,Franciscan Sisters of St. Elizabeth School and Child Care Center,Not recorded,Jersey City,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/5358573957,Dear World Academy,101 Marshall Street,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/5701113239,Apple Montessori,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/5820213497,Viaquenti Academy,837 Jersey Avenue,Jersey City,CCC128089,Lily Pad Academy,837 Jersey Avenue,"same address, different name; unresolved identity / possible renamed center",Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/6772394740,Little Bee Learning Studio,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/6793153510,Kiddie Academy,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/6793153520,Bright Horizons,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/6793231925,Apple Montessori Schools,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/6793958744,Hoboken Children's Academy II,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/6799740841,Cresthill Academy,Not recorded,Hoboken,160500054,Cresthill Academy,1330 Sinatra Drive North,"name match; address absent or different, not confirmed duplicate",Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/7159891532,Kidz City,Not recorded,Hoboken,09KID0022,Kidz City,834 WASHINGTON STREET,"name match; address absent or different, not confirmed duplicate",Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/11367696069,Cresthill Academy Day Care and Preschool,1300 Sinatra Drive North,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/11423257670,Bright Horizons,Not recorded,Hoboken,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/11655575127,Kidz Academy,793 West Side Avenue,Jersey City,,,,no confirmed name + address match,Official-only replacement baseline; OSM row not added; no proximity-only merge
+node/12232127873,The Place for Learning,6 Chapel Avenue,Jersey City,130800104,Growing Seeds Learning Academy,6 Chapel Avenue,"same address, different name; unresolved identity / possible renamed center",Official-only replacement baseline; OSM row not added; no proximity-only merge

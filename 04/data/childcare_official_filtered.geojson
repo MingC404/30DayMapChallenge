@@ -1,0 +1,5361 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NJDCF/09MIL0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0376494233014,
+          40.74168105174289
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09MIL0004",
+        "name": "Mile Square Early Learning Center",
+        "address": "310 Jefferson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09MIL0004",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09MIL0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03138350399789,
+          40.74074169568721
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09MIL0001",
+        "name": "Mile Square  Early Learning Center",
+        "address": "301 Garden Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09MIL0001",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09LIT0029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04163876628874,
+          40.74936924332952
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09LIT0029",
+        "name": "Little Smiles Infant-Toddler Center",
+        "address": "40A - 40B Congress",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09LIT0029",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09LIT0011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05727791181934,
+          40.74456614880759
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09LIT0011",
+        "name": "Little Smiles Preschool & Day Care",
+        "address": "70 Beach Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09LIT0011",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09LIP0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03685792448144,
+          40.72154598835466
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09LIP0001",
+        "name": "Bright Horizons at washington Blvd.",
+        "address": "389 Washington Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09LIP0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09LEA0006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09690997164054,
+          40.69740924035208
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09LEA0006",
+        "name": "Leaders of Tomorrow Day Care/PreSchool",
+        "address": "144 Bartholdi Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09LEA0006",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KID0022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02821930548996,
+          40.74725641929841
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KID0022",
+        "name": "Kidz City",
+        "address": "834 WASHINGTON STREET",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KID0022",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC131128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06748955208242,
+          40.71475793746349
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC131128",
+        "name": "Pee Wee Prep",
+        "address": "475 Communipaw Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC131128",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC130512",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0479594315949,
+          40.720851050469946
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC130512",
+        "name": "The Liberty School",
+        "address": "203 Christopher Columbus Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC130512",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC130442",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05023483248902,
+          40.72925472247193
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC130442",
+        "name": "My Little Gan - Jersey City",
+        "address": "255 Brunswick Street Unit 1",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC130442",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC130437",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03751537085043,
+          40.74380737705472
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC130437",
+        "name": "Village Tree House",
+        "address": "503 Madison Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC130437",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC130057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04870820829082,
+          40.72342110476705
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC130057",
+        "name": "Riverside Early Learning Center",
+        "address": "317 Third Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC130057",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC129561",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02835083342893,
+          40.736301650819236
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC129561",
+        "name": "Greatness Grows Early Learning Center",
+        "address": "1 Newark Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC129561",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC128300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04452406564492,
+          40.72926509729938
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC128300",
+        "name": "Fasttrack-Languages",
+        "address": "242 10th Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC128300",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC128089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04468460524798,
+          40.73462964928107
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC128089",
+        "name": "Lily Pad Academy",
+        "address": "837 Jersey Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC128089",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC127604",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0288077313155,
+          40.74161647272356
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC127604",
+        "name": "SBS on Hudson",
+        "address": "410 Hudson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC127604",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC127246",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0409089050133,
+          40.71449993351669
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC127246",
+        "name": "Key Element Learning Van Vorst",
+        "address": "206 Van Vorst Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC127246",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC126859",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07313841423812,
+          40.70759567374648
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC126859",
+        "name": "Mosdos of Greenville",
+        "address": "829 Garfield Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC126859",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC126791",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0488218200993,
+          40.740789218778076
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC126791",
+        "name": "GOMS II",
+        "address": "59 Webster Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC126791",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC126766",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07494010507949,
+          40.719241201161296
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC126766",
+        "name": "Badr Center Inc",
+        "address": "539 Bergen Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC126766",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC126633",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04165884913127,
+          40.73908379873377
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC126633",
+        "name": "Hoboken Day School",
+        "address": "659 1st Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC126633",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC126527",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0454413258235,
+          40.721003655158135
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC126527",
+        "name": "Theycare Academy Corp",
+        "address": "175 Newark Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC126527",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC123497",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09365933528665,
+          40.70114206090605
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC123497",
+        "name": "Buzy Beez Learning Center LLC",
+        "address": "1763 John F Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC123497",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC122887",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03686100434993,
+          40.72266322043362
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC122887",
+        "name": "The Goddard School",
+        "address": "425 Washington Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC122887",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC122646",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0540262187759,
+          40.75048008856487
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC122646",
+        "name": "GOMS I",
+        "address": "3464 Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC122646",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC122194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03957975199798,
+          40.74332478938262
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC122194",
+        "name": "World Of Wonder Daycare Center",
+        "address": "401 Jackson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC122194",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC132579",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06153708073539,
+          40.713658115749475
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC132579",
+        "name": "Helping Hands 4 Special Needs at Rev. Dr. Ercel F. Webb School",
+        "address": "264 Van Horne Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC132579",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC132436",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09391559280871,
+          40.69616411330888
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC132436",
+        "name": "Sacred Heart School",
+        "address": "193 Old Bergen Road",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC132436",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC131882",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03438970645514,
+          40.73797976585601
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC131882",
+        "name": "Mirasol Academy",
+        "address": "95 Willow Avenue AKA 265 1st Street Suite 1",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC131882",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC121357",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03885122937838,
+          40.745339458060336
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC121357",
+        "name": "HOPES CAP Inc Jubilee Center",
+        "address": "601 Jackson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC121357",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC120459",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0806654992055,
+          40.703752778188004
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC120459",
+        "name": "Mosdos Of Greenville",
+        "address": "503-505 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC120459",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC120444",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04461904553979,
+          40.743185571699435
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC120444",
+        "name": "Learning Lounge V",
+        "address": "430 Palisade Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC120444",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC120371",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08897295228418,
+          40.71422471760244
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC120371",
+        "name": "LittleGems Childcare Center",
+        "address": "355 West Side Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC120371",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC120017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02768949376537,
+          40.73796516394174
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC120017",
+        "name": "Cresthill Academy Hoboken South",
+        "address": "112 Sinatra Drive",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC120017",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC119342",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07870841319344,
+          40.71095408051583
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC119342",
+        "name": "New Life Dream Academy III",
+        "address": "360 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC119342",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC118051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04173612735802,
+          40.714669980723635
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC118051",
+        "name": "Key Element Learning",
+        "address": "207 Van Vorst Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC118051",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC117886",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09304694419531,
+          40.697458823329356
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC117886",
+        "name": "Taking the Wright Steps Daycare LLC",
+        "address": "225 Old Bergen Road",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC117886",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC117601",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06947533905404,
+          40.72970964590677
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC117601",
+        "name": "Mosdos Of Greenville",
+        "address": "2737 kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC117601",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC117472",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02979199069587,
+          40.754570023150364
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC117472",
+        "name": "Quackers LLC DBA Lightbridge Academy of Hoboken Willow",
+        "address": "1414 Willow Avenue",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC117472",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC117433",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03985727635431,
+          40.72190385530834
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC117433",
+        "name": "Academy of Excellence Preschool",
+        "address": "159 2nd street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC117433",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC117406",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03887354927184,
+          40.74681086775637
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC117406",
+        "name": "Mile Square Early Learning Center",
+        "address": "770 Jackson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC117406",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC116217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08233932901892,
+          40.70199105029016
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC116217",
+        "name": "Greenville Learning Center",
+        "address": "455 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC116217",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC116077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08350031621114,
+          40.700902725123534
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC116077",
+        "name": "Victory Steps Academy LLC",
+        "address": "409 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC116077",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC115481",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05076347296561,
+          40.72254522749228
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC115481",
+        "name": "Learning Lounge IV, LLC",
+        "address": "102 Brunswick Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC115481",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC115400",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04296749175117,
+          40.74561386061188
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC115400",
+        "name": "Learning Lounge III, LLC",
+        "address": "502 Palisade Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC115400",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC115182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03441110434623,
+          40.737685033093314
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC115182",
+        "name": "Pumpkin Patch Preschool and Early Learning Center",
+        "address": "89 Willow Avenue",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC115182",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC115171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06349650599064,
+          40.72745824213007
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC115171",
+        "name": "Mosdos of Greenville Day Care",
+        "address": "203 Academy Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC115171",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC114422",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04377739569001,
+          40.71951752769675
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC114422",
+        "name": "Early Beginnings II",
+        "address": "109 Christopher Columbus Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC114422",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC114201",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10110584767514,
+          40.69295216194176
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC114201",
+        "name": "Greater Bergen Community Action at Curries Woods",
+        "address": "65-67 Ruby Brown Terrace",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC114201",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/CCC113979",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0481824178812,
+          40.73447869392703
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/CCC113979",
+        "name": "Ivy Primary Prep",
+        "address": "675 Monmouth Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "CCC113979",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/190200154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05022009513645,
+          40.719652612236196
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/190200154",
+        "name": "TheyCare Academy Corp",
+        "address": "342 Montgomery Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "190200154",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/181200165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0377840607142,
+          40.7217061659307
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/181200165",
+        "name": "The Brunswick School",
+        "address": "474 Warren Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "181200165",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/181000138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07612506951264,
+          40.73661874037663
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/181000138",
+        "name": "Boys and Girls Clubs of Hudson County at JCHA Marion Gardens",
+        "address": "73 Dales Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "181000138",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/181000046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07731705259899,
+          40.73587646902241
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/181000046",
+        "name": "Greater Bergen Community Action at Marion Gardens",
+        "address": "57 Dales Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "181000046",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/180600249",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06479776434772,
+          40.72378483887191
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/180600249",
+        "name": "Sweet Dreams Academy for Children, Inc",
+        "address": "661 Montgomery Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "180600249",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/180600023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04283272652717,
+          40.74052134646646
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/180600023",
+        "name": "Lightbridge Academy of Hoboken-Marshall",
+        "address": "100 Marshall Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "180600023",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/171100161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04014205438203,
+          40.72036778216756
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/171100161",
+        "name": "Learning Ladders NJ Inc",
+        "address": "160 Morgan Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "171100161",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/171100141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05815781226137,
+          40.71794841812962
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/171100141",
+        "name": "Beloved Community Charter School Inc",
+        "address": "508 Grand Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "171100141",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/171000286",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09085955162911,
+          40.69656719314638
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/171000286",
+        "name": "Jersey City Community Charter School",
+        "address": "128 Danforth Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "171000286",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KID0019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09124145946808,
+          40.6954513199883
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KID0019",
+        "name": "Kidz Kastle",
+        "address": "203 - 207 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KID0019",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KID0016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08872687807236,
+          40.70613975372881
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KID0016",
+        "name": "Kidz Kingdom Learning Center",
+        "address": "1944 Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KID0016",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KID0008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.043607393623,
+          40.749681739086675
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KID0008",
+        "name": "Kidz Inn Day Care & Learning Center, Inc",
+        "address": "73 Congress Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KID0008",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KID0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06708009710711,
+          40.71845985721488
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KID0004",
+        "name": "Kiddee Korner 2",
+        "address": "8 - 10 Clifton Place",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KID0004",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KID0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0805046042676,
+          40.70927517866941
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KID0002",
+        "name": "Kiddee Korner 1",
+        "address": "304-306 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KID0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09KAP0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03316863075712,
+          40.73834979532892
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09KAP0001",
+        "name": "Kaplan Cooperative Pre-School",
+        "address": "115 Park Avenue",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09KAP0001",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09JPM0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03541841786802,
+          40.72880075807819
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09JPM0001",
+        "name": "J P Morgan Chase Back-up CCC, Newport",
+        "address": "575 - Washington Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09JPM0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09JER0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05910929409713,
+          40.715360760306524
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09JER0001",
+        "name": "Jersey City Day Care 100, Inc.",
+        "address": "409-415 Halladay Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09JER0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09ITT0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08055755963431,
+          40.70313475600593
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09ITT0003",
+        "name": "It Takes A Village III",
+        "address": "492 - 494 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09ITT0003",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09ITT0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08073199766794,
+          40.7029267673388
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09ITT0002",
+        "name": "It Takes A Village II",
+        "address": "486 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09ITT0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170900147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0288956921507,
+          40.74602942162055
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170900147",
+        "name": "Little Linguists",
+        "address": "739 Bloomfield Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170900147",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170800048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07361144042721,
+          40.731267694295035
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170800048",
+        "name": "Mosdos of Greenville Day Care",
+        "address": "925 West Side Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170800048",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170600204",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05641566220122,
+          40.73908106449856
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170600204",
+        "name": "C.A.S.P.E.R Program-P.S. #26",
+        "address": "164 Laidlaw Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170600204",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170600199",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04405700745994,
+          40.71343567800286
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170600199",
+        "name": "Park View Academy",
+        "address": "33 Park View Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170600199",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170300115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06917762404969,
+          40.72551690134691
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170300115",
+        "name": "Hudson Sprouts",
+        "address": "769 Montgomery Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170300115",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09ITT0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0804741365454,
+          40.70320856837732
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09ITT0001",
+        "name": "It Takes A Village, Inc.",
+        "address": "496 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09ITT0001",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09HOP0005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03018871236654,
+          40.74744013231747
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09HOP0005",
+        "name": "HOPES CAP, Inc. Head Start",
+        "address": "215 9th Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09HOP0005",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09HOP0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.031438503965,
+          40.7406183931638
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09HOP0002",
+        "name": "HOPES CAP,  Inc. Head Start",
+        "address": "301 Garden Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09HOP0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09HOB0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03655337782976,
+          40.73944222281201
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09HOB0002",
+        "name": "Hoboken Day Care 100",
+        "address": "124 Grand Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09HOB0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09HEA0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05334374996838,
+          40.74566546188888
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09HEA0001",
+        "name": "Learn & Grow Day Care Center II",
+        "address": "165 Hutton Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09HEA0001",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09HAP0008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04607608129696,
+          40.7417474394477
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09HAP0008",
+        "name": "Happy Face Day Care III",
+        "address": "377 Palisade Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09HAP0008",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09HAP0006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04603595371529,
+          40.74181041659087
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09HAP0006",
+        "name": "Happy Face Day Care Center II",
+        "address": "379 Palisade Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09HAP0006",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09GRO0005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04512761903689,
+          40.74323149707918
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09GRO0005",
+        "name": "Busy Bees of Palisade Day Care Learning Center",
+        "address": "423 Palisade Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09GRO0005",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09GRO0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09215401902084,
+          40.7131736779678
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09GRO0002",
+        "name": "Growing Tree Learning Center",
+        "address": "27 Fisk Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09GRO0002",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170200163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08262579279514,
+          40.71907984021606
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170200163",
+        "name": "New Dreams Child Daycare Center",
+        "address": "534 West Side Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170200163",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07831742854194,
+          40.7048834103951
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100178",
+        "name": "C.A.S.P.E.R Program-P.S. #41",
+        "address": "59 Wilkinson Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100178",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08071357896267,
+          40.730014535778906
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100177",
+        "name": "C.A.S.P.E.R Program-P.S. #39",
+        "address": "214 Plainfield Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100177",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.091017339098,
+          40.70850861112635
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100176",
+        "name": "C.A.S.P.E.R Program-P.S. #38",
+        "address": "339 Stegman Parkway",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100176",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0429265522346,
+          40.72786723455834
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100175",
+        "name": "C.A.S.P.E.R Program-P.S. #37",
+        "address": "158 Erie Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100175",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09086125667694,
+          40.70218352283457
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100174",
+        "name": "C.A.S.P.E.R Program-P.S. #34",
+        "address": "1830 Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100174",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08441443025772,
+          40.71921530901216
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100173",
+        "name": "C.A.S.P.E.R Program-P.S. #33",
+        "address": "362 Union Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100173",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09808287228039,
+          40.69368558100815
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100171",
+        "name": "C.A.S.P.E.R Program-P.S. #30",
+        "address": "171 Seaview Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100171",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0793070136488,
+          40.70869711137772
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100170",
+        "name": "C.A.S.P.E.R Program-P.S. #29",
+        "address": "123 Claremont Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100170",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04631813887511,
+          40.748083856620994
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100169",
+        "name": "C.A.S.P.E.R Program-P.S. #28",
+        "address": "167 Hancock Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100169",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05046439718603,
+          40.754117119262624
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100168",
+        "name": "C.A.S.P.E.R Program-P.S. #27",
+        "address": "201 North Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100168",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05626400344343,
+          40.74832565297503
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100167",
+        "name": "C.A.S.P.E.R Program-P.S. #25",
+        "address": "3385 John F Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100167",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08394603011087,
+          40.71621880838174
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100165",
+        "name": "C.A.S.P.E.R. Program-P.S. #24",
+        "address": "220 Virginia Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100165",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0684940105101,
+          40.73471287908404
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100164",
+        "name": "C.A.S.P.E.R Program-P.S. #23",
+        "address": "143 Romaine Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100164",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06164525894532,
+          40.713739877305294
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100163",
+        "name": "C.A.S.P.E.R Program-P.S. #22",
+        "address": "264 Van Horne Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100163",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08968953713759,
+          40.69680734864037
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100161",
+        "name": "C.A.S.P.E.R Program-P.S. #20",
+        "address": "239 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100161",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07218992986716,
+          40.7210894178742
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100160",
+        "name": "C.A.S.P.E.R Program-P.S. #17",
+        "address": "600 Bergen Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100160",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03819958115571,
+          40.714831567777104
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100159",
+        "name": "C.A.S.P.E.R. Program-P.S. #16",
+        "address": "96 Sussex Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100159",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09GAR0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04451521409217,
+          40.72930640944739
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09GAR0001",
+        "name": "Garden Preschool Cooperative",
+        "address": "242 Tenth Street Suite 104",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09GAR0001",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09FUT0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05102127966624,
+          40.72337522462184
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09FUT0003",
+        "name": "Future Stars Daycare PreSchool",
+        "address": "123 Brunswick Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09FUT0003",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09FIR0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08122428208614,
+          40.703225017073656
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09FIR0001",
+        "name": "Baby World Preschool",
+        "address": "485 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09FIR0001",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09CHI0009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08157656620372,
+          40.71667140706042
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09CHI0009",
+        "name": "The Children Academy Day Care Center",
+        "address": "2281 Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09CHI0009",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09BUS0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04639619116053,
+          40.74987664872979
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09BUS0002",
+        "name": "Baby Galileo Preschool & Daycare Limited Liability Company",
+        "address": "444 Central Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09BUS0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09BUS0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04645386782842,
+          40.74988785537214
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09BUS0001",
+        "name": "Busy Place Early Learning Center",
+        "address": "444 Central Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09BUS0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09BOY0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0377625791458,
+          40.73941138671338
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09BOY0002",
+        "name": "Boys & Girls Clubs of Hudson County-Hoboken",
+        "address": "123 Jefferson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09BOY0002",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09BOY0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04392999132816,
+          40.71407476484904
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09BOY0001",
+        "name": "Boys & Girls Club of Hudson Co.-Robert T. Williams Jr. Unit",
+        "address": "225 Morris Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09BOY0001",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09BEY0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0276031829692,
+          40.73996317423857
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09BEY0002",
+        "name": "Bright Horizons at Sinatra Drive, Hoboken",
+        "address": "336 Sinatra Drive",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09BEY0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08328075073521,
+          40.703723817861764
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100158",
+        "name": "C.A.S.P.E.R Program-P.S. #15",
+        "address": "135 Stegman Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100158",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07698745160735,
+          40.71441200184933
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100157",
+        "name": "C.A.S.P.E.R Program-P.S. #14",
+        "address": "153 Union Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100157",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07029252865144,
+          40.71878753734683
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100156",
+        "name": "C.A.S.P.E.R Program-P.S. #12",
+        "address": "91 Astor Place",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100156",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06514426390403,
+          40.7293091089591
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100155",
+        "name": "C.A.S.P.E.R Program-P.S. #11",
+        "address": "886 Bergen Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100155",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04861228060082,
+          40.74295695190837
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100154",
+        "name": "C.A.S.P.E.R Program-P.S. #8",
+        "address": "96 Franklin Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100154",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05514369523344,
+          40.73607587687934
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100152",
+        "name": "C.A.S.P.E.R Program-P.S. #6",
+        "address": "100 Street Paul's Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100152",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/170100151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05235264101698,
+          40.72445369496927
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/170100151",
+        "name": "C.A.S.P.E.R Program-P.S. #5",
+        "address": "182 Merseles Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "170100151",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/161200149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03451671340623,
+          40.71683436181313
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/161200149",
+        "name": "Adventures in Learning Daycare",
+        "address": "2 Montgomery Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "161200149",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/161100193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0771914934588,
+          40.712952398620324
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/161100193",
+        "name": "The Little Steppers Learning Center",
+        "address": "429 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "161100193",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/161100161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0380727580069,
+          40.74674178570045
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/161100161",
+        "name": "My Little Gan",
+        "address": "720 Monroe Street Suite E107",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "161100161",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/161100036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05084653159476,
+          40.71770334506574
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/161100036",
+        "name": "C.A.S.P.E.R. Program- P.S. #3",
+        "address": "111 Bright Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "161100036",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/161000091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03790717071547,
+          40.74719953800625
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/161000091",
+        "name": "Tessa International School",
+        "address": "720 Monroe Street Suite E105-106",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "161000091",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160800004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04192644641682,
+          40.740583633240774
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160800004",
+        "name": "#Wow Kids, LLC",
+        "address": "128 Harrison Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160800004",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09AWH0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02805884906483,
+          40.745446807887944
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09AWH0001",
+        "name": "A Whole New World Academy, Inc.",
+        "address": "721 Washington Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09AWH0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/090900133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0461161901435,
+          40.741687207214525
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/090900133",
+        "name": "Happy Face Day Care Center II",
+        "address": "375 Palisade Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "090900133",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/090800305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02491403731774,
+          40.7501745210931
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/090800305",
+        "name": "Bright Horizons at Maxwell Place",
+        "address": "1155 Maxwell Lane",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "090800305",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160600084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05633029007062,
+          40.74704124689936
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160600084",
+        "name": "Totz ABA Spot",
+        "address": "231 Hutton Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160600084",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160500241",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07185389801826,
+          40.71891411947503
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160500241",
+        "name": "Small Discoveries Preschool",
+        "address": "123 Monticello Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160500241",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160500054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02401141542623,
+          40.75274011958669
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160500054",
+        "name": "Cresthill Academy",
+        "address": "1330 Sinatra Drive North",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160500054",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160300091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08334750318006,
+          40.730627976393045
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160300091",
+        "name": "Lincoln Park Preschool Education Center",
+        "address": "330 Duncan Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160300091",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160300086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05595217819192,
+          40.71298468406282
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160300086",
+        "name": "Three Little Birds",
+        "address": "130 Monitor Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160300086",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/160200043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03607257566966,
+          40.73852071476876
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/160200043",
+        "name": "Cresthill Academy",
+        "address": "360 1st Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "160200043",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/151200200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05933877977371,
+          40.744016799940695
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/151200200",
+        "name": "Little Smiles Infant Toddler Center",
+        "address": "3257 John F Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "151200200",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/151200144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03751431805,
+          40.749201814327606
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/151200144",
+        "name": "The Learning Experience",
+        "address": "900 Monroe Sreet",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "151200144",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/090700023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06454534497504,
+          40.713243025179885
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/090700023",
+        "name": "Cradles to Crayons",
+        "address": "406 Communipaw Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "090700023",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/090300119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03289268855056,
+          40.75406380981136
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/090300119",
+        "name": "Adventures in Learning Day Care",
+        "address": "1320 Adams Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "090300119",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/081200280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07760488933168,
+          40.71261353027786
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/081200280",
+        "name": "The Learning Tree",
+        "address": "411 - 413 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "081200280",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080900378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08906332479833,
+          40.714194844195255
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080900378",
+        "name": "PF4 Sunnyside Academy D/B/A Babyland Nursery",
+        "address": "353 Westside Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080900378",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080800286",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03213175086387,
+          40.74366266879258
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080800286",
+        "name": "Mile Square Early Learning Center Calabro",
+        "address": "524 Park Avenue",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080800286",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080800040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04620239176921,
+          40.72209641958265
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080800040",
+        "name": "P. R. R. Corporation/Smile Preschool & Child Care",
+        "address": "194 Newark Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080800040",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080400057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0531563329385,
+          40.74454752079249
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080400057",
+        "name": "Bright Star Learning Center",
+        "address": "51 SHERMAN PLACE",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080400057",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080300016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08705581479583,
+          40.71505510644748
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080300016",
+        "name": "Westside Academy",
+        "address": "400 Westside Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080300016",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080200075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0870555306977,
+          40.720355734486986
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080200075",
+        "name": "Great Kidz Learning Center",
+        "address": "178 Mallory Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080200075",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/080100156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04115766663921,
+          40.74111860023795
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/080100156",
+        "name": "World of Wonder",
+        "address": "201 Harrison Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "080100156",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/151200085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04623439500541,
+          40.72110285070993
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/151200085",
+        "name": "Smart Start Academy",
+        "address": "532 Jersey Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "151200085",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/151100097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08495064121993,
+          40.69909897643483
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/151100097",
+        "name": "Early Rise Academy",
+        "address": "364-366 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "151100097",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/150900256",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.089377821424,
+          40.701758267978946
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/150900256",
+        "name": "New Life Dream Academy",
+        "address": "46-48 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "150900256",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/150800202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0623215161498,
+          40.737171125157865
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/150800202",
+        "name": "Apollo After School",
+        "address": "3044 Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "150800202",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/150800002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02461482260762,
+          40.750628958792234
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/150800002",
+        "name": "Urban Jungle Play",
+        "address": "1125 Maxwell Lane",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "150800002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/150700151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06186079401715,
+          40.744687946618036
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/150700151",
+        "name": "Academy House CDC V",
+        "address": "404 Tonnele Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "150700151",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/150600058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08645394541008,
+          40.72195392460489
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/150600058",
+        "name": "Playscape",
+        "address": "221 Mallory Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "150600058",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/141200179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03833103004834,
+          40.74749494961387
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/141200179",
+        "name": "Step by Step School",
+        "address": "720 Monroe Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "141200179",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/141000240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06075050769736,
+          40.735704813691626
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/141000240",
+        "name": "Academy House IV",
+        "address": "3000 Kennedy Boulevard",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "141000240",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140900019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04540209039057,
+          40.721467407914766
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140900019",
+        "name": "Smart Start Academy-The Learning Lounge II, LLC",
+        "address": "180 Newark Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140900019",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140900017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03681251466298,
+          40.74890803058765
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140900017",
+        "name": "Smart Start Academy-CKJ Group, LLC",
+        "address": "552 9th Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140900017",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140800059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05148319618337,
+          40.755600636632465
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140800059",
+        "name": "Greater Bergen Community Action",
+        "address": "93 Nelson Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140800059",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/071200069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04130961035949,
+          40.74054000857451
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/071200069",
+        "name": "World of Wonder",
+        "address": "133 Harrison Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "071200069",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/071100104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03264946151454,
+          40.74291812528385
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/071100104",
+        "name": "Hoboken Children's Academy",
+        "address": "501 Willow Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "071100104",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140700292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06979014323804,
+          40.72141418969332
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140700292",
+        "name": "Bergen-Lafayette Montessori School",
+        "address": "200 Monticello Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140700292",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140700131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05076653454186,
+          40.72638276710017
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140700131",
+        "name": "The Brunswick School",
+        "address": "189 Brunswick Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140700131",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140700040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04517498279505,
+          40.75164236750373
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140700040",
+        "name": "Bright Beginnings Learning Academy",
+        "address": "498 CENTRAL Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140700040",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140500176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02542300090816,
+          40.750171125033006
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140500176",
+        "name": "Bright Horizons at 1102 Maxwell Lane",
+        "address": "1102 Maxwell Lane",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140500176",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140500001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04247296808288,
+          40.72033586928165
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140500001",
+        "name": "Key Element Learning",
+        "address": "338 Grove Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140500001",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/140100148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03862543827572,
+          40.716375969141396
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/140100148",
+        "name": "River School Warren-Bright Horizons School",
+        "address": "254 Warren Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "140100148",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/131000213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09526415126119,
+          40.68985739619183
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/131000213",
+        "name": "Connecting  Circles Childcare Service",
+        "address": "136 Garfield Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "131000213",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/130900102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.031025849081,
+          40.75106968201409
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/130900102",
+        "name": "Mile Square Early Learning Center",
+        "address": "1100 WILLOW Avenue",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "130900102",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/130800108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05122683620111,
+          40.7437988835191
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/130800108",
+        "name": "The Wonder Years",
+        "address": "255 Central Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "130800108",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/130800104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07105664832054,
+          40.68572930961133
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/130800104",
+        "name": "Growing Seeds Learning Academy",
+        "address": "6 Chapel Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "130800104",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/130700165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08418467154839,
+          40.706274459249336
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/130700165",
+        "name": "Creative Minds Learning Center LLP",
+        "address": "196 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "130700165",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/130200015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04644019276152,
+          40.74180651580658
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/130200015",
+        "name": "L C Preschool",
+        "address": "168 New York Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "130200015",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/130100211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0262126586996,
+          40.75435500062808
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/130100211",
+        "name": "Hoboken Montessori School",
+        "address": "1450 Washington Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "130100211",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/120400170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03556276692814,
+          40.713226134230126
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/120400170",
+        "name": "Learning Ladders",
+        "address": "33 Hudson Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "120400170",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/120100289",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03588337354299,
+          40.745492261768675
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/120100289",
+        "name": "HOPES CAP, Inc Early Head Start",
+        "address": "619 Jefferson Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "120100289",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/120100169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06651912964595,
+          40.73040953919229
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/120100169",
+        "name": "Happy Days Child Day Care Center, LLC",
+        "address": "102 Van Reypen Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "120100169",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/120100124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.065872482,
+          40.72996790724466
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/120100124",
+        "name": "Academy House Child Development Center",
+        "address": "895 Bergen Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "120100124",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/111000022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0425126172855,
+          40.72034151644329
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/111000022",
+        "name": "Early Beginnings Day School",
+        "address": "338 Grove Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "111000022",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/110700090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03153809669085,
+          40.75522768854479
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/110700090",
+        "name": "At Mr Robert's",
+        "address": "1422 Grand Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "110700090",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/110300068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0274481450844,
+          40.75370950107394
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/110300068",
+        "name": "Hoboken Montessori School",
+        "address": "158 14th Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "110300068",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/101200055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04284587945865,
+          40.73754581280274
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/101200055",
+        "name": "Adventures In Learning Day Care",
+        "address": "50 Harrison Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "101200055",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/101200046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05119033853626,
+          40.7438591315531
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/101200046",
+        "name": "Bright Star Learning Center",
+        "address": "3 Sherman Place",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "101200046",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/100800012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04191358535674,
+          40.728253010550446
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/100800012",
+        "name": "The Scandinavian School of Jersey City",
+        "address": "513 Manila Ave/210 220 9th Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "100800012",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/100700235",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04600294297255,
+          40.75038018240509
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/100700235",
+        "name": "Smart Start Academy",
+        "address": "462 Central Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "100700235",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/100200305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02640658037319,
+          40.75093552919809
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/100200305",
+        "name": "The Hoboken Children's Academy II, inc.",
+        "address": "1131 Washington Street",
+        "city": "Hoboken",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "100200305",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09WAT0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03948447756046,
+          40.71212736913491
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09WAT0001",
+        "name": "Waterfront Montessori, LLC",
+        "address": "100 -150 Warren Street Suite 108",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09WAT0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09TRI0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07312453981078,
+          40.7137225068352
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09TRI0003",
+        "name": "Trinity Child Care Center",
+        "address": "509 Bramhall Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09TRI0003",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09TOT0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09590879151547,
+          40.69239057283704
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09TOT0002",
+        "name": "Tots World Child Care Center",
+        "address": "122 Seaview Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09TOT0002",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09SUP0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09210117716344,
+          40.70764501870717
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09SUP0002",
+        "name": "Supertots  Educational Center II",
+        "address": "167 Sterling Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09SUP0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09SUP0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09190855420945,
+          40.70729022982394
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09SUP0001",
+        "name": "Supertots Educational Center",
+        "address": "158 Sterling Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09SUP0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09STA0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09944646852173,
+          40.70085209694564
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09STA0001",
+        "name": "Starting Points of Hudson County",
+        "address": "254 Bartholdi Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09STA0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09SMI0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04629614071266,
+          40.7221050231211
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09SMI0002",
+        "name": "PINKY PRESCHOOL AND NURSERY CORP./Smile Preschool & Nursery",
+        "address": "276 First Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09SMI0002",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09SAL0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.073616762979,
+          40.719691993330386
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09SAL0004",
+        "name": "The Salvation Army Early Childhd Edu Ctr",
+        "address": "562 Bergen Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09SAL0004",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09SAL0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07272282036176,
+          40.71618055730534
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09SAL0001",
+        "name": "Salem Child Development Center",
+        "address": "50 Clinton Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09SAL0001",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09SAI0008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06827975280996,
+          40.73324624343113
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09SAI0008",
+        "name": "Saint Elizabeth Child Care Center",
+        "address": "129 Garrison Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09SAI0008",
+        "age_range": "0 - 6 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09RIV0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03939003551747,
+          40.71640921766589
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09RIV0003",
+        "name": "River School Exchange Place-Bright Horizons School",
+        "address": "251 Warren Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09RIV0003",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09RIV0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03365258047658,
+          40.73002889163598
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09RIV0001",
+        "name": "River School Newport-Bright Horizons School",
+        "address": "30 Newport Parkway",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09RIV0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09PRE0008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09369672226829,
+          40.70626715382828
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09PRE0008",
+        "name": "Precious Moments Childcare Services",
+        "address": "113 Sterling Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09PRE0008",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09PRE0006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08011892819061,
+          40.71015990408667
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09PRE0006",
+        "name": "Precious Learning Center",
+        "address": "329 Martin Luther King Drive",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09PRE0006",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09PLA0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06646841967566,
+          40.726547118338544
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09PLA0004",
+        "name": "Play and Learn II",
+        "address": "41 - 53 Tuers Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09PLA0004",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09PLA0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0669468792878,
+          40.718418182367024
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09PLA0001",
+        "name": "Play and Learn School",
+        "address": "8 -10 Clifton Place",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09PLA0001",
+        "age_range": "2 1/2 - 6 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 6 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09PAR0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04512972280115,
+          40.752457453092596
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09PAR0003",
+        "name": "Park Prep Academy, Inc.",
+        "address": "519 Central Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09PAR0003",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09PAR0002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05211170018141,
+          40.74155416253246
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09PAR0002",
+        "name": "Parkside Pre-School",
+        "address": "202-206 Central Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09PAR0002",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09OCE0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08107916426572,
+          40.703358996474684
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09OCE0001",
+        "name": "First Infant Care Center/Baby World",
+        "address": "491 OCEAN Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09OCE0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09NUR0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03698472060665,
+          40.71574353665958
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09NUR0001",
+        "name": "The Nurturing Place",
+        "address": "81 York Street",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09NUR0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09NEW0004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0728658314459,
+          40.71581874406207
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09NEW0004",
+        "name": "New Millennium",
+        "address": "45 - 47 Madison Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09NEW0004",
+        "age_range": "2 1/2 - 13 years",
+        "age_category": "toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "2 1/2 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09NEW0003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05967753956855,
+          40.733694125081975
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09NEW0003",
+        "name": "New Jersey Kids II Day Care Center",
+        "address": "565 Summit Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09NEW0003",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NJDCF/09MUN0001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09407928617821,
+          40.693160997618826
+        ]
+      },
+      "properties": {
+        "id": "NJDCF/09MUN0001",
+        "name": "Munchkin Village",
+        "address": "127 Ocean Avenue",
+        "city": "Jersey City",
+        "source": "NJDEP / NJDCF licensed active centers",
+        "license_id": "09MUN0001",
+        "age_range": "0 - 13 years",
+        "age_category": "infant_toddler_preschool",
+        "age_unknown": false,
+        "tags": {
+          "official_age_range": "0 - 13 years"
+        },
+        "source_download_date": 1791282862000
+      }
+    }
+  ]
+}

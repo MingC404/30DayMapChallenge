@@ -1,0 +1,132 @@
+{
+  "focus_playground": "P14",
+  "daycare_count": 206,
+  "playground_count": 62,
+  "matched_daycare": 114,
+  "unmatched_daycare": 92,
+  "all_data_and_400m_relations_unchanged": true,
+  "citywide_uses_all_playgrounds": true,
+  "daycare_drawn_once_per_id": true,
+  "overlapping_glows": "maximum alpha, not additive",
+  "range_light_peak_alpha": 3,
+  "daycare_core_radius_px": 4.5,
+  "playground_core_radius_px": 9.5,
+  "detail": {
+    "file": "01_single_group_detail.png",
+    "bounds_utm18n": [
+      579990.6915329652,
+      4508437.636381797,
+      581239.6525719262,
+      4509617.636381797
+    ],
+    "scale_px_per_m": 1.305084745762674,
+    "visible_daycare": 9,
+    "illuminated_daycare": 4,
+    "playground_sources": 1,
+    "links": 4
+  },
+  "citywide": {
+    "file": "02_citywide_final.png",
+    "bounds_utm18n": [
+      572171.8193251421,
+      4501215.7811912475,
+      585648.829499766,
+      4513948.661969726
+    ],
+    "scale_px_per_m": 0.12094670693869126,
+    "visible_daycare": 206,
+    "illuminated_daycare": 114,
+    "playground_sources": 62,
+    "links": 259
+  },
+  "animation_stages": [
+    "playground core ignites",
+    "400 m light expands",
+    "connections grow outward",
+    "linked daycare brighten one by one",
+    "remaining playgrounds join in batches",
+    "globally unmatched daycare appear in violet"
+  ],
+  "gif_created": false,
+  "many_to_many_links": 259,
+  "animation_first_group": "P14",
+  "animation_remaining_batches": [
+    [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08"
+    ],
+    [
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P15",
+      "P16",
+      "P17"
+    ],
+    [
+      "P18",
+      "P19",
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P25"
+    ],
+    [
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "P31",
+      "P32",
+      "P33"
+    ],
+    [
+      "P34",
+      "P35",
+      "P36",
+      "P37",
+      "P38",
+      "P39",
+      "P40",
+      "P41"
+    ],
+    [
+      "P42",
+      "P43",
+      "P44",
+      "P45",
+      "P46",
+      "P47",
+      "P48",
+      "P49"
+    ],
+    [
+      "P50",
+      "P51",
+      "P52",
+      "P53",
+      "P54",
+      "P55",
+      "P56",
+      "P57"
+    ],
+    [
+      "P58",
+      "P59",
+      "P60",
+      "P61",
+      "P62"
+    ]
+  ]
+}

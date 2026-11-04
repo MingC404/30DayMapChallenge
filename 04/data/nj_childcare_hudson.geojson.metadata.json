@@ -1,0 +1,6 @@
+{
+  "url": "https://mapsdep.nj.gov/arcgis/rest/services/Features/Structures/MapServer/4/query?where=UPPER%28county%29+%3D+%27HUDSON%27&outFields=%2A&outSR=4326&returnGeometry=true&f=geojson&resultRecordCount=2000",
+  "retrieved_utc": "2026-11-03T21:32:55.478333+00:00",
+  "source": "NJDEP GIS; NJDCF Office of Licensing active licensed child care centers",
+  "count": 407
+}

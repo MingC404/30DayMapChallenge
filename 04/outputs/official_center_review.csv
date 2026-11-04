@@ -1,0 +1,217 @@
+﻿id,name,address,city,age_range,age_category,included,reason,longitude,latitude
+NJDCF/09MIL0004,Mile Square Early Learning Center,310 Jefferson Street,Hoboken,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.0376494233014,40.74168105174289
+NJDCF/09MIL0001,Mile Square  Early Learning Center,301 Garden Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03138350399789,40.74074169568721
+NJDCF/09LIT0029,Little Smiles Infant-Toddler Center,40A - 40B Congress,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04163876628874,40.74936924332952
+NJDCF/09LIT0011,Little Smiles Preschool & Day Care,70 Beach Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05727791181934,40.74456614880759
+NJDCF/09LIP0001,Bright Horizons at washington Blvd.,389 Washington Boulevard,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03685792448144,40.72154598835466
+NJDCF/09LEA0006,Leaders of Tomorrow Day Care/PreSchool,144 Bartholdi Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09690997164054,40.69740924035208
+NJDCF/09KID0022,Kidz City,834 WASHINGTON STREET,HOBOKEN,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02821930548996,40.74725641929841
+NJDCF/CCC131128,Pee Wee Prep,475 Communipaw Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06748955208242,40.71475793746349
+NJDCF/CCC130512,The Liberty School,203 Christopher Columbus Drive,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0479594315949,40.720851050469946
+NJDCF/CCC130442,My Little Gan - Jersey City,255 Brunswick Street Unit 1,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05023483248902,40.72925472247193
+NJDCF/CCC130437,Village Tree House,503 Madison Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03751537085043,40.74380737705472
+NJDCF/CCC130057,Riverside Early Learning Center,317 Third Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04870820829082,40.72342110476705
+NJDCF/CCC129561,Greatness Grows Early Learning Center,1 Newark Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02835083342893,40.736301650819236
+NJDCF/CCC128300,Fasttrack-Languages,242 10th Street,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.04452406564492,40.72926509729938
+NJDCF/CCC128089,Lily Pad Academy,837 Jersey Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04468460524798,40.73462964928107
+NJDCF/CCC127604,SBS on Hudson,410 Hudson Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0288077313155,40.74161647272356
+NJDCF/CCC127246,Key Element Learning Van Vorst,206 Van Vorst Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0409089050133,40.71449993351669
+NJDCF/CCC126859,Mosdos of Greenville,829 Garfield Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07313841423812,40.70759567374648
+NJDCF/CCC126791,GOMS II,59 Webster Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0488218200993,40.740789218778076
+NJDCF/CCC126766,Badr Center Inc,539 Bergen Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07494010507949,40.719241201161296
+NJDCF/CCC126636,New Hope ETC at PS# 39 Dr Charles P Defuccio School,214 Plainfield Avenue,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.08079353054741,40.72992424097635
+NJDCF/CCC126633,Hoboken Day School,659 1st Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04165884913127,40.73908379873377
+NJDCF/CCC126527,Theycare Academy Corp,175 Newark Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0454413258235,40.721003655158135
+NJDCF/CCC123497,Buzy Beez Learning Center LLC,1763 John F Kennedy Boulevard,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09365933528665,40.70114206090605
+NJDCF/CCC122887,The Goddard School,425 Washington Boulevard,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03686100434993,40.72266322043362
+NJDCF/CCC122646,GOMS I,3464 Kennedy Boulevard,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0540262187759,40.75048008856487
+NJDCF/CCC122194,World Of Wonder Daycare Center,401 Jackson Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03957975199798,40.74332478938262
+NJDCF/CCC132579,Helping Hands 4 Special Needs at Rev. Dr. Ercel F. Webb School,264 Van Horne Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06153708073539,40.713658115749475
+NJDCF/CCC132436,Sacred Heart School,193 Old Bergen Road,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09391559280871,40.69616411330888
+NJDCF/CCC131882,Mirasol Academy,95 Willow Avenue AKA 265 1st Street Suite 1,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03438970645514,40.73797976585601
+NJDCF/CCC121357,HOPES CAP Inc Jubilee Center,601 Jackson Street,Hoboken,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.03885122937838,40.745339458060336
+NJDCF/CCC120459,Mosdos Of Greenville,503-505 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0806654992055,40.703752778188004
+NJDCF/CCC120444,Learning Lounge V,430 Palisade Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04461904553979,40.743185571699435
+NJDCF/CCC120371,LittleGems Childcare Center,355 West Side Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08897295228418,40.71422471760244
+NJDCF/CCC120017,Cresthill Academy Hoboken South,112 Sinatra Drive,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02768949376537,40.73796516394174
+NJDCF/CCC119342,New Life Dream Academy III,360 Martin Luther King Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07870841319344,40.71095408051583
+NJDCF/CCC119071,Boys & Girls Clubs of Hudson County Whitlock Mills,160 Lafayette Street,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.06360325496989,40.7155343024203
+NJDCF/CCC118051,Key Element Learning,207 Van Vorst Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04173612735802,40.714669980723635
+NJDCF/CCC117886,Taking the Wright Steps Daycare LLC,225 Old Bergen Road,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09304694419531,40.697458823329356
+NJDCF/CCC117809,Liberty Athletic Center Inc,142 Danforth Avenue,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.09139137275766,40.69688750013647
+NJDCF/CCC117601,Mosdos Of Greenville,2737 kennedy Boulevard,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06947533905404,40.72970964590677
+NJDCF/CCC117472,Quackers LLC DBA Lightbridge Academy of Hoboken Willow,1414 Willow Avenue,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02979199069587,40.754570023150364
+NJDCF/CCC117433,Academy of Excellence Preschool,159 2nd street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03985727635431,40.72190385530834
+NJDCF/CCC117406,Mile Square Early Learning Center,770 Jackson Street,Hoboken,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.03887354927184,40.74681086775637
+NJDCF/CCC116217,Greenville Learning Center,455 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08233932901892,40.70199105029016
+NJDCF/CCC116077,Victory Steps Academy LLC,409 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08350031621114,40.700902725123534
+NJDCF/CCC115481,"Learning Lounge IV, LLC",102 Brunswick Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05076347296561,40.72254522749228
+NJDCF/CCC115400,"Learning Lounge III, LLC",502 Palisade Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04296749175117,40.74561386061188
+NJDCF/CCC115182,Pumpkin Patch Preschool and Early Learning Center,89 Willow Avenue,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03441110434623,40.737685033093314
+NJDCF/CCC115171,Mosdos of Greenville Day Care,203 Academy Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06349650599064,40.72745824213007
+NJDCF/CCC114422,Early Beginnings II,109 Christopher Columbus Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04377739569001,40.71951752769675
+NJDCF/CCC114201,Greater Bergen Community Action at Curries Woods,65-67 Ruby Brown Terrace,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.10110584767514,40.69295216194176
+NJDCF/CCC113979,Ivy Primary Prep,675 Monmouth Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0481824178812,40.73447869392703
+NJDCF/190200154,TheyCare Academy Corp,342 Montgomery Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05022009513645,40.719652612236196
+NJDCF/181200165,The Brunswick School,474 Warren Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0377840607142,40.7217061659307
+NJDCF/181000138,Boys and Girls Clubs of Hudson County at JCHA Marion Gardens,73 Dales Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07612506951264,40.73661874037663
+NJDCF/181000137,Boys and Girls Clubs of Hudson County at JCHA Curries Woods,65-67 Ruby Brown Terrace,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.10110884831123,40.69305373821531
+NJDCF/181000046,Greater Bergen Community Action at Marion Gardens,57 Dales Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07731705259899,40.73587646902241
+NJDCF/180600249,"Sweet Dreams Academy for Children, Inc",661 Montgomery Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06479776434772,40.72378483887191
+NJDCF/180600023,Lightbridge Academy of Hoboken-Marshall,100 Marshall Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04283272652717,40.74052134646646
+NJDCF/171100161,Learning Ladders NJ Inc,160 Morgan Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04014205438203,40.72036778216756
+NJDCF/171100141,Beloved Community Charter School Inc,508 Grand Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05815781226137,40.71794841812962
+NJDCF/171000286,Jersey City Community Charter School,128 Danforth Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09085955162911,40.69656719314638
+NJDCF/09KID0019,Kidz Kastle,203 - 207 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09124145946808,40.6954513199883
+NJDCF/09KID0016,Kidz Kingdom Learning Center,1944 Kennedy Boulevard,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08872687807236,40.70613975372881
+NJDCF/09KID0008,"Kidz Inn Day Care & Learning Center, Inc",73 Congress Street,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.043607393623,40.749681739086675
+NJDCF/09KID0004,Kiddee Korner 2,8 - 10 Clifton Place,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06708009710711,40.71845985721488
+NJDCF/09KID0002,Kiddee Korner 1,304-306 Martin Luther King Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0805046042676,40.70927517866941
+NJDCF/09KAP0001,Kaplan Cooperative Pre-School,115 Park Avenue,Hoboken,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.03316863075712,40.73834979532892
+NJDCF/09JPM0001,"J P Morgan Chase Back-up CCC, Newport",575 - Washington Boulevard,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03541841786802,40.72880075807819
+NJDCF/09JER0001,"Jersey City Day Care 100, Inc.",409-415 Halladay Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05910929409713,40.715360760306524
+NJDCF/09ITT0003,It Takes A Village III,492 - 494 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08055755963431,40.70313475600593
+NJDCF/09ITT0002,It Takes A Village II,486 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08073199766794,40.7029267673388
+NJDCF/171000052,Dr Lena Edwards Academic Charter School,509 Bramhall Avenue,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.07279473634269,40.71396010383137
+NJDCF/170900199,Alghazaly School Inc,17 Park Street,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.06948896183935,40.716956361416074
+NJDCF/170900147,Little Linguists,739 Bloomfield Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0288956921507,40.74602942162055
+NJDCF/170800078,Boys & Girls of Hudson County at PS 15,135 Stegman Street,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.08334892272225,40.70378170931073
+NJDCF/170800048,Mosdos of Greenville Day Care,925 West Side Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07361144042721,40.731267694295035
+NJDCF/170600204,C.A.S.P.E.R Program-P.S. #26,164 Laidlaw Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05641566220122,40.73908106449856
+NJDCF/170600199,Park View Academy,33 Park View Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04405700745994,40.71343567800286
+NJDCF/170300115,Hudson Sprouts,769 Montgomery Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06917762404969,40.72551690134691
+NJDCF/09ITT0001,"It Takes A Village, Inc.",496 Ocean Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0804741365454,40.70320856837732
+NJDCF/09HOP0005,"HOPES CAP, Inc. Head Start",215 9th Street,Hoboken,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.03018871236654,40.74744013231747
+NJDCF/09HOP0002,"HOPES CAP,  Inc. Head Start",301 Garden Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.031438503965,40.7406183931638
+NJDCF/09HOB0002,Hoboken Day Care 100,124 Grand Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03655337782976,40.73944222281201
+NJDCF/09HEA0001,Learn & Grow Day Care Center II,165 Hutton Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05334374996838,40.74566546188888
+NJDCF/09HAP0008,Happy Face Day Care III,377 Palisade Avenue,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.04607608129696,40.7417474394477
+NJDCF/09HAP0006,Happy Face Day Care Center II,379 Palisade Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04603595371529,40.74181041659087
+NJDCF/09GRO0005,Busy Bees of Palisade Day Care Learning Center,423 Palisade Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04512761903689,40.74323149707918
+NJDCF/09GRO0002,Growing Tree Learning Center,27 Fisk Street,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.09215401902084,40.7131736779678
+NJDCF/170200173,Boys & Girls Club of Hudson County at PS 41,59 Wilkinson Avenue,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.07835750332531,40.70482042046324
+NJDCF/170200163,New Dreams Child Daycare Center,534 West Side Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08262579279514,40.71907984021606
+NJDCF/170100178,C.A.S.P.E.R Program-P.S. #41,59 Wilkinson Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07831742854194,40.7048834103951
+NJDCF/170100177,C.A.S.P.E.R Program-P.S. #39,214 Plainfield Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08071357896267,40.730014535778906
+NJDCF/170100176,C.A.S.P.E.R Program-P.S. #38,339 Stegman Parkway,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.091017339098,40.70850861112635
+NJDCF/170100175,C.A.S.P.E.R Program-P.S. #37,158 Erie Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0429265522346,40.72786723455834
+NJDCF/170100174,C.A.S.P.E.R Program-P.S. #34,1830 Kennedy Boulevard,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09086125667694,40.70218352283457
+NJDCF/170100173,C.A.S.P.E.R Program-P.S. #33,362 Union Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08441443025772,40.71921530901216
+NJDCF/170100171,C.A.S.P.E.R Program-P.S. #30,171 Seaview Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09808287228039,40.69368558100815
+NJDCF/170100170,C.A.S.P.E.R Program-P.S. #29,123 Claremont Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0793070136488,40.70869711137772
+NJDCF/170100169,C.A.S.P.E.R Program-P.S. #28,167 Hancock Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.04631813887511,40.748083856620994
+NJDCF/170100168,C.A.S.P.E.R Program-P.S. #27,201 North Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05046439718603,40.754117119262624
+NJDCF/170100167,C.A.S.P.E.R Program-P.S. #25,3385 John F Kennedy Boulevard,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05626400344343,40.74832565297503
+NJDCF/170100165,C.A.S.P.E.R. Program-P.S. #24,220 Virginia Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08394603011087,40.71621880838174
+NJDCF/170100164,C.A.S.P.E.R Program-P.S. #23,143 Romaine Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0684940105101,40.73471287908404
+NJDCF/170100163,C.A.S.P.E.R Program-P.S. #22,264 Van Horne Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06164525894532,40.713739877305294
+NJDCF/170100161,C.A.S.P.E.R Program-P.S. #20,239 Ocean Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08968953713759,40.69680734864037
+NJDCF/170100160,C.A.S.P.E.R Program-P.S. #17,600 Bergen Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07218992986716,40.7210894178742
+NJDCF/170100159,C.A.S.P.E.R. Program-P.S. #16,96 Sussex Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.03819958115571,40.714831567777104
+NJDCF/09GAR0001,Garden Preschool Cooperative,242 Tenth Street Suite 104,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.04451521409217,40.72930640944739
+NJDCF/09FUT0003,Future Stars Daycare PreSchool,123 Brunswick Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05102127966624,40.72337522462184
+NJDCF/09FIR0001,Baby World Preschool,485 Ocean Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08122428208614,40.703225017073656
+NJDCF/09CHI0009,The Children Academy Day Care Center,2281 Kennedy Boulevard,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.08157656620372,40.71667140706042
+NJDCF/09BUS0002,Baby Galileo Preschool & Daycare Limited Liability Company,444 Central Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04639619116053,40.74987664872979
+NJDCF/09BUS0001,Busy Place Early Learning Center,444 Central Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04645386782842,40.74988785537214
+NJDCF/09BOY0002,Boys & Girls Clubs of Hudson County-Hoboken,123 Jefferson Street,Hoboken,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0377625791458,40.73941138671338
+NJDCF/09BOY0001,Boys & Girls Club of Hudson Co.-Robert T. Williams Jr. Unit,225 Morris Boulevard,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.04392999132816,40.71407476484904
+NJDCF/09BEY0002,"Bright Horizons at Sinatra Drive, Hoboken",336 Sinatra Drive,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0276031829692,40.73996317423857
+NJDCF/170100158,C.A.S.P.E.R Program-P.S. #15,135 Stegman Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.08328075073521,40.703723817861764
+NJDCF/170100157,C.A.S.P.E.R Program-P.S. #14,153 Union Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07698745160735,40.71441200184933
+NJDCF/170100156,C.A.S.P.E.R Program-P.S. #12,91 Astor Place,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07029252865144,40.71878753734683
+NJDCF/170100155,C.A.S.P.E.R Program-P.S. #11,886 Bergen Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06514426390403,40.7293091089591
+NJDCF/170100154,C.A.S.P.E.R Program-P.S. #8,96 Franklin Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.04861228060082,40.74295695190837
+NJDCF/170100152,C.A.S.P.E.R Program-P.S. #6,100 Street Paul's Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05514369523344,40.73607587687934
+NJDCF/170100151,C.A.S.P.E.R Program-P.S. #5,182 Merseles Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05235264101698,40.72445369496927
+NJDCF/161200149,Adventures in Learning Daycare,2 Montgomery Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03451671340623,40.71683436181313
+NJDCF/161100193,The Little Steppers Learning Center,429 Martin Luther King Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0771914934588,40.712952398620324
+NJDCF/161100161,My Little Gan,720 Monroe Street Suite E107,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0380727580069,40.74674178570045
+NJDCF/161100036,C.A.S.P.E.R. Program- P.S. #3,111 Bright Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05084653159476,40.71770334506574
+NJDCF/161000091,Tessa International School,720 Monroe Street Suite E105-106,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03790717071547,40.74719953800625
+NJDCF/160800004,"#Wow Kids, LLC",128 Harrison Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04192644641682,40.740583633240774
+NJDCF/09AWH0001,"A Whole New World Academy, Inc.",721 Washington Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02805884906483,40.745446807887944
+NJDCF/090900133,Happy Face Day Care Center II,375 Palisade Avenue,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.0461161901435,40.741687207214525
+NJDCF/090800305,Bright Horizons at Maxwell Place,1155 Maxwell Lane,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02491403731774,40.7501745210931
+NJDCF/160600084,Totz ABA Spot,231 Hutton Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.05633029007062,40.74704124689936
+NJDCF/160500241,Small Discoveries Preschool,123 Monticello Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07185389801826,40.71891411947503
+NJDCF/160500054,Cresthill Academy,1330 Sinatra Drive North,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02401141542623,40.75274011958669
+NJDCF/160300091,Lincoln Park Preschool Education Center,330 Duncan Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08334750318006,40.730627976393045
+NJDCF/160300086,Three Little Birds,130 Monitor Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05595217819192,40.71298468406282
+NJDCF/160200043,Cresthill Academy,360 1st Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03607257566966,40.73852071476876
+NJDCF/151200200,Little Smiles Infant Toddler Center,3257 John F Kennedy Boulevard,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05933877977371,40.744016799940695
+NJDCF/151200144,The Learning Experience,900 Monroe Sreet,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03751431805,40.749201814327606
+NJDCF/090700023,Cradles to Crayons,406 Communipaw Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06454534497504,40.713243025179885
+NJDCF/090300119,Adventures in Learning Day Care,1320 Adams Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03289268855056,40.75406380981136
+NJDCF/081200280,The Learning Tree,411 - 413 Martin Luther King Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07760488933168,40.71261353027786
+NJDCF/080900378,PF4 Sunnyside Academy D/B/A Babyland Nursery,353 Westside Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08906332479833,40.714194844195255
+NJDCF/080800286,Mile Square Early Learning Center Calabro,524 Park Avenue,Hoboken,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.03213175086387,40.74366266879258
+NJDCF/080800040,P. R. R. Corporation/Smile Preschool & Child Care,194 Newark Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.04620239176921,40.72209641958265
+NJDCF/080400057,Bright Star Learning Center,51 SHERMAN PLACE,JERSEY CITY,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0531563329385,40.74454752079249
+NJDCF/080300016,Westside Academy,400 Westside Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08705581479583,40.71505510644748
+NJDCF/080200075,Great Kidz Learning Center,178 Mallory Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0870555306977,40.720355734486986
+NJDCF/080100156,World of Wonder,201 Harrison Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04115766663921,40.74111860023795
+NJDCF/151200085,Smart Start Academy,532 Jersey Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04623439500541,40.72110285070993
+NJDCF/151100097,Early Rise Academy,364-366 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08495064121993,40.69909897643483
+NJDCF/150900256,New Life Dream Academy,46-48 Martin Luther King Drive,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.089377821424,40.701758267978946
+NJDCF/150800202,Apollo After School,3044 Kennedy Boulevard,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0623215161498,40.737171125157865
+NJDCF/150800002,Urban Jungle Play,1125 Maxwell Lane,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02461482260762,40.750628958792234
+NJDCF/150700151,Academy House CDC V,404 Tonnele Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06186079401715,40.744687946618036
+NJDCF/150600058,Playscape,221 Mallory Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08645394541008,40.72195392460489
+NJDCF/141200179,Step by Step School,720 Monroe Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03833103004834,40.74749494961387
+NJDCF/141000240,Academy House IV,3000 Kennedy Boulevard,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06075050769736,40.735704813691626
+NJDCF/140900019,"Smart Start Academy-The Learning Lounge II, LLC",180 Newark Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04540209039057,40.721467407914766
+NJDCF/140900017,"Smart Start Academy-CKJ Group, LLC",552 9th Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03681251466298,40.74890803058765
+NJDCF/140800059,Greater Bergen Community Action,93 Nelson Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05148319618337,40.755600636632465
+NJDCF/071200069,World of Wonder,133 Harrison Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04130961035949,40.74054000857451
+NJDCF/071100104,Hoboken Children's Academy,501 Willow Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03264946151454,40.74291812528385
+NJDCF/140700292,Bergen-Lafayette Montessori School,200 Monticello Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06979014323804,40.72141418969332
+NJDCF/140700131,The Brunswick School,189 Brunswick Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05076653454186,40.72638276710017
+NJDCF/140700040,Bright Beginnings Learning Academy,498 CENTRAL Avenue,JERSEY CITY,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04517498279505,40.75164236750373
+NJDCF/140500176,Bright Horizons at 1102 Maxwell Lane,1102 Maxwell Lane,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02542300090816,40.750171125033006
+NJDCF/140500001,Key Element Learning,338 Grove Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04247296808288,40.72033586928165
+NJDCF/140100148,River School Warren-Bright Horizons School,254 Warren Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03862543827572,40.716375969141396
+NJDCF/131000213,Connecting  Circles Childcare Service,136 Garfield Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09526415126119,40.68985739619183
+NJDCF/130900102,Mile Square Early Learning Center,1100 WILLOW Avenue,HOBOKEN,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.031025849081,40.75106968201409
+NJDCF/130800108,The Wonder Years,255 Central Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05122683620111,40.7437988835191
+NJDCF/130800104,Growing Seeds Learning Academy,6 Chapel Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.07105664832054,40.68572930961133
+NJDCF/130700165,Creative Minds Learning Center LLP,196 Martin Luther King Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08418467154839,40.706274459249336
+NJDCF/130200015,L C Preschool,168 New York Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.04644019276152,40.74180651580658
+NJDCF/130100211,Hoboken Montessori School,1450 Washington Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0262126586996,40.75435500062808
+NJDCF/120400170,Learning Ladders,33 Hudson Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03556276692814,40.713226134230126
+NJDCF/120100289,"HOPES CAP, Inc Early Head Start",619 Jefferson Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03588337354299,40.745492261768675
+NJDCF/120100169,"Happy Days Child Day Care Center, LLC",102 Van Reypen Street,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06651912964595,40.73040953919229
+NJDCF/120100124,Academy House Child Development Center,895 Bergen Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.065872482,40.72996790724466
+NJDCF/111000173,"Team Walker, Inc",264 Van Horne Sreet,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.06163494073029,40.71366297777118
+NJDCF/111000022,Early Beginnings Day School,338 Grove Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0425126172855,40.72034151644329
+NJDCF/110700090,At Mr Robert's,1422 Grand Street,Hoboken,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.03153809669085,40.75522768854479
+NJDCF/110300068,Hoboken Montessori School,158 14th Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.0274481450844,40.75370950107394
+NJDCF/101200055,Adventures In Learning Day Care,50 Harrison Street,Hoboken,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04284587945865,40.73754581280274
+NJDCF/101200046,Bright Star Learning Center,3 Sherman Place,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05119033853626,40.7438591315531
+NJDCF/100800012,The Scandinavian School of Jersey City,513 Manila Ave/210 220 9th Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04191358535674,40.728253010550446
+NJDCF/100700235,Smart Start Academy,462 Central Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04600294297255,40.75038018240509
+NJDCF/100200305,"The Hoboken Children's Academy II, inc.",1131 Washington Street,Hoboken,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.02640658037319,40.75093552919809
+NJDCF/09WAT0001,"Waterfront Montessori, LLC",100 -150 Warren Street Suite 108,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03948447756046,40.71212736913491
+NJDCF/09TRI0003,Trinity Child Care Center,509 Bramhall Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07312453981078,40.7137225068352
+NJDCF/09TOT0002,Tots World Child Care Center,122 Seaview Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.09590879151547,40.69239057283704
+NJDCF/09SUP0002,Supertots  Educational Center II,167 Sterling Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09210117716344,40.70764501870717
+NJDCF/09SUP0001,Supertots Educational Center,158 Sterling Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09190855420945,40.70729022982394
+NJDCF/09STA0001,Starting Points of Hudson County,254 Bartholdi Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09944646852173,40.70085209694564
+NJDCF/09SMI0002,PINKY PRESCHOOL AND NURSERY CORP./Smile Preschool & Nursery,276 First Street,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.04629614071266,40.7221050231211
+NJDCF/09SAL0004,The Salvation Army Early Childhd Edu Ctr,562 Bergen Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.073616762979,40.719691993330386
+NJDCF/09SAL0001,Salem Child Development Center,50 Clinton Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.07272282036176,40.71618055730534
+NJDCF/09SAI0008,Saint Elizabeth Child Care Center,129 Garrison Avenue,Jersey City,0 - 6 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.06827975280996,40.73324624343113
+NJDCF/09RIV0003,River School Exchange Place-Bright Horizons School,251 Warren Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03939003551747,40.71640921766589
+NJDCF/09RIV0001,River School Newport-Bright Horizons School,30 Newport Parkway,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03365258047658,40.73002889163598
+NJDCF/09PRE0008,Precious Moments Childcare Services,113 Sterling Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09369672226829,40.70626715382828
+NJDCF/09PRE0006,Precious Learning Center,329 Martin Luther King Drive,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08011892819061,40.71015990408667
+NJDCF/09PLA0004,Play and Learn II,41 - 53 Tuers Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.06646841967566,40.726547118338544
+NJDCF/09PLA0001,Play and Learn School,8 -10 Clifton Place,Jersey City,2 1/2 - 6 years,toddler_preschool,True,eligible early-childhood age range,-74.0669468792878,40.718418182367024
+NJDCF/09PAR0003,"Park Prep Academy, Inc.",519 Central Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.04512972280115,40.752457453092596
+NJDCF/09PAR0002,Parkside Pre-School,202-206 Central Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05211170018141,40.74155416253246
+NJDCF/09OCE0001,First Infant Care Center/Baby World,491 OCEAN Avenue,JERSEY CITY,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.08107916426572,40.703358996474684
+NJDCF/09NUR0001,The Nurturing Place,81 York Street,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.03698472060665,40.71574353665958
+NJDCF/09NEW0006,New City Kids After School Center,240 Fairmount Avenue,Jersey City,6 - 13 years,school_age_only,False,school-age only; excluded,-74.06868486837963,40.723039059515976
+NJDCF/09NEW0004,New Millennium,45 - 47 Madison Avenue,Jersey City,2 1/2 - 13 years,toddler_preschool,True,eligible early-childhood age range,-74.0728658314459,40.71581874406207
+NJDCF/09NEW0003,New Jersey Kids II Day Care Center,565 Summit Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.05967753956855,40.733694125081975
+NJDCF/09MUN0001,Munchkin Village,127 Ocean Avenue,Jersey City,0 - 13 years,infant_toddler_preschool,True,eligible early-childhood age range,-74.09407928617821,40.693160997618826

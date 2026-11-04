@@ -1,0 +1,1 @@
+[out:json][timeout:90];(nwr["amenity"~"^(childcare|kindergarten|preschool|school)$"](40.66,-74.13,40.78,-74.01);nwr["social_facility"="day_care"]["social_facility:for"~"child"](40.66,-74.13,40.78,-74.01););out meta geom;

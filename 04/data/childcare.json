@@ -1,0 +1,5873 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-03T21:11:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 357724124,
+  "lat": 40.7098181,
+  "lon": -74.0862485,
+  "timestamp": "2024-05-23T08:50:46Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "19",
+    "gnis:feature_id": "877452",
+    "name": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 357724261,
+  "lat": 40.7428748,
+  "lon": -74.0350708,
+  "timestamp": "2024-05-23T08:50:48Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "1",
+    "gnis:feature_id": "877523",
+    "name": "Kealy School"
+  }
+},
+{
+  "type": "node",
+  "id": 357724743,
+  "lat": 40.7259352,
+  "lon": -74.0698637,
+  "timestamp": "2024-05-23T08:50:49Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "24",
+    "gnis:feature_id": "877762",
+    "name": "Lincoln High School",
+    "wikidata": "Q6550724"
+  }
+},
+{
+  "type": "node",
+  "id": 357725409,
+  "lat": 40.6904237,
+  "lon": -74.1060475,
+  "timestamp": "2024-05-23T08:50:53Z",
+  "version": 5,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "8",
+    "gnis:feature_id": "878122",
+    "name": "Marist High School",
+    "wikidata": "Q6765679"
+  }
+},
+{
+  "type": "node",
+  "id": 357726931,
+  "lat": 40.7014912,
+  "lon": -74.0990310,
+  "timestamp": "2024-05-23T08:51:07Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "4",
+    "gnis:feature_id": "879045",
+    "name": "Our Lady of Mercy School"
+  }
+},
+{
+  "type": "node",
+  "id": 357728226,
+  "lat": 40.7070467,
+  "lon": -74.0829195,
+  "timestamp": "2024-05-23T08:51:15Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "27",
+    "gnis:feature_id": "879889",
+    "name": "Sacred Heart School"
+  }
+},
+{
+  "type": "node",
+  "id": 357728260,
+  "lat": 40.7278797,
+  "lon": -74.0659747,
+  "timestamp": "2024-05-23T08:51:15Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "25",
+    "gnis:feature_id": "879904",
+    "name": "Saint Aedans School"
+  }
+},
+{
+  "type": "node",
+  "id": 357728277,
+  "lat": 40.7229153,
+  "lon": -74.0753931,
+  "timestamp": "2024-05-23T08:51:16Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "25",
+    "gnis:feature_id": "879908",
+    "name": "Saint Aloysius Academy"
+  }
+},
+{
+  "type": "node",
+  "id": 357728280,
+  "lat": 40.7251019,
+  "lon": -74.0779194,
+  "timestamp": "2024-05-23T08:51:16Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "12",
+    "gnis:feature_id": "879909",
+    "name": "Saint Aloysius School",
+    "wikidata": "Q105821465"
+  }
+},
+{
+  "type": "node",
+  "id": 357729162,
+  "lat": 40.7137133,
+  "lon": -74.0723637,
+  "timestamp": "2024-05-23T08:51:30Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "19",
+    "gnis:feature_id": "880154",
+    "name": "Saint Patricks School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729212,
+  "lat": 40.7028801,
+  "lon": -74.0937532,
+  "timestamp": "2024-05-23T08:51:32Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "19",
+    "gnis:feature_id": "880169",
+    "name": "Saint Pauls School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729506,
+  "lat": 40.7245465,
+  "lon": -74.0381961,
+  "timestamp": "2024-05-23T08:51:35Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "3",
+    "gnis:feature_id": "880297",
+    "name": "Number 1 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729574,
+  "lat": 40.6671638,
+  "lon": -74.1234736,
+  "timestamp": "2024-05-23T08:51:36Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "8",
+    "gnis:feature_id": "880317",
+    "name": "Midtown Community Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729585,
+  "lat": 40.7187132,
+  "lon": -74.0701415,
+  "timestamp": "2024-05-23T08:51:36Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "19",
+    "gnis:feature_id": "880320",
+    "name": "Julia A Barnes Number 12 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729592,
+  "lat": 40.7117960,
+  "lon": -74.0908805,
+  "timestamp": "2026-10-15T17:10:01Z",
+  "version": 5,
+  "changeset": 190568928,
+  "user": "ourple",
+  "uid": 24656369,
+  "tags": {
+    "amenity": "school",
+    "ele": "24",
+    "fixme": "Should be converted into Area (feature type school grounds); satellite view insufficient for marking",
+    "gnis:feature_id": "880322",
+    "name": "Number 14 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729599,
+  "lat": 40.7034357,
+  "lon": -74.0823640,
+  "timestamp": "2024-05-23T08:51:37Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "22",
+    "gnis:feature_id": "880324",
+    "name": "Whitney M Young Junior Middle School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729605,
+  "lat": 40.7231577,
+  "lon": -74.0381961,
+  "timestamp": "2024-05-23T08:51:38Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "3",
+    "gnis:feature_id": "880326",
+    "name": "Cornelia F. Bradford Number 16 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729613,
+  "lat": 40.7264908,
+  "lon": -74.0748638,
+  "timestamp": "2024-05-23T08:51:39Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "16",
+    "gnis:feature_id": "880328",
+    "name": "Joseph H Brensinger Number 17 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729617,
+  "lat": 40.7228798,
+  "lon": -74.0679191,
+  "timestamp": "2024-05-23T08:51:40Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "22",
+    "gnis:feature_id": "880329",
+    "name": "School Number 18"
+  }
+},
+{
+  "type": "node",
+  "id": 357729630,
+  "lat": 40.6665412,
+  "lon": -74.1169691,
+  "timestamp": "2024-05-23T08:51:41Z",
+  "version": 4,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "addr:city": "Bayonne",
+    "addr:housenumber": "18",
+    "addr:postcode": "07002",
+    "addr:state": "NJ",
+    "addr:street": "West 26th Street",
+    "amenity": "school",
+    "ele": "11",
+    "gnis:feature_id": "880333",
+    "name": "Phillip G Vroom Number 2 Elementary School",
+    "phone": "+12018585956",
+    "website": "https://www.bboed.org/domain/19"
+  }
+},
+{
+  "type": "node",
+  "id": 357729633,
+  "lat": 40.7256576,
+  "lon": -74.0431962,
+  "timestamp": "2024-05-23T08:51:41Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "5",
+    "gnis:feature_id": "880334",
+    "name": "School Number 2"
+  }
+},
+{
+  "type": "node",
+  "id": 357729661,
+  "lat": 40.6973247,
+  "lon": -74.0912531,
+  "timestamp": "2024-05-23T08:51:42Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "21",
+    "gnis:feature_id": "880342",
+    "name": "Number 20 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729668,
+  "lat": 40.7348240,
+  "lon": -74.0681969,
+  "timestamp": "2024-05-23T08:51:43Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "15",
+    "gnis:feature_id": "880344",
+    "name": "Number 23 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729671,
+  "lat": 40.7162132,
+  "lon": -74.0848641,
+  "timestamp": "2024-05-23T08:51:43Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "12",
+    "gnis:feature_id": "880345",
+    "name": "Number 24 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729675,
+  "lat": 40.7481571,
+  "lon": -74.0562522,
+  "timestamp": "2024-05-23T08:51:44Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "43",
+    "gnis:feature_id": "880346",
+    "name": "Nicolas Copernicus Number 25 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729709,
+  "lat": 40.7380881,
+  "lon": -74.0630286,
+  "timestamp": "2024-11-10T20:17:58Z",
+  "version": 3,
+  "changeset": 158984233,
+  "user": "JozefM",
+  "uid": 4421570,
+  "tags": {
+    "amenity": "school",
+    "ele": "27",
+    "gnis:feature_id": "880356",
+    "name": "Anthony J Infante Number 31 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729748,
+  "lat": 40.6937136,
+  "lon": -74.0976422,
+  "timestamp": "2024-05-23T08:51:45Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "17",
+    "gnis:feature_id": "880366",
+    "name": "Alexander D. Sullivan Number 30 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729751,
+  "lat": 40.7021916,
+  "lon": -74.0908757,
+  "timestamp": "2024-05-23T08:51:46Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "1830",
+    "addr:postcode": "07305",
+    "addr:state": "NJ",
+    "addr:street": "John F. Kennedy Boulevard",
+    "amenity": "school",
+    "ele": "24",
+    "gnis:feature_id": "880367",
+    "name": "PS 34: Barack Obama Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729764,
+  "lat": 40.7084355,
+  "lon": -74.0909753,
+  "timestamp": "2024-05-23T08:51:46Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "11",
+    "gnis:feature_id": "880369",
+    "name": "James F Murray Number 38 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729773,
+  "lat": 40.7301018,
+  "lon": -74.0804195,
+  "timestamp": "2024-05-23T08:51:47Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "6",
+    "gnis:feature_id": "880370",
+    "name": "Doctor Charles P DeFuccio Number 39 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729836,
+  "lat": 40.6670474,
+  "lon": -74.1101424,
+  "timestamp": "2024-05-23T08:51:50Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "6",
+    "gnis:feature_id": "880388",
+    "name": "Lincoln Number 5 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729863,
+  "lat": 40.6762751,
+  "lon": -74.1088715,
+  "timestamp": "2024-05-23T08:51:51Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "10",
+    "gnis:feature_id": "880396",
+    "name": "Horace Mann Number 6 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729866,
+  "lat": 40.7361513,
+  "lon": -74.0549742,
+  "timestamp": "2024-11-10T03:02:01Z",
+  "version": 4,
+  "changeset": 158954472,
+  "user": "JozefM",
+  "uid": 4421570,
+  "tags": {
+    "amenity": "school",
+    "ele": "31",
+    "gnis:feature_id": "880397",
+    "name": "Jotham W. Wakeman No. 6. Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357729895,
+  "lat": 40.6606587,
+  "lon": -74.1231982,
+  "timestamp": "2024-05-23T08:51:54Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "9",
+    "gnis:feature_id": "880405",
+    "name": "School Number 7"
+  }
+},
+{
+  "type": "node",
+  "id": 357730262,
+  "lat": 40.7103800,
+  "lon": -74.0818084,
+  "timestamp": "2024-05-23T08:51:59Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "29",
+    "gnis:feature_id": "880675",
+    "name": "Henry Snyder High School",
+    "wikidata": "Q5728478"
+  }
+},
+{
+  "type": "node",
+  "id": 357731195,
+  "lat": 40.6728756,
+  "lon": -74.1145064,
+  "timestamp": "2024-05-23T08:52:08Z",
+  "version": 4,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "13",
+    "gnis:feature_id": "881373",
+    "name": "United Hebrew School",
+    "religion": "jewish"
+  }
+},
+{
+  "type": "node",
+  "id": 357731550,
+  "lat": 40.6840085,
+  "lon": -74.1078050,
+  "timestamp": "2024-05-23T08:52:12Z",
+  "version": 4,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "14",
+    "gnis:feature_id": "881581",
+    "name": "Washington Number 9 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357731935,
+  "lat": 40.6886995,
+  "lon": -74.1031224,
+  "timestamp": "2024-05-23T08:52:16Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "9",
+    "gnis:feature_id": "881874",
+    "name": "Woodrow Wilson Number 10 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357732096,
+  "lat": 40.7678791,
+  "lon": -74.0312514,
+  "timestamp": "2024-08-09T20:40:40Z",
+  "version": 2,
+  "changeset": 155039847,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "58",
+    "gnis:feature_id": "881984",
+    "name": "Yeshiva School"
+  }
+},
+{
+  "type": "node",
+  "id": 357744906,
+  "lat": 40.7372090,
+  "lon": -74.0622556,
+  "timestamp": "2024-05-23T08:54:57Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "28",
+    "gnis:feature_id": "2057623",
+    "name": "Saint John's School"
+  }
+},
+{
+  "type": "node",
+  "id": 357744946,
+  "lat": 40.7087134,
+  "lon": -74.0787528,
+  "timestamp": "2024-05-23T08:54:58Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "23",
+    "gnis:feature_id": "2057639",
+    "name": "Number 29 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357744949,
+  "lat": 40.7192687,
+  "lon": -74.0843085,
+  "timestamp": "2024-05-23T08:54:59Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "9",
+    "gnis:feature_id": "2057640",
+    "name": "Number 33 Elementary School"
+  }
+},
+{
+  "type": "node",
+  "id": 357744990,
+  "lat": 40.7203798,
+  "lon": -74.0743082,
+  "timestamp": "2024-05-23T08:55:02Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "26",
+    "gnis:feature_id": "2057667",
+    "name": "Academy II School"
+  }
+},
+{
+  "type": "node",
+  "id": 357744993,
+  "lat": 40.7159354,
+  "lon": -74.0848641,
+  "timestamp": "2024-05-23T08:55:02Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "12",
+    "gnis:feature_id": "2057668",
+    "name": "Our Lady of Victories School"
+  }
+},
+{
+  "type": "node",
+  "id": 357744995,
+  "lat": 40.7248242,
+  "lon": -74.0729193,
+  "timestamp": "2024-05-23T08:55:03Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "27",
+    "gnis:feature_id": "2057669",
+    "name": "Saint Dominic Academy",
+    "wikidata": "Q7401179"
+  }
+},
+{
+  "type": "node",
+  "id": 357744997,
+  "lat": 40.7301019,
+  "lon": -74.0568077,
+  "timestamp": "2024-05-23T08:55:03Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "25",
+    "gnis:feature_id": "2057670",
+    "name": "Saint Joseph's Grammar School",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 357745002,
+  "lat": 40.7478794,
+  "lon": -74.0448630,
+  "timestamp": "2024-05-23T08:55:04Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "39",
+    "gnis:feature_id": "2057672",
+    "name": "Saint Paul of the Cross School"
+  }
+},
+{
+  "type": "node",
+  "id": 357745224,
+  "lat": 40.7201021,
+  "lon": -74.0509742,
+  "timestamp": "2024-05-23T08:55:27Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "3",
+    "gnis:feature_id": "2058468",
+    "name": "Resurrection Parish School"
+  }
+},
+{
+  "type": "node",
+  "id": 357745226,
+  "lat": 40.7264909,
+  "lon": -74.0504186,
+  "timestamp": "2024-05-23T08:55:27Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "3",
+    "gnis:feature_id": "2058469",
+    "name": "Resurrection School",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 357745228,
+  "lat": 40.7264192,
+  "lon": -74.0410720,
+  "timestamp": "2026-05-31T21:40:34Z",
+  "version": 4,
+  "changeset": 183468540,
+  "user": "MxxCon",
+  "uid": 384667,
+  "tags": {
+    "addr:housenumber": "175",
+    "addr:street": "8th Street",
+    "amenity": "school",
+    "check_date": "2026-05-31",
+    "ele": "4",
+    "gnis:feature_id": "2058470",
+    "name": "Hamilton Park Montessori School",
+    "wikidata": "Q7587094"
+  }
+},
+{
+  "type": "node",
+  "id": 357745231,
+  "lat": 40.7229860,
+  "lon": -74.0433588,
+  "timestamp": "2024-05-23T08:55:29Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "4",
+    "gnis:feature_id": "2058471",
+    "name": "Saint Mary's Junior-Senior High School"
+  }
+},
+{
+  "type": "node",
+  "id": 357745233,
+  "lat": 40.7159209,
+  "lon": -74.0394451,
+  "timestamp": "2024-05-23T08:55:29Z",
+  "version": 5,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "addr:housenumber": "135",
+    "addr:street": "York Street",
+    "amenity": "school",
+    "ele": "4",
+    "gnis:feature_id": "2058472",
+    "name": "Saint Peter's Preparatory School",
+    "wikidata": "Q7591407"
+  }
+},
+{
+  "type": "node",
+  "id": 357745329,
+  "lat": 40.6631587,
+  "lon": -74.1176426,
+  "timestamp": "2024-05-23T08:55:31Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "7",
+    "gnis:feature_id": "2058612",
+    "name": "Our Lady of Mount Carmel School"
+  }
+},
+{
+  "type": "node",
+  "id": 357746581,
+  "lat": 40.7416006,
+  "lon": -74.0286587,
+  "timestamp": "2024-08-09T21:38:05Z",
+  "version": 3,
+  "changeset": 155041426,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "tags": {
+    "amenity": "school",
+    "ele": "9",
+    "gnis:feature_id": "2060316",
+    "name": "Hoboken Catholic Academy"
+  }
+},
+{
+  "type": "node",
+  "id": 2837384392,
+  "lat": 40.7057886,
+  "lon": -74.0112224,
+  "timestamp": "2026-01-03T00:16:15Z",
+  "version": 4,
+  "changeset": 176765953,
+  "user": "HeyItsAdam",
+  "uid": 7466976,
+  "tags": {
+    "addr:housenumber": "41",
+    "addr:postcode": "10004",
+    "addr:street": "Broad Street",
+    "amenity": "school",
+    "check_date": "2025-08-14",
+    "education": "school",
+    "name": "Lehman Manhattan Preparatory School",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3579497749,
+  "lat": 40.7332774,
+  "lon": -74.0680514,
+  "timestamp": "2015-06-08T02:48:58Z",
+  "version": 1,
+  "changeset": 31803529,
+  "user": "SterlingGIS",
+  "uid": 1727004,
+  "tags": {
+    "amenity": "childcare",
+    "name": "Franciscan Sisters of St. Elizabeth School and Child Care Center"
+  }
+},
+{
+  "type": "node",
+  "id": 4697408003,
+  "lat": 40.7099864,
+  "lon": -74.0883327,
+  "timestamp": "2017-02-21T15:14:45Z",
+  "version": 1,
+  "changeset": 46277643,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Science Building",
+    "name:en": "Science Building",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697460698,
+  "lat": 40.7095688,
+  "lon": -74.0887437,
+  "timestamp": "2017-02-21T15:14:43Z",
+  "version": 1,
+  "changeset": 46277643,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Professional Studies Building",
+    "name:en": "Professional Studies Building",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697492005,
+  "lat": 40.7106612,
+  "lon": -74.0877544,
+  "timestamp": "2017-02-21T15:19:08Z",
+  "version": 1,
+  "changeset": 46277744,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Gilligan Student Union Building",
+    "name:en": "Gilligan Student Union Building",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697533790,
+  "lat": 40.7096326,
+  "lon": -74.0877608,
+  "timestamp": "2017-02-21T16:02:52Z",
+  "version": 1,
+  "changeset": 46279170,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Rossey Hall",
+    "name:en": "Rossey Hall",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697533791,
+  "lat": 40.7095739,
+  "lon": -74.0865900,
+  "timestamp": "2017-02-21T16:02:56Z",
+  "version": 1,
+  "changeset": 46279170,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Hepburn Hall",
+    "name:en": "Hepburn Hall",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697533792,
+  "lat": 40.7088402,
+  "lon": -74.0867247,
+  "timestamp": "2017-02-21T16:02:58Z",
+  "version": 1,
+  "changeset": 46279170,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Grossnickle Hall",
+    "name:en": "Grossnickle Hall",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697542490,
+  "lat": 40.7103311,
+  "lon": -74.0871176,
+  "timestamp": "2026-10-15T17:10:01Z",
+  "version": 2,
+  "changeset": 190568928,
+  "user": "ourple",
+  "uid": 24656369,
+  "tags": {
+    "amenity": "school",
+    "name": "Fires Hall",
+    "name:en": "Fires Hall",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697548889,
+  "lat": 40.7090959,
+  "lon": -74.0882657,
+  "timestamp": "2017-02-21T15:59:38Z",
+  "version": 1,
+  "changeset": 46279093,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Vodra Hall",
+    "name:en": "Vodra Hall",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4697550989,
+  "lat": 40.7099252,
+  "lon": -74.0872588,
+  "timestamp": "2017-02-21T16:02:53Z",
+  "version": 1,
+  "changeset": 46279170,
+  "user": "fcassilli",
+  "uid": 5229527,
+  "tags": {
+    "amenity": "school",
+    "name": "Karnautsos Building",
+    "name:en": "Karnautsos Building",
+    "operator": "New Jersey City University"
+  }
+},
+{
+  "type": "node",
+  "id": 4991344752,
+  "lat": 40.6888171,
+  "lon": -74.0141374,
+  "timestamp": "2017-07-24T23:08:21Z",
+  "version": 1,
+  "changeset": 50542027,
+  "user": "3yoda",
+  "uid": 632378,
+  "tags": {
+    "amenity": "school",
+    "name": "CMA Free Arts Island Outpost",
+    "operator": "Children's Museum of the Arts"
+  }
+},
+{
+  "type": "node",
+  "id": 5157829627,
+  "lat": 40.7105038,
+  "lon": -74.0847252,
+  "timestamp": "2017-10-09T20:49:35Z",
+  "version": 1,
+  "changeset": 52772277,
+  "user": "sbn439",
+  "uid": 6771339,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "239",
+    "addr:postcode": "07305",
+    "addr:state": "NJ",
+    "addr:street": "Bergen Avenue",
+    "amenity": "school",
+    "name": "Henry Snyder High School"
+  }
+},
+{
+  "type": "node",
+  "id": 5157829628,
+  "lat": 40.7095189,
+  "lon": -74.0853362,
+  "timestamp": "2017-10-09T20:49:35Z",
+  "version": 1,
+  "changeset": 52772277,
+  "user": "sbn439",
+  "uid": 6771339,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "2078",
+    "addr:postcode": "07305",
+    "addr:state": "NJ",
+    "addr:street": "John F. Kennedy Boulevard",
+    "amenity": "school",
+    "name": "A Harry Moore School"
+  }
+},
+{
+  "type": "node",
+  "id": 5157829629,
+  "lat": 40.7095934,
+  "lon": -74.0845792,
+  "timestamp": "2018-03-03T08:47:31Z",
+  "version": 2,
+  "changeset": 56841113,
+  "user": "Edward",
+  "uid": 364,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "209",
+    "addr:postcode": "07305",
+    "addr:state": "NJ",
+    "addr:street": "Bergen Avenue",
+    "amenity": "school",
+    "name": "The Academy I Middle School",
+    "wikidata": "Q4671368"
+  }
+},
+{
+  "type": "node",
+  "id": 5349867975,
+  "lat": 40.7153324,
+  "lon": -74.0483930,
+  "timestamp": "2018-01-19T21:24:01Z",
+  "version": 1,
+  "changeset": 55589235,
+  "user": "seahai",
+  "uid": 7501108,
+  "tags": {
+    "amenity": "school",
+    "name": "Hudson Montessori"
+  }
+},
+{
+  "type": "node",
+  "id": 5349867976,
+  "lat": 40.7153544,
+  "lon": -74.0473066,
+  "timestamp": "2018-01-19T21:24:01Z",
+  "version": 1,
+  "changeset": 55589235,
+  "user": "seahai",
+  "uid": 7501108,
+  "tags": {
+    "amenity": "school",
+    "name": "Hudson Montessori"
+  }
+},
+{
+  "type": "node",
+  "id": 5349867977,
+  "lat": 40.7154259,
+  "lon": -74.0464779,
+  "timestamp": "2018-01-19T21:24:01Z",
+  "version": 1,
+  "changeset": 55589235,
+  "user": "seahai",
+  "uid": 7501108,
+  "tags": {
+    "amenity": "school",
+    "name": "Hudson Montessori"
+  }
+},
+{
+  "type": "node",
+  "id": 5358573957,
+  "lat": 40.7396784,
+  "lon": -74.0426823,
+  "timestamp": "2022-07-16T04:36:06Z",
+  "version": 5,
+  "changeset": 123674972,
+  "user": "Corey Kosak",
+  "uid": 16529862,
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "101",
+    "addr:postcode": "07030",
+    "addr:state": "NJ",
+    "addr:street": "Marshall Street",
+    "amenity": "childcare",
+    "name": "Dear World Academy",
+    "phone": "+1 201-238-2449",
+    "website": "https://www.dearworldacademy.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5701113239,
+  "lat": 40.7492517,
+  "lon": -74.0242853,
+  "timestamp": "2023-12-16T18:08:10Z",
+  "version": 3,
+  "changeset": 145192975,
+  "user": "compilation-error",
+  "uid": 6743345,
+  "tags": {
+    "amenity": "kindergarten",
+    "brand": "Bright Horizons",
+    "brand:wikidata": "Q4967421",
+    "fee": "yes",
+    "isced:level": "0",
+    "name": "Apple Montessori",
+    "nursery": "yes",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5810687471,
+  "lat": 40.7591741,
+  "lon": -74.0396727,
+  "timestamp": "2025-11-09T11:48:39Z",
+  "version": 2,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "1015",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "West Street",
+    "amenity": "childcare",
+    "name": "Lolipop Learning Center",
+    "phone": "+1-201-863-2903"
+  }
+},
+{
+  "type": "node",
+  "id": 5820213497,
+  "lat": 40.7346049,
+  "lon": -74.0445250,
+  "timestamp": "2023-11-04T12:07:07Z",
+  "version": 3,
+  "changeset": 143610368,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "837",
+    "addr:postcode": "07310",
+    "addr:state": "NJ",
+    "addr:street": "Jersey Avenue",
+    "amenity": "childcare",
+    "name": "Viaquenti Academy",
+    "phone": "+1-201-222-0033",
+    "website": "https://viaquenti.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6772394740,
+  "lat": 40.7414493,
+  "lon": -74.0312023,
+  "timestamp": "2020-03-04T04:37:03Z",
+  "version": 2,
+  "changeset": 81754769,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "childcare",
+    "name": "Little Bee Learning Studio"
+  }
+},
+{
+  "type": "node",
+  "id": 6793153510,
+  "lat": 40.7376111,
+  "lon": -74.0277447,
+  "timestamp": "2019-09-18T16:46:42Z",
+  "version": 2,
+  "changeset": 74636977,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Kiddie Academy",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6793153516,
+  "lat": 40.7406745,
+  "lon": -74.0275376,
+  "timestamp": "2019-09-13T14:23:58Z",
+  "version": 1,
+  "changeset": 74441089,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "school",
+    "name": "Stevens Cooperative School"
+  }
+},
+{
+  "type": "node",
+  "id": 6793153520,
+  "lat": 40.7401978,
+  "lon": -74.0269596,
+  "timestamp": "2024-01-16T03:13:23Z",
+  "version": 3,
+  "changeset": 146305144,
+  "user": "ZeLonewolf",
+  "uid": 219297,
+  "tags": {
+    "amenity": "kindergarten",
+    "brand": "Bright Horizons",
+    "brand:wikidata": "Q4967421",
+    "fee": "yes",
+    "isced:level": "0",
+    "name": "Bright Horizons",
+    "nursery": "yes",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6793231925,
+  "lat": 40.7386091,
+  "lon": -74.0274471,
+  "timestamp": "2019-09-13T14:51:46Z",
+  "version": 1,
+  "changeset": 74442307,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Apple Montessori Schools",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6793958744,
+  "lat": 40.7509853,
+  "lon": -74.0265836,
+  "timestamp": "2019-09-13T20:55:25Z",
+  "version": 1,
+  "changeset": 74455025,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "childcare",
+    "name": "Hoboken Children's Academy II"
+  }
+},
+{
+  "type": "node",
+  "id": 6799740841,
+  "lat": 40.7385332,
+  "lon": -74.0362048,
+  "timestamp": "2019-09-16T15:02:57Z",
+  "version": 1,
+  "changeset": 74537927,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "kindergarten",
+    "name": "Cresthill Academy",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6848314185,
+  "lat": 40.7266897,
+  "lon": -74.0662320,
+  "timestamp": "2019-10-03T17:39:36Z",
+  "version": 1,
+  "changeset": 75246576,
+  "user": "Paulish",
+  "uid": 4022664,
+  "tags": {
+    "amenity": "school",
+    "name": "Primary Prep"
+  }
+},
+{
+  "type": "node",
+  "id": 7159891532,
+  "lat": 40.7472227,
+  "lon": -74.0281355,
+  "timestamp": "2020-01-26T07:10:09Z",
+  "version": 1,
+  "changeset": 80089794,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "childcare",
+    "name": "Kidz City"
+  }
+},
+{
+  "type": "node",
+  "id": 7609960586,
+  "lat": 40.7212428,
+  "lon": -74.0526600,
+  "timestamp": "2024-02-14T15:49:08Z",
+  "version": 2,
+  "changeset": 147456746,
+  "user": "Tynasyah_keith",
+  "uid": 21013569,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "222",
+    "addr:postcode": "07302",
+    "addr:state": "NJ",
+    "addr:street": "Mercer Street",
+    "amenity": "school",
+    "name": "The Kennedy School"
+  }
+},
+{
+  "type": "node",
+  "id": 7661260386,
+  "lat": 40.7394831,
+  "lon": -74.0569597,
+  "timestamp": "2024-11-10T03:02:01Z",
+  "version": 3,
+  "changeset": 158954472,
+  "user": "JozefM",
+  "uid": 4421570,
+  "tags": {
+    "amenity": "school",
+    "ele": "23",
+    "name": "Patricia M. Noonan Elementary School",
+    "operator:type": "public",
+    "school:FR": "primaire",
+    "survey:date": "2020-06-28",
+    "website": "https://ps26.jcboe.org"
+  }
+},
+{
+  "type": "node",
+  "id": 7738642485,
+  "lat": 40.7293472,
+  "lon": -74.0652341,
+  "timestamp": "2021-11-15T15:15:49Z",
+  "version": 2,
+  "changeset": 113810118,
+  "user": "hdevine825",
+  "uid": 2456367,
+  "tags": {
+    "amenity": "school",
+    "name": "Martin Luther King Jr.",
+    "name:etymology:wikidata": "Q8027"
+  }
+},
+{
+  "type": "node",
+  "id": 7762363385,
+  "lat": 40.7259204,
+  "lon": -74.0668745,
+  "timestamp": "2024-02-14T16:35:55Z",
+  "version": 3,
+  "changeset": 147458388,
+  "user": "Tynasyah_keith",
+  "uid": 21013569,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "790",
+    "addr:postcode": "07306",
+    "addr:state": "NJ",
+    "addr:street": "Bergen Avenue",
+    "amenity": "school",
+    "denomination": "catholic",
+    "grades": "9-12",
+    "name": "Hudson Catholic High School",
+    "religion": "christian",
+    "wikidata": "Q5928601"
+  }
+},
+{
+  "type": "node",
+  "id": 10665137474,
+  "lat": 40.7052355,
+  "lon": -74.0131475,
+  "timestamp": "2026-07-22T01:51:32Z",
+  "version": 2,
+  "changeset": 186149977,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:floor": "5",
+    "addr:housenumber": "26",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "addr:unit": "5th floor",
+    "amenity": "school",
+    "contact:facebook": "UASBYW.US",
+    "fax": "+1-212-668-0635",
+    "grades": "9-12",
+    "internet_access": "no",
+    "name": "Urban Assembly School of Business for Young Women",
+    "phone": "+1-212-668-0169",
+    "polling_station": "yes",
+    "ref": "M316",
+    "religion": "none",
+    "school:gender": "female",
+    "website": "https://www.uasbfyw.org/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10665280266,
+  "lat": 40.7051534,
+  "lon": -74.0128106,
+  "timestamp": "2026-07-22T01:51:32Z",
+  "version": 2,
+  "changeset": 186149977,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "7",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "addr:street": "Beaver Street",
+    "amenity": "school",
+    "fax": "+1-646-826-8175",
+    "grades": "9-12",
+    "name": "Richard R. Green High School of Teaching",
+    "phone": "+1-646-826-8174",
+    "ref": "M580",
+    "religion": "none",
+    "school:gender": "mixed",
+    "website": "https://www.rrghst.org/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11258786347,
+  "lat": 40.7166984,
+  "lon": -74.0106634,
+  "timestamp": "2023-10-12T23:45:23Z",
+  "version": 1,
+  "changeset": 142499990,
+  "user": "hdevine825",
+  "uid": 2456367,
+  "tags": {
+    "after_school": "yes",
+    "alt_name": "KinderCare Learning Center",
+    "amenity": "kindergarten",
+    "brand": "KinderCare",
+    "brand:wikidata": "Q6410551",
+    "fee": "yes",
+    "isced:level": "0",
+    "name": "KinderCare",
+    "nursery": "yes",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11367696069,
+  "lat": 40.7525949,
+  "lon": -74.0236937,
+  "timestamp": "2023-11-24T19:45:50Z",
+  "version": 2,
+  "changeset": 144419847,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "tags": {
+    "addr:housenumber": "1300",
+    "addr:postcode": "07030",
+    "addr:street": "Sinatra Drive North",
+    "amenity": "school",
+    "name": "Cresthill Academy Day Care and Preschool",
+    "website": "https://www.cresthillacademy.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11423257670,
+  "lat": 40.7500782,
+  "lon": -74.0249056,
+  "timestamp": "2024-03-14T14:16:16Z",
+  "version": 2,
+  "changeset": 148644040,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "tags": {
+    "amenity": "kindergarten",
+    "brand": "Bright Horizons",
+    "brand:wikidata": "Q4967421",
+    "fee": "yes",
+    "isced:level": "0",
+    "name": "Bright Horizons",
+    "nursery": "yes",
+    "preschool": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11655575127,
+  "lat": 40.7274461,
+  "lon": -74.0762491,
+  "timestamp": "2024-02-23T07:10:11Z",
+  "version": 1,
+  "changeset": 147799474,
+  "user": "MxxCon",
+  "uid": 384667,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "793",
+    "addr:postcode": "07305",
+    "addr:state": "NJ",
+    "addr:street": "West Side Avenue",
+    "amenity": "childcare",
+    "name": "Kidz Academy"
+  }
+},
+{
+  "type": "node",
+  "id": 11686006787,
+  "lat": 40.7475399,
+  "lon": -74.0377815,
+  "timestamp": "2026-06-01T21:11:18Z",
+  "version": 2,
+  "changeset": 183519254,
+  "user": "wireguy",
+  "uid": 9564652,
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:country": "US",
+    "addr:housenumber": "720",
+    "addr:postcode": "07030",
+    "addr:state": "NJ",
+    "addr:street": "Monroe Street",
+    "addr:unit": "C508",
+    "amenity": "school",
+    "name": "New Jersey Coffee School",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+1-201-367-9586",
+    "school": "vocational",
+    "website": "https://newjerseycoffeeschool.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12232127873,
+  "lat": 40.6857764,
+  "lon": -74.0711642,
+  "timestamp": "2025-11-11T12:57:32Z",
+  "version": 2,
+  "changeset": 174509760,
+  "user": "MxxCon",
+  "uid": 384667,
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "6",
+    "addr:postcode": "07305",
+    "addr:state": "NJ",
+    "addr:street": "Chapel Avenue",
+    "addr:unit": "1st Fr",
+    "amenity": "childcare",
+    "email": "jerseycity@gsl.academy",
+    "max_age": "13",
+    "min_age": "0",
+    "mobile": "+1 551-316-7125",
+    "name": "The Place for Learning",
+    "opening_hours": "Mo-Su 07:30-18:00",
+    "operator": "Growing Seeds Learning Academy",
+    "operator:type": "private",
+    "website": "https://gsl.academy"
+  }
+},
+{
+  "type": "node",
+  "id": 12291033512,
+  "lat": 40.7055464,
+  "lon": -74.0155366,
+  "timestamp": "2026-04-28T14:54:50Z",
+  "version": 3,
+  "changeset": 181945347,
+  "user": "Jacob Rosendal Kristensen",
+  "uid": 730016,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "2-26",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "addr:street": "Washington Street",
+    "amenity": "school",
+    "name": "District 2 Pre-K Center",
+    "operator": "New York City Department of Education",
+    "operator:short": "NYC Public Schools",
+    "operator:type": "public",
+    "operator:wikidata": "Q408230",
+    "preschool": "yes",
+    "ref:nycschools": "Z015",
+    "website": "https://www.schools.nyc.gov/schools/Z015"
+  }
+},
+{
+  "type": "node",
+  "id": 12643783750,
+  "lat": 40.7045823,
+  "lon": -74.0112826,
+  "timestamp": "2026-07-22T01:27:19Z",
+  "version": 2,
+  "changeset": 186149274,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "75",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "addr:street": "Broad Street",
+    "addr:unit": "13th floor",
+    "amenity": "school",
+    "mascot": "Phoenix",
+    "name": "Millenium High School",
+    "website": "https://www.millenniumhs.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 14038208615,
+  "lat": 40.7054000,
+  "lon": -74.0131217,
+  "timestamp": "2026-07-22T01:51:32Z",
+  "version": 1,
+  "changeset": 186149977,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "26",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "addr:street": "Broadway",
+    "addr:unit": "6th floor",
+    "amenity": "school",
+    "education": "school",
+    "name": "Lower Manhattan Community Middle School",
+    "website": "https://lmc896.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 14038379649,
+  "lat": 40.7053011,
+  "lon": -74.0161953,
+  "timestamp": "2026-07-22T02:36:09Z",
+  "version": 1,
+  "changeset": 186151257,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "17",
+    "addr:postcode": "10004",
+    "addr:state": "NY",
+    "addr:street": "Battery Place",
+    "addr:unit": "1st floor",
+    "amenity": "school",
+    "education": "school",
+    "name": "John V. Lindsay Wildcat Academy Charter School - Manhattan Campus",
+    "website": "https://www.jvlwildcat.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 14038403952,
+  "lat": 40.7171407,
+  "lon": -74.0136547,
+  "timestamp": "2026-07-22T02:59:18Z",
+  "version": 1,
+  "changeset": 186151908,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "201",
+    "addr:postcode": "10282",
+    "addr:state": "NY",
+    "addr:street": "Warren Street",
+    "amenity": "school",
+    "education": "school",
+    "name": "I.S. 289 - Hudson River Middle School",
+    "website": "https://www.is289.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 14038403953,
+  "lat": 40.7168863,
+  "lon": -74.0136224,
+  "timestamp": "2026-07-22T02:59:18Z",
+  "version": 1,
+  "changeset": 186151908,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "201",
+    "addr:postcode": "10282",
+    "addr:state": "NY",
+    "addr:street": "Warren Street",
+    "amenity": "school",
+    "education": "school",
+    "gnis:feature_id": "2060114",
+    "name": "P.S. 89 - Liberty School",
+    "website": "https://ps89.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 14038404811,
+  "lat": 40.7090211,
+  "lon": -74.0124381,
+  "timestamp": "2026-07-22T02:39:51Z",
+  "version": 1,
+  "changeset": 186151342,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "90",
+    "addr:postcode": "10006",
+    "addr:state": "NY",
+    "addr:street": "Trinity Place",
+    "amenity": "school",
+    "ele": "5",
+    "gnis:feature_id": "2083909",
+    "mascot": "Panthers",
+    "name": "Leadership and Public Service High School",
+    "polling_station": "yes",
+    "website": "https://www.leadershipnyc.org/",
+    "wikidata": "Q6508641"
+  }
+},
+{
+  "type": "node",
+  "id": 14038404812,
+  "lat": 40.7089435,
+  "lon": -74.0124897,
+  "timestamp": "2026-07-22T02:39:51Z",
+  "version": 1,
+  "changeset": 186151342,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "90",
+    "addr:postcode": "10006",
+    "addr:state": "NY",
+    "addr:street": "Trinity Place",
+    "amenity": "school",
+    "education": "school",
+    "name": "A School Without Walls",
+    "website": "https://aschoolwithoutwalls.org/"
+  }
+},
+{
+  "type": "node",
+  "id": 14264880733,
+  "lat": 40.7181388,
+  "lon": -74.0126454,
+  "timestamp": "2026-10-08T13:51:58Z",
+  "version": 1,
+  "changeset": 190202309,
+  "user": "innitofgtommy",
+  "uid": 24634762,
+  "tags": {
+    "amenity": "school",
+    "education": "school"
+  }
+},
+{
+  "type": "node",
+  "id": 14264883054,
+  "lat": 40.7178481,
+  "lon": -74.0108497,
+  "timestamp": "2026-10-08T13:52:49Z",
+  "version": 1,
+  "changeset": 190202355,
+  "user": "Allen Lin86",
+  "uid": 24634722,
+  "tags": {
+    "amenity": "childcare",
+    "name": "Cocoon"
+  }
+},
+{
+  "type": "way",
+  "id": 26807513,
+  "timestamp": "2024-08-09T21:38:18Z",
+  "version": 9,
+  "changeset": 155041426,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7468753,
+    "minlon": -74.0336845,
+    "maxlat": 40.7482103,
+    "maxlon": -74.0325100
+  },
+  "nodes": [
+    357723412,
+    7210796612,
+    7210796610,
+    7210796608,
+    7210796607,
+    7210796606,
+    7210796605,
+    7210796604,
+    7210796603,
+    7210796602,
+    7210796601,
+    7210796600,
+    294075347,
+    7210796599,
+    7210796598,
+    7210796597,
+    7210796596,
+    7210796595,
+    7210796594,
+    103875873,
+    7210796589,
+    7210796590,
+    7210796591,
+    7210796592,
+    7210796593,
+    7210796609,
+    7210796611,
+    357723412
+  ],
+  "geometry": [
+    { "lat": 40.7482077, "lon": -74.0333185 },
+    { "lat": 40.7482096, "lon": -74.0333137 },
+    { "lat": 40.7482103, "lon": -74.0333053 },
+    { "lat": 40.7482078, "lon": -74.0332885 },
+    { "lat": 40.7480791, "lon": -74.0325374 },
+    { "lat": 40.7480768, "lon": -74.0325273 },
+    { "lat": 40.7480750, "lon": -74.0325225 },
+    { "lat": 40.7480714, "lon": -74.0325175 },
+    { "lat": 40.7480672, "lon": -74.0325134 },
+    { "lat": 40.7480619, "lon": -74.0325100 },
+    { "lat": 40.7480562, "lon": -74.0325100 },
+    { "lat": 40.7480442, "lon": -74.0325127 },
+    { "lat": 40.7469007, "lon": -74.0328650 },
+    { "lat": 40.7468907, "lon": -74.0328696 },
+    { "lat": 40.7468854, "lon": -74.0328742 },
+    { "lat": 40.7468803, "lon": -74.0328820 },
+    { "lat": 40.7468764, "lon": -74.0328917 },
+    { "lat": 40.7468753, "lon": -74.0328993 },
+    { "lat": 40.7468764, "lon": -74.0329098 },
+    { "lat": 40.7470063, "lon": -74.0336596 },
+    { "lat": 40.7470089, "lon": -74.0336699 },
+    { "lat": 40.7470135, "lon": -74.0336782 },
+    { "lat": 40.7470174, "lon": -74.0336824 },
+    { "lat": 40.7470234, "lon": -74.0336845 },
+    { "lat": 40.7472259, "lon": -74.0336104 },
+    { "lat": 40.7482011, "lon": -74.0333246 },
+    { "lat": 40.7482046, "lon": -74.0333221 },
+    { "lat": 40.7482077, "lon": -74.0333185 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "800",
+    "addr:postcode": "07030",
+    "addr:state": "NJ",
+    "addr:street": "Clinton Street",
+    "amenity": "school",
+    "ele": "2",
+    "gnis:feature_id": "877149",
+    "name": "Hoboken High School",
+    "wikidata": "Q5875150"
+  }
+},
+{
+  "type": "way",
+  "id": 26807517,
+  "timestamp": "2023-11-04T12:00:22Z",
+  "version": 6,
+  "changeset": 143610112,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "bounds": {
+    "minlat": 40.7402849,
+    "minlon": -74.0395692,
+    "maxlat": 40.7407943,
+    "maxlon": -74.0387509
+  },
+  "nodes": [
+    4032363833,
+    4032363867,
+    294075368,
+    4031717595,
+    4032363845,
+    4032363846,
+    4032363815,
+    4032363833
+  ],
+  "geometry": [
+    { "lat": 40.7404046, "lon": -74.0395692 },
+    { "lat": 40.7407745, "lon": -74.0394550 },
+    { "lat": 40.7407943, "lon": -74.0394497 },
+    { "lat": 40.7406770, "lon": -74.0387509 },
+    { "lat": 40.7404911, "lon": -74.0388039 },
+    { "lat": 40.7405044, "lon": -74.0388790 },
+    { "lat": 40.7402849, "lon": -74.0389467 },
+    { "lat": 40.7404046, "lon": -74.0395692 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "201",
+    "addr:postcode": "07030",
+    "addr:street": "Monroe Street",
+    "amenity": "school",
+    "gnis:feature_id": "880415",
+    "name": "Thomas G. Connors Primary School",
+    "phone": "+1-201-356-3680",
+    "website": "https://www.hoboken.k12.nj.us/"
+  }
+},
+{
+  "type": "way",
+  "id": 26807519,
+  "timestamp": "2026-06-01T01:16:44Z",
+  "version": 4,
+  "changeset": 183473187,
+  "user": "tguen",
+  "uid": 9465017,
+  "bounds": {
+    "minlat": 40.7505614,
+    "minlon": -74.0315257,
+    "maxlat": 40.7515248,
+    "maxlon": -74.0305701
+  },
+  "nodes": [
+    294075382,
+    294075393,
+    3317900214,
+    294075418,
+    294075421,
+    294075382
+  ],
+  "geometry": [
+    { "lat": 40.7506813, "lon": -74.0315257 },
+    { "lat": 40.7515248, "lon": -74.0312689 },
+    { "lat": 40.7514700, "lon": -74.0309717 },
+    { "lat": 40.7513960, "lon": -74.0305701 },
+    { "lat": 40.7505614, "lon": -74.0308361 },
+    { "lat": 40.7506813, "lon": -74.0315257 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "1100",
+    "addr:state": "NJ",
+    "addr:street": "Willow Avenue",
+    "amenity": "school",
+    "gnis:feature_id": "881495",
+    "name": "Wallace School"
+  }
+},
+{
+  "type": "way",
+  "id": 26807521,
+  "timestamp": "2026-06-01T01:09:39Z",
+  "version": 5,
+  "changeset": 183473077,
+  "user": "tguen",
+  "uid": 9465017,
+  "bounds": {
+    "minlat": 40.7435006,
+    "minlon": -74.0325019,
+    "maxlat": 40.7440296,
+    "maxlon": -74.0318567
+  },
+  "nodes": [
+    294075430,
+    6788474444,
+    6788474445,
+    4466253115,
+    4466253116,
+    4466253117,
+    4466253112,
+    294075436,
+    4466253110,
+    4466253119,
+    4466253111,
+    4466253118,
+    294075439,
+    4466253114,
+    294075430
+  ],
+  "geometry": [
+    { "lat": 40.7436200, "lon": -74.0325019 },
+    { "lat": 40.7437837, "lon": -74.0324579 },
+    { "lat": 40.7437853, "lon": -74.0324659 },
+    { "lat": 40.7440296, "lon": -74.0323917 },
+    { "lat": 40.7439927, "lon": -74.0321785 },
+    { "lat": 40.7438386, "lon": -74.0322268 },
+    { "lat": 40.7437692, "lon": -74.0318567 },
+    { "lat": 40.7435006, "lon": -74.0319378 },
+    { "lat": 40.7435097, "lon": -74.0319945 },
+    { "lat": 40.7435109, "lon": -74.0320015 },
+    { "lat": 40.7435485, "lon": -74.0322110 },
+    { "lat": 40.7435732, "lon": -74.0323521 },
+    { "lat": 40.7435750, "lon": -74.0323640 },
+    { "lat": 40.7435931, "lon": -74.0323620 },
+    { "lat": 40.7436200, "lon": -74.0325019 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "524",
+    "addr:state": "NJ",
+    "addr:street": "Park Avenue",
+    "amenity": "school",
+    "name": "Calabro School"
+  }
+},
+{
+  "type": "way",
+  "id": 26807522,
+  "timestamp": "2026-06-01T01:16:44Z",
+  "version": 3,
+  "changeset": 183473187,
+  "user": "tguen",
+  "uid": 9465017,
+  "bounds": {
+    "minlat": 40.7471829,
+    "minlon": -74.0306496,
+    "maxlat": 40.7477179,
+    "maxlon": -74.0297045
+  },
+  "nodes": [
+    294075442,
+    7210851139,
+    7210851138,
+    7210851137,
+    7210851136,
+    7210851143,
+    7210851148,
+    7210851149,
+    7210851150,
+    7210851147,
+    7210851146,
+    7210851145,
+    7210851144,
+    294075447,
+    294075449,
+    7210851135,
+    7210851140,
+    7210851141,
+    7210851142,
+    294075442
+  ],
+  "geometry": [
+    { "lat": 40.7477126, "lon": -74.0305134 },
+    { "lat": 40.7477164, "lon": -74.0305057 },
+    { "lat": 40.7477177, "lon": -74.0304974 },
+    { "lat": 40.7477179, "lon": -74.0304924 },
+    { "lat": 40.7477177, "lon": -74.0304873 },
+    { "lat": 40.7475844, "lon": -74.0297384 },
+    { "lat": 40.7475815, "lon": -74.0297262 },
+    { "lat": 40.7475775, "lon": -74.0297172 },
+    { "lat": 40.7475722, "lon": -74.0297111 },
+    { "lat": 40.7475665, "lon": -74.0297073 },
+    { "lat": 40.7475598, "lon": -74.0297045 },
+    { "lat": 40.7475554, "lon": -74.0297047 },
+    { "lat": 40.7475503, "lon": -74.0297056 },
+    { "lat": 40.7471829, "lon": -74.0298194 },
+    { "lat": 40.7473259, "lon": -74.0306496 },
+    { "lat": 40.7476841, "lon": -74.0305368 },
+    { "lat": 40.7476940, "lon": -74.0305325 },
+    { "lat": 40.7477018, "lon": -74.0305271 },
+    { "lat": 40.7477066, "lon": -74.0305218 },
+    { "lat": 40.7477126, "lon": -74.0305134 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "215",
+    "addr:state": "NJ",
+    "addr:street": "9th Street",
+    "amenity": "school",
+    "name": "Joseph F. Brandt Middle School"
+  }
+},
+{
+  "type": "way",
+  "id": 26807523,
+  "timestamp": "2025-09-02T16:31:13Z",
+  "version": 8,
+  "changeset": 171369995,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7414561,
+    "minlon": -74.0314473,
+    "maxlat": 40.7421779,
+    "maxlon": -74.0304190
+  },
+  "nodes": [
+    6784223939,
+    6784223940,
+    6784223941,
+    13114934632,
+    13114934637,
+    13114934636,
+    13114934631,
+    6784223920,
+    6784223921,
+    6784223922,
+    6784223923,
+    6784223924,
+    6784223925,
+    6784223919,
+    6785888742,
+    7262647833,
+    4467207982,
+    7262647834,
+    7262647831,
+    7262647829,
+    7262647825,
+    7262647823,
+    7262647821,
+    7262647819,
+    294075468,
+    13114934630,
+    13114934634,
+    13114934635,
+    13114934633,
+    6784223937,
+    6784223938,
+    6784223939
+  ],
+  "geometry": [
+    { "lat": 40.7415981, "lon": -74.0314405 },
+    { "lat": 40.7415907, "lon": -74.0314306 },
+    { "lat": 40.7415864, "lon": -74.0314172 },
+    { "lat": 40.7415614, "lon": -74.0312798 },
+    { "lat": 40.7415614, "lon": -74.0312709 },
+    { "lat": 40.7415634, "lon": -74.0312637 },
+    { "lat": 40.7415716, "lon": -74.0312453 },
+    { "lat": 40.7414955, "lon": -74.0308321 },
+    { "lat": 40.7414565, "lon": -74.0306199 },
+    { "lat": 40.7414561, "lon": -74.0306067 },
+    { "lat": 40.7414599, "lon": -74.0305960 },
+    { "lat": 40.7414665, "lon": -74.0305872 },
+    { "lat": 40.7414765, "lon": -74.0305822 },
+    { "lat": 40.7420262, "lon": -74.0304190 },
+    { "lat": 40.7420391, "lon": -74.0304828 },
+    { "lat": 40.7420737, "lon": -74.0306774 },
+    { "lat": 40.7420830, "lon": -74.0307296 },
+    { "lat": 40.7420855, "lon": -74.0307411 },
+    { "lat": 40.7420911, "lon": -74.0307727 },
+    { "lat": 40.7420966, "lon": -74.0308046 },
+    { "lat": 40.7421079, "lon": -74.0308667 },
+    { "lat": 40.7421137, "lon": -74.0308987 },
+    { "lat": 40.7421197, "lon": -74.0309315 },
+    { "lat": 40.7421270, "lon": -74.0309733 },
+    { "lat": 40.7421779, "lon": -74.0312489 },
+    { "lat": 40.7417336, "lon": -74.0313825 },
+    { "lat": 40.7417261, "lon": -74.0314080 },
+    { "lat": 40.7417224, "lon": -74.0314131 },
+    { "lat": 40.7417180, "lon": -74.0314159 },
+    { "lat": 40.7416171, "lon": -74.0314473 },
+    { "lat": 40.7416081, "lon": -74.0314465 },
+    { "lat": 40.7415981, "lon": -74.0314405 }
+  ],
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 26809079,
+  "timestamp": "2026-06-01T01:16:44Z",
+  "version": 5,
+  "changeset": 183473187,
+  "user": "tguen",
+  "uid": 9465017,
+  "bounds": {
+    "minlat": 40.7458367,
+    "minlon": -74.0379342,
+    "maxlat": 40.7463149,
+    "maxlon": -74.0370517
+  },
+  "nodes": [
+    294093383,
+    294093384,
+    4030892777,
+    294093385,
+    4030892776,
+    4030892773,
+    4030892772,
+    294093386,
+    7150131767,
+    7150131768,
+    7150131769,
+    7150131770,
+    7150131771,
+    7150131772,
+    294093383
+  ],
+  "geometry": [
+    { "lat": 40.7463149, "lon": -74.0378016 },
+    { "lat": 40.7461883, "lon": -74.0370517 },
+    { "lat": 40.7461578, "lon": -74.0370606 },
+    { "lat": 40.7458367, "lon": -74.0371586 },
+    { "lat": 40.7458783, "lon": -74.0373962 },
+    { "lat": 40.7459132, "lon": -74.0376022 },
+    { "lat": 40.7459617, "lon": -74.0378793 },
+    { "lat": 40.7459714, "lon": -74.0379342 },
+    { "lat": 40.7462932, "lon": -74.0378347 },
+    { "lat": 40.7463015, "lon": -74.0378302 },
+    { "lat": 40.7463072, "lon": -74.0378263 },
+    { "lat": 40.7463097, "lon": -74.0378223 },
+    { "lat": 40.7463124, "lon": -74.0378166 },
+    { "lat": 40.7463142, "lon": -74.0378091 },
+    { "lat": 40.7463149, "lon": -74.0378016 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "555",
+    "addr:postcode": "07030",
+    "addr:state": "NJ",
+    "addr:street": "7th Street",
+    "amenity": "school",
+    "name": "Hoboken Catholic Academy"
+  }
+},
+{
+  "type": "way",
+  "id": 26809080,
+  "timestamp": "2026-06-01T01:16:44Z",
+  "version": 4,
+  "changeset": 183473187,
+  "user": "tguen",
+  "uid": 9465017,
+  "bounds": {
+    "minlat": 40.7452446,
+    "minlon": -74.0390691,
+    "maxlat": 40.7454544,
+    "maxlon": -74.0386758
+  },
+  "nodes": [
+    294093390,
+    294093391,
+    294093392,
+    294093393,
+    294093390
+  ],
+  "geometry": [
+    { "lat": 40.7454544, "lon": -74.0390210 },
+    { "lat": 40.7453900, "lon": -74.0386758 },
+    { "lat": 40.7452446, "lon": -74.0387240 },
+    { "lat": 40.7453068, "lon": -74.0390691 },
+    { "lat": 40.7454544, "lon": -74.0390210 }
+  ],
+  "tags": {
+    "addr:city": "Hoboken",
+    "addr:housenumber": "601-603",
+    "addr:postcode": "07030",
+    "addr:state": "NJ",
+    "addr:street": "Jackson Street",
+    "amenity": "school",
+    "name": "Jubilee Center"
+  }
+},
+{
+  "type": "way",
+  "id": 248169066,
+  "timestamp": "2026-08-09T15:05:42Z",
+  "version": 3,
+  "changeset": 187184775,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "bounds": {
+    "minlat": 40.6776086,
+    "minlon": -74.0144024,
+    "maxlat": 40.6780020,
+    "maxlon": -74.0139903
+  },
+  "nodes": [
+    2550087244,
+    2550087219,
+    2550087247,
+    2550087303,
+    2550087291,
+    2550087268,
+    2550087263,
+    2550087244
+  ],
+  "geometry": [
+    { "lat": 40.6777613, "lon": -74.0139903 },
+    { "lat": 40.6776086, "lon": -74.0141668 },
+    { "lat": 40.6777665, "lon": -74.0144024 },
+    { "lat": 40.6780020, "lon": -74.0141300 },
+    { "lat": 40.6779188, "lon": -74.0140058 },
+    { "lat": 40.6778359, "lon": -74.0141016 },
+    { "lat": 40.6778193, "lon": -74.0140769 },
+    { "lat": 40.6777613, "lon": -74.0139903 }
+  ],
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "173",
+    "addr:postcode": "11231",
+    "addr:state": "NY",
+    "addr:street": "Conover Street",
+    "amenity": "school",
+    "building": "school",
+    "height": "18.9",
+    "name": "South Brooklyn Community High School",
+    "nycdoitt:bin": "3398190",
+    "operator": "Good Shepherd",
+    "website": "https://www.mysbchs.org/",
+    "wikidata": "Q7566433"
+  }
+},
+{
+  "type": "way",
+  "id": 261880640,
+  "timestamp": "2020-08-24T04:12:58Z",
+  "version": 7,
+  "changeset": 89829068,
+  "user": "smanidee",
+  "uid": 11558560,
+  "bounds": {
+    "minlat": 40.6832700,
+    "minlon": -74.1100220,
+    "maxlat": 40.6846328,
+    "maxlon": -74.1080191
+  },
+  "nodes": [
+    103873962,
+    2674995549,
+    2674995551,
+    103881392,
+    2674992956,
+    2674990836,
+    103873367,
+    2674998012,
+    103873370,
+    2674990839,
+    7838584044,
+    2674992957,
+    103873962
+  ],
+  "geometry": [
+    { "lat": 40.6838758, "lon": -74.1080191 },
+    { "lat": 40.6838173, "lon": -74.1080686 },
+    { "lat": 40.6833373, "lon": -74.1084729 },
+    { "lat": 40.6832700, "lon": -74.1085290 },
+    { "lat": 40.6833057, "lon": -74.1086016 },
+    { "lat": 40.6839428, "lon": -74.1098988 },
+    { "lat": 40.6840030, "lon": -74.1100220 },
+    { "lat": 40.6845063, "lon": -74.1096477 },
+    { "lat": 40.6846328, "lon": -74.1095513 },
+    { "lat": 40.6845778, "lon": -74.1094397 },
+    { "lat": 40.6843378, "lon": -74.1089552 },
+    { "lat": 40.6839104, "lon": -74.1080927 },
+    { "lat": 40.6838758, "lon": -74.1080191 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "source": "Bing Imagery"
+  }
+},
+{
+  "type": "way",
+  "id": 278033590,
+  "timestamp": "2026-07-22T02:23:19Z",
+  "version": 7,
+  "changeset": 186150921,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "bounds": {
+    "minlat": 40.7090784,
+    "minlon": -74.0125799,
+    "maxlat": 40.7094975,
+    "maxlon": -74.0120892
+  },
+  "nodes": [
+    2824641604,
+    3762209186,
+    2824641586,
+    12361377540,
+    2824641561,
+    2824641576,
+    3762209179,
+    3762209180,
+    2824641585,
+    2824641590,
+    2824641596,
+    2824641604
+  ],
+  "geometry": [
+    { "lat": 40.7094975, "lon": -74.0124867 },
+    { "lat": 40.7094335, "lon": -74.0123404 },
+    { "lat": 40.7093236, "lon": -74.0120892 },
+    { "lat": 40.7091832, "lon": -74.0121953 },
+    { "lat": 40.7090784, "lon": -74.0122745 },
+    { "lat": 40.7091894, "lon": -74.0125281 },
+    { "lat": 40.7092057, "lon": -74.0125158 },
+    { "lat": 40.7092512, "lon": -74.0124814 },
+    { "lat": 40.7093112, "lon": -74.0124361 },
+    { "lat": 40.7093741, "lon": -74.0125799 },
+    { "lat": 40.7093869, "lon": -74.0125703 },
+    { "lat": 40.7094975, "lon": -74.0124867 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "100",
+    "addr:street": "Trinity Place",
+    "amenity": "school",
+    "building": "school",
+    "building:levels": "10",
+    "ele": "5",
+    "gnis:feature_id": "2083910",
+    "mascot": "Panthers",
+    "name": "High School of Economics and Finance",
+    "nycdoitt:bin": "1001037",
+    "website": "https://www.ecoandfin.org/",
+    "wikidata": "Q5756623"
+  }
+},
+{
+  "type": "way",
+  "id": 317719020,
+  "timestamp": "2023-11-04T12:15:22Z",
+  "version": 3,
+  "changeset": 143610700,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "bounds": {
+    "minlat": 40.7764048,
+    "minlon": -74.0158016,
+    "maxlat": 40.7770708,
+    "maxlon": -74.0149739
+  },
+  "nodes": [
+    357729842,
+    3240137997,
+    3240137998,
+    3240137996,
+    357729842
+  ],
+  "geometry": [
+    { "lat": 40.7764048, "lon": -74.0153378 },
+    { "lat": 40.7768644, "lon": -74.0149739 },
+    { "lat": 40.7770708, "lon": -74.0154405 },
+    { "lat": 40.7766065, "lon": -74.0158016 },
+    { "lat": 40.7764048, "lon": -74.0153378 }
+  ],
+  "tags": {
+    "addr:city": "Weehawken",
+    "addr:housenumber": "1",
+    "addr:postcode": "07086",
+    "addr:street": "Louisa Place",
+    "amenity": "school",
+    "gnis:feature_id": "880390",
+    "name": "Theodore Roosevelt Number 5 Elementary School",
+    "phone": "+1-201-442-6140",
+    "website": "https://www.weehawken.k12.nj.us/weehawken/schools/Roosevelt/roosevelt.html"
+  }
+},
+{
+  "type": "way",
+  "id": 353912002,
+  "timestamp": "2024-11-10T18:36:35Z",
+  "version": 5,
+  "changeset": 158980625,
+  "user": "JozefM",
+  "uid": 4421570,
+  "bounds": {
+    "minlat": 40.7397670,
+    "minlon": -74.0599590,
+    "maxlat": 40.7421662,
+    "maxlon": -74.0580690
+  },
+  "nodes": [
+    3597037760,
+    12329159210,
+    12329159212,
+    12329159230,
+    3597088698,
+    3597037755,
+    12329159213,
+    3597037756,
+    3597037753,
+    3597088702,
+    3597037757,
+    3597088704,
+    12329159241,
+    12329159223,
+    3597088706,
+    12329159222,
+    12329159214,
+    12329159208,
+    3597037761,
+    12329159207,
+    12329159209,
+    3597037760
+  ],
+  "geometry": [
+    { "lat": 40.7399643, "lon": -74.0599065 },
+    { "lat": 40.7402571, "lon": -74.0599590 },
+    { "lat": 40.7407811, "lon": -74.0597846 },
+    { "lat": 40.7408061, "lon": -74.0597763 },
+    { "lat": 40.7408310, "lon": -74.0597680 },
+    { "lat": 40.7411485, "lon": -74.0596588 },
+    { "lat": 40.7421662, "lon": -74.0589817 },
+    { "lat": 40.7421652, "lon": -74.0582658 },
+    { "lat": 40.7416372, "lon": -74.0582753 },
+    { "lat": 40.7412644, "lon": -74.0582122 },
+    { "lat": 40.7412509, "lon": -74.0582099 },
+    { "lat": 40.7412355, "lon": -74.0581302 },
+    { "lat": 40.7412047, "lon": -74.0581168 },
+    { "lat": 40.7411740, "lon": -74.0581035 },
+    { "lat": 40.7410636, "lon": -74.0580802 },
+    { "lat": 40.7410057, "lon": -74.0580690 },
+    { "lat": 40.7402669, "lon": -74.0581216 },
+    { "lat": 40.7402874, "lon": -74.0585450 },
+    { "lat": 40.7397670, "lon": -74.0585739 },
+    { "lat": 40.7398600, "lon": -74.0592402 },
+    { "lat": 40.7399430, "lon": -74.0592344 },
+    { "lat": 40.7399643, "lon": -74.0599065 }
+  ],
+  "tags": {
+    "alt_name": "MS 7",
+    "amenity": "school",
+    "name": "Franklin L. Williams Middle School",
+    "website": "https://www.jcboe.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 353916024,
+  "timestamp": "2024-11-10T18:36:35Z",
+  "version": 8,
+  "changeset": 158980625,
+  "user": "JozefM",
+  "uid": 4421570,
+  "bounds": {
+    "minlat": 40.7405640,
+    "minlon": -74.0575068,
+    "maxlat": 40.7414358,
+    "maxlon": -74.0563816
+  },
+  "nodes": [
+    3597073676,
+    3597073688,
+    3597073669,
+    3597074496,
+    3597074493,
+    3597073644,
+    3597073652,
+    3597073648,
+    3597073646,
+    3597073684,
+    3597074494,
+    3597073647,
+    3597073656,
+    3597073682,
+    3597073658,
+    3597073678,
+    3597073653,
+    3597073685,
+    3597073674,
+    3597073659,
+    3597073666,
+    3597073673,
+    3597073687,
+    3597074498,
+    3597073645,
+    3597073661,
+    3597073664,
+    3597073679,
+    3597073649,
+    3597073650,
+    3597073690,
+    3597073662,
+    3597073663,
+    3597073691,
+    3597073677,
+    3597073657,
+    3597073671,
+    3597073655,
+    3597073676
+  ],
+  "geometry": [
+    { "lat": 40.7414064, "lon": -74.0568497 },
+    { "lat": 40.7409166, "lon": -74.0569020 },
+    { "lat": 40.7409146, "lon": -74.0568872 },
+    { "lat": 40.7408780, "lon": -74.0568886 },
+    { "lat": 40.7408739, "lon": -74.0568094 },
+    { "lat": 40.7408485, "lon": -74.0568108 },
+    { "lat": 40.7408455, "lon": -74.0567907 },
+    { "lat": 40.7407642, "lon": -74.0566512 },
+    { "lat": 40.7408780, "lon": -74.0565305 },
+    { "lat": 40.7407886, "lon": -74.0563816 },
+    { "lat": 40.7406667, "lon": -74.0564984 },
+    { "lat": 40.7406524, "lon": -74.0564728 },
+    { "lat": 40.7405640, "lon": -74.0565667 },
+    { "lat": 40.7405925, "lon": -74.0566190 },
+    { "lat": 40.7405813, "lon": -74.0566284 },
+    { "lat": 40.7406565, "lon": -74.0567625 },
+    { "lat": 40.7406687, "lon": -74.0567478 },
+    { "lat": 40.7407022, "lon": -74.0568001 },
+    { "lat": 40.7407296, "lon": -74.0567732 },
+    { "lat": 40.7407398, "lon": -74.0567947 },
+    { "lat": 40.7407205, "lon": -74.0568269 },
+    { "lat": 40.7407256, "lon": -74.0569060 },
+    { "lat": 40.7407418, "lon": -74.0569234 },
+    { "lat": 40.7407500, "lon": -74.0570280 },
+    { "lat": 40.7407489, "lon": -74.0570790 },
+    { "lat": 40.7407500, "lon": -74.0571179 },
+    { "lat": 40.7407408, "lon": -74.0571568 },
+    { "lat": 40.7407276, "lon": -74.0571836 },
+    { "lat": 40.7406981, "lon": -74.0572238 },
+    { "lat": 40.7407053, "lon": -74.0572842 },
+    { "lat": 40.7406859, "lon": -74.0572882 },
+    { "lat": 40.7406849, "lon": -74.0573325 },
+    { "lat": 40.7406616, "lon": -74.0573365 },
+    { "lat": 40.7406666, "lon": -74.0575068 },
+    { "lat": 40.7410365, "lon": -74.0574652 },
+    { "lat": 40.7410335, "lon": -74.0574250 },
+    { "lat": 40.7412956, "lon": -74.0573942 },
+    { "lat": 40.7414358, "lon": -74.0572212 },
+    { "lat": 40.7414064, "lon": -74.0568497 }
+  ],
+  "tags": {
+    "addr:housenumber": "761",
+    "amenity": "school",
+    "building": "school",
+    "name": "St. Joseph's School for the Blind",
+    "survey:date": "2020-06-28"
+  }
+},
+{
+  "type": "way",
+  "id": 354414773,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 6,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7694569,
+    "minlon": -74.0378318,
+    "maxlat": 40.7709824,
+    "maxlon": -74.0352652
+  },
+  "nodes": [
+    2631941183,
+    3601449886,
+    3601449891,
+    3601450199,
+    3601449892,
+    5613711774,
+    3601449879,
+    3601451599,
+    3601450197,
+    3601449888,
+    3601449878,
+    3601450200,
+    3601450195,
+    7795608059,
+    2631941178,
+    2631941177,
+    2631941176,
+    2631941183
+  ],
+  "geometry": [
+    { "lat": 40.7708219, "lon": -74.0364400 },
+    { "lat": 40.7707634, "lon": -74.0365166 },
+    { "lat": 40.7706517, "lon": -74.0366856 },
+    { "lat": 40.7705836, "lon": -74.0368076 },
+    { "lat": 40.7705379, "lon": -74.0369028 },
+    { "lat": 40.7701864, "lon": -74.0378318 },
+    { "lat": 40.7699600, "lon": -74.0373856 },
+    { "lat": 40.7698938, "lon": -74.0372450 },
+    { "lat": 40.7694569, "lon": -74.0363365 },
+    { "lat": 40.7694827, "lon": -74.0363087 },
+    { "lat": 40.7694618, "lon": -74.0362622 },
+    { "lat": 40.7695538, "lon": -74.0361853 },
+    { "lat": 40.7695065, "lon": -74.0360838 },
+    { "lat": 40.7695924, "lon": -74.0360139 },
+    { "lat": 40.7699484, "lon": -74.0357239 },
+    { "lat": 40.7704908, "lon": -74.0352652 },
+    { "lat": 40.7709824, "lon": -74.0362764 },
+    { "lat": 40.7708219, "lon": -74.0364400 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "2500",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "John F. Kennedy Boulevard",
+    "amenity": "school",
+    "name": "Union City High School",
+    "operator": "Union City",
+    "operator:wikidata": "Q588834",
+    "phone": "+1-201-330-8678",
+    "website": "https://uchs.ucboe.us/",
+    "wikidata": "Q7885547"
+  }
+},
+{
+  "type": "way",
+  "id": 354423205,
+  "timestamp": "2023-06-12T03:31:03Z",
+  "version": 4,
+  "changeset": 137225310,
+  "user": "Local-Mapper",
+  "uid": 10661773,
+  "bounds": {
+    "minlat": 40.7151098,
+    "minlon": -74.0631362,
+    "maxlat": 40.7164269,
+    "maxlon": -74.0608711
+  },
+  "nodes": [
+    3601558213,
+    3601558212,
+    3601558209,
+    3601558208,
+    3601558211,
+    3601558210,
+    3601558996,
+    3601558530,
+    3601558207,
+    3601558213
+  ],
+  "geometry": [
+    { "lat": 40.7164269, "lon": -74.0620687 },
+    { "lat": 40.7157154, "lon": -74.0631362 },
+    { "lat": 40.7153486, "lon": -74.0626990 },
+    { "lat": 40.7154644, "lon": -74.0625635 },
+    { "lat": 40.7154360, "lon": -74.0617039 },
+    { "lat": 40.7151098, "lon": -74.0612922 },
+    { "lat": 40.7152733, "lon": -74.0610593 },
+    { "lat": 40.7152899, "lon": -74.0610807 },
+    { "lat": 40.7154472, "lon": -74.0608711 },
+    { "lat": 40.7164269, "lon": -74.0620687 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "barrier": "fence",
+    "fence_type": "wire",
+    "name": "Jersey City Regional Day School"
+  }
+},
+{
+  "type": "way",
+  "id": 370618643,
+  "timestamp": "2025-11-20T03:56:15Z",
+  "version": 6,
+  "changeset": 174889289,
+  "user": "Mr Matt K",
+  "uid": 20380615,
+  "bounds": {
+    "minlat": 40.7755607,
+    "minlon": -74.0390106,
+    "maxlat": 40.7762462,
+    "maxlon": -74.0383475
+  },
+  "nodes": [
+    357725559,
+    3743185946,
+    3743181461,
+    3743181459,
+    3743181458,
+    3743181464,
+    3743181456,
+    3743181462,
+    3743181457,
+    3743181460,
+    3743181463,
+    357725559
+  ],
+  "geometry": [
+    { "lat": 40.7756114, "lon": -74.0390106 },
+    { "lat": 40.7755810, "lon": -74.0389272 },
+    { "lat": 40.7755607, "lon": -74.0388717 },
+    { "lat": 40.7756013, "lon": -74.0388458 },
+    { "lat": 40.7755730, "lon": -74.0387684 },
+    { "lat": 40.7757186, "lon": -74.0386757 },
+    { "lat": 40.7756724, "lon": -74.0385494 },
+    { "lat": 40.7759313, "lon": -74.0383845 },
+    { "lat": 40.7759620, "lon": -74.0384683 },
+    { "lat": 40.7761517, "lon": -74.0383475 },
+    { "lat": 40.7762462, "lon": -74.0386062 },
+    { "lat": 40.7756114, "lon": -74.0390106 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "education": "school",
+    "ele": "35",
+    "gnis:feature_id": "878227",
+    "name": "McKinley Number 10 Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 376010262,
+  "timestamp": "2019-09-19T17:10:58Z",
+  "version": 5,
+  "changeset": 74686468,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7439037,
+    "minlon": -74.0316827,
+    "maxlat": 40.7442774,
+    "maxlon": -74.0311806
+  },
+  "nodes": [
+    5581610392,
+    3793522360,
+    3793522361,
+    4465621019,
+    4465621020,
+    3793522362,
+    6809101808,
+    6809101809,
+    6809101810,
+    6809101811,
+    6809101812,
+    6809101813,
+    6809101814,
+    4465586120,
+    5581610392
+  ],
+  "geometry": [
+    { "lat": 40.7442774, "lon": -74.0315978 },
+    { "lat": 40.7442651, "lon": -74.0315276 },
+    { "lat": 40.7442039, "lon": -74.0311806 },
+    { "lat": 40.7440674, "lon": -74.0312219 },
+    { "lat": 40.7439488, "lon": -74.0312577 },
+    { "lat": 40.7439037, "lon": -74.0312699 },
+    { "lat": 40.7439718, "lon": -74.0316570 },
+    { "lat": 40.7439746, "lon": -74.0316677 },
+    { "lat": 40.7439788, "lon": -74.0316742 },
+    { "lat": 40.7439841, "lon": -74.0316786 },
+    { "lat": 40.7439904, "lon": -74.0316811 },
+    { "lat": 40.7439983, "lon": -74.0316827 },
+    { "lat": 40.7440048, "lon": -74.0316821 },
+    { "lat": 40.7440189, "lon": -74.0316778 },
+    { "lat": 40.7442774, "lon": -74.0315978 }
+  ],
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 382189000,
+  "timestamp": "2026-08-09T14:56:18Z",
+  "version": 4,
+  "changeset": 187184247,
+  "user": "dkwolf",
+  "uid": 1771944,
+  "bounds": {
+    "minlat": 40.6764358,
+    "minlon": -74.0127581,
+    "maxlat": 40.6777418,
+    "maxlon": -74.0109602
+  },
+  "nodes": [
+    3853835615,
+    3853835612,
+    3853835613,
+    3853835618,
+    3853835617,
+    3853835616,
+    6476509886,
+    14082206840,
+    3853835615
+  ],
+  "geometry": [
+    { "lat": 40.6773353, "lon": -74.0127581 },
+    { "lat": 40.6777418, "lon": -74.0122799 },
+    { "lat": 40.6774305, "lon": -74.0118318 },
+    { "lat": 40.6768950, "lon": -74.0110422 },
+    { "lat": 40.6768394, "lon": -74.0109602 },
+    { "lat": 40.6764358, "lon": -74.0114361 },
+    { "lat": 40.6764907, "lon": -74.0115170 },
+    { "lat": 40.6765329, "lon": -74.0115790 },
+    { "lat": 40.6773353, "lon": -74.0127581 }
+  ],
+  "tags": {
+    "addr:city": "Brooklyn",
+    "addr:housenumber": "71",
+    "addr:postcode": "11231",
+    "addr:state": "NY",
+    "addr:street": "Sullivan Street",
+    "amenity": "school",
+    "name": "P.S. 15 - Patrick F. Daly Magnet School for the Arts",
+    "operator": "New York City Department of Education",
+    "operator:short": "NYC Public Schools",
+    "operator:type": "public",
+    "operator:wikidata": "Q408230",
+    "short_name": "P.S. 15",
+    "website": "https://www.ps15k.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 396843275,
+  "timestamp": "2024-05-23T08:58:44Z",
+  "version": 6,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7418007,
+    "minlon": -74.0512013,
+    "maxlat": 40.7420620,
+    "maxlon": -74.0508392
+  },
+  "nodes": [
+    357745000,
+    3996858752,
+    3996858767,
+    3996858745,
+    3996858732,
+    3996858711,
+    3996858690,
+    3996858686,
+    3996858665,
+    3996858669,
+    3996858655,
+    3996858672,
+    3996858664,
+    3996858678,
+    3996858685,
+    3996858698,
+    3996858713,
+    3996858723,
+    3996858754,
+    3996858749,
+    357745000
+  ],
+  "geometry": [
+    { "lat": 40.7420620, "lon": -74.0510738 },
+    { "lat": 40.7420287, "lon": -74.0510077 },
+    { "lat": 40.7420584, "lon": -74.0509816 },
+    { "lat": 40.7420115, "lon": -74.0508884 },
+    { "lat": 40.7419818, "lon": -74.0509145 },
+    { "lat": 40.7419439, "lon": -74.0508392 },
+    { "lat": 40.7418977, "lon": -74.0508797 },
+    { "lat": 40.7418865, "lon": -74.0508575 },
+    { "lat": 40.7418208, "lon": -74.0509152 },
+    { "lat": 40.7418320, "lon": -74.0509373 },
+    { "lat": 40.7418007, "lon": -74.0509648 },
+    { "lat": 40.7418376, "lon": -74.0510380 },
+    { "lat": 40.7418191, "lon": -74.0510542 },
+    { "lat": 40.7418659, "lon": -74.0511471 },
+    { "lat": 40.7418844, "lon": -74.0511308 },
+    { "lat": 40.7419189, "lon": -74.0511994 },
+    { "lat": 40.7419486, "lon": -74.0511733 },
+    { "lat": 40.7419627, "lon": -74.0512013 },
+    { "lat": 40.7420337, "lon": -74.0511391 },
+    { "lat": 40.7420196, "lon": -74.0511111 },
+    { "lat": 40.7420620, "lon": -74.0510738 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "ele": "35",
+    "gnis:feature_id": "2057671",
+    "name": "Saint Nicholas School"
+  }
+},
+{
+  "type": "way",
+  "id": 403575686,
+  "timestamp": "2023-11-04T12:11:43Z",
+  "version": 3,
+  "changeset": 143610557,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "bounds": {
+    "minlat": 40.7166766,
+    "minlon": -74.0521155,
+    "maxlat": 40.7176924,
+    "maxlon": -74.0488084
+  },
+  "nodes": [
+    4772760020,
+    4059302859,
+    4772761727,
+    357745462,
+    4772761726,
+    4772761725,
+    4059302856,
+    4059302839,
+    4059302876,
+    4059304306,
+    4772761723,
+    357744927,
+    4772761722,
+    4772761721,
+    4772760020
+  ],
+  "geometry": [
+    { "lat": 40.7174724, "lon": -74.0518787 },
+    { "lat": 40.7170236, "lon": -74.0521155 },
+    { "lat": 40.7168278, "lon": -74.0503763 },
+    { "lat": 40.7170109, "lon": -74.0503507 },
+    { "lat": 40.7168744, "lon": -74.0498991 },
+    { "lat": 40.7167759, "lon": -74.0499152 },
+    { "lat": 40.7166766, "lon": -74.0490328 },
+    { "lat": 40.7169005, "lon": -74.0488084 },
+    { "lat": 40.7172220, "lon": -74.0497742 },
+    { "lat": 40.7175622, "lon": -74.0495853 },
+    { "lat": 40.7176924, "lon": -74.0500019 },
+    { "lat": 40.7172142, "lon": -74.0502719 },
+    { "lat": 40.7172162, "lon": -74.0504096 },
+    { "lat": 40.7172945, "lon": -74.0511619 },
+    { "lat": 40.7174724, "lon": -74.0518787 }
+  ],
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "107",
+    "addr:postcode": "07302",
+    "addr:street": "Bright Street",
+    "amenity": "school",
+    "name": "Frank R. Conwell Middle School",
+    "operator": "Jersey City Public Schools",
+    "phone": "+1 201 946 5740",
+    "website": "https://www.jcboe.org/boe2015/index.php?option=com_content&view=article&id=393&Itemid=1036"
+  }
+},
+{
+  "type": "way",
+  "id": 404028573,
+  "timestamp": "2019-08-25T13:47:10Z",
+  "version": 7,
+  "changeset": 73718058,
+  "user": "eggthethrone",
+  "uid": 9275216,
+  "bounds": {
+    "minlat": 40.7202509,
+    "minlon": -74.0547616,
+    "maxlat": 40.7226045,
+    "maxlon": -74.0515253
+  },
+  "nodes": [
+    4063077814,
+    4063077816,
+    5022851226,
+    6744045191,
+    4063077817,
+    4063077818,
+    4063077819,
+    4063077820,
+    4063077821,
+    4172460228,
+    4172460248,
+    6744045190,
+    4063077822,
+    6744030963,
+    4063077823,
+    4172460234,
+    6744030964,
+    4063084567,
+    4063077814
+  ],
+  "geometry": [
+    { "lat": 40.7218657, "lon": -74.0515253 },
+    { "lat": 40.7221596, "lon": -74.0525069 },
+    { "lat": 40.7222287, "lon": -74.0527289 },
+    { "lat": 40.7224722, "lon": -74.0535103 },
+    { "lat": 40.7225924, "lon": -74.0538962 },
+    { "lat": 40.7226045, "lon": -74.0539648 },
+    { "lat": 40.7225945, "lon": -74.0540394 },
+    { "lat": 40.7225796, "lon": -74.0540987 },
+    { "lat": 40.7225457, "lon": -74.0541637 },
+    { "lat": 40.7225039, "lon": -74.0542068 },
+    { "lat": 40.7224487, "lon": -74.0542408 },
+    { "lat": 40.7220264, "lon": -74.0543880 },
+    { "lat": 40.7209548, "lon": -74.0547616 },
+    { "lat": 40.7206669, "lon": -74.0538533 },
+    { "lat": 40.7202509, "lon": -74.0525411 },
+    { "lat": 40.7202984, "lon": -74.0524208 },
+    { "lat": 40.7208335, "lon": -74.0521393 },
+    { "lat": 40.7208380, "lon": -74.0521370 },
+    { "lat": 40.7218657, "lon": -74.0515253 }
+  ],
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "35",
+    "addr:postcode": "07302",
+    "addr:state": "NJ",
+    "addr:street": "Colgate Street",
+    "amenity": "school",
+    "area": "yes",
+    "fax": "+1-201-451-6067",
+    "name": "James J. Ferris High School",
+    "phone": "+1-201-915-6660",
+    "wikidata": "Q6136677",
+    "wikipedia": "en:James J. Ferris High School"
+  }
+},
+{
+  "type": "way",
+  "id": 404322230,
+  "timestamp": "2020-04-25T13:29:47Z",
+  "version": 4,
+  "changeset": 84105571,
+  "user": "Valustaides",
+  "uid": 87077,
+  "bounds": {
+    "minlat": 40.7155682,
+    "minlon": -74.0374816,
+    "maxlat": 40.7159609,
+    "maxlon": -74.0365393
+  },
+  "nodes": [
+    4066046759,
+    7444996880,
+    4066046761,
+    4066046762,
+    4066046759
+  ],
+  "geometry": [
+    { "lat": 40.7155682, "lon": -74.0365882 },
+    { "lat": 40.7156738, "lon": -74.0374816 },
+    { "lat": 40.7159609, "lon": -74.0374209 },
+    { "lat": 40.7158578, "lon": -74.0365393 },
+    { "lat": 40.7155682, "lon": -74.0365882 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Kenmare High School",
+    "wikidata": "Q6389443"
+  }
+},
+{
+  "type": "way",
+  "id": 404717961,
+  "timestamp": "2024-07-26T00:31:26Z",
+  "version": 3,
+  "changeset": 154415798,
+  "user": "Irregular Zero",
+  "uid": 21783723,
+  "bounds": {
+    "minlat": 40.7159263,
+    "minlon": -74.0425391,
+    "maxlat": 40.7165302,
+    "maxlon": -74.0419811
+  },
+  "nodes": [
+    4069898272,
+    1542115323,
+    1542115345,
+    4243666659,
+    4069898274,
+    4069898275,
+    4069898276,
+    4069898272
+  ],
+  "geometry": [
+    { "lat": 40.7162334, "lon": -74.0420281 },
+    { "lat": 40.7162221, "lon": -74.0420304 },
+    { "lat": 40.7162391, "lon": -74.0421747 },
+    { "lat": 40.7159263, "lon": -74.0422333 },
+    { "lat": 40.7159555, "lon": -74.0425391 },
+    { "lat": 40.7165302, "lon": -74.0424285 },
+    { "lat": 40.7164792, "lon": -74.0419811 },
+    { "lat": 40.7162334, "lon": -74.0420281 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "check_date": "2024-07-25",
+    "name": "Our Lady of Czestochowa School"
+  }
+},
+{
+  "type": "way",
+  "id": 406957187,
+  "timestamp": "2019-05-17T03:51:28Z",
+  "version": 2,
+  "changeset": 70341332,
+  "user": "eggthethrone",
+  "uid": 9275216,
+  "bounds": {
+    "minlat": 40.7274408,
+    "minlon": -74.0433720,
+    "maxlat": 40.7282201,
+    "maxlon": -74.0425664
+  },
+  "nodes": [
+    4089931060,
+    4089931061,
+    4089931062,
+    4089931063,
+    4089931060
+  ],
+  "geometry": [
+    { "lat": 40.7274408, "lon": -74.0426768 },
+    { "lat": 40.7281587, "lon": -74.0425664 },
+    { "lat": 40.7282201, "lon": -74.0432616 },
+    { "lat": 40.7275022, "lon": -74.0433720 },
+    { "lat": 40.7274408, "lon": -74.0426768 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Rafael de J. Cordero Elementary School - PS 37"
+  }
+},
+{
+  "type": "way",
+  "id": 407329922,
+  "timestamp": "2023-08-24T06:39:30Z",
+  "version": 3,
+  "changeset": 140305238,
+  "user": "MxxCon",
+  "uid": 384667,
+  "bounds": {
+    "minlat": 40.7240430,
+    "minlon": -74.0528611,
+    "maxlat": 40.7248468,
+    "maxlon": -74.0517514
+  },
+  "nodes": [
+    4093735463,
+    4093735457,
+    11140273962,
+    4093735458,
+    4093735459,
+    4093735460,
+    4093735462,
+    4093735463
+  ],
+  "geometry": [
+    { "lat": 40.7248468, "lon": -74.0524187 },
+    { "lat": 40.7245631, "lon": -74.0528611 },
+    { "lat": 40.7242319, "lon": -74.0524878 },
+    { "lat": 40.7240430, "lon": -74.0518665 },
+    { "lat": 40.7242778, "lon": -74.0517564 },
+    { "lat": 40.7245314, "lon": -74.0517514 },
+    { "lat": 40.7245689, "lon": -74.0520970 },
+    { "lat": 40.7248468, "lon": -74.0524187 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Public School #5"
+  }
+},
+{
+  "type": "way",
+  "id": 409967266,
+  "timestamp": "2026-02-04T03:36:51Z",
+  "version": 2,
+  "changeset": 178075691,
+  "user": "ifthisthenthat",
+  "uid": 21561838,
+  "bounds": {
+    "minlat": 40.7264512,
+    "minlon": -74.0477930,
+    "maxlat": 40.7270630,
+    "maxlon": -74.0470069
+  },
+  "nodes": [
+    4118352365,
+    4118352366,
+    4118352367,
+    4118352368,
+    4118352365
+  ],
+  "geometry": [
+    { "lat": 40.7265148, "lon": -74.0477930 },
+    { "lat": 40.7270630, "lon": -74.0477158 },
+    { "lat": 40.7269989, "lon": -74.0470069 },
+    { "lat": 40.7264512, "lon": -74.0470971 },
+    { "lat": 40.7265148, "lon": -74.0477930 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "mascot": "Cougars",
+    "name": "McNair Academic High School"
+  }
+},
+{
+  "type": "way",
+  "id": 410993606,
+  "timestamp": "2017-06-21T08:04:44Z",
+  "version": 3,
+  "changeset": 49713218,
+  "user": "Edward",
+  "uid": 364,
+  "bounds": {
+    "minlat": 40.7203482,
+    "minlon": -74.0604316,
+    "maxlat": 40.7222877,
+    "maxlon": -74.0573097
+  },
+  "nodes": [
+    4172460223,
+    4172460226,
+    4172460239,
+    4172460260,
+    4172460263,
+    4172460223
+  ],
+  "geometry": [
+    { "lat": 40.7215134, "lon": -74.0573097 },
+    { "lat": 40.7203482, "lon": -74.0579361 },
+    { "lat": 40.7204543, "lon": -74.0583600 },
+    { "lat": 40.7211145, "lon": -74.0604316 },
+    { "lat": 40.7222877, "lon": -74.0598003 },
+    { "lat": 40.7215134, "lon": -74.0573097 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "County Prep High School",
+    "wikidata": "Q5177721"
+  }
+},
+{
+  "type": "way",
+  "id": 410994382,
+  "timestamp": "2024-11-28T19:14:50Z",
+  "version": 6,
+  "changeset": 159716410,
+  "user": "JozefM",
+  "uid": 4421570,
+  "bounds": {
+    "minlat": 40.7284732,
+    "minlon": -74.0550738,
+    "maxlat": 40.7313721,
+    "maxlon": -74.0524189
+  },
+  "nodes": [
+    475134665,
+    3601538777,
+    9544034212,
+    3601538781,
+    9544089518,
+    3601538779,
+    9544089524,
+    7001639936,
+    4127368357,
+    475134675,
+    475134680,
+    12383036870,
+    12383036869,
+    475134678,
+    12383036872,
+    12383036873,
+    475134682,
+    475134681,
+    475134665
+  ],
+  "geometry": [
+    { "lat": 40.7284732, "lon": -74.0546018 },
+    { "lat": 40.7298757, "lon": -74.0550738 },
+    { "lat": 40.7299424, "lon": -74.0550383 },
+    { "lat": 40.7300049, "lon": -74.0550051 },
+    { "lat": 40.7302308, "lon": -74.0547049 },
+    { "lat": 40.7305970, "lon": -74.0542247 },
+    { "lat": 40.7306181, "lon": -74.0541971 },
+    { "lat": 40.7312660, "lon": -74.0533474 },
+    { "lat": 40.7313721, "lon": -74.0532084 },
+    { "lat": 40.7309506, "lon": -74.0527481 },
+    { "lat": 40.7302747, "lon": -74.0524189 },
+    { "lat": 40.7301886, "lon": -74.0525540 },
+    { "lat": 40.7302562, "lon": -74.0525952 },
+    { "lat": 40.7302083, "lon": -74.0528937 },
+    { "lat": 40.7298574, "lon": -74.0533167 },
+    { "lat": 40.7297140, "lon": -74.0531970 },
+    { "lat": 40.7293555, "lon": -74.0534613 },
+    { "lat": 40.7289876, "lon": -74.0537305 },
+    { "lat": 40.7284732, "lon": -74.0546018 }
+  ],
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "2",
+    "addr:postcode": "07306",
+    "addr:state": "NJ",
+    "addr:street": "Palisade Avenue",
+    "amenity": "school",
+    "grades": "2",
+    "name": "William L. Dickinson High School",
+    "website": "https://wdhs.jcboe.org/",
+    "wikidata": "Q8014156"
+  }
+},
+{
+  "type": "way",
+  "id": 449336714,
+  "timestamp": "2017-06-21T08:04:39Z",
+  "version": 2,
+  "changeset": 49713218,
+  "user": "Edward",
+  "uid": 364,
+  "bounds": {
+    "minlat": 40.7449068,
+    "minlon": -74.0284366,
+    "maxlat": 40.7451023,
+    "maxlon": -74.0279243
+  },
+  "nodes": [
+    4463068512,
+    4463068513,
+    4463068514,
+    4463068515,
+    4463068516,
+    4463068517,
+    4463068512
+  ],
+  "geometry": [
+    { "lat": 40.7450231, "lon": -74.0279243 },
+    { "lat": 40.7451023, "lon": -74.0284030 },
+    { "lat": 40.7449839, "lon": -74.0284366 },
+    { "lat": 40.7449408, "lon": -74.0281777 },
+    { "lat": 40.7449515, "lon": -74.0281750 },
+    { "lat": 40.7449068, "lon": -74.0279585 },
+    { "lat": 40.7450231, "lon": -74.0279243 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "All Saints Episcopal Day School",
+    "wikidata": "Q4729298"
+  }
+},
+{
+  "type": "way",
+  "id": 449336716,
+  "timestamp": "2026-02-09T16:20:50Z",
+  "version": 3,
+  "changeset": 178319707,
+  "user": "lucyhartigan",
+  "uid": 23750958,
+  "bounds": {
+    "minlat": 40.7450899,
+    "minlon": -74.0283778,
+    "maxlat": 40.7453257,
+    "maxlon": -74.0278528
+  },
+  "nodes": [
+    4463068529,
+    4463068530,
+    4463068531,
+    4463068532,
+    4463068529
+  ],
+  "geometry": [
+    { "lat": 40.7452394, "lon": -74.0278528 },
+    { "lat": 40.7453257, "lon": -74.0283373 },
+    { "lat": 40.7451795, "lon": -74.0283778 },
+    { "lat": 40.7450899, "lon": -74.0279037 },
+    { "lat": 40.7452394, "lon": -74.0278528 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "grades": "K-12",
+    "name": "Hoboken Charter School",
+    "wikidata": "Q97355158",
+    "wikipedia": "en:Hoboken Charter School"
+  }
+},
+{
+  "type": "way",
+  "id": 449512601,
+  "timestamp": "2019-09-11T19:48:26Z",
+  "version": 2,
+  "changeset": 74370093,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7438158,
+    "minlon": -74.0336715,
+    "maxlat": 40.7442291,
+    "maxlon": -74.0333272
+  },
+  "nodes": [
+    4464616606,
+    4464616607,
+    6789212136,
+    6789212137,
+    6789212138,
+    6789212139,
+    6789212140,
+    6789212141,
+    4464616608,
+    4464616609,
+    4464616606
+  ],
+  "geometry": [
+    { "lat": 40.7438158, "lon": -74.0334326 },
+    { "lat": 40.7441950, "lon": -74.0333272 },
+    { "lat": 40.7442291, "lon": -74.0335212 },
+    { "lat": 40.7442291, "lon": -74.0335301 },
+    { "lat": 40.7442283, "lon": -74.0335372 },
+    { "lat": 40.7442266, "lon": -74.0335427 },
+    { "lat": 40.7442237, "lon": -74.0335487 },
+    { "lat": 40.7442182, "lon": -74.0335553 },
+    { "lat": 40.7442106, "lon": -74.0335602 },
+    { "lat": 40.7438532, "lon": -74.0336715 },
+    { "lat": 40.7438158, "lon": -74.0334326 }
+  ],
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 449691671,
+  "timestamp": "2019-09-11T13:48:54Z",
+  "version": 3,
+  "changeset": 74356436,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7425060,
+    "minlon": -74.0340115,
+    "maxlat": 40.7429615,
+    "maxlon": -74.0331313
+  },
+  "nodes": [
+    4466274889,
+    6788474501,
+    6788474500,
+    4466274890,
+    4466274891,
+    5581610390,
+    4466274893,
+    6788474495,
+    6788474496,
+    6788474498,
+    6788474499,
+    6788474497,
+    6788474494,
+    4466274894,
+    6788474493,
+    6788474492,
+    6788474491,
+    6788474490,
+    6788474489,
+    4466274889
+  ],
+  "geometry": [
+    { "lat": 40.7425060, "lon": -74.0332203 },
+    { "lat": 40.7426226, "lon": -74.0338486 },
+    { "lat": 40.7426343, "lon": -74.0338449 },
+    { "lat": 40.7426389, "lon": -74.0338689 },
+    { "lat": 40.7427175, "lon": -74.0338417 },
+    { "lat": 40.7427513, "lon": -74.0340115 },
+    { "lat": 40.7429378, "lon": -74.0339546 },
+    { "lat": 40.7429484, "lon": -74.0339494 },
+    { "lat": 40.7429544, "lon": -74.0339438 },
+    { "lat": 40.7429590, "lon": -74.0339354 },
+    { "lat": 40.7429611, "lon": -74.0339258 },
+    { "lat": 40.7429615, "lon": -74.0339155 },
+    { "lat": 40.7429593, "lon": -74.0338957 },
+    { "lat": 40.7428273, "lon": -74.0331551 },
+    { "lat": 40.7428243, "lon": -74.0331467 },
+    { "lat": 40.7428182, "lon": -74.0331392 },
+    { "lat": 40.7428104, "lon": -74.0331344 },
+    { "lat": 40.7428033, "lon": -74.0331313 },
+    { "lat": 40.7427973, "lon": -74.0331313 },
+    { "lat": 40.7425060, "lon": -74.0332203 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Mustard Seed School"
+  }
+},
+{
+  "type": "way",
+  "id": 449691672,
+  "timestamp": "2019-09-11T13:48:54Z",
+  "version": 2,
+  "changeset": 74356436,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7427988,
+    "minlon": -74.0329953,
+    "maxlat": 40.7431698,
+    "maxlon": -74.0325100
+  },
+  "nodes": [
+    4466274895,
+    4466274896,
+    4466274897,
+    6788474446,
+    6788474447,
+    6788474448,
+    6788474449,
+    6788474450,
+    6788474451,
+    4466274898,
+    4466274895
+  ],
+  "geometry": [
+    { "lat": 40.7431698, "lon": -74.0329112 },
+    { "lat": 40.7430956, "lon": -74.0325100 },
+    { "lat": 40.7427988, "lon": -74.0325952 },
+    { "lat": 40.7428653, "lon": -74.0329681 },
+    { "lat": 40.7428687, "lon": -74.0329804 },
+    { "lat": 40.7428720, "lon": -74.0329871 },
+    { "lat": 40.7428777, "lon": -74.0329915 },
+    { "lat": 40.7428837, "lon": -74.0329947 },
+    { "lat": 40.7428941, "lon": -74.0329953 },
+    { "lat": 40.7429032, "lon": -74.0329944 },
+    { "lat": 40.7431698, "lon": -74.0329112 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Hoboken Childrens Academy"
+  }
+},
+{
+  "type": "way",
+  "id": 449806368,
+  "timestamp": "2019-09-10T14:14:09Z",
+  "version": 4,
+  "changeset": 74313850,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7402478,
+    "minlon": -74.0318037,
+    "maxlat": 40.7409579,
+    "maxlon": -74.0311361
+  },
+  "nodes": [
+    4467381131,
+    4467381132,
+    5581610387,
+    6785888743,
+    6785888744,
+    6785888745,
+    6785888746,
+    6785888747,
+    6785888748,
+    4467381131
+  ],
+  "geometry": [
+    { "lat": 40.7409579, "lon": -74.0316186 },
+    { "lat": 40.7408713, "lon": -74.0311361 },
+    { "lat": 40.7402478, "lon": -74.0313354 },
+    { "lat": 40.7403235, "lon": -74.0317654 },
+    { "lat": 40.7403269, "lon": -74.0317802 },
+    { "lat": 40.7403304, "lon": -74.0317893 },
+    { "lat": 40.7403364, "lon": -74.0317975 },
+    { "lat": 40.7403435, "lon": -74.0318026 },
+    { "lat": 40.7403507, "lon": -74.0318037 },
+    { "lat": 40.7409579, "lon": -74.0316186 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Stevens Cooperative School",
+    "wikidata": "Q7615465"
+  }
+},
+{
+  "type": "way",
+  "id": 449806370,
+  "timestamp": "2025-02-20T19:01:12Z",
+  "version": 2,
+  "changeset": 162753796,
+  "user": "EEWW327",
+  "uid": 22542541,
+  "bounds": {
+    "minlat": 40.7402868,
+    "minlon": -74.0317373,
+    "maxlat": 40.7408868,
+    "maxlon": -74.0311742
+  },
+  "nodes": [
+    4467381134,
+    4467381135,
+    4467381136,
+    4467381137,
+    4467381138,
+    4467381139,
+    4467381140,
+    4467381141,
+    4467381142,
+    4467381143,
+    4467381144,
+    4467381145,
+    4467381146,
+    4467381147,
+    4467381148,
+    4467381149,
+    4467381150,
+    4467381134
+  ],
+  "geometry": [
+    { "lat": 40.7408640, "lon": -74.0311742 },
+    { "lat": 40.7407992, "lon": -74.0311927 },
+    { "lat": 40.7407963, "lon": -74.0311835 },
+    { "lat": 40.7402868, "lon": -74.0313414 },
+    { "lat": 40.7403411, "lon": -74.0316356 },
+    { "lat": 40.7403592, "lon": -74.0317373 },
+    { "lat": 40.7404409, "lon": -74.0317150 },
+    { "lat": 40.7404409, "lon": -74.0317042 },
+    { "lat": 40.7407741, "lon": -74.0315994 },
+    { "lat": 40.7407753, "lon": -74.0316110 },
+    { "lat": 40.7408663, "lon": -74.0315832 },
+    { "lat": 40.7408488, "lon": -74.0314793 },
+    { "lat": 40.7408436, "lon": -74.0314823 },
+    { "lat": 40.7408144, "lon": -74.0313152 },
+    { "lat": 40.7408267, "lon": -74.0313113 },
+    { "lat": 40.7408290, "lon": -74.0313183 },
+    { "lat": 40.7408868, "lon": -74.0313013 },
+    { "lat": 40.7408640, "lon": -74.0311742 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 450344771,
+  "timestamp": "2021-04-15T17:16:15Z",
+  "version": 2,
+  "changeset": 103009093,
+  "user": "brandonbds",
+  "uid": 9883637,
+  "bounds": {
+    "minlat": 40.7694145,
+    "minlon": -74.0225669,
+    "maxlat": 40.7700594,
+    "maxlon": -74.0216378
+  },
+  "nodes": [
+    4472625952,
+    4472625914,
+    4999661722,
+    4472625911,
+    4472625913,
+    4472625952
+  ],
+  "geometry": [
+    { "lat": 40.7700594, "lon": -74.0223150 },
+    { "lat": 40.7697698, "lon": -74.0216378 },
+    { "lat": 40.7697122, "lon": -74.0216839 },
+    { "lat": 40.7694145, "lon": -74.0219033 },
+    { "lat": 40.7697299, "lon": -74.0225669 },
+    { "lat": 40.7700594, "lon": -74.0223150 }
+  ],
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 450380328,
+  "timestamp": "2016-10-31T15:48:05Z",
+  "version": 1,
+  "changeset": 43306950,
+  "user": "minewman",
+  "uid": 2845963,
+  "bounds": {
+    "minlat": 40.7733897,
+    "minlon": -74.0189111,
+    "maxlat": 40.7744813,
+    "maxlon": -74.0175740
+  },
+  "nodes": [
+    4473009453,
+    4473009455,
+    4473009456,
+    4473009454,
+    4473009453
+  ],
+  "geometry": [
+    { "lat": 40.7733897, "lon": -74.0180106 },
+    { "lat": 40.7739640, "lon": -74.0175740 },
+    { "lat": 40.7744813, "lon": -74.0187168 },
+    { "lat": 40.7737820, "lon": -74.0189111 },
+    { "lat": 40.7733897, "lon": -74.0180106 }
+  ],
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 450431063,
+  "timestamp": "2026-09-19T05:28:04Z",
+  "version": 3,
+  "changeset": 189237420,
+  "user": "JustASquirrel",
+  "uid": 21773512,
+  "bounds": {
+    "minlat": 40.7682121,
+    "minlon": -74.0286853,
+    "maxlat": 40.7690473,
+    "maxlon": -74.0274155
+  },
+  "nodes": [
+    440243693,
+    4473551176,
+    4473551181,
+    4473554390,
+    4473554396,
+    4473554394,
+    4473554397,
+    440243693
+  ],
+  "geometry": [
+    { "lat": 40.7684892, "lon": -74.0286853 },
+    { "lat": 40.7682121, "lon": -74.0279157 },
+    { "lat": 40.7684924, "lon": -74.0277293 },
+    { "lat": 40.7686568, "lon": -74.0274155 },
+    { "lat": 40.7690455, "lon": -74.0277553 },
+    { "lat": 40.7688701, "lon": -74.0278701 },
+    { "lat": 40.7690473, "lon": -74.0283333 },
+    { "lat": 40.7684892, "lon": -74.0286853 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "check_date": "2026-09-18",
+    "name": "Daniel Webster Number 2 Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 453063151,
+  "timestamp": "2019-11-05T00:04:22Z",
+  "version": 3,
+  "changeset": 76617752,
+  "user": "Valustaides",
+  "uid": 87077,
+  "bounds": {
+    "minlat": 40.7641399,
+    "minlon": -74.0410858,
+    "maxlat": 40.7649723,
+    "maxlon": -74.0398947
+  },
+  "nodes": [
+    4498656530,
+    4498656549,
+    4498656556,
+    6946524968,
+    4498656530
+  ],
+  "geometry": [
+    { "lat": 40.7641399, "lon": -74.0402675 },
+    { "lat": 40.7646477, "lon": -74.0398947 },
+    { "lat": 40.7649723, "lon": -74.0407340 },
+    { "lat": 40.7644575, "lon": -74.0410858 },
+    { "lat": 40.7641399, "lon": -74.0402675 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Sara M Glimore Elementary School",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 454991956,
+  "timestamp": "2020-04-10T01:13:37Z",
+  "version": 4,
+  "changeset": 83332041,
+  "user": "Valustaides",
+  "uid": 87077,
+  "bounds": {
+    "minlat": 40.7783839,
+    "minlon": -74.0203258,
+    "maxlat": 40.7791287,
+    "maxlon": -74.0193704
+  },
+  "nodes": [
+    7387632560,
+    7387632566,
+    7387632562,
+    7387632561,
+    7387632560
+  ],
+  "geometry": [
+    { "lat": 40.7786543, "lon": -74.0203258 },
+    { "lat": 40.7791287, "lon": -74.0199737 },
+    { "lat": 40.7788537, "lon": -74.0193704 },
+    { "lat": 40.7783839, "lon": -74.0197454 },
+    { "lat": 40.7786543, "lon": -74.0203258 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Roosevelt Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 469268751,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 6,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7650723,
+    "minlon": -74.0387548,
+    "maxlat": 40.7672420,
+    "maxlon": -74.0359019
+  },
+  "nodes": [
+    4636409324,
+    5565465928,
+    5565465927,
+    4636409325,
+    5565465913,
+    4636409326,
+    4636409327,
+    4636409328,
+    4636409329,
+    4636409324
+  ],
+  "geometry": [
+    { "lat": 40.7672420, "lon": -74.0376191 },
+    { "lat": 40.7664651, "lon": -74.0359019 },
+    { "lat": 40.7659084, "lon": -74.0363047 },
+    { "lat": 40.7661624, "lon": -74.0371479 },
+    { "lat": 40.7651111, "lon": -74.0378404 },
+    { "lat": 40.7650723, "lon": -74.0378776 },
+    { "lat": 40.7652208, "lon": -74.0382839 },
+    { "lat": 40.7654030, "lon": -74.0387548 },
+    { "lat": 40.7655763, "lon": -74.0386506 },
+    { "lat": 40.7672420, "lon": -74.0376191 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "1800",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "Summit Avenue",
+    "amenity": "school",
+    "name": "Jose Marti Freshman Academy",
+    "phone": "+1-201-348-5400",
+    "religion": "none",
+    "website": "https://jmfa.ucboe.us/"
+  }
+},
+{
+  "type": "way",
+  "id": 469277036,
+  "timestamp": "2024-08-21T02:35:39Z",
+  "version": 4,
+  "changeset": 155535344,
+  "user": "felixosm12",
+  "uid": 21859629,
+  "bounds": {
+    "minlat": 40.7535479,
+    "minlon": -74.0510046,
+    "maxlat": 40.7543673,
+    "maxlon": -74.0498073
+  },
+  "nodes": [
+    357729678,
+    12123384161,
+    4636456922,
+    4636456923,
+    4636456924,
+    4636456925,
+    4636456926,
+    4636456927,
+    4636456928,
+    4636456929,
+    4636456930,
+    12123384155,
+    12123384154,
+    357729678
+  ],
+  "geometry": [
+    { "lat": 40.7535479, "lon": -74.0502657 },
+    { "lat": 40.7536341, "lon": -74.0504866 },
+    { "lat": 40.7538020, "lon": -74.0509168 },
+    { "lat": 40.7540393, "lon": -74.0507667 },
+    { "lat": 40.7541379, "lon": -74.0510046 },
+    { "lat": 40.7543673, "lon": -74.0508480 },
+    { "lat": 40.7540932, "lon": -74.0501386 },
+    { "lat": 40.7539531, "lon": -74.0498073 },
+    { "lat": 40.7538515, "lon": -74.0498540 },
+    { "lat": 40.7538330, "lon": -74.0498500 },
+    { "lat": 40.7536698, "lon": -74.0499699 },
+    { "lat": 40.7536483, "lon": -74.0499898 },
+    { "lat": 40.7536984, "lon": -74.0501516 },
+    { "lat": 40.7535479, "lon": -74.0502657 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "48",
+    "gnis:feature_id": "880347",
+    "name": "Alfred E. Zampella Elementary School #27"
+  }
+},
+{
+  "type": "way",
+  "id": 469900698,
+  "timestamp": "2024-05-23T08:59:16Z",
+  "version": 3,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7471544,
+    "minlon": -74.0470972,
+    "maxlat": 40.7488805,
+    "maxlon": -74.0455167
+  },
+  "nodes": [
+    357729681,
+    4641611082,
+    3996646914,
+    4641611083,
+    357729681
+  ],
+  "geometry": [
+    { "lat": 40.7488805, "lon": -74.0461051 },
+    { "lat": 40.7486728, "lon": -74.0455167 },
+    { "lat": 40.7471544, "lon": -74.0464768 },
+    { "lat": 40.7473680, "lon": -74.0470972 },
+    { "lat": 40.7488805, "lon": -74.0461051 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "42",
+    "gnis:feature_id": "880348",
+    "name": "Christa McAuliffe School - PS 28"
+  }
+},
+{
+  "type": "way",
+  "id": 484528828,
+  "timestamp": "2023-11-04T12:02:25Z",
+  "version": 3,
+  "changeset": 143610180,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "bounds": {
+    "minlat": 40.7172142,
+    "minlon": -74.0518787,
+    "maxlat": 40.7180478,
+    "maxlon": -74.0500019
+  },
+  "nodes": [
+    4772761723,
+    4059302841,
+    4772761724,
+    4059302878,
+    4059304305,
+    4059302846,
+    4059302860,
+    4772760020,
+    4772761721,
+    4772761722,
+    357744927,
+    4772761723
+  ],
+  "geometry": [
+    { "lat": 40.7176924, "lon": -74.0500019 },
+    { "lat": 40.7180478, "lon": -74.0511450 },
+    { "lat": 40.7178641, "lon": -74.0512486 },
+    { "lat": 40.7179444, "lon": -74.0515049 },
+    { "lat": 40.7178451, "lon": -74.0515618 },
+    { "lat": 40.7178748, "lon": -74.0516586 },
+    { "lat": 40.7175473, "lon": -74.0518392 },
+    { "lat": 40.7174724, "lon": -74.0518787 },
+    { "lat": 40.7172945, "lon": -74.0511619 },
+    { "lat": 40.7172162, "lon": -74.0504096 },
+    { "lat": 40.7172142, "lon": -74.0502719 },
+    { "lat": 40.7176924, "lon": -74.0500019 }
+  ],
+  "tags": {
+    "addr:city": "Jersey City",
+    "addr:housenumber": "111",
+    "addr:postcode": "07302",
+    "addr:street": "Bright Street",
+    "amenity": "school",
+    "gnis:feature_id": "2057631",
+    "name": "Frank R. Conwell Number 3 Elementary School",
+    "operator": "Jersey City Public Schools",
+    "phone": "+1 201 915 6100",
+    "website": "https://www.jcboe.org/boe2015/index.php?option=com_content&view=article&id=392&Itemid=1007"
+  }
+},
+{
+  "type": "way",
+  "id": 496390423,
+  "timestamp": "2024-05-23T08:59:19Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.6720504,
+    "minlon": -74.1173181,
+    "maxlat": 40.6726362,
+    "maxlon": -74.1160425
+  },
+  "nodes": [
+    4881068990,
+    4881068991,
+    4881068992,
+    4881068993,
+    4881068994,
+    4881068995,
+    4881068996,
+    4881068997,
+    4881068998,
+    4881068999,
+    4881068990
+  ],
+  "geometry": [
+    { "lat": 40.6722384, "lon": -74.1165566 },
+    { "lat": 40.6720504, "lon": -74.1161783 },
+    { "lat": 40.6722056, "lon": -74.1160425 },
+    { "lat": 40.6724835, "lon": -74.1165930 },
+    { "lat": 40.6724217, "lon": -74.1166424 },
+    { "lat": 40.6726362, "lon": -74.1170816 },
+    { "lat": 40.6723544, "lon": -74.1173181 },
+    { "lat": 40.6720830, "lon": -74.1167605 },
+    { "lat": 40.6723291, "lon": -74.1165523 },
+    { "lat": 40.6723040, "lon": -74.1165000 },
+    { "lat": 40.6722384, "lon": -74.1165566 }
+  ],
+  "tags": {
+    "addr:city": "Bayonne",
+    "addr:housenumber": "95",
+    "addr:postcode": "07002",
+    "addr:state": "NJ",
+    "addr:street": "West 31st Street",
+    "amenity": "school",
+    "building": "yes",
+    "ele": "15",
+    "gnis:feature_id": "880355",
+    "name": "Walter F Robinson Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 553273472,
+  "timestamp": "2018-01-15T14:17:37Z",
+  "version": 1,
+  "changeset": 55464147,
+  "user": "Valustaides",
+  "uid": 87077,
+  "bounds": {
+    "minlat": 40.7538813,
+    "minlon": -74.0384042,
+    "maxlat": 40.7541993,
+    "maxlon": -74.0380633
+  },
+  "nodes": [
+    5340883492,
+    5340883493,
+    5340883494,
+    5340883496,
+    5340883503,
+    5340883502,
+    5340883497,
+    5340883507,
+    5340883495,
+    5340883498,
+    5340883499,
+    5340883492
+  ],
+  "geometry": [
+    { "lat": 40.7539860, "lon": -74.0384042 },
+    { "lat": 40.7538813, "lon": -74.0381091 },
+    { "lat": 40.7539631, "lon": -74.0380633 },
+    { "lat": 40.7540098, "lon": -74.0381950 },
+    { "lat": 40.7540302, "lon": -74.0381820 },
+    { "lat": 40.7541452, "lon": -74.0381089 },
+    { "lat": 40.7541651, "lon": -74.0380963 },
+    { "lat": 40.7541838, "lon": -74.0381495 },
+    { "lat": 40.7541993, "lon": -74.0381936 },
+    { "lat": 40.7541821, "lon": -74.0382099 },
+    { "lat": 40.7541992, "lon": -74.0382613 },
+    { "lat": 40.7539860, "lon": -74.0384042 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "401",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "Palisade Avenue",
+    "amenity": "childcare",
+    "building": "yes",
+    "name": "North Hudson Community Action"
+  }
+},
+{
+  "type": "way",
+  "id": 556522242,
+  "timestamp": "2024-08-09T21:38:30Z",
+  "version": 2,
+  "changeset": 155041426,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7619213,
+    "minlon": -74.0309262,
+    "maxlat": 40.7622844,
+    "maxlon": -74.0304192
+  },
+  "nodes": [
+    5368491923,
+    5368491924,
+    5368491925,
+    5368491926,
+    5368491927,
+    5368491812,
+    5368491921,
+    5368491922,
+    5368491928,
+    5368491923
+  ],
+  "geometry": [
+    { "lat": 40.7622844, "lon": -74.0307424 },
+    { "lat": 40.7621422, "lon": -74.0304192 },
+    { "lat": 40.7620819, "lon": -74.0304615 },
+    { "lat": 40.7621077, "lon": -74.0305211 },
+    { "lat": 40.7619213, "lon": -74.0306494 },
+    { "lat": 40.7620122, "lon": -74.0308524 },
+    { "lat": 40.7620152, "lon": -74.0308631 },
+    { "lat": 40.7620376, "lon": -74.0309127 },
+    { "lat": 40.7620457, "lon": -74.0309262 },
+    { "lat": 40.7622844, "lon": -74.0307424 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "building": "school",
+    "ele": "58",
+    "gnis:feature_id": "2057633",
+    "name": "Hudson Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 578676703,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 4,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7622264,
+    "minlon": -74.0398474,
+    "maxlat": 40.7626487,
+    "maxlon": -74.0392632
+  },
+  "nodes": [
+    5544056399,
+    5544056400,
+    5544056401,
+    5544056402,
+    5544056689,
+    5544056399
+  ],
+  "geometry": [
+    { "lat": 40.7625100, "lon": -74.0392632 },
+    { "lat": 40.7626487, "lon": -74.0396759 },
+    { "lat": 40.7623821, "lon": -74.0398474 },
+    { "lat": 40.7622264, "lon": -74.0394585 },
+    { "lat": 40.7624660, "lon": -74.0392935 },
+    { "lat": 40.7625100, "lon": -74.0392632 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "1401",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "Central Avenue",
+    "amenity": "school",
+    "ele": "72",
+    "gnis:feature_id": "2057643",
+    "name": "Veterans' Memorial School",
+    "operator": "Union City",
+    "phone": "+1-201-348-2737",
+    "website": "https://veterans.ucboe.us/"
+  }
+},
+{
+  "type": "way",
+  "id": 578676728,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 3,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7613797,
+    "minlon": -74.0371299,
+    "maxlat": 40.7618328,
+    "maxlon": -74.0364823
+  },
+  "nodes": [
+    5544056690,
+    5544056691,
+    5544056692,
+    5544056693,
+    5544056690
+  ],
+  "geometry": [
+    { "lat": 40.7618328, "lon": -74.0369542 },
+    { "lat": 40.7616467, "lon": -74.0364823 },
+    { "lat": 40.7613797, "lon": -74.0366580 },
+    { "lat": 40.7615536, "lon": -74.0371299 },
+    { "lat": 40.7618328, "lon": -74.0369542 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "501",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "15th Street",
+    "amenity": "school",
+    "name": "Miftaahul Uloom Academy",
+    "phone": "+1-201-223-9920",
+    "religion": "muslim",
+    "website": "https://www.muanj.org/",
+    "wikidata": "Q6844026",
+    "wikipedia": "en:Miftaahul Uloom Academy"
+  }
+},
+{
+  "type": "way",
+  "id": 578676892,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 3,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7607365,
+    "minlon": -74.0348795,
+    "maxlat": 40.7617000,
+    "maxlon": -74.0336023
+  },
+  "nodes": [
+    5544057527,
+    5544057528,
+    5544057529,
+    5544057530,
+    5544057531,
+    5544057532,
+    5544057527
+  ],
+  "geometry": [
+    { "lat": 40.7617000, "lon": -74.0345728 },
+    { "lat": 40.7615426, "lon": -74.0341649 },
+    { "lat": 40.7613161, "lon": -74.0343042 },
+    { "lat": 40.7609668, "lon": -74.0336023 },
+    { "lat": 40.7607365, "lon": -74.0337493 },
+    { "lat": 40.7611971, "lon": -74.0348795 },
+    { "lat": 40.7617000, "lon": -74.0345728 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "1500",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "New York Avenue",
+    "amenity": "school",
+    "ele": "68",
+    "gnis:feature_id": "2057626",
+    "name": "Colin Powell Elementary School",
+    "phone": "+1-201-351-5165",
+    "website": "https://cpowell.ucboe.us/"
+  }
+},
+{
+  "type": "way",
+  "id": 579063584,
+  "timestamp": "2026-09-19T05:28:04Z",
+  "version": 4,
+  "changeset": 189237420,
+  "user": "JustASquirrel",
+  "uid": 21773512,
+  "bounds": {
+    "minlat": 40.7629030,
+    "minlon": -74.0341499,
+    "maxlat": 40.7638219,
+    "maxlon": -74.0328704
+  },
+  "nodes": [
+    357744924,
+    5567795374,
+    5567795375,
+    5567795376,
+    5567795612,
+    5546646027,
+    5546646028,
+    5546646029,
+    5546646030,
+    5546646031,
+    5546646032,
+    357744924
+  ],
+  "geometry": [
+    { "lat": 40.7638219, "lon": -74.0338381 },
+    { "lat": 40.7637163, "lon": -74.0335635 },
+    { "lat": 40.7636179, "lon": -74.0336300 },
+    { "lat": 40.7636032, "lon": -74.0335820 },
+    { "lat": 40.7635618, "lon": -74.0336028 },
+    { "lat": 40.7633038, "lon": -74.0328935 },
+    { "lat": 40.7632494, "lon": -74.0328704 },
+    { "lat": 40.7631099, "lon": -74.0329554 },
+    { "lat": 40.7630753, "lon": -74.0328750 },
+    { "lat": 40.7629030, "lon": -74.0329870 },
+    { "lat": 40.7633258, "lon": -74.0341499 },
+    { "lat": 40.7638219, "lon": -74.0338381 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "check_date": "2026-09-18",
+    "ele": "60",
+    "gnis:feature_id": "2057630",
+    "name": "Emerson High School",
+    "wheelchair": "limited",
+    "wikidata": "Q5370906",
+    "wikipedia": "en:Emerson High School (Union City, New Jersey)"
+  }
+},
+{
+  "type": "way",
+  "id": 579066791,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 3,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7613024,
+    "minlon": -74.0357251,
+    "maxlat": 40.7618561,
+    "maxlon": -74.0348469
+  },
+  "nodes": [
+    357745005,
+    5546700380,
+    5546700381,
+    5546700382,
+    5546700383,
+    5546700384,
+    5546700385,
+    5546700386,
+    5546700387,
+    357745005
+  ],
+  "geometry": [
+    { "lat": 40.7615601, "lon": -74.0357251 },
+    { "lat": 40.7618214, "lon": -74.0355673 },
+    { "lat": 40.7618071, "lon": -74.0355049 },
+    { "lat": 40.7618561, "lon": -74.0354567 },
+    { "lat": 40.7617474, "lon": -74.0352436 },
+    { "lat": 40.7617545, "lon": -74.0352095 },
+    { "lat": 40.7618490, "lon": -74.0351459 },
+    { "lat": 40.7617286, "lon": -74.0348469 },
+    { "lat": 40.7613024, "lon": -74.0351106 },
+    { "lat": 40.7615601, "lon": -74.0357251 }
+  ],
+  "tags": {
+    "addr:city": "Union City",
+    "addr:housenumber": "1501",
+    "addr:postcode": "07087",
+    "addr:state": "NJ",
+    "addr:street": "15th Street",
+    "amenity": "school",
+    "denomination": "catholic",
+    "ele": "71",
+    "gnis:feature_id": "2057673",
+    "name": "Mother Seton School",
+    "phone": "+1-201-863-8433",
+    "religion": "christian",
+    "website": "http://www.mothersetonschool.com/about-mother-seton-school.html"
+  }
+},
+{
+  "type": "way",
+  "id": 581426168,
+  "timestamp": "2024-08-09T21:38:40Z",
+  "version": 2,
+  "changeset": 155041426,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7635124,
+    "minlon": -74.0391795,
+    "maxlat": 40.7641921,
+    "maxlon": -74.0383139
+  },
+  "nodes": [
+    357745007,
+    5563231560,
+    5563231561,
+    5563231562,
+    5563231563,
+    5563231564,
+    357745007
+  ],
+  "geometry": [
+    { "lat": 40.7641921, "lon": -74.0387602 },
+    { "lat": 40.7640199, "lon": -74.0383139 },
+    { "lat": 40.7635124, "lon": -74.0386314 },
+    { "lat": 40.7637200, "lon": -74.0391795 },
+    { "lat": 40.7638990, "lon": -74.0390699 },
+    { "lat": 40.7638670, "lon": -74.0389728 },
+    { "lat": 40.7641921, "lon": -74.0387602 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "76",
+    "gnis:feature_id": "2057674",
+    "name": "Saint Francis Academy"
+  }
+},
+{
+  "type": "way",
+  "id": 583487984,
+  "timestamp": "2025-11-09T11:48:43Z",
+  "version": 4,
+  "changeset": 174413217,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "bounds": {
+    "minlat": 40.7553481,
+    "minlon": -74.0427469,
+    "maxlat": 40.7569130,
+    "maxlon": -74.0411778
+  },
+  "nodes": [
+    5578387602,
+    5578387603,
+    5339670061,
+    5578387604,
+    6940484712,
+    5578387605,
+    5578387606,
+    5578387607,
+    5331585457,
+    5578387602
+  ],
+  "geometry": [
+    { "lat": 40.7567577, "lon": -74.0419664 },
+    { "lat": 40.7566480, "lon": -74.0416670 },
+    { "lat": 40.7567670, "lon": -74.0415850 },
+    { "lat": 40.7569130, "lon": -74.0414931 },
+    { "lat": 40.7567991, "lon": -74.0411880 },
+    { "lat": 40.7567954, "lon": -74.0411778 },
+    { "lat": 40.7553481, "lon": -74.0420932 },
+    { "lat": 40.7555765, "lon": -74.0427469 },
+    { "lat": 40.7566687, "lon": -74.0420252 },
+    { "lat": 40.7567577, "lon": -74.0419664 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Thomas A Edision Elementary School",
+    "phone": "+1-201-348-5965",
+    "url": "https://edison.ucboe.us/"
+  }
+},
+{
+  "type": "way",
+  "id": 583586351,
+  "timestamp": "2024-08-09T21:38:42Z",
+  "version": 2,
+  "changeset": 155041426,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7615331,
+    "minlon": -74.0448683,
+    "maxlat": 40.7623136,
+    "maxlon": -74.0436647
+  },
+  "nodes": [
+    357724293,
+    5579312721,
+    5579312722,
+    5579312723,
+    5579312742,
+    5579312724,
+    5579312725,
+    357724293
+  ],
+  "geometry": [
+    { "lat": 40.7623136, "lon": -74.0445223 },
+    { "lat": 40.7620896, "lon": -74.0446841 },
+    { "lat": 40.7621009, "lon": -74.0447139 },
+    { "lat": 40.7618797, "lon": -74.0448683 },
+    { "lat": 40.7617227, "lon": -74.0445060 },
+    { "lat": 40.7615331, "lon": -74.0440163 },
+    { "lat": 40.7619783, "lon": -74.0436647 },
+    { "lat": 40.7623136, "lon": -74.0445223 }
+  ],
+  "tags": {
+    "addr:city": "North Bergen",
+    "addr:housenumber": "1210",
+    "addr:postcode": "07047",
+    "addr:state": "NJ",
+    "addr:street": "11th Street",
+    "amenity": "school",
+    "ele": "54",
+    "gnis:feature_id": "877541",
+    "name": "John F Kennedy Number 7 Elementary School",
+    "url": "https://www.northbergen.k12.nj.us/kennedy"
+  }
+},
+{
+  "type": "way",
+  "id": 588513339,
+  "timestamp": "2024-08-09T20:49:57Z",
+  "version": 2,
+  "changeset": 155039847,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7711432,
+    "minlon": -74.0340447,
+    "maxlat": 40.7720682,
+    "maxlon": -74.0328297
+  },
+  "nodes": [
+    357731663,
+    5620930560,
+    5620930561,
+    5620930562,
+    5620930563,
+    5620930565,
+    5620930564,
+    357731663
+  ],
+  "geometry": [
+    { "lat": 40.7711432, "lon": -74.0330925 },
+    { "lat": 40.7713112, "lon": -74.0329623 },
+    { "lat": 40.7713568, "lon": -74.0330515 },
+    { "lat": 40.7716544, "lon": -74.0328297 },
+    { "lat": 40.7720670, "lon": -74.0336686 },
+    { "lat": 40.7720682, "lon": -74.0337001 },
+    { "lat": 40.7716179, "lon": -74.0340447 },
+    { "lat": 40.7711432, "lon": -74.0330925 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "56",
+    "gnis:feature_id": "881620",
+    "name": "Robert Waters Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 591380732,
+  "timestamp": "2018-05-27T15:25:29Z",
+  "version": 1,
+  "changeset": 59315963,
+  "user": "Valustaides",
+  "uid": 87077,
+  "bounds": {
+    "minlat": 40.7733330,
+    "minlon": -74.0234382,
+    "maxlat": 40.7742197,
+    "maxlon": -74.0221568
+  },
+  "nodes": [
+    5645967231,
+    5645967232,
+    5645967233,
+    5645967234,
+    5645967231
+  ],
+  "geometry": [
+    { "lat": 40.7737988, "lon": -74.0221568 },
+    { "lat": 40.7742197, "lon": -74.0230755 },
+    { "lat": 40.7737625, "lon": -74.0234382 },
+    { "lat": 40.7733330, "lon": -74.0225210 },
+    { "lat": 40.7737988, "lon": -74.0221568 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Union Hill High School",
+    "wikidata": "Q14705895"
+  }
+},
+{
+  "type": "way",
+  "id": 591931189,
+  "timestamp": "2024-08-09T20:50:00Z",
+  "version": 2,
+  "changeset": 155039847,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7736876,
+    "minlon": -74.0307481,
+    "maxlat": 40.7745903,
+    "maxlon": -74.0296747
+  },
+  "nodes": [
+    357723522,
+    5650680239,
+    5650680240,
+    5650680236,
+    5650680241,
+    5650680242,
+    5650680243,
+    5650680244,
+    5650680245,
+    357723522
+  ],
+  "geometry": [
+    { "lat": 40.7745903, "lon": -74.0300043 },
+    { "lat": 40.7743434, "lon": -74.0301914 },
+    { "lat": 40.7744237, "lon": -74.0303445 },
+    { "lat": 40.7742010, "lon": -74.0307481 },
+    { "lat": 40.7739278, "lon": -74.0304819 },
+    { "lat": 40.7737253, "lon": -74.0303233 },
+    { "lat": 40.7736876, "lon": -74.0302877 },
+    { "lat": 40.7736889, "lon": -74.0302698 },
+    { "lat": 40.7744432, "lon": -74.0296747 },
+    { "lat": 40.7745903, "lon": -74.0300043 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "54",
+    "gnis:feature_id": "877199",
+    "name": "Holy Family School"
+  }
+},
+{
+  "type": "way",
+  "id": 592149507,
+  "timestamp": "2018-05-30T17:22:33Z",
+  "version": 1,
+  "changeset": 59405039,
+  "user": "Valustaides",
+  "uid": 87077,
+  "bounds": {
+    "minlat": 40.7716624,
+    "minlon": -74.0261322,
+    "maxlat": 40.7723559,
+    "maxlon": -74.0252973
+  },
+  "nodes": [
+    5652160568,
+    5652160569,
+    5652160570,
+    5652160571,
+    5652160568
+  ],
+  "geometry": [
+    { "lat": 40.7716624, "lon": -74.0256814 },
+    { "lat": 40.7721509, "lon": -74.0252973 },
+    { "lat": 40.7723559, "lon": -74.0257665 },
+    { "lat": 40.7718771, "lon": -74.0261322 },
+    { "lat": 40.7716624, "lon": -74.0256814 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Jefferson Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 592169986,
+  "timestamp": "2024-08-09T20:50:01Z",
+  "version": 2,
+  "changeset": 155039847,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7753747,
+    "minlon": -74.0260381,
+    "maxlat": 40.7761978,
+    "maxlon": -74.0249329
+  },
+  "nodes": [
+    357731572,
+    5652308543,
+    5652308544,
+    5652308545,
+    5652308546,
+    5652308547,
+    357731572
+  ],
+  "geometry": [
+    { "lat": 40.7757059, "lon": -74.0260381 },
+    { "lat": 40.7759616, "lon": -74.0258370 },
+    { "lat": 40.7759712, "lon": -74.0258606 },
+    { "lat": 40.7761978, "lon": -74.0256905 },
+    { "lat": 40.7758447, "lon": -74.0249329 },
+    { "lat": 40.7753747, "lon": -74.0253005 },
+    { "lat": 40.7757059, "lon": -74.0260381 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "52",
+    "gnis:feature_id": "881587",
+    "name": "Washington School"
+  }
+},
+{
+  "type": "way",
+  "id": 598146095,
+  "timestamp": "2024-08-09T20:50:06Z",
+  "version": 2,
+  "changeset": 155039847,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7751030,
+    "minlon": -74.0249054,
+    "maxlat": 40.7757876,
+    "maxlon": -74.0236825
+  },
+  "nodes": [
+    357745405,
+    5693373420,
+    5693380021,
+    5693380022,
+    357745405
+  ],
+  "geometry": [
+    { "lat": 40.7756250, "lon": -74.0249054 },
+    { "lat": 40.7757876, "lon": -74.0247774 },
+    { "lat": 40.7752788, "lon": -74.0236825 },
+    { "lat": 40.7751030, "lon": -74.0238156 },
+    { "lat": 40.7756250, "lon": -74.0249054 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "52",
+    "gnis:feature_id": "2058645",
+    "name": "Saint Augustine's School"
+  }
+},
+{
+  "type": "way",
+  "id": 601172646,
+  "timestamp": "2024-05-23T08:59:29Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7422911,
+    "minlon": -74.0492292,
+    "maxlat": 40.7434868,
+    "maxlon": -74.0479476
+  },
+  "nodes": [
+    357729905,
+    5714403869,
+    5714403870,
+    5714403871,
+    5714403872,
+    5714403873,
+    357729905
+  ],
+  "geometry": [
+    { "lat": 40.7434868, "lon": -74.0486198 },
+    { "lat": 40.7433046, "lon": -74.0481297 },
+    { "lat": 40.7432851, "lon": -74.0481423 },
+    { "lat": 40.7432128, "lon": -74.0479476 },
+    { "lat": 40.7422911, "lon": -74.0485445 },
+    { "lat": 40.7425457, "lon": -74.0492292 },
+    { "lat": 40.7434868, "lon": -74.0486198 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "34",
+    "gnis:feature_id": "880408",
+    "name": "Charles E. Trefurt School - PS 8"
+  }
+},
+{
+  "type": "way",
+  "id": 614638915,
+  "timestamp": "2022-12-12T19:01:49Z",
+  "version": 5,
+  "changeset": 130009411,
+  "user": "snake21",
+  "uid": 2591427,
+  "bounds": {
+    "minlat": 40.7586191,
+    "minlon": -74.0858350,
+    "maxlat": 40.7620785,
+    "maxlon": -74.0818403
+  },
+  "nodes": [
+    5813809409,
+    5813809410,
+    10181367411,
+    10181367412,
+    10181367413,
+    10181367414,
+    10181367415,
+    10181367416,
+    10181408117,
+    10181408118,
+    5813809411,
+    5813809412,
+    5813809413,
+    5813809414,
+    5813809415,
+    5813809418,
+    5813809419,
+    5813809420,
+    302164666,
+    5813807482,
+    302164667,
+    5813807478,
+    9756216135,
+    5813807477,
+    3536987992,
+    302164651,
+    5813807475,
+    3536987987,
+    3536987988,
+    5813807476,
+    3639420606,
+    5813809409
+  ],
+  "geometry": [
+    { "lat": 40.7619483, "lon": -74.0818403 },
+    { "lat": 40.7617648, "lon": -74.0818680 },
+    { "lat": 40.7617208, "lon": -74.0819745 },
+    { "lat": 40.7616537, "lon": -74.0825068 },
+    { "lat": 40.7615372, "lon": -74.0826101 },
+    { "lat": 40.7614069, "lon": -74.0825959 },
+    { "lat": 40.7612432, "lon": -74.0824477 },
+    { "lat": 40.7610958, "lon": -74.0823241 },
+    { "lat": 40.7609498, "lon": -74.0822260 },
+    { "lat": 40.7608347, "lon": -74.0822465 },
+    { "lat": 40.7607654, "lon": -74.0823056 },
+    { "lat": 40.7607045, "lon": -74.0823793 },
+    { "lat": 40.7606182, "lon": -74.0823526 },
+    { "lat": 40.7604253, "lon": -74.0822127 },
+    { "lat": 40.7603050, "lon": -74.0821293 },
+    { "lat": 40.7600635, "lon": -74.0819565 },
+    { "lat": 40.7598234, "lon": -74.0819084 },
+    { "lat": 40.7593711, "lon": -74.0824684 },
+    { "lat": 40.7586191, "lon": -74.0841150 },
+    { "lat": 40.7595916, "lon": -74.0847281 },
+    { "lat": 40.7599845, "lon": -74.0850933 },
+    { "lat": 40.7602800, "lon": -74.0852130 },
+    { "lat": 40.7604428, "lon": -74.0853737 },
+    { "lat": 40.7605361, "lon": -74.0854658 },
+    { "lat": 40.7609470, "lon": -74.0857974 },
+    { "lat": 40.7612114, "lon": -74.0858350 },
+    { "lat": 40.7613447, "lon": -74.0857256 },
+    { "lat": 40.7615477, "lon": -74.0853125 },
+    { "lat": 40.7616650, "lon": -74.0845694 },
+    { "lat": 40.7619458, "lon": -74.0821546 },
+    { "lat": 40.7620785, "lon": -74.0821652 },
+    { "lat": 40.7619483, "lon": -74.0818403 }
+  ],
+  "tags": {
+    "addr:city": "Secaucus",
+    "addr:housenumber": "1",
+    "addr:state": "NJ",
+    "addr:street": "High Tech Way",
+    "amenity": "school",
+    "name": "Hudson County Schools of Technology"
+  }
+},
+{
+  "type": "way",
+  "id": 690614510,
+  "timestamp": "2019-05-17T03:34:26Z",
+  "version": 1,
+  "changeset": 70341078,
+  "user": "eggthethrone",
+  "uid": 9275216,
+  "bounds": {
+    "minlat": 40.7319794,
+    "minlon": -74.0746532,
+    "maxlat": 40.7327497,
+    "maxlon": -74.0736340
+  },
+  "nodes": [
+    6479739528,
+    6479739529,
+    6479739532,
+    6479739530,
+    6479739531,
+    6479739536,
+    6479739528
+  ],
+  "geometry": [
+    { "lat": 40.7327497, "lon": -74.0743179 },
+    { "lat": 40.7322151, "lon": -74.0746532 },
+    { "lat": 40.7321123, "lon": -74.0743736 },
+    { "lat": 40.7319794, "lon": -74.0740122 },
+    { "lat": 40.7325871, "lon": -74.0736340 },
+    { "lat": 40.7327021, "lon": -74.0741179 },
+    { "lat": 40.7327497, "lon": -74.0743179 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Lincoln High School"
+  }
+},
+{
+  "type": "way",
+  "id": 690615853,
+  "timestamp": "2019-05-17T03:51:28Z",
+  "version": 1,
+  "changeset": 70341332,
+  "user": "eggthethrone",
+  "uid": 9275216,
+  "bounds": {
+    "minlat": 40.7280959,
+    "minlon": -74.0413417,
+    "maxlat": 40.7287362,
+    "maxlon": -74.0400435
+  },
+  "nodes": [
+    6479762481,
+    6479762482,
+    6479762483,
+    6479762484,
+    6479762481
+  ],
+  "geometry": [
+    { "lat": 40.7287362, "lon": -74.0412586 },
+    { "lat": 40.7281915, "lon": -74.0413417 },
+    { "lat": 40.7280959, "lon": -74.0401132 },
+    { "lat": 40.7286305, "lon": -74.0400435 },
+    { "lat": 40.7287362, "lon": -74.0412586 }
+  ],
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "way",
+  "id": 802238344,
+  "timestamp": "2024-05-23T08:59:40Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.7132546,
+    "minlon": -74.0622223,
+    "maxlat": 40.7141432,
+    "maxlon": -74.0610114
+  },
+  "nodes": [
+    357729664,
+    7504099371,
+    7504099372,
+    7504099373,
+    357729664
+  ],
+  "geometry": [
+    { "lat": 40.7132546, "lon": -74.0617410 },
+    { "lat": 40.7137420, "lon": -74.0610114 },
+    { "lat": 40.7141432, "lon": -74.0615180 },
+    { "lat": 40.7136812, "lon": -74.0622223 },
+    { "lat": 40.7132546, "lon": -74.0617410 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "3",
+    "gnis:feature_id": "880343",
+    "name": "Number 22 Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 806577359,
+  "timestamp": "2024-05-23T08:59:41Z",
+  "version": 2,
+  "changeset": 151711460,
+  "user": "Mateusz Konieczny - bot account",
+  "uid": 3199858,
+  "bounds": {
+    "minlat": 40.6900980,
+    "minlon": -74.0962563,
+    "maxlat": 40.6914746,
+    "maxlon": -74.0946410
+  },
+  "nodes": [
+    357729818,
+    7542603665,
+    7542603666,
+    7542603667,
+    7542603668,
+    357729818
+  ],
+  "geometry": [
+    { "lat": 40.6900980, "lon": -74.0955344 },
+    { "lat": 40.6904782, "lon": -74.0946410 },
+    { "lat": 40.6914746, "lon": -74.0955330 },
+    { "lat": 40.6908726, "lon": -74.0962563 },
+    { "lat": 40.6901024, "lon": -74.0955992 },
+    { "lat": 40.6900980, "lon": -74.0955344 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "ele": "12",
+    "gnis:feature_id": "880383",
+    "name": "Ezra L. Nolan Number 40 Elementary School"
+  }
+},
+{
+  "type": "way",
+  "id": 895009324,
+  "timestamp": "2025-05-24T13:34:30Z",
+  "version": 6,
+  "changeset": 166697958,
+  "user": "catgirlseraid",
+  "uid": 21657267,
+  "bounds": {
+    "minlat": 40.6902696,
+    "minlon": -74.0210637,
+    "maxlat": 40.6912240,
+    "maxlon": -74.0197427
+  },
+  "nodes": [
+    12860800453,
+    12860800452,
+    12860767993,
+    12860800451,
+    12860767972,
+    12860767991,
+    12860800302,
+    12860767990,
+    12860767978,
+    12860800344,
+    12860800345,
+    12860800346,
+    12860800347,
+    12857038211,
+    12860800475,
+    12860767988,
+    12860800474,
+    12857038213,
+    12860800298,
+    12857038214,
+    12857038215,
+    12857038216,
+    12857038217,
+    12857038218,
+    12857038219,
+    12857038220,
+    12860800279,
+    12857038221,
+    12860800304,
+    12860800174,
+    12860800175,
+    12860800178,
+    12860800179,
+    12860800180,
+    12860800462,
+    2827697089,
+    2827697084,
+    12860800461,
+    12860800111,
+    12860800460,
+    12860768000,
+    12860800459,
+    12860800458,
+    12860800457,
+    12860800456,
+    12860800455,
+    12860800101,
+    12860800454,
+    12860800102,
+    12860800453
+  ],
+  "geometry": [
+    { "lat": 40.6906484, "lon": -74.0210523 },
+    { "lat": 40.6906601, "lon": -74.0210342 },
+    { "lat": 40.6907722, "lon": -74.0208633 },
+    { "lat": 40.6908681, "lon": -74.0207170 },
+    { "lat": 40.6909080, "lon": -74.0206585 },
+    { "lat": 40.6909399, "lon": -74.0206116 },
+    { "lat": 40.6909471, "lon": -74.0206011 },
+    { "lat": 40.6909557, "lon": -74.0205885 },
+    { "lat": 40.6912148, "lon": -74.0202084 },
+    { "lat": 40.6912214, "lon": -74.0201987 },
+    { "lat": 40.6912240, "lon": -74.0201725 },
+    { "lat": 40.6912230, "lon": -74.0201544 },
+    { "lat": 40.6912159, "lon": -74.0201289 },
+    { "lat": 40.6910852, "lon": -74.0199494 },
+    { "lat": 40.6910799, "lon": -74.0199417 },
+    { "lat": 40.6910762, "lon": -74.0199363 },
+    { "lat": 40.6910486, "lon": -74.0198962 },
+    { "lat": 40.6909987, "lon": -74.0199579 },
+    { "lat": 40.6909844, "lon": -74.0199414 },
+    { "lat": 40.6909646, "lon": -74.0199188 },
+    { "lat": 40.6910107, "lon": -74.0198376 },
+    { "lat": 40.6909644, "lon": -74.0197571 },
+    { "lat": 40.6909558, "lon": -74.0197427 },
+    { "lat": 40.6909423, "lon": -74.0197648 },
+    { "lat": 40.6908213, "lon": -74.0199489 },
+    { "lat": 40.6907791, "lon": -74.0199026 },
+    { "lat": 40.6907689, "lon": -74.0199177 },
+    { "lat": 40.6907476, "lon": -74.0199492 },
+    { "lat": 40.6905979, "lon": -74.0201752 },
+    { "lat": 40.6905865, "lon": -74.0201925 },
+    { "lat": 40.6905795, "lon": -74.0202031 },
+    { "lat": 40.6904277, "lon": -74.0204322 },
+    { "lat": 40.6904205, "lon": -74.0204431 },
+    { "lat": 40.6904116, "lon": -74.0204565 },
+    { "lat": 40.6903932, "lon": -74.0204843 },
+    { "lat": 40.6903873, "lon": -74.0204975 },
+    { "lat": 40.6903307, "lon": -74.0205831 },
+    { "lat": 40.6902864, "lon": -74.0206426 },
+    { "lat": 40.6902820, "lon": -74.0206529 },
+    { "lat": 40.6902778, "lon": -74.0206627 },
+    { "lat": 40.6902755, "lon": -74.0206674 },
+    { "lat": 40.6902696, "lon": -74.0206794 },
+    { "lat": 40.6902696, "lon": -74.0206929 },
+    { "lat": 40.6902783, "lon": -74.0207157 },
+    { "lat": 40.6905788, "lon": -74.0210543 },
+    { "lat": 40.6906073, "lon": -74.0210637 },
+    { "lat": 40.6906175, "lon": -74.0210633 },
+    { "lat": 40.6906261, "lon": -74.0210630 },
+    { "lat": 40.6906315, "lon": -74.0210604 },
+    { "lat": 40.6906484, "lon": -74.0210523 }
+  ],
+  "tags": {
+    "addr:housenumber": "550",
+    "addr:postcode": "10004",
+    "addr:street": "Short Avenue",
+    "amenity": "school",
+    "grades": "9-12",
+    "mascot": "Sharks",
+    "name": "New York Harbor School",
+    "phone": "+1-212-458-0800",
+    "website": "https://www.newyorkharborschool.org",
+    "wikidata": "Q7013592",
+    "wikipedia": "en:New York Harbor School"
+  }
+},
+{
+  "type": "way",
+  "id": 907742491,
+  "timestamp": "2025-03-25T19:50:46Z",
+  "version": 5,
+  "changeset": 164094759,
+  "user": "SiennaShade",
+  "uid": 22215602,
+  "bounds": {
+    "minlat": 40.6705839,
+    "minlon": -74.1239476,
+    "maxlat": 40.6733097,
+    "maxlon": -74.1206997
+  },
+  "nodes": [
+    8428988921,
+    8428988922,
+    8428988923,
+    8428988924,
+    8428988925,
+    8428988926,
+    8428988927,
+    8428988928,
+    8428988929,
+    12700377041,
+    8428988930,
+    8428988931,
+    8428988932,
+    8428988921
+  ],
+  "geometry": [
+    { "lat": 40.6733097, "lon": -74.1225065 },
+    { "lat": 40.6732668, "lon": -74.1225447 },
+    { "lat": 40.6733050, "lon": -74.1226548 },
+    { "lat": 40.6728202, "lon": -74.1230933 },
+    { "lat": 40.6727739, "lon": -74.1231279 },
+    { "lat": 40.6726632, "lon": -74.1231812 },
+    { "lat": 40.6724983, "lon": -74.1232223 },
+    { "lat": 40.6722874, "lon": -74.1232651 },
+    { "lat": 40.6721949, "lon": -74.1232721 },
+    { "lat": 40.6720612, "lon": -74.1233756 },
+    { "lat": 40.6714021, "lon": -74.1239476 },
+    { "lat": 40.6705839, "lon": -74.1222415 },
+    { "lat": 40.6724322, "lon": -74.1206997 },
+    { "lat": 40.6733097, "lon": -74.1225065 }
+  ],
+  "tags": {
+    "addr:housenumber": "667",
+    "addr:postcode": "07002",
+    "addr:street": "Avenue A",
+    "amenity": "school",
+    "ele": "8",
+    "gnis:feature_id": "2057625",
+    "grades": "9-12",
+    "mascot": "Fighting Bees",
+    "mascot:iconography": "Bees",
+    "name": "Bayonne High School",
+    "operator": "Bayonne School District",
+    "operator:type": "public",
+    "operator:wikidata": "Q4874694",
+    "phone": "+1 201-858-5800",
+    "website": "https://www.bboed.org/domain/17",
+    "wikidata": "Q4874697",
+    "wikipedia": "en:Bayonne High School"
+  }
+},
+{
+  "type": "way",
+  "id": 938440146,
+  "timestamp": "2026-03-19T05:25:32Z",
+  "version": 5,
+  "changeset": 180089264,
+  "user": "hofoen",
+  "uid": 52797,
+  "bounds": {
+    "minlat": 40.6687412,
+    "minlon": -74.1184070,
+    "maxlat": 40.6692426,
+    "maxlon": -74.1176772
+  },
+  "nodes": [
+    8693991762,
+    8693991752,
+    8693991751,
+    8693991758,
+    8693991757,
+    8693991759,
+    357728547,
+    8693991760,
+    8693991755,
+    8693991756,
+    8693991753,
+    8693991754,
+    8693991761,
+    8693991762
+  ],
+  "geometry": [
+    { "lat": 40.6692426, "lon": -74.1182458 },
+    { "lat": 40.6691526, "lon": -74.1180603 },
+    { "lat": 40.6691216, "lon": -74.1180865 },
+    { "lat": 40.6690078, "lon": -74.1178517 },
+    { "lat": 40.6690819, "lon": -74.1177892 },
+    { "lat": 40.6690276, "lon": -74.1176772 },
+    { "lat": 40.6688891, "lon": -74.1177940 },
+    { "lat": 40.6687412, "lon": -74.1179186 },
+    { "lat": 40.6687980, "lon": -74.1180359 },
+    { "lat": 40.6688658, "lon": -74.1179787 },
+    { "lat": 40.6689788, "lon": -74.1182117 },
+    { "lat": 40.6689631, "lon": -74.1182249 },
+    { "lat": 40.6690513, "lon": -74.1184070 },
+    { "lat": 40.6692426, "lon": -74.1182458 }
+  ],
+  "tags": {
+    "addr:city": "Bayonne",
+    "addr:housenumber": "82W",
+    "addr:postcode": "07002",
+    "addr:state": "NJ",
+    "addr:street": "29th Street",
+    "amenity": "school",
+    "building": "yes",
+    "denomination": "roman_catholic",
+    "gnis:feature_id": "879985",
+    "name": "Saint Henrys School",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1076715745,
+  "timestamp": "2022-07-20T11:59:51Z",
+  "version": 4,
+  "changeset": 123848344,
+  "user": "kw-ny",
+  "uid": 15498303,
+  "bounds": {
+    "minlat": 40.7146737,
+    "minlon": -74.0384983,
+    "maxlat": 40.7152730,
+    "maxlon": -74.0378495
+  },
+  "nodes": [
+    9664390641,
+    9664390642,
+    9664390643,
+    9899696093,
+    9873523379,
+    9664390645,
+    9873523372,
+    4060980286,
+    4060980285,
+    4060980280,
+    4061013195,
+    4061013194,
+    4061013193,
+    4066452389,
+    4066433696,
+    9664390641
+  ],
+  "geometry": [
+    { "lat": 40.7152730, "lon": -74.0382065 },
+    { "lat": 40.7152464, "lon": -74.0379630 },
+    { "lat": 40.7151892, "lon": -74.0379627 },
+    { "lat": 40.7151479, "lon": -74.0379237 },
+    { "lat": 40.7151314, "lon": -74.0378495 },
+    { "lat": 40.7149417, "lon": -74.0378924 },
+    { "lat": 40.7149445, "lon": -74.0379181 },
+    { "lat": 40.7149230, "lon": -74.0379222 },
+    { "lat": 40.7146737, "lon": -74.0379698 },
+    { "lat": 40.7147317, "lon": -74.0384983 },
+    { "lat": 40.7148330, "lon": -74.0384789 },
+    { "lat": 40.7148313, "lon": -74.0384637 },
+    { "lat": 40.7149797, "lon": -74.0384355 },
+    { "lat": 40.7150056, "lon": -74.0384306 },
+    { "lat": 40.7149871, "lon": -74.0382608 },
+    { "lat": 40.7152730, "lon": -74.0382065 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "name": "Cornelia F. Bradford Elementary"
+  }
+},
+{
+  "type": "way",
+  "id": 1365373854,
+  "timestamp": "2025-03-07T18:57:27Z",
+  "version": 1,
+  "changeset": 163339788,
+  "user": "MapSpot",
+  "uid": 10183030,
+  "bounds": {
+    "minlat": 40.7175455,
+    "minlon": -74.0145586,
+    "maxlat": 40.7183507,
+    "maxlon": -74.0132507
+  },
+  "nodes": [
+    2569923731,
+    11458509455,
+    2569923813,
+    2569923863,
+    2569923865,
+    2569923876,
+    8282428796,
+    2569923888,
+    8282428788,
+    2569923884,
+    2569923867,
+    2569923852,
+    2569923847,
+    2569923849,
+    2569923844,
+    11458527696,
+    2569923731
+  ],
+  "geometry": [
+    { "lat": 40.7175455, "lon": -74.0134072 },
+    { "lat": 40.7177722, "lon": -74.0133520 },
+    { "lat": 40.7179030, "lon": -74.0133234 },
+    { "lat": 40.7181998, "lon": -74.0132507 },
+    { "lat": 40.7182513, "lon": -74.0136173 },
+    { "lat": 40.7182874, "lon": -74.0138755 },
+    { "lat": 40.7182993, "lon": -74.0139601 },
+    { "lat": 40.7183389, "lon": -74.0142432 },
+    { "lat": 40.7183507, "lon": -74.0143272 },
+    { "lat": 40.7183270, "lon": -74.0143481 },
+    { "lat": 40.7182177, "lon": -74.0144298 },
+    { "lat": 40.7181109, "lon": -74.0145167 },
+    { "lat": 40.7180844, "lon": -74.0145348 },
+    { "lat": 40.7180882, "lon": -74.0145431 },
+    { "lat": 40.7180684, "lon": -74.0145586 },
+    { "lat": 40.7177575, "lon": -74.0138740 },
+    { "lat": 40.7175455, "lon": -74.0134072 }
+  ],
+  "tags": {
+    "addr:city": "New York",
+    "addr:housenumber": "345",
+    "addr:postcode": "10282",
+    "addr:state": "NY",
+    "addr:street": "Chambers Street",
+    "amenity": "school",
+    "ele": "0",
+    "gnis:feature_id": "2060115",
+    "mascot": "Peglegs",
+    "mascot:name": "Pegleg Pete",
+    "name": "Stuyvesant High School",
+    "religion": "none",
+    "start_date": "1992",
+    "website": "https://stuy.enschool.org/",
+    "wikidata": "Q3098911",
+    "wikipedia": "en:Stuyvesant High School"
+  }
+},
+{
+  "type": "way",
+  "id": 1371334086,
+  "timestamp": "2025-03-25T19:50:46Z",
+  "version": 1,
+  "changeset": 164094759,
+  "user": "SiennaShade",
+  "uid": 22215602,
+  "bounds": {
+    "minlat": 40.6637363,
+    "minlon": -74.1162381,
+    "maxlat": 40.6645295,
+    "maxlon": -74.1150285
+  },
+  "nodes": [
+    12700377062,
+    12700377063,
+    12700377053,
+    12700377069,
+    12700377067,
+    12700377054,
+    12700377062
+  ],
+  "geometry": [
+    { "lat": 40.6642185, "lon": -74.1162381 },
+    { "lat": 40.6637363, "lon": -74.1152645 },
+    { "lat": 40.6640106, "lon": -74.1150285 },
+    { "lat": 40.6643908, "lon": -74.1157962 },
+    { "lat": 40.6644275, "lon": -74.1157646 },
+    { "lat": 40.6645295, "lon": -74.1159704 },
+    { "lat": 40.6642185, "lon": -74.1162381 }
+  ],
+  "tags": {
+    "addr:housenumber": "33",
+    "addr:postcode": "07002",
+    "addr:street": "East 24th Street",
+    "amenity": "school",
+    "fax": "+1 201-436-5079",
+    "gnis:feature_id": "2057638",
+    "grades": "PK-8",
+    "mascot": "Jaguars",
+    "name": "Nicholas Oresko School No. 14",
+    "operator": "Bayonne School District",
+    "operator:type": "public",
+    "operator:wikidata": "Q4874694",
+    "phone": "+1 201-858-6281",
+    "website": "https://www.bboed.org/domain/28"
+  }
+},
+{
+  "type": "way",
+  "id": 1560234677,
+  "timestamp": "2026-09-18T19:38:53Z",
+  "version": 1,
+  "changeset": 189225119,
+  "user": "Juan MAS",
+  "uid": 18570611,
+  "bounds": {
+    "minlat": 40.6665498,
+    "minlon": -74.1243678,
+    "maxlat": 40.6678264,
+    "maxlon": -74.1226790
+  },
+  "nodes": [
+    14193430209,
+    14193430210,
+    14193430211,
+    14193430212,
+    14193430213,
+    4627840534,
+    4627840530,
+    7559245656,
+    14193430214,
+    14193430215,
+    7559245657,
+    14193430216,
+    14193430209
+  ],
+  "geometry": [
+    { "lat": 40.6672668, "lon": -74.1243526 },
+    { "lat": 40.6672468, "lon": -74.1243099 },
+    { "lat": 40.6671720, "lon": -74.1243678 },
+    { "lat": 40.6671523, "lon": -74.1243627 },
+    { "lat": 40.6670087, "lon": -74.1240703 },
+    { "lat": 40.6669803, "lon": -74.1240945 },
+    { "lat": 40.6667789, "lon": -74.1236839 },
+    { "lat": 40.6665787, "lon": -74.1232886 },
+    { "lat": 40.6665498, "lon": -74.1232316 },
+    { "lat": 40.6672317, "lon": -74.1226790 },
+    { "lat": 40.6672521, "lon": -74.1227229 },
+    { "lat": 40.6678264, "lon": -74.1239568 },
+    { "lat": 40.6672668, "lon": -74.1243526 }
+  ],
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "William Shemin Midtown Community School"
+  }
+},
+{
+  "type": "relation",
+  "id": 12871832,
+  "timestamp": "2021-06-22T07:06:16Z",
+  "version": 1,
+  "changeset": 106755895,
+  "user": "archpdx",
+  "uid": 12493764,
+  "bounds": {
+    "minlat": 40.7144106,
+    "minlon": -74.0428170,
+    "maxlat": 40.7163376,
+    "maxlon": -74.0384265
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 957048376,
+      "role": "outer",
+      "geometry": [
+         { "lat": 40.7144155, "lon": -74.0421554 },
+         { "lat": 40.7144106, "lon": -74.0421672 },
+         { "lat": 40.7144876, "lon": -74.0428170 },
+         { "lat": 40.7154636, "lon": -74.0426308 },
+         { "lat": 40.7154569, "lon": -74.0425814 },
+         { "lat": 40.7154309, "lon": -74.0423528 },
+         { "lat": 40.7154437, "lon": -74.0423503 },
+         { "lat": 40.7154947, "lon": -74.0423367 },
+         { "lat": 40.7157075, "lon": -74.0422963 },
+         { "lat": 40.7156418, "lon": -74.0417124 },
+         { "lat": 40.7153697, "lon": -74.0417657 },
+         { "lat": 40.7153272, "lon": -74.0413889 },
+         { "lat": 40.7153309, "lon": -74.0413781 },
+         { "lat": 40.7153175, "lon": -74.0412617 },
+         { "lat": 40.7153103, "lon": -74.0411994 },
+         { "lat": 40.7150392, "lon": -74.0412540 },
+         { "lat": 40.7150602, "lon": -74.0414360 },
+         { "lat": 40.7151076, "lon": -74.0418852 },
+         { "lat": 40.7150698, "lon": -74.0418930 },
+         { "lat": 40.7150669, "lon": -74.0418604 },
+         { "lat": 40.7149688, "lon": -74.0418769 },
+         { "lat": 40.7149751, "lon": -74.0419470 },
+         { "lat": 40.7149498, "lon": -74.0419518 },
+         { "lat": 40.7149427, "lon": -74.0419532 },
+         { "lat": 40.7148691, "lon": -74.0419674 },
+         { "lat": 40.7148800, "lon": -74.0420656 },
+         { "lat": 40.7144155, "lon": -74.0421554 }
+      ]
+    },
+    {
+      "type": "way",
+      "ref": 404330047,
+      "role": "outer",
+      "geometry": [
+         { "lat": 40.7155793, "lon": -74.0395307 },
+         { "lat": 40.7157619, "lon": -74.0409009 },
+         { "lat": 40.7163376, "lon": -74.0407875 },
+         { "lat": 40.7161890, "lon": -74.0392565 },
+         { "lat": 40.7160901, "lon": -74.0384265 },
+         { "lat": 40.7157840, "lon": -74.0384823 },
+         { "lat": 40.7157909, "lon": -74.0385364 },
+         { "lat": 40.7156751, "lon": -74.0385577 },
+         { "lat": 40.7156803, "lon": -74.0386104 },
+         { "lat": 40.7154871, "lon": -74.0386453 },
+         { "lat": 40.7155793, "lon": -74.0395307 }
+      ]
+    }
+  ],
+  "tags": {
+    "amenity": "school",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

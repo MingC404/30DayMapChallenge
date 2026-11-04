@@ -1,0 +1,83 @@
+﻿place_id,place_name,source_id,anchor_source,merged_records,method,reason
+P01,TERRACE AVENUE /  EDWARD CRINCOLI,way/469233043,way/469233043,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P02,"Leonard Gordon Park / ""Mosquito Park""",way/469559844,way/469559844,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P03,FISK PARK,way/264155166,way/264155166,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P04,Unnamed playground,node/4987027881,node/4987027881,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P05,Pershing Field,way/550920917,way/550920917,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P06,Unnamed playground,way/1332668025,way/1332668025,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P07,Unnamed playground,way/1334919519,way/1334919519,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P08,Janet Moore,way/667611893,way/667611893,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P09,PAVONIA/MARION PLAYGROUND POOL,way/798501324,way/798501324,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P10,Newport Green,way/469557168,way/469557168,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P11,Unnamed playground,way/469610934,way/469610934,3,Original covered node / largest original polygon representative point; no coordinate displacement,"Day03 adjacent three-zone complex; one destination, no parent park inferred"
+P11,Unnamed playground,way/469610947,way/469610934,3,Original covered node / largest original polygon representative point; no coordinate displacement,"Day03 adjacent three-zone complex; one destination, no parent park inferred"
+P11,Unnamed playground,way/469610935,way/469610934,3,Original covered node / largest original polygon representative point; no coordinate displacement,"Day03 adjacent three-zone complex; one destination, no parent park inferred"
+P12,LINCOLN PARK,way/1250443761,way/1250443761,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P13,Enos Jones Park,way/469554020,way/469554020,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P14,Hamilton Park,node/1235042851,node/1235042851,2,Original covered node / largest original polygon representative point; no coordinate displacement,Overlapping playground records; one place
+P14,Hamilton Park,way/470446463,node/1235042851,2,Original covered node / largest original polygon representative point; no coordinate displacement,Overlapping playground records; one place
+P15,Boyd-McGuiness Park,way/581018079,way/581018079,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P16,Villa Borinquen playground,way/468563304,way/468563304,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P17,LINCOLN PARK,way/1093180997,way/1093180997,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P18,Unnamed playground,way/1384195825,way/1384195825,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P19,Unnamed playground,way/469597846,way/469597846,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P20,Unnamed playground,way/469597847,way/469597847,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P21,Unnamed playground,way/957044523,way/957044523,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P22,VAN VORST PARK,way/741915620,way/741915620,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P23,EXCHANGE PLACE,way/1218901025,way/1218901025,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P24,Unnamed playground,way/1083576828,way/1083576828,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P25,Unnamed playground,way/1051665611,way/1051665611,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P26,Morris Square Park,way/1051663928,way/1051663928,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P27,ARLINGTON PARK,way/1279587376,way/1279587375,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P27,ARLINGTON PARK,way/1279587375,way/1279587375,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P28,Lafayette Park,way/576931763,way/576931763,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P29,Lafayette Park,way/576931759,way/576931759,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P29,Lafayette Park,way/576931761,way/576931759,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P30,DR. LENA EDWARDS PARK,way/354423618,way/354423618,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P31,General Nathanael Greene Park,way/469608908,way/469608908,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P32,Berry Lane,way/354426521,way/354426521,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P32,Berry Lane,way/354426518,way/354426521,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P33,Unnamed playground,way/586108104,way/586108104,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P34,Morris Canal Peninsula Park,node/6579197132,node/6579197132,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P35,Liberty State Park,way/354394026,way/354394026,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P36,AUDUBON PARK,way/469532023,way/469532023,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P37,Liberty State Park,node/6780805083,way/77705617,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P37,Liberty State Park,way/77705617,way/77705617,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P38,Unnamed playground,way/225187581,way/225187581,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P39,LIBERTY STATE PARK,way/1391249471,way/1391249471,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P40,Bayside Park,way/469537729,way/469537729,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P41,McGovern Park,way/354429486,way/354429486,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P42,COLUMBIA PARK GREENVILLE MEMORIAL,way/469526025,way/469526025,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P43,Liberty State Park,way/354382740,way/354382740,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P44,1600 Park,way/577506686,way/577506686,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P45,14th Street Viaduct Park,way/1550384655,way/1550384655,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P46,Northwest Resiliency Park,relation/18266317,relation/18266317,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P47,Unnamed playground,way/1384497734,way/1384497734,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P48,Unnamed playground,way/1085134495,way/1085134495,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P49,Columbus Park,way/776890933,way/776890932,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P49,Columbus Park,way/776890932,way/776890932,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P50,Maxwell Place Park,way/224015156,way/224015156,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P50,Maxwell Place Park,way/553324181,way/224015156,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P51,Elysian Park,way/265560954,way/265560954,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P51,Elysian Park,way/757030411,way/265560954,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P52,Unnamed playground,way/582714150,way/582714150,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P53,Unnamed playground,way/582714144,way/582714144,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P54,Unnamed playground,way/779827554,way/779827554,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P55,Unnamed playground,way/779229788,way/779229788,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P56,Church Square Park,way/722733433,way/722733441,6,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P56,Church Square Park,way/722733437,way/722733441,6,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P56,Church Square Park,way/722733446,way/722733441,6,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P56,Church Square Park,way/722733441,way/722733441,6,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P56,Church Square Park,way/722733422,way/722733441,6,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P56,Church Square Park,way/722733423,way/722733441,6,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P57,Unnamed playground,way/766601543,way/766601543,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P58,Unnamed playground,way/766601575,way/766601575,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P59,Unnamed playground,way/766601576,way/766601576,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record
+P60,Stevens Park,way/265560939,way/265560939,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P60,Stevens Park,way/720974822,way/265560939,2,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P61,Pier C Park,way/469584651,way/469584651,5,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P61,Pier C Park,way/724377549,way/469584651,5,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P61,Pier C Park,way/724377550,way/469584651,5,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P61,Pier C Park,way/724377551,way/469584651,5,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P61,Pier C Park,way/724377552,way/469584651,5,Original covered node / largest original polygon representative point; no coordinate displacement,Adjacent play zones in same mapped park (gap <=65 m)
+P62,Unnamed playground,way/786595783,way/786595783,1,Original covered node / largest original polygon representative point; no coordinate displacement,Single source record

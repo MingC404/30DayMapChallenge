@@ -1,0 +1,1203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "P01",
+      "properties": {
+        "id": "P01",
+        "name": "TERRACE AVENUE /  EDWARD CRINCOLI",
+        "members": [
+          "way/469233043"
+        ],
+        "anchor": "way/469233043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05673430408405,
+          40.75236106578968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P02",
+      "properties": {
+        "id": "P02",
+        "name": "Leonard Gordon Park / \"Mosquito Park\"",
+        "members": [
+          "way/469559844"
+        ],
+        "anchor": "way/469559844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05733942314711,
+          40.746967800218506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P03",
+      "properties": {
+        "id": "P03",
+        "name": "FISK PARK",
+        "members": [
+          "way/264155166"
+        ],
+        "anchor": "way/264155166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0430376516102,
+          40.7452338774115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P04",
+      "properties": {
+        "id": "P04",
+        "name": "Unnamed playground",
+        "members": [
+          "node/4987027881"
+        ],
+        "anchor": "node/4987027881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05174,
+          40.741547400000016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P05",
+      "properties": {
+        "id": "P05",
+        "name": "Pershing Field",
+        "members": [
+          "way/550920917"
+        ],
+        "anchor": "way/550920917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05362778676553,
+          40.74117706219014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P06",
+      "properties": {
+        "id": "P06",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1332668025"
+        ],
+        "anchor": "way/1332668025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05775248182094,
+          40.74090916281726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P07",
+      "properties": {
+        "id": "P07",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1334919519"
+        ],
+        "anchor": "way/1334919519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05629460294983,
+          40.738901250128706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P08",
+      "properties": {
+        "id": "P08",
+        "name": "Janet Moore",
+        "members": [
+          "way/667611893"
+        ],
+        "anchor": "way/667611893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04705952722745,
+          40.738396257643274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P09",
+      "properties": {
+        "id": "P09",
+        "name": "PAVONIA/MARION PLAYGROUND POOL",
+        "members": [
+          "way/798501324"
+        ],
+        "anchor": "way/798501324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07023155910187,
+          40.73520258352223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P10",
+      "properties": {
+        "id": "P10",
+        "name": "Newport Green",
+        "members": [
+          "way/469557168"
+        ],
+        "anchor": "way/469557168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03199139840982,
+          40.73173155710174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P11",
+      "properties": {
+        "id": "P11",
+        "name": "Unnamed playground",
+        "members": [
+          "way/469610934",
+          "way/469610947",
+          "way/469610935"
+        ],
+        "anchor": "way/469610934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05441819533743,
+          40.73123200614395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P12",
+      "properties": {
+        "id": "P12",
+        "name": "LINCOLN PARK",
+        "members": [
+          "way/1250443761"
+        ],
+        "anchor": "way/1250443761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08330881981253,
+          40.72936640038893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P13",
+      "properties": {
+        "id": "P13",
+        "name": "Enos Jones Park",
+        "members": [
+          "way/469554020"
+        ],
+        "anchor": "way/469554020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05028248387586,
+          40.72828989374971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P14",
+      "properties": {
+        "id": "P14",
+        "name": "Hamilton Park",
+        "members": [
+          "node/1235042851",
+          "way/470446463"
+        ],
+        "anchor": "node/1235042851"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0453711,
+          40.7282363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P15",
+      "properties": {
+        "id": "P15",
+        "name": "Boyd-McGuiness Park",
+        "members": [
+          "way/581018079"
+        ],
+        "anchor": "way/581018079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07394507788868,
+          40.725231727017366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P16",
+      "properties": {
+        "id": "P16",
+        "name": "Villa Borinquen playground",
+        "members": [
+          "way/468563304"
+        ],
+        "anchor": "way/468563304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04157118123493,
+          40.72408525050072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P17",
+      "properties": {
+        "id": "P17",
+        "name": "LINCOLN PARK",
+        "members": [
+          "way/1093180997"
+        ],
+        "anchor": "way/1093180997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08155611418985,
+          40.72249552612738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P18",
+      "properties": {
+        "id": "P18",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1384195825"
+        ],
+        "anchor": "way/1384195825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0336224695403,
+          40.721878635461486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P19",
+      "properties": {
+        "id": "P19",
+        "name": "Unnamed playground",
+        "members": [
+          "way/469597846"
+        ],
+        "anchor": "way/469597846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05900740932499,
+          40.71940014591362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P20",
+      "properties": {
+        "id": "P20",
+        "name": "Unnamed playground",
+        "members": [
+          "way/469597847"
+        ],
+        "anchor": "way/469597847"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0585040419844,
+          40.71925124669944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P21",
+      "properties": {
+        "id": "P21",
+        "name": "Unnamed playground",
+        "members": [
+          "way/957044523"
+        ],
+        "anchor": "way/957044523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03923632549265,
+          40.719003828128635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P22",
+      "properties": {
+        "id": "P22",
+        "name": "VAN VORST PARK",
+        "members": [
+          "way/741915620"
+        ],
+        "anchor": "way/741915620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04665024978391,
+          40.717811907946334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P23",
+      "properties": {
+        "id": "P23",
+        "name": "EXCHANGE PLACE",
+        "members": [
+          "way/1218901025"
+        ],
+        "anchor": "way/1218901025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03241503588465,
+          40.71655521043478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P24",
+      "properties": {
+        "id": "P24",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1083576828"
+        ],
+        "anchor": "way/1083576828"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04186272854507,
+          40.71628150028284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P25",
+      "properties": {
+        "id": "P25",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1051665611"
+        ],
+        "anchor": "way/1051665611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0380564830736,
+          40.71505926129384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P26",
+      "properties": {
+        "id": "P26",
+        "name": "Morris Square Park",
+        "members": [
+          "way/1051663928"
+        ],
+        "anchor": "way/1051663928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04485462851399,
+          40.714934025936046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P27",
+      "properties": {
+        "id": "P27",
+        "name": "ARLINGTON PARK",
+        "members": [
+          "way/1279587376",
+          "way/1279587375"
+        ],
+        "anchor": "way/1279587375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07015753003702,
+          40.71453864127249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P28",
+      "properties": {
+        "id": "P28",
+        "name": "Lafayette Park",
+        "members": [
+          "way/576931763"
+        ],
+        "anchor": "way/576931763"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06328916159245,
+          40.71452671234884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P29",
+      "properties": {
+        "id": "P29",
+        "name": "Lafayette Park",
+        "members": [
+          "way/576931759",
+          "way/576931761"
+        ],
+        "anchor": "way/576931759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06232436844031,
+          40.714142748173565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P30",
+      "properties": {
+        "id": "P30",
+        "name": "DR. LENA EDWARDS PARK",
+        "members": [
+          "way/354423618"
+        ],
+        "anchor": "way/354423618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05872604503712,
+          40.71279683904956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P31",
+      "properties": {
+        "id": "P31",
+        "name": "General Nathanael Greene Park",
+        "members": [
+          "way/469608908"
+        ],
+        "anchor": "way/469608908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03628780128834,
+          40.712633630035114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P32",
+      "properties": {
+        "id": "P32",
+        "name": "Berry Lane",
+        "members": [
+          "way/354426521",
+          "way/354426518"
+        ],
+        "anchor": "way/354426521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06838622341715,
+          40.71230430005581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P33",
+      "properties": {
+        "id": "P33",
+        "name": "Unnamed playground",
+        "members": [
+          "way/586108104"
+        ],
+        "anchor": "way/586108104"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1066978991424,
+          40.712018538559086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P34",
+      "properties": {
+        "id": "P34",
+        "name": "Morris Canal Peninsula Park",
+        "members": [
+          "node/6579197132"
+        ],
+        "anchor": "node/6579197132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.039068,
+          40.7113929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P35",
+      "properties": {
+        "id": "P35",
+        "name": "Liberty State Park",
+        "members": [
+          "way/354394026"
+        ],
+        "anchor": "way/354394026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05398873497498,
+          40.70796811065135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P36",
+      "properties": {
+        "id": "P36",
+        "name": "AUDUBON PARK",
+        "members": [
+          "way/469532023"
+        ],
+        "anchor": "way/469532023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08701142892617,
+          40.707257993153355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P37",
+      "properties": {
+        "id": "P37",
+        "name": "Liberty State Park",
+        "members": [
+          "node/6780805083",
+          "way/77705617"
+        ],
+        "anchor": "way/77705617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04474744288892,
+          40.7048106505677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P38",
+      "properties": {
+        "id": "P38",
+        "name": "Unnamed playground",
+        "members": [
+          "way/225187581"
+        ],
+        "anchor": "way/225187581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10569068476245,
+          40.70424914994241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P39",
+      "properties": {
+        "id": "P39",
+        "name": "LIBERTY STATE PARK",
+        "members": [
+          "way/1391249471"
+        ],
+        "anchor": "way/1391249471"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06398037600844,
+          40.69936767385853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P40",
+      "properties": {
+        "id": "P40",
+        "name": "Bayside Park",
+        "members": [
+          "way/469537729"
+        ],
+        "anchor": "way/469537729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.080618789196,
+          40.69851529331382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P41",
+      "properties": {
+        "id": "P41",
+        "name": "McGovern Park",
+        "members": [
+          "way/354429486"
+        ],
+        "anchor": "way/354429486"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10216496484088,
+          40.69693789099225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P42",
+      "properties": {
+        "id": "P42",
+        "name": "COLUMBIA PARK GREENVILLE MEMORIAL",
+        "members": [
+          "way/469526025"
+        ],
+        "anchor": "way/469526025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09689655088334,
+          40.69644110161198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P43",
+      "properties": {
+        "id": "P43",
+        "name": "Liberty State Park",
+        "members": [
+          "way/354382740"
+        ],
+        "anchor": "way/354382740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05706495937243,
+          40.69227525013896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P44",
+      "properties": {
+        "id": "P44",
+        "name": "1600 Park",
+        "members": [
+          "way/577506686"
+        ],
+        "anchor": "way/577506686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0281303347236,
+          40.75741679103674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P45",
+      "properties": {
+        "id": "P45",
+        "name": "14th Street Viaduct Park",
+        "members": [
+          "way/1550384655"
+        ],
+        "anchor": "way/1550384655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03452421985502,
+          40.754884953543524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P46",
+      "properties": {
+        "id": "P46",
+        "name": "Northwest Resiliency Park",
+        "members": [
+          "relation/18266317"
+        ],
+        "anchor": "relation/18266317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03426713335438,
+          40.752832691208226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P47",
+      "properties": {
+        "id": "P47",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1384497734"
+        ],
+        "anchor": "way/1384497734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0310129297309,
+          40.750894549938415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P48",
+      "properties": {
+        "id": "P48",
+        "name": "Unnamed playground",
+        "members": [
+          "way/1085134495"
+        ],
+        "anchor": "way/1085134495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03790214396135,
+          40.74942119497739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P49",
+      "properties": {
+        "id": "P49",
+        "name": "Columbus Park",
+        "members": [
+          "way/776890933",
+          "way/776890932"
+        ],
+        "anchor": "way/776890932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03330183277286,
+          40.74856389368833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P50",
+      "properties": {
+        "id": "P50",
+        "name": "Maxwell Place Park",
+        "members": [
+          "way/224015156",
+          "way/553324181"
+        ],
+        "anchor": "way/224015156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02357499557436,
+          40.748879250053136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P51",
+      "properties": {
+        "id": "P51",
+        "name": "Elysian Park",
+        "members": [
+          "way/265560954",
+          "way/757030411"
+        ],
+        "anchor": "way/265560954"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02574359208869,
+          40.74882545384993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P52",
+      "properties": {
+        "id": "P52",
+        "name": "Unnamed playground",
+        "members": [
+          "way/582714150"
+        ],
+        "anchor": "way/582714150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04033830841085,
+          40.744667044291035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P53",
+      "properties": {
+        "id": "P53",
+        "name": "Unnamed playground",
+        "members": [
+          "way/582714144"
+        ],
+        "anchor": "way/582714144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04079798536681,
+          40.74390306912933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P54",
+      "properties": {
+        "id": "P54",
+        "name": "Unnamed playground",
+        "members": [
+          "way/779827554"
+        ],
+        "anchor": "way/779827554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03419803664514,
+          40.743446849934045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P55",
+      "properties": {
+        "id": "P55",
+        "name": "Unnamed playground",
+        "members": [
+          "way/779229788"
+        ],
+        "anchor": "way/779229788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04192296189322,
+          40.742780598042025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P56",
+      "properties": {
+        "id": "P56",
+        "name": "Church Square Park",
+        "members": [
+          "way/722733433",
+          "way/722733437",
+          "way/722733446",
+          "way/722733441",
+          "way/722733422",
+          "way/722733423"
+        ],
+        "anchor": "way/722733441"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03212892776406,
+          40.742053548067574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P57",
+      "properties": {
+        "id": "P57",
+        "name": "Unnamed playground",
+        "members": [
+          "way/766601543"
+        ],
+        "anchor": "way/766601543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04202312159829,
+          40.74190434812068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P58",
+      "properties": {
+        "id": "P58",
+        "name": "Unnamed playground",
+        "members": [
+          "way/766601575"
+        ],
+        "anchor": "way/766601575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04087606421956,
+          40.74175028640884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P59",
+      "properties": {
+        "id": "P59",
+        "name": "Unnamed playground",
+        "members": [
+          "way/766601576"
+        ],
+        "anchor": "way/766601576"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04063350069619,
+          40.74172430210374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P60",
+      "properties": {
+        "id": "P60",
+        "name": "Stevens Park",
+        "members": [
+          "way/265560939",
+          "way/720974822"
+        ],
+        "anchor": "way/265560939"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.02777401863348,
+          40.74148973506633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P61",
+      "properties": {
+        "id": "P61",
+        "name": "Pier C Park",
+        "members": [
+          "way/469584651",
+          "way/724377549",
+          "way/724377550",
+          "way/724377551",
+          "way/724377552"
+        ],
+        "anchor": "way/469584651"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.025797994465,
+          40.74023277529255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P62",
+      "properties": {
+        "id": "P62",
+        "name": "Unnamed playground",
+        "members": [
+          "way/786595783"
+        ],
+        "anchor": "way/786595783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0411057809568,
+          40.73996460164837
+        ]
+      }
+    }
+  ]
+}
