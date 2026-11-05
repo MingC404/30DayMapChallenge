@@ -1,6 +1,6 @@
 # Day 04 — Clusters of Play
 
-Jersey City + Hoboken；署名 Ming Cao。当前仅输出两张深色光效评审 PNG，**视觉确认后再生成 GIF**。
+Jersey City + Hoboken；署名 Ming Cao。已按确认后的深色光效生成 [GIF 动画](outputs/clusters_of_play.gif)：1440 × 1200，约 20.4 秒，结尾停留 3.5 秒，循环播放。静态效果图继续保留。
 
 - [单群组放大效果](outputs/01_single_group_detail.png)：Hamilton Park（P14），1 个 playground、4 个关联 daycare、4 条邻近连线。视野内其他 daycare 保持暗灰色，仅代表尚未在这一示范中点亮。
 - [全市结束帧](outputs/02_citywide_final.png)：全部 62 个 playground、114 个青色匹配 daycare、92 个紫色未匹配 daycare、259 条邻近连线。
@@ -18,7 +18,7 @@ Playground 到其 400 m 内 daycare 绘制细直线，颜色从暖金向青色�
 
 全市结束帧保留全部金色中心、青色 daycare 和连线，然后加入紫色未匹配 daycare。结束帧图例没有 “awaiting reveal”。右侧只保留当前阶段、两项数量和图例；方法说明在本文件中。
 
-## 未来 GIF 顺序（尚未生成）
+## GIF 顺序
 
 1. 所有 daycare 暗灰色显示，先示范 Hamilton Park 一个群组。
 2. Playground 核心亮起 → 光区向外展开，最多到 400 m → 连线从核心向 daycare 生长 → 关联 daycare 逐个亮起。
@@ -26,7 +26,7 @@ Playground 到其 400 m 内 daycare 绘制细直线，颜色从暖金向青色�
 4. 已亮中心、daycare 和连线持续保留；共享 daycare 不闪回、不重复绘制或叠加亮度。
 5. 全部 playground 加入后，按全量数据判定的未匹配 daycare 再以紫色亮起，结尾停留约 3 秒。
 
-阶段及批次计划保存在 `outputs/validation.json`。单群组图中的其他暗灰 daycare 不属于“最终未匹配”类别；最终分类从不依赖示范子集或动画点亮顺序。
+阶段及批次计划保存在 `outputs/validation.json`；GIF 编码、时长与末帧检查见 `outputs/gif_validation.json`。单群组图中的其他暗灰 daycare 不属于“最终未匹配”类别；最终分类从不依赖示范子集或动画点亮顺序。统一全局调色板避免底图颜色随帧抖动；各阶段之间保留已点亮的中心、连线及 daycare。
 
 ## 分析规则与复用数据
 
@@ -62,6 +62,14 @@ Playground 到其 400 m 内 daycare 绘制细直线，颜色从暖金向青色�
 python3.14 04/scripts/night_light.py
 ```
 
+生成 GIF：
+
+```powershell
+python3.14 04/scripts/animate.py
+```
+
+`outputs/gif_review.png` 是动画四个阶段的检查联系表，`outputs/gif_final_frame.png` 是最终帧。动画全程使用固定全市范围，不移动点位。
+
 需要重新准备关系表时运行 `prepare_proximity.py`（沿用此前的相同 400 m 计算）。`prepare_official.py`、`prepare_playgrounds.py` 与 `acquire_official.py` 保留作来源准备，命中缓存无需重新下载。依赖 Pillow、Shapely、pyproj，本机只读复用 `02/.deps`。
 
-旧浅色关键帧及旧制图脚本已替换，来源数据和关系表保持不变。未修改 Day01–03，未 commit/push，未生成 GIF。
+旧浅色关键帧及旧制图脚本已替换，来源数据和关系表保持不变。未修改 Day01–03，未 commit/push。
