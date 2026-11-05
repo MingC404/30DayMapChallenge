@@ -1,0 +1,16 @@
+{
+  "source": "NYC OTI Building Footprints",
+  "dataset": "5zhs-2jue",
+  "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=within_box%28the_geom%2C40.722%2C-74.024%2C40.700%2C-73.996%29&%24select=the_geom%2Cbin%2Cdoitt_id%2Cheight_roof%2Cground_elevation%2Cfeature_code%2Clast_edited_date&%24order=doitt_id&%24limit=5000",
+  "query": {
+    "$where": "within_box(the_geom,40.722,-74.024,40.700,-73.996)",
+    "$select": "the_geom,bin,doitt_id,height_roof,ground_elevation,feature_code,last_edited_date",
+    "$order": "doitt_id",
+    "$limit": "5000"
+  },
+  "retrieved_utc": "2026-11-05T04:38:15.527562+00:00",
+  "features": 2323,
+  "height_roof_units": "feet above ground",
+  "sha256": "a30b4f8ab5f641b3b6306a154786f9e2bced5fe2559aaf22932ed8f5620957f7",
+  "metadata_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_BuildingFootprints.md"
+}

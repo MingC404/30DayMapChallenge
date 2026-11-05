@@ -1,0 +1,60 @@
+{
+  "observation": 3,
+  "view_deg": [
+    275.0,
+    330.0
+  ],
+  "observer_eye_m": 6.0,
+  "horizontal_px_per_deg": 44.36363636363637,
+  "vertical_px_per_deg": 30.0,
+  "source_features": 2323,
+  "rendered_buildings": 881,
+  "rejected": {
+    "outside_view": 1425,
+    "missing_height": 4,
+    "nonbuilding": 13
+  },
+  "shoreline_range_m": [
+    283.6738688073016,
+    468.12653390647597
+  ],
+  "landmarks": [
+    {
+      "id": "Q11245",
+      "name": "One World Trade Center",
+      "bearing_deg": 307.43469572878337,
+      "x": 1518.921046876935,
+      "base_y": 1004.6290551481368,
+      "footprint_id": "1114961",
+      "roof_height_m": 429.27358422480006,
+      "ground_elevation_m": 1.524,
+      "distance_m": 1662.0365121909658,
+      "drawn_width": 109.51986395574568
+    },
+    {
+      "id": "Q217652",
+      "name": "Woolworth Building",
+      "bearing_deg": 317.20595767723734,
+      "x": 1952.409758771984,
+      "base_y": 994.5750697514948,
+      "footprint_id": "401853",
+      "roof_height_m": 237.744,
+      "ground_elevation_m": 10.0584,
+      "distance_m": 1285.8879774681961,
+      "drawn_width": 114.48263913445908
+    },
+    {
+      "id": "Q262041",
+      "name": "70 Pine Street",
+      "bearing_deg": 288.75880585458356,
+      "x": 690.390659730616,
+      "base_y": 1002.8593829179812,
+      "footprint_id": "671705",
+      "roof_height_m": 249.259344,
+      "ground_elevation_m": 4.572,
+      "distance_m": 858.419106703594,
+      "drawn_width": 177.96603992435212
+    }
+  ],
+  "note": "Footprint extrusions with one roof height; landmark crowns emphasized, no accurate occlusion model."
+}

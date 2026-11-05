@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "route",
+        "route": "ER",
+        "shape_id": "9",
+        "trip_id": "2180",
+        "source": "https://www.ferry.nyc/developer-tools/",
+        "note": "Published GTFS shape; not a recorded vessel track"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -74.006693,
+            40.703647
+          ],
+          [
+            -74.005259,
+            40.702377
+          ],
+          [
+            -73.996646,
+            40.704159
+          ],
+          [
+            -73.995671,
+            40.703652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "observation",
+        "id": 1,
+        "fraction": 0.18,
+        "distance_m": 187.15240215991216,
+        "lon": -74.00524458163585,
+        "lat": 40.70237998372913,
+        "color": "#B85C42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00524458163585,
+          40.70237998372913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "observation",
+        "id": 2,
+        "fraction": 0.48,
+        "distance_m": 499.0730724264324,
+        "lon": -74.00168192253587,
+        "lat": 40.70311717497757,
+        "color": "#368C91"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00168192253587,
+          40.70311717497757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "observation",
+        "id": 3,
+        "fraction": 0.8,
+        "distance_m": 831.7884540440541,
+        "lon": -73.9978816685032,
+        "lat": 40.703903389984184,
+        "color": "#7C69A2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9978816685032,
+          40.703903389984184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "landmark",
+        "id": "Q11245",
+        "name": "One World Trade Center",
+        "lon": -74.0135,
+        "lat": 40.713,
+        "source": "https://www.wikidata.org/wiki/Q11245",
+        "claim_id": "q11245$8E3CD5F0-F06A-41DA-B329-009BC290365A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0135,
+          40.713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "landmark",
+        "id": "Q217652",
+        "name": "Woolworth Building",
+        "lon": -74.00822,
+        "lat": 40.7124,
+        "source": "https://www.wikidata.org/wiki/Q217652",
+        "claim_id": "q217652$543DC854-E79E-4937-BFB9-B197791107D3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00822,
+          40.7124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "landmark",
+        "id": "Q262041",
+        "name": "70 Pine Street",
+        "lon": -74.0075,
+        "lat": 40.70638888888889,
+        "source": "https://www.wikidata.org/wiki/Q262041",
+        "claim_id": "q262041$5F75D85E-5F59-4A48-A694-37C7AD6FF552"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0075,
+          40.70638888888889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "landmark",
+        "id": "Q125006",
+        "name": "Brooklyn Bridge",
+        "lon": -73.99633333333334,
+        "lat": 40.705666666666666,
+        "source": "https://www.wikidata.org/wiki/Q125006",
+        "claim_id": "q125006$5607696D-FEA5-4B07-AC20-DFA8B9BBE100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99633333333334,
+          40.705666666666666
+        ]
+      }
+    }
+  ]
+}
