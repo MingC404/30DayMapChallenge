@@ -10,9 +10,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 1,
-    "manual_review": "不同已绘制分区，功能未明确",
-    "evidence_and_limits": "两个不相交边界，形状与位置不同，间隔 3.14 m；均无设施/年龄标签，不能推定不同年龄组。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Separate mapped sections; function unconfirmed",
+    "evidence_and_limits": "Two disjoint boundaries, 3.14 m apart; no age or facility tags establish different age groups.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -26,9 +26,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 2,
-    "manual_review": "不同已绘制分区，功能未明确",
-    "evidence_and_limits": "不规则边界与多边形分别绘制，间隔 13.55 m；无相同几何，不按未命名或距离去重。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Separate mapped sections; function unconfirmed",
+    "evidence_and_limits": "Different shapes, 13.55 m apart; no identical geometry. Name or proximity alone does not justify deduplication.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -42,9 +42,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 3,
-    "manual_review": "不同已绘制分区，功能未明确",
-    "evidence_and_limits": "圆形与多边形相邻但不相交，间隔 2.65 m；功能 Not recorded。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Separate mapped sections; function unconfirmed",
+    "evidence_and_limits": "A circular and a polygonal section are 2.65 m apart; function is not recorded.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -58,9 +58,9 @@
     "intersection_m2": 0.0,
     "intersects": true,
     "atlas_panel": 4,
-    "manual_review": "可能重复表达同一场地",
-    "evidence_and_limits": "Hamilton Park 命名点位于 playground 面内；点只有名称与 leisure 标签，未见独立分区证据。保留两 ID，选点时视为同一候选组，尚未合并。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Possible duplicate representation",
+    "evidence_and_limits": "The named Hamilton Park point is inside a playground polygon. Keep both source IDs; no separate section is established.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -74,9 +74,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 5,
-    "manual_review": "不同已绘制分区，功能未明确",
-    "evidence_and_limits": "两个相似弧形面分离 32.78 m；相似形状不构成重复证据，场地名称和年龄均 Not recorded。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Separate mapped sections; function unconfirmed",
+    "evidence_and_limits": "Similar separate polygons, 32.78 m apart. Shape similarity does not prove duplication; ages and names are not recorded.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -90,9 +90,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 6,
-    "manual_review": "同一公园内不同已绘制分区",
-    "evidence_and_limits": "Arlington 两个面相距 10.81 m，不重叠；30 内记录 monkey_bars，31 设施 Not recorded；不据此断言两个年龄组。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Different sections within one park",
+    "evidence_and_limits": "Arlington sections are 10.81 m apart; one records monkey_bars. This does not establish two age groups.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -106,9 +106,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 7,
-    "manual_review": "不同功能分区证据明确",
-    "evidence_and_limits": "Lafayette 的 33 内有两个 slide 对象，34 自身 playground=water_sprayer，边界相隔 11.44 m；保留干式游乐区与喷水区两个表达。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Explicitly different activity tags",
+    "evidence_and_limits": "Lafayette section 33 contains slides; section 34 records water_sprayer. Keep dry play and water play separate.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -122,9 +122,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 8,
-    "manual_review": "不同功能分区证据明确",
-    "evidence_and_limits": "Berry Lane 的 37 含婴幼儿秋千、springy、stepping_stone；39 为 playground=splash_pad，边界相隔 16.99 m；不同功能，不作重复删除。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Explicitly different activity tags",
+    "evidence_and_limits": "Berry Lane sections 37 and 39 are 16.99 m apart; baby swings/springy/stepping_stone differ from splash_pad.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   },
   {
@@ -138,9 +138,9 @@
     "intersection_m2": 0.0,
     "intersects": false,
     "atlas_panel": 9,
-    "manual_review": "可能点位偏移或独立场地，无法判定",
-    "evidence_and_limits": "Liberty State Park 命名点在面外 29.01 m，均 access=yes，缺乏设施或年龄证据；距离与公园名称不足以确定同一场地。保留并标待核实。",
-    "method": "人工查看 overlap_review_atlas.png 原始几何、官方公园背景和 OSM tags；非现场/影像核验",
+    "manual_review": "Possible offset or separate site; unresolved",
+    "evidence_and_limits": "The Liberty State Park point is 29.01 m outside the polygon. Name, access=yes and distance do not establish identity; keep both IDs.",
+    "method": "Desk review of original geometry, park background and OSM tags in overlap_review_atlas.png; no field or imagery verification",
     "action": "retain both source IDs; no merge"
   }
 ]

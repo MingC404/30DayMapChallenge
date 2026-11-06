@@ -1,0 +1,80 @@
+{
+  "source_file": "data_raw/vintage_ny_harbor/nypl_434593_original.jpg",
+  "source_sha256": "1c1b9582361b85040ce42fe75b6e4cac07d33da0d4b6a93a51bed7243f9b03be",
+  "source_dimensions_px": [
+    4598,
+    4344
+  ],
+  "target_crs": "EPSG:32618",
+  "equation": "[E,N,1]^T = pixel_to_utm @ [pixel_x,pixel_y,1]^T; image origin upper left; pixel indices denote centers",
+  "pixel_to_utm": [
+    [
+      9.226211789121667,
+      0.03787731281113338,
+      557620.2498738687
+    ],
+    [
+      0.4918905486500014,
+      -8.170232446998853,
+      4507423.576808358
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "utm_to_pixel": [
+    [
+      0.10836006340566051,
+      0.0005023587816474064,
+      -62688.10944902691
+    ],
+    [
+      0.006523840219495629,
+      -0.122365293882246,
+      547914.3852145867
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "metrics": {
+    "fit_count": 4,
+    "check_count": 1,
+    "fit_radial_rmse_m": 3.8984419877164496,
+    "fit_max_error_m": 6.161694705069564,
+    "heldout_error_m": 92.4303916997106,
+    "heldout_error_px": 11.332297281918805,
+    "caveat": "Four landmarks fall short of 6-10 requested controls; north Manhattan and both opposite banks lack independent checks. Fit RMSE is not positional accuracy. Stop at technical preview."
+  },
+  "preview_crop_source_px": [
+    2490,
+    145,
+    3040,
+    530
+  ],
+  "display_scale": 4,
+  "source_notes": "No reusable transform in local item/JPEG. Map Warper JSON queries redirected to archived home, not item data.",
+  "modern_sources": [
+    {
+      "file": "data_raw\\boundaries\\nyc_boroughs_raw.geojson",
+      "version": "26b",
+      "sha256": "7aa44d9fb611f2f518a226ff994a6516a261a8ce982ccf1e7b37d663687f443c"
+    },
+    {
+      "file": "data_raw\\family\\jersey_city_osm_source.json",
+      "retrieval_date": "2026-11-02",
+      "osm_way_ids": [
+        179060407,
+        27459262,
+        207411156,
+        1115589315,
+        539100353
+      ],
+      "sha256": "e855b70ea00d79dc3c67bf80cf6f14aad7e80294257a9ef68f9ea02d39e3b355"
+    }
+  ]
+}

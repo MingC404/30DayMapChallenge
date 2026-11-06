@@ -1,0 +1,54 @@
+[
+  {
+    "id": "434593",
+    "label": "A / RECOMMENDED",
+    "year": "1844? / catalog date uncertain",
+    "title": "New York Harbor and entrance : from the U.S. Coast Surveys",
+    "publisher": "E. & G.W. Blunt, New York",
+    "uuid": "510d47da-ef96-a3d9-e040-e00a18064a99",
+    "crop": [
+      2100,
+      70,
+      3500,
+      1120
+    ],
+    "note": "Stronger ink; soundings, reefs, wharves and original colored navigation marks.",
+    "limit": "Manhattan reaches the top neatline; northward context is limited.",
+    "page": "https://old-digitalcollections.nypl.org/items/510d47da-ef96-a3d9-e040-e00a18064a99",
+    "download": "https://iiif-prod.nypl.org/index.php?id=434593&t=g",
+    "local_file": "data_raw/vintage_ny_harbor/nypl_434593_original.jpg",
+    "dimensions_px": [
+      4598,
+      4344
+    ],
+    "bytes": 2944701,
+    "sha256": "1c1b9582361b85040ce42fe75b6e4cac07d33da0d4b6a93a51bed7243f9b03be",
+    "detail_display_scale": 1.0
+  },
+  {
+    "id": "434585",
+    "label": "B / ALTERNATIVE",
+    "year": "1845 / issued",
+    "title": "Map of New-York Bay and Harbor and the environs",
+    "publisher": "United States Coast Survey",
+    "uuid": "510d47da-ef8e-a3d9-e040-e00a18064a99",
+    "crop": [
+      1550,
+      450,
+      2950,
+      1500
+    ],
+    "note": "Wider East River context; fine street grids, soundings and shoreline detail.",
+    "limit": "Pale scan; small labels need a larger final reproduction.",
+    "page": "https://old-digitalcollections.nypl.org/items/510d47da-ef8e-a3d9-e040-e00a18064a99",
+    "download": "https://iiif-prod.nypl.org/index.php?id=434585&t=g",
+    "local_file": "data_raw/vintage_ny_harbor/nypl_434585_original.jpg",
+    "dimensions_px": [
+      6257,
+      4814
+    ],
+    "bytes": 2601886,
+    "sha256": "44d8aaf85c3df43821dcb276efa741d64c5a1efb8e0b4427827a9ad4f51debbe",
+    "detail_display_scale": 1.0
+  }
+]

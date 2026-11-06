@@ -1,0 +1,33 @@
+{
+  "dimensions_px": [
+    4620,
+    3030
+  ],
+  "crop_source_pixels": [
+    2370,
+    145,
+    3140,
+    650
+  ],
+  "scale": 6,
+  "shoreline_width_px": 20,
+  "previous_width_px": 8,
+  "shoreline_width_multiplier": 2.5,
+  "halo_width_px": 22,
+  "land_alpha": 0.2,
+  "land_polygon_count": 12,
+  "land_holes": 0,
+  "modern_land_source": "06/assets/modern_land_sources.json",
+  "registration_recomputed": false,
+  "source_sha256": {
+    "data_raw/vintage_ny_harbor/nypl_434593_original.jpg": "1c1b9582361b85040ce42fe75b6e4cac07d33da0d4b6a93a51bed7243f9b03be",
+    "06/assets/shoreline_affine_parameters.json": "8e96469ae7414548b4d56180af5cd49f7541004185fd07395f30bdf58f9c2f35",
+    "06/assets/shoreline_control_points.json": "458697b8c9b6c2c71c543a18aeb357113cb7445b61f37da02b26e087c175424a",
+    "06/assets/modern_shoreline.geojson": "b5217ad3406822a59fc0e2ad18f7ff0e40b29adfd66b37f0291c4a456c39a8a7",
+    "06/assets/modern_land.geojson": "d3dea5a32183aff8ed6e832450794429192de2b1ef35ddaefffeba850e65cced",
+    "06/assets/shoreline_control_points.csv": "3570a5b42e79b4b58801aeed58d9f8cbe12a9b401fdb2dc7e5920336fa1657e5"
+  },
+  "all_inputs_unchanged": true,
+  "displayed_catalog_date": "1844; catalog uncertainty retained in README and source metadata",
+  "limits": "Original chart truncates northern Manhattan; expanded framing does not improve registration accuracy."
+}

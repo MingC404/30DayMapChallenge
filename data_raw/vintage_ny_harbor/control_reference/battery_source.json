@@ -1,0 +1,7 @@
+{
+  "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.018,40.7025,-74.015,40.7045",
+  "retrieved_at_utc": "2026-11-06T16:06:09.440423+00:00",
+  "purpose": "Building centers for tentative registration; no new shoreline used",
+  "attribution": "OpenStreetMap contributors",
+  "license": "ODbL 1.0"
+}

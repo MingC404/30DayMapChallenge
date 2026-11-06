@@ -1,0 +1,41 @@
+{
+  "water_sources": [
+    {
+      "relation_id": 2389611,
+      "version": "48",
+      "timestamp": "2026-08-17T20:07:36Z",
+      "file": "data_raw/family/jersey_city_osm_water_relation_2389611.xml",
+      "sha256": "0f09f034720876ebb4337bbf91018b7e96728526fad227dfe36059b3f0f2b4e8"
+    },
+    {
+      "relation_id": 2788561,
+      "version": "7",
+      "timestamp": "2025-12-21T18:34:01Z",
+      "file": "data_raw/family/jersey_city_osm_water_relation_2788561.xml",
+      "sha256": "0c5a31f3fde6d557e6196f910c77e45f0cbcf1548091ea2e0e8f61f0c460537b"
+    },
+    {
+      "relation_id": 2389632,
+      "version": "54",
+      "timestamp": "2026-05-30T15:28:57Z",
+      "file": "data_raw/vintage_ny_harbor/modern_land/upper_new_york_bay.osm",
+      "sha256": "2808026fc77e257cd07fa18e4a3f43777eda26f6b0b0d169185ea59a87e46ad0"
+    }
+  ],
+  "other_inputs": [
+    {
+      "file": "data_raw/boundaries/nyc_boroughs_raw.geojson",
+      "sha256": "7aa44d9fb611f2f518a226ff994a6516a261a8ce982ccf1e7b37d663687f443c"
+    },
+    {
+      "file": "03/outputs/jc_city_boundary.geojson",
+      "sha256": "355b93e981942ac49766bbec5c8bc503c263f24d06fdb6270fbb4337ebeb4d02"
+    },
+    {
+      "file": "data_raw/family/jersey_city_osm_source.json",
+      "sha256": "e855b70ea00d79dc3c67bf80cf6f14aad7e80294257a9ef68f9ea02d39e3b355"
+    }
+  ],
+  "method": "Subtract complete OSM water polygons from the cached JC clipping domain, then combine with actual DCP NYC land. Island holes and interior water retained. No closed clipped coastline.",
+  "limits": "Mixed OSM snapshots; small land/line inconsistencies may remain. No shoreline or registration refitted."
+}

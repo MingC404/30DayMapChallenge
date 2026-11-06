@@ -1,26 +1,18 @@
 # 30DayMapChallenge
 
-A personal collection of maps and spatial explorations by Ming. This repository organizes work by challenge day, keeping reusable data separate from each map’s source files and finished outputs.
+Maps and spatial illustrations by **Ming Cao**.
 
-## Repository structure
+| Day | Work | View and reproduce |
+|---|---|---|
+| 01 / Points | NYC Changing Station Explorer | [Instructions](01/README.md) |
+| 02 / Lines | Waterfront Walks | [Instructions](02/README.md) |
+| 03 / Polygons | Inside the Park | [Instructions](03/README.md) |
+| 04 / My Data | Clusters of Play | [Instructions](04/README.md) |
+| 05 / Sight | Seeing New York from the Water | [Instructions](05/README.md) |
+| 06 / Vintage | A Changing Harbor Edge | [PNG](06/outputs/a_changing_harbor_edge.png) · [JPG](06/outputs/a_changing_harbor_edge.jpg) · [Instructions](06/README.md) |
 
-```text
-01/             Day 01 source, configuration, instructions, and outputs
-02/–30/         Reserved days, each containing .gitkeep
-data_raw/       Shared source data, metadata, styles, and licenses
-scripts/        Shared data preparation and gallery template
-docs/           Generated GitHub Pages files
-COMMIT_FILES.txt Changed paths, including relocation deletions
-```
+Numbered folders contain each map's scripts and outputs. Shared original data, metadata and licenses are in `data_raw/`; generated web pages are in `docs/`. Each day's README identifies its sources and limits. Maps use NYC Open Data, OpenStreetMap, institutional collections and other credited sources; data timestamps do not imply current field verification.
 
-Daily scripts belong to their numbered folder. Shared datasets remain at the repository root and are not duplicated between days. Historical versions stay with their map. Published files are generated from maintained sources rather than edited as the only copy.
+To view local HTML, run `python -m http.server 8000 --bind 127.0.0.1` from the repository root, then open `http://127.0.0.1:8000/docs/`. Static PNG/JPG/GIF files can be viewed directly. Python renderers generally require Pillow, NumPy, Shapely and pyproj; Windows renderers use Arial and Georgia fonts. Local dependency installations and temporary work directories are excluded from Git.
 
-## Day 01
-
-**NYC Changing Station Explorer** maps changing tables reported in New York City public restrooms. It includes placement filters, compact information cards, a monochrome street map, borough outlines, and browser-rendered PNG/GIF exports. Records describe reported facilities; they do not guarantee current availability.
-
-Data source: NYC Open Data, [Public Restrooms](https://data.cityofnewyork.us/City-Government/Public-Restrooms/i7jb-7jku) (dataset `i7jb-7jku`; listed agency: Mayor’s Office of Operations, with records contributed by city agencies and partner institutions). The map retains the project CSV snapshot; its update date is unconfirmed. Streets: [OpenFreeMap](https://openfreemap.org/), OpenMapTiles and OpenStreetMap contributors. Borough boundaries: [NYC Department of City Planning, 26b](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/gthc-hcne).
-
-Read the [Day 01 instructions](01/README.md), browse the [outputs](01/outputs/), or open the [generated gallery](docs/index.html) through a local HTTP server.
-
-[Interactive map — planned](https://mingc404.github.io/30DayMapChallenge/nyc-changing-stations/). Deployment has not been confirmed; the publishing path remains unchanged.
+Third-party multilingual names and fields are preserved; see [language exceptions](docs/source_language_exceptions.md). `COMMIT_FILES.txt` lists the current proposed publication changes. No commit, push or deployment is performed by map renderers.

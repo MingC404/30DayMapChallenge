@@ -1,0 +1,31 @@
+{
+  "final_dimensions_px": [
+    4620,
+    3030
+  ],
+  "input_hashes_match": true,
+  "registration_recomputed": false,
+  "shoreline_width_multiplier": 2.5,
+  "land_valid": true,
+  "no_nj_fill_in_source_water": true,
+  "land_water_spot_checks": 6,
+  "original_shoreline_retained": true,
+  "original_shoreline_maximum_sample_distance_degrees": 1.1885009769009689e-14,
+  "unchanged_day01_05_visual_data_files": 41,
+  "day03_review_ids_geometry_values_unchanged": true,
+  "report_generator_computational_prefixes_unchanged": true,
+  "local_markdown_links_checked": 35,
+  "authored_chinese_remaining": false,
+  "preserved_third_party_language_files": [
+    "02/outputs/waterfront_walks_preview.html",
+    "03/outputs/jc_city_boundary.geojson",
+    "04/data/background.json",
+    "data_raw/day03_playgrounds/jc_boundary_osm.json",
+    "data_raw/vintage_ny_harbor/510d47da-ef8e-a3d9-e040-e00a18064a99.html",
+    "data_raw/vintage_ny_harbor/510d47da-ef96-a3d9-e040-e00a18064a99.html",
+    "docs/02/index.html"
+  ],
+  "git_whitespace_check_passed": true,
+  "index_untouched": true,
+  "display_review": "Reviewed full resolution and a 1600 px wide rendering: full-bleed, five readable point labels, solid visible shores, no separate sidebar."
+}

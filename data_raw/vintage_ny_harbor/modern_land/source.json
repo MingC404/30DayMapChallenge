@@ -1,0 +1,8 @@
+{
+  "url": "https://api.openstreetmap.org/api/0.6/relation/2389632/full",
+  "retrieved_at_utc": "2026-11-06T22:20:05.505110+00:00",
+  "sha256": "2808026fc77e257cd07fa18e4a3f43777eda26f6b0b0d169185ea59a87e46ad0",
+  "license": "ODbL 1.0",
+  "attribution": "OpenStreetMap contributors",
+  "purpose": "Complete Upper New York Bay water multipolygon; subtract real water from the cached Jersey City boundary to derive local land."
+}
