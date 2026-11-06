@@ -21,7 +21,9 @@ python 01/scripts/build_changing_station_explorer.py
 python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open <http://127.0.0.1:8000/01/outputs/nyc_changing_station_explorer.html>.
+After starting the server above, open <http://127.0.0.1:8000/01/outputs/nyc_changing_station_explorer.html> on the same computer. Keep the server running while viewing the map. This localhost address requires a local copy of the repository; clicking it from GitHub does not start a server.
+
+For access directly from GitHub, the intended [public interactive map](https://mingc404.github.io/30DayMapChallenge/nyc-changing-stations/) requires GitHub Pages to publish the `main` branch's `/docs` folder. Deployment is unconfirmed. You can also [view the map preview on GitHub](outputs/nyc_changing_station_explorer.png).
 
 For browser checks and media export, install Pillow, Node.js, Playwright, and a browser:
 

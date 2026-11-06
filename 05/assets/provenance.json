@@ -1,0 +1,127 @@
+{
+  "building_sources.json": {
+    "source": "NYC OTI Building Footprints",
+    "dataset": "5zhs-2jue",
+    "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=within_box%28the_geom%2C40.722%2C-74.024%2C40.700%2C-73.996%29&%24select=the_geom%2Cbin%2Cdoitt_id%2Cheight_roof%2Cground_elevation%2Cfeature_code%2Clast_edited_date&%24order=doitt_id&%24limit=5000",
+    "query": {
+      "$where": "within_box(the_geom,40.722,-74.024,40.700,-73.996)",
+      "$select": "the_geom,bin,doitt_id,height_roof,ground_elevation,feature_code,last_edited_date",
+      "$order": "doitt_id",
+      "$limit": "5000"
+    },
+    "retrieved_utc": "2026-11-05T04:38:15.527562+00:00",
+    "features": 2323,
+    "height_roof_units": "feet above ground",
+    "sha256": "a30b4f8ab5f641b3b6306a154786f9e2bced5fe2559aaf22932ed8f5620957f7",
+    "metadata_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_BuildingFootprints.md"
+  },
+  "waterfront_adjacent_sources.json": {
+    "retrieved_utc": "2026-11-06T02:17:14.782452+00:00",
+    "source": "NYC OTI BUILDING / NYC Open Data 5zhs-2jue",
+    "sources": [
+      {
+        "file": "scroll_neighbors_east.geojson",
+        "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=within_box%28the_geom%2C40.722%2C-73.996%2C40.7%2C-73.972%29&%24select=the_geom%2Cbin%2Cdoitt_id%2Cheight_roof%2Cground_elevation%2Cfeature_code%2Clast_edited_date&%24order=doitt_id&%24limit=10000",
+        "query": {
+          "$where": "within_box(the_geom,40.722,-73.996,40.7,-73.972)",
+          "$select": "the_geom,bin,doitt_id,height_roof,ground_elevation,feature_code,last_edited_date",
+          "$order": "doitt_id",
+          "$limit": "10000"
+        },
+        "features": 2345,
+        "sha256": "1e59590a9c2850b6c9bbfa52e57df41cef46b7849bafd17aa5803a990241923d"
+      },
+      {
+        "file": "scroll_neighbors_north.geojson",
+        "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=within_box%28the_geom%2C40.735%2C-74.024%2C40.722%2C-73.972%29&%24select=the_geom%2Cbin%2Cdoitt_id%2Cheight_roof%2Cground_elevation%2Cfeature_code%2Clast_edited_date&%24order=doitt_id&%24limit=10000",
+        "query": {
+          "$where": "within_box(the_geom,40.735,-74.024,40.722,-73.972)",
+          "$select": "the_geom,bin,doitt_id,height_roof,ground_elevation,feature_code,last_edited_date",
+          "$order": "doitt_id",
+          "$limit": "10000"
+        },
+        "features": 5911,
+        "sha256": "10bc7121958ba3f42465232146da9ae40c34967d2aed5806da78bd22159632de"
+      }
+    ],
+    "consolidated_file": "waterfront_adjacent_buildings.geojson",
+    "consolidated_sha256": "f843f68b912fa06b10a902d955b2e848c0c790abab5c161da692e23d1e92700d",
+    "retained_features": 7798,
+    "filter": "Centroid azimuth 275?412.5 deg unwrapped and distance <4000 m from lookout 03; unknown heights retained",
+    "note": "Original adjacent strip files consolidated; query URLs and original response hashes retained for provenance."
+  },
+  "foreground_east_source.json": {
+    "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=within_box%28the_geom%2C40.711%2C-73.997%2C40.699%2C-73.972%29&%24select=the_geom%2Cbin%2Cdoitt_id%2Cheight_roof%2Cground_elevation%2Cfeature_code%2Clast_edited_date&%24order=doitt_id&%24limit=5000",
+    "query": {
+      "$where": "within_box(the_geom,40.711,-73.997,40.699,-73.972)",
+      "$select": "the_geom,bin,doitt_id,height_roof,ground_elevation,feature_code,last_edited_date",
+      "$order": "doitt_id",
+      "$limit": "5000"
+    },
+    "retrieved_utc": "2026-11-06T03:45:31.565571+00:00",
+    "features": 566,
+    "sha256": "f642ec685e3b420d539ed6b6c02eaecf55e8124c28972fc07c7bfbf1e2753308",
+    "purpose": "Offscreen foreground only, beyond approved landscape; no duplicated or stretched scenery"
+  },
+  "locator_bridge_source.json": {
+    "source": "NYC OTI Transport Structure 2022 / layer 25",
+    "query_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Transport_Structure_2022/FeatureServer/25/query?where=1%3D1&geometry=-74.009%2C40.697%2C-73.985%2C40.714&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&outSR=4326&f=geojson&resultRecordCount=100",
+    "retrieved_utc": "2026-11-06T03:23:07.066666+00:00",
+    "selection": "Nearest transport-structure polygon to retained Brooklyn Bridge reference coordinate",
+    "selected_properties": {
+      "OBJECTID": 2242,
+      "NAME": "Brooklyn Bridge",
+      "SOURCE_ID": 21230000011,
+      "FEATURE_CODE": 2300,
+      "SUB_FEATURE_CODE": 230000,
+      "STATUS": "Unchanged",
+      "GlobalID": "741f6474-6b23-4acc-acf5-8a11832a9bd1",
+      "Shape__Area": 646351.4753112793,
+      "Shape__Length": 19323.64643205032
+    },
+    "sha256": "1aa524c64bc67eb9d74ab1995cc837e4a8fa750c14ad7deb91037cbe5464fe77"
+  },
+  "final_export": {
+    "output": "seeing_new_york_final.gif",
+    "size": [
+      1560,
+      1130
+    ],
+    "duration_ms": 42000,
+    "frames": 401,
+    "bytes": 12563098,
+    "timing_seconds": {
+      "start_hold": 2,
+      "pan": 36,
+      "end_hold": 2,
+      "fade_out": 1,
+      "fade_in": 1
+    },
+    "layer_ratios": [
+      0.3,
+      0.6,
+      1.0
+    ],
+    "layer_displacements_native_px": [
+      1640.0,
+      3280.0,
+      5466.666666666667
+    ],
+    "locator_text_removed": [
+      "Reference viewpoint",
+      "Looking toward ...",
+      "BEGINNING/MIDDLE/ENDING",
+      "Illustrative journey / Motion exaggerated"
+    ],
+    "locator_fixed_bounds": [
+      582136.8647320569,
+      4505790.520128013,
+      586776.8647320569,
+      4507590.520128013
+    ],
+    "orange_motion": "On retained route; looking direction independent; fades invisibly for reset",
+    "approved_asset_hashes": {},
+    "validation": "Closing landmark fully visible; names not cut; no exposed sheet edges; static title/footer; loop boundary identical"
+  },
+  "retained_gif_sha256": "428dd0cdc2b35c1ff0942f5e8d5565b0bda0e849115a369450f625272e45c6a0"
+}
