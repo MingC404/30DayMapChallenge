@@ -11,6 +11,10 @@ from prepare_modern_land import water_polygon,FILES
 def run():
     manifest=json.loads((ROOT/'06/outputs/render_manifest.json').read_text())
     assert manifest['registration_recomputed'] is False
+    assert set(manifest['visible_control_ids'])=={'P1','P2','P3','P4','P5'}
+    p5_x,p5_y=manifest['p5_canvas_position_px']
+    assert 100<p5_x<4520 and 100<p5_y<2930
+    assert 0<manifest['land_alpha']<.11
     for rel,value in manifest['source_sha256'].items():
         assert hashlib.sha256((ROOT/rel).read_bytes()).hexdigest()==value,rel
     for suffix in ['png','jpg']:
@@ -70,7 +74,8 @@ def run():
         a=subprocess.check_output(['git','show','HEAD:'+rel],cwd=ROOT).decode('utf8')
         b=(ROOT/rel).read_text(encoding='utf8')
         marker_b='report=' if rel.endswith('inventory.py') else 'reviews='
-        assert a[:a.index(marker)].rstrip()==b[:b.index(marker_b)].rstrip(),rel
+        original_marker=marker if marker in a else marker_b
+        assert a[:a.index(original_marker)].rstrip()==b[:b.index(marker_b)].rstrip(),rel
     # Check local Markdown links in changed/new documentation only.
     scope=['README.md']+[f'{i:02}/README.md' for i in range(1,7)]+[
       '03/outputs/inventory_report.md','03/outputs/selection/selection_guide.md',
@@ -100,6 +105,7 @@ def run():
     subprocess.run(['git','diff','--check'],cwd=ROOT,check=True)
     report=dict(final_dimensions_px=[4620,3030],input_hashes_match=True,
        registration_recomputed=False,shoreline_width_multiplier=2.5,
+       land_opacity=manifest['land_alpha'],all_five_controls_in_frame=True,p5_in_frame=True,
        land_valid=True,no_nj_fill_in_source_water=True,land_water_spot_checks=len(tests),original_shoreline_retained=True,
        original_shoreline_maximum_sample_distance_degrees=maximum_line_difference,
        unchanged_day01_05_visual_data_files=unchanged,day03_review_ids_geometry_values_unchanged=True,
@@ -107,7 +113,7 @@ def run():
        authored_chinese_remaining=False,preserved_third_party_language_files=source_exceptions,
        git_whitespace_check_passed=True,index_untouched=True,
        display_review='Reviewed full resolution and a 1600 px wide rendering: full-bleed, five readable point labels, solid visible shores, no separate sidebar.')
-    (ROOT/'06/outputs/validation.json').write_text(json.dumps(report,indent=2)+'\n')
+    (ROOT/'06/outputs/validation.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8',newline='\n')
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__':run()

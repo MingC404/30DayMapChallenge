@@ -14,9 +14,21 @@
   "previous_width_px": 8,
   "shoreline_width_multiplier": 2.5,
   "halo_width_px": 22,
-  "land_alpha": 0.2,
+  "land_alpha": 0.10196078431372549,
   "land_polygon_count": 12,
   "land_holes": 0,
+  "visible_control_ids": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "p5_canvas_position_px": [
+    798,
+    2034
+  ],
+  "p5_label": "Enlarged two-line label with leader; reference coordinates unchanged",
   "modern_land_source": "06/assets/modern_land_sources.json",
   "registration_recomputed": false,
   "source_sha256": {

@@ -1,6 +1,6 @@
 # Day 06 — A Changing Harbor Edge
 
-Full-bleed historical harbor map by **Ming Cao**. [Final PNG](outputs/a_changing_harbor_edge.png) · [Final JPG](outputs/a_changing_harbor_edge.jpg), **4620 × 3030 px**; JPG quality 97, no chroma subsampling. Modern land is tinted at 20% opacity; continuous deep-teal shoreline strokes are 20 px with rounded joins, 2.5× the previous width. All five landmarks appear on the main map.
+Full-bleed historical harbor map by **Ming Cao**. [Final PNG](outputs/a_changing_harbor_edge.png) · [Final JPG](outputs/a_changing_harbor_edge.jpg), **4620 × 3030 px**; JPG quality 97, no chroma subsampling. Modern land is tinted at about **10% opacity**, reduced from 20% to reveal historical shore detail; continuous deep-teal shoreline strokes are 20 px with rounded joins. All five landmarks appear on the main map. **P5 (Fort Wood, Liberty Island) is at lower left**, with an enlarged marker, two-line label and short leader. Framing and reference coordinates are unchanged.
 
 ## Sources
 

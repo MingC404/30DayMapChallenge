@@ -11,7 +11,7 @@ from shapely.ops import unary_union
 ASSETS=ROOT/'06/assets';OUT=ROOT/'06/outputs'
 RAW=ROOT/'data_raw/vintage_ny_harbor/nypl_434593_original.jpg'
 BLUE='#163F58';CYAN='#087487';ORANGE='#B56B34';PAPER='#F7F6EC'
-LAND_COLOR='#418D85';ALPHA=51
+LAND_COLOR='#418D85';ALPHA=26  # About 10% opacity, allowing historic shores to show.
 CROP=(2370,145,3140,650);SCALE=6
 W,H=(CROP[2]-CROP[0])*SCALE,(CROP[3]-CROP[1])*SCALE
 
@@ -75,7 +75,7 @@ def render():
     text(115,85,'DAY 06 / VINTAGE',34,bold=True)
     text(107,153,'A Changing Harbor Edge',108,serif=True)
     text(115,300,'Lower Manhattan · Historical chart catalog date: 1844',39)
-    swatch=Image.blend(Image.new('RGB',(120,45),PAPER),Image.new('RGB',(120,45),LAND_COLOR),.2)
+    swatch=Image.blend(Image.new('RGB',(120,45),PAPER),Image.new('RGB',(120,45),LAND_COLOR),ALPHA/255)
     page.paste(swatch,(120,407));text(265,402,'Modern land',37)
     d.line((700,429,835,429),fill='#E2E9DE',width=22)
     d.line((700,429,835,429),fill=CYAN,width=20)
@@ -101,6 +101,15 @@ def render():
     for p in points:
         x,y=px(p['pixel_x'],p['pixel_y']);role=p['role'];r=16
         assert 0<x<W and 0<y<H
+        if p['id']=='P5':
+            # Keep the exact reference position; make the small island easy to find.
+            d.ellipse((x-35,y-35,x+35,y+35),outline=BLUE,width=3)
+            d.ellipse((x-24,y-24,x+24,y+24),fill=BLUE,outline=PAPER,width=4)
+            d.line((695,2160,x-25,y+25),fill=BLUE,width=4)
+            backing((205,2135,705,2275),205)
+            text(225,2145,'P5  Fort Wood',48,bold=True)
+            text(225,2210,'Liberty Island',39)
+            continue
         if role=='check':d.polygon([(x,y-r-3),(x+r+3,y),(x,y+r+3),(x-r-3,y)],fill=ORANGE,outline=PAPER,width=3)
         else:d.ellipse((x-r,y-r,x+r,y+r),fill=BLUE,outline=PAPER,width=3)
         name,dx,dy=labels[p['id']]
@@ -126,12 +135,14 @@ def render():
     assert all(sha(ROOT/p)==h for p,h in before.items())
     rec=dict(dimensions_px=[W,H],crop_source_pixels=CROP,scale=SCALE,
       shoreline_width_px=20,previous_width_px=8,shoreline_width_multiplier=2.5,halo_width_px=22,
-      land_alpha=.2,land_polygon_count=len(polygons),land_holes=sum(len(p.interiors) for p in polygons),
+      land_alpha=ALPHA/255,land_polygon_count=len(polygons),land_holes=sum(len(p.interiors) for p in polygons),
+      visible_control_ids=[p['id'] for p in points],p5_canvas_position_px=px(2503,484),
+      p5_label='Enlarged two-line label with leader; reference coordinates unchanged',
       modern_land_source='06/assets/modern_land_sources.json',registration_recomputed=False,
       source_sha256=before,all_inputs_unchanged=True,
       displayed_catalog_date='1844; catalog uncertainty retained in README and source metadata',
       limits='Original chart truncates northern Manhattan; expanded framing does not improve registration accuracy.')
-    (OUT/'render_manifest.json').write_text(json.dumps(rec,indent=2)+'\n')
+    (OUT/'render_manifest.json').write_text(json.dumps(rec,indent=2)+'\n',encoding='utf8',newline='\n')
     print('Rendered final PNG and quality-97 JPG:',W,H,'; frozen inputs unchanged.')
 
 if __name__=='__main__':render()
