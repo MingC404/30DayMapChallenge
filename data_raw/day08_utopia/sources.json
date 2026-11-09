@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-11-07",
+  "osm": {
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.2148,39.9436,-75.1993,39.9558",
+    "file": "neighborhood.osm",
+    "download_date": "2026-11-07",
+    "license": "ODbL 1.0",
+    "attribution": "OpenStreetMap contributors",
+    "role": "Existing street and building geometry; PIC campus and library footprint"
+  },
+  "park": {
+    "file": "../day03_playgrounds/activity_spaces/clark_discovery_map.osm",
+    "cached_date": "2026-11-03",
+    "relation": 2588200,
+    "outer_ways": [
+      30863033,
+      30856590
+    ],
+    "role": "Complete existing north and south Clark Park boundaries; directly reused"
+  },
+  "verification": [
+    {
+      "url": "https://parentinfantcenter.org/our-campus",
+      "finding": "Parent Infant Center occupies 42nd between Locust and Spruce; main entrance at southwest corner of 42nd and Locust. Official playground names: Magic Circle Nature Playground and Tot Lot. No routine unrestricted public playground access established."
+    },
+    {
+      "url": "https://parentinfantcenter.org/support-pic/community-events",
+      "finding": "Day of Play is a specifically advertised public event on the Nature Playground; not evidence of everyday access. Footer address: 4205 Spruce Street."
+    },
+    {
+      "url": "https://parentinfantcenter.org/programs/playgroups",
+      "finding": "Page explicitly says playgroups continue to be suspended. Older program details on this page are not treated as currently available."
+    },
+    {
+      "url": "https://libwww.freelibrary.org/locations/walnut-street-west-library",
+      "finding": "Walnut Street West Library, 201 South 40th Street, 40th and Walnut. No facility or hours claims rendered."
+    },
+    {
+      "url": "https://thefoodtrust.org/what-we-do/farmers-markets/clark-park/",
+      "finding": "Current main market page identifies 43rd and Chester; used as general destination. Periodic market, not a permanent shop footprint."
+    },
+    {
+      "url": "https://map.thefoodtrust.org/programs/clark-park-famers-market/",
+      "finding": "Alternate operator listing places market at 43rd and Baltimore. Conflicting corner retained as a limitation; no precise stall or entrance claim."
+    }
+  ],
+  "design_status": "Current collage: all swing, shade and picnic/stroller landscape scenes are imagined. Real map geometry and PIC campus access context remain distinct. No feasibility assessment or accessibility audit.",
+  "unresolved": "User's small PIC playground is not conclusively identified as Magic Circle or Tot Lot. Campus marker only; no invented playground polygon."
+}

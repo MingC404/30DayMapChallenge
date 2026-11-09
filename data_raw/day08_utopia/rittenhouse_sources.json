@@ -1,0 +1,23 @@
+{
+  "stage": "Final static picture-book illustration, completed November 9, 2026; not committed or pushed",
+  "verified_date": "2026-11-08",
+  "open_streets": {
+    "source": "Center City District",
+    "url": "https://centercityphila.org/press-release/open-streets-returns-fall-2026/",
+    "verified_extent": "Walnut Street: Broad Street to 19th Street. 18th Street: Chestnut Street to Locust Street.",
+    "interpretation": "Temporary event footprint is inspiration, not an existing permanent pedestrian landscape. Personal observations do not establish precise activity locations."
+  },
+  "streets": {
+    "file": "rittenhouse_walnut.osm",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1750,39.9478,-75.1633,39.9535",
+    "license": "ODbL 1.0; OpenStreetMap contributors",
+    "download_date": "2026-11-08"
+  },
+  "park": {
+    "file": "../day03_playgrounds/activity_spaces/rittenhouse_map.osm",
+    "osm_way": 32122312,
+    "cached_date": "2026-11-03",
+    "method": "Reuse complete recorded park outline, no invented rectangle."
+  },
+  "draft_method": "UTM 18N projected geography, north-up planar view. Schematic road widths; street order, intersections and real park outline retained. Every play facility, tree, street change and everyday scene is imagined. Original flat vector illustration; no photographs or generated images."
+}

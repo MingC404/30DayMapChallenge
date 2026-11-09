@@ -1,0 +1,755 @@
+{
+  "title": "A City at Stroller Speed",
+  "status": "Final static artwork for user review; not committed or pushed",
+  "size": [
+    5700,
+    4380
+  ],
+  "logical_viewbox": [
+    1900,
+    1460
+  ],
+  "dpi": 300,
+  "jpg_quality": 97,
+  "jpg_subsampling": 0,
+  "projection": "UTM 18N, north-up; 6 logical pixels per metre before schematic street widening",
+  "scope": "Northeast park corner and adjacent Walnut / 18th segments; Sansom lies north of crop, 17th lies east of crop",
+  "scale_of_objects": "Approved picture-book object sizes retained",
+  "focus": "Small babies, caregivers and unhurried stroller-scale daily life",
+  "stroller_count": 7,
+  "baby_scene_count": 4,
+  "scenes": [
+    "Park swing, picnic and ball play",
+    "Corner chalk clearing",
+    "Two-stall produce market on Walnut",
+    "Shaded strolling and dog walking",
+    "Ice-cream stop on 18th",
+    "Bench and stroller stopping bay"
+  ],
+  "interaction_groups": [
+    "Vendor and two market shoppers",
+    "Slow stroller walks along Walnut",
+    "Dog walker on upper 18th",
+    "Child and caregiver with ice creams",
+    "Child riding the swing",
+    "Three children with a dog and ball on the lawn",
+    "Hopping child in chalk clearing",
+    "Seated caregiver cuddling a baby, with stroller and curled cat",
+    "Standing baby cuddle",
+    "Crawling baby with kneeling caregiver",
+    "Tummy time with seated caregiver",
+    "Caregivers chatting beside two parked strollers"
+  ],
+  "baby_scenes": [
+    {
+      "name": "Standing chest cuddle",
+      "baby_head_box": [
+        752,
+        604,
+        764,
+        616
+      ]
+    },
+    {
+      "name": "Crawling on picnic mat",
+      "baby_head_box": [
+        632,
+        856,
+        644,
+        868
+      ]
+    },
+    {
+      "name": "Tummy time and toys",
+      "baby_head_box": [
+        225,
+        838,
+        237,
+        850
+      ]
+    },
+    {
+      "name": "Baby cradled on bench",
+      "baby_head_box": [
+        1417,
+        594,
+        1429,
+        606
+      ]
+    }
+  ],
+  "strollers": [
+    {
+      "name": "Stroller 1",
+      "canopy": "#6588AD",
+      "facing": 1,
+      "handle": [
+        822,
+        727
+      ],
+      "wheel_contacts": [
+        [
+          756,
+          792
+        ],
+        [
+          792,
+          795
+        ]
+      ]
+    },
+    {
+      "name": "Stroller 2",
+      "canopy": "#6588AD",
+      "facing": 1,
+      "handle": [
+        1590,
+        612
+      ],
+      "wheel_contacts": [
+        [
+          1524,
+          677
+        ],
+        [
+          1560,
+          680
+        ]
+      ]
+    },
+    {
+      "name": "Stroller 3",
+      "canopy": "#6588AD",
+      "facing": 1,
+      "handle": [
+        1258,
+        588
+      ],
+      "wheel_contacts": [
+        [
+          1192,
+          653
+        ],
+        [
+          1228,
+          656
+        ]
+      ]
+    },
+    {
+      "name": "Coral stroller slowly moving along Walnut",
+      "canopy": "#E98570",
+      "facing": -1,
+      "handle": [
+        180,
+        454
+      ],
+      "wheel_contacts": [
+        [
+          246,
+          519
+        ],
+        [
+          210,
+          522
+        ]
+      ]
+    },
+    {
+      "name": "Coral stroller parked beside the picnic",
+      "canopy": "#E98570",
+      "facing": -1,
+      "handle": [
+        718,
+        909
+      ],
+      "wheel_contacts": [
+        [
+          784,
+          974
+        ],
+        [
+          748,
+          977
+        ]
+      ]
+    },
+    {
+      "name": "Mustard stroller parked at a chat",
+      "canopy": "#D9BC72",
+      "facing": -1,
+      "handle": [
+        610,
+        1084
+      ],
+      "wheel_contacts": [
+        [
+          676,
+          1149
+        ],
+        [
+          640,
+          1152
+        ]
+      ]
+    },
+    {
+      "name": "Sage stroller parked at a chat",
+      "canopy": "#A1B49A",
+      "facing": 1,
+      "handle": [
+        830,
+        1099
+      ],
+      "wheel_contacts": [
+        [
+          764,
+          1164
+        ],
+        [
+          800,
+          1167
+        ]
+      ]
+    }
+  ],
+  "baby_mat_checks": "Both mats and baby/toy envelopes are inside the park and outside street corridors.",
+  "push_contacts": [
+    {
+      "name": "Existing Walnut stroller walk",
+      "hand": [
+        1258,
+        588
+      ],
+      "handle": [
+        1258,
+        588
+      ]
+    },
+    {
+      "name": "Slow west stroller walk",
+      "hand": [
+        180,
+        454
+      ],
+      "handle": [
+        180,
+        454
+      ]
+    }
+  ],
+  "park_way": 32122312,
+  "park_matches_day03_extract": true,
+  "walnut_18th_node": "109988556",
+  "sansom_north_of_walnut_metres": 82.8,
+  "all_landscape_and_facility_symbols": "Imagined, not an existing inventory or fixed market location",
+  "placement_check": "New figure soles and scene anchors lie in the illustrated park/street/sidewalk space, outside background building interiors. This is a composition check, not a physical clearance or accessibility audit.",
+  "placement_anchors": [
+    {
+      "name": "Market vendor",
+      "foot": [
+        480,
+        520
+      ],
+      "support_points": [
+        [
+          473,
+          520
+        ],
+        [
+          466,
+          520
+        ],
+        [
+          490,
+          520
+        ],
+        [
+          497,
+          521
+        ]
+      ]
+    },
+    {
+      "name": "Market shopper with bag",
+      "foot": [
+        324,
+        510
+      ],
+      "support_points": [
+        [
+          316.24,
+          510.0
+        ],
+        [
+          309.45,
+          510.0
+        ],
+        [
+          345.34,
+          509.03
+        ],
+        [
+          352.13,
+          510.0
+        ]
+      ]
+    },
+    {
+      "name": "Second market shopper",
+      "foot": [
+        620,
+        558
+      ],
+      "support_points": [
+        [
+          627.44,
+          558.0
+        ],
+        [
+          633.95,
+          558.0
+        ],
+        [
+          599.54,
+          557.07
+        ],
+        [
+          593.03,
+          558.0
+        ]
+      ]
+    },
+    {
+      "name": "Fruit stall",
+      "foot": [
+        400,
+        493
+      ]
+    },
+    {
+      "name": "Vegetable stall",
+      "foot": [
+        560,
+        515
+      ]
+    },
+    {
+      "name": "Caregiver pushing stroller on Walnut",
+      "foot": [
+        1275,
+        638
+      ],
+      "support_points": [
+        [
+          1289,
+          638
+        ],
+        [
+          1295,
+          638
+        ],
+        [
+          1253,
+          636
+        ],
+        [
+          1246,
+          637
+        ]
+      ]
+    },
+    {
+      "name": "Walking stroller",
+      "foot": [
+        1208,
+        644
+      ]
+    },
+    {
+      "name": "Dog walker on 18th",
+      "foot": [
+        1044,
+        460
+      ],
+      "support_points": [
+        [
+          1064.16,
+          460.0
+        ],
+        [
+          1071.84,
+          460.0
+        ],
+        [
+          1022.88,
+          457.12
+        ],
+        [
+          1015.2,
+          457.12
+        ]
+      ]
+    },
+    {
+      "name": "Leashed dog",
+      "foot": [
+        991,
+        486
+      ]
+    },
+    {
+      "name": "Child at ice-cream cart",
+      "foot": [
+        972,
+        941
+      ],
+      "support_points": [
+        [
+          962.9,
+          941.0
+        ],
+        [
+          957.3,
+          941.0
+        ],
+        [
+          984.6,
+          940.3
+        ],
+        [
+          989.5,
+          941.7
+        ]
+      ]
+    },
+    {
+      "name": "Caregiver at ice-cream cart",
+      "foot": [
+        995,
+        965
+      ],
+      "support_points": [
+        [
+          1001.79,
+          965.0
+        ],
+        [
+          1008.58,
+          965.0
+        ],
+        [
+          985.3,
+          965.0
+        ],
+        [
+          978.51,
+          965.97
+        ]
+      ]
+    },
+    {
+      "name": "Ice-cream cart",
+      "foot": [
+        981,
+        845
+      ]
+    },
+    {
+      "name": "Child reaching for ball on lawn",
+      "foot": [
+        325,
+        997
+      ],
+      "support_points": [
+        [
+          315.9,
+          997.0
+        ],
+        [
+          310.3,
+          997.0
+        ],
+        [
+          337.6,
+          996.3
+        ],
+        [
+          342.5,
+          997.7
+        ]
+      ]
+    },
+    {
+      "name": "Child running on lawn",
+      "foot": [
+        425,
+        1030
+      ],
+      "support_points": [
+        [
+          399.8,
+          1028.56
+        ],
+        [
+          394.04,
+          1030.0
+        ]
+      ]
+    },
+    {
+      "name": "Slow stroller walk at west market approach",
+      "foot": [
+        163,
+        504
+      ],
+      "support_points": [
+        [
+          149,
+          504
+        ],
+        [
+          143,
+          504
+        ],
+        [
+          185,
+          502
+        ],
+        [
+          192,
+          503
+        ]
+      ]
+    },
+    {
+      "name": "Caregiver chatting at parked strollers",
+      "foot": [
+        692,
+        1116
+      ],
+      "support_points": [
+        [
+          685.14,
+          1116.0
+        ],
+        [
+          678.28,
+          1116.0
+        ],
+        [
+          706.7,
+          1115.02
+        ],
+        [
+          713.56,
+          1116.0
+        ]
+      ]
+    },
+    {
+      "name": "Second caregiver chatting at parked strollers",
+      "foot": [
+        738,
+        1128
+      ],
+      "support_points": [
+        [
+          744.65,
+          1128.0
+        ],
+        [
+          751.3,
+          1128.0
+        ],
+        [
+          723.75,
+          1127.05
+        ],
+        [
+          717.1,
+          1128.0
+        ]
+      ]
+    },
+    {
+      "name": "Caregiver cuddling baby on park lawn",
+      "foot": [
+        740,
+        678
+      ],
+      "support_points": [
+        [
+          732,
+          678
+        ],
+        [
+          725,
+          678
+        ],
+        [
+          756,
+          677
+        ],
+        [
+          763,
+          678
+        ]
+      ]
+    },
+    {
+      "name": "Kneeling caregiver at crawling blanket",
+      "foot": [
+        714,
+        884
+      ],
+      "support_points": [
+        [
+          696,
+          875
+        ],
+        [
+          758,
+          878
+        ]
+      ]
+    },
+    {
+      "name": "Seated caregiver beside tummy-time mat",
+      "foot": [
+        319,
+        883
+      ],
+      "support_points": [
+        [
+          288,
+          871
+        ],
+        [
+          334,
+          881
+        ]
+      ]
+    },
+    {
+      "name": "Stroller 1",
+      "foot": [
+        756,
+        792
+      ],
+      "support_points": [
+        [
+          756,
+          792
+        ],
+        [
+          792,
+          795
+        ]
+      ]
+    },
+    {
+      "name": "Stroller 2",
+      "foot": [
+        1524,
+        677
+      ],
+      "support_points": [
+        [
+          1524,
+          677
+        ],
+        [
+          1560,
+          680
+        ]
+      ]
+    },
+    {
+      "name": "Stroller 3",
+      "foot": [
+        1192,
+        653
+      ],
+      "support_points": [
+        [
+          1192,
+          653
+        ],
+        [
+          1228,
+          656
+        ]
+      ]
+    },
+    {
+      "name": "Coral stroller slowly moving along Walnut",
+      "foot": [
+        246,
+        519
+      ],
+      "support_points": [
+        [
+          246,
+          519
+        ],
+        [
+          210,
+          522
+        ]
+      ]
+    },
+    {
+      "name": "Coral stroller parked beside the picnic",
+      "foot": [
+        784,
+        974
+      ],
+      "support_points": [
+        [
+          784,
+          974
+        ],
+        [
+          748,
+          977
+        ]
+      ]
+    },
+    {
+      "name": "Mustard stroller parked at a chat",
+      "foot": [
+        676,
+        1149
+      ],
+      "support_points": [
+        [
+          676,
+          1149
+        ],
+        [
+          640,
+          1152
+        ]
+      ]
+    },
+    {
+      "name": "Sage stroller parked at a chat",
+      "foot": [
+        764,
+        1164
+      ],
+      "support_points": [
+        [
+          764,
+          1164
+        ],
+        [
+          800,
+          1167
+        ]
+      ]
+    }
+  ],
+  "map_sha256": "d789ec6c6e6daf9a80c274dbc1608573f0efa72421a20285194fa296b36021cf"
+}
