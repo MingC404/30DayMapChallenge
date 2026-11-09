@@ -1,0 +1,41 @@
+{
+  "map_surname_labels": 40,
+  "unique_surnames": 20,
+  "font_multiplier_applied_once": 1.2,
+  "map_font_range": [
+    52.8,
+    129.6
+  ],
+  "title_table_and_existing_note_fonts_positions_and_colors_unchanged": true,
+  "surname_colors_unchanged": true,
+  "statistics_and_twenty_table_rows_unchanged": true,
+  "maximum_layout_adjustment_m": 2743.501300063772,
+  "text_overlaps": 0,
+  "clipped_text": 0,
+  "leaders": 0,
+  "location_points": 0,
+  "ocean_type": "Real NOAA ETOPO 2022 gridded bathymetry; not a distance-to-coast proxy",
+  "subset_bytes": 245376,
+  "subset_grid": [
+    65,
+    83
+  ],
+  "sample_interval_arcminutes": 4,
+  "source_data_hash_unchanged": true,
+  "depth_bands": 5,
+  "generalized_isobath_depths_m": [
+    200,
+    1000,
+    3000
+  ],
+  "contours_intersecting_text_boxes": 0,
+  "title_table_footer_are_pale_and_quiet": true,
+  "minimum_surname_color_land_contrast": 4.533396590961534,
+  "minimum_table_surname_calm_ocean_contrast": 3.8720040634229567,
+  "body_text_calm_ocean_contrast": 8.436532798714705,
+  "screen_width_preview": [
+    1440,
+    1543
+  ],
+  "minimum_map_glyph_px_at_1440_width": 36.205714285714286
+}

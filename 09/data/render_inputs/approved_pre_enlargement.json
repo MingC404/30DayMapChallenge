@@ -1,0 +1,3811 @@
+{
+  "national_date": "2023-06-30",
+  "local_date": "2023-06-30",
+  "national_source": {
+    "dataset": "https://data.gov.tw/dataset/126774",
+    "download": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/5D318346-EDFF-42C7-B914-946665D483F5/resource/E4A6518E-FF4C-4925-8D59-48ECE4401820/download",
+    "retrieved": "2026-11-09",
+    "aggregation": "Sum three disjoint national age bands, never sum censored local counts."
+  },
+  "size_mapping": "44 + 64 * (sqrt(N)-sqrt(294723))/(sqrt(2618994)-sqrt(294723)); unchanged logical pixels, not rescaled with the enlarged canvas.",
+  "size_min": 44,
+  "size_max": 108,
+  "individual_reductions": [],
+  "font": "Noto Serif TC, weight 650",
+  "png_pixels": [
+    4200,
+    4500
+  ],
+  "placement_definition": "Original schematic locations preserved through one map enlargement; twenty new occurrences reference genuine township records with bounded layout displacement.",
+  "base_map_scale_factor": 1.52,
+  "main_scale_px_per_m": 0.005037989662024431,
+  "main_height_px": 1900,
+  "base_labels_repacked": false,
+  "max_original_extra_shift_px": 0,
+  "label_count": 40,
+  "unique_surnames": 20,
+  "original_labels": 20,
+  "added_labels": 20,
+  "table_rows": [
+    {
+      "rank": 1,
+      "surname": "陳",
+      "national_population": 2618994,
+      "national_denominator": 23373283,
+      "national_share": 0.11205075470142556,
+      "local_stronghold": "南投縣名間鄉",
+      "local_count": 10883,
+      "local_population": 36018,
+      "local_share": 0.30215447831639736,
+      "observed_townships": 368
+    },
+    {
+      "rank": 2,
+      "surname": "林",
+      "national_population": 1947520,
+      "national_denominator": 23373283,
+      "national_share": 0.08332248405155579,
+      "local_stronghold": "雲林縣臺西鄉",
+      "local_count": 6969,
+      "local_population": 21964,
+      "local_share": 0.3172919322527773,
+      "observed_townships": 368
+    },
+    {
+      "rank": 3,
+      "surname": "黃",
+      "national_population": 1402808,
+      "national_denominator": 23373283,
+      "national_share": 0.06001758503501626,
+      "local_stronghold": "彰化縣線西鄉",
+      "local_count": 5324,
+      "local_population": 16240,
+      "local_share": 0.32783251231527094,
+      "observed_townships": 366
+    },
+    {
+      "rank": 4,
+      "surname": "張",
+      "national_population": 1239880,
+      "national_denominator": 23373283,
+      "national_share": 0.053046891187686386,
+      "local_stronghold": "雲林縣林內鄉",
+      "local_count": 2792,
+      "local_population": 16883,
+      "local_share": 0.16537345258544098,
+      "observed_townships": 364
+    },
+    {
+      "rank": 5,
+      "surname": "李",
+      "national_population": 1199920,
+      "national_denominator": 23373283,
+      "national_share": 0.051337246889964064,
+      "local_stronghold": "雲林縣崙背鄉",
+      "local_count": 4910,
+      "local_population": 23011,
+      "local_share": 0.21337621137716745,
+      "observed_townships": 367
+    },
+    {
+      "rank": 6,
+      "surname": "王",
+      "national_population": 955035,
+      "national_denominator": 23373283,
+      "national_share": 0.040860113660541396,
+      "local_stronghold": "臺南市安定區",
+      "local_count": 5590,
+      "local_population": 29983,
+      "local_share": 0.1864389820898509,
+      "observed_townships": 356
+    },
+    {
+      "rank": 7,
+      "surname": "吳",
+      "national_population": 935684,
+      "national_denominator": 23373283,
+      "national_share": 0.04003220257932957,
+      "local_stronghold": "雲林縣四湖鄉",
+      "local_count": 8085,
+      "local_population": 21282,
+      "local_share": 0.379898505779532,
+      "observed_townships": 362
+    },
+    {
+      "rank": 8,
+      "surname": "劉",
+      "national_population": 737607,
+      "national_denominator": 23373283,
+      "national_share": 0.03155769773548714,
+      "local_stronghold": "彰化縣社頭鄉",
+      "local_count": 5650,
+      "local_population": 41513,
+      "local_share": 0.13610194396935898,
+      "observed_townships": 349
+    },
+    {
+      "rank": 9,
+      "surname": "蔡",
+      "national_population": 684531,
+      "national_denominator": 23373283,
+      "national_share": 0.02928689991902293,
+      "local_stronghold": "嘉義縣布袋鎮",
+      "local_count": 5788,
+      "local_population": 24833,
+      "local_share": 0.23307695405307455,
+      "observed_townships": 318
+    },
+    {
+      "rank": 10,
+      "surname": "楊",
+      "national_population": 617799,
+      "national_denominator": 23373283,
+      "national_share": 0.026431845282496258,
+      "local_stronghold": "臺南市大內區",
+      "local_count": 2247,
+      "local_population": 8799,
+      "local_share": 0.2553699284009546,
+      "observed_townships": 340
+    },
+    {
+      "rank": 11,
+      "surname": "許",
+      "national_population": 540929,
+      "national_denominator": 23373283,
+      "national_share": 0.023143047555621517,
+      "local_stronghold": "雲林縣麥寮鄉",
+      "local_count": 11071,
+      "local_population": 49277,
+      "local_share": 0.22466870953994764,
+      "observed_townships": 297
+    },
+    {
+      "rank": 12,
+      "surname": "鄭",
+      "national_population": 440767,
+      "national_denominator": 23373283,
+      "national_share": 0.01885772743178611,
+      "local_stronghold": "彰化縣溪州鄉",
+      "local_count": 2853,
+      "local_population": 28419,
+      "local_share": 0.10039058376438298,
+      "observed_townships": 280
+    },
+    {
+      "rank": 13,
+      "surname": "謝",
+      "national_population": 412657,
+      "national_denominator": 23373283,
+      "national_share": 0.017655072246376344,
+      "local_stronghold": "臺東縣蘭嶼鄉",
+      "local_count": 556,
+      "local_population": 5320,
+      "local_share": 0.10451127819548872,
+      "observed_townships": 293
+    },
+    {
+      "rank": 14,
+      "surname": "洪",
+      "national_population": 352942,
+      "national_denominator": 23373283,
+      "national_share": 0.015100232175343105,
+      "local_stronghold": "金門縣烈嶼鄉",
+      "local_count": 2478,
+      "local_population": 12737,
+      "local_share": 0.1945513072151998,
+      "observed_townships": 182
+    },
+    {
+      "rank": 15,
+      "surname": "郭",
+      "national_population": 350072,
+      "national_denominator": 23373283,
+      "national_share": 0.014977442407213399,
+      "local_stronghold": "臺南市西港區",
+      "local_count": 2153,
+      "local_population": 24811,
+      "local_share": 0.08677602676232317,
+      "observed_townships": 180
+    },
+    {
+      "rank": 16,
+      "surname": "邱",
+      "national_population": 343469,
+      "national_denominator": 23373283,
+      "national_share": 0.014694940372732406,
+      "local_stronghold": "臺東縣海端鄉",
+      "local_count": 685,
+      "local_population": 4219,
+      "local_share": 0.1623607489926523,
+      "observed_townships": 203
+    },
+    {
+      "rank": 17,
+      "surname": "曾",
+      "national_population": 338779,
+      "national_denominator": 23373283,
+      "national_share": 0.014494283922374106,
+      "local_stronghold": "雲林縣褒忠鄉",
+      "local_count": 716,
+      "local_population": 11966,
+      "local_share": 0.05983620257395955,
+      "observed_townships": 247
+    },
+    {
+      "rank": 18,
+      "surname": "廖",
+      "national_population": 315819,
+      "national_denominator": 23373283,
+      "national_share": 0.013511965777336456,
+      "local_stronghold": "雲林縣二崙鄉",
+      "local_count": 7894,
+      "local_population": 24987,
+      "local_share": 0.3159242806259255,
+      "observed_townships": 127
+    },
+    {
+      "rank": 19,
+      "surname": "賴",
+      "national_population": 310053,
+      "national_denominator": 23373283,
+      "national_share": 0.013265273859902352,
+      "local_stronghold": "彰化縣大村鄉",
+      "local_count": 8509,
+      "local_population": 40258,
+      "local_share": 0.21136171692582842,
+      "observed_townships": 154
+    },
+    {
+      "rank": 20,
+      "surname": "徐",
+      "national_population": 294723,
+      "national_denominator": 23373283,
+      "national_share": 0.012609396805746116,
+      "local_stronghold": "屏東縣麟洛鄉",
+      "local_count": 1132,
+      "local_population": 10626,
+      "local_share": 0.10653115000941088,
+      "observed_townships": 127
+    }
+  ],
+  "national_denominator": 23373283,
+  "national_denominator_source": "Previously verified full registered-population total retained in data/top20_approved_records.json, not a sum of censored local surname counts.",
+  "max_added_reference_displacement_m": 13500,
+  "minimum_added_box_land_fraction": 0.8605830334722291,
+  "palette": "Vivid landscape-inspired surname colors, a full-canvas blue ocean and warm-white land. Table surname glyphs match primary map labels; other table text is uniform deep blue-gray.",
+  "crs": "EPSG:3826",
+  "leaders": [],
+  "screen_check": {
+    "width_preview": [
+      1440,
+      1543
+    ],
+    "min_surname_px_at_1440_width": 30.17142857142857,
+    "table_count_px_at_1440_width": 13.714285714285714
+  },
+  "missing_glyphs": [],
+  "clipped_text": [],
+  "text_box_overlaps": [],
+  "records": [
+    {
+      "rank": 1,
+      "surname": "陳",
+      "national_population": 2618994,
+      "font_size": 108.0,
+      "base_font_size": 108.0,
+      "font_reduction": 0,
+      "schematic_region": "North",
+      "panel": "Taiwan main map",
+      "label_x": 1172.0587348588992,
+      "label_y": 345.8285961750171,
+      "id": "base01",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9794813231551572,
+      "color": "#B94B36",
+      "landscape_color_cue": "Built-area-inspired brick"
+    },
+    {
+      "rank": 2,
+      "surname": "林",
+      "national_population": 1947520,
+      "font_size": 94.74144145971846,
+      "base_font_size": 94.74144145971846,
+      "font_reduction": 0,
+      "schematic_region": "North",
+      "panel": "Taiwan main map",
+      "label_x": 960.7504882907213,
+      "label_y": 408.95862389661124,
+      "id": "base02",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9019804662948163,
+      "color": "#B45B26",
+      "landscape_color_cue": "Built-area-inspired warm ochre"
+    },
+    {
+      "rank": 3,
+      "surname": "黃",
+      "national_population": 1402808,
+      "font_size": 82.17683689612382,
+      "base_font_size": 82.17683689612382,
+      "font_reduction": 0,
+      "schematic_region": "North",
+      "panel": "Taiwan main map",
+      "label_x": 922.9876747186422,
+      "label_y": 586.2758236981808,
+      "id": "base03",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9995082337306854,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "rank": 4,
+      "surname": "張",
+      "national_population": 1239880,
+      "font_size": 77.95739002790003,
+      "base_font_size": 77.95739002790003,
+      "font_reduction": 0,
+      "schematic_region": "Central west",
+      "panel": "Taiwan main map",
+      "label_x": 723.4705286868059,
+      "label_y": 798.0698133666301,
+      "id": "base04",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9911844206491593,
+      "color": "#B45B26",
+      "landscape_color_cue": "Built-area-inspired warm ochre"
+    },
+    {
+      "rank": 5,
+      "surname": "李",
+      "national_population": 1199920,
+      "font_size": 76.88082806123768,
+      "base_font_size": 76.88082806123768,
+      "font_reduction": 0,
+      "schematic_region": "South",
+      "panel": "Taiwan main map",
+      "label_x": 525.6387967856979,
+      "label_y": 1450.1037623715201,
+      "id": "base05",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9745317905376806,
+      "color": "#B94B36",
+      "landscape_color_cue": "Built-area-inspired brick"
+    },
+    {
+      "rank": 6,
+      "surname": "王",
+      "national_population": 955035,
+      "font_size": 69.84972210763144,
+      "base_font_size": 69.84972210763144,
+      "font_reduction": 0,
+      "schematic_region": "South",
+      "panel": "Taiwan main map",
+      "label_x": 591.9713698363123,
+      "label_y": 1640.094326623992,
+      "id": "base06",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9991485359919662,
+      "color": "#B45B26",
+      "landscape_color_cue": "Built-area-inspired warm ochre"
+    },
+    {
+      "rank": 7,
+      "surname": "吳",
+      "national_population": 935684,
+      "font_size": 69.257517600815,
+      "base_font_size": 69.257517600815,
+      "font_reduction": 0,
+      "schematic_region": "Central west",
+      "panel": "Taiwan main map",
+      "label_x": 774.4338974076868,
+      "label_y": 924.8884753255825,
+      "id": "base07",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9994672777425979,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "rank": 8,
+      "surname": "劉",
+      "national_population": 737607,
+      "font_size": 62.802623014756676,
+      "base_font_size": 62.802623014756676,
+      "font_reduction": 0,
+      "schematic_region": "East",
+      "panel": "Taiwan main map",
+      "label_x": 1264.408124992627,
+      "label_y": 507.24658955066843,
+      "id": "base08",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9996876547351179,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "rank": 9,
+      "surname": "蔡",
+      "national_population": 684531,
+      "font_size": 60.92944491329077,
+      "base_font_size": 60.92944491329077,
+      "font_reduction": 0,
+      "schematic_region": "Central west",
+      "panel": "Taiwan main map",
+      "label_x": 686.481678957862,
+      "label_y": 1182.9502607388113,
+      "id": "base09",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9996187775286824,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "rank": 10,
+      "surname": "楊",
+      "national_population": 617799,
+      "font_size": 58.46798710143162,
+      "base_font_size": 58.46798710143162,
+      "font_reduction": 0,
+      "schematic_region": "South",
+      "panel": "Taiwan main map",
+      "label_x": 651.3004441794939,
+      "label_y": 1523.0807739993015,
+      "id": "base10",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9998223883547303,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "rank": 11,
+      "surname": "許",
+      "national_population": 540929,
+      "font_size": 55.461346317699984,
+      "base_font_size": 55.461346317699984,
+      "font_reduction": 0,
+      "schematic_region": "North",
+      "panel": "Taiwan main map",
+      "label_x": 1060.575169797517,
+      "label_y": 538.7610480812709,
+      "id": "base11",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9998797859428891,
+      "color": "#276749",
+      "landscape_color_cue": "Forest-fringe-inspired ink green"
+    },
+    {
+      "rank": 12,
+      "surname": "鄭",
+      "national_population": 440767,
+      "font_size": 51.20185314950948,
+      "base_font_size": 51.20185314950948,
+      "font_reduction": 0,
+      "schematic_region": "Central west",
+      "panel": "Taiwan main map",
+      "label_x": 573.7374071537056,
+      "label_y": 1087.6746627600915,
+      "id": "base12",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9993038376447414,
+      "color": "#A3680D",
+      "landscape_color_cue": "Agricultural-plain-inspired deep mustard"
+    },
+    {
+      "rank": 13,
+      "surname": "謝",
+      "national_population": 412657,
+      "font_size": 49.92125331196168,
+      "base_font_size": 49.92125331196168,
+      "font_reduction": 0,
+      "schematic_region": "Lanyu",
+      "panel": "Taiwan main map",
+      "label_x": 1187.923984165756,
+      "label_y": 2003.868393518058,
+      "id": "base13",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": null,
+      "color": "#086B7B",
+      "landscape_color_cue": "Island-coast-inspired deep blue-green"
+    },
+    {
+      "rank": 14,
+      "surname": "洪",
+      "national_population": 352942,
+      "font_size": 47.047232699914076,
+      "base_font_size": 47.047232699914076,
+      "font_reduction": 0,
+      "schematic_region": "Kinmen",
+      "panel": "Kinmen locator",
+      "label_x": 273.07784612161583,
+      "label_y": 350.0786379305282,
+      "id": "base14",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": null,
+      "color": "#326777",
+      "landscape_color_cue": "Island-rock-inspired slate"
+    },
+    {
+      "rank": 15,
+      "surname": "郭",
+      "national_population": 350072,
+      "font_size": 46.90319475468525,
+      "base_font_size": 46.90319475468525,
+      "font_reduction": 0,
+      "schematic_region": "Central west",
+      "panel": "Taiwan main map",
+      "label_x": 572.752848827066,
+      "label_y": 1305.268104806155,
+      "id": "base15",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9993350392102169,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "rank": 16,
+      "surname": "邱",
+      "national_population": 343469,
+      "font_size": 46.56954850255597,
+      "base_font_size": 46.56954850255597,
+      "font_reduction": 0,
+      "schematic_region": "East",
+      "panel": "Taiwan main map",
+      "label_x": 1187.2111440517197,
+      "label_y": 931.0133031580081,
+      "id": "base16",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9508978418072743,
+      "color": "#147D92",
+      "landscape_color_cue": "Eastern-coastal-inspired blue-green"
+    },
+    {
+      "rank": 17,
+      "surname": "曾",
+      "national_population": 338779,
+      "font_size": 46.330613170286874,
+      "base_font_size": 46.330613170286874,
+      "font_reduction": 0,
+      "schematic_region": "Central west",
+      "panel": "Taiwan main map",
+      "label_x": 664.361523245679,
+      "label_y": 991.2491223524648,
+      "id": "base17",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9991038632538563,
+      "color": "#A3680D",
+      "landscape_color_cue": "Agricultural-plain-inspired deep mustard"
+    },
+    {
+      "rank": 18,
+      "surname": "廖",
+      "national_population": 315819,
+      "font_size": 45.1362745752801,
+      "base_font_size": 45.1362745752801,
+      "font_reduction": 0,
+      "schematic_region": "North",
+      "panel": "Taiwan main map",
+      "label_x": 1160.8055464832141,
+      "label_y": 519.8123902416464,
+      "id": "base18",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9998353439699905,
+      "color": "#276749",
+      "landscape_color_cue": "Forest-fringe-inspired ink green"
+    },
+    {
+      "rank": 19,
+      "surname": "賴",
+      "national_population": 310053,
+      "font_size": 44.829575414848975,
+      "base_font_size": 44.829575414848975,
+      "font_reduction": 0,
+      "schematic_region": "North",
+      "panel": "Taiwan main map",
+      "label_x": 838.321758257322,
+      "label_y": 702.1575446412971,
+      "id": "base19",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.9996221750082731,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "rank": 20,
+      "surname": "徐",
+      "national_population": 294723,
+      "font_size": 44.0,
+      "base_font_size": 44.0,
+      "font_reduction": 0,
+      "schematic_region": "South",
+      "panel": "Taiwan main map",
+      "label_x": 662.5672710485134,
+      "label_y": 1778.839421387258,
+      "id": "base20",
+      "label_type": "Original schematic label",
+      "original_label_extra_shift_px": 0,
+      "baseline_land_box_fraction": 0.8876733309772941,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "id": "add02",
+      "surname": "王",
+      "source_place": "臺北市內湖區",
+      "towncode": "63000100",
+      "source_local_rank": 6,
+      "source_local_count": 12350,
+      "source_local_population": 275447,
+      "source_local_share": 0.04483621168500655,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 6,
+      "national_population": 955035,
+      "font_size": 69.84972210763144,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 1275.106825862851,
+      "label_y": 329.177408908547,
+      "source_projected_m": [
+        310214.80080577784,
+        2775209.1552134133
+      ],
+      "source_reference_x": 1211.0441583572492,
+      "source_reference_y": 315.5604685721464,
+      "local_reference_displacement_m": 13000,
+      "land_box_fraction": 0.9995869553510217,
+      "color": "#276749",
+      "landscape_color_cue": "Forest-fringe-inspired ink green"
+    },
+    {
+      "id": "add15",
+      "surname": "王",
+      "source_place": "臺南市永康區",
+      "towncode": "67000310",
+      "source_local_rank": 4,
+      "source_local_count": 12716,
+      "source_local_population": 234939,
+      "source_local_share": 0.054124687684888415,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 6,
+      "national_population": 955035,
+      "font_size": 69.84972210763144,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 528.8210966845811,
+      "label_y": 1530.5115418026232,
+      "source_projected_m": [
+        173387.9338011276,
+        2547477.287677604
+      ],
+      "source_reference_x": 521.7118169006296,
+      "source_reference_y": 1462.8712629310721,
+      "local_reference_displacement_m": 13500,
+      "land_box_fraction": 0.9971585478566188,
+      "color": "#A65128",
+      "landscape_color_cue": "Settlement-fringe-inspired warm brown"
+    },
+    {
+      "id": "add20",
+      "surname": "王",
+      "source_place": "臺東縣臺東市",
+      "towncode": "10014010",
+      "source_local_rank": 6,
+      "source_local_count": 4550,
+      "source_local_population": 103291,
+      "source_local_share": 0.04405030447957712,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 6,
+      "national_population": 955035,
+      "font_size": 69.84972210763144,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 950.9511792547643,
+      "label_y": 1615.0150833336038,
+      "source_projected_m": [
+        259588.4584448507,
+        2515545.925118888
+      ],
+      "source_reference_x": 955.9891689167887,
+      "source_reference_y": 1623.7411373962368,
+      "local_reference_displacement_m": 2000,
+      "land_box_fraction": 0.896491285118917,
+      "color": "#147D92",
+      "landscape_color_cue": "Eastern-coastal-inspired blue-green"
+    },
+    {
+      "id": "add03",
+      "surname": "劉",
+      "source_place": "新北市三峽區",
+      "towncode": "65000090",
+      "source_local_rank": 7,
+      "source_local_count": 4976,
+      "source_local_population": 115586,
+      "source_local_share": 0.04305019639056633,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 8,
+      "national_population": 737607,
+      "font_size": 62.802623014756676,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 1120.1415986193483,
+      "label_y": 439.54351530791786,
+      "source_projected_m": [
+        292484.9669279491,
+        2753583.0938353073
+      ],
+      "source_reference_x": 1121.7214385713376,
+      "source_reference_y": 424.51234222535095,
+      "local_reference_displacement_m": 3000,
+      "land_box_fraction": 0.9998658143411148,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "id": "add09",
+      "surname": "劉",
+      "source_place": "臺中市豐原區",
+      "towncode": "66000090",
+      "source_local_rank": 4,
+      "source_local_count": 8929,
+      "source_local_population": 163968,
+      "source_local_share": 0.0544557474629196,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 8,
+      "national_population": 737607,
+      "font_size": 62.802623014756676,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 807.3348648452787,
+      "label_y": 781.4896444985534,
+      "source_projected_m": [
+        223581.787323224,
+        2682726.0007840768
+      ],
+      "source_reference_x": 774.58793204212,
+      "source_reference_y": 781.4896444985534,
+      "local_reference_displacement_m": 6500,
+      "land_box_fraction": 0.9992890993666215,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "id": "add16",
+      "surname": "劉",
+      "source_place": "高雄市美濃區",
+      "towncode": "64000310",
+      "source_local_rank": 1,
+      "source_local_count": 3871,
+      "source_local_population": 37206,
+      "source_local_share": 0.1040423587593399,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 8,
+      "national_population": 737607,
+      "font_size": 62.802623014756676,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 726.0170976578783,
+      "label_y": 1542.7939449101432,
+      "source_projected_m": [
+        203940.87147332443,
+        2531613.284902545
+      ],
+      "source_reference_x": 675.637201037634,
+      "source_reference_y": 1542.7939449101432,
+      "local_reference_displacement_m": 10000,
+      "land_box_fraction": 0.999756140866014,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "id": "add14",
+      "surname": "蔡",
+      "source_place": "臺南市新營區",
+      "towncode": "67000010",
+      "source_local_rank": 6,
+      "source_local_count": 3349,
+      "source_local_population": 75035,
+      "source_local_share": 0.04463250483107883,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 9,
+      "national_population": 684531,
+      "font_size": 60.92944491329077,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 504.00654507924787,
+      "label_y": 1302.6269779982395,
+      "source_projected_m": [
+        179373.5812499818,
+        2579284.4757988355
+      ],
+      "source_reference_x": 551.86744686848,
+      "source_reference_y": 1302.6269779982395,
+      "local_reference_displacement_m": 9500,
+      "land_box_fraction": 0.9995805681408927,
+      "color": "#A3680D",
+      "landscape_color_cue": "Agricultural-plain-inspired deep mustard"
+    },
+    {
+      "id": "add01",
+      "surname": "楊",
+      "source_place": "臺北市北投區",
+      "towncode": "63000120",
+      "source_local_rank": 9,
+      "source_local_count": 6055,
+      "source_local_population": 242093,
+      "source_local_share": 0.02501104947272329,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 10,
+      "national_population": 617799,
+      "font_size": 58.46798710143162,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 1174.8884435864277,
+      "label_y": 254.13280014556926,
+      "source_projected_m": [
+        300875.0663305646,
+        2780744.6525085187
+      ],
+      "source_reference_x": 1163.9906726250717,
+      "source_reference_y": 287.67269042524094,
+      "local_reference_displacement_m": 7000,
+      "land_box_fraction": 0.9997445051265508,
+      "color": "#276749",
+      "landscape_color_cue": "Forest-fringe-inspired ink green"
+    },
+    {
+      "id": "add19",
+      "surname": "楊",
+      "source_place": "花蓮縣吉安鄉",
+      "towncode": "10015050",
+      "source_local_rank": 9,
+      "source_local_count": 2013,
+      "source_local_population": 83067,
+      "source_local_share": 0.024233450106540502,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 10,
+      "national_population": 617799,
+      "font_size": 58.46798710143162,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 1189.9805431986372,
+      "label_y": 995.5740331780991,
+      "source_projected_m": [
+        307079.1290309043,
+        2650177.208625891
+      ],
+      "source_reference_x": 1195.2466763719347,
+      "source_reference_y": 945.470122902876,
+      "local_reference_displacement_m": 10000,
+      "land_box_fraction": 0.8605830334722291,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "id": "add11",
+      "surname": "許",
+      "source_place": "彰化縣鹿港鎮",
+      "towncode": "10007020",
+      "source_local_rank": 3,
+      "source_local_count": 6689,
+      "source_local_population": 85007,
+      "source_local_share": 0.07868763748867741,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 11,
+      "national_population": 540929,
+      "font_size": 55.461346317699984,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 619.3074196543245,
+      "label_y": 872.3394032396245,
+      "source_projected_m": [
+        191846.32224985148,
+        2665099.798728234
+      ],
+      "source_reference_x": 614.7049870829317,
+      "source_reference_y": 870.2902682366421,
+      "local_reference_displacement_m": 1000,
+      "land_box_fraction": 0.9261236237455346,
+      "color": "#A3680D",
+      "landscape_color_cue": "Agricultural-plain-inspired deep mustard"
+    },
+    {
+      "id": "add13",
+      "surname": "許",
+      "source_place": "嘉義縣民雄鄉",
+      "towncode": "10010050",
+      "source_local_rank": 8,
+      "source_local_count": 2806,
+      "source_local_population": 70422,
+      "source_local_share": 0.03984550282582148,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 11,
+      "national_population": 540929,
+      "font_size": 55.461346317699984,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 614.4935241182188,
+      "label_y": 1167.9698507516168,
+      "source_projected_m": [
+        193631.4394853757,
+        2605199.3478012118
+      ],
+      "source_reference_x": 623.6983892610044,
+      "source_reference_y": 1172.0681207575817,
+      "local_reference_displacement_m": 2000,
+      "land_box_fraction": 0.9992563652427303,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "id": "add18",
+      "surname": "許",
+      "source_place": "宜蘭縣宜蘭市",
+      "towncode": "10002010",
+      "source_local_rank": 10,
+      "source_local_count": 1859,
+      "source_local_population": 95033,
+      "source_local_share": 0.01956162596150811,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 11,
+      "national_population": 540929,
+      "font_size": 55.461346317699984,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 1288.8287958700807,
+      "label_y": 435.94159313272115,
+      "source_projected_m": [
+        327013.28915442416,
+        2738385.6957853884
+      ],
+      "source_reference_x": 1295.6747689953672,
+      "source_reference_y": 501.0766764905111,
+      "local_reference_displacement_m": 13000,
+      "land_box_fraction": 0.9996168323040868,
+      "color": "#147D92",
+      "landscape_color_cue": "Eastern-coastal-inspired blue-green"
+    },
+    {
+      "id": "add07",
+      "surname": "邱",
+      "source_place": "苗栗縣銅鑼鄉",
+      "towncode": "10005100",
+      "source_local_rank": 5,
+      "source_local_count": 971,
+      "source_local_population": 16606,
+      "source_local_share": 0.05847284114175599,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 16,
+      "national_population": 343469,
+      "font_size": 46.56954850255597,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 796.3427314704373,
+      "label_y": 645.0433972695367,
+      "source_projected_m": [
+        228265.78781192077,
+        2706328.6452136617
+      ],
+      "source_reference_x": 798.1858780810915,
+      "source_reference_y": 662.5797658658648,
+      "local_reference_displacement_m": 3500,
+      "land_box_fraction": 0.9993707050940687,
+      "color": "#3E793E",
+      "landscape_color_cue": "Foothill-inspired moss"
+    },
+    {
+      "id": "add17",
+      "surname": "曾",
+      "source_place": "屏東縣內埔鄉",
+      "towncode": "10013130",
+      "source_local_rank": 7,
+      "source_local_count": 2302,
+      "source_local_population": 52497,
+      "source_local_share": 0.043850124769034424,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 17,
+      "national_population": 338779,
+      "font_size": 46.330613170286874,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 695.5329854593065,
+      "label_y": 1672.2925042192674,
+      "source_projected_m": [
+        207890.02297151898,
+        2505908.8734216597
+      ],
+      "source_reference_x": 695.5329854593065,
+      "source_reference_y": 1672.2925042192674,
+      "local_reference_displacement_m": 0,
+      "land_box_fraction": 0.99921954042103,
+      "color": "#637B28",
+      "landscape_color_cue": "Agricultural-plain-inspired olive"
+    },
+    {
+      "id": "add08",
+      "surname": "廖",
+      "source_place": "臺中市西屯區",
+      "towncode": "66000060",
+      "source_local_rank": 7,
+      "source_local_count": 8899,
+      "source_local_population": 234071,
+      "source_local_share": 0.038018379038838646,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 18,
+      "national_population": 315819,
+      "font_size": 45.1362745752801,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 697.7367383714252,
+      "label_y": 871.9356144811898,
+      "source_projected_m": [
+        211726.63695097502,
+        2675234.8325510286
+      ],
+      "source_reference_x": 714.8618070249845,
+      "source_reference_y": 819.2300726131343,
+      "local_reference_displacement_m": 11000,
+      "land_box_fraction": 0.999450814668154,
+      "color": "#B45B26",
+      "landscape_color_cue": "Built-area-inspired warm ochre"
+    },
+    {
+      "id": "add12",
+      "surname": "廖",
+      "source_place": "雲林縣二崙鄉",
+      "towncode": "10009110",
+      "source_local_rank": 1,
+      "source_local_count": 7894,
+      "source_local_population": 24987,
+      "source_local_share": 0.3159242806259255,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 18,
+      "national_population": 315819,
+      "font_size": 45.1362745752801,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 598.0711027877265,
+      "label_y": 1028.2528155966563,
+      "source_projected_m": [
+        188440.1029513309,
+        2632750.9950742684
+      ],
+      "source_reference_x": 597.5444894703968,
+      "source_reference_y": 1033.2632066241786,
+      "local_reference_displacement_m": 1000,
+      "land_box_fraction": 0.9994920841323892,
+      "color": "#A3680D",
+      "landscape_color_cue": "Agricultural-plain-inspired deep mustard"
+    },
+    {
+      "id": "add10",
+      "surname": "賴",
+      "source_place": "彰化縣員林市",
+      "towncode": "10007100",
+      "source_local_rank": 7,
+      "source_local_count": 5242,
+      "source_local_population": 122814,
+      "source_local_share": 0.042682430341817706,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 19,
+      "national_population": 310053,
+      "font_size": 44.829575414848975,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 698.7008263181575,
+      "label_y": 934.4091189245084,
+      "source_projected_m": [
+        209136.84762308616,
+        2650470.614981072
+      ],
+      "source_reference_x": 701.8144751642592,
+      "source_reference_y": 943.9919447187003,
+      "local_reference_displacement_m": 2000,
+      "land_box_fraction": 0.9989489342678965,
+      "color": "#A65128",
+      "landscape_color_cue": "Settlement-fringe-inspired warm brown"
+    },
+    {
+      "id": "add04",
+      "surname": "徐",
+      "source_place": "桃園市楊梅區",
+      "towncode": "68000040",
+      "source_local_rank": 9,
+      "source_local_count": 5077,
+      "source_local_population": 178925,
+      "source_local_share": 0.02837501746541847,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 20,
+      "national_population": 294723,
+      "font_size": 44.0,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 1043.1948638569597,
+      "label_y": 410.89060192038414,
+      "source_projected_m": [
+        265398.08009761304,
+        2756286.898570685
+      ],
+      "source_reference_x": 985.2579827436787,
+      "source_reference_y": 410.89060192038414,
+      "local_reference_displacement_m": 11500,
+      "land_box_fraction": 0.9994048386709633,
+      "color": "#B45B26",
+      "landscape_color_cue": "Built-area-inspired warm ochre"
+    },
+    {
+      "id": "add05",
+      "surname": "徐",
+      "source_place": "新竹縣湖口鄉",
+      "towncode": "10004050",
+      "source_local_rank": 5,
+      "source_local_count": 3323,
+      "source_local_population": 82077,
+      "source_local_share": 0.040486372552603046,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 20,
+      "national_population": 294723,
+      "font_size": 44.0,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 937.2737138120548,
+      "label_y": 488.49725524782093,
+      "source_projected_m": [
+        254619.25116334332,
+        2752816.8714031135
+      ],
+      "source_reference_x": 930.9543540040979,
+      "source_reference_y": 428.3725629175533,
+      "local_reference_displacement_m": 12000,
+      "land_box_fraction": 0.9990193640534045,
+      "color": "#A65128",
+      "landscape_color_cue": "Settlement-fringe-inspired warm brown"
+    },
+    {
+      "id": "add06",
+      "surname": "徐",
+      "source_place": "苗栗縣頭份市",
+      "towncode": "10005050",
+      "source_local_rank": 5,
+      "source_local_count": 4369,
+      "source_local_population": 105803,
+      "source_local_share": 0.04129372513066737,
+      "source_period": "2023-06-30",
+      "source_dataset": "https://data.gov.tw/en/datasets/42518",
+      "rank": 20,
+      "national_population": 294723,
+      "font_size": 44.0,
+      "font_reduction": 0,
+      "label_type": "Selected local occurrence",
+      "panel": "Taiwan main map",
+      "label_x": 846.7045722881096,
+      "label_y": 540.0926626742566,
+      "source_projected_m": [
+        241396.35426042788,
+        2730641.3396431278
+      ],
+      "source_reference_x": 864.3375361051951,
+      "source_reference_y": 540.0926626742566,
+      "local_reference_displacement_m": 3500,
+      "land_box_fraction": 0.8794762038407122,
+      "color": "#B94B36",
+      "landscape_color_cue": "Built-area-inspired brick"
+    }
+  ],
+  "text_boxes": [
+    {
+      "text": "KINMEN",
+      "role": "annotation",
+      "bounds": [
+        175,
+        278,
+        245.0,
+        291.0
+      ],
+      "size": 18,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "5 km · island locator",
+      "role": "annotation",
+      "bounds": [
+        175,
+        505,
+        310.5,
+        516.0
+      ],
+      "size": 15,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "陳",
+      "role": "map_surname",
+      "bounds": [
+        1118.0587348588992,
+        295.5785961750171,
+        1226.0587348588992,
+        396.0785961750171
+      ],
+      "size": 108.0,
+      "cjk": true,
+      "color": "#B94B36"
+    },
+    {
+      "text": "林",
+      "role": "map_surname",
+      "bounds": [
+        913.5004882907213,
+        364.70862389661124,
+        1008.0004882907213,
+        453.20862389661124
+      ],
+      "size": 94.74144145971846,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "黃",
+      "role": "map_surname",
+      "bounds": [
+        881.9876747186422,
+        547.5258236981808,
+        963.9876747186422,
+        625.0258236981808
+      ],
+      "size": 82.17683689612382,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "張",
+      "role": "map_surname",
+      "bounds": [
+        684.4705286868059,
+        761.3198133666301,
+        762.4705286868059,
+        834.8198133666301
+      ],
+      "size": 77.95739002790003,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "李",
+      "role": "map_surname",
+      "bounds": [
+        487.1387967856979,
+        1413.8537623715201,
+        564.1387967856979,
+        1486.3537623715201
+      ],
+      "size": 76.88082806123768,
+      "cjk": true,
+      "color": "#B94B36"
+    },
+    {
+      "text": "王",
+      "role": "map_surname",
+      "bounds": [
+        556.9713698363123,
+        1609.594326623992,
+        626.9713698363123,
+        1670.594326623992
+      ],
+      "size": 69.84972210763144,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "吳",
+      "role": "map_surname",
+      "bounds": [
+        739.6838974076868,
+        892.3884753255825,
+        809.1838974076868,
+        957.3884753255825
+      ],
+      "size": 69.257517600815,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "劉",
+      "role": "map_surname",
+      "bounds": [
+        1232.908124992627,
+        477.24658955066843,
+        1295.908124992627,
+        537.2465895506684
+      ],
+      "size": 62.802623014756676,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "蔡",
+      "role": "map_surname",
+      "bounds": [
+        655.981678957862,
+        1154.2002607388113,
+        716.981678957862,
+        1211.7002607388113
+      ],
+      "size": 60.92944491329077,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "楊",
+      "role": "map_surname",
+      "bounds": [
+        622.0504441794939,
+        1495.5807739993015,
+        680.5504441794939,
+        1550.5807739993015
+      ],
+      "size": 58.46798710143162,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "許",
+      "role": "map_surname",
+      "bounds": [
+        1032.825169797517,
+        512.7610480812709,
+        1088.325169797517,
+        564.7610480812709
+      ],
+      "size": 55.461346317699984,
+      "cjk": true,
+      "color": "#276749"
+    },
+    {
+      "text": "鄭",
+      "role": "map_surname",
+      "bounds": [
+        548.2374071537056,
+        1063.4246627600915,
+        599.2374071537056,
+        1111.9246627600915
+      ],
+      "size": 51.20185314950948,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "謝",
+      "role": "map_surname",
+      "bounds": [
+        1162.923984165756,
+        1980.368393518058,
+        1212.923984165756,
+        2027.368393518058
+      ],
+      "size": 49.92125331196168,
+      "cjk": true,
+      "color": "#086B7B"
+    },
+    {
+      "text": "洪",
+      "role": "map_surname",
+      "bounds": [
+        249.57784612161583,
+        328.0786379305282,
+        296.57784612161583,
+        372.0786379305282
+      ],
+      "size": 47.047232699914076,
+      "cjk": true,
+      "color": "#326777"
+    },
+    {
+      "text": "郭",
+      "role": "map_surname",
+      "bounds": [
+        549.252848827066,
+        1283.018104806155,
+        596.252848827066,
+        1327.518104806155
+      ],
+      "size": 46.90319475468525,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "邱",
+      "role": "map_surname",
+      "bounds": [
+        1163.9611440517197,
+        908.7633031580081,
+        1210.4611440517197,
+        953.2633031580081
+      ],
+      "size": 46.56954850255597,
+      "cjk": true,
+      "color": "#147D92"
+    },
+    {
+      "text": "曾",
+      "role": "map_surname",
+      "bounds": [
+        641.111523245679,
+        969.2491223524648,
+        687.611523245679,
+        1013.2491223524648
+      ],
+      "size": 46.330613170286874,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "廖",
+      "role": "map_surname",
+      "bounds": [
+        1138.3055464832141,
+        498.0623902416464,
+        1183.3055464832141,
+        541.5623902416464
+      ],
+      "size": 45.1362745752801,
+      "cjk": true,
+      "color": "#276749"
+    },
+    {
+      "text": "賴",
+      "role": "map_surname",
+      "bounds": [
+        815.821758257322,
+        680.9075446412971,
+        860.821758257322,
+        723.4075446412971
+      ],
+      "size": 44.829575414848975,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "徐",
+      "role": "map_surname",
+      "bounds": [
+        640.5672710485134,
+        1758.089421387258,
+        684.5672710485134,
+        1799.589421387258
+      ],
+      "size": 44.0,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "王",
+      "role": "map_surname",
+      "bounds": [
+        1240.106825862851,
+        298.677408908547,
+        1310.106825862851,
+        359.677408908547
+      ],
+      "size": 69.84972210763144,
+      "cjk": true,
+      "color": "#276749"
+    },
+    {
+      "text": "王",
+      "role": "map_surname",
+      "bounds": [
+        493.8210966845811,
+        1500.0115418026232,
+        563.8210966845811,
+        1561.0115418026232
+      ],
+      "size": 69.84972210763144,
+      "cjk": true,
+      "color": "#A65128"
+    },
+    {
+      "text": "王",
+      "role": "map_surname",
+      "bounds": [
+        915.9511792547643,
+        1584.5150833336038,
+        985.9511792547643,
+        1645.5150833336038
+      ],
+      "size": 69.84972210763144,
+      "cjk": true,
+      "color": "#147D92"
+    },
+    {
+      "text": "劉",
+      "role": "map_surname",
+      "bounds": [
+        1088.6415986193483,
+        409.54351530791786,
+        1151.6415986193483,
+        469.54351530791786
+      ],
+      "size": 62.802623014756676,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "劉",
+      "role": "map_surname",
+      "bounds": [
+        775.8348648452787,
+        751.4896444985534,
+        838.8348648452787,
+        811.4896444985534
+      ],
+      "size": 62.802623014756676,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "劉",
+      "role": "map_surname",
+      "bounds": [
+        694.5170976578783,
+        1512.7939449101432,
+        757.5170976578783,
+        1572.7939449101432
+      ],
+      "size": 62.802623014756676,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "蔡",
+      "role": "map_surname",
+      "bounds": [
+        473.50654507924787,
+        1273.8769779982395,
+        534.5065450792479,
+        1331.3769779982395
+      ],
+      "size": 60.92944491329077,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "楊",
+      "role": "map_surname",
+      "bounds": [
+        1145.6384435864277,
+        226.63280014556926,
+        1204.1384435864277,
+        281.63280014556926
+      ],
+      "size": 58.46798710143162,
+      "cjk": true,
+      "color": "#276749"
+    },
+    {
+      "text": "楊",
+      "role": "map_surname",
+      "bounds": [
+        1160.7305431986372,
+        968.0740331780991,
+        1219.2305431986372,
+        1023.0740331780991
+      ],
+      "size": 58.46798710143162,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "許",
+      "role": "map_surname",
+      "bounds": [
+        591.5574196543245,
+        846.3394032396245,
+        647.0574196543245,
+        898.3394032396245
+      ],
+      "size": 55.461346317699984,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "許",
+      "role": "map_surname",
+      "bounds": [
+        586.7435241182188,
+        1141.9698507516168,
+        642.2435241182188,
+        1193.9698507516168
+      ],
+      "size": 55.461346317699984,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "許",
+      "role": "map_surname",
+      "bounds": [
+        1261.0787958700807,
+        409.94159313272115,
+        1316.5787958700807,
+        461.94159313272115
+      ],
+      "size": 55.461346317699984,
+      "cjk": true,
+      "color": "#147D92"
+    },
+    {
+      "text": "邱",
+      "role": "map_surname",
+      "bounds": [
+        773.0927314704373,
+        622.7933972695367,
+        819.5927314704373,
+        667.2933972695367
+      ],
+      "size": 46.56954850255597,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "曾",
+      "role": "map_surname",
+      "bounds": [
+        672.2829854593065,
+        1650.2925042192674,
+        718.7829854593065,
+        1694.2925042192674
+      ],
+      "size": 46.330613170286874,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "廖",
+      "role": "map_surname",
+      "bounds": [
+        675.2367383714252,
+        850.1856144811898,
+        720.2367383714252,
+        893.6856144811898
+      ],
+      "size": 45.1362745752801,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "廖",
+      "role": "map_surname",
+      "bounds": [
+        575.5711027877265,
+        1006.5028155966563,
+        620.5711027877265,
+        1050.0028155966563
+      ],
+      "size": 45.1362745752801,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "賴",
+      "role": "map_surname",
+      "bounds": [
+        676.2008263181575,
+        913.1591189245084,
+        721.2008263181575,
+        955.6591189245084
+      ],
+      "size": 44.829575414848975,
+      "cjk": true,
+      "color": "#A65128"
+    },
+    {
+      "text": "徐",
+      "role": "map_surname",
+      "bounds": [
+        1021.1948638569597,
+        390.14060192038414,
+        1065.1948638569597,
+        431.64060192038414
+      ],
+      "size": 44.0,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "徐",
+      "role": "map_surname",
+      "bounds": [
+        915.2737138120548,
+        467.74725524782093,
+        959.2737138120548,
+        509.24725524782093
+      ],
+      "size": 44.0,
+      "cjk": true,
+      "color": "#A65128"
+    },
+    {
+      "text": "徐",
+      "role": "map_surname",
+      "bounds": [
+        824.7045722881096,
+        519.3426626742566,
+        868.7045722881096,
+        560.8426626742566
+      ],
+      "size": 44.0,
+      "cjk": true,
+      "color": "#B94B36"
+    },
+    {
+      "text": "LANYU",
+      "role": "annotation",
+      "bounds": [
+        1229.423984165756,
+        2011.868393518058,
+        1276.423984165756,
+        2021.868393518058
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "DAY 09 / URBAN–RURAL",
+      "role": "annotation",
+      "bounds": [
+        55,
+        37,
+        276.0,
+        50.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#163D50"
+    },
+    {
+      "text": "A Landscape of Surnames",
+      "role": "annotation",
+      "bounds": [
+        55,
+        77,
+        679.5,
+        126.0
+      ],
+      "size": 53,
+      "cjk": false,
+      "color": "#163D50"
+    },
+    {
+      "text": "Twenty leading surnames with twenty selected local occurrences",
+      "role": "annotation",
+      "bounds": [
+        57,
+        146,
+        655.5,
+        165.0
+      ],
+      "size": 21,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Household-registered population · 30 June 2023 · layout study",
+      "role": "annotation",
+      "bounds": [
+        57,
+        182,
+        526.0,
+        198.0
+      ],
+      "size": 17,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Ming Cao",
+      "role": "annotation",
+      "bounds": [
+        1930,
+        182,
+        2023.5,
+        202.5
+      ],
+      "size": 22,
+      "cjk": false,
+      "color": "#163D50"
+    },
+    {
+      "text": "N",
+      "role": "annotation",
+      "bounds": [
+        1360,
+        238,
+        1371.5,
+        249.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "50 km",
+      "role": "annotation",
+      "bounds": [
+        1160,
+        2100,
+        1201.0,
+        2111.0
+      ],
+      "size": 15,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "TAIWAN TOTALS / LOCAL STRONGHOLDS",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        237,
+        1848.0,
+        250.0
+      ],
+      "size": 18,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Surname",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        280,
+        1550.5,
+        291.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Taiwan total",
+      "role": "annotation",
+      "bounds": [
+        1620,
+        280,
+        1707.0,
+        291.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "National share",
+      "role": "annotation",
+      "bounds": [
+        1860,
+        280,
+        1964.0,
+        291.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Local stronghold (highest observed)",
+      "role": "annotation",
+      "bounds": [
+        1515,
+        310,
+        1772.0,
+        324.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Local share",
+      "role": "annotation",
+      "bounds": [
+        1940,
+        310,
+        2023.5,
+        321.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "01",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        364,
+        1501.0,
+        374.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "陳",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        360,
+        1548.0,
+        386.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#B94B36"
+    },
+    {
+      "text": "2,618,994",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        363,
+        1708.0,
+        380.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "11.21%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        363,
+        1947.5,
+        377.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "南投縣名間鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        393,
+        1634.0,
+        411.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "30.22%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        394,
+        2014.5,
+        407.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "02",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        448,
+        1501.0,
+        458.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "林",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        444,
+        1548.0,
+        470.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "1,947,520",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        447,
+        1708.0,
+        464.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "8.33%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        447,
+        1936.5,
+        461.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣臺西鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        477,
+        1634.0,
+        495.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "31.73%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        478,
+        2014.5,
+        491.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "03",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        532,
+        1501.0,
+        542.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "黃",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        528,
+        1548.0,
+        555.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "1,402,808",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        531,
+        1708.0,
+        548.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "6.00%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        531,
+        1936.5,
+        545.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "彰化縣線西鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        561,
+        1634.0,
+        579.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "32.78%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        562,
+        2014.5,
+        575.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "04",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        616,
+        1501.0,
+        626.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "張",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        612,
+        1548.0,
+        638.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "1,239,880",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        615,
+        1708.0,
+        632.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "5.30%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        615,
+        1936.5,
+        629.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣林內鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        645,
+        1634.0,
+        663.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "16.54%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        646,
+        2014.5,
+        659.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "05",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        700,
+        1501.0,
+        710.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "李",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        696,
+        1548.0,
+        723.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#B94B36"
+    },
+    {
+      "text": "1,199,920",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        699,
+        1708.0,
+        716.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "5.13%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        699,
+        1936.5,
+        713.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣崙背鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        729,
+        1634.0,
+        747.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "21.34%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        730,
+        2014.5,
+        743.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "06",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        784,
+        1501.0,
+        794.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "王",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        780,
+        1548.0,
+        805.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#B45B26"
+    },
+    {
+      "text": "955,035",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        783,
+        1691.5,
+        800.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "4.09%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        783,
+        1936.5,
+        797.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "臺南市安定區",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        813,
+        1634.0,
+        831.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "18.64%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        814,
+        2014.5,
+        827.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "07",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        868,
+        1501.0,
+        878.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "吳",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        864,
+        1548.0,
+        890.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "935,684",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        867,
+        1691.5,
+        884.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "4.00%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        867,
+        1936.5,
+        881.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣四湖鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        897,
+        1634.0,
+        915.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "37.99%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        898,
+        2014.5,
+        911.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "08",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        952,
+        1501.0,
+        962.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "劉",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        948,
+        1548.0,
+        975.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "737,607",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        951,
+        1691.5,
+        968.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "3.16%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        951,
+        1936.5,
+        965.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "彰化縣社頭鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        981,
+        1634.0,
+        999.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "13.61%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        982,
+        2014.5,
+        995.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "09",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1036,
+        1501.0,
+        1046.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "蔡",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1032,
+        1548.0,
+        1058.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "684,531",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1035,
+        1691.5,
+        1052.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "2.93%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1035,
+        1936.5,
+        1049.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "嘉義縣布袋鎮",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1065,
+        1634.0,
+        1083.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "23.31%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1066,
+        2014.5,
+        1079.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "10",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1120,
+        1501.0,
+        1130.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "楊",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1116,
+        1548.0,
+        1143.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "617,799",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1119,
+        1691.5,
+        1136.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "2.64%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1119,
+        1936.5,
+        1133.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "臺南市大內區",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1149,
+        1634.0,
+        1167.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "25.54%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1150,
+        2014.5,
+        1163.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "11",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1204,
+        1501.0,
+        1214.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "許",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1200,
+        1548.0,
+        1226.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#276749"
+    },
+    {
+      "text": "540,929",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1203,
+        1691.5,
+        1220.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "2.31%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1203,
+        1936.5,
+        1217.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣麥寮鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1233,
+        1634.0,
+        1251.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "22.47%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1234,
+        2014.5,
+        1247.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "12",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1288,
+        1501.0,
+        1298.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "鄭",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1284,
+        1548.0,
+        1311.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "440,767",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1287,
+        1691.5,
+        1304.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.89%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1287,
+        1936.5,
+        1301.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "彰化縣溪州鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1317,
+        1634.0,
+        1335.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "10.04%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1318,
+        2014.5,
+        1331.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "13",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1372,
+        1501.0,
+        1382.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "謝",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1368,
+        1548.0,
+        1394.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#086B7B"
+    },
+    {
+      "text": "412,657",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1371,
+        1691.5,
+        1388.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.77%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1371,
+        1936.5,
+        1385.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "臺東縣蘭嶼鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1401,
+        1634.0,
+        1419.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "10.45%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1402,
+        2014.5,
+        1415.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "14",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1456,
+        1501.0,
+        1466.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "洪",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1452,
+        1548.0,
+        1478.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#326777"
+    },
+    {
+      "text": "352,942",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1455,
+        1691.5,
+        1472.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.51%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1455,
+        1936.5,
+        1469.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "金門縣烈嶼鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1485,
+        1634.0,
+        1503.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "19.46%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1486,
+        2014.5,
+        1499.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "15",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1540,
+        1501.0,
+        1550.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "郭",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1536,
+        1548.0,
+        1562.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "350,072",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1539,
+        1691.5,
+        1556.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.50%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1539,
+        1936.5,
+        1553.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "臺南市西港區",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1569,
+        1634.0,
+        1587.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "8.68%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1570,
+        2004.0,
+        1583.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "16",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1624,
+        1501.0,
+        1634.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "邱",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1620,
+        1548.0,
+        1647.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#147D92"
+    },
+    {
+      "text": "343,469",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1623,
+        1691.5,
+        1640.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.47%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1623,
+        1936.5,
+        1637.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "臺東縣海端鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1653,
+        1634.0,
+        1671.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "16.24%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1654,
+        2014.5,
+        1667.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "17",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1708,
+        1501.0,
+        1718.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "曾",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1704,
+        1548.0,
+        1730.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#A3680D"
+    },
+    {
+      "text": "338,779",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1707,
+        1691.5,
+        1724.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.45%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1707,
+        1936.5,
+        1721.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣褒忠鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1737,
+        1634.0,
+        1755.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "5.98%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1738,
+        2004.0,
+        1751.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "18",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1792,
+        1501.0,
+        1802.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "廖",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1788,
+        1548.0,
+        1815.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#276749"
+    },
+    {
+      "text": "315,819",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1791,
+        1691.5,
+        1808.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.35%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1791,
+        1936.5,
+        1805.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "雲林縣二崙鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1821,
+        1634.0,
+        1839.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "31.59%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1822,
+        2014.5,
+        1835.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "19",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1876,
+        1501.0,
+        1886.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "賴",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1872,
+        1548.0,
+        1898.0
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#3E793E"
+    },
+    {
+      "text": "310,053",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1875,
+        1691.5,
+        1892.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.33%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1875,
+        1936.5,
+        1889.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "彰化縣大村鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1905,
+        1634.0,
+        1923.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "21.14%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1906,
+        2014.5,
+        1919.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "20",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        1960,
+        1501.0,
+        1970.0
+      ],
+      "size": 14,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "徐",
+      "role": "table_surname",
+      "bounds": [
+        1520,
+        1956,
+        1548.0,
+        1982.5
+      ],
+      "size": 28,
+      "cjk": true,
+      "color": "#637B28"
+    },
+    {
+      "text": "294,723",
+      "role": "table_count",
+      "bounds": [
+        1620,
+        1959,
+        1691.5,
+        1976.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "1.26%",
+      "role": "table_national_share",
+      "bounds": [
+        1880,
+        1959,
+        1936.5,
+        1973.5
+      ],
+      "size": 20,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "屏東縣麟洛鄉",
+      "role": "table_place",
+      "bounds": [
+        1520,
+        1989,
+        1634.0,
+        2007.5
+      ],
+      "size": 19,
+      "cjk": true,
+      "color": "#234657"
+    },
+    {
+      "text": "10.65%",
+      "role": "table_local_share",
+      "bounds": [
+        1950,
+        1990,
+        2014.5,
+        2003.5
+      ],
+      "size": 19,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Taiwan denominator: 23,373,283 registered people.",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        2035,
+        1874.0,
+        2051.0
+      ],
+      "size": 17,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Local coverage varies; unlisted surnames are not zero.",
+      "role": "annotation",
+      "bounds": [
+        1485,
+        2063,
+        1877.5,
+        2077.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Size reflects Taiwan-wide surname population.",
+      "role": "annotation",
+      "bounds": [
+        55,
+        2140,
+        427.0,
+        2156.5
+      ],
+      "size": 18,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Repeated labels show selected local occurrences, not additional population.",
+      "role": "annotation",
+      "bounds": [
+        55,
+        2168,
+        659.0,
+        2184.5
+      ],
+      "size": 18,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Positions are adjusted for readability; label density is not a population-density measure.",
+      "role": "annotation",
+      "bounds": [
+        55,
+        2196,
+        749.0,
+        2212.5
+      ],
+      "size": 18,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Local strongholds are highest observed in available data; they need not match the map label positions.",
+      "role": "annotation",
+      "bounds": [
+        55,
+        2224,
+        787.5,
+        2238.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    },
+    {
+      "text": "Colors evoke local landscapes; they do not encode surname statistics.",
+      "role": "color_note",
+      "bounds": [
+        1300,
+        2224,
+        1802.0,
+        2238.5
+      ],
+      "size": 16,
+      "cjk": false,
+      "color": "#234657"
+    }
+  ],
+  "input_hashes": {
+    "national_surnames_age_112.csv": "db1e762e6e96045964d1b2b5927da1582528ddf0c6ab167503dfb76a0391fffd",
+    "surnames_11206.csv": "aa682778e09ea7415a07b60667cc82ffceb896cb4b3458126e74b5b3d0020490",
+    "population_11206.csv": "cee76fef545f949dffb11ab207b9e90673adf925934e5b7583c8ec94c2ce11e2",
+    "boundaries.zip": "e028e5a750eee48cf7913330655e5e5c5bb1f176868fbd0afdfc661fca60557c"
+  },
+  "colorization": {
+    "enabled": true,
+    "layout_executed": false,
+    "method": "Manual landscape-inspired art direction using current projected label positions and existing coast/administrative geography for reference; not imagery sampling or a validated land-cover classification.",
+    "locked_svg_sha256": "e669c4583eb1f3fed6f503bc8f4ee0cee3636c7782b584242ebce254e5492281",
+    "colors_by_label_id": {
+      "base01": "brick",
+      "base05": "brick",
+      "add06": "brick",
+      "base02": "ochre",
+      "base04": "ochre",
+      "base06": "ochre",
+      "add08": "ochre",
+      "add04": "ochre",
+      "add15": "brown",
+      "add10": "brown",
+      "add05": "brown",
+      "base08": "olive",
+      "base09": "olive",
+      "base15": "olive",
+      "base20": "olive",
+      "add16": "olive",
+      "add19": "olive",
+      "add13": "olive",
+      "add17": "olive",
+      "base12": "mustard",
+      "base17": "mustard",
+      "add14": "mustard",
+      "add11": "mustard",
+      "add12": "mustard",
+      "base03": "moss",
+      "base07": "moss",
+      "base10": "moss",
+      "base19": "moss",
+      "add03": "moss",
+      "add09": "moss",
+      "add07": "moss",
+      "base11": "forest",
+      "base18": "forest",
+      "add02": "forest",
+      "add01": "forest",
+      "base16": "teal",
+      "add20": "teal",
+      "add18": "teal",
+      "base14": "slate",
+      "base13": "island_teal"
+    },
+    "palette": {
+      "brick": {
+        "hex": "#B94B36",
+        "cue": "Built-area-inspired brick"
+      },
+      "ochre": {
+        "hex": "#B45B26",
+        "cue": "Built-area-inspired warm ochre"
+      },
+      "brown": {
+        "hex": "#A65128",
+        "cue": "Settlement-fringe-inspired warm brown"
+      },
+      "olive": {
+        "hex": "#637B28",
+        "cue": "Agricultural-plain-inspired olive"
+      },
+      "mustard": {
+        "hex": "#A3680D",
+        "cue": "Agricultural-plain-inspired deep mustard"
+      },
+      "moss": {
+        "hex": "#3E793E",
+        "cue": "Foothill-inspired moss"
+      },
+      "forest": {
+        "hex": "#276749",
+        "cue": "Forest-fringe-inspired ink green"
+      },
+      "teal": {
+        "hex": "#147D92",
+        "cue": "Eastern-coastal-inspired blue-green"
+      },
+      "slate": {
+        "hex": "#326777",
+        "cue": "Island-rock-inspired slate"
+      },
+      "island_teal": {
+        "hex": "#086B7B",
+        "cue": "Island-coast-inspired deep blue-green"
+      }
+    },
+    "ocean_fill": "#B9DFED",
+    "land_fill": "#FFFDF3",
+    "contrast_ratios": {
+      "brick": {
+        "white": 5.0939262755029775,
+        "land_wash": 4.996007627162538,
+        "ocean": 3.5999051038583834
+      },
+      "ochre": {
+        "white": 4.703161118963592,
+        "land_wash": 4.612754003746607,
+        "ocean": 3.3237492654432983
+      },
+      "brown": {
+        "white": 5.484445949604369,
+        "land_wash": 5.379020486957988,
+        "ocean": 3.8758874585138594
+      },
+      "olive": {
+        "white": 4.778859889960993,
+        "land_wash": 4.686997645451552,
+        "ocean": 3.377245994161156
+      },
+      "mustard": {
+        "white": 4.622248350147142,
+        "land_wash": 4.533396590961534,
+        "ocean": 3.266567776415782
+      },
+      "moss": {
+        "white": 5.237775580817169,
+        "land_wash": 5.137091770835342,
+        "ocean": 3.7015641818229357
+      },
+      "forest": {
+        "white": 6.7252209818596445,
+        "land_wash": 6.595944562705064,
+        "ocean": 4.752749849089933
+      },
+      "teal": {
+        "white": 4.796431127306805,
+        "land_wash": 4.704231117443586,
+        "ocean": 3.389663682125447
+      },
+      "slate": {
+        "white": 6.28346887438165,
+        "land_wash": 6.162684091526127,
+        "ocean": 4.44056125814037
+      },
+      "island_teal": {
+        "white": 6.177533684915432,
+        "land_wash": 6.058785254767663,
+        "ocean": 4.365696289820822
+      }
+    },
+    "minimum_white_contrast": 4.622248350147142,
+    "minimum_land_contrast": 4.533396590961534,
+    "minimum_ocean_surname_contrast": 3.266567776415782,
+    "body_ocean_contrast": 7.117375326459198,
+    "table_surname_colors": {
+      "陳": "#B94B36",
+      "林": "#B45B26",
+      "黃": "#3E793E",
+      "張": "#B45B26",
+      "李": "#B94B36",
+      "王": "#B45B26",
+      "吳": "#3E793E",
+      "劉": "#637B28",
+      "蔡": "#637B28",
+      "楊": "#3E793E",
+      "許": "#276749",
+      "鄭": "#A3680D",
+      "謝": "#086B7B",
+      "洪": "#326777",
+      "郭": "#637B28",
+      "邱": "#147D92",
+      "曾": "#A3680D",
+      "廖": "#276749",
+      "賴": "#3E793E",
+      "徐": "#637B28"
+    },
+    "existing_text_nodes_unchanged_except_fill": 182,
+    "map_labels_unchanged": 40,
+    "new_note": "Colors evoke local landscapes; they do not encode surname statistics."
+  }
+}

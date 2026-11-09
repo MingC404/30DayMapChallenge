@@ -1,0 +1,79 @@
+{
+  "purpose": "Approved final Day 09 artwork and only its retained provenance/reproduction inputs.",
+  "accepted_artwork_hashes": {
+    "outputs/top20_anchors/a_landscape_of_surnames_top20.png": "3c85c2055555875b6866d6388a4e94696deb614d7821f885d284578387513316",
+    "outputs/top20_anchors/a_landscape_of_surnames_top20.svg": "7cae13a03a02276f3f09f98dacdd73de482c0ec2f7edaf380e333824c70f03a2"
+  },
+  "data": [
+    {
+      "path": "boundaries.zip",
+      "role": "Original NLSC township boundary source archive; extracted duplicate removed.",
+      "source": "https://data.gov.tw/dataset/7441",
+      "bytes": 12756907,
+      "sha256": "e028e5a750eee48cf7913330655e5e5c5bb1f176868fbd0afdfc661fca60557c"
+    },
+    {
+      "path": "national_surnames_age_112.csv",
+      "role": "Original national surname ranking/counts by three age bands, 30 June 2023.",
+      "source": "https://data.gov.tw/dataset/126774",
+      "bytes": 221604,
+      "sha256": "db1e762e6e96045964d1b2b5927da1582528ddf0c6ab167503dfb76a0391fffd"
+    },
+    {
+      "path": "population_11206.csv",
+      "role": "Original full village registered-population denominators, June 2023.",
+      "source": "https://data.gov.tw/dataset/77145",
+      "bytes": 613304,
+      "sha256": "cee76fef545f949dffb11ab207b9e90673adf925934e5b7583c8ec94c2ce11e2"
+    },
+    {
+      "path": "surnames_11206.csv",
+      "role": "Original sex-disaggregated township top-twenty surname counts, June 2023.",
+      "source": "https://data.gov.tw/en/datasets/42518",
+      "bytes": 547566,
+      "sha256": "aa682778e09ea7415a07b60667cc82ffceb896cb4b3458126e74b5b3d0020490"
+    },
+    {
+      "path": "etopo2022_taiwan_4arcmin.csv",
+      "role": "Small original ETOPO subset needed by the final renderer.",
+      "source": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/ETOPO_2022_v1_60s.html",
+      "bytes": 245376,
+      "sha256": "ca1ff8d766b8d858fd985e000dcc5a7cfc00ad2619ba8a7ff7e27bcef62c2ec3"
+    },
+    {
+      "path": "etopo2022_taiwan_sources.json",
+      "role": "Bathymetry download URL, sample spacing, datum and original-file hash.",
+      "source": null,
+      "bytes": 1178,
+      "sha256": "47c4e0d20837fd579f8dd8e1315db7a45a1f0559929244856626f1a18fdcf829"
+    },
+    {
+      "path": "selected_local_occurrences.json",
+      "role": "Curated source evidence for the twenty repeated local labels.",
+      "source": null,
+      "bytes": 8209,
+      "sha256": "28e629c330d1e8417410a5b63f0302c53976affd03cea4492d168e48c6538299"
+    },
+    {
+      "path": "top20_approved_records.json",
+      "role": "Curated national counts, local strongholds and full-population reference.",
+      "source": null,
+      "bytes": 9453,
+      "sha256": "f356f7327a88680a7d2968e5d103d35738c40bfd200c82d8e7f6ec89f9915f8b"
+    },
+    {
+      "path": "render_inputs/approved_pre_enlargement.svg",
+      "role": "Required immutable vector checkpoint; final renderer applies the common 1.2 glyph enlargement exactly once.",
+      "source": null,
+      "bytes": 1959882,
+      "sha256": "0c9afd2cf7426ef78dc57d75c7eda1053c9de99cb17d41bf7d6fc3ad778a73a2"
+    },
+    {
+      "path": "render_inputs/approved_pre_enlargement.json",
+      "role": "Required immutable text/record checkpoint paired with the SVG; not an alternative finished design.",
+      "source": null,
+      "bytes": 93480,
+      "sha256": "3dbd035c8acf4a298cf429798e1d635a57deb1031ecdcf1786409e59404de044"
+    }
+  ]
+}

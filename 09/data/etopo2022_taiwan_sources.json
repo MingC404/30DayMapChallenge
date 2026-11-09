@@ -1,0 +1,28 @@
+{
+  "dataset": "ETOPO 2022 v1, 60 arc-second ice-surface global relief, served by NOAA CoastWatch ERDDAP",
+  "source_page": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/ETOPO_2022_v1_60s.html",
+  "download": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/ETOPO_2022_v1_60s.csv?z%5B(21.5):4:(25.8)%5D%5B(118):4:(123.5)%5D",
+  "retrieved": "2026-11-09",
+  "requested_extent_lonlat": [
+    118,
+    21.5,
+    123.5,
+    25.8
+  ],
+  "actual_extent_lonlat": [
+    118.00833333333333,
+    21.508333333333326,
+    123.47500000000002,
+    25.77499999999999
+  ],
+  "grid_shape": [
+    65,
+    83
+  ],
+  "sample_interval_arcminutes": 4,
+  "input_grid_arcseconds": 60,
+  "vertical_reference": "EGM2008; z in meters, positive up",
+  "sha256": "ca1ff8d766b8d858fd985e000dcc5a7cfc00ad2619ba8a7ff7e27bcef62c2ec3",
+  "bytes": 245376,
+  "processing": "Small spatial subset at stride four. Original z values retained; bilinear screen sampling for display. Bathymetric color classes use negative elevations. Few contours are generalized from a lightly smoothed display field; pale cartographic masks reduce detail behind text without changing source z values."
+}

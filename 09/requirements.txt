@@ -1,0 +1,4 @@
+Pillow>=13
+Shapely>=2
+pyproj>=3
+numpy>=2
