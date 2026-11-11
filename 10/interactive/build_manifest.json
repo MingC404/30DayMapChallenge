@@ -1,0 +1,40 @@
+{
+  "reference": "Static symbol A; both existing PNGs preserved",
+  "properties": 87,
+  "site_records": 590,
+  "official_links_checked": 87,
+  "coordinates": "Same pyproj transformation as static renderer; rounded to 0.00001 layout px only",
+  "timeline": {
+    "min_start": -13000,
+    "max_start": 1914,
+    "max_end": 2000,
+    "years": [
+      -13000,
+      -5000,
+      -1000,
+      1,
+      600,
+      1200,
+      1600,
+      1800,
+      2000
+    ],
+    "positions": [
+      0,
+      0.12,
+      0.23,
+      0.34,
+      0.47,
+      0.6,
+      0.74,
+      0.86,
+      1
+    ]
+  },
+  "static_png_sha256": {
+    "heritage_across_east_asia_symbols_a.png": "432315dfc2338d2d857b0136a58843f231b401ac61cbc004dccc81ee62d47c94",
+    "heritage_across_east_asia_symbols_b.png": "407c38ddd1bfbd5e23b1c8f6a76540474c993a4ab5da3eb0e2d8dc0b8740af24"
+  },
+  "external_runtime_dependencies": [],
+  "build": "python3.14.exe 10/scripts/build_interactive.py"
+}

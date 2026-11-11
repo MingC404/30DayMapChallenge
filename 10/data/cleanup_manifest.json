@@ -1,0 +1,139 @@
+﻿{
+    "date":  "2026-11-10",
+    "scope":  "10/ only",
+    "status":  "Earlier obsolete files remain removed; superseded baseline and temporary inspection removed after symbol comparison checks",
+    "removed_files":  [
+                          {
+                              "path":  ".gitkeep",
+                              "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                              "bytes":  0
+                          },
+                          {
+                              "path":  "A_REVISION_NOTES.md",
+                              "sha256":  "827dc6b2c0893cc50f8008e3778937020c2740b3290045c1663733c9fb1ba1d4",
+                              "bytes":  6602
+                          },
+                          {
+                              "path":  "data/country_counts.csv",
+                              "sha256":  "60959f57c2c70c06ab8e973009efcb2da442b33295bef5deca2703af99b36721",
+                              "bytes":  590
+                          },
+                          {
+                              "path":  "data/heritage_clean.csv",
+                              "sha256":  "ecb510797ec99da6305753f87f7aa8b985a9f908d2f285538615bd8e6cd7cebc",
+                              "bytes":  17590
+                          },
+                          {
+                              "path":  "data/heritage_clean.geojson",
+                              "sha256":  "5c7aa38bc40361cb5915a14a4e48774c0336c55e49f3884bf532e2dc814d2624",
+                              "bytes":  68860
+                          },
+                          {
+                              "path":  "data/a_revision/audit.json",
+                              "sha256":  "573a9a9c23765cfcf5bd12142715756f7b6d033068666b2f1fb4a375b95578b4",
+                              "bytes":  3910
+                          },
+                          {
+                              "path":  "data/a_revision/components_outside_scope.csv",
+                              "sha256":  "28b7cf6d77e79bac20b92b7e13a74d309b6c264c389b77948838863972cd5eb0",
+                              "bytes":  6626
+                          },
+                          {
+                              "path":  "data/a_revision/component_sites.csv",
+                              "sha256":  "f7d738caad7ec2bca4f0e836283d0de85c19d4eefde6a09ae8d9765597f907fd",
+                              "bytes":  125062
+                          },
+                          {
+                              "path":  "data/a_revision/component_sites.geojson",
+                              "sha256":  "1b897257a1343beb4a6adb7cb89d835ac5d9432c618a02ec885cde97c0d9aea9",
+                              "bytes":  427279
+                          },
+                          {
+                              "path":  "data/a_revision/preserved_b_sha256.txt",
+                              "sha256":  "fa9446e7d41a08e8d3cdc9ad6be59add8fc0cfa6103eb1eaa229958e804451e3",
+                              "bytes":  64
+                          },
+                          {
+                              "path":  "data/a_revision/properties.csv",
+                              "sha256":  "b767e44d041561990f8145a4d71afdd503079c8fd6ae91ea89b7b29f04c09196",
+                              "bytes":  10469
+                          },
+                          {
+                              "path":  "data/a_revision/unesco_verified.json",
+                              "sha256":  "6196d8c571e9a07c8987368e4a64f5af2dd8cc0038fcd8f52f990c2d8dd78c83",
+                              "bytes":  24698121
+                          },
+                          {
+                              "path":  "outputs/a_revision_validation.json",
+                              "sha256":  "5786efa5978bc04daa06e7fc6a6da86a7f2538fb6c657e36bcb685a44020d217",
+                              "bytes":  1657
+                          },
+                          {
+                              "path":  "outputs/heritage_east_asia_a.png",
+                              "sha256":  "43534b2c82f8472d4f8fb1a4140c14989497fa08b21ce3a31a755a6bb07d9373",
+                              "bytes":  420386
+                          },
+                          {
+                              "path":  "outputs/heritage_east_asia_a_revised.png",
+                              "sha256":  "46f5f9e50bffadbc5c22fdde053c9037501bd8d0999a61bbd68173f642ce0347",
+                              "bytes":  463787
+                          },
+                          {
+                              "path":  "outputs/heritage_east_asia_b.png",
+                              "sha256":  "484288f8a243122e7202044fce3456c5cfcc9a54d9eee5cee0a664c1250c5d08",
+                              "bytes":  417387
+                          },
+                          {
+                              "path":  "scripts/audit_a_revision.py",
+                              "sha256":  "14870d8dc9c15e739718061ffa3b6bc7ceff3ad1b9d0d221eb3c9721820c6ae2",
+                              "bytes":  6281
+                          },
+                          {
+                              "path":  "scripts/prepare_data.py",
+                              "sha256":  "a2d47d05bc5bf8a87f16b641f23320d2038f199d9cbcb691bb753a1a69749400",
+                              "bytes":  5331
+                          },
+                          {
+                              "path":  "scripts/render_a_revision.py",
+                              "sha256":  "e2549dff3fb8cf80297fc2b3cc8c2afc5f308abf879fd447f33a6ff05d44f30c",
+                              "bytes":  7782
+                          },
+                          {
+                              "path":  "scripts/render_maps.py",
+                              "sha256":  "ea591b2705a4c380b485a21bd56c1958661016875aef012a6cddff1fdd3d3a54",
+                              "bytes":  6968
+                          },
+                          {
+                              "path":  "scripts/__pycache__/render_maps.cpython-314.pyc",
+                              "sha256":  "45aff32b26822c22cfb7d7237d9a32212757d49c4f5231d5662e1c90c5f45c5e",
+                              "bytes":  15205
+                          },
+                          {
+                              "path":  "scripts/__pycache__/render_heritage.cpython-314.pyc",
+                              "sha256":  "fa1b6aa980ae99723dacfb0bafd526d84ae7e3a78832d9607bfea43249949d90",
+                              "bytes":  16951
+                          },
+                          {
+                              "path":  "outputs/heritage_across_east_asia.png",
+                              "sha256":  "8fc7a3f9f9bdfabfe15d4c1e18d52fd84a79e60bcc7e230210d2f0ab4103149f",
+                              "bytes":  538960,
+                              "reason":  "Replaced baseline export or temporary symbol inspection; two current comparison PNGs retained"
+                          },
+                          {
+                              "path":  "outputs/_symbol_inspection.png",
+                              "sha256":  "5e6bb2b2c4bf12b364c1e2b539f9f6a4fd17c45333d2a8899c0cd350c395322a",
+                              "bytes":  203751,
+                              "reason":  "Replaced baseline export or temporary symbol inspection; two current comparison PNGs retained"
+                          }
+                      ],
+    "retained_inputs":  [
+                            "data/raw/unesco.json",
+                            "data/raw/ne_50m_admin_0_countries.geojson",
+                            "data/historical_evidence.tsv"
+                        ],
+    "retained_scripts":  [
+                             "scripts/prepare_heritage.py",
+                             "scripts/render_heritage.py"
+                         ],
+    "coordinate_signature_verified":  "4777f0ce3a7482d1b8a3b211cd0c74d09b0cba043b4a4c108b798cb355426469"
+}

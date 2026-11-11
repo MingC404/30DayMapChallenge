@@ -1,0 +1,32 @@
+{
+  "initial": {
+    "sites": 590,
+    "properties": 87,
+    "year": 2000,
+    "zoom": 1,
+    "min": -13000,
+    "max": 1914,
+    "links": true
+  },
+  "hover_and_click": true,
+  "timeline": {
+    "valid": true,
+    "unknown_stable": true,
+    "zero_absent": true
+  },
+  "overlap": {
+    "allSelectable": true,
+    "maxNearby": 102,
+    "coincidentRefs": [
+      "1091-008",
+      "1091-009"
+    ],
+    "allInMenu": true
+  },
+  "zoom_pan_fixed_artwork_reset": true,
+  "coast_strokes_remain_fine_on_zoom": true,
+  "play_pause": true,
+  "mobile_pinch_reset": true,
+  "mobile_tap_timeline_no_horizontal_overflow": true,
+  "browser_errors": []
+}

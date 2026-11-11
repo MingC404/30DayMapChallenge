@@ -1,0 +1,114 @@
+{
+  "snapshot_date": "2026-11-10",
+  "property_count": 87,
+  "component_records": 590,
+  "unique_coordinate_pairs": 580,
+  "dated_properties": 75,
+  "unknown_properties": 12,
+  "unknown_ids": [
+    "449",
+    "704",
+    "707",
+    "734",
+    "778",
+    "1001",
+    "1091",
+    "1111",
+    "1113",
+    "1142",
+    "1279",
+    "1305"
+  ],
+  "coverage_by_class": {
+    "before_1": {
+      "properties": 10,
+      "site_records": 62
+    },
+    "1_599": {
+      "properties": 9,
+      "site_records": 91
+    },
+    "600_1199": {
+      "properties": 20,
+      "site_records": 157
+    },
+    "1200_1599": {
+      "properties": 21,
+      "site_records": 143
+    },
+    "1600_1799": {
+      "properties": 8,
+      "site_records": 22
+    },
+    "1800_plus": {
+      "properties": 7,
+      "site_records": 48
+    },
+    "Unknown": {
+      "properties": 12,
+      "site_records": 67
+    }
+  },
+  "component_coordinate_signature_sha256": "4777f0ce3a7482d1b8a3b211cd0c74d09b0cba043b4a4c108b798cb355426469",
+  "calendar": "Negative integers = BCE; positive = CE; no year zero. Century bounds are precision envelopes, not precise event dates.",
+  "classification": "Explicit calendar bins of the LOWER BOUND of a manually selected formation-phase interval. Never an arithmetic midpoint or inscription date.",
+  "class_breaks": [
+    {
+      "key": "before_1",
+      "label": "Before 1 CE",
+      "lower_inclusive": null,
+      "upper_exclusive": 1,
+      "color": "#482B32"
+    },
+    {
+      "key": "1_599",
+      "label": "1–599 CE",
+      "lower_inclusive": 1,
+      "upper_exclusive": 600,
+      "color": "#6C3B40"
+    },
+    {
+      "key": "600_1199",
+      "label": "600–1199 CE",
+      "lower_inclusive": 600,
+      "upper_exclusive": 1200,
+      "color": "#914C45"
+    },
+    {
+      "key": "1200_1599",
+      "label": "1200–1599 CE",
+      "lower_inclusive": 1200,
+      "upper_exclusive": 1600,
+      "color": "#B7654D"
+    },
+    {
+      "key": "1600_1799",
+      "label": "1600–1799 CE",
+      "lower_inclusive": 1600,
+      "upper_exclusive": 1800,
+      "color": "#BD773F"
+    },
+    {
+      "key": "1800_plus",
+      "label": "1800 CE onward",
+      "lower_inclusive": 1800,
+      "upper_exclusive": null,
+      "color": "#BF8438"
+    }
+  ],
+  "unknown_color": "#676D6B",
+  "evidence_table": "data/historical_evidence.tsv",
+  "no_component_specific_dates_assigned": true,
+  "sources": {
+    "unesco": {
+      "url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001/exports/json",
+      "path": "data/raw/unesco.json",
+      "sha256": "6196d8c571e9a07c8987368e4a64f5af2dd8cc0038fcd8f52f990c2d8dd78c83"
+    },
+    "basemap": {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+      "path": "data/raw/ne_50m_admin_0_countries.geojson",
+      "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+    }
+  }
+}
