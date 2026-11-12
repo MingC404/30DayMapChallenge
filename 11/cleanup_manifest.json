@@ -1,0 +1,592 @@
+{
+  "status": "executed_and_verified",
+  "scope": "11/ only",
+  "file_count": 22,
+  "total_bytes": 3874514,
+  "files": [
+    {
+      "path": "water_patterns/classical_water_patterns.png",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 539899,
+      "sha256": "03d25d0671b768268f1e5b2250f85cf5853becfd810ba36afb05b46722f97251"
+    },
+    {
+      "path": "water_patterns/classical_water_patterns.svg",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 180456,
+      "sha256": "6a9bfe41408906b43c971cb58aa05f1b9116c082eb7700de5df2e27a572ae6e8"
+    },
+    {
+      "path": "water_patterns/cleanup_manifest.json",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 22869,
+      "sha256": "5351dc79b23ad3bbee7044d7a37a6925a3c6dc3f509f18e7325ca97936a306b6"
+    },
+    {
+      "path": "water_patterns/expressive_curling_waves.png",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 552769,
+      "sha256": "99c9f9b3054efd3a27ebc649babfd3370f9529fea78dcad034ff19967af5473f"
+    },
+    {
+      "path": "water_patterns/expressive_curling_waves.svg",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 180456,
+      "sha256": "1436456f1ef3c6e21500a1fde3f99e7340b3bcfcccba4e60c629c0ab3b258ac5"
+    },
+    {
+      "path": "water_patterns/expressive_wave_bands.png",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 480754,
+      "sha256": "63152beee47e4e984f794e1d7c089e9b3a0dadf99948133a55e44aeb53a5eb08"
+    },
+    {
+      "path": "water_patterns/expressive_wave_bands.svg",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 185298,
+      "sha256": "bd5322352ecfab9d756837df73bf90f53afa5b24be0fd98d2875d2f1779bf990"
+    },
+    {
+      "path": "water_patterns/final_encoding.csv",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 289,
+      "sha256": "4cdee7befb15b53128dc0704883addc8b6ec10721636c2feb36a583d7929bcf8"
+    },
+    {
+      "path": "water_patterns/readability_diagnostics.csv",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 428,
+      "sha256": "07473ddbda0a62834c4ed26010b3de889edc56f1dd81ffb6b8010ed1c825af10"
+    },
+    {
+      "path": "water_patterns/record_to_wave_mapping.csv",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 36205,
+      "sha256": "47e161288817a8c8ccabd50476857e44d896ad6df5de69e9d955412cd8982845"
+    },
+    {
+      "path": "water_patterns/render_patterns.py",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 14312,
+      "sha256": "02331ae35a1dac770fb51f17314b308a046ef828ebde990bf587238858e05214"
+    },
+    {
+      "path": "water_patterns/render_wave_bands.py",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 16817,
+      "sha256": "feb5674f83940f8acf32f1d6ecddc4c4f6afbd8546527c87e5d78b48f23a0db6"
+    },
+    {
+      "path": "water_patterns/validation.json",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 3739,
+      "sha256": "aa1c18b813d1696fbcee84eeb2aaff67dae213f00ebc4449ba74686f66d75fab"
+    },
+    {
+      "path": "water_patterns/wave_band_details.png",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 251478,
+      "sha256": "eaded6e04c37ff8f0e53a83df2e6a0774fccc7ef80f1e7e082e479be93ec90ea"
+    },
+    {
+      "path": "water_patterns/wave_band_record_mapping.csv",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 11210,
+      "sha256": "2242d86988d873b9c7be514fd1693ce614754d2bcca6b544d9f581b142faf730"
+    },
+    {
+      "path": "water_patterns/wave_band_validation.json",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 1422,
+      "sha256": "1783e27e039960f32a358c0d32621550f27b6e2678f68bb9e413fbe991b3efcc"
+    },
+    {
+      "path": "wave_exploration/ENCODING_AND_COMPARISON.md",
+      "reason": "Superseded visual documentation; current README replaces it",
+      "bytes": 7580,
+      "sha256": "a3b3c47d9a4be4dacbe47cd75ac65e5e9dbffdf363f069921477f52d02e3c75f"
+    },
+    {
+      "path": "wave_exploration/flowing_wave_field.png",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 646764,
+      "sha256": "5d7debe42159254830dc76a20dc1fc6e872ec49146a51e3b3573746cbabfd46e"
+    },
+    {
+      "path": "wave_exploration/parallel_wave_lines.png",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 637036,
+      "sha256": "d715ea06470e7c67b3c76e93ab22d40f8f23ab4eade20600739d5d227fa6bbc7"
+    },
+    {
+      "path": "wave_exploration/render_waves.py",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 10703,
+      "sha256": "a5c7ff4470f0e742fc3bd272785e89225fcc90a3697b7ef5144ee6c01f8804a2"
+    },
+    {
+      "path": "wave_exploration/validation_and_provenance.json",
+      "reason": "Superseded visual output or its obsolete renderer/derived layout data",
+      "bytes": 92343,
+      "sha256": "b400a61a876a8387c4bd46be0d0291c38fba116425a0de3cbc58ca8bf599c30d"
+    },
+    {
+      "path": "FINDINGS.md",
+      "reason": "Superseded visual documentation; current README replaces it",
+      "bytes": 1687,
+      "sha256": "65898aa5ef9d5514813ede9ef53f1ab08a52114bb6c47f2c313ce2075bb86ce3"
+    }
+  ],
+  "previously_removed_standalone_glyph_files": [
+    {
+      "path": "outputs/glyph_readability_16_20_24.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 421945,
+      "sha256": "18c22e88388536450643c7caa987e281ee070ec408f1decbe1a9d6a5dc381169"
+    },
+    {
+      "path": "outputs/glyph_readability_16_20_24.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 258941,
+      "sha256": "e2f5d6b4910a52a1d4074c3aba08c9dcdfb557b680d926b246d36ee658646a23"
+    },
+    {
+      "path": "outputs/initials_only.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 417955,
+      "sha256": "968be29364dab5427552e110c098a44c4325745d98d106980086ddab34f1f38c"
+    },
+    {
+      "path": "outputs/initials_only.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 53290,
+      "sha256": "9bcee4cf4863c3f71987802fcfc996b9736a9199e96b2a308a5d83273d36f12d"
+    },
+    {
+      "path": "outputs/ripple_category_key.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 160876,
+      "sha256": "b0eaf8a71adf6ea580f19573f2f0ea1074e0d84009e251634a046a075118c1be"
+    },
+    {
+      "path": "outputs/ripple_category_key.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 20573,
+      "sha256": "1a7c99210bd80cb6edc31e7b4763437467f9ef74bf45ed65ed92474a24cef436"
+    },
+    {
+      "path": "outputs/ripple_glyphs.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 451632,
+      "sha256": "ce405acc4bcbf89432e0c2929a001a1a11efd14d93bbb0fa965c255b3d633e0f"
+    },
+    {
+      "path": "outputs/ripple_glyphs.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 225395,
+      "sha256": "3059fd357068ecd2c22b04cb93cfc94534a559388b435139754af0b69896a5bf"
+    },
+    {
+      "path": "outputs/archive_v1/initial_point_map.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 338482,
+      "sha256": "cd8b90ac2888888601e97a939964140797481f8683677574fd90a4dbaf3d21ef"
+    },
+    {
+      "path": "outputs/archive_v1/initial_point_map.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 37862,
+      "sha256": "1a68a01c091a27c6d1a0a33a3b88255108ebadd2d2d119b7928bd4a2d863300c"
+    },
+    {
+      "path": "outputs/archive_v1/ripple_symbol_samples.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 351615,
+      "sha256": "0cf8cafd368d000b3285c6eaeb1285178b73bc72c96ec77de5d9e187fccf3324"
+    },
+    {
+      "path": "outputs/archive_v1/ripple_symbol_samples.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 281387,
+      "sha256": "b9fb896be650f33ee2f560909342c665df343f0113816a7991d5cbe59226ed03"
+    },
+    {
+      "path": "outputs/size_tests/initials_only_16px.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 408530,
+      "sha256": "fc050b430cea7e082452b27ea36ff9ac80620e2126e7aa69ac9c8f7df241e9fa"
+    },
+    {
+      "path": "outputs/size_tests/initials_only_16px.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 53190,
+      "sha256": "0dc02121f494f238f15973e80df60d0a0488c7ccdcd6294f1bc7c48bc1d512c0"
+    },
+    {
+      "path": "outputs/size_tests/initials_only_24px.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 427416,
+      "sha256": "db6817e4e258d61f36b020cda5662cb3e2593444c757f2dd3173a6fec45b791b"
+    },
+    {
+      "path": "outputs/size_tests/initials_only_24px.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 53290,
+      "sha256": "011996aa7553847177f0c62c75d1949dfa4f8f8a67eda979b840260207d17169"
+    },
+    {
+      "path": "outputs/size_tests/ripple_glyphs_16px.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 429103,
+      "sha256": "32d0ca2b9d59f565eed94869b70a8d9eca3dd350b290f058f1ae8b9e1810a699"
+    },
+    {
+      "path": "outputs/size_tests/ripple_glyphs_16px.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 223994,
+      "sha256": "bac125c741f3c70afd0aac127d4849ad04fdd3a3b5483d81b058dd3f0d4f9214"
+    },
+    {
+      "path": "outputs/size_tests/ripple_glyphs_24px.png",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 473372,
+      "sha256": "e98dd708587dec1e3914fc561623041e6ce44ea0553533ac0af52e481cbcbaf0"
+    },
+    {
+      "path": "outputs/size_tests/ripple_glyphs_24px.svg",
+      "reason": "Discontinued standalone point-glyph figure or size/control test",
+      "bytes": 223994,
+      "sha256": "9de14719348831b63db41759d3a1ad42678f724ce3ff9e532a2d859785fc7e67"
+    },
+    {
+      "path": "scripts/render_exploration.py",
+      "reason": "Discarded standalone-glyph renderer",
+      "bytes": 10851,
+      "sha256": "6e757d8d1fad4a3c6edf73e07b60e2e52eab28207b7d08cda09a694be9406402"
+    },
+    {
+      "path": "scripts/render_ripple_comparison.py",
+      "reason": "Discarded standalone-glyph renderer",
+      "bytes": 16736,
+      "sha256": "eefbc97a7c1cc259782116f58744890f0b334691ce3b73585d7b23f85ec41832"
+    },
+    {
+      "path": "scripts/__pycache__/prepare_data.cpython-314.pyc",
+      "reason": "Regenerable Python cache",
+      "bytes": 8793,
+      "sha256": "945a043be8773b39ba671639515fbc2784b9ba826b534980367c8a17c523e051"
+    },
+    {
+      "path": "scripts/__pycache__/render_exploration.cpython-314.pyc",
+      "reason": "Regenerable Python cache",
+      "bytes": 27701,
+      "sha256": "e1ab286ba28ef078de87271e595cb540d4b687ab35133bf20f0f33759f2acae3"
+    },
+    {
+      "path": "data/ripple_comparison_manifest.json",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 5718,
+      "sha256": "421217d9b2fce40d70b9dd63584f738b13ac7f0620f53b79f2b760ef89ed3720"
+    },
+    {
+      "path": "data/ripple_draw_positions.csv",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 45805,
+      "sha256": "b3c687f67895138ce04fdedca258cd60d1f0baa7ece810352f84a18dcd60c833"
+    },
+    {
+      "path": "data/ripple_final_key.csv",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 817,
+      "sha256": "483ff7dd72056422dc10d50e300d028a1ea475fb5cc45ea4025dfc9f2765af31"
+    },
+    {
+      "path": "data/ripple_overlap_pairs.csv",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 8706,
+      "sha256": "d93809e6149a84f159ee813dbfc8f9361029652c010d531f8fc7f72c2bf085b8"
+    },
+    {
+      "path": "data/ripple_overlap_summary.csv",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 1151,
+      "sha256": "da638a8f0aa1627f4dd5f149d7d21a193ad87129047061d0b4f5d5b7700a5b56"
+    },
+    {
+      "path": "data/ripple_sample_key.csv",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 692,
+      "sha256": "f88c2e431a7f4cd7bb5936e3dfe32da8327e125c85493d0dc9479b32bc13a454"
+    },
+    {
+      "path": "data/ripple_validation.json",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 384,
+      "sha256": "6cd8ff27e86bd7aa65e2fe40de639a690480af4c416cd4f22d70b24351f9c87a"
+    },
+    {
+      "path": "data/map_overlap_pairs.csv",
+      "reason": "Derived standalone-glyph key, draw log, validation, or point-size diagnostic; no current consumer",
+      "bytes": 560,
+      "sha256": "54e1a8871a1624a58068a8ce7e7f588eb0a8d6028f8b81d0e7ce6759d95a21a2"
+    }
+  ],
+  "retained_data_sha256": {
+    "data/coincident_points.csv": "2a3e2b61167ce0766598b36154c38ab26ca196dba1fe4113b8a34ac5dc40c770",
+    "data/combination_frequency.csv": "1ac314352fdc268cf3498d90679ee34de9c64d6e38446d9bbdfbfd22a97c7e57",
+    "data/coordinate_review_queue.csv": "de1afff91b0f46942b81b98ff71f245cb3a49ea9be2c91e3bd3a4730786e1ca4",
+    "data/day11_exploration_tables.xlsx": "5ef5fb806e3aaddb9dcceba84d1f2f553e840722b61cdce4dca2484ee336da12",
+    "data/download_vs_live_inventory.csv": "c5e7a30f21af9a008e8253f3e4af224688b849d536515f68bec461fa26640781",
+    "data/final_frequency.csv": "c913dfb143ff309721e5215d7684dae2861b95170532d772e7eb45278626c2c2",
+    "data/initial_frequency.csv": "68010391eefb8a074f55e275ae755787435377a46b84e80bab85495fa66c1c1b",
+    "data/manifest.json": "60b8b3db0cca70d9a7d78ce6528e32467d0747b71a1bb0896db483973d8df9d3",
+    "data/notation_audit.csv": "1e6081d0af865c38fa378809ace49197a9f3fe8c1d319a3a93e0adb9a8751876",
+    "data/notation_audit_summary.json": "9017a36247ee552241f6ec2b8e294e2385f3711631ad7e6db4a6b463db581a1b",
+    "data/notation_cooccurrence_examples.csv": "480cbf756f0667511d4d4483b459e588123c94735c569e577d137fc423afc7b7",
+    "data/rime_inventory_by_site.json": "eabd253e0f1e12469cb54e7719942ebe7eacf89bfee7a8bb741b663882db669c",
+    "data/site_coordinates.csv": "24b73c4d51521835115621260dd14f05be109c2b742eaac91e21da72faca5af7",
+    "data/site_labels_en.csv": "38055b7aa3388478971ce702415bdf38ac8dd60b38675dffd1b7885dee53cd3d",
+    "data/water_geocoded.csv": "1237fc55273694417418652654deba42d29bcc8a378f64ef57c611092c372158",
+    "data/water_points.geojson": "a7e725e0b5f089aa7b9bdffe758504e2fbc9c47a719a1222c218e2f4f483c5dd",
+    "data/water_records.csv": "ac0e1b2a44a5b7abc8f66de47d2e94cbefdc5bb555aba041782ffbe7562bd2e1",
+    "data/wave_cluster_encoding.csv": "4cdee7befb15b53128dc0704883addc8b6ec10721636c2feb36a583d7929bcf8",
+    "data/wave_cluster_mapping.csv": "46d00fee15ee5a4ee5bd2340681e0eae1cd4a779ce59365469f43742b65bfa16",
+    "data/wave_cluster_validation.json": "4913cbfb4b30cd9d8e24ada40f5b5d1cee5166fa34bc690fa211da0422c1940d",
+    "data/workbook_inventory.csv": "42af51d79aa0c734b49c027f17a0d54be1cf2a381feb8a9693962b077522632a",
+    "data/raw/ccr11_yueyu_data_xlsx.zip": "dbfc9b9966eedbeadd7c443f08c5e7ba4cf57f951cffd54dd38f0cbc02408b98",
+    "data/raw/ne_50m_admin_0_countries.geojson": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "data/raw/ne_50m_admin_1_states_provinces_lines.geojson": "72cca93c850d412628a5da4bc5ebfe21ba4d376eb34611bde6b623ee73f0fdcf",
+    "data/raw/notation_general.html": "c9e193f215d847466ce17d6ac018b618fcae11dbabd7fc36b192411b99eab5a5",
+    "data/raw/notation_guangxi.html": "71dce86f748322a191a07e00e09545d75d70e504e01822beaea81c43dee7560b",
+    "data/raw/notation_west_guangdong.html": "1ed1e494948f50e587b09fb4c2af4a7b9d29e577200d17451a7f2d823ae59137",
+    "data/raw/official_bibliography.html": "336bcbbadacefc68609a89282ac9df2a6b22afc6e18dff00acb25a5efbc7b52f",
+    "data/raw/official_ccr.html": "bf1acf2423612c959c2aa2d95d73e9499d384c823138fa82133778322cdba5dc",
+    "data/raw/official_conventions.html": "29b99b8aac9f02f15b18cff64d0c7a1edc136ffebb83f300a6c6e4f60f9ebdd6",
+    "data/raw/official_download.html": "0c49881c39e0d1251eda58d3a07897789397de860c4c5ca97a4db287b6b947f9",
+    "data/raw/official_menu.js": "2a6f673475ec321b4030ec7c72cd14e71fb17dd68eaa3460e0fde7e6177f0801",
+    "data/raw/official_statistics.html": "7b0ad14756943a7d71c73a8f6f03307bfa85256db42e94f9fe081e186a93b7c4",
+    "data/raw/workbooks/260 粵語_樂昌.xlsx": "0819779cb9eb7e24e6e087d0c12342d6d822c5d2a2251f92cbbbfb052c832602",
+    "data/raw/workbooks/261 粵語_仁化.xlsx": "1ea02c1c59cc07f6cdae498145e5d33fc871465cf37a8063e2b9a807c493a739",
+    "data/raw/workbooks/262 粵語_韶關.xlsx": "7c1abdf05ff34e070be87883171097ff19833ecd67bb8347b08d32c9f279c2c5",
+    "data/raw/workbooks/263 粵語_曲江(馬壩).xlsx": "70f40cb9fa3c2e911df9fe7dc1e6c9a4aa1b5acd5c54329734d2998286eb6fa4",
+    "data/raw/workbooks/264 粵語_英德.xlsx": "c3d68eee1e0d8786b01d5525f8ba55d17c586bdd63519aa6809ce350f3fa79c8",
+    "data/raw/workbooks/265 粵語_佛岡.xlsx": "38a5a4d2b927e738d33bf2e9e79c52d973f1e85533128b157a4b653d711c14cb",
+    "data/raw/workbooks/266 粵語_清遠.xlsx": "1428cbdc155a04a2a2eaaf4548aae58b9c9b947f7eae51097b57602e986ef8fe",
+    "data/raw/workbooks/267 粵語_從化(城內).xlsx": "ae0af5613d2fae7a95680cd8ce308af3bb1d31b4622e4666d517f4fdd43f0c67",
+    "data/raw/workbooks/268 粵語_花縣(花山).xlsx": "f3ba211fd0ac8e791ea85d84e3c9430c59d09c90c04e83ab1a21b2fa12f644f0",
+    "data/raw/workbooks/269 粵語_桂平(縣城).xlsx": "12f6993119c1219bebc178873235e8aea243786cf69fd84d811ee0354fa9b8d5",
+    "data/raw/workbooks/270 粵語_增城(縣城).xlsx": "1e0d9f966fe42e44a00d0a3713f743f9f3dcb2e73d4b86af6dc19f556a9ed326",
+    "data/raw/workbooks/271 粵語_三水(西南).xlsx": "151bb7805b3f6539f7f0dd96bd7891fdad4f9831b204bd8458e7ba43fb89669c",
+    "data/raw/workbooks/272 粵語_廣州.xlsx": "c08e90bfb47a486ba911665d5bc745907b5777bd2f61a822d751afdfa1149a9d",
+    "data/raw/workbooks/273 粵語_肇慶(高要).xlsx": "f4e7f0b6564c06a36a951dba7e6197e68bef9d94cfb4d582479daf448cc187c6",
+    "data/raw/workbooks/274 粵語_佛山(市區).xlsx": "d658f8030cc578d5d1465167f3d63f9fcd3b706d0955848cd17abe4c59e056a6",
+    "data/raw/workbooks/275 粵語_番禺(市橋).xlsx": "9cc7b733a2408f6caed40691853db2dcb47c19d5da57957ada9153ca619dc063",
+    "data/raw/workbooks/276 粵語_雲浮(雲城).xlsx": "1cfcdf0d9b2585bb80b13f9ce0d62c66ae717431287af3fe197d78e94be7f778",
+    "data/raw/workbooks/277 粵語_南海(沙頭).xlsx": "438653a884e351cbada847abef5375a96422d351b627a91bfbeb1b26eae87e9c",
+    "data/raw/workbooks/278 粵語_高明(明城).xlsx": "2ccf7bbdeb7a972b69285888eb53d403584e20c38e65b165afe3a73a8c0b9221",
+    "data/raw/workbooks/279 粵語_順德(大良).xlsx": "9c5b96cfc3a9a3104741cd5bb7fd01397f29c662ef4590879379a7df415813f1",
+    "data/raw/workbooks/280 粵語_新田蕃田(圍頭話).xlsx": "ba45a309818b637a1a7985b9f44925df94af5d9b9fc5e5cee1dad1805b999a0b",
+    "data/raw/workbooks/281 粵語_新興.xlsx": "b10adc223c60f7fce94595c4adcdfe715778a5627503a2f70d13a9cd7fe9ade0",
+    "data/raw/workbooks/282 粵語_大埔三門仔(蜑家話).xlsx": "7003f5c5b9b92b7141d47eb4360ba30b7cb2200df454514b6382124505c3a164",
+    "data/raw/workbooks/283 粵語_大埔泰亨(圍頭話).xlsx": "5ca7105a1746dde9699d4d3f50432f9f91efd96ba5587b6941b1c3172d277183",
+    "data/raw/workbooks/284 粵語_香港(市區).xlsx": "4d397031c1f1dc9bdd0bfe946d97caf18d4bdd48e67481b717c37187fe3701b9",
+    "data/raw/workbooks/285 粵語_西貢蠔涌(圍頭話).xlsx": "6ee464e52cb187191282e2cae1bf165eeb07b74b8a41d8313ca67d3faa4902c5",
+    "data/raw/workbooks/286 粵語_澳門(市區).xlsx": "a592283dc1ac31395fc9052e732dd160fcf18de76b3dfe18d1697673fcc8f786",
+    "data/raw/workbooks/287 粵語_寧明(縣城).xlsx": "b6a12754f86c180c2d4999dc9411c2b5066fa238a291a6c0d80c29c9c5a03b38",
+    "data/raw/workbooks/288 粵語_北海(廉州鎮).xlsx": "c70c77378ec19f8d48816cc90cd23c657397e8bf50de0ae14b926a0fe00dd00c",
+    "data/raw/workbooks/289 粵語_北海(南康鎮).xlsx": "99b2495d8b51dcbef2c4b73697ee8fa9770b458c74d4681b94f45ff07f9757e9",
+    "data/raw/workbooks/290 粵語_北海(沙田鎮海邊話).xlsx": "e3c40389544227ad244a8b0b35a96a053623431efa002648b54c540d6e24eef2",
+    "data/raw/workbooks/291 粵語_北海(市區白話).xlsx": "1facbb9d1b1b761cc8927411289866df934f344b50d3e97822abff7dc5aad339",
+    "data/raw/workbooks/292 粵語_北海(營盤鎮佤話).xlsx": "0eb2c79727edf434baaa04731671adb0352f74f119e7afc2427402820e477b81",
+    "data/raw/workbooks/293 粵語_百色(市內).xlsx": "880fe1a401d8177c9c6b9b1e5beec921eb626dac26d8a9eaf0f081f9054fbd9b",
+    "data/raw/workbooks/294 粵語_南寧(市內).xlsx": "557a729cd28b3e5072b46a6ccfc713ad29cfb51f6948e80a2d03d47a84035b24",
+    "data/raw/workbooks/295 粵語_欽州(市內).xlsx": "5a9d59ab39da1c9fc57760183f03ba44e01dbb04424cb3990926a107278d5558",
+    "data/raw/workbooks/296 粵語_北海(市內).xlsx": "d962c72d35bfd38306ff1338d792db9ab36a47303544f2032c6a78b5b63918e6",
+    "data/raw/workbooks/297 粵語_鶴山(雅瑤).xlsx": "3974abc520cf19be4665eb1a1f03ef6ddb33cb9ebcbc1c53b96ec47086dda5ca",
+    "data/raw/workbooks/298 粵語_江門(白沙).xlsx": "c89b6138f7cce5d4eb4d6e936969f798f5f55b14fa29d2d7163969dd9de6db76",
+    "data/raw/workbooks/299 粵語_新會(會城).xlsx": "2dd59a68553be8edbc3a035555b82d929c4bf596d557313a1650a67154b1771d",
+    "data/raw/workbooks/300 粵語_開平(赤坎).xlsx": "c87e16639886152a860487a6127d4ce2a676a0fa410c3267804fb9a64e9efd7c",
+    "data/raw/workbooks/301 粵語_斗門(上橫水上話).xlsx": "62a160d902091cca646992845e1ae05e8a0ea851b7ae90e383582646f6a050fd",
+    "data/raw/workbooks/302 粵語_台山(台城).xlsx": "b322bdd7a6a527822430043899fe0f4b381bb8d7eba47dccc64d08be1a0e81b3",
+    "data/raw/workbooks/303 粵語_斗門(斗門鎮).xlsx": "7b888253351983b4da8559c85cb56d4d8b973ab0b37bff1bcdf1153c51705826",
+    "data/raw/workbooks/304 粵語_恩平(牛江).xlsx": "02ceb2f8f8ac1f54cda8151903d2c75017ad28177c5b643462e11f0767c5ac3b",
+    "data/raw/workbooks/305 粵語_臨桂(五通)(土話).xlsx": "c768d51876b529cb5cdb909b51558ed40bf1af628dbc3f1dd8efd2707cc0cfce",
+    "data/raw/workbooks/306 粵語_融水(縣城)(土拐話).xlsx": "051c8c2dfc041b284377fa70f3bea9eedf1db87a2247cb7c2a5cfa3d5474eb5f",
+    "data/raw/workbooks/307 粵語_連縣(清水).xlsx": "8a33aa5205a74b7464ce3351907f836d75f1ef96537b4eff02d1c604b8e041e7",
+    "data/raw/workbooks/308 粵語_平樂(張家)(土話).xlsx": "6b59c84a6f5758102b748fa4425b2744b2d50ca819fb2faa9a41d306ca9b424d",
+    "data/raw/workbooks/309 粵語_連山(布田).xlsx": "6b59d1022fdbef479868c59b09244f913849347c7c290641607b279dc851fc22",
+    "data/raw/workbooks/310 粵語_宜州(德勝)(百姓話).xlsx": "e299460f185c14879e1c16b2f43857df9a9ff7213a8df642c8439f87e93a6024",
+    "data/raw/workbooks/311 粵語_陽山.xlsx": "8bbe1442fec691e9ecc412ac9dfade82206fe8b50dbbf004c90bbc504513e797",
+    "data/raw/workbooks/312 粵語_蒙山(西河).xlsx": "34737bf12d4d278f672e2c799f29fce3aff638da62563a0319ead01a9793dd50",
+    "data/raw/workbooks/313 粵語_信都(鋪門).xlsx": "36ad55c2f771a757ea39ca5c4ad0f8b63460b2e317c510abc92ca934ceb5ee30",
+    "data/raw/workbooks/314 粵語_懷集.xlsx": "6b80a7b476965db849d90ed69362b81592d081cfe131042a2d8b105c5965a432",
+    "data/raw/workbooks/315 粵語_百色(那畢)(平話).xlsx": "8ab7d34a63e31ca70f2616dc63894fc27e50c9231b8c9085281e24449f7f6286",
+    "data/raw/workbooks/316 粵語_廣寧.xlsx": "2e208ccbfabff63e4e812f510b9822b32c0625f6e33d1ede8b203786ebe2238d",
+    "data/raw/workbooks/317 粵語_武宣(樟村)(伢話).xlsx": "b3e705533eb7d5a199c17ebf2ec3291b94526daa7edc19d05710a7afc74be1aa",
+    "data/raw/workbooks/318 粵語_封開(南豐).xlsx": "99518e0406281f7ee3ffdc304e58a44f667c610147542eae5bccc192f1a4b0dc",
+    "data/raw/workbooks/319 粵語_四會.xlsx": "0fb03bf935c5023334b07a566ea0e6ffbc8f4d45dc384ea69bf7ec67fcdffb93",
+    "data/raw/workbooks/320 粵語_郁南(平台).xlsx": "a11618f9be4780fc1540e1653d29aeb6cfea93991c7c7568d943a7473b80c54c",
+    "data/raw/workbooks/321 粵語_賓陽(新橋)(賓陽話).xlsx": "47e4bc42ff493b091acba0073050e1857e758aea2bd43ee57ed5b55a4a81bae7",
+    "data/raw/workbooks/322 粵語_德慶.xlsx": "d026d8d44f2856e11c9b94ae8ca4567d414991122ee67cbf301de764f662f93f",
+    "data/raw/workbooks/323 粵語_貴港(南江).xlsx": "7a675ec02ea52face3680ec97c4c35bf98c88014eb685c471f188ca90a0ecf6f",
+    "data/raw/workbooks/324 粵語_南寧(沙井)(平話).xlsx": "d721b348cc7bed9a2ecab301b3498ae24f77a40e3db550e746ffdbff7f0634fc",
+    "data/raw/workbooks/325 粵語_羅定.xlsx": "979fdd870b5178f6cbaa9382dafcf417af1d2dd8530538e61e5bbc742a48c34b",
+    "data/raw/workbooks/326 粵語_北流(唐僚).xlsx": "36ac1603a6f86475927199f9917820cbd9438c670e3743f6745523e2fea0ba90",
+    "data/raw/workbooks/327 粵語_橫縣(縣城).xlsx": "45ef1b8c0eeba58ede155a0aba08bd706607cefb048ae502966e588b1bad5f1a",
+    "data/raw/workbooks/328 粵語_扶綏(龍頭)(平話).xlsx": "b7f21627006c9905ecb3bc7521486285dfa2d04bcb37d521a43a34160c9927f4",
+    "data/raw/workbooks/329 粵語_崇左(四排話)(平話).xlsx": "5996193c31b3dca76f752e29783a881acf94cfa0e822e0fdf5ff4a2199e9341c",
+    "data/raw/workbooks/330 粵語_博白(縣城).xlsx": "b048338c2b300c72429dac4a5f3d40b0a32fe750353eaeba019a193ea1684a98",
+    "data/raw/workbooks/331 粵語_靈山(縣城).xlsx": "399063a746512f5fb8df7db357f2f9ce00c2232758ffe504942680bdf2568340",
+    "data/raw/workbooks/332 粵語_浦北(縣城).xlsx": "440405bafb2ea26cc5c89cd1cf489f8e7ca2aebe23fc91d4d8511bace8c21ae0",
+    "data/raw/workbooks/333 粵語_中山(石岐).xlsx": "a841e2a600a818a04216628bee39e38d3b3c2be9a75307330e31db725407c22e",
+    "data/raw/workbooks/334 粵語_珠海(前山).xlsx": "4912aa8c7fc31ac556f6dc649c59f6c766e6b79cf6eef1295a6a0150cd75c650",
+    "data/raw/workbooks/335 粵語_東莞(莞城).xlsx": "f5706217411fcc98b5a8abad0c5f9382089b1e0fef5f3a3d3088d67ba91fbdd7",
+    "data/raw/workbooks/336 粵語_寶安(沙井).xlsx": "b227cbbb9645415369c3fb0026a7eb1281f5454fb57dff8c3807e90c6fc7b039",
+    "data/raw/workbooks/337 粵語_香港(新界錦田).xlsx": "4bd427dafb936a33dbeeb7c64f95f9bcc58ecbee8546802c562cc027faadf154",
+    "data/raw/workbooks/338 粵語_曼谷(廣府話).xlsx": "86f8be8825c7201fbddccfdf6780015f04d0b45d7ecaa4d29b52c9a12f83f189"
+  },
+  "dependency_repairs": [
+    "Current renderer is self-contained through scripts/wave_graphics.py; no imports from obsolete directories",
+    "validate_outputs.py now reads outputs/wave_clusters.svg",
+    "README describes only the current cluster candidate",
+    "Source packaging metadata identifies Localized Wave Clusters"
+  ],
+  "deleted_file_count": 22,
+  "retained_data_files_verified": 112,
+  "approved_svg_revision_cleanup": [
+    {
+      "path": "scripts/render_wave_clusters.py",
+      "sha256": "46f976db19eba71b35e7d01a86520c672e90ee6c55f3b91e532a7a7b286baa5d",
+      "reason": "Replaced by direct approved-SVG placement; no current renderer imports it."
+    }
+  ],
+  "final_release_cleanup": {
+    "deleted": [
+      {
+        "path": "outputs/geographic_rhythm_preview.png",
+        "bytes": 1173383,
+        "sha256": "e9dc106d179e7fab80f595b96f4cabe5c7e5f152053aeebdfc9928999b248dd9",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/pictorial_rhythm_candidate.png",
+        "bytes": 1574063,
+        "sha256": "244940235ef0f92a12ddc8a2c961c15b740376675862aede5fe50910cfdc6d39",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/pictorial_rhythm_candidate.svg",
+        "bytes": 31818124,
+        "sha256": "d9b402c86e5dafb708e0806f275c6e6efc76183ff27f891b5337bf0c04409572",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/pictorial_rhythm_final_candidate.png",
+        "bytes": 1599240,
+        "sha256": "f9e2df378bbee388bd3a9a24ea432c8f475445572a7a9b2f37ee649d7ddfd1c0",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/pictorial_rhythm_final_candidate.svg",
+        "bytes": 31857895,
+        "sha256": "233c042a02796be83d30e1a2e62aa0f1f36e38cbf3237d20d3aab298603f72a3",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/pictorial_rhythm_preview.png",
+        "bytes": 1123262,
+        "sha256": "f498ff42c14693f20da7ceaddebb74a7ec3c744fa486b728f0ca201219c2744f",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/rhythm_layout_check.md",
+        "bytes": 3784,
+        "sha256": "b6898cf0e0e469fce9432df6680714483548e59878ffc80844776c9a68b443ab",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/rhythm_layout_parameters.json",
+        "bytes": 129909,
+        "sha256": "df37e9c6851d8a43d3218df4d2ce65b6edee1934fbf611af1dd23eaad5aedce8",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/wave_clusters.png",
+        "bytes": 944932,
+        "sha256": "4955728d11443c3da896ed776d72b59d535f5345c3c5baf559e2a76a57f9170f",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/wave_clusters.svg",
+        "bytes": 31564206,
+        "sha256": "294e023f063c419321d83084e312fa3598a4f50c17970939c7b64f0d78663a98",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/wave_cluster_layout_report.md",
+        "bytes": 2110,
+        "sha256": "f5845603823deb0e1ee0659e38451ef7d49b6f2d525f34795c7f24f48c78b161",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/wave_cluster_studies.png",
+        "bytes": 395948,
+        "sha256": "00705aba1f814d05b1461099ddc09fdcb51378145979068be9e8e4c8e86157b0",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "outputs/wave_cluster_studies.svg",
+        "bytes": 283179,
+        "sha256": "62afde66c7de5a073853332879668e701a531bc89bc8c12ac88dc71276889566",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "scripts/render_final_clusters.py",
+        "bytes": 15445,
+        "sha256": "e9b9670b10786a559955b61782fbefa067bad44782e8713980821ab82cc2ce9f",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "scripts/render_pictorial_candidate.py",
+        "bytes": 13849,
+        "sha256": "79117f82885529b8cc287dce419fd396e1452e161fe98ba8ff403f4926d3eda5",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "scripts/render_pictorial_final.py",
+        "bytes": 9272,
+        "sha256": "6ae2a65f3ecbe8d17ba2e7434009f68c680a6aac4009871f7b483b3460f35756",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "scripts/render_rhythm_previews.py",
+        "bytes": 24947,
+        "sha256": "0147d36487c3597d87b475a9c1916f2dc9baa403f3abdb487d116d2afb1a2f99",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "scripts/wave_graphics.py",
+        "bytes": 6122,
+        "sha256": "f3942f3f1fc4e650d18431cbaf0d5900b4430e5aa7a1be1064e94db693699f78",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "data/wave_cluster_mapping.csv",
+        "bytes": 14358,
+        "sha256": "04fa74977c30e5f4437511283ff874cec43630999b14aafa284308940826c292",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      },
+      {
+        "path": "data/wave_cluster_validation.json",
+        "bytes": 36202,
+        "sha256": "0406c509bae79be48b0cc95e3ec8253e107efb78280c84fff6e0ad3479bcdf1c",
+        "reason": "Superseded and not imported/read by the independent final pipeline. Approved source paths and final transforms are retained in assets/wave_cluster_templates.svg and data/final_layout.json."
+      }
+    ],
+    "retained_render_checkpoint": "assets/basemap.png",
+    "retained_approved_geometry": "assets/wave_cluster_templates.svg",
+    "final_layout": "data/final_layout.json",
+    "uncertain_process_files": [],
+    "raw_reference_snapshots": "Intentionally retained as source provenance, not temporary renders."
+  }
+}

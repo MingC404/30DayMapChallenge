@@ -1,0 +1,100 @@
+{
+  "title": "Where Sounds Ripple",
+  "subtitle": "How “水” (water) is pronounced across Cantonese-speaking communities",
+  "author": "Ming Cao",
+  "records": 79,
+  "located_records": 74,
+  "in_frame_records": 73,
+  "clusters": 48,
+  "cluster_records": 60,
+  "anchor_only_records": 13,
+  "unlocated_records": 5,
+  "outside_frame_records": 1,
+  "initial_counts": {
+    "s": 46,
+    "ʃ": 28,
+    "ɬ": 3,
+    "ʂ": 1,
+    "θ": 1
+  },
+  "final_counts": {
+    "œy": 14,
+    "øi": 2,
+    "øy": 3,
+    "oi": 4,
+    "ui": 43,
+    "œ": 3,
+    "u": 2,
+    "ɔ": 1,
+    "ɵy": 2,
+    "y": 3,
+    "ɛ": 1,
+    "ɔi": 1
+  },
+  "gif": {
+    "duration_ms": 8000,
+    "dimensions": [
+      1200,
+      882
+    ],
+    "frames": 21,
+    "logical_timeline_frames": 26,
+    "transition_fps": 10,
+    "loop": 0,
+    "inactive_opacity": 0.12,
+    "first_equals_last": true,
+    "static_pixels_unchanged": true,
+    "global_palette_colors": 256,
+    "bytes": 1088124
+  },
+  "legend": {
+    "columns": 2,
+    "header_y": 1382,
+    "first_caption_y": 1410,
+    "pattern_width": 330,
+    "pattern_left_edge": 2160,
+    "caption_x": 2160,
+    "caption_side": "above sample",
+    "pattern_row_centers": [
+      1475,
+      1585,
+      1695,
+      1805
+    ],
+    "unclassified_finals_retained": true
+  },
+  "source_csv_sha256": {
+    "coincident_points.csv": "2a3e2b61167ce0766598b36154c38ab26ca196dba1fe4113b8a34ac5dc40c770",
+    "combination_frequency.csv": "1ac314352fdc268cf3498d90679ee34de9c64d6e38446d9bbdfbfd22a97c7e57",
+    "coordinate_review_queue.csv": "de1afff91b0f46942b81b98ff71f245cb3a49ea9be2c91e3bd3a4730786e1ca4",
+    "download_vs_live_inventory.csv": "c5e7a30f21af9a008e8253f3e4af224688b849d536515f68bec461fa26640781",
+    "final_frequency.csv": "c913dfb143ff309721e5215d7684dae2861b95170532d772e7eb45278626c2c2",
+    "initial_frequency.csv": "68010391eefb8a074f55e275ae755787435377a46b84e80bab85495fa66c1c1b",
+    "notation_audit.csv": "1e6081d0af865c38fa378809ace49197a9f3fe8c1d319a3a93e0adb9a8751876",
+    "notation_cooccurrence_examples.csv": "480cbf756f0667511d4d4483b459e588123c94735c569e577d137fc423afc7b7",
+    "site_coordinates.csv": "24b73c4d51521835115621260dd14f05be109c2b742eaac91e21da72faca5af7",
+    "site_labels_en.csv": "38055b7aa3388478971ce702415bdf38ac8dd60b38675dffd1b7885dee53cd3d",
+    "water_geocoded.csv": "1237fc55273694417418652654deba42d29bcc8a378f64ef57c611092c372158",
+    "water_records.csv": "ac0e1b2a44a5b7abc8f66de47d2e94cbefdc5bb555aba041782ffbe7562bd2e1",
+    "wave_cluster_encoding.csv": "4cdee7befb15b53128dc0704883addc8b6ec10721636c2feb36a583d7929bcf8",
+    "workbook_inventory.csv": "42af51d79aa0c734b49c027f17a0d54be1cf2a381feb8a9693962b077522632a"
+  },
+  "files": {
+    "where_sounds_ripple.png": {
+      "bytes": 1604078,
+      "sha256": "327b025762522e3e1b97d1af64d98cec1011c2cd44f9731c9f4cee8426e89abe"
+    },
+    "where_sounds_ripple.jpg": {
+      "bytes": 1075791,
+      "sha256": "229004a82e06f27eaa121455ba0087041ac2409f539ef030881944166028e7d4"
+    },
+    "where_sounds_ripple.gif": {
+      "bytes": 1088124,
+      "sha256": "d5e2dc03b642f3ebee402dcce68e21e1e25bb1d970dca410a0383a942e8086b5"
+    },
+    "where_sounds_ripple.svg": {
+      "bytes": 31836120,
+      "sha256": "0305dcf197e3c188da6d64fbc83a6fd95a420e6ca8b81e0ce47e7d06e1326e8f"
+    }
+  }
+}

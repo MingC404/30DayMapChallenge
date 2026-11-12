@@ -1,12 +1,17 @@
 ﻿const fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..'),docs=path.join(root,'docs');
 const entries=require('./gallery_entries.json');
+// Limit asset copying when preparing one day; shared HTML still lists all entries.
+const dayArg=process.argv.indexOf('--day');
+const copyDay=dayArg>=0?process.argv[dayArg+1]:null;
+if(dayArg>=0&&!entries.some(e=>e.day===copyDay))throw Error('Unknown --day entry: '+copyDay);
 const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const articles=entries.map(e=>{
  const media=e.media.map((m,i)=>{
   const src=path.join(root,m.source),dst=path.join(docs,m.path);
   if(!fs.existsSync(src))throw Error('Missing approved export: '+m.source);
-  fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(src,dst);
+  if(!copyDay||e.day===copyDay){fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(src,dst);}
+  else if(!fs.existsSync(dst))throw Error('Existing gallery asset missing: '+m.path);
   const b=fs.readFileSync(src);let w,h;
   if(b.toString('ascii',1,4)==='PNG'){w=b.readUInt32BE(16);h=b.readUInt32BE(20);}
   if(b.toString('ascii',0,3)==='GIF'){w=b.readUInt16LE(6);h=b.readUInt16LE(8);}

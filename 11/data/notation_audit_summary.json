@@ -1,0 +1,45 @@
+{
+  "œy": {
+    "water_count": 14,
+    "workbooks_containing": 22,
+    "water_sites": [
+      "樂昌",
+      "仁化",
+      "韶關",
+      "曲江(馬壩)",
+      "從化(城內)",
+      "三水(西南)",
+      "佛山(市區)",
+      "番禺(市橋)",
+      "順德(大良)",
+      "香港(市區)",
+      "澳門(市區)",
+      "中山(石岐)",
+      "珠海(前山)",
+      "曼谷(廣府話)"
+    ]
+  },
+  "øi": {
+    "water_count": 2,
+    "workbooks_containing": 3,
+    "water_sites": [
+      "英德",
+      "宜州(德勝)(百姓話)"
+    ]
+  },
+  "øy": {
+    "water_count": 3,
+    "workbooks_containing": 5,
+    "water_sites": [
+      "佛岡",
+      "清遠",
+      "廣州"
+    ]
+  },
+  "workbooks_with_multiple_target_forms": {
+    "貴港(南江)": [
+      "øi",
+      "øy"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dataset": "NOAA ETOPO 2022 v1 60 arc-second ice-surface",
+  "source_page": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/ETOPO_2022_v1_60s.html",
+  "download": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/ETOPO_2022_v1_60s.csv?z%5B(19.3):4:(25.9)%5D%5B(105.5):4:(114.9)%5D",
+  "retrieved_utc": "2026-11-12T01:52:56.794706+00:00",
+  "requested_bounds": [
+    105.5,
+    19.3,
+    114.9,
+    25.9
+  ],
+  "stride": 4,
+  "interval_arcminutes": 4,
+  "vertical_reference": "EGM2008; meters; positive up",
+  "sha256": "fb80b3da23fcefc17f392e099b481e2428e8ffa43433f0ca912f62c1ddaa288f",
+  "bytes": 642278
+}

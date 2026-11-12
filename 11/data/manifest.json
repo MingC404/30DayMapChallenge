@@ -1,0 +1,76 @@
+{
+  "title": "Where Sounds Ripple",
+  "subtitle": "How “水” (water) is pronounced across Cantonese-speaking communities",
+  "author": "Ming Cao",
+  "date": "2026-11-11",
+  "stage": "Final static and animated map",
+  "data_policy": "Exact source strings; no IPA merging or Unicode normalization; one 水 row per workbook.",
+  "coordinate_policy": "74 approximate locations / 5 pending. Original adopted coordinates and source links are unchanged; decorative texture displacement is recorded separately in final_layout.json.",
+  "licenses": {
+    "phonology": "Public Domain Mark (PDM), per official download page",
+    "basemap": "Natural Earth public domain",
+    "bathymetry": "NOAA ETOPO 2022, public domain in the United States"
+  },
+  "sources": [
+    {
+      "file": "raw/ccr11_yueyu_data_xlsx.zip",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/ccrdata/file/ccr11_yueyu_data_xlsx.zip",
+      "sha256": "dbfc9b9966eedbeadd7c443f08c5e7ba4cf57f951cffd54dd38f0cbc02408b98",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/official_statistics.html",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/yueyu/Statistics/Statistics",
+      "sha256": "7b0ad14756943a7d71c73a8f6f03307bfa85256db42e94f9fe081e186a93b7c4",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/official_download.html",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/ccrdata/",
+      "sha256": "0c49881c39e0d1251eda58d3a07897789397de860c4c5ca97a4db287b6b947f9",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/official_bibliography.html",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/yueyu/Bibliography/Bibliography",
+      "sha256": "336bcbbadacefc68609a89282ac9df2a6b22afc6e18dff00acb25a5efbc7b52f",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/notation_general.html",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/ccr/Example/Example01",
+      "sha256": "c9e193f215d847466ce17d6ac018b618fcae11dbabd7fc36b192411b99eab5a5",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/notation_west_guangdong.html",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/ccr/Example/Example05",
+      "sha256": "1ed1e494948f50e587b09fb4c2af4a7b9d29e577200d17451a7f2d823ae59137",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/notation_guangxi.html",
+      "url": "https://xiaoxue.iis.sinica.edu.tw/ccr/Example/Example10",
+      "sha256": "71dce86f748322a191a07e00e09545d75d70e504e01822beaea81c43dee7560b",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/ne_50m_admin_0_countries.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+      "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+      "retrieval": "copied existing local Day 10 basemap"
+    },
+    {
+      "file": "raw/ne_50m_admin_1_states_provinces_lines.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces_lines.geojson",
+      "sha256": "72cca93c850d412628a5da4bc5ebfe21ba4d376eb34611bde6b623ee73f0fdcf",
+      "retrieval": "retrieved 2026-11-11"
+    },
+    {
+      "file": "raw/etopo2022_yue_4arcmin.csv",
+      "url": "https://oceanwatch.pifsc.noaa.gov/erddap/griddap/ETOPO_2022_v1_60s.csv?z%5B(19.3):4:(25.9)%5D%5B(105.5):4:(114.9)%5D",
+      "sha256": "fb80b3da23fcefc17f392e099b481e2428e8ffa43433f0ca912f62c1ddaa288f",
+      "retrieval": "2026-11-12T01:52:56.794706+00:00"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "validation": "passed",
+  "source_cell_checks": 79,
+  "water_records": 79,
+  "coordinate_rows": 79,
+  "mapped": 74,
+  "pending": 5,
+  "initial_categories": 5,
+  "final_categories": 12,
+  "combination_categories": 21,
+  "coincident_coordinate_groups": 3,
+  "download_workbook_rows": 325567,
+  "live_website_rows": 325879,
+  "zip_member_timestamps": "2026-08-20 15:33:46 (archive metadata only; not a survey date)",
+  "notes": "Exact source strings validated. Coordinates retain source values rounded to 0.001 degree; no jitter. Pending coordinates stay null. Final map SVG and source-data XLSX parsed successfully."
+}
