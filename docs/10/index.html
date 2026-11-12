@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore the historical phases of East Asia's UNESCO cultural heritage. An interactive editorial map by Ming Cao.">
+  <title>Heritage Across East Asia — Ming Cao</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<main aria-label="Heritage Across East Asia">
+  <div id="stage" class="stage">
+    <svg id="map" viewBox="0 0 2400 1800" role="group" aria-label="Interactive UNESCO cultural heritage map. Drag to pan, scroll or pinch to zoom. Tab to visit site records." tabindex="0">
+      <title>Heritage Across East Asia</title>
+      <desc>87 properties and 590 component/site records. Colors show a documented historical phase, not inscription year.</desc>
+      <g id="geography"><g id="basemap"></g><g id="points"></g><g id="geographic-labels" aria-hidden="true"></g></g>
+      <g id="scale-bar" aria-hidden="true"></g>
+      <g id="fixed-artwork" aria-hidden="true"></g>
+    </svg>
+    <div class="view-tools"><button id="reset-view" type="button">Reset view</button><span>Drag to explore · Scroll / pinch to zoom</span></div>
+    <section class="timeline" aria-label="Historical timeline">
+      <div class="timeline-heading"><span>HISTORICAL PHASE STARTS</span><output id="current-year" for="year-slider">2000 CE</output></div>
+      <div class="timeline-controls"><button id="play" type="button" aria-label="Play historical timeline">Play</button><input id="year-slider" type="range" min="0" max="1000" value="1000" step="1" aria-label="Selected historical year"></div>
+      <div class="timeline-ticks" aria-hidden="true"></div>
+      <p>Recorded phase starts, not completion or survival. Uneven time spacing; Unknown stays gray.</p>
+    </section>
+    <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+    <section id="details" class="details" role="dialog" aria-modal="false" aria-labelledby="detail-title" hidden></section>
+  </div>
+  <p class="mobile-hint">Tap a point for its history. Pinch to zoom; drag to explore. Choose overlapping records in the detail menu.</p>
+  <div id="announcer" class="sr-only" aria-live="polite"></div>
+</main>
+<noscript>This interactive map requires JavaScript. <a href="../assets/10/heritage_across_east_asia.png">Open the static map</a>.</noscript>
+</body>
+</html>

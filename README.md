@@ -11,6 +11,8 @@ Maps and spatial illustrations by **Ming Cao**.
 | 05 / Sight | Seeing New York from the Water | [Instructions](05/README.md) |
 | 06 / Vintage | A Changing Harbor Edge | [PNG](06/outputs/a_changing_harbor_edge.png) · [JPG](06/outputs/a_changing_harbor_edge.jpg) · [Instructions](06/README.md) |
 | 08 / Utopia | A City at Stroller Speed | [PNG](08/outputs/a_city_at_stroller_speed.png) · [JPG](08/outputs/a_city_at_stroller_speed.jpg) · [Notes](08/README.md) |
+| 09 / Urban-Rural | A Landscape of Surnames | [PNG](09/outputs/top20_anchors/a_landscape_of_surnames_top20.png) · [Notes](09/README.md) |
+| 10 / Prompting Only | Heritage Across East Asia | [Interactive map](docs/10/index.html) · [PNG](10/outputs/heritage_across_east_asia_symbols_a.png) · [Notes](10/README.md) |
 | 11 / Senses: Sound | Where Sounds Ripple | [GIF](11/outputs/where_sounds_ripple.gif) · [PNG](11/outputs/where_sounds_ripple.png) · [JPG](11/outputs/where_sounds_ripple.jpg) · [Notes](11/README.md) |
 
 Numbered folders contain each map's scripts and outputs. Shared original data, metadata and licenses are in `data_raw/`; generated web pages are in `docs/`. Each day's README identifies its sources and limits. Maps use NYC Open Data, OpenStreetMap, institutional collections and other credited sources; data timestamps do not imply current field verification.
