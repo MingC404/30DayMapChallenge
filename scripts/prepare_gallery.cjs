@@ -25,7 +25,7 @@ function publish(m,e){
  else if(!fs.existsSync(dst))throw Error('Missing published file '+m.path);
  return bytes;
 }
-function dimensions(b){if(b.toString('ascii',1,4)==='PNG')return[b.readUInt32BE(16),b.readUInt32BE(20)];throw Error('Gallery cover must be PNG');}
+function dimensions(b){if(b.toString('ascii',1,4)==='PNG')return[b.readUInt32BE(16),b.readUInt32BE(20)];if(b.toString('ascii',0,3)==='GIF')return[b.readUInt16LE(6),b.readUInt16LE(8)];throw Error('Gallery media must be an approved PNG or GIF');}
 const managed=[];
 const articles=entries.map(e=>{
  const blocked=pending(e),privatePreview=blocked&&local;
@@ -33,26 +33,23 @@ const articles=entries.map(e=>{
  if(privatePreview){if(!e.localInteractive||!fs.existsSync(path.join(root,e.localInteractive)))throw Error('Missing local interactive');interactive='/local-day13/'+e.localInteractive.slice(3);}
  else if(interactive)interactive=publicURL(interactive);
  if(!blocked){for(const m of [...e.publish||[],...e.downloads||[]]){publish(m,e);managed.push(m.path);}}
- const media=e.media.map(m=>{
+ const media=blocked&&!local?`<div class="withheld-media"><a href="${esc(e.statusPage)}" target="_blank" rel="noopener noreferrer">View publication notes</a></div>`:e.media.map(m=>{
   let src,href,w,h,alt=m.alt;
-  if(blocked&&!local){src='assets/13/publication-pending.svg';href='13/index.html';w=900;h=600;alt='Day 13 map preview withheld pending Dewey / Advan publication clearance';}
-  else if(privatePreview){src='/local-day13/'+m.source.slice(3);href=interactive;[w,h]=dimensions(fs.readFileSync(path.join(root,m.source)));}
+  if(privatePreview){src='/local-day13/'+m.source.slice(3);href=interactive;[w,h]=dimensions(fs.readFileSync(path.join(root,m.source)));}
   else {const b=publish(m,e);[w,h]=dimensions(b);src=publicURL(m.path);href=interactive||src;managed.push(m.path);}
-  const action=interactive?'Open interactive map':blocked&&!local?'Read publication status':'Open full-size map';
+  const action=interactive?'Open interactive map':m.path.endsWith('.gif')?'Open full-size animation':'Open full-size map';
   return `<figure><a class="cover-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(e.title+' — '+m.label+' — '+action+' (new tab)')}"><img src="${esc(src)}" alt="${esc(alt)}" width="${w}" height="${h}"${e.day==='01'?'':' loading="lazy"'}></a>${e.media.length>1?`<figcaption>${esc(m.label)}</figcaption>`:''}</figure>`;
  }).join('');
- const badge=interactive?`<span class="badge">Interactive${privatePreview?' · local review':''}</span>`:blocked?'<span class="badge pending">Publication pending</span>':'';
  const downloads=blocked?'':(e.downloads||[]).map(m=>`<a href="${esc(publicURL(m.path))}" target="_blank" rel="noopener noreferrer">${esc(m.label)}</a>`).join('');
- return `<article id="day-${e.day}" aria-labelledby="title-${e.day}"><div class="card-meta"><span>Day ${e.day} · ${esc(e.theme)}</span>${badge}</div><div class="media-grid${e.media.length>1?' dual':''}">${media}</div><header><h2 id="title-${e.day}">${esc(e.title)}</h2><p class="description">${esc(e.description)}</p><p class="tools">Tools: ${esc(e.tools.join(' · '))}</p><nav class="links" aria-label="Day ${e.day} resources"><a href="https://github.com/MingC404/30DayMapChallenge/tree/main/${e.day}" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>${downloads}${blocked&&!local?'<a href="13/index.html">Publication status</a>':''}</nav></header></article>`;
+ return `<article id="day-${e.day}" aria-labelledby="title-${e.day}"><header><p class="day">DAY ${e.day} / ${esc(e.theme.toUpperCase())}</p><h2 id="title-${e.day}">${esc(e.title)}</h2><p class="description">${esc(e.description)}</p><p class="tools">${esc(e.tools.join(' · '))}</p><nav class="links" aria-label="Day ${e.day} resources">${interactive?`<a href="${esc(interactive)}" target="_blank" rel="noopener noreferrer">View interactive map</a>`:''}<a href="https://github.com/MingC404/30DayMapChallenge/tree/main/${e.day}" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>${downloads}</nav></header><div class="media-grid${e.media.length>1?' dual':''}">${media}</div></article>`;
 }).join('\n');
 const template=fs.readFileSync(path.join(__dirname,'gallery_template.html'),'utf8');
-const summary=`${entries.length} works · ${entries.filter(e=>e.interactive&&!pending(e)).length} public interactive maps${local?' · local Day 13 review':' · Day 13 awaiting clearance'}`;
-const html=template.replace('<!-- GALLERY_SUMMARY -->',summary).replace('<!-- GALLERY_ENTRIES -->',articles).replace('<!-- LOCAL_REVIEW -->',local?'<p class="local-notice">Local review — Day 13 artwork and data are not cleared for publication.</p>':'');
+const html=template.replace('<!-- GALLERY_ENTRIES -->',articles);
 if(local){fs.mkdirSync(localDir,{recursive:true});fs.writeFileSync(path.join(localDir,'index.html'),html);console.log('Local preview prepared without copying restricted map/data: '+path.join(localDir,'index.html'));}
 else{
  fs.writeFileSync(path.join(docs,'index.html'),html);fs.writeFileSync(path.join(__dirname,'maps_index_template.html'),html);fs.closeSync(fs.openSync(path.join(docs,'.nojekyll'),'a'));
  // Only known superseded published copies; original day files are never removed.
- const obsolete=['nyc-changing-stations/preview.gif','assets/04/citywide.png','assets/04/hamilton_park.png','assets/05/seeing_new_york_scroll.jpg','assets/05/seeing_new_york.png.source.sha256','assets/11/where_sounds_ripple.jpg'];
+ const obsolete=['nyc-changing-stations/preview.gif','assets/04/citywide.png','assets/04/hamilton_park.png','assets/05/seeing_new_york_scroll.jpg','assets/05/seeing_new_york.png.source.sha256','assets/05/seeing_new_york.png','assets/11/where_sounds_ripple.jpg','assets/13/publication-pending.svg'];
  const removed=[];
  for(const rel of obsolete){const file=path.resolve(docs,rel);if(!file.startsWith(docs+path.sep))throw Error('Unsafe cleanup');if(fs.existsSync(file)&&!managed.includes(rel)){removed.push({path:rel,sha256:hash(fs.readFileSync(file))});fs.unlinkSync(file);}}
  if(removed.length){const log=path.join(root,'.work/gallery-cleanup.json');const previous=fs.existsSync(log)?JSON.parse(fs.readFileSync(log)):[];fs.writeFileSync(log,JSON.stringify([...previous,...removed],null,2));}

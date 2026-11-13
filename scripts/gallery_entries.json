@@ -3,13 +3,13 @@
     "day": "01",
     "theme": "Points",
     "title": "NYC Changing Station Explorer",
-    "description": "Finding a changing table shouldn't be a guessing game. NYC Open Data restroom records are mapped by borough and reported placement.",
+    "description": "Public changing-table locations across New York City are mapped from NYC Open Data restroom records and grouped by reported placement.",
     "interactive": "nyc-changing-stations/",
     "media": [
       {
-        "source": "01/outputs/nyc_changing_station_explorer.png",
-        "path": "nyc-changing-stations/preview.png",
-        "label": "Map preview",
+        "source": "01/outputs/nyc_changing_station_explorer.gif",
+        "path": "nyc-changing-stations/preview.gif",
+        "label": "Animated changing-table map",
         "alt": "NYC borough map of changing tables reported in public restrooms"
       }
     ],
@@ -27,13 +27,20 @@
         "source": "01/outputs/nyc_changing_station_explorer.html",
         "path": "nyc-changing-stations/index.html"
       }
+    ],
+    "downloads": [
+      {
+        "source": "01/outputs/nyc_changing_station_explorer.png",
+        "path": "nyc-changing-stations/preview.png",
+        "label": "Static PNG"
+      }
     ]
   },
   {
     "day": "02",
     "theme": "Lines",
     "title": "Waterfront Walks",
-    "description": "What does a waterfront walk feel like underfoot? OpenStreetMap paths in Jersey City and Brooklyn are classified by recorded surface and walking-permission tags.",
+    "description": "Recorded waterfront paths in Jersey City and Brooklyn are classified by surface and walking-permission tags from OpenStreetMap.",
     "interactive": "02/",
     "media": [
       {
@@ -63,7 +70,7 @@
     "day": "03",
     "theme": "Polygons",
     "title": "Inside the Park",
-    "description": "Three Jersey City parks become small atlases of play, sport, and movement. OpenStreetMap activity polygons and paths are drawn in separate panels with metric scales.",
+    "description": "Activity spaces and paths in three Jersey City parks are mapped from OpenStreetMap polygons and tags. Separate panels use metric scales and a shared location map.",
     "media": [
       {
         "source": "03/outputs/inside_the_park_jc.png",
@@ -86,12 +93,12 @@
     "day": "04",
     "theme": "My Data",
     "title": "Clusters of Play",
-    "description": "How close are licensed childcare centers to mapped playgrounds? NJ licensing records and OpenStreetMap places are grouped and linked within a 400 m straight-line threshold.",
+    "description": "Playgrounds and licensed childcare centers in Jersey City and Hoboken are mapped from OpenStreetMap and NJ licensing records. Grouped playgrounds are linked to centers within a 400 m straight-line threshold.",
     "media": [
       {
-        "source": "04/outputs/02_citywide_final.png",
-        "path": "assets/04/clusters_of_play.png",
-        "label": "Citywide map",
+        "source": "04/outputs/clusters_of_play.gif",
+        "path": "assets/04/clusters_of_play.gif",
+        "label": "Animated proximity map",
         "alt": "Playgrounds and nearby licensed childcare centers in Jersey City and Hoboken"
       }
     ],
@@ -105,9 +112,10 @@
     ],
     "downloads": [
       {
-        "source": "04/outputs/clusters_of_play.gif",
-        "path": "assets/04/clusters_of_play.gif",
-        "label": "Animation"
+        "source": "04/outputs/02_citywide_final.png",
+        "path": "assets/04/clusters_of_play.png",
+        "label": "Static PNG",
+        "alt": "Playgrounds and nearby licensed childcare centers in Jersey City and Hoboken"
       }
     ]
   },
@@ -115,13 +123,12 @@
     "day": "05",
     "theme": "Sight",
     "title": "Seeing New York from the Water",
-    "description": "Lower Manhattan unfolds like a handscroll seen from the water. NYC building footprints and roof heights become layered silhouettes, with art-directed parallax in the animation.",
+    "description": "Lower Manhattan is illustrated from a waterfront viewpoint using NYC building footprints and roof heights. Separate silhouette layers move at different speeds to create a depth effect.",
     "media": [
       {
         "source": "05/outputs/seeing_new_york_final.gif",
-        "path": "assets/05/seeing_new_york.png",
-        "format": "png",
-        "label": "Skyline and viewing locator",
+        "path": "assets/05/seeing_new_york_final.gif",
+        "label": "Animated skyline and viewing locator",
         "alt": "Layered Lower Manhattan skyline and its geographic viewing locator"
       }
     ],
@@ -133,19 +140,13 @@
     "evidence": [
       "05/README.md"
     ],
-    "downloads": [
-      {
-        "source": "05/outputs/seeing_new_york_final.gif",
-        "path": "assets/05/seeing_new_york_final.gif",
-        "label": "Animation"
-      }
-    ]
+    "downloads": []
   },
   {
     "day": "06",
     "theme": "Vintage",
     "title": "A Changing Harbor Edge",
-    "description": "A harbor chart cataloged as possibly dating to 1844 meets modern mapped shorelines. The NYPL scan is aligned to NYC DCP and OpenStreetMap land outlines with a six-parameter affine transform.",
+    "description": "A NYPL harbor chart cataloged as possibly dating to 1844 is overlaid with NYC DCP and OpenStreetMap shorelines. A six-parameter affine transform aligns the historical scan with modern mapped geometry.",
     "media": [
       {
         "source": "06/outputs/a_changing_harbor_edge.png",
@@ -168,7 +169,7 @@
     "day": "08",
     "theme": "Utopia",
     "title": "A City at Stroller Speed",
-    "description": "An Open Streets walk with a stroller became an imagined everyday neighborhood around Rittenhouse Square. Real OpenStreetMap street and park geometry anchors illustrated scenes of care, play, and slower movement.",
+    "description": "An imagined neighborhood around Rittenhouse Square is based on OpenStreetMap street and park geometry. Vector-drawn scenes show space for caregivers, children, and everyday activities.",
     "media": [
       {
         "source": "08/outputs/a_city_at_stroller_speed.png",
@@ -190,7 +191,7 @@
     "day": "09",
     "theme": "Urban-Rural",
     "title": "A Landscape of Surnames",
-    "description": "Taiwan's twenty most common surnames form a schematic landscape. MOI household-registration counts scale the glyphs, while real NOAA ETOPO depth bands frame the island.",
+    "description": "Taiwan's twenty most common surnames are shown as population-scaled glyphs using MOI household-registration counts. Schematic placement is combined with NOAA ETOPO depth bands.",
     "media": [
       {
         "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
@@ -212,7 +213,7 @@
     "day": "10",
     "theme": "Prompting Only",
     "title": "Heritage Across East Asia",
-    "description": "How old are East Asia's UNESCO cultural heritage sites? Official site records and reviewed historical phases drive a component-level map and timeline, keeping formation dates separate from inscription years.",
+    "description": "UNESCO cultural heritage locations across East Asia are classified by documented historical formation phases. Official site records and reviewed evidence support the component-level map and interactive timeline.",
     "interactive": "10/index.html",
     "media": [
       {
@@ -255,20 +256,21 @@
     "day": "11",
     "theme": "Senses: Sound",
     "title": "Where Sounds Ripple",
-    "description": "One character, many readings: “水” becomes a field of water patterns. Academia Sinica Xiaoxuetang records supply initials and finals, encoded by color and categorical wave textures over Natural Earth and NOAA ETOPO geography.",
+    "description": "Recorded pronunciations of “水” across Cantonese-speaking communities are mapped from Academia Sinica Xiaoxuetang survey records. Initials are encoded by color and finals by categorical wave patterns over Natural Earth and NOAA ETOPO geography.",
     "media": [
       {
-        "source": "11/outputs/where_sounds_ripple.png",
-        "path": "assets/11/where_sounds_ripple.png",
-        "label": "Pronunciation map",
+        "source": "11/outputs/where_sounds_ripple.gif",
+        "path": "assets/11/where_sounds_ripple.gif",
+        "label": "Animated pronunciation map",
         "alt": "Recorded pronunciations of water across Cantonese-speaking communities, encoded as wave patterns"
       }
     ],
     "downloads": [
       {
-        "source": "11/outputs/where_sounds_ripple.gif",
-        "path": "assets/11/where_sounds_ripple.gif",
-        "label": "Animation"
+        "source": "11/outputs/where_sounds_ripple.png",
+        "path": "assets/11/where_sounds_ripple.png",
+        "label": "Static PNG",
+        "alt": "Recorded pronunciations of water across Cantonese-speaking communities, encoded as wave patterns"
       }
     ],
     "tools": [
@@ -285,7 +287,7 @@
     "day": "12",
     "theme": "Power",
     "title": "The Shape of Wind",
-    "description": "Two ERA5 snapshots catch winter and late-summer wind over East Asia and the western Pacific. RK4 streamlines and animated brightness follow each date's fixed 10 m vector field, with Natural Earth land as context.",
+    "description": "ERA5 10 m wind fields from 15 January and 5 September 2025 are shown over East Asia and the western Pacific. RK4 streamlines and brightness animation follow each fixed snapshot, with Natural Earth land as context.",
     "tools": [
       "Python",
       "NumPy",
@@ -299,28 +301,30 @@
     ],
     "media": [
       {
-        "source": "12/output/The_Shape_of_Wind_January.png",
-        "path": "assets/12/The_Shape_of_Wind_January.png",
+        "source": "12/output/The_Shape_of_Wind_January.gif",
+        "path": "assets/12/The_Shape_of_Wind_January.gif",
         "label": "January snapshot",
         "alt": "ERA5 10 m wind streamlines over the western Pacific on 15 January 2025 at 06:00 UTC"
       },
       {
-        "source": "12/output/The_Shape_of_Wind_September.png",
-        "path": "assets/12/The_Shape_of_Wind_September.png",
+        "source": "12/output/The_Shape_of_Wind_September.gif",
+        "path": "assets/12/The_Shape_of_Wind_September.gif",
         "label": "September snapshot",
         "alt": "ERA5 10 m wind streamlines over the western Pacific on 5 September 2025 at 06:00 UTC"
       }
     ],
     "downloads": [
       {
-        "source": "12/output/The_Shape_of_Wind_January.gif",
-        "path": "assets/12/The_Shape_of_Wind_January.gif",
-        "label": "January animation"
+        "source": "12/output/The_Shape_of_Wind_January.png",
+        "path": "assets/12/The_Shape_of_Wind_January.png",
+        "label": "January PNG",
+        "alt": "ERA5 10 m wind streamlines over the western Pacific on 15 January 2025 at 06:00 UTC"
       },
       {
-        "source": "12/output/The_Shape_of_Wind_September.gif",
-        "path": "assets/12/The_Shape_of_Wind_September.gif",
-        "label": "September animation"
+        "source": "12/output/The_Shape_of_Wind_September.png",
+        "path": "assets/12/The_Shape_of_Wind_September.png",
+        "label": "September PNG",
+        "alt": "ERA5 10 m wind streamlines over the western Pacific on 5 September 2025 at 06:00 UTC"
       }
     ]
   },
@@ -328,7 +332,7 @@
     "day": "13",
     "theme": "Interactions",
     "title": "Where Night Comes From",
-    "description": "Late-evening home-area associations connect the 40th Street area to origins across Philadelphia and beyond. Advan Neighborhood Patterns+ records are mapped by Census Block Group for August and September 2025; scaled associations are not unique visitors.",
+    "description": "Late-evening home-area associations for the 40th Street area are mapped from Advan Neighborhood Patterns+ records for August and September 2025. CBG-level contributions and statistical links represent scaled associations, not unique visitors or observed routes.",
     "tools": [
       "R",
       "JavaScript",
