@@ -1,0 +1,63 @@
+{
+  "files": {
+    "January": {
+      "png_bytes": 8317056,
+      "gif_bytes": 4689586,
+      "png_size": [
+        3840,
+        3520
+      ],
+      "gif_size": [
+        1056,
+        968
+      ],
+      "gif_frames": 66,
+      "gif_distinct_frames": 66,
+      "duration_s": 5.94,
+      "fps": 11.11111111111111,
+      "png_exact_reproduction_verified": true,
+      "browser_playback_verified": true,
+      "direction_reverse_segments": 0,
+      "adjacent_changed_pixels_min_median_max": [
+        37025.0,
+        37471.0,
+        37794.0
+      ]
+    },
+    "September": {
+      "png_bytes": 6663563,
+      "gif_bytes": 4110265,
+      "png_size": [
+        3840,
+        3520
+      ],
+      "gif_size": [
+        1056,
+        968
+      ],
+      "gif_frames": 66,
+      "gif_distinct_frames": 66,
+      "duration_s": 5.94,
+      "fps": 11.11111111111111,
+      "png_exact_reproduction_verified": true,
+      "browser_playback_verified": true,
+      "direction_reverse_segments": 0,
+      "adjacent_changed_pixels_min_median_max": [
+        32554.0,
+        33081.0,
+        33534.0
+      ]
+    }
+  },
+  "output_exactly_four_files": true,
+  "relative_links_verified": [
+    "output/The_Shape_of_Wind_January.png",
+    "output/The_Shape_of_Wind_January.gif",
+    "output/The_Shape_of_Wind_September.png",
+    "output/The_Shape_of_Wind_September.gif",
+    "METHODS.md"
+  ],
+  "cache_files_ignored": 19,
+  "tracked_large_cache_files": false,
+  "no_mp4": true
+}

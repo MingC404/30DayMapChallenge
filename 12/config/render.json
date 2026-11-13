@@ -1,0 +1,88 @@
+{
+  "seed": 202612,
+  "extent_wsen": [
+    95,
+    0,
+    155,
+    55
+  ],
+  "size": [
+    3840,
+    3520
+  ],
+  "region_label": "EAST ASIA & WESTERN PACIFIC",
+  "speed_limits_m_s": [
+    0,
+    20.0
+  ],
+  "speed_limit_rule": "fixed 0-20 m/s for both approved snapshots",
+  "integration": {
+    "step_km": 1.0,
+    "calm_m_s": 0.08
+  },
+  "lic": {
+    "raster_scale": 0.5,
+    "half_steps": 48,
+    "step_px": 0.8,
+    "base_strength": 0.015,
+    "texture_strength": 0.065
+  },
+  "streamline_layers": [
+    {
+      "name": "continuous_main",
+      "seed_count": 2850,
+      "maximum_length_km": 2000,
+      "width_px": 0.85,
+      "opacity_range": [
+        0.42,
+        0.98
+      ]
+    },
+    {
+      "name": "continuous_structure",
+      "seed_count": 330,
+      "maximum_length_km": 3400,
+      "width_px": 1.05,
+      "opacity_range": [
+        0.42,
+        0.98
+      ]
+    }
+  ],
+  "color_brightness_range": [
+    1.0,
+    1.0
+  ],
+  "land_opacity_factor": 0.15,
+  "color_sampling_chunk_km": 8,
+  "palette": [
+    [
+      0,
+      "#17243A"
+    ],
+    [
+      0.22,
+      "#294B70"
+    ],
+    [
+      0.42,
+      "#397F9D"
+    ],
+    [
+      0.6,
+      "#7FC5D3"
+    ],
+    [
+      0.76,
+      "#D5E9EE"
+    ],
+    [
+      1,
+      "#FFFFFF"
+    ]
+  ],
+  "ocean_color": "#0a1827",
+  "land_color": "#030a12",
+  "coastline_file": "data/source/ne_50m_land_east_asia.geojson",
+  "speed_opacity_gamma": 1.3
+}

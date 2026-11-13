@@ -1,0 +1,16 @@
+{
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "image": {
+    "complete": true,
+    "width": 1056,
+    "height": 968
+  },
+  "browser_screenshot_changed_pixels": [
+    186433,
+    184782
+  ],
+  "playback_verified": true,
+  "network_used": false,
+  "screenshots_saved": false,
+  "gif_sha256": "9c51d9329ff03f5edb9865992ce18dc23fe3cc849b4101c22e80ccfc8cecfe0c"
+}

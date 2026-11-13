@@ -1,0 +1,36 @@
+{
+  "size": [
+    1056,
+    968
+  ],
+  "frames": 66,
+  "frame_duration_ms": 90,
+  "seed": 20261224,
+  "wavelengths_px": [
+    112,
+    76,
+    56
+  ],
+  "temporal_cycles": [
+    1,
+    2,
+    3
+  ],
+  "harmonic_weights": [
+    0.58,
+    0.29,
+    0.13
+  ],
+  "modulation_amplitude": 0.85,
+  "curve_sample_step_px": 0.45,
+  "gaussian_footprint_px": 0.48,
+  "coast_guard_px": 2,
+  "palette_colors": [
+    255,
+    191,
+    127
+  ],
+  "target_bytes": 4000000,
+  "preferred_max_bytes": 5000000,
+  "transfer": "bounded multiplicative brightness: b*f/(1+b*(f-1)), f=1+amplitude*coverage*wave"
+}

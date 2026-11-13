@@ -1,0 +1,14 @@
+cdsapi==0.7.7
+ecmwf-datastores-client==0.6.0
+numpy==1.24.4
+scipy==1.15.2
+xarray==2023.7.0
+netCDF4==1.6.4
+matplotlib==3.7.2
+pyproj==3.6.1
+shapely==2.0.1
+numba==0.61.2
+Pillow==12.1.1
+
+# Optional local browser playback verification
+websocket-client==1.8.0

@@ -1,0 +1,13 @@
+data/cache/*
+!data/cache/.gitkeep
+.venv/
+.uv-cache/
+.cdsapirc
+*.part
+.local/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+*.pending.png
+*.pending.gif

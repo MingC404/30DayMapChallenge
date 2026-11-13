@@ -1,0 +1,90 @@
+{
+  "snapshot": "September",
+  "time_utc": "2025-09-05T06:00:00",
+  "data_sha256": "e6642e7871a620031d11b991a7489b9518e42d247588d37219ea5be64778e747",
+  "png_sha256": "cdad45f2ffef8cb131e11aac1fc7d7e2c394ede8e581216353aaae0beefe18a1",
+  "gif_sha256": "9c51d9329ff03f5edb9865992ce18dc23fe3cc849b4101c22e80ccfc8cecfe0c",
+  "configuration": {
+    "size": [
+      1056,
+      968
+    ],
+    "frames": 66,
+    "frame_duration_ms": 90,
+    "seed": 20261224,
+    "wavelengths_px": [
+      112,
+      76,
+      56
+    ],
+    "temporal_cycles": [
+      1,
+      2,
+      3
+    ],
+    "harmonic_weights": [
+      0.58,
+      0.29,
+      0.13
+    ],
+    "modulation_amplitude": 0.85,
+    "curve_sample_step_px": 0.45,
+    "gaussian_footprint_px": 0.48,
+    "coast_guard_px": 2,
+    "palette_colors": [
+      255,
+      191,
+      127
+    ],
+    "target_bytes": 4000000,
+    "preferred_max_bytes": 5000000,
+    "transfer": "bounded multiplicative brightness: b*f/(1+b*(f-1)), f=1+amplitude*coverage*wave"
+  },
+  "size": [
+    1056,
+    968
+  ],
+  "frames": 66,
+  "distinct_frames": 66,
+  "fps": 11.11111111111111,
+  "duration_s": 5.94,
+  "bytes": 4110265,
+  "method": "Fixed original 398 curves; continuous Fourier brightness texture, smoothly bounded multiplicative gain",
+  "palette_trials": [
+    {
+      "colors": 255,
+      "bytes": 5516611
+    },
+    {
+      "colors": 191,
+      "bytes": 4888186
+    },
+    {
+      "colors": 127,
+      "bytes": 4110265
+    }
+  ],
+  "palette_colors": 127,
+  "direction": {
+    "curves_intersecting_crop": 398,
+    "minimum_signed_tangent_dot": 0.9650248433321765,
+    "reverse_segments": 0
+  },
+  "transport_mse": {
+    "downstream": 72.70510490966518,
+    "upstream": 74.96651315331276
+  },
+  "all_fixed_pixels_and_text_identical": true,
+  "bright_text_mean_error": 1.8932207060862032,
+  "loop_endpoint_exact": true,
+  "wrap_vs_adjacent_difference_ratio": 1.000069010929606,
+  "maximum_relative_ocean_mean_brightness_step": 0.00011273189997647822,
+  "adjacent_changed_pixels_min_median_max": [
+    32554.0,
+    33081.0,
+    33534.0
+  ],
+  "under_5_MB": true,
+  "inputs_unchanged": true,
+  "render_seconds": 50.84400000004098
+}
