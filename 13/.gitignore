@@ -1,0 +1,4 @@
+# Restricted local analysis, including data-derived previews and screenshots.
+.local/
+# Collection artwork remains a restricted, local review draft pending rights clearance.
+output/

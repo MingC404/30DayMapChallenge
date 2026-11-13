@@ -1,0 +1,92 @@
+{
+  "entries": [
+    {
+      "day": "01",
+      "interactive": "nyc-changing-stations/",
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "02",
+      "interactive": "02/",
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "03",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "04",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "05",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "06",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "08",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "09",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "10",
+      "interactive": "10/index.html",
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "11",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "12",
+      "interactive": null,
+      "status": "published-assets-ready"
+    },
+    {
+      "day": "13",
+      "interactive": null,
+      "status": "pending"
+    }
+  ],
+  "managedAssets": [
+    "nyc-changing-stations/index.html",
+    "nyc-changing-stations/preview.png",
+    "02/index.html",
+    "assets/02/waterfront_walks.png",
+    "assets/03/inside_the_park_jc.png",
+    "assets/04/clusters_of_play.gif",
+    "assets/04/clusters_of_play.png",
+    "assets/05/seeing_new_york_final.gif",
+    "assets/05/seeing_new_york.png",
+    "assets/06/a_changing_harbor_edge.png",
+    "assets/08/a_city_at_stroller_speed.png",
+    "assets/09/a_landscape_of_surnames_top20.png",
+    "10/index.html",
+    "10/style.css",
+    "10/data.js",
+    "10/app.js",
+    "assets/10/heritage_across_east_asia.png",
+    "assets/11/where_sounds_ripple.gif",
+    "assets/11/where_sounds_ripple.png",
+    "assets/12/The_Shape_of_Wind_January.gif",
+    "assets/12/The_Shape_of_Wind_September.gif",
+    "assets/12/The_Shape_of_Wind_January.png",
+    "assets/12/The_Shape_of_Wind_September.png"
+  ],
+  "restrictedSourcesExcluded": [
+    "13"
+  ]
+}
