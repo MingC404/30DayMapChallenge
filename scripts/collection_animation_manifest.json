@@ -84,17 +84,22 @@
       ],
       "duration_ms": 3900,
       "frames": 25,
-      "bytes": 896686,
+      "bytes": 1450582,
       "loop": 0,
       "method": {
         "categories": [
           "Modern shoreline"
         ],
-        "mask": "accepted PNG modern shoreline pixels only",
+        "method": "original drawing operations replayed over their real underlay; opacity only",
+        "full_native_replay_matches_png": true,
+        "palette_rgb": [
+          "#087487",
+          "#E2E9DE"
+        ],
         "original_png_unchanged": true
       },
       "source_sha256": "d8098a2c8bc6626a4a9c645229c8a56eb70805db558446dfabac82283ac78daf",
-      "sha256": "15118644c507dbfc0c7ba1386fe0794b4ae2f4c2885c024986656765dca3488a"
+      "sha256": "c8488cab95038f48b5a76e8439a91bffa737470202a7f683b6f544bc90ad7d6e"
     },
     {
       "day": "08",
@@ -105,7 +110,7 @@
       ],
       "duration_ms": 10700,
       "frames": 36,
-      "bytes": 250558,
+      "bytes": 222732,
       "loop": 0,
       "method": {
         "categories": [
@@ -118,11 +123,20 @@
           "Tummy time with caregiver",
           "Baby cradled on bench"
         ],
-        "mask": "existing scene extents and original foreground colors; renderer coordinates",
+        "method": "original drawing operations replayed over their real underlay; opacity only",
+        "full_native_replay_matches_png": true,
+        "palette_rgb": [
+          "#344A42",
+          "#6588AD",
+          "#E98570",
+          "#F2D486",
+          "#D9BC72",
+          "#A1B49A"
+        ],
         "original_png_unchanged": true
       },
       "source_sha256": "0104aaa22770b33b023f4f9754ab1fa90b59bcebfd1d7aef04b0fc3ab374b263",
-      "sha256": "d8f829421683b2bfb886d5fe46b0fa7b0c3d01e0cfbb13cd91cccf0ab0e66473"
+      "sha256": "8a902cc87dfa2bd1a1c68203d33c138941968d16e549b41cfa43f93e34c57e33"
     },
     {
       "day": "09",
@@ -133,7 +147,7 @@
       ],
       "duration_ms": 13700,
       "frames": 42,
-      "bytes": 469482,
+      "bytes": 546774,
       "loop": 0,
       "method": {
         "categories": [
@@ -158,11 +172,24 @@
           "賴",
           "徐"
         ],
-        "mask": "actual surname SVG glyph extents and fill colors; repeated map occurrences grouped",
+        "method": "original drawing operations replayed over their real underlay; opacity only",
+        "full_native_replay_matches_png": true,
+        "palette_rgb": [
+          "#B94B36",
+          "#B45B26",
+          "#3E793E",
+          "#637B28",
+          "#276749",
+          "#A3680D",
+          "#086B7B",
+          "#326777",
+          "#147D92",
+          "#A65128"
+        ],
         "original_png_unchanged": true
       },
       "source_sha256": "3c85c2055555875b6866d6388a4e94696deb614d7821f885d284578387513316",
-      "sha256": "178f038adc0dcbd793fb1c5ae5d9d8bf21ce232622852cb3ddea27bf41ec12ce"
+      "sha256": "d4934f57c9717d338e30f8890dc578b98c9ca40da1d657e9961c75abf7f66bc2"
     },
     {
       "day": "10",
@@ -173,10 +200,10 @@
       ],
       "duration_ms": 7560,
       "frames": 49,
-      "bytes": 156788,
+      "bytes": 159135,
       "loop": 0,
       "method": {
-        "source": "unchanged Interactive HTML; existing year-slider input handler; zoom +16%",
+        "source": "existing year-slider input handler and timing; geography, points and labels enlarged together by 7% over the preceding GIF view; same center",
         "evidence": [
           {
             "year": -13000,
@@ -475,7 +502,7 @@
         ]
       },
       "source_sha256": "432315dfc2338d2d857b0136a58843f231b401ac61cbc004dccc81ee62d47c94",
-      "sha256": "8c8546dbb84e54c6a20a715a500f2a7fa86dc2265143922a62a56d33edca5664"
+      "sha256": "7be62b346799264a4a0ec8d292e674ca0661bb084314eeb20c7966824c04f5c0"
     }
   ]
 }

@@ -40,23 +40,32 @@ temporary, Git-ignored files, not alternative output directories.
   across all three park panels. Masks select original class-color pixels inside
   map panels; the locator and legend are fixed. Water play remains its own
   original cyan category, not relabeled as Sports.
-- **06:** original modern shoreline color, constrained by the actual projected
-  shoreline geometry and frozen affine transform. Only shoreline emphasis
-  changes; historical chart, captions, registration, and land wash stay fixed.
-  Full emphasis holds 1.1 seconds; fade steps are 100 ms.
-- **08:** eight existing activity scenes, using renderer coordinates and original
-  foreground-color masks: swing, lawn ball play, chalk clearing, ice-cream stop,
-  standing baby cuddle, crawling, tummy time, and bench baby. Position, number,
-  category color, park boundary, and illustrated geography do not change.
-- **09:** the actual 20 single-character surname categories and repeated map
-  occurrences, selected from accepted SVG glyph coordinates and fill colors.
-  The table, bathymetry, glyph sizes, and schematic positions remain fixed.
+- **06:** original renderer compiled in memory with file exports disabled. Both
+  modern-shoreline strokes (halo and cyan line) are omitted to recover the real
+  historical chart underneath. Opacity interpolates from zero to the accepted
+  normal layer and back to zero, with a 1.1-second normal-state hold. Captions,
+  land wash, historical registration and source files remain unchanged.
+- **08:** the original Pillow drawing commands are recorded, including the
+  rotated 18th Street label's paste operation. Eight original person groups are
+  identified by source statements, not image rectangles. Replaying the complete
+  sequence with each person group omitted recovers the actual grass, sidewalk,
+  mat, bench or apparatus beneath it. RGB is unchanged; only group alpha varies.
+- **09:** original text-drawing operations use final renderer coordinates,
+  Noto Serif TC 650, and actual `fill` values. The true map underlay is retained
+  while other map surnames use 20% opacity. Each active surname and the final
+  all-surnames state restore normal RGB. Source RGB values are explicitly
+  reserved in the shared GIF palette; there is no alternate highlight color.
 - **10:** the actual existing slider's nonlinear `yearAt` mapping and input
-  handler, with a 16% zoom increase and a small vertical pan to clear the title.
-  The original logic keeps future points gray, colors dated components when
-  their property's recorded formation-phase start is reached, and retains
-  unresolved components as gray. It does not use UNESCO inscription years or
-  fabricate completion dates. The final all-dates state holds 1.8 seconds.
+  handler, with the same 49 frames and timing. A shared SVG parent transform adds
+  7% zoom over the preceding GIF around the same map-view center, scaling the
+  geography, points and geographic labels together. Title, legend and timeline
+  remain fixed. Future points remain gray until their documented formation-phase
+  start; unresolved dates remain gray. The last state holds 1.8 seconds.
+
+For Days 06/08/09, full native-resolution replay must match the accepted PNG
+pixel for pixel before export. Source renderers and final PNGs are never written.
+Layer extraction is implemented in `collection_layers.py`, including independent
+underlay reconstruction rather than pixel-color masks or background-color fills.
 
 Original colors are restored at full emphasis. GIF palette quantization is a
 format limitation, not a change to the source artwork. All exports loop, use a

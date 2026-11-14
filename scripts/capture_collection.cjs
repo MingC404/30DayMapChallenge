@@ -46,6 +46,19 @@ const root=path.resolve(__dirname,'..'),work=path.join(root,'.work/collection-an
    await shot(700);
   }else{
    await page.evaluate(()=>{heritageMap.resetView();heritageMap.zoomAt(heritageMap.state.k*1.16,{x:1200,y:900});heritageMap.state.y+=120;heritageMap.zoomAt(heritageMap.state.k,{x:1200,y:900});});
+   // A second shared geographic transform enlarges *all* geographic children,
+   // including labels, by 7% around the same visible-map center. Fixed title,
+   // legend and timeline are siblings and retain their accepted layout.
+   const framing=await page.evaluate(()=>{
+    const svg=document.getElementById('map'),geo=document.getElementById('geography');
+    const before=[...geo.querySelectorAll('.heritage-point')].map(e=>({id:e.dataset.ref,rect:e.getBoundingClientRect().toJSON()}));
+    const box=svg.viewBox.baseVal,cx=box.x+box.width/2,cy=box.y+box.height/2;
+    const wrapper=document.createElementNS('http://www.w3.org/2000/svg','g');wrapper.id='capture-zoom';
+    geo.parentNode.insertBefore(wrapper,geo);wrapper.append(geo);wrapper.setAttribute('transform',`translate(${cx} ${cy}) scale(1.07) translate(${-cx} ${-cy})`);
+    const after=[...geo.querySelectorAll('.heritage-point')].map(e=>({id:e.dataset.ref,rect:e.getBoundingClientRect().toJSON()}));
+    return{zoomFactor:1.07,center:[cx,cy],before,after};
+   });
+   assert(Math.abs(framing.after[0].rect.width/framing.before[0].rect.width-1.07)<.001);
    const years=await page.evaluate(()=>{const s=document.getElementById('year-slider');return{min:Number(s.min),max:Number(s.max),step:Number(s.step)||1};});
    for(let i=0;i<=48;i++){
     const year=Math.round((years.min+(years.max-years.min)*i/48)/years.step)*years.step;
@@ -60,7 +73,7 @@ const root=path.resolve(__dirname,'..'),work=path.join(root,'.work/collection-an
     assert.equal(state.year,state.expected);evidence.push(state);await shot(i===48?1800:120);
    }
   }
-  assert.deepEqual(errors,[]);fs.writeFileSync(path.join(dir,'frames.json'),JSON.stringify({frames,durations,method:{source:day==='02'?'unchanged dual-map HTML; real route hover and verbatim native SVG titles in existing tooltip style':'unchanged Interactive HTML; existing year-slider input handler; zoom +16%',evidence}},null,2));
+  assert.deepEqual(errors,[]);fs.writeFileSync(path.join(dir,'frames.json'),JSON.stringify({frames,durations,method:{source:day==='02'?'unchanged dual-map HTML; real route hover and verbatim native SVG titles in existing tooltip style':'existing year-slider input handler and timing; geography, points and labels enlarged together by 7% over the preceding GIF view; same center',evidence}},null,2));
   await page.close();console.log('Captured Day '+day+' '+frames.length+' frames');
  }}finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
