@@ -33,7 +33,7 @@ const articles=entries.map(e=>{
  if(privatePreview){if(!e.localInteractive||!fs.existsSync(path.join(root,e.localInteractive)))throw Error('Missing local interactive');interactive='/local-day13/'+e.localInteractive.slice(3);}
  else if(interactive)interactive=publicURL(interactive);
  if(!blocked){for(const m of [...e.publish||[],...e.downloads||[]]){publish(m,e);managed.push(m.path);}}
- const media=blocked&&!local?`<div class="withheld-media"><a href="${esc(e.statusPage)}" target="_blank" rel="noopener noreferrer">View publication notes</a></div>`:e.media.map(m=>{
+ const media=blocked&&!local?`<div class="withheld-media"><div><p>Not publicly available due to data-source permission requirements.<br>Publication will follow once permission is confirmed.</p><a href="${esc(e.statusPage)}" target="_blank" rel="noopener noreferrer">View publication notes</a></div></div>`:e.media.map(m=>{
   let src,href,w,h,alt=m.alt;
   if(privatePreview){src='/local-day13/'+m.source.slice(3);href=interactive;[w,h]=dimensions(fs.readFileSync(path.join(root,m.source)));}
   else {const b=publish(m,e);[w,h]=dimensions(b);src=publicURL(m.path);href=interactive||src;managed.push(m.path);}

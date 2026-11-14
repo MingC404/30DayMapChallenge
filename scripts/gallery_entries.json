@@ -44,9 +44,9 @@
     "interactive": "02/",
     "media": [
       {
-        "source": "02/outputs/waterfront_walks_preview.png",
-        "path": "assets/02/waterfront_walks.png",
-        "label": "Waterfront paths",
+        "source": "02/outputs/waterfront_walks_preview.gif",
+        "path": "assets/02/waterfront_walks.gif",
+        "label": "Animated waterfront paths",
         "alt": "Jersey City and Brooklyn waterfront paths classified by recorded surface"
       }
     ],
@@ -64,6 +64,14 @@
         "source": "02/outputs/waterfront_walks_preview.html",
         "path": "02/index.html"
       }
+    ],
+    "downloads": [
+      {
+        "source": "02/outputs/waterfront_walks_preview.png",
+        "path": "assets/02/waterfront_walks.png",
+        "label": "Static PNG",
+        "alt": "Jersey City and Brooklyn waterfront paths classified by recorded surface"
+      }
     ]
   },
   {
@@ -73,9 +81,9 @@
     "description": "Activity spaces and paths in three Jersey City parks are mapped from OpenStreetMap polygons and tags. Separate panels use metric scales and a shared location map.",
     "media": [
       {
-        "source": "03/outputs/inside_the_park_jc.png",
-        "path": "assets/03/inside_the_park_jc.png",
-        "label": "Three-park map",
+        "source": "03/outputs/inside_the_park_jc.gif",
+        "path": "assets/03/inside_the_park_jc.gif",
+        "label": "Animated three-park map",
         "alt": "Activity polygons and paths in Hamilton, Lafayette, and Berry Lane parks"
       }
     ],
@@ -87,6 +95,14 @@
     ],
     "evidence": [
       "03/README.md"
+    ],
+    "downloads": [
+      {
+        "source": "03/outputs/inside_the_park_jc.png",
+        "path": "assets/03/inside_the_park_jc.png",
+        "label": "Static PNG",
+        "alt": "Activity polygons and paths in Hamilton, Lafayette, and Berry Lane parks"
+      }
     ]
   },
   {
@@ -149,9 +165,9 @@
     "description": "A NYPL harbor chart cataloged as possibly dating to 1844 is overlaid with NYC DCP and OpenStreetMap shorelines. A six-parameter affine transform aligns the historical scan with modern mapped geometry.",
     "media": [
       {
-        "source": "06/outputs/a_changing_harbor_edge.png",
-        "path": "assets/06/a_changing_harbor_edge.png",
-        "label": "Historical shoreline overlay",
+        "source": "06/outputs/a_changing_harbor_edge.gif",
+        "path": "assets/06/a_changing_harbor_edge.gif",
+        "label": "Animated historical shoreline overlay",
         "alt": "Historical New York Harbor chart overlaid with modern mapped shorelines"
       }
     ],
@@ -163,6 +179,14 @@
     ],
     "evidence": [
       "06/README.md"
+    ],
+    "downloads": [
+      {
+        "source": "06/outputs/a_changing_harbor_edge.png",
+        "path": "assets/06/a_changing_harbor_edge.png",
+        "label": "Static PNG",
+        "alt": "Historical New York Harbor chart overlaid with modern mapped shorelines"
+      }
     ]
   },
   {
@@ -172,9 +196,9 @@
     "description": "An imagined neighborhood around Rittenhouse Square is based on OpenStreetMap street and park geometry. Vector-drawn scenes show space for caregivers, children, and everyday activities.",
     "media": [
       {
-        "source": "08/outputs/a_city_at_stroller_speed.png",
-        "path": "assets/08/a_city_at_stroller_speed.png",
-        "label": "Illustrated neighborhood map",
+        "source": "08/outputs/a_city_at_stroller_speed.gif",
+        "path": "assets/08/a_city_at_stroller_speed.gif",
+        "label": "Animated illustrated neighborhood map",
         "alt": "Illustrated stroller-paced neighborhood around the real Rittenhouse Square boundary"
       }
     ],
@@ -185,6 +209,14 @@
     ],
     "evidence": [
       "08/README.md"
+    ],
+    "downloads": [
+      {
+        "source": "08/outputs/a_city_at_stroller_speed.png",
+        "path": "assets/08/a_city_at_stroller_speed.png",
+        "label": "Static PNG",
+        "alt": "Illustrated stroller-paced neighborhood around the real Rittenhouse Square boundary"
+      }
     ]
   },
   {
@@ -194,9 +226,9 @@
     "description": "Taiwan's twenty most common surnames are shown as population-scaled glyphs using MOI household-registration counts. Schematic placement is combined with NOAA ETOPO depth bands.",
     "media": [
       {
-        "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
-        "path": "assets/09/a_landscape_of_surnames_top20.png",
-        "label": "Surname landscape with final bathymetry",
+        "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.gif",
+        "path": "assets/09/a_landscape_of_surnames_top20.gif",
+        "label": "Animated surname landscape with final bathymetry",
         "alt": "Population-scaled Taiwanese surname glyphs over a schematic island and genuine depth bands"
       }
     ],
@@ -207,6 +239,14 @@
     ],
     "evidence": [
       "09/README.md"
+    ],
+    "downloads": [
+      {
+        "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+        "path": "assets/09/a_landscape_of_surnames_top20.png",
+        "label": "Static PNG",
+        "alt": "Population-scaled Taiwanese surname glyphs over a schematic island and genuine depth bands"
+      }
     ]
   },
   {
@@ -217,9 +257,9 @@
     "interactive": "10/index.html",
     "media": [
       {
-        "source": "10/outputs/heritage_across_east_asia_symbols_a.png",
-        "path": "assets/10/heritage_across_east_asia.png",
-        "label": "Historical heritage map",
+        "source": "10/outputs/heritage_across_east_asia_symbols_a.gif",
+        "path": "assets/10/heritage_across_east_asia.gif",
+        "label": "Animated historical heritage map",
         "alt": "East Asian UNESCO cultural heritage locations colored by historical formation phases"
       }
     ],
@@ -250,6 +290,14 @@
     ],
     "evidence": [
       "10/README.md"
+    ],
+    "downloads": [
+      {
+        "source": "10/outputs/heritage_across_east_asia_symbols_a.png",
+        "path": "assets/10/heritage_across_east_asia.png",
+        "label": "Static PNG",
+        "alt": "East Asian UNESCO cultural heritage locations colored by historical formation phases"
+      }
     ]
   },
   {

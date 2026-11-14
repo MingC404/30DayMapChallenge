@@ -1,0 +1,481 @@
+{
+  "day_number_correction": {
+    "Kids": "08",
+    "Names": "09",
+    "History": "10"
+  },
+  "exports": [
+    {
+      "day": "02",
+      "path": "02/outputs/waterfront_walks_preview.gif",
+      "size": [
+        1200,
+        900
+      ],
+      "duration_ms": 9200,
+      "frames": 9,
+      "bytes": 193380,
+      "loop": 0,
+      "method": {
+        "source": "unchanged dual-map HTML; real route hover and verbatim native SVG titles in existing tooltip style",
+        "evidence": [
+          {
+            "x": 100.63343347722834,
+            "y": 768.443356517445,
+            "title": "Hudson River Waterfront Walkway\nSurface: Stone / pavers\nWalking permission: Not confirmed",
+            "osm": "27150330",
+            "region": "jersey_city"
+          },
+          {
+            "x": 138.68835830688477,
+            "y": 697.4533488603071,
+            "title": "Green Ring\nSurface: Asphalt\nWalking permission: Explicit permission tag; opening unverified\nLighting: yes",
+            "osm": "653329492",
+            "region": "jersey_city"
+          },
+          {
+            "x": 798.2572299700516,
+            "y": 356.67299382209774,
+            "title": "Squibb Park Bridge\nSurface: Other material\nWalking permission: Not confirmed\nWidth: 9'",
+            "osm": "230738664",
+            "region": "brooklyn"
+          },
+          {
+            "x": 788.3016762506045,
+            "y": 389.87879139313327,
+            "title": "Brooklyn Heights Promenade\nSurface: Stone / pavers\nWalking permission: Not confirmed",
+            "osm": "1257037959",
+            "region": "brooklyn"
+          }
+        ]
+      },
+      "source_sha256": "ef8b1b8f9533fd4483421213b3eeb304e1f5eabbe8bc8ca785df2c75731d61b5",
+      "sha256": "ed1b5cb5419028738abd713add026202121adbad083e51fe085100d4827d202e"
+    },
+    {
+      "day": "03",
+      "path": "03/outputs/inside_the_park_jc.gif",
+      "size": [
+        1200,
+        793
+      ],
+      "duration_ms": 6100,
+      "frames": 16,
+      "bytes": 470155,
+      "loop": 0,
+      "method": {
+        "categories": [
+          "Playground",
+          "Sports",
+          "Grass"
+        ],
+        "mask": "accepted PNG class-color pixels in map panels",
+        "original_png_unchanged": true
+      },
+      "source_sha256": "ec3ac97a19f59ee0ef637bb4150ac76ab0a36f26a45470eae1042b398c7e05e3",
+      "sha256": "0ee3b26c4580836173cff67b1b7b37ca92fc5a81e9694cf5925b42951d76c5a1"
+    },
+    {
+      "day": "06",
+      "path": "06/outputs/a_changing_harbor_edge.gif",
+      "size": [
+        1200,
+        787
+      ],
+      "duration_ms": 3900,
+      "frames": 25,
+      "bytes": 896686,
+      "loop": 0,
+      "method": {
+        "categories": [
+          "Modern shoreline"
+        ],
+        "mask": "accepted PNG modern shoreline pixels only",
+        "original_png_unchanged": true
+      },
+      "source_sha256": "d8098a2c8bc6626a4a9c645229c8a56eb70805db558446dfabac82283ac78daf",
+      "sha256": "15118644c507dbfc0c7ba1386fe0794b4ae2f4c2885c024986656765dca3488a"
+    },
+    {
+      "day": "08",
+      "path": "08/outputs/a_city_at_stroller_speed.gif",
+      "size": [
+        1200,
+        922
+      ],
+      "duration_ms": 10700,
+      "frames": 36,
+      "bytes": 250558,
+      "loop": 0,
+      "method": {
+        "categories": [
+          "Child riding the swing",
+          "Children with ball on lawn",
+          "Hopping child in chalk clearing",
+          "Child and caregiver with ice creams",
+          "Standing baby cuddle",
+          "Crawling baby with caregiver",
+          "Tummy time with caregiver",
+          "Baby cradled on bench"
+        ],
+        "mask": "existing scene extents and original foreground colors; renderer coordinates",
+        "original_png_unchanged": true
+      },
+      "source_sha256": "0104aaa22770b33b023f4f9754ab1fa90b59bcebfd1d7aef04b0fc3ab374b263",
+      "sha256": "d8f829421683b2bfb886d5fe46b0fa7b0c3d01e0cfbb13cd91cccf0ab0e66473"
+    },
+    {
+      "day": "09",
+      "path": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.gif",
+      "size": [
+        1200,
+        1286
+      ],
+      "duration_ms": 13700,
+      "frames": 42,
+      "bytes": 469482,
+      "loop": 0,
+      "method": {
+        "categories": [
+          "陳",
+          "林",
+          "黃",
+          "張",
+          "李",
+          "王",
+          "吳",
+          "劉",
+          "蔡",
+          "楊",
+          "許",
+          "鄭",
+          "謝",
+          "洪",
+          "郭",
+          "邱",
+          "曾",
+          "廖",
+          "賴",
+          "徐"
+        ],
+        "mask": "actual surname SVG glyph extents and fill colors; repeated map occurrences grouped",
+        "original_png_unchanged": true
+      },
+      "source_sha256": "3c85c2055555875b6866d6388a4e94696deb614d7821f885d284578387513316",
+      "sha256": "178f038adc0dcbd793fb1c5ae5d9d8bf21ce232622852cb3ddea27bf41ec12ce"
+    },
+    {
+      "day": "10",
+      "path": "10/outputs/heritage_across_east_asia_symbols_a.gif",
+      "size": [
+        1200,
+        900
+      ],
+      "duration_ms": 7560,
+      "frames": 49,
+      "bytes": 156788,
+      "loop": 0,
+      "method": {
+        "source": "unchanged Interactive HTML; existing year-slider input handler; zoom +16%",
+        "evidence": [
+          {
+            "year": -13000,
+            "expected": -13000,
+            "colored": 84,
+            "valid": true
+          },
+          {
+            "year": -11600,
+            "expected": -11600,
+            "colored": 84,
+            "valid": true
+          },
+          {
+            "year": -10200,
+            "expected": -10200,
+            "colored": 84,
+            "valid": true
+          },
+          {
+            "year": -8800,
+            "expected": -8800,
+            "colored": 84,
+            "valid": true
+          },
+          {
+            "year": -7467,
+            "expected": -7467,
+            "colored": 84,
+            "valid": true
+          },
+          {
+            "year": -6067,
+            "expected": -6067,
+            "colored": 84,
+            "valid": true
+          },
+          {
+            "year": -4818,
+            "expected": -4818,
+            "colored": 85,
+            "valid": true
+          },
+          {
+            "year": -4055,
+            "expected": -4055,
+            "colored": 85,
+            "valid": true
+          },
+          {
+            "year": -3291,
+            "expected": -3291,
+            "colored": 89,
+            "valid": true
+          },
+          {
+            "year": -2527,
+            "expected": -2527,
+            "colored": 89,
+            "valid": true
+          },
+          {
+            "year": -1800,
+            "expected": -1800,
+            "colored": 89,
+            "valid": true
+          },
+          {
+            "year": -1036,
+            "expected": -1036,
+            "colored": 91,
+            "valid": true
+          },
+          {
+            "year": -818,
+            "expected": -818,
+            "colored": 94,
+            "valid": true
+          },
+          {
+            "year": -627,
+            "expected": -627,
+            "colored": 94,
+            "valid": true
+          },
+          {
+            "year": -436,
+            "expected": -436,
+            "colored": 97,
+            "valid": true
+          },
+          {
+            "year": -245,
+            "expected": -245,
+            "colored": 99,
+            "valid": true
+          },
+          {
+            "year": -63,
+            "expected": -63,
+            "colored": 129,
+            "valid": true
+          },
+          {
+            "year": 66,
+            "expected": 66,
+            "colored": 136,
+            "valid": true
+          },
+          {
+            "year": 162,
+            "expected": 162,
+            "colored": 136,
+            "valid": true
+          },
+          {
+            "year": 259,
+            "expected": 259,
+            "colored": 136,
+            "valid": true
+          },
+          {
+            "year": 356,
+            "expected": 356,
+            "colored": 190,
+            "valid": true
+          },
+          {
+            "year": 453,
+            "expected": 453,
+            "colored": 193,
+            "valid": true
+          },
+          {
+            "year": 545,
+            "expected": 545,
+            "colored": 201,
+            "valid": true
+          },
+          {
+            "year": 642,
+            "expected": 642,
+            "colored": 265,
+            "valid": true
+          },
+          {
+            "year": 738,
+            "expected": 738,
+            "colored": 273,
+            "valid": true
+          },
+          {
+            "year": 835,
+            "expected": 835,
+            "colored": 279,
+            "valid": true
+          },
+          {
+            "year": 932,
+            "expected": 932,
+            "colored": 326,
+            "valid": true
+          },
+          {
+            "year": 1029,
+            "expected": 1029,
+            "colored": 342,
+            "valid": true
+          },
+          {
+            "year": 1122,
+            "expected": 1122,
+            "colored": 377,
+            "valid": true
+          },
+          {
+            "year": 1211,
+            "expected": 1211,
+            "colored": 392,
+            "valid": true
+          },
+          {
+            "year": 1271,
+            "expected": 1271,
+            "colored": 394,
+            "valid": true
+          },
+          {
+            "year": 1331,
+            "expected": 1331,
+            "colored": 453,
+            "valid": true
+          },
+          {
+            "year": 1391,
+            "expected": 1391,
+            "colored": 471,
+            "valid": true
+          },
+          {
+            "year": 1451,
+            "expected": 1451,
+            "colored": 495,
+            "valid": true
+          },
+          {
+            "year": 1509,
+            "expected": 1509,
+            "colored": 520,
+            "valid": true
+          },
+          {
+            "year": 1569,
+            "expected": 1569,
+            "colored": 520,
+            "valid": true
+          },
+          {
+            "year": 1617,
+            "expected": 1617,
+            "colored": 539,
+            "valid": true
+          },
+          {
+            "year": 1652,
+            "expected": 1652,
+            "colored": 539,
+            "valid": true
+          },
+          {
+            "year": 1687,
+            "expected": 1687,
+            "colored": 539,
+            "valid": true
+          },
+          {
+            "year": 1722,
+            "expected": 1722,
+            "colored": 541,
+            "valid": true
+          },
+          {
+            "year": 1755,
+            "expected": 1755,
+            "colored": 542,
+            "valid": true
+          },
+          {
+            "year": 1790,
+            "expected": 1790,
+            "colored": 542,
+            "valid": true
+          },
+          {
+            "year": 1821,
+            "expected": 1821,
+            "colored": 564,
+            "valid": true
+          },
+          {
+            "year": 1851,
+            "expected": 1851,
+            "colored": 588,
+            "valid": true
+          },
+          {
+            "year": 1881,
+            "expected": 1881,
+            "colored": 588,
+            "valid": true
+          },
+          {
+            "year": 1911,
+            "expected": 1911,
+            "colored": 589,
+            "valid": true
+          },
+          {
+            "year": 1940,
+            "expected": 1940,
+            "colored": 590,
+            "valid": true
+          },
+          {
+            "year": 1970,
+            "expected": 1970,
+            "colored": 590,
+            "valid": true
+          },
+          {
+            "year": 2000,
+            "expected": 2000,
+            "colored": 590,
+            "valid": true
+          }
+        ]
+      },
+      "source_sha256": "432315dfc2338d2d857b0136a58843f231b401ac61cbc004dccc81ee62d47c94",
+      "sha256": "8c8546dbb84e54c6a20a715a500f2a7fa86dc2265143922a62a56d33edca5664"
+    }
+  ]
+}
