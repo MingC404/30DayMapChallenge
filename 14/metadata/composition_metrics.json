@@ -1,0 +1,594 @@
+[
+  {
+    "plan": {
+      "id": "A",
+      "name": "The oblique transect",
+      "keys": [
+        "bella_vista",
+        "laomendong",
+        "xiguan",
+        "chelsea"
+      ],
+      "seeds": [
+        [
+          -1650,
+          -300
+        ],
+        [
+          -550,
+          120
+        ],
+        [
+          550,
+          -100
+        ],
+        [
+          1650,
+          300
+        ]
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outline": [
+        [
+          -2350,
+          -1080
+        ],
+        [
+          2150,
+          -1080
+        ],
+        [
+          2350,
+          -650
+        ],
+        [
+          2350,
+          1080
+        ],
+        [
+          -2150,
+          1080
+        ],
+        [
+          -2350,
+          650
+        ]
+      ]
+    },
+    "transforms": [
+      {
+        "key": "bella_vista",
+        "rotation_ccw_deg": 11.604873065841822,
+        "translate_m": [
+          -1730,
+          -300
+        ],
+        "local_crs": "+proj=aeqd +lat_0=39.9375 +lon_0=-75.1535 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "laomendong",
+        "rotation_ccw_deg": 12.579146950507822,
+        "translate_m": [
+          -470,
+          200
+        ],
+        "local_crs": "+proj=aeqd +lat_0=32.02 +lon_0=118.787 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "xiguan",
+        "rotation_ccw_deg": -1.2196642530747799,
+        "translate_m": [
+          550,
+          -100
+        ],
+        "local_crs": "+proj=aeqd +lat_0=23.119 +lon_0=113.242 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "chelsea",
+        "rotation_ccw_deg": 27.7380028459891,
+        "translate_m": [
+          1570,
+          380
+        ],
+        "local_crs": "+proj=aeqd +lat_0=40.744 +lon_0=-73.997 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    ],
+    "seams": [
+      {
+        "pair": [
+          0,
+          1
+        ],
+        "length_m": 2312.093223548775,
+        "crossings": [
+          36,
+          19
+        ],
+        "median_offset_m": 31.46567866029693,
+        "near_25m": 22,
+        "total": 55
+      },
+      {
+        "pair": [
+          1,
+          2
+        ],
+        "length_m": 2202.776429872083,
+        "crossings": [
+          10,
+          20
+        ],
+        "median_offset_m": 31.27484427090887,
+        "near_25m": 13,
+        "total": 30
+      },
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "length_m": 2298.3774370140354,
+        "crossings": [
+          31,
+          36
+        ],
+        "median_offset_m": 22.355228489553365,
+        "near_25m": 35,
+        "total": 67
+      }
+    ],
+    "fragments": [
+      {
+        "key": "bella_vista",
+        "area_km2": 2.582774545454545,
+        "building_count": 10436,
+        "building_coverage": 0.41196698577944457,
+        "street_length_km": 81.21931643305717,
+        "buildings_cut_at_mask": 297,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          -75.16244059815321,
+          39.92879206593703,
+          -75.14378469079278,
+          39.95043551999391
+        ]
+      },
+      {
+        "key": "laomendong",
+        "area_km2": 2.4459054545454544,
+        "building_count": 1078,
+        "building_coverage": 0.24140373384864094,
+        "street_length_km": 32.32594271245761,
+        "buildings_cut_at_mask": 55,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          118.77790402981199,
+          32.00823886505692,
+          118.79609569898535,
+          32.02985991406895
+        ]
+      },
+      {
+        "key": "xiguan",
+        "area_km2": 2.4588654545454545,
+        "building_count": 1272,
+        "building_coverage": 0.18157072907201385,
+        "street_length_km": 45.27871751575377,
+        "buildings_cut_at_mask": 53,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          113.23470820490797,
+          23.110005116058552,
+          113.25175925945315,
+          23.129689831046502
+        ]
+      },
+      {
+        "key": "chelsea",
+        "area_km2": 2.5784545454545453,
+        "building_count": 4004,
+        "building_coverage": 0.4921813806699312,
+        "street_length_km": 52.59230583700876,
+        "buildings_cut_at_mask": 180,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          -74.00547280211364,
+          40.729932538824336,
+          -73.98496822736031,
+          40.75304251094041
+        ]
+      }
+    ]
+  },
+  {
+    "plan": {
+      "id": "B",
+      "name": "The shared centre",
+      "keys": [
+        "bella_vista",
+        "laomendong",
+        "xiguan",
+        "chelsea"
+      ],
+      "seeds": [
+        [
+          650,
+          650
+        ],
+        [
+          450,
+          -650
+        ],
+        [
+          -120,
+          -20
+        ],
+        [
+          -850,
+          350
+        ]
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outline": [
+        [
+          -1420,
+          -1000
+        ],
+        [
+          -950,
+          -1350
+        ],
+        [
+          1000,
+          -1350
+        ],
+        [
+          1450,
+          -850
+        ],
+        [
+          1450,
+          1050
+        ],
+        [
+          900,
+          1350
+        ],
+        [
+          -1000,
+          1350
+        ],
+        [
+          -1420,
+          900
+        ]
+      ]
+    },
+    "transforms": [
+      {
+        "key": "bella_vista",
+        "rotation_ccw_deg": 11.604873065841822,
+        "translate_m": [
+          650,
+          650
+        ],
+        "local_crs": "+proj=aeqd +lat_0=39.9375 +lon_0=-75.1535 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "laomendong",
+        "rotation_ccw_deg": 12.579146950507822,
+        "translate_m": [
+          450,
+          -650
+        ],
+        "local_crs": "+proj=aeqd +lat_0=32.02 +lon_0=118.787 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "xiguan",
+        "rotation_ccw_deg": -1.2196642530747799,
+        "translate_m": [
+          -40,
+          60
+        ],
+        "local_crs": "+proj=aeqd +lat_0=23.119 +lon_0=113.242 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "chelsea",
+        "rotation_ccw_deg": 27.7380028459891,
+        "translate_m": [
+          -850,
+          350
+        ],
+        "local_crs": "+proj=aeqd +lat_0=40.744 +lon_0=-73.997 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    ],
+    "seams": [
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "length_m": 2231.817274808386,
+        "crossings": [
+          28,
+          39
+        ],
+        "median_offset_m": 16.361556201092625,
+        "near_25m": 41,
+        "total": 67
+      }
+    ],
+    "fragments": [
+      {
+        "key": "bella_vista",
+        "area_km2": 1.902709297012502,
+        "building_count": 8877,
+        "building_coverage": 0.40403340706165347,
+        "street_length_km": 62.72981841965614,
+        "buildings_cut_at_mask": 270,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          -75.16243016429635,
+          39.92909443084726,
+          -75.14338978151201,
+          39.94534196732565
+        ]
+      },
+      {
+        "key": "laomendong",
+        "area_km2": 2.0672628137795526,
+        "building_count": 687,
+        "building_coverage": 0.18609565580093765,
+        "street_length_km": 29.468751871550495,
+        "buildings_cut_at_mask": 58,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          118.77089115802077,
+          32.012758508906174,
+          118.7985105622675,
+          32.02556647076754
+        ]
+      },
+      {
+        "key": "xiguan",
+        "area_km2": 1.3657173737352353,
+        "building_count": 1060,
+        "building_coverage": 0.20134151837825695,
+        "street_length_km": 22.842810878127253,
+        "buildings_cut_at_mask": 41,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          113.23123186224902,
+          23.106120369790858,
+          113.24764770419391,
+          23.12569745805334
+        ]
+      },
+      {
+        "key": "chelsea",
+        "area_km2": 2.041560515472711,
+        "building_count": 2915,
+        "building_coverage": 0.5072546960219378,
+        "street_length_km": 41.78399141734278,
+        "buildings_cut_at_mask": 185,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          -74.01041093579076,
+          40.733095771821866,
+          -73.98541035691512,
+          40.75259883145619
+        ]
+      }
+    ]
+  },
+  {
+    "plan": {
+      "id": "C",
+      "name": "The folded city",
+      "keys": [
+        "bella_vista",
+        "laomendong",
+        "xiguan",
+        "chelsea"
+      ],
+      "seeds": [
+        [
+          -850,
+          650
+        ],
+        [
+          650,
+          650
+        ],
+        [
+          -300,
+          -100
+        ],
+        [
+          650,
+          -750
+        ]
+      ],
+      "target": [
+        12,
+        -10,
+        8,
+        12
+      ],
+      "outline": [
+        [
+          -1450,
+          -1050
+        ],
+        [
+          -1000,
+          -1400
+        ],
+        [
+          900,
+          -1400
+        ],
+        [
+          1450,
+          -900
+        ],
+        [
+          1450,
+          1050
+        ],
+        [
+          1000,
+          1400
+        ],
+        [
+          -900,
+          1400
+        ],
+        [
+          -1450,
+          900
+        ]
+      ]
+    },
+    "transforms": [
+      {
+        "key": "bella_vista",
+        "rotation_ccw_deg": 23.604873065841822,
+        "translate_m": [
+          -930,
+          570
+        ],
+        "local_crs": "+proj=aeqd +lat_0=39.9375 +lon_0=-75.1535 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "laomendong",
+        "rotation_ccw_deg": 2.5791469505078215,
+        "translate_m": [
+          730,
+          730
+        ],
+        "local_crs": "+proj=aeqd +lat_0=32.02 +lon_0=118.787 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "xiguan",
+        "rotation_ccw_deg": 6.78033574692522,
+        "translate_m": [
+          -300,
+          -100
+        ],
+        "local_crs": "+proj=aeqd +lat_0=23.119 +lon_0=113.242 +datum=WGS84 +units=m +no_defs +type=crs"
+      },
+      {
+        "key": "chelsea",
+        "rotation_ccw_deg": 39.7380028459891,
+        "translate_m": [
+          650,
+          -750
+        ],
+        "local_crs": "+proj=aeqd +lat_0=40.744 +lon_0=-73.997 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    ],
+    "seams": [
+      {
+        "pair": [
+          0,
+          1
+        ],
+        "length_m": 776.6666666666666,
+        "crossings": [
+          17,
+          9
+        ],
+        "median_offset_m": 34.60444562198768,
+        "near_25m": 12,
+        "total": 26
+      },
+      {
+        "pair": [
+          1,
+          3
+        ],
+        "length_m": 1018.421052631579,
+        "crossings": [
+          12,
+          18
+        ],
+        "median_offset_m": 10.60104414709852,
+        "near_25m": 21,
+        "total": 30
+      }
+    ],
+    "fragments": [
+      {
+        "key": "bella_vista",
+        "area_km2": 1.57925,
+        "building_count": 6968,
+        "building_coverage": 0.39324961510214274,
+        "street_length_km": 51.39943554343991,
+        "buildings_cut_at_mask": 272,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          -75.16346219029474,
+          39.931644823368245,
+          -75.1407125038367,
+          39.944241492680284
+        ]
+      },
+      {
+        "key": "laomendong",
+        "area_km2": 1.9897850877192982,
+        "building_count": 789,
+        "building_coverage": 0.23408580774396734,
+        "street_length_km": 31.514379002454735,
+        "buildings_cut_at_mask": 70,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          118.7781725380117,
+          32.01268055167354,
+          118.79476617679539,
+          32.026372596986995
+        ]
+      },
+      {
+        "key": "xiguan",
+        "area_km2": 2.257609649122807,
+        "building_count": 1401,
+        "building_coverage": 0.19670009742189373,
+        "street_length_km": 39.64417300094976,
+        "buildings_cut_at_mask": 53,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          113.22975730408962,
+          23.10754824594026,
+          113.24914972404757,
+          23.125272559094785
+        ]
+      },
+      {
+        "key": "chelsea",
+        "area_km2": 1.8608552631578947,
+        "building_count": 2317,
+        "building_coverage": 0.49338552564971994,
+        "street_length_km": 36.06296203132483,
+        "buildings_cut_at_mask": 127,
+        "outside_fetch_area_m2": 0.0,
+        "source_bbox_wsen": [
+          -74.0123187784634,
+          40.73805976071369,
+          -73.98441794207149,
+          40.750104596758774
+        ]
+      }
+    ]
+  }
+]

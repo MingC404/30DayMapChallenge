@@ -1,0 +1,4 @@
+.deps/
+__pycache__/
+# Original responses and normalized caches are local; manifests and source masks are retained.
+data/raw/

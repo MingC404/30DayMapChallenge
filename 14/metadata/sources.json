@@ -1,0 +1,596 @@
+[
+  {
+    "city": "philadelphia",
+    "key": "bella_vista",
+    "name": "Bella Vista / Queen Village",
+    "center_latlon": [
+      39.9375,
+      -75.1535
+    ],
+    "fetch_bbox_swen": [
+      39.927169421487605,
+      -75.16697328819923,
+      39.95193551999391,
+      -75.1392125038367
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1669733,39.9271694,-75.1535000,39.9375000",
+        "retrieved_at_utc": "2026-11-14T03:26:59.126679+00:00",
+        "sha256": "762cce375be6ca604f0b52ea14d9af027018a1b5ebc4e211a07f048714772eaa"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1669733,39.9375000,-75.1535000,39.9478306",
+        "retrieved_at_utc": "2026-11-14T03:27:04.130814+00:00",
+        "sha256": "e4329bfe4762f3c9ed643abb5d3db2182853ea82e3e9b312929938354e2f779d"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1535000,39.9271694,-75.1400267,39.9375000",
+        "retrieved_at_utc": "2026-11-14T03:27:09.713177+00:00",
+        "sha256": "330bd28772c57f9f15b4131986a4577ca030b995ae0b853d733514ad4a0fcf00"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1535000,39.9375000,-75.1400267,39.9478306",
+        "retrieved_at_utc": "2026-11-14T03:27:13.570513+00:00",
+        "sha256": "87d50ba92fc3d5b54545d54e9d5a34eb62dc203ca402548742a1f6aff86a392c"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1669733,39.9478306,-75.1600331,39.9519355",
+        "retrieved_at_utc": "2026-11-14T03:31:40.156108+00:00",
+        "sha256": "cc326c4fa64f01f970b217e7427f916b81036fc36e371dbb723d248f67ff6ffb"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1600331,39.9478306,-75.1530929,39.9519355",
+        "retrieved_at_utc": "2026-11-14T03:31:41.255399+00:00",
+        "sha256": "1dbde36d58c6a07cfd7a5e9ee7b6116904041fee634c35a06453a52dd1136fb0"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1530929,39.9478306,-75.1461527,39.9519355",
+        "retrieved_at_utc": "2026-11-14T03:31:42.355013+00:00",
+        "sha256": "323ab85b6526d5578cf46e815a5a1ac37cf96f1993ee87ad67e5d8aae929130e"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1461527,39.9478306,-75.1392125,39.9519355",
+        "retrieved_at_utc": "2026-11-14T03:31:43.490430+00:00",
+        "sha256": "a788c4e2f8fb748d466528602593ec151919fba6ce992a7c471bce22bfb215fa"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1400267,39.9271694,-75.1392125,39.9340565",
+        "retrieved_at_utc": "2026-11-14T03:31:43.830011+00:00",
+        "sha256": "6f633bc6c1de9a173a32a661eacebca368f8c220f55e39bd79f5164d78311b76"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1400267,39.9340565,-75.1392125,39.9409435",
+        "retrieved_at_utc": "2026-11-14T03:31:44.117988+00:00",
+        "sha256": "95d0cce3f875e456c3c683768495e22f5e3a7fb3e3b5f392770d06c8094087b2"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1400267,39.9409435,-75.1392125,39.9478306",
+        "retrieved_at_utc": "2026-11-14T03:31:44.782505+00:00",
+        "sha256": "a55c0a483d29222ff40ae8cb2a51dd3b7ee70eb6ff75713151f9fb512a9797a7"
+      }
+    ],
+    "sha256": "2b9c10a4cc12c73df19fa04a4da8bb946d221995bdccb0b1810fa058afebb26f",
+    "retrieved_at_utc": "2026-11-14T03:31:44.782505+00:00",
+    "initial_fetch_bbox_swen": [
+      39.927169421487605,
+      -75.16697328819923,
+      39.947830578512395,
+      -75.14002671180076
+    ]
+  },
+  {
+    "city": "philadelphia",
+    "key": "point_breeze",
+    "name": "Point Breeze",
+    "center_latlon": [
+      39.9325,
+      -75.18
+    ],
+    "fetch_bbox_swen": [
+      39.9221694214876,
+      -75.19347230392108,
+      39.94283057851239,
+      -75.16652769607893
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1934723,39.9221694,-75.1800000,39.9325000",
+        "retrieved_at_utc": "2026-11-14T03:26:57.967024+00:00",
+        "sha256": "9651d5233d316243ab6afba1f1afe2576dc90917b6bdb50387db2cc0221a0131"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1934723,39.9325000,-75.1800000,39.9428306",
+        "retrieved_at_utc": "2026-11-14T03:27:03.487276+00:00",
+        "sha256": "46a99f6c149d35d5d716bf46bacb6c4d1a9a01fa6508518b9af4e25fff4e8160"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1800000,39.9221694,-75.1665277,39.9273347",
+        "retrieved_at_utc": "2026-11-14T03:27:46.053269+00:00",
+        "sha256": "c57552074ea77e2c62a608fa5e26ed243f32cbae4a165214d400421826894a76"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1800000,39.9273347,-75.1665277,39.9325000",
+        "retrieved_at_utc": "2026-11-14T03:27:48.589735+00:00",
+        "sha256": "ba1048946d929bd3ff63c8e0fb0f49051e67317c119785741ac2b0ecc3d33bdd"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1800000,39.9325000,-75.1665277,39.9428306",
+        "retrieved_at_utc": "2026-11-14T03:27:52.321403+00:00",
+        "sha256": "f2429573edaed46a30d22d7ec1748fc45bc649795b7dc638eb1f5c93970023ab"
+      }
+    ],
+    "sha256": "f25b7d80f42329b373353e940d733981bb291e762e8656207c7adcfa54c86d8c",
+    "retrieved_at_utc": "2026-11-14T03:27:52.321403+00:00"
+  },
+  {
+    "city": "nanjing",
+    "key": "laomendong",
+    "name": "Laomendong / southern old city",
+    "center_latlon": [
+      32.02,
+      118.787
+    ],
+    "fetch_bbox_swen": [
+      32.00673886505692,
+      118.76939115802078,
+      32.03135991406895,
+      118.80001056226749
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7748157,32.0096694,118.7870000,32.0200000",
+        "retrieved_at_utc": "2026-11-14T03:27:19.861062+00:00",
+        "sha256": "d13eb8ae03c5b69378e209b75a162afc9ebc83f009c9293c98d7453ad1de766c"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7748157,32.0200000,118.7870000,32.0303306",
+        "retrieved_at_utc": "2026-11-14T03:27:21.395387+00:00",
+        "sha256": "a5bfa88e137b342f3fc5904e3547c1abb7f255c998d257828e84ed6a86ee33fd"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7870000,32.0096694,118.7991843,32.0200000",
+        "retrieved_at_utc": "2026-11-14T03:27:22.704646+00:00",
+        "sha256": "7704caeda4070688ce7762b9e625d9f20750bc2acf03f38030b13cd7cfd5c186"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7870000,32.0200000,118.7991843,32.0303306",
+        "retrieved_at_utc": "2026-11-14T03:27:23.933187+00:00",
+        "sha256": "35a7588d40de3f977edd1560e6098f4f495ae31b30e0edc1adc3cff9647f9aad"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7693912,32.0067389,118.7770460,32.0096694",
+        "retrieved_at_utc": "2026-11-14T03:31:49.217725+00:00",
+        "sha256": "e5285649d64cb4b4432eaf623abadbb88744451a4126331e4db3b3454b446585"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7770460,32.0067389,118.7847009,32.0096694",
+        "retrieved_at_utc": "2026-11-14T03:31:49.707646+00:00",
+        "sha256": "f1c2b106921c40867da797805d6f369f8f2db85379a8392b26182d3de5641567"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7847009,32.0067389,118.7923557,32.0096694",
+        "retrieved_at_utc": "2026-11-14T03:31:50.535067+00:00",
+        "sha256": "c50e3d88ef53347dbeef9078234a89b363d69ae1635f460065d951f8ddf9a36f"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7923557,32.0067389,118.8000106,32.0096694",
+        "retrieved_at_utc": "2026-11-14T03:31:51.150238+00:00",
+        "sha256": "6e0e92d089f3fcd52e4cfcc28cb89e161938a6d40f83712c7a16444d5479b168"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7693912,32.0303306,118.7770460,32.0313599",
+        "retrieved_at_utc": "2026-11-14T03:31:51.642379+00:00",
+        "sha256": "f96d81566295f095fb14159746d99d5a2a8a1bfb9324846fcbf6b76f22b29278"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7770460,32.0303306,118.7847009,32.0313599",
+        "retrieved_at_utc": "2026-11-14T03:31:52.209906+00:00",
+        "sha256": "41e78a8a99813e7c1d169b36f1d108d4061ea071349e44bdb58e3800b9c6533b"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7847009,32.0303306,118.7923557,32.0313599",
+        "retrieved_at_utc": "2026-11-14T03:31:52.916313+00:00",
+        "sha256": "8ec000cf47946318e40e648da7e2ff3274ae522ab211a64328c78eebcaf035b1"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7923557,32.0303306,118.8000106,32.0313599",
+        "retrieved_at_utc": "2026-11-14T03:31:53.509636+00:00",
+        "sha256": "5c89bd811086640f7173c4e8badbfbcbe87a6f202462a3da5e63eceeb9711366"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7693912,32.0096694,118.7748157,32.0165565",
+        "retrieved_at_utc": "2026-11-14T03:31:54.237195+00:00",
+        "sha256": "d43171ea9e1be33835c457d97bbeaf59d2541e310045e6fd206da86382e772d6"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7693912,32.0165565,118.7748157,32.0234435",
+        "retrieved_at_utc": "2026-11-14T03:31:54.916460+00:00",
+        "sha256": "deda0d941ea5f027545ce58013ac3e9643fcd02df509544b7137261296edb491"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7693912,32.0234435,118.7748157,32.0303306",
+        "retrieved_at_utc": "2026-11-14T03:31:55.609218+00:00",
+        "sha256": "0c61381c8dcda2dd28f30034f371c4e4d379e41eab71fc182b9eb14281fd414a"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7991843,32.0096694,118.8000106,32.0165565",
+        "retrieved_at_utc": "2026-11-14T03:31:56.090336+00:00",
+        "sha256": "6cf7bd3ecb6fd7f1a28bb20c11cca95be7c3420f56e40a5c6b910e64f3a58c66"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7991843,32.0165565,118.8000106,32.0234435",
+        "retrieved_at_utc": "2026-11-14T03:31:56.679625+00:00",
+        "sha256": "2d9c0990c5ef1de51d64933f6ac931ba098adbbd50ff73fc81a7e2865f9a8c7d"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7991843,32.0234435,118.8000106,32.0303306",
+        "retrieved_at_utc": "2026-11-14T03:31:57.145360+00:00",
+        "sha256": "2632b0261e9f37a73258d15a2074989afefdc144c700000552343e7a15c7f25e"
+      }
+    ],
+    "sha256": "8e6fa744fb202a67bc513712b67fd4d79307a026785ca301db53b596efe27eb0",
+    "retrieved_at_utc": "2026-11-14T03:31:57.145360+00:00",
+    "initial_fetch_bbox_swen": [
+      32.00966942148761,
+      118.77481574654561,
+      32.0303305785124,
+      118.7991842534544
+    ]
+  },
+  {
+    "city": "nanjing",
+    "key": "xinjiekou",
+    "name": "Xinjiekou / central city",
+    "center_latlon": [
+      32.0415,
+      118.781
+    ],
+    "fetch_bbox_swen": [
+      32.031169421487604,
+      118.76881288583795,
+      32.051830578512394,
+      118.79318711416207
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7688129,32.0311694,118.7810000,32.0415000",
+        "retrieved_at_utc": "2026-11-14T03:27:20.655200+00:00",
+        "sha256": "e182744de320e7283a59fce74df4e9f558035ab5d04332db846a649da5bebf2d"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7688129,32.0415000,118.7810000,32.0518306",
+        "retrieved_at_utc": "2026-11-14T03:27:22.248318+00:00",
+        "sha256": "afd916f330d299096acb0d85c37d49891a600d3a6ec679eaaed56b0a005abc8b"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7810000,32.0311694,118.7931871,32.0415000",
+        "retrieved_at_utc": "2026-11-14T03:27:23.799654+00:00",
+        "sha256": "cc872f6fa53d143021c3f472260788ac9a8e68558e76fdc06f5927e99b820bde"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=118.7810000,32.0415000,118.7931871,32.0518306",
+        "retrieved_at_utc": "2026-11-14T03:27:26.076034+00:00",
+        "sha256": "afd73a8660fcca76bc6c59ddbc213de616e99dd8eb2275c5effedce845aba821"
+      }
+    ],
+    "sha256": "e726689a732f505d822f9fda9343f3da0301074c88302cb07454ab0d75a484c3",
+    "retrieved_at_utc": "2026-11-14T03:27:26.076034+00:00"
+  },
+  {
+    "city": "guangzhou",
+    "key": "xiguan",
+    "name": "Xiguan / Changshou Road",
+    "center_latlon": [
+      23.119,
+      113.242
+    ],
+    "fetch_bbox_swen": [
+      23.104620369790858,
+      113.22825730408962,
+      23.131189831046502,
+      113.25325925945315
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2307673,23.1086694,113.2420000,23.1190000",
+        "retrieved_at_utc": "2026-11-14T03:27:45.694168+00:00",
+        "sha256": "f9dee6510f0b6db95896b1d9e6c1b84f963bd9e80a236e6c270bf19df80e45cd"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2307673,23.1190000,113.2420000,23.1293306",
+        "retrieved_at_utc": "2026-11-14T03:27:47.347965+00:00",
+        "sha256": "5b15e3507f82d5e481083386a9147c502de0b6162ca8fdb5402308143628c1eb"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2420000,23.1086694,113.2532327,23.1190000",
+        "retrieved_at_utc": "2026-11-14T03:27:48.797372+00:00",
+        "sha256": "88713247ff1056b353549203bb273c902c98532b413611fd41930c5c88827c6c"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2420000,23.1190000,113.2532327,23.1293306",
+        "retrieved_at_utc": "2026-11-14T03:27:50.444288+00:00",
+        "sha256": "a6199d534f9dc897ded3b4f529e3c9b37862e6bf8947fadcc53754a87d4365a8"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2282573,23.1046204,113.2345078,23.1086694",
+        "retrieved_at_utc": "2026-11-14T03:31:58.508594+00:00",
+        "sha256": "7078aac66cd59252deed4f93749af36a1118189d73e7259e5d7bf60bc5f00921"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2345078,23.1046204,113.2407583,23.1086694",
+        "retrieved_at_utc": "2026-11-14T03:31:59.158336+00:00",
+        "sha256": "d377d32d1d88d63fe445197d467491f1e872ce5e097f09a0c760ddcefb348df9"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2407583,23.1046204,113.2470088,23.1086694",
+        "retrieved_at_utc": "2026-11-14T03:31:59.951254+00:00",
+        "sha256": "0198cc477e006eaa4c2026c01685b0327b7557519a2ee26b9e9039b41a012489"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2470088,23.1046204,113.2532593,23.1086694",
+        "retrieved_at_utc": "2026-11-14T03:32:00.727112+00:00",
+        "sha256": "b37ba195a642ba3f87d2695989aa5ce05d77661e1c62740b0cec83c440359e25"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2282573,23.1293306,113.2345078,23.1311898",
+        "retrieved_at_utc": "2026-11-14T03:32:01.424371+00:00",
+        "sha256": "bc7049b0dff7896d50a26e9fad2b813b8303e6e7b70724edc99bff8a15b1d6ed"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2345078,23.1293306,113.2407583,23.1311898",
+        "retrieved_at_utc": "2026-11-14T03:32:02.027858+00:00",
+        "sha256": "d512bc02feee64f40869c77ab3ef959722a12bd9ee4a65fb31c3df42a5a174bd"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2407583,23.1293306,113.2470088,23.1311898",
+        "retrieved_at_utc": "2026-11-14T03:32:02.677580+00:00",
+        "sha256": "40c52bc81621d7c26eda5543a6975f5feeb234e33fc2cb367ab3d07e254072f4"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2470088,23.1293306,113.2532593,23.1311898",
+        "retrieved_at_utc": "2026-11-14T03:32:03.390335+00:00",
+        "sha256": "f4e450bda9b7c0a985528b2c3ed578e80b307cc47e4e994ab2820006b885dfb4"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2282573,23.1086694,113.2307673,23.1155565",
+        "retrieved_at_utc": "2026-11-14T03:32:04.180815+00:00",
+        "sha256": "ae69af5ee5c207674bef69f044ad81821f85e63cb1c77220d4cc083f969fcbb6"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2282573,23.1155565,113.2307673,23.1224435",
+        "retrieved_at_utc": "2026-11-14T03:32:04.978144+00:00",
+        "sha256": "60c96f328d8aefe49bfd1881f5f4d0f6b6130c0a211c514ce9a9a36f84b0528c"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2282573,23.1224435,113.2307673,23.1293306",
+        "retrieved_at_utc": "2026-11-14T03:32:05.734304+00:00",
+        "sha256": "c5ccd937ed9206faafa664294aa40db6489da3ba72016f0dec26c7b223cebb75"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2532327,23.1086694,113.2532593,23.1155565",
+        "retrieved_at_utc": "2026-11-14T03:32:06.124710+00:00",
+        "sha256": "d27761b0ba2517daf8d942484b4023be028bf9aec80b4d4abbfdf8f29a699390"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2532327,23.1155565,113.2532593,23.1224435",
+        "retrieved_at_utc": "2026-11-14T03:32:06.562009+00:00",
+        "sha256": "8a70233d5b3cb85f422a9450548a9369b7f3db233d7b78abd1825a792cc3f6f3"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2532327,23.1224435,113.2532593,23.1293306",
+        "retrieved_at_utc": "2026-11-14T03:32:06.842641+00:00",
+        "sha256": "861a3f7667a08a2ed8a6a387e992bff75b679933a4d104f8bf32765c7bbcd9c7"
+      }
+    ],
+    "sha256": "e1261e2f467eb4f5e2016eddcfa12e21c2289c4d21ff33527ca3b2bff63943a4",
+    "retrieved_at_utc": "2026-11-14T03:32:06.842641+00:00",
+    "initial_fetch_bbox_swen": [
+      23.108669421487605,
+      113.2307673417904,
+      23.129330578512395,
+      113.25323265820961
+    ]
+  },
+  {
+    "city": "guangzhou",
+    "key": "dongshankou",
+    "name": "Dongshankou",
+    "center_latlon": [
+      23.1245,
+      113.295
+    ],
+    "fetch_bbox_swen": [
+      23.114169421487606,
+      113.28376688138117,
+      23.134830578512396,
+      113.30623311861883
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2837669,23.1141694,113.2950000,23.1245000",
+        "retrieved_at_utc": "2026-11-14T03:27:51.828969+00:00",
+        "sha256": "e22f3686ce14c162ffdb81053cf5d506089e71a93ac7a90ce9681abbe7dc11f3"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2837669,23.1245000,113.2950000,23.1348306",
+        "retrieved_at_utc": "2026-11-14T03:27:55.410851+00:00",
+        "sha256": "203fbc0ae36f0789fc3ee9bf5ee7ec5ec7e4a7844089c5c2891cd33d8bc5f2cc"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2950000,23.1141694,113.3062331,23.1245000",
+        "retrieved_at_utc": "2026-11-14T03:27:56.687109+00:00",
+        "sha256": "246f75e5e4f135746aec9990703c4a5431b5e59d8c204c2bd96977073174accd"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=113.2950000,23.1245000,113.3062331,23.1348306",
+        "retrieved_at_utc": "2026-11-14T03:27:57.984372+00:00",
+        "sha256": "d15b78c5ee388a5f35a234fd42dcc150872d1a4d9644f52b0bee7833dd76f42f"
+      }
+    ],
+    "sha256": "f7c300ee339c78d2b1ea82214b8be0f31aa0582eb07bcd3e1b14a912ee17431d",
+    "retrieved_at_utc": "2026-11-14T03:27:57.984372+00:00"
+  },
+  {
+    "city": "nyc",
+    "key": "east_village",
+    "name": "East Village / Lower East Side",
+    "center_latlon": [
+      40.724,
+      -73.983
+    ],
+    "fetch_bbox_swen": [
+      40.7136694214876,
+      -73.99663122905844,
+      40.73433057851239,
+      -73.96936877094157
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9966312,40.7136694,-73.9830000,40.7240000",
+        "retrieved_at_utc": "2026-11-14T03:27:58.416884+00:00",
+        "sha256": "9536c247d624f09438f000f024755044e7b12ebdf04a82e8cb02dd8fb5d423a7"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9966312,40.7240000,-73.9830000,40.7343306",
+        "retrieved_at_utc": "2026-11-14T03:28:02.930882+00:00",
+        "sha256": "6101786bbf1548b0593fb6192d307c35657e1750cf8673ffee17e4512a455280"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9830000,40.7136694,-73.9693688,40.7240000",
+        "retrieved_at_utc": "2026-11-14T03:28:06.761582+00:00",
+        "sha256": "ec42ac81c452a37e1ae4b393b4334bf2182ebb388be70cd91a8e8c45afcda42d"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9830000,40.7240000,-73.9693688,40.7343306",
+        "retrieved_at_utc": "2026-11-14T03:28:09.096088+00:00",
+        "sha256": "82a2a770350295023cd97774cf20f3396bdcbf957526170b9b5a924e8418cc61"
+      }
+    ],
+    "sha256": "13b4896513f76dc7c1bebb5cfbe1495bf5cb8dc38e930d4550b1a398a76c3f8b",
+    "retrieved_at_utc": "2026-11-14T03:28:09.096088+00:00"
+  },
+  {
+    "city": "nyc",
+    "key": "chelsea",
+    "name": "Chelsea",
+    "center_latlon": [
+      40.744,
+      -73.997
+    ],
+    "fetch_bbox_swen": [
+      40.728432538824336,
+      -74.01381877846339,
+      40.75454251094041,
+      -73.9829179420715
+    ],
+    "endpoint": "https://api.openstreetmap.org/api/0.6/map",
+    "tiles": [
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0106353,40.7336694,-73.9970000,40.7440000",
+        "retrieved_at_utc": "2026-11-14T03:28:01.703180+00:00",
+        "sha256": "279f0655f143dafd7f41b7b0012a414bf830f2d058a9b4330702fe457e21d70f"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0106353,40.7440000,-73.9970000,40.7543306",
+        "retrieved_at_utc": "2026-11-14T03:28:05.438234+00:00",
+        "sha256": "06a1cd54134c810c2ec07441c81dcac1689140d2e04320882879ca11d56b20c5"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9970000,40.7336694,-73.9833647,40.7440000",
+        "retrieved_at_utc": "2026-11-14T03:28:10.926236+00:00",
+        "sha256": "20da1f94cda5aeee25100cda4867f3efa817080e429a1423fe7d5992aae3c7df"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9970000,40.7440000,-73.9833647,40.7543306",
+        "retrieved_at_utc": "2026-11-14T03:28:14.962347+00:00",
+        "sha256": "913bcfb1be9ba5f64042c1bdae154d4ef006279f757778dce46f010d8db05923"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0138188,40.7284325,-74.0060936,40.7336694",
+        "retrieved_at_utc": "2026-11-14T03:32:08.937098+00:00",
+        "sha256": "fbea05dfee642a0b02303f56e5d89af97a70be9462539f67e42088d23e775231"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0060936,40.7284325,-73.9983684,40.7336694",
+        "retrieved_at_utc": "2026-11-14T03:32:10.459904+00:00",
+        "sha256": "8c110e4666600363d99611a939034b0521bb934ddb4d82106d4fffebb11c6bff"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9983684,40.7284325,-73.9906432,40.7336694",
+        "retrieved_at_utc": "2026-11-14T03:32:11.485609+00:00",
+        "sha256": "dd3ecb0030d7ea51081444eefc6a20588c31297b3cdc5b1772870b8da980330c"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9906432,40.7284325,-73.9829179,40.7336694",
+        "retrieved_at_utc": "2026-11-14T03:32:12.660459+00:00",
+        "sha256": "39aa7b66d66ee221c64b660ee80c31ead808a1874aca9f2dae0604b715f54c4d"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0138188,40.7543306,-74.0060936,40.7545425",
+        "retrieved_at_utc": "2026-11-14T03:32:13.328498+00:00",
+        "sha256": "c0c38087bfa77b76f7975051712af1e393e9cf3348805ace9daecbda881c39a6"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0060936,40.7543306,-73.9983684,40.7545425",
+        "retrieved_at_utc": "2026-11-14T03:32:14.912469+00:00",
+        "sha256": "91aa0151dabe4cc5cd581fd815d6aada51c504197c6b5f394a797193d56cfb68"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9983684,40.7543306,-73.9906432,40.7545425",
+        "retrieved_at_utc": "2026-11-14T03:32:15.806664+00:00",
+        "sha256": "2cb0983d5e99b554e91a92045c6dae6cce6f4c26d774f8d5af4ff215000791e3"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9906432,40.7543306,-73.9829179,40.7545425",
+        "retrieved_at_utc": "2026-11-14T03:32:16.450073+00:00",
+        "sha256": "470410a50a08439e354dab713ddb1208b9d495e0eacbc82074fad53cd58d8779"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0138188,40.7336694,-74.0106353,40.7405565",
+        "retrieved_at_utc": "2026-11-14T03:32:17.041010+00:00",
+        "sha256": "5750649fc507b4c8e5e061b61d2f610e77ea99b116f90dc9062e50710373933e"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0138188,40.7405565,-74.0106353,40.7474435",
+        "retrieved_at_utc": "2026-11-14T03:32:17.792943+00:00",
+        "sha256": "0c88bf67c233366429667523dff2823a0c23219c4fc310ffe688600d7151bb69"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-74.0138188,40.7474435,-74.0106353,40.7543306",
+        "retrieved_at_utc": "2026-11-14T03:32:18.308355+00:00",
+        "sha256": "03a2a2ef2eb5a2853d95108b5ff4366f0e7a0d9490512d2feb5eace47a2ea655"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9833647,40.7336694,-73.9829179,40.7405565",
+        "retrieved_at_utc": "2026-11-14T03:32:19.083030+00:00",
+        "sha256": "0e4bcb919e3e0909947a8506baf0efcc9c38dac98af62e79fbd97ee8e15bc730"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9833647,40.7405565,-73.9829179,40.7474435",
+        "retrieved_at_utc": "2026-11-14T03:32:19.805184+00:00",
+        "sha256": "51107fbc9fe89952a6bda2207abfe7a7b7b5380d3cc8d552bb295c4df7569b53"
+      },
+      {
+        "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-73.9833647,40.7474435,-73.9829179,40.7543306",
+        "retrieved_at_utc": "2026-11-14T03:32:20.729673+00:00",
+        "sha256": "e472914e7d09744c287b6905ec351fc42949b977828e01f0107eea75b3fa83dc"
+      }
+    ],
+    "sha256": "f34e9af9cc3a97a1755e873e11a39adbf685b525e1737b81f631d027048c5b5c",
+    "retrieved_at_utc": "2026-11-14T03:32:20.729673+00:00",
+    "initial_fetch_bbox_swen": [
+      40.733669421487605,
+      -74.0106353272842,
+      40.754330578512395,
+      -73.9833646727158
+    ]
+  }
+]

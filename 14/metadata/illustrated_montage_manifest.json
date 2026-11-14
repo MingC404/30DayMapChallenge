@@ -1,0 +1,37 @@
+{
+  "status": "composition_study_only_awaiting_user_selection",
+  "tool": "built-in image_gen",
+  "reference_images_supplied_to_generation": false,
+  "reference_research_date_local": "2026-11-13",
+  "timezone": "America/New_York",
+  "prompt_file": "config/illustrated_montage_prompts.json",
+  "postprocessing": "none; original generated pixels copied to workspace",
+  "recommended": "C",
+  "formal_map_created": false,
+  "images": [
+    {
+      "path": "work/composition_studies/option_a_river_spine.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "bytes": 4163942,
+      "sha256": "8a219e7cb0dcc9daf502f17543bfe6f29540633f037bc9486977c5d0eae5b42b"
+    },
+    {
+      "path": "work/composition_studies/option_b_street_spine.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "bytes": 4063562,
+      "sha256": "e2a631a1e24e25d43161bee15d9507ab6aa0c14d8ad537d9ed85085864957023"
+    },
+    {
+      "path": "work/composition_studies/option_c_layered_montage.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "bytes": 4370169,
+      "sha256": "c7f3e4a8d9e2138af865fbdc40067b7d43019fd6efc81c75e47d175e7ee9f247"
+    }
+  ]
+}
