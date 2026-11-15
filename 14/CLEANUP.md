@@ -1,0 +1,413 @@
+# Day 14 final cleanup
+
+Only Day 14 was changed. No commit or push. The accepted GIF was moved, never rendered, resized, renamed or re-encoded.
+
+## Protected final artifacts
+
+- `outputs/atlas_of_impossible_places_camera_preview.gif` ? 11,089,405 bytes, 720 ? 655, 14.4 s, infinite loop.
+- `outputs/keyframe_a.png`, `keyframe_b.png`, `keyframe_c.png` ? exact GIF frames at 500 / 5300 / 10100 ms.
+- No independently approved cover PNG existed; none was fabricated.
+
+GIF SHA-256 before and after: `4c029b37adf0cc6131b9d0bff70f84a84a31069f7f014709ac3c0075df8a41fe`.
+
+## Protected reproduction inputs
+
+Four unique normalized OSM JSON datasets (unchanged checksums), provenance/request URLs, native camera/mask/geometry targets, compact clip manifest and transform table remain under `data/`. The final renderer and OSM parser are retained; reusable helpers from obsolete modules were consolidated without changing the production drawing or transform functions. The release verifier decodes the accepted GIF and compares all three hold PNGs.
+
+Source files relocated rather than deleted:
+
+```text
+data/raw/{bella_vista,laomendong,xiguan,chelsea}.json -> data/
+metadata/geometry_audit/transforms.csv -> data/transforms.csv
+work/animation_preview/native_camera/atlas_of_impossible_places_camera_preview.gif -> outputs/
+```
+
+## Removed files
+
+Local ignored `.deps/` runtime installation removed: 4685 files; reinstall with the pinned requirements if reproduction is needed. The following individual project/cache files were removed; directory names include their former paths.
+
+```text
+.gitkeep
+ANIMATION_REVISION.md
+ANIMATION_STUDY.md
+AUDITED_CAMERA_ANIMATION.md
+cleanup_plan.json
+COMPOSITION_STUDIES.md
+config/audited_camera_animation.json
+config/confirmed_study_references.json
+config/fragment_animation.json
+config/illustrated_montage_prompts.json
+config/study_animation.json
+data/animation/bella_vista_buildings.geojson
+data/animation/bella_vista_mask.geojson
+data/animation/bella_vista_streets.geojson
+data/animation/chelsea_buildings.geojson
+data/animation/chelsea_mask.geojson
+data/animation/chelsea_streets.geojson
+data/animation/laomendong_buildings.geojson
+data/animation/laomendong_mask.geojson
+data/animation/laomendong_streets.geojson
+data/animation/xiguan_buildings.geojson
+data/animation/xiguan_mask.geojson
+data/animation/xiguan_streets.geojson
+data/derived/A_bella_vista_buildings.geojson
+data/derived/A_bella_vista_source_mask.geojson
+data/derived/A_bella_vista_streets.geojson
+data/derived/A_chelsea_buildings.geojson
+data/derived/A_chelsea_source_mask.geojson
+data/derived/A_chelsea_streets.geojson
+data/derived/A_fictional_connections.geojson
+data/derived/A_laomendong_buildings.geojson
+data/derived/A_laomendong_source_mask.geojson
+data/derived/A_laomendong_streets.geojson
+data/derived/A_masks.geojson
+data/derived/A_xiguan_buildings.geojson
+data/derived/A_xiguan_source_mask.geojson
+data/derived/A_xiguan_streets.geojson
+data/derived/B_bella_vista_buildings.geojson
+data/derived/B_bella_vista_source_mask.geojson
+data/derived/B_bella_vista_streets.geojson
+data/derived/B_chelsea_buildings.geojson
+data/derived/B_chelsea_source_mask.geojson
+data/derived/B_chelsea_streets.geojson
+data/derived/B_fictional_connections.geojson
+data/derived/B_laomendong_buildings.geojson
+data/derived/B_laomendong_source_mask.geojson
+data/derived/B_laomendong_streets.geojson
+data/derived/B_masks.geojson
+data/derived/B_xiguan_buildings.geojson
+data/derived/B_xiguan_source_mask.geojson
+data/derived/B_xiguan_streets.geojson
+data/derived/C_bella_vista_buildings.geojson
+data/derived/C_bella_vista_source_mask.geojson
+data/derived/C_bella_vista_streets.geojson
+data/derived/C_chelsea_buildings.geojson
+data/derived/C_chelsea_source_mask.geojson
+data/derived/C_chelsea_streets.geojson
+data/derived/C_fictional_connections.geojson
+data/derived/C_laomendong_buildings.geojson
+data/derived/C_laomendong_source_mask.geojson
+data/derived/C_laomendong_streets.geojson
+data/derived/C_masks.geojson
+data/derived/C_xiguan_buildings.geojson
+data/derived/C_xiguan_source_mask.geojson
+data/derived/C_xiguan_streets.geojson
+data/raw/bella_vista_0_0.osm
+data/raw/bella_vista_0_0.source.json
+data/raw/bella_vista_0_1.osm
+data/raw/bella_vista_0_1.source.json
+data/raw/bella_vista_1_0.osm
+data/raw/bella_vista_1_0.source.json
+data/raw/bella_vista_1_1.osm
+data/raw/bella_vista_1_1.source.json
+data/raw/bella_vista_expand_0_0_0.osm
+data/raw/bella_vista_expand_0_0_0.source.json
+data/raw/bella_vista_expand_0_1_0.osm
+data/raw/bella_vista_expand_0_1_0.source.json
+data/raw/bella_vista_expand_0_2_0.osm
+data/raw/bella_vista_expand_0_2_0.source.json
+data/raw/bella_vista_expand_0_3_0.osm
+data/raw/bella_vista_expand_0_3_0.source.json
+data/raw/bella_vista_expand_1_0_0.osm
+data/raw/bella_vista_expand_1_0_0.source.json
+data/raw/bella_vista_expand_1_0_1.osm
+data/raw/bella_vista_expand_1_0_1.source.json
+data/raw/bella_vista_expand_1_0_2.osm
+data/raw/bella_vista_expand_1_0_2.source.json
+data/raw/chelsea_0_0.osm
+data/raw/chelsea_0_0.source.json
+data/raw/chelsea_0_1.osm
+data/raw/chelsea_0_1.source.json
+data/raw/chelsea_1_0.osm
+data/raw/chelsea_1_0.source.json
+data/raw/chelsea_1_1.osm
+data/raw/chelsea_1_1.source.json
+data/raw/chelsea_expand_0_0_0.osm
+data/raw/chelsea_expand_0_0_0.source.json
+data/raw/chelsea_expand_0_1_0.osm
+data/raw/chelsea_expand_0_1_0.source.json
+data/raw/chelsea_expand_0_2_0.osm
+data/raw/chelsea_expand_0_2_0.source.json
+data/raw/chelsea_expand_0_3_0.osm
+data/raw/chelsea_expand_0_3_0.source.json
+data/raw/chelsea_expand_1_0_0.osm
+data/raw/chelsea_expand_1_0_0.source.json
+data/raw/chelsea_expand_1_1_0.osm
+data/raw/chelsea_expand_1_1_0.source.json
+data/raw/chelsea_expand_1_2_0.osm
+data/raw/chelsea_expand_1_2_0.source.json
+data/raw/chelsea_expand_1_3_0.osm
+data/raw/chelsea_expand_1_3_0.source.json
+data/raw/chelsea_expand_2_0_0.osm
+data/raw/chelsea_expand_2_0_0.source.json
+data/raw/chelsea_expand_2_0_1.osm
+data/raw/chelsea_expand_2_0_1.source.json
+data/raw/chelsea_expand_2_0_2.osm
+data/raw/chelsea_expand_2_0_2.source.json
+data/raw/chelsea_expand_3_0_0.osm
+data/raw/chelsea_expand_3_0_0.source.json
+data/raw/chelsea_expand_3_0_1.osm
+data/raw/chelsea_expand_3_0_1.source.json
+data/raw/chelsea_expand_3_0_2.osm
+data/raw/chelsea_expand_3_0_2.source.json
+data/raw/dongshankou.json
+data/raw/dongshankou_0_0.osm
+data/raw/dongshankou_0_0.source.json
+data/raw/dongshankou_0_1.osm
+data/raw/dongshankou_0_1.source.json
+data/raw/dongshankou_1_0.osm
+data/raw/dongshankou_1_0.source.json
+data/raw/dongshankou_1_1.osm
+data/raw/dongshankou_1_1.source.json
+data/raw/east_village.json
+data/raw/east_village_0_0.osm
+data/raw/east_village_0_0.source.json
+data/raw/east_village_0_1.osm
+data/raw/east_village_0_1.source.json
+data/raw/east_village_1_0.osm
+data/raw/east_village_1_0.source.json
+data/raw/east_village_1_1.osm
+data/raw/east_village_1_1.source.json
+data/raw/laomendong_0_0.osm
+data/raw/laomendong_0_0.source.json
+data/raw/laomendong_0_1.osm
+data/raw/laomendong_0_1.source.json
+data/raw/laomendong_1_0.osm
+data/raw/laomendong_1_0.source.json
+data/raw/laomendong_1_1.osm
+data/raw/laomendong_1_1.source.json
+data/raw/laomendong_expand_0_0_0.osm
+data/raw/laomendong_expand_0_0_0.source.json
+data/raw/laomendong_expand_0_1_0.osm
+data/raw/laomendong_expand_0_1_0.source.json
+data/raw/laomendong_expand_0_2_0.osm
+data/raw/laomendong_expand_0_2_0.source.json
+data/raw/laomendong_expand_0_3_0.osm
+data/raw/laomendong_expand_0_3_0.source.json
+data/raw/laomendong_expand_1_0_0.osm
+data/raw/laomendong_expand_1_0_0.source.json
+data/raw/laomendong_expand_1_1_0.osm
+data/raw/laomendong_expand_1_1_0.source.json
+data/raw/laomendong_expand_1_2_0.osm
+data/raw/laomendong_expand_1_2_0.source.json
+data/raw/laomendong_expand_1_3_0.osm
+data/raw/laomendong_expand_1_3_0.source.json
+data/raw/laomendong_expand_2_0_0.osm
+data/raw/laomendong_expand_2_0_0.source.json
+data/raw/laomendong_expand_2_0_1.osm
+data/raw/laomendong_expand_2_0_1.source.json
+data/raw/laomendong_expand_2_0_2.osm
+data/raw/laomendong_expand_2_0_2.source.json
+data/raw/laomendong_expand_3_0_0.osm
+data/raw/laomendong_expand_3_0_0.source.json
+data/raw/laomendong_expand_3_0_1.osm
+data/raw/laomendong_expand_3_0_1.source.json
+data/raw/laomendong_expand_3_0_2.osm
+data/raw/laomendong_expand_3_0_2.source.json
+data/raw/point_breeze.json
+data/raw/point_breeze_0_0.osm
+data/raw/point_breeze_0_0.source.json
+data/raw/point_breeze_0_1.osm
+data/raw/point_breeze_0_1.source.json
+data/raw/point_breeze_1_0a.osm
+data/raw/point_breeze_1_0a.source.json
+data/raw/point_breeze_1_0b.osm
+data/raw/point_breeze_1_0b.source.json
+data/raw/point_breeze_1_1.osm
+data/raw/point_breeze_1_1.source.json
+data/raw/xiguan_0_0.osm
+data/raw/xiguan_0_0.source.json
+data/raw/xiguan_0_1.osm
+data/raw/xiguan_0_1.source.json
+data/raw/xiguan_1_0.osm
+data/raw/xiguan_1_0.source.json
+data/raw/xiguan_1_1.osm
+data/raw/xiguan_1_1.source.json
+data/raw/xiguan_expand_0_0_0.osm
+data/raw/xiguan_expand_0_0_0.source.json
+data/raw/xiguan_expand_0_1_0.osm
+data/raw/xiguan_expand_0_1_0.source.json
+data/raw/xiguan_expand_0_2_0.osm
+data/raw/xiguan_expand_0_2_0.source.json
+data/raw/xiguan_expand_0_3_0.osm
+data/raw/xiguan_expand_0_3_0.source.json
+data/raw/xiguan_expand_1_0_0.osm
+data/raw/xiguan_expand_1_0_0.source.json
+data/raw/xiguan_expand_1_1_0.osm
+data/raw/xiguan_expand_1_1_0.source.json
+data/raw/xiguan_expand_1_2_0.osm
+data/raw/xiguan_expand_1_2_0.source.json
+data/raw/xiguan_expand_1_3_0.osm
+data/raw/xiguan_expand_1_3_0.source.json
+data/raw/xiguan_expand_2_0_0.osm
+data/raw/xiguan_expand_2_0_0.source.json
+data/raw/xiguan_expand_2_0_1.osm
+data/raw/xiguan_expand_2_0_1.source.json
+data/raw/xiguan_expand_2_0_2.osm
+data/raw/xiguan_expand_2_0_2.source.json
+data/raw/xiguan_expand_3_0_0.osm
+data/raw/xiguan_expand_3_0_0.source.json
+data/raw/xiguan_expand_3_0_1.osm
+data/raw/xiguan_expand_3_0_1.source.json
+data/raw/xiguan_expand_3_0_2.osm
+data/raw/xiguan_expand_3_0_2.source.json
+data/raw/xinjiekou.json
+data/raw/xinjiekou_0_0.osm
+data/raw/xinjiekou_0_0.source.json
+data/raw/xinjiekou_0_1.osm
+data/raw/xinjiekou_0_1.source.json
+data/raw/xinjiekou_1_0.osm
+data/raw/xinjiekou_1_0.source.json
+data/raw/xinjiekou_1_1.osm
+data/raw/xinjiekou_1_1.source.json
+GEOMETRY_AUDIT.md
+metadata/animation_preview_frames.json
+metadata/animation_preview_validation.json
+metadata/audited_camera_frames.json
+metadata/audited_camera_keyframes.json
+metadata/audited_camera_validation.json
+metadata/candidate_metrics.json
+metadata/composition_metrics.json
+metadata/geometry_audit/clip_manifest.json
+metadata/geometry_audit/existing_gif_hold_inspection.json
+metadata/geometry_audit/static_validation.json
+metadata/illustrated_montage_manifest.json
+metadata/sources.json
+metadata/study_animation_frames.json
+metadata/study_animation_validation.json
+metadata/study_keyframe_validation.json
+references/SOURCES.md
+scripts/__pycache__/animate_fragments.cpython-314.pyc
+scripts/__pycache__/audit_study_geometry.cpython-314.pyc
+scripts/__pycache__/fetch_map_api.cpython-314.pyc
+scripts/__pycache__/fetch_osm.cpython-314.pyc
+scripts/__pycache__/geometry.cpython-314.pyc
+scripts/__pycache__/stage_a.cpython-314.pyc
+scripts/__pycache__/stage_b.cpython-314.pyc
+scripts/animate_fragments.py
+scripts/animate_studies.py
+scripts/audit_study_geometry.py
+scripts/check_composition_studies.py
+scripts/confirm_study_references.py
+scripts/expand_sources.py
+scripts/fetch_map_api.py
+scripts/fetch_osm.py
+scripts/inspect_existing_gif_holds.py
+scripts/stage_a.py
+scripts/stage_b.py
+work/animation_preview/atlas_of_impossible_places_preview.gif
+work/animation_preview/atlas_of_impossible_places_preview_revised.gif
+work/animation_preview/hold_a.png
+work/animation_preview/hold_b.png
+work/animation_preview/hold_c.png
+work/animation_preview/keyframe_a_revised.png
+work/animation_preview/keyframe_b_revised.png
+work/animation_preview/keyframe_c_revised.png
+work/animation_preview/native_camera/a_b_25.png
+work/animation_preview/native_camera/a_b_50.png
+work/animation_preview/native_camera/a_b_75.png
+work/animation_preview/native_camera/b_c_25.png
+work/animation_preview/native_camera/b_c_50.png
+work/animation_preview/native_camera/b_c_75.png
+work/animation_preview/native_camera/c_a_25.png
+work/animation_preview/native_camera/c_a_50.png
+work/animation_preview/native_camera/c_a_75.png
+work/animation_preview/native_camera/contact_sheet.png
+work/animation_preview/native_camera/difference_a.png
+work/animation_preview/native_camera/difference_b.png
+work/animation_preview/native_camera/difference_c.png
+work/animation_preview/native_camera/keyframe_a.png
+work/animation_preview/native_camera/keyframe_b.png
+work/animation_preview/native_camera/keyframe_c.png
+work/animation_preview/native_camera/reference_a_map.png
+work/animation_preview/native_camera/reference_b_map.png
+work/animation_preview/native_camera/reference_c_map.png
+work/animation_preview/study_validation/keyframe_a_reference.png
+work/animation_preview/study_validation/keyframe_b_reference.png
+work/animation_preview/study_validation/keyframe_c_reference.png
+work/animation_preview/study_validation/study_a_difference.png
+work/animation_preview/study_validation/study_a_overlay.png
+work/animation_preview/study_validation/study_a_restored.png
+work/animation_preview/study_validation/study_b_difference.png
+work/animation_preview/study_validation/study_b_overlay.png
+work/animation_preview/study_validation/study_b_restored.png
+work/animation_preview/study_validation/study_c_difference.png
+work/animation_preview/study_validation/study_c_overlay.png
+work/animation_preview/study_validation/study_c_restored.png
+work/candidates/bella_vista.png
+work/candidates/chelsea.png
+work/candidates/dongshankou.png
+work/candidates/east_village.png
+work/candidates/laomendong.png
+work/candidates/point_breeze.png
+work/candidates/xiguan.png
+work/candidates/xinjiekou.png
+work/composition_studies/option_a_river_spine.png
+work/composition_studies/option_b_street_spine.png
+work/composition_studies/option_c_layered_montage.png
+work/geometry_audit/existing_gif_hold_a.png
+work/geometry_audit/existing_gif_hold_b.png
+work/geometry_audit/existing_gif_hold_c.png
+work/geometry_audit/study_a_bw.png
+work/geometry_audit/study_a_debug.png
+work/geometry_audit/study_a_difference.png
+work/geometry_audit/study_a_native_from_raw.png
+work/geometry_audit/study_a_overlay.png
+work/geometry_audit/study_b_bw.png
+work/geometry_audit/study_b_debug.png
+work/geometry_audit/study_b_difference.png
+work/geometry_audit/study_b_native_from_raw.png
+work/geometry_audit/study_b_overlay.png
+work/geometry_audit/study_c_bw.png
+work/geometry_audit/study_c_debug.png
+work/geometry_audit/study_c_difference.png
+work/geometry_audit/study_c_native_from_raw.png
+work/geometry_audit/study_c_overlay.png
+work/stage_a_candidates.png
+work/stage_b_comparison.png
+work/study_a.png
+work/study_a_audit.png
+work/study_b.png
+work/study_b_audit.png
+work/study_c.png
+work/study_c_audit.png
+```
+
+## Checks
+
+- New renderer `--check-inputs` loaded all four source datasets and keyed geometry/mask/camera data without rendering.
+- Release verifier confirmed unchanged GIF hash, full decode, 14,400 ms, infinite looping and exact PNG/decoded-GIF equality for A/B/C.
+- Original source JSON hashes and retained clip-manifest checksum verified.
+- README/METHODS local links checked against the final structure.
+- No Day 14 reference found in the personal collection site; no website files changed.
+- Historical study/audit narratives were consolidated into METHODS; no debug image or nested work directory is required.
+
+## Final tree
+
+```text
+14/
+  .gitignore
+  README.md
+  METHODS.md
+  CLEANUP.md
+  requirements.txt
+  outputs/
+    atlas_of_impossible_places_camera_preview.gif
+    keyframe_a.png
+    keyframe_b.png
+    keyframe_c.png
+  data/
+    animation.json
+    clip_manifest.json
+    transforms.csv
+    sources.json
+    bella_vista.json
+    laomendong.json
+    xiguan.json
+    chelsea.json
+    release.json
+  scripts/
+    animate_audited_camera.py
+    geometry.py
+    verify_release.py
+```

@@ -1,0 +1,174 @@
+{
+  "title": "Atlas of Impossible Places",
+  "author": "Ming Cao",
+  "status": "user-approved final; original bytes moved without rerendering",
+  "gif": {
+    "path": "outputs/atlas_of_impossible_places_camera_preview.gif",
+    "sha256": "4c029b37adf0cc6131b9d0bff70f84a84a31069f7f014709ac3c0075df8a41fe",
+    "bytes": 11089405,
+    "width": 720,
+    "height": 655
+  },
+  "keyframes": {
+    "A": {
+      "path": "outputs/keyframe_a.png",
+      "sample_time_ms": 500,
+      "decoded_frame_index": 2,
+      "sha256": "3cc1fca14e2dca0592270e95acda501958e538652eb22bb57fef9015649490cc"
+    },
+    "B": {
+      "path": "outputs/keyframe_b.png",
+      "sample_time_ms": 5300,
+      "decoded_frame_index": 43,
+      "sha256": "114be264052b00466e75a7baacf07c9275b1e26e768b301d4d502a82bc33ef02"
+    },
+    "C": {
+      "path": "outputs/keyframe_c.png",
+      "sample_time_ms": 10100,
+      "decoded_frame_index": 84,
+      "sha256": "f4414564c6e02791b1a29cb6f769af52781e73c9535cb9ada42353f60ea04089"
+    }
+  },
+  "original_validation": {
+    "duration_ms": 14400,
+    "fps": 10,
+    "source_geometry_scale": 1,
+    "endpoint_checks": {
+      "A": {
+        "map_changed_pixels": 1,
+        "map_total_pixels": 276660,
+        "mean_channel_error": 3.614544928793465e-06,
+        "max_channel_error": 1,
+        "camera": {
+          "center_m": [
+            0.0,
+            0.0
+          ],
+          "pixels_per_m": 0.13377870563674324
+        },
+        "geometry_scale": 1,
+        "stats": {
+          "counts": {
+            "bella_vista": {
+              "buildings": 10436,
+              "roads": 717
+            },
+            "laomendong": {
+              "buildings": 1078,
+              "roads": 179
+            },
+            "xiguan": {
+              "buildings": 1272,
+              "roads": 335
+            },
+            "chelsea": {
+              "buildings": 4004,
+              "roads": 535
+            }
+          },
+          "mask_overlap_km2": 1.862645149230957e-15,
+          "spill_pixels": -6.020041753653345
+        }
+      },
+      "B": {
+        "map_changed_pixels": 5,
+        "map_total_pixels": 276660,
+        "mean_channel_error": 1.3253331405576038e-05,
+        "max_channel_error": 1,
+        "camera": {
+          "center_m": [
+            15.0,
+            0.0
+          ],
+          "pixels_per_m": 0.1574193548387097
+        },
+        "geometry_scale": 1,
+        "stats": {
+          "counts": {
+            "bella_vista": {
+              "buildings": 8877,
+              "roads": 540
+            },
+            "laomendong": {
+              "buildings": 687,
+              "roads": 163
+            },
+            "xiguan": {
+              "buildings": 1060,
+              "roads": 154
+            },
+            "chelsea": {
+              "buildings": 2915,
+              "roads": 443
+            }
+          },
+          "mask_overlap_km2": -9.313225746154785e-16,
+          "spill_pixels": -7.083870967741916
+        }
+      },
+      "C": {
+        "map_changed_pixels": 2,
+        "map_total_pixels": 276660,
+        "mean_channel_error": 4.819393238391286e-06,
+        "max_channel_error": 1,
+        "camera": {
+          "center_m": [
+            0.0,
+            0.0
+          ],
+          "pixels_per_m": 0.15197231833910033
+        },
+        "geometry_scale": 1,
+        "stats": {
+          "counts": {
+            "bella_vista": {
+              "buildings": 6968,
+              "roads": 482
+            },
+            "laomendong": {
+              "buildings": 789,
+              "roads": 162
+            },
+            "xiguan": {
+              "buildings": 1401,
+              "roads": 261
+            },
+            "chelsea": {
+              "buildings": 2317,
+              "roads": 383
+            }
+          },
+          "mask_overlap_km2": 0.0,
+          "spill_pixels": -6.8387543252595435
+        }
+      }
+    },
+    "static_header_footer": true,
+    "all_masks_fit": true,
+    "overlap_km2_max": 4.330206286236024,
+    "max_geometry_rotation_orthogonality_error": 2.220446049250313e-16
+  },
+  "verification": {
+    "duration_ms": 14400,
+    "decoded_frames": 123,
+    "loop": 0,
+    "exact_decoded_hold_pngs": true,
+    "source_data_hashes_match": true
+  },
+  "cleanup": {
+    "gif_hash_before": "4c029b37adf0cc6131b9d0bff70f84a84a31069f7f014709ac3c0075df8a41fe",
+    "gif_hash_after": "4c029b37adf0cc6131b9d0bff70f84a84a31069f7f014709ac3c0075df8a41fe",
+    "gif_not_rerendered": true,
+    "keyframes_extracted_from_accepted_gif": true,
+    "removed_project_files": 344,
+    "removed_runtime_files": 4685,
+    "removed_bytes": 557493126,
+    "retained_source_data_count": 4,
+    "removal_inventory": "CLEANUP.md",
+    "files_after": 21,
+    "bytes_after": 35305387,
+    "runtime_cache_removed": true,
+    "new_structure_input_check_passed": true,
+    "documentation_links_checked": true
+  }
+}

@@ -20,7 +20,7 @@ def load(spec):
  lat,lon=spec['center_latlon']
  crs=CRS.from_proj4(f'+proj=aeqd +lat_0={lat} +lon_0={lon} +datum=WGS84 +units=m +no_defs')
  project=Transformer.from_crs(4326,crs,always_xy=True).transform
- data=json.loads((ROOT/f"data/raw/{spec['key']}.json").read_text())
+ data=json.loads((ROOT/f"data/{spec['key']}.json").read_text())
  buildings=[];roads=[];open_space=[];invalid=0;members=set()
  def coords(el):return [(p['lon'],p['lat']) for p in el.get('geometry',[]) if 'lon' in p]
  for e in data['elements']:
@@ -51,18 +51,5 @@ def load(spec):
    elif tags.get('natural')=='water' or tags.get('leisure')=='park':open_space.append((ident,g))
  return dict(spec=spec,buildings=buildings,roads=roads,open_space=open_space,crs=crs.to_string(),repaired_invalid=invalid)
 
-def orientation(roads):
- z=0j
- for _,g in roads:
-  for line in parts(g,'LineString'):
-   xy=np.asarray(line.coords);d=np.diff(xy,axis=0);length=np.linalg.norm(d,axis=1);a=np.arctan2(d[:,1],d[:,0]);z+=np.sum(length*np.exp(4j*a))
- return float(np.degrees(np.angle(z)/4)),float(abs(z)/sum(g.length for _,g in roads))
 
 def rigid(g,angle,dx=0,dy=0):return affinity.translate(affinity.rotate(g,angle,origin=(0,0)),dx,dy)
-
-def clipped(items,mask):
- return [(ident,g.intersection(mask)) for ident,g in items if g.intersects(mask)]
-
-def write_geojson(path,items,extra=None):
- path.parent.mkdir(exist_ok=True,parents=True)
- path.write_text(json.dumps({'type':'FeatureCollection','coordinate_system':'local metric artistic coordinates; NOT longitude/latitude','features':[{'type':'Feature','properties':dict(osm_id=i,**(extra or {})),'geometry':mapping(g)} for i,g in items]},separators=(',',':')))

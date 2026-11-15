@@ -1,35 +1,52 @@
-# Methods — Composition Study Only
+# Methods ? Atlas of Impossible Places
 
-## 本轮范围
+## Real sources and fictional arrangement
 
-本轮使用 Illustrated Architectural Montage，替代旧版垂直俯视 OSM figure-ground 方向。三个方案研究真实地点意向之间的虚构连接，不对应现实中的一座城市，也不是四幅实景的并列展示。没有正式排版和正式输出。
+Four actual OpenStreetMap urban fragments are rearranged into a city that does not exist. Only their adjacency and placement are invented. No roads or buildings were added to repair seams. The source geometry is retained in `data/bella_vista.json`, `data/laomendong.json`, `data/xiguan.json`, and `data/chelsea.json`; each object retains its OSM ID.
 
-## 参考与真实性
+| Source ID | City / neighborhood | Source centre, latitude / longitude |
+| --- | --- | --- |
+| PHL01 | Philadelphia / Bella Vista?Queen Village | 39.9375, ?75.1535 |
+| NKG01 | Nanjing / Laomendong | 32.0200, 118.7870 |
+| CAN01 | Guangzhou / Xiguan | 23.1190, 113.2420 |
+| NYC01 | New York / Chelsea | 40.7440, ?73.9970 |
 
-参考检索于 2026-11-13（America/New_York）进行，链接和核对事项记录在 [SOURCES](references/SOURCES.md)。优先使用项目运营方、城市政府、景区管理方和文物资料，补充公开照片作观察。
+The data were acquired through the official OSM Map API, `https://api.openstreetmap.org/api/0.6/map`, in tiled requests on 2026-11-14 UTC (2026-11-13 in America/New_York). Narrow extra strips covered the rotated source footprints. `data/sources.json` retains each request URL, acquisition timestamp, fetch extent and SHA-256; the four normalized JSONs preserve the complete required response geometry. Duplicate XML tile caches and unused city candidates were removed after verifying the retained normalized data hashes. Local parsed coordinates are OSM WGS84; no alternative basemap imagery or GCJ-02 conversion is used.
 
-已核对的事实包括：Schuylkill Boardwalk 为沿岸近水混凝土步道；Brooklyn Bridge 的石塔尖拱和较长陆上引道；Purple Mountain 的林山环境；骑楼的底层遮蔽步行空间；陈家祠为独立的岭南祠堂院落群。**草图并不因此自动获得建筑准确性。** 当前构图没有逐栋结构核验，也没有摄影测量或统一全图比例尺。
+Bella Vista supplies detailed rowhouses and an oblique street; Laomendong supplies differing street directions and building scales; Xiguan supplies irregular alleys and locally dense buildings; Chelsea supplies dense brick-block footprints and a regular grid. Candidates were inspected before selection. Lower mapped building coverage in China is not evidence of actual empty land or complete building inventory.
 
-中山东路与钟山景区陵园路不是同一路段，南京山体、城墙和大道也不视为一个已经确认的实景取景。DUMBO 的 Washington Street 常见 Manhattan Bridge 视角不能套给 Brooklyn Bridge。恩宁路骑楼与中山七路陈家祠分开记录；图中相邻关系为艺术创作。
+## Geometry, masks and drawing
 
-## 生成流程
+`data/clip_manifest.json` distinguishes four stable source IDs from twelve study-specific instances (for example `A:PHL01`). Each instance records its exact source-local/world mask, rigid transform, counts and drawing order. `data/transforms.csv` provides the twelve transforms in a readable table. `data/animation.json` preserves actual production parameters: matched mask vertices, geometry targets, camera targets, easing-related settings and source IDs.
 
-1. 核对真实地标类型、空间关系和容易误认的位置。
-2. 用同一线稿、水彩、柔光与建筑类型约束，分别编写河流、街道、层次三种空间脚本。
-3. 通过内置 `image_gen` 分别生成三张 2:1 构图草图，无文字和版面。完整提示词保存在 `config/illustrated_montage_prompts.json`。
-4. 逐张检查动线、遮挡、人物尺度、桥塔形态与地面连接，将问题记录在 `COMPOSITION_STUDIES.md`。
-5. 将原始生成文件复制到 `work/composition_studies/`，保留像素尺寸；不裁剪、缩放或修饰。尺寸、可解码性与 SHA-256 记录在 manifest。
+Each city is projected into a local WGS84 azimuthal equidistant (AEQD) metre coordinate system centred at the source point above. Transform order is local projection ? counterclockwise rotation about local `(0,0)` ? translation in synthetic world metres ? world-mask intersection ? independent camera projection. Building geometry has scale 1, no shear and no reflection. Projection details are recorded in the source manifest. Rotations do not imply a common true north in the fictional city.
 
-网页参考用于研究和文字提示词约束，**没有将网页照片作为像素参考输入，也没有机械拼贴照片或 OSM 多边形**。这不是对指定建筑的可靠重建：桥头、城门、宗祠和额外钟楼仍存在生成偏差，应在选定方案后以实际图纸和照片约束重画。
+The cities share source data across A/B/C, but their crops differ:
 
-## 尺度与空间
+| State | PHL01 buildings | NKG01 | CAN01 | NYC01 |
+| --- | ---: | ---: | ---: | ---: |
+| A | 10,436 | 1,078 | 1,272 | 4,004 |
+| B | 8,877 | 687 | 1,060 | 2,915 |
+| C | 6,968 | 789 | 1,401 | 2,317 |
 
-本轮允许多个局部透视和艺术性距离压缩；不存在一把适用于整张图的米制比例尺。人物、建筑层高和街道断面只能作为局部比例检查。Brooklyn Bridge 主跨约 486 m、塔高约 84 m 的公开资料可为后续模型提供量级约束，当前草图尚未按该数值完成投影校准。
+These counts are OSM objects intersecting each mask, not a surveyed count of separate buildings. Whole-source geometry remains fixed throughout; crop changes reveal or hide its parts. Original endpoint compositions were independently reconstructed from raw OSM with zero native-page pixel differences before animation. The approved low-resolution animation endpoint comparisons differed at only 1, 5 and 2 pixels respectively, each by one channel level, due to rasterization rounding. The original target image hashes and compact validation are retained in `data/animation.json` and `data/release.json`; temporary comparison images are unnecessary for reproduction.
 
-真实地点的材料、建筑类型与识别特征是研究依据；河流串联、城市间道路连接、宗祠和桥梁的重新布置、视点及距离压缩均属创作。旧版 OSM 实验的坐标变换与统计不适用于本轮生成图。
+All source-local masks are convex, with a shared interior point per city. Rays through the combined original vertex directions establish corresponding perimeter points, preserving exact endpoint corners. Added points are collinear at endpoints. Mask coordinates interpolate separately from rigid source geometry. Endpoint symmetric-difference errors are below 10?? m?; masks remain valid. No opaque rectangle or background tile conceals a seam.
 
-## 工具与下一阶段
+Drawing order: real road lines at z=2 (`#b6ae9e`), building exteriors at z=3 (`#202e34`), real polygon holes at z=4 in paper `#f4f0e5`. No artificial seam repair is applied.
 
-当前已验证 Python 3.14、Pillow、Matplotlib、Shapely 和 PyProj；内置图像生成可用。Python 适合检查文件与辅助透视，不承担高质量建筑插画的自动替代。可用 SVG 组织线稿层；后续可在具备相应软件的环境中用 Blender 等建立简化透视模型，尚未验证本机安装情况。
+## Camera and time
 
-选择方案后才需开展：真实参考整理→简化透视模型→地标结构校正→连续地面与遮挡设计→分层建筑线稿→统一色彩。图像生成可继续辅助局部构图，正式建筑结构需人工或可控矢量绘制核验。本轮止于三个 Composition Studies。
+The original static pages had different display scales. The animation explicitly changes camera scale rather than scaling geometry. Native camera centres are A `(0,0)`, B `(15,0)`, C `(0,0)` metres. At preview size the target scales are 0.1337787056, 0.1574193548 and 0.1519723183 pixels per ground metre. All cities share one camera at every instant. The original square map page is uniformly reduced to a virtual 720 px square, vertically centred in the accepted 720 ? 655 canvas. Fixed title/footer placement is preserved.
+
+A ? B ? C ? A lasts 14.4 seconds: each state holds 1.2 s and transforms for 3.6 s at 10 fps logical sampling. Quintic easing `6t??15t?+10t?` gives zero endpoint velocity and acceleration. Translations and mask vertices interpolate with this ease, angles follow the shortest path, and camera scale interpolates logarithmically. No motion-only camera pullback was needed. Thin unfilled mask outlines fade out after arrival and return shortly before departure; building and road opacity stays constant. There is no whole-image crossfade or bitmap rotation.
+
+Temporary overlaps and gaps are retained. Maximum mask-overlap multiplicity is about 4.330206 km?; A?B's middle is visibly dense because sources cross each other. This is an animation of rearrangement, not a functioning road-network simulation. Roads may be disconnected and geometry may occlude other geometry during motion.
+
+## Accepted artifacts and integrity
+
+The accepted GIF was moved unchanged to `outputs/atlas_of_impossible_places_camera_preview.gif`; its existing name and even its original in-image ?GEOMETRY PREVIEW? wording were retained. The final SHA-256 is `4c029b37adf0cc6131b9d0bff70f84a84a31069f7f014709ac3c0075df8a41fe`. It remains 11,089,405 bytes, 720 ? 655 px, 14,400 ms, infinite loop. Identical holds may be merged by GIF encoding without changing timing.
+
+The three final PNGs are exact RGB extractions of the GIF at 500, 5300 and 10100 ms, when the respective mask outlines are absent. They retain the GIF's colour quantization; none was rerendered. `data/release.json` records artifact paths, timestamps, decoded frame indices and checksums. `scripts/verify_release.py` verifies these relationships without altering the GIF. The reproduction script is protected from writing into the approved outputs directory.
+
+Author: **Ming Cao**. Theme: **30DayMapChallenge 2026 / Day 14 ? Borgesian Map**. Geography: ? OpenStreetMap contributors, [ODbL](https://www.openstreetmap.org/copyright).

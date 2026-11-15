@@ -409,5 +409,36 @@
     ],
     "statusPage": "13/index.html",
     "plannedInteractive": "13/Where_Night_Comes_From.html"
+  },
+  {
+    "day": "14",
+    "theme": "Borgesian Map",
+    "title": "Atlas of Impossible Places",
+    "subtitle": "Four real cities. Infinite impossible geographies.",
+    "author": "Ming Cao",
+    "description": "Fragments of Philadelphia, Nanjing, Guangzhou, and New York City are continuously rearranged into three impossible urban geographies. Each composition preserves real urban forms while transforming their spatial relationships.",
+    "tools": [
+      "Python",
+      "NumPy",
+      "Shapely",
+      "pyproj",
+      "Matplotlib",
+      "Pillow"
+    ],
+    "evidence": [
+      "14/README.md",
+      "14/METHODS.md",
+      "14/scripts/animate_audited_camera.py",
+      "14/scripts/geometry.py"
+    ],
+    "media": [
+      {
+        "source": "14/outputs/atlas_of_impossible_places_camera_preview.gif",
+        "path": "assets/14/atlas_of_impossible_places_camera_preview.gif",
+        "label": "Atlas of Impossible Places—final animation",
+        "alt": "Real street and building fragments from Philadelphia, Nanjing, Guangzhou, and New York City rearranging through three fictional cities"
+      }
+    ],
+    "downloads": []
   }
 ]

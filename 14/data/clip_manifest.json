@@ -1,0 +1,1303 @@
+{
+  "schema": "Day14-final-clip-manifest",
+  "world_units": "metres; artificial common city plane, not geographic projected CRS",
+  "rotation_order": "source WGS84 -> city AEQD metres -> rotate CCW about local (0,0) -> translate -> intersect world mask",
+  "scale": 1,
+  "draw_order": {
+    "clip_sequence": [
+      "bella_vista",
+      "laomendong",
+      "xiguan",
+      "chelsea"
+    ],
+    "z2": "all real road lines, #b6ae9e, .35 pt",
+    "z3": "all building exteriors, #202e34",
+    "z4": "real polygon interior holes, paper #f4f0e5",
+    "alpha": 1.0,
+    "seam_overlay": false
+  },
+  "sources": {
+    "PHL01": {
+      "key": "bella_vista",
+      "city": "philadelphia",
+      "neighborhood": "Bella Vista / Queen Village",
+      "center_latlon": [
+        39.9375,
+        -75.1535
+      ],
+      "source_crs": "+proj=aeqd +lat_0=39.9375 +lon_0=-75.1535 +datum=WGS84 +units=m +no_defs +type=crs",
+      "raw_sha256": "2b9c10a4cc12c73df19fa04a4da8bb946d221995bdccb0b1810fa058afebb26f",
+      "fetch_bbox_swen": [
+        39.927169421487605,
+        -75.16697328819923,
+        39.95193551999391,
+        -75.1392125038367
+      ],
+      "retrieved_at_utc": "2026-11-14T03:31:44.782505+00:00",
+      "raw_geometry_file": "data/bella_vista.json"
+    },
+    "NKG01": {
+      "key": "laomendong",
+      "city": "nanjing",
+      "neighborhood": "Laomendong / southern old city",
+      "center_latlon": [
+        32.02,
+        118.787
+      ],
+      "source_crs": "+proj=aeqd +lat_0=32.02 +lon_0=118.787 +datum=WGS84 +units=m +no_defs +type=crs",
+      "raw_sha256": "8e6fa744fb202a67bc513712b67fd4d79307a026785ca301db53b596efe27eb0",
+      "fetch_bbox_swen": [
+        32.00673886505692,
+        118.76939115802078,
+        32.03135991406895,
+        118.80001056226749
+      ],
+      "retrieved_at_utc": "2026-11-14T03:31:57.145360+00:00",
+      "raw_geometry_file": "data/laomendong.json"
+    },
+    "CAN01": {
+      "key": "xiguan",
+      "city": "guangzhou",
+      "neighborhood": "Xiguan / Changshou Road",
+      "center_latlon": [
+        23.119,
+        113.242
+      ],
+      "source_crs": "+proj=aeqd +lat_0=23.119 +lon_0=113.242 +datum=WGS84 +units=m +no_defs +type=crs",
+      "raw_sha256": "e1261e2f467eb4f5e2016eddcfa12e21c2289c4d21ff33527ca3b2bff63943a4",
+      "fetch_bbox_swen": [
+        23.104620369790858,
+        113.22825730408962,
+        23.131189831046502,
+        113.25325925945315
+      ],
+      "retrieved_at_utc": "2026-11-14T03:32:06.842641+00:00",
+      "raw_geometry_file": "data/xiguan.json"
+    },
+    "NYC01": {
+      "key": "chelsea",
+      "city": "nyc",
+      "neighborhood": "Chelsea",
+      "center_latlon": [
+        40.744,
+        -73.997
+      ],
+      "source_crs": "+proj=aeqd +lat_0=40.744 +lon_0=-73.997 +datum=WGS84 +units=m +no_defs +type=crs",
+      "raw_sha256": "f34e9af9cc3a97a1755e873e11a39adbf685b525e1737b81f631d027048c5b5c",
+      "fetch_bbox_swen": [
+        40.728432538824336,
+        -74.01381877846339,
+        40.75454251094041,
+        -73.9829179420715
+      ],
+      "retrieved_at_utc": "2026-11-14T03:32:20.729673+00:00",
+      "raw_geometry_file": "data/chelsea.json"
+    }
+  },
+  "instances": [
+    {
+      "instance_id": "A:PHL01",
+      "source_id": "PHL01",
+      "study": "A",
+      "key": "bella_vista",
+      "transform": {
+        "rotation_ccw_deg": 11.604873065841822,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          -1730,
+          -300
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -722.0,
+              -1080.0
+            ],
+            [
+              -2350.0,
+              -1080.0
+            ],
+            [
+              -2350.0,
+              650.0
+            ],
+            [
+              -2150.0,
+              1080.0
+            ],
+            [
+              -1546.7272727272727,
+              1080.0
+            ],
+            [
+              -722.0,
+              -1080.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              830.4888465563367,
+              -966.8258766424931
+            ],
+            [
+              -764.2318121513781,
+              -639.3353871762619
+            ],
+            [
+              -416.2228767849285,
+              1055.3002022367275
+            ],
+            [
+              -133.81191719523417,
+              1436.2779573663781
+            ],
+            [
+              457.1287959600258,
+              1314.922870919097
+            ],
+            [
+              830.4888465563367,
+              -966.8258766424931
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.582774545454545,
+      "mask_centroid_world_m": [
+        -1709.4707664198993,
+        -139.74531030524375
+      ],
+      "rotation_pivot_world_m": [
+        -1730,
+        -300
+      ],
+      "draw_sequence": 0,
+      "object_counts": {
+        "buildings": 10436,
+        "roads": 717
+      }
+    },
+    {
+      "instance_id": "A:NKG01",
+      "source_id": "NKG01",
+      "study": "A",
+      "key": "laomendong",
+      "transform": {
+        "rotation_ccw_deg": 12.579146950507822,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          -470,
+          200
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1546.7272727272727,
+              1080.0
+            ],
+            [
+              213.99999999999997,
+              1080.0
+            ],
+            [
+              -217.99999999999997,
+              -1080.0
+            ],
+            [
+              -722.0,
+              -1080.0
+            ],
+            [
+              -1546.7272727272727,
+              1080.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -859.2281365300382,
+              1093.3748804640743
+            ],
+            [
+              859.2347998267932,
+              709.9095426648458
+            ],
+            [
+              -32.8176733081371,
+              -1304.1575826251367
+            ],
+            [
+              -524.7197034177134,
+              -1194.392411582235
+            ],
+            [
+              -859.2281365300382,
+              1093.3748804640743
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.4459054545454544,
+      "mask_centroid_world_m": [
+        -586.3426169206517,
+        199.76878612716766
+      ],
+      "rotation_pivot_world_m": [
+        -470,
+        200
+      ],
+      "draw_sequence": 1,
+      "object_counts": {
+        "buildings": 1078,
+        "roads": 179
+      }
+    },
+    {
+      "instance_id": "A:CAN01",
+      "source_id": "CAN01",
+      "study": "A",
+      "key": "xiguan",
+      "transform": {
+        "rotation_ccw_deg": -1.2196642530747799,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          550,
+          -100
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              213.99999999999997,
+              1080.0
+            ],
+            [
+              743.6363636363636,
+              1080.0
+            ],
+            [
+              1529.0909090909092,
+              -1080.0
+            ],
+            [
+              -217.99999999999997,
+              -1080.0
+            ],
+            [
+              213.99999999999997,
+              1080.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -361.0408230554949,
+              1172.5807111186039
+            ],
+            [
+              168.4755445929824,
+              1183.854312065641
+            ],
+            [
+              999.7289216929559,
+              -958.937480441297
+            ],
+            [
+              -746.9661612916713,
+              -996.1252701769919
+            ],
+            [
+              -361.0408230554949,
+              1172.5807111186039
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.4588654545454545,
+      "mask_centroid_world_m": [
+        582.9323082284271,
+        -192.50598945855296
+      ],
+      "rotation_pivot_world_m": [
+        550,
+        -100
+      ],
+      "draw_sequence": 2,
+      "object_counts": {
+        "buildings": 1272,
+        "roads": 335
+      }
+    },
+    {
+      "instance_id": "A:NYC01",
+      "source_id": "NYC01",
+      "study": "A",
+      "key": "chelsea",
+      "transform": {
+        "rotation_ccw_deg": 27.7380028459891,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          1570,
+          380
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              743.6363636363636,
+              1080.0
+            ],
+            [
+              2350.0,
+              1080.0
+            ],
+            [
+              2350.0,
+              -650.0
+            ],
+            [
+              2150.0,
+              -1080.0
+            ],
+            [
+              1529.0909090909092,
+              -1080.0
+            ],
+            [
+              743.6363636363636,
+              1080.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -405.6017105882521,
+              1004.1733475212415
+            ],
+            [
+              1016.1668300389887,
+              256.52480100082533
+            ],
+            [
+              210.97430936646356,
+              -1274.6724445077423
+            ],
+            [
+              -166.177270397062,
+              -1562.1732025621814
+            ],
+            [
+              -715.7346632937259,
+              -1273.183979430634
+            ],
+            [
+              -405.6017105882521,
+              1004.1733475212415
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.5784545454545453,
+      "mask_centroid_world_m": [
+        1712.6398754672914,
+        134.05758676209626
+      ],
+      "rotation_pivot_world_m": [
+        1570,
+        380
+      ],
+      "draw_sequence": 3,
+      "object_counts": {
+        "buildings": 4004,
+        "roads": 535
+      }
+    },
+    {
+      "instance_id": "B:PHL01",
+      "source_id": "PHL01",
+      "study": "B",
+      "key": "bella_vista",
+      "transform": {
+        "rotation_ccw_deg": 11.604873065841822,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          650,
+          650
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -270.0,
+              1350.0
+            ],
+            [
+              900.0,
+              1350.0
+            ],
+            [
+              1450.0,
+              1050.0
+            ],
+            [
+              1450.0,
+              -138.46153846153845
+            ],
+            [
+              537.4048442906575,
+              1.937716262975768
+            ],
+            [
+              -160.89147286821705,
+              804.4573643410853
+            ],
+            [
+              -270.0,
+              1350.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -760.3806286147027,
+              870.7590364891481
+            ],
+            [
+              385.70240006344625,
+              635.400392339584
+            ],
+            [
+              864.1110090618332,
+              230.89427021504977
+            ],
+            [
+              625.0386190479761,
+              -933.272908816995
+            ],
+            [
+              -240.65851067920278,
+              -612.1649074631168
+            ],
+            [
+              -763.2445122255199,
+              314.4198987456257
+            ],
+            [
+              -760.3806286147027,
+              870.7590364891481
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 1.902709297012502,
+      "mask_centroid_world_m": [
+        705.6238894444358,
+        694.3736283252981
+      ],
+      "rotation_pivot_world_m": [
+        650,
+        650
+      ],
+      "draw_sequence": 0,
+      "object_counts": {
+        "buildings": 8877,
+        "roads": 540
+      }
+    },
+    {
+      "instance_id": "B:NKG01",
+      "source_id": "NKG01",
+      "study": "B",
+      "key": "laomendong",
+      "transform": {
+        "rotation_ccw_deg": 12.579146950507822,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          450,
+          -650
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1450.0,
+              -138.46153846153845
+            ],
+            [
+              1450.0,
+              -850.0
+            ],
+            [
+              1000.0,
+              -1350.0
+            ],
+            [
+              -950.0,
+              -1350.0
+            ],
+            [
+              -953.7530712530713,
+              -1347.2051597051598
+            ],
+            [
+              537.4048442906575,
+              1.9377162629757692
+            ],
+            [
+              1450.0,
+              -138.46153846153845
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1087.4030492765246,
+              281.4715013234064
+            ],
+            [
+              932.4384839305474,
+              -412.9872560809863
+            ],
+            [
+              384.3462238695152,
+              -802.9806848220226
+            ],
+            [
+              -1518.846154530631,
+              -378.2940111441286
+            ],
+            [
+              -1521.9004546209703,
+              -374.74888391616525
+            ],
+            [
+              227.2910223867265,
+              617.2529334349533
+            ],
+            [
+              1087.4030492765246,
+              281.4715013234064
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.0672628137795526,
+      "mask_centroid_world_m": [
+        506.0193513378919,
+        -775.9024330802448
+      ],
+      "rotation_pivot_world_m": [
+        450,
+        -650
+      ],
+      "draw_sequence": 1,
+      "object_counts": {
+        "buildings": 687,
+        "roads": 163
+      }
+    },
+    {
+      "instance_id": "B:CAN01",
+      "source_id": "CAN01",
+      "study": "B",
+      "key": "xiguan",
+      "transform": {
+        "rotation_ccw_deg": -1.2196642530747799,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          -40,
+          60
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -953.7530712530713,
+              -1347.2051597051598
+            ],
+            [
+              -1169.8836225137538,
+              -1186.25687685146
+            ],
+            [
+              -160.89147286821702,
+              804.4573643410853
+            ],
+            [
+              537.4048442906575,
+              1.9377162629758038
+            ],
+            [
+              -953.7530712530713,
+              -1347.2051597051598
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -883.5929137934826,
+              -1426.336075200788
+            ],
+            [
+              -1103.1003704892694,
+              -1270.0247147795174
+            ],
+            [
+              -136.71026729242843,
+              741.7154564593858
+            ],
+            [
+              578.5099133387972,
+              -45.758749674946614
+            ],
+            [
+              -883.5929137934826,
+              -1426.336075200788
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 1.3657173737352353,
+      "mask_centroid_world_m": [
+        -315.8921769802777,
+        -266.20571686371716
+      ],
+      "rotation_pivot_world_m": [
+        -40,
+        60
+      ],
+      "draw_sequence": 2,
+      "object_counts": {
+        "buildings": 1060,
+        "roads": 154
+      }
+    },
+    {
+      "instance_id": "B:NYC01",
+      "source_id": "NYC01",
+      "study": "B",
+      "key": "chelsea",
+      "transform": {
+        "rotation_ccw_deg": 27.7380028459891,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          -850,
+          350
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1169.8836225137538,
+              -1186.25687685146
+            ],
+            [
+              -1420.0,
+              -1000.0
+            ],
+            [
+              -1420.0,
+              900.0
+            ],
+            [
+              -1000.0,
+              1350.0
+            ],
+            [
+              -270.0,
+              1350.0
+            ],
+            [
+              -160.89147286821705,
+              804.4573643410852
+            ],
+            [
+              -1169.8836225137538,
+              -1186.25687685146
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -998.1430455195898,
+              -1210.8349120779437
+            ],
+            [
+              -1132.8279380623078,
+              -929.5702570249869
+            ],
+            [
+              -248.51245293063283,
+              752.0914576954056
+            ],
+            [
+              332.6664357492716,
+              954.8994934158651
+            ],
+            [
+              978.7785682471066,
+              615.1361754442215
+            ],
+            [
+              821.4374273599091,
+              81.50221531906459
+            ],
+            [
+              -998.1430455195898,
+              -1210.8349120779437
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.041560515472711,
+      "mask_centroid_world_m": [
+        -914.4468202480775,
+        325.44052598620544
+      ],
+      "rotation_pivot_world_m": [
+        -850,
+        350
+      ],
+      "draw_sequence": 3,
+      "object_counts": {
+        "buildings": 2915,
+        "roads": 443
+      }
+    },
+    {
+      "instance_id": "C:PHL01",
+      "source_id": "PHL01",
+      "study": "C",
+      "key": "bella_vista",
+      "transform": {
+        "rotation_ccw_deg": 23.604873065841822,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          -930,
+          570
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1450.0,
+              -366.66666666666674
+            ],
+            [
+              -1450.0,
+              900.0
+            ],
+            [
+              -900.0,
+              1400.0
+            ],
+            [
+              -100.0,
+              1400.0
+            ],
+            [
+              -100.0,
+              623.3333333333334
+            ],
+            [
+              -1450.0,
+              -366.66666666666674
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -851.5575056253302,
+              -650.0725029237971
+            ],
+            [
+              -344.3500119193168,
+              510.61048685976516
+            ],
+            [
+              359.8442443180248,
+              748.5399921388233
+            ],
+            [
+              1092.907185233959,
+              428.1984171666043
+            ],
+            [
+              781.9089061984296,
+              -283.4835213059483
+            ],
+            [
+              -851.5575056253302,
+              -650.0725029237971
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 1.57925,
+      "mask_centroid_world_m": [
+        -827.3996095192865,
+        688.4085272544985
+      ],
+      "rotation_pivot_world_m": [
+        -930,
+        570
+      ],
+      "draw_sequence": 0,
+      "object_counts": {
+        "buildings": 6968,
+        "roads": 482
+      }
+    },
+    {
+      "instance_id": "C:NKG01",
+      "source_id": "NKG01",
+      "study": "C",
+      "key": "laomendong",
+      "transform": {
+        "rotation_ccw_deg": 2.5791469505078215,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          730,
+          730
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.0,
+              1400.0
+            ],
+            [
+              1000.0,
+              1400.0
+            ],
+            [
+              1450.0,
+              1050.0
+            ],
+            [
+              1450.0,
+              -50.0
+            ],
+            [
+              431.57894736842104,
+              -50.0
+            ],
+            [
+              -100.0,
+              623.3333333333334
+            ],
+            [
+              -100.0,
+              1400.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -799.0096197233322,
+              706.6708056723272
+            ],
+            [
+              299.87609533019867,
+              657.1714597040209
+            ],
+            [
+              733.6704595894548,
+              287.2762724726812
+            ],
+            [
+              684.1711136211485,
+              -811.6094425808496
+            ],
+            [
+              -333.2182924212354,
+              -765.7811007393794
+            ],
+            [
+              -833.9591579373181,
+              -69.20910828971127
+            ],
+            [
+              -799.0096197233322,
+              706.6708056723272
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 1.9897850877192982,
+      "mask_centroid_world_m": [
+        704.0321456382701,
+        695.9447901428323
+      ],
+      "rotation_pivot_world_m": [
+        730,
+        730
+      ],
+      "draw_sequence": 1,
+      "object_counts": {
+        "buildings": 789,
+        "roads": 162
+      }
+    },
+    {
+      "instance_id": "C:CAN01",
+      "source_id": "CAN01",
+      "study": "C",
+      "key": "xiguan",
+      "transform": {
+        "rotation_ccw_deg": 6.78033574692522,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          -300,
+          -100
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -492.10526315789474,
+              -1400.0
+            ],
+            [
+              -1000.0,
+              -1400.0
+            ],
+            [
+              -1450.0,
+              -1050.0
+            ],
+            [
+              -1450.0,
+              -366.66666666666674
+            ],
+            [
+              -100.00000000000003,
+              623.3333333333334
+            ],
+            [
+              431.57894736842104,
+              -50.000000000000014
+            ],
+            [
+              -492.10526315789474,
+              -1400.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -344.2438161341099,
+              -1268.227356267948
+            ],
+            [
+              -848.5863811565156,
+              -1208.2636937836412
+            ],
+            [
+              -1254.1170107338137,
+              -807.5831371370275
+            ],
+            [
+              -1173.4405114673627,
+              -129.02897797907605
+            ],
+            [
+              284.0002433673021,
+              694.661768689212
+            ],
+            [
+              732.3655060281378,
+              -36.7222250529099
+            ],
+            [
+              -344.2438161341099,
+              -1268.227356267948
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 2.257609649122807,
+      "mask_centroid_world_m": [
+        -571.6720697194041,
+        -466.1749033753074
+      ],
+      "rotation_pivot_world_m": [
+        -300,
+        -100
+      ],
+      "draw_sequence": 2,
+      "object_counts": {
+        "buildings": 1401,
+        "roads": 261
+      }
+    },
+    {
+      "instance_id": "C:NYC01",
+      "source_id": "NYC01",
+      "study": "C",
+      "key": "chelsea",
+      "transform": {
+        "rotation_ccw_deg": 39.7380028459891,
+        "rotation_pivot_source_local_m": [
+          0,
+          0
+        ],
+        "translation_m": [
+          650,
+          -750
+        ],
+        "scale_xy": [
+          1,
+          1
+        ],
+        "shear": 0,
+        "reflection": false
+      },
+      "mask_world_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1450.0,
+              -50.0
+            ],
+            [
+              1450.0,
+              -900.0
+            ],
+            [
+              900.0,
+              -1400.0
+            ],
+            [
+              -492.10526315789474,
+              -1400.0
+            ],
+            [
+              431.57894736842104,
+              -50.0
+            ],
+            [
+              1450.0,
+              -50.0
+            ]
+          ]
+        ]
+      },
+      "mask_source_local_m": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1062.6751660056275,
+              26.86059483540538
+            ],
+            [
+              519.2888657531738,
+              -626.7687563246768
+            ],
+            [
+              -223.286773381264,
+              -659.6537097849023
+            ],
+            [
+              -1293.7819026805937,
+              230.28855904961182
+            ],
+            [
+              279.5341167828665,
+              677.9147688220914
+            ],
+            [
+              1062.6751660056275,
+              26.86059483540538
+            ]
+          ]
+        ]
+      },
+      "mask_area_km2": 1.8608552631578947,
+      "mask_centroid_world_m": [
+        642.9358441179845,
+        -762.8259972894938
+      ],
+      "rotation_pivot_world_m": [
+        650,
+        -750
+      ],
+      "draw_sequence": 3,
+      "object_counts": {
+        "buildings": 2317,
+        "roads": 383
+      }
+    }
+  ]
+}
