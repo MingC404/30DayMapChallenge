@@ -1,0 +1,40 @@
+{
+  "osm": "https://www.openstreetmap.org/copyright",
+  "raw_source_urls": [
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1483,39.9501,-75.1457,39.9545",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1556,39.9478,-75.1464,39.9509",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1655,39.9510,-75.1615,39.9554",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1500,39.9470,-75.1410,39.9554",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1430,39.9470,-75.1365,39.9580",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.1835,39.9505,-75.1750,39.9610",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-75.2020,39.8870,-75.1900,39.8960"
+  ],
+  "architecture": {
+    "City Hall": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1000/pa1054/data/pa1054data.pdf",
+    "30th Street Station": "https://www.greatamericanstations.org/stations/philadelphia-pa-phl/",
+    "Schuylkill bridges": "https://www.pa.gov/agencies/penndot/projects-near-you/district-6-projects/market-street-over-schuylkill-river--septa-and-csx-railroad-brid",
+    "Ben Franklin Bridge": "https://drpa.org/bridges/ben-franklin-bridge.asp",
+    "Philadelphia Museum of Art": "https://press.philamuseum.org/faqs/",
+    "Museum terraces, steps and Fairmount": "https://press.philamuseum.org/new-galleries-and-public-spaces-in-major-renovation-and-interior-expansion-of-landmark-main-building/"
+  },
+  "old_city_architecture": {
+    "Independence Hall": "https://www.nps.gov/inde/learn/historyculture/places-independencehall-architecture.htm",
+    "Second Bank": "https://www.nps.gov/inde/learn/historyculture/places-secondbank.htm",
+    "Carpenters Hall": "https://www.carpentershall.org/pages/during-your-visit",
+    "Congress Hall": "https://parkplanning.nps.gov/showFile.cfm?projectID=12970&sfid=25652",
+    "City Hall": "https://tile.loc.gov/storage-services/master/pnp/habshaer/pa/pa1000/pa1054/data/pa1054data.pdf",
+    "Masonic Temple": "https://pamasonictemple.org/",
+    "Municipal Services Building": "https://sah-archipedia.org/buildings/PA-02-PH110"
+  },
+  "navy_yard": {
+    "history": "https://navyyard.org/about/history/",
+    "dry_docks": "https://navyyard.org/blog/throwback-thursday-dry-docks/",
+    "confluence_context": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/building-the-navys-bases/building-the-navys-bases-vol-1-part-II.html",
+    "interpretation": "Generic industrial hall/workshop, drydock inlet and unassigned naval vessel; not a facade reconstruction or specific ship. Navy Yard north of Delaware and east/northeast of Schuylkill mouth."
+  },
+  "dates": {
+    "core_extracts": "2026-11-14 / 2026-11-15",
+    "mouth_extract": "2026-11-15"
+  },
+  "historical_visual_references": "../references/sources.json"
+}

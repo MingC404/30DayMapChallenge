@@ -440,5 +440,33 @@
       }
     ],
     "downloads": []
+  },
+  {
+    "day": "15",
+    "theme": "Inside Out",
+    "title": "Philadelphia: A Gazetteer of Places",
+    "author": "Ming Cao",
+    "description": "Inspired by traditional Chinese local gazetteer maps, this pictorial interpretation of Philadelphia uses selective landmarks, repeated architectural symbols, and simplified connections to reveal the city's character. Two rivers frame a geography where relative relationships matter more than precise distances.",
+    "tools": [
+      "Python",
+      "NumPy",
+      "Shapely",
+      "Matplotlib",
+      "SVG"
+    ],
+    "evidence": [
+      "15/README.md",
+      "15/METHODS.md",
+      "15/scripts/render_final.py"
+    ],
+    "media": [
+      {
+        "source": "15/outputs/day15_philadelphia_gazetteer.png",
+        "path": "assets/15/day15_philadelphia_gazetteer.png",
+        "label": "Philadelphia: A Gazetteer of Places",
+        "alt": "Pictorial Philadelphia framed by the Schuylkill and Delaware rivers, with landmark buildings, bridges, rowhouses and a schematic historical core"
+      }
+    ],
+    "downloads": []
   }
 ]

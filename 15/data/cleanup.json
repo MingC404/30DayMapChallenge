@@ -1,0 +1,282 @@
+{
+  "status": "completed",
+  "scope": "E:\\MUSA\\30DayMapChallenge\\15",
+  "date": "2026-11-15",
+  "deleted": [
+    {
+      "path": ".gitkeep",
+      "kind": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "draft.py",
+      "kind": "file",
+      "bytes": 6710,
+      "sha256": "9754e4ebdf59793a82d1f2f74172f4cefa8deadde2cb14438c3a8c7e700ed010"
+    },
+    {
+      "path": "frontages.json",
+      "kind": "file",
+      "bytes": 3269,
+      "sha256": "3e62e2ba152268aec36b9f9dce20a1497825ad6ad7719b8feb55c1952b3aa31a"
+    },
+    {
+      "path": "gazetteer.py",
+      "kind": "file",
+      "bytes": 15274,
+      "sha256": "1ee69456cbd6511f2bdddb8cf433ef1ff619284ad1c866e3d63faf24e012c50d"
+    },
+    {
+      "path": "pictorial.py",
+      "kind": "file",
+      "bytes": 16742,
+      "sha256": "448bfb7b7ebdd6be0b54543da095d84de73d9629a2e3eebdee03d12062c5362f"
+    },
+    {
+      "path": "pictorial_sources.json",
+      "kind": "file",
+      "bytes": 1558,
+      "sha256": "921b181988b63ce8d46ddbc7460b5ad991eb1e314ccfba3dc9ee76a22bbb8c97"
+    },
+    {
+      "path": "oldcity_gazetteer.py",
+      "kind": "file",
+      "bytes": 17074,
+      "sha256": "968694695626a4c31fd3bf5671ad1cdc028e8de05c931133c0b315ed6390decd"
+    },
+    {
+      "path": "oldcity_gazetteer_mapping.json",
+      "kind": "file",
+      "bytes": 23799,
+      "sha256": "4f37e9aec25bcf6e1f6c4f1e79977d7bb7c93b4a2bb7ba95587f4d02a1ba5cf8"
+    },
+    {
+      "path": "oldcity_gazetteer_v2.py",
+      "kind": "file",
+      "bytes": 22705,
+      "sha256": "5932389d4680b1d8ad3eaaa501be9e9cdb61aaa75f031e51acd882fb9ca243fc"
+    },
+    {
+      "path": "oldcity_gazetteer_v2_mapping.json",
+      "kind": "file",
+      "bytes": 22999,
+      "sha256": "a9de4ce8219ead94f4644285502fa5f39543df4b903152be353e8c7b014c144b"
+    },
+    {
+      "path": "philadelphia_gazetteer.py",
+      "kind": "file",
+      "bytes": 24618,
+      "sha256": "ba308e1acb4d539b45566f380da8e6d37400687f77268b0e16251e034c66ee49"
+    },
+    {
+      "path": "philadelphia_gazetteer_mapping.json",
+      "kind": "file",
+      "bytes": 25817,
+      "sha256": "beea0ec860892de0da69809d43a1378582aa360c0f41b577d6568a9251c5f1df"
+    },
+    {
+      "path": "_prepare_final.py",
+      "kind": "file",
+      "bytes": 8786,
+      "sha256": "c0c28e2f0b2d7eb29438618c262623f638f7843a707872ae719e749b68d4a93f"
+    },
+    {
+      "path": "_layout_final.py",
+      "kind": "file",
+      "bytes": 6230,
+      "sha256": "4c0930117a1b88d236f625ec9ad522f80b159d787c89101cc7b21faa9951d458"
+    },
+    {
+      "path": "osm_chestnut.xml",
+      "kind": "file",
+      "bytes": 2175419,
+      "sha256": "4ff8db6637abf0a753ae487dbd3f6c5f16ff0c60d56514111fbdd3ad196fdac8"
+    },
+    {
+      "path": "osm_cityhall.xml",
+      "kind": "file",
+      "bytes": 2178522,
+      "sha256": "b64c694d2bf91896b0240962de7672f753a5b4e3f62882a34cc589fe4b2f2987"
+    },
+    {
+      "path": "osm_corridor.xml",
+      "kind": "file",
+      "bytes": 620407,
+      "sha256": "8a39c3081d37e4005e4e58a25b6bc4e64a84e563f180de01617219571a80ad3d"
+    },
+    {
+      "path": "osm_oldcity_northeast.xml",
+      "kind": "file",
+      "bytes": 4072578,
+      "sha256": "1ac37e748649695505273966e70c8bc8bc5ea392f4bbe31387378da8773dede2"
+    },
+    {
+      "path": "osm_waterfront.xml",
+      "kind": "file",
+      "bytes": 2225117,
+      "sha256": "ee8ebf59c96b44c8c1c1b62395d51d41021891748490ce45a00a51ff9a38801b"
+    },
+    {
+      "path": "osm_schuylkill_station.xml",
+      "kind": "file",
+      "bytes": 12864970,
+      "sha256": "5eb0aebe6e1a915b9719cb20cf9d1fc82c1e3ca2db5ad832dcb00662463fb5ba"
+    },
+    {
+      "path": "osm_confluence.xml",
+      "kind": "file",
+      "bytes": 735039,
+      "sha256": "de183e0b02d4aee4239d8804ec393b415fbb6bd6d4df0f0fee85c296afd61384"
+    },
+    {
+      "path": "outputs/day15_draft_A.png",
+      "kind": "file",
+      "bytes": 126216,
+      "sha256": "c7130bcdc2a478ce83ce37cde4afabd2fbad5b7fbbde492bd734a62565cfe789"
+    },
+    {
+      "path": "outputs/day15_draft_B.png",
+      "kind": "file",
+      "bytes": 118886,
+      "sha256": "a2b7b67f6d61b31c5bdd43aa2c43766db179a4d2b362f790f7410188e06c02ea"
+    },
+    {
+      "path": "outputs/day15_chestnut_concept.png",
+      "kind": "file",
+      "bytes": 406766,
+      "sha256": "4ab1b2699579c99257b5f8c4b1a66dce8ae8b1b53c214c68d703c40534116bdb"
+    },
+    {
+      "path": "outputs/day15_cityhall_concept.png",
+      "kind": "file",
+      "bytes": 223290,
+      "sha256": "53ef7e16336fc9f9e37b3a4d1753cc7e5249467da34d2aae684e4aef6d9840ad"
+    },
+    {
+      "path": "outputs/day15_gazetteer_concept.png",
+      "kind": "file",
+      "bytes": 195097,
+      "sha256": "599e5e404090edc13f630ce966e1c027fe01af41e522c57d6121fdccc7358046"
+    },
+    {
+      "path": "outputs/day15_oldcity_gazetteer_draft.png",
+      "kind": "file",
+      "bytes": 344179,
+      "sha256": "e9eed52479acc686e5e5fc5e2bd27b4ca456bdc96d72c6b88b22b306c0617c28"
+    },
+    {
+      "path": "outputs/day15_oldcity_gazetteer_v2.png",
+      "kind": "file",
+      "bytes": 416503,
+      "sha256": "62f4a46988090fd73dfb83da36eee4887637abfbc04494e55bfca502d77fdcc5"
+    },
+    {
+      "path": "outputs/day15_philadelphia_gazetteer_draft.png",
+      "kind": "file",
+      "bytes": 429296,
+      "sha256": "a86577d74151bf840af5db91ff77fe84f8b94f5d5dd69449340790eb1e2bdaed"
+    },
+    {
+      "path": "__pycache__",
+      "kind": "directory",
+      "note": "obsolete compiled draft modules"
+    }
+  ],
+  "kept": [
+    "render.py",
+    "layout.json",
+    "requirements.txt",
+    "README.md",
+    "assets/symbols.svg",
+    "data/reference.geojson",
+    "data/sources.json",
+    "data/cleanup.json",
+    "outputs/day15_philadelphia_gazetteer.png",
+    ".deps/"
+  ],
+  "latest_png_sha256": "efd7ac6e60621aa733314808f4034783bd1c7c9721d8bf4e095f605fac698cda",
+  "checks": [
+    "continuous joined water",
+    "correct confluence and Navy Yard bank",
+    "3 bridges on correct rivers",
+    "City Hall bridge composite connection",
+    "all building anchors landward",
+    "text labels separated",
+    "restricted-input independent render"
+  ],
+  "post_cleanup_reproduction": "passed; PNG SHA-256 identical before and after deletion",
+  "pre_cleanup_png_sha256": "519fe274fd160d7986febe0a20abcb0931e5bb61cf289f6bd5fce7467fac181f",
+  "final_reproduction": "passed after cleanup and final label adjustments; two renders have identical SHA-256",
+  "render_revisions": [
+    {
+      "date": "2026-11-15",
+      "changes": "C2 river and bank curves, simplified roads, Museum of Art / Parkway, supplied first-person README, two public-domain historical references",
+      "previous_png_sha256": "402169775334027f3be92e341171574f3b712db647dfc6aad15cad514ad73c50",
+      "latest_png_sha256": "efd7ac6e60621aa733314808f4034783bd1c7c9721d8bf4e095f605fac698cda",
+      "verification": "deterministic double render; museum east bank and steps clear of water; Parkway, station and bridge connections; no label collisions; README local links and reference image hashes valid"
+    }
+  ],
+  "current_additions": [
+    "METHODS.md",
+    "references/fuzhou_fucheng_1613.png",
+    "references/jinan_fucheng_1840.jpg",
+    "references/sources.json"
+  ],
+  "final_cleanup": {
+    "date": "2026-11-15",
+    "dependency_check": "Single direct renderer uses data/layout.json, data/historical_edge.json and assets/symbols.svg only; confirmed final image before deletion.",
+    "deleted": [
+      {
+        "path": "render.py",
+        "bytes": 13940,
+        "sha256": "51d25e84115feea2f35bacbdd520931c024d9bf9460b5382e274102d8a879556"
+      },
+      {
+        "path": "render_boundary_studies.py",
+        "bytes": 11778,
+        "sha256": "6b350cc86b93c0763be4240e262d108ba81f291a52362bd1290fd46d6c4f1ee0"
+      },
+      {
+        "path": "render_refined.py",
+        "bytes": 9160,
+        "sha256": "70c6f1bf5055067df4094c91bf5a5a4048b3996cf2160400b2d9ece16a6ffb0d"
+      },
+      {
+        "path": "layout.json",
+        "bytes": 18507,
+        "sha256": "39e84905f8996879690aba3e4bbdaf06c3bc9ce722554e2550b745c4e4931f2b"
+      },
+      {
+        "path": "boundary_studies.json",
+        "bytes": 3862,
+        "sha256": "d986210c374d92e6cf077cb9b0d073e8897e86ecd2d34c437fa725d79540919f"
+      },
+      {
+        "path": "refined_parameters.json",
+        "bytes": 1709,
+        "sha256": "3e7f1b5c5c0d00c0523d9230ef3349f4f71a754ad07ac01af5b1ebc58c473bf3"
+      },
+      {
+        "path": "refined_parameters_report.json",
+        "bytes": 4435,
+        "sha256": "2f6b986d34145c532f6cdd2e93ef6c6482fd998620ccf5027d8d51fcdfed6657"
+      },
+      {
+        "path": "outputs/day15_boundary_A.png",
+        "bytes": 602401,
+        "sha256": "34021c1c28f626d07dc4d923abc4feb28a955a921a529914d7573d155bc1f8fe"
+      },
+      {
+        "path": "outputs/day15_boundary_B.png",
+        "bytes": 667192,
+        "sha256": "dd5b11d1631c0fd513bdbb8cf3b87f232ee2290468888f6d7944a269c0ce882f"
+      },
+      {
+        "path": "outputs/day15_philadelphia_gazetteer_refined.png",
+        "bytes": 671943,
+        "sha256": "443fd6449afdd3676e9ea343bef68226c2c8c0659ffab7f643b73bbe16e44741"
+      }
+    ]
+  }
+}

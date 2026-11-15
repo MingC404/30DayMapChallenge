@@ -1,0 +1,39 @@
+[
+  {
+    "file": "fuzhou_fucheng_1613.png",
+    "title": "Fucheng tu (府城图), from Fuzhou fuzhi (福州府志)",
+    "date": 1613,
+    "creators": [
+      "喻政 (Yu Zheng)",
+      "林材 (Lin Cai)"
+    ],
+    "source_record": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%9F%8E%E5%9C%96_-_cropped.png",
+    "holding_institution": "National Archives of Japan, as credited by the Commons record",
+    "archival_link": "https://www.digital.archives.go.jp/DAS/meta/listPhoto?LANG=default&BID=F1000000000000097152&ID=M2014070419423966017&TYPE=&NO=",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/%E6%98%8E%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%9F%8E%E5%9C%96_-_cropped.png/1280px-%E6%98%8E%E7%A6%8F%E5%B7%9E%E5%BA%9C%E5%9F%8E%E5%9C%96_-_cropped.png",
+    "rights": "Public Domain Mark / PD-Art (PD-old-70) on Commons. Historical work published 1613; faithful two-dimensional reproduction.",
+    "use": "Original Commons crop, downloaded as 1280-pixel preview; no further alteration.",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights_checked": "2026-11-15",
+    "sha256": "a97c589944d0dd3e575532a4223410395de435facd2a55ce930e23bb8c7d731e"
+  },
+  {
+    "file": "jinan_fucheng_1840.jpg",
+    "title": "Jinan fucheng bing ge yamen zongtu (济南府城并各衙门总图), from Jinan fuzhi (济南府志)",
+    "date": 1840,
+    "creators": [
+      "王赠芳",
+      "王镇",
+      "成爟",
+      "冷烜"
+    ],
+    "source_record": "https://commons.wikimedia.org/wiki/File:City_of_Jinan_in_1840.jpg",
+    "original_publication": "Jinan fuzhi, Daoguang 20 (1840), identified by the Commons record.",
+    "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/City_of_Jinan_in_1840.jpg/1280px-City_of_Jinan_in_1840.jpg",
+    "rights": "Public Domain Mark / PD-old-70 on Commons. Historical work published 1840; digitized reproduction.",
+    "use": "1280-pixel preview, unchanged.",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights_checked": "2026-11-15",
+    "sha256": "2e6ba96aebc47562a3814c361ed0614640ddd9ea4531f797d5ff8be838adedb8"
+  }
+]

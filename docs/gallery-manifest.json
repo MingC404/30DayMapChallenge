@@ -64,6 +64,11 @@
       "day": "14",
       "interactive": null,
       "status": "published-assets-ready"
+    },
+    {
+      "day": "15",
+      "interactive": null,
+      "status": "published-assets-ready"
     }
   ],
   "managedAssets": [
@@ -96,7 +101,8 @@
     "assets/12/The_Shape_of_Wind_September.png",
     "assets/12/The_Shape_of_Wind_January.gif",
     "assets/12/The_Shape_of_Wind_September.gif",
-    "assets/14/atlas_of_impossible_places_camera_preview.gif"
+    "assets/14/atlas_of_impossible_places_camera_preview.gif",
+    "assets/15/day15_philadelphia_gazetteer.png"
   ],
   "restrictedSourcesExcluded": [
     "13"
