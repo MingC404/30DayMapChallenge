@@ -32,7 +32,7 @@ def main():
             assert names==sorted(names,key={'day':0,'title':1,'subtitle':2}.get)
             assert any(r['role']=='subtitle' for r in roles) or day in ['03','12','13']
             assert roles[0]['text'].startswith('DAY '+day+' / ')
-            if day=='11':assert roles[0]['text']=='DAY 11 / EVERYDAY MAP'
+            if day=='11':assert roles[0]['text']=='DAY 11 / SENSES: SOUND'
             effective=2350 if day=='11' else block['canvas'][0]
             targets={'day':.011,'title':.028,'subtitle':.012}
             for role in roles:

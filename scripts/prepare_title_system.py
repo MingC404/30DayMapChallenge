@@ -122,7 +122,7 @@ def main():
         f=ImageFont.truetype(str(FONT/'NotoSansSC-VF.ttf'),n);f.set_variation_by_name('Regular');m=Image.new('L',old.size);ImageDraw.Draw(m).text((x,y),text,font=f,fill=255,anchor='lt');mask=Image.fromarray(np.maximum(np.asarray(mask),np.asarray(m.filter(ImageFilter.MaxFilter(5)))))
     ImageDraw.Draw(mask).rectangle((55,4,959,144),fill=255)
     ImageDraw.Draw(mask).rectangle((120,1846,900,1874),fill=255)
-    layer=block('11',old,65,8,'Where Sounds Ripple',scene['subtitle'],'EVERYDAY MAP',main=66,day_size=26,sub=28,gap=10,color='#293d47',muted='#293d47')
+    layer=block('11',old,65,8,'Where Sounds Ripple',scene['subtitle'],'SENSES: SOUND',main=66,day_size=26,sub=28,gap=10,color='#293d47',muted='#293d47')
     f=ImageFont.truetype(str(FONT/'NotoSansSC-VF.ttf'),19);f.set_variation_by_name('Regular');ImageDraw.Draw(layer).text((130,1850),'Ming Cao / 2026',font=f,fill='#293d47',anchor='lt');compose('11',source,bare,layer,mask)
     # Day 12 title-free true wind render restores old series/day letters only.
     for season in ['January','September']:
