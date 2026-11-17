@@ -4712,9 +4712,9 @@
 <text x="910.774" y="515.978" font-family="Noto Serif TC" font-weight="650" font-size="52.800" fill="#A65128">徐</text>
 <text x="813.063" y="560.593" font-family="Noto Serif TC" font-weight="650" font-size="52.800" fill="#B94B36">徐</text>
 <text x="1229.424" y="2021.868" font-family="Arial" font-weight="400" font-size="14.000" fill="#234657">LANYU</text>
-<text x="55.000" y="52.0" font-family="Segoe UI" font-weight="600" font-size="21" fill="#163D50" letter-spacing="1.68">DAY 09 / URBAN–RURAL</text>
-<text x="55.000" y="121.0" font-family="Georgia" font-weight="400" font-size="58" fill="#163D50">A Landscape of Surnames</text>
-<text x="57.000" y="165.0" font-family="Segoe UI" font-weight="400" font-size="25" fill="#234657">Twenty leading surnames with twenty selected local occurrences</text>
+<text x="55.0" y="46.5" font-family="Segoe UI,Noto Sans SC,sans-serif" font-size="23.0" font-weight="600" letter-spacing="1.84" fill="#163d50" data-series-role="day">DAY 09 / URBAN–RURAL</text><text x="55.0" y="104.5" font-family="Georgia" font-size="59.0" font-weight="400" letter-spacing="0" fill="#163d50" data-series-role="title">A Landscape of Surnames</text><text x="55.0" y="147.5" font-family="Segoe UI,Noto Sans SC,sans-serif" font-size="25.0" font-weight="400" letter-spacing="0" fill="#234657" data-series-role="subtitle">Twenty leading surnames with twenty selected local occurrences</text>
+
+
 <text x="57.000" y="194.500" font-family="Arial" font-weight="400" font-size="17.000" fill="#234657">Household-registered population · 30 June 2023 · layout study</text>
 <text x="1930.000" y="198.000" font-family="Arial" font-weight="400" font-size="22.000" fill="#163D50">Ming Cao</text>
 <text x="1360.000" y="249.500" font-family="Arial" font-weight="400" font-size="16.000" fill="#234657">N</text>

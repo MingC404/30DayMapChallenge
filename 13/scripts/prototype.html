@@ -1,8 +1,15 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Where Night Comes From · Local research prototype</title>
 <link rel="stylesheet" href="assets/leaflet.css">
-<link rel="stylesheet" href="assets/prototype.css"></head><body>
-<header class="masthead"><div class="eyebrow">30 DAY MAP CHALLENGE 2026</div><h1>Where Night<br>Comes From</h1><div class="theme">DAY 13 / INTERACTIONS</div><p class="subtitle">40th Street · 21:00–24:00 · Aug–Sep 2025</p><div class="byline">Ming Cao</div></header>
+<link rel="stylesheet" href="assets/prototype.css"><style>
+/* First-line Day/theme and compact main title; existing notes and byline stay pinned. */
+.masthead .theme{font:600 clamp(11px,1.1vw,19.8px)/1.2 "Segoe UI",sans-serif;letter-spacing:.08em;margin:0 0 8px}.masthead h1{font:400 clamp(26px,2.8vw,50.4px)/1.08 Georgia,serif;letter-spacing:0;margin:0;white-space:nowrap}
+@media(max-width:350px){.masthead{height:244.140625px;}.masthead .subtitle{position:absolute;left:20px;top:174.34375px;width:280px;margin:0;}.masthead .byline{position:absolute;left:20px;top:206.140625px;width:280px;margin:0;}}
+@media(min-width:351px) and (max-width:760px){.masthead{height:244.140625px;}.masthead .subtitle{position:absolute;left:20px;top:174.34375px;width:350px;margin:0;}.masthead .byline{position:absolute;left:20px;top:206.140625px;width:350px;margin:0;}}
+@media(min-width:761px) and (max-width:1299px){.masthead{height:235.6875px;}.masthead .subtitle{position:absolute;left:0px;top:184.09375px;width:286.328125px;margin:0;}.masthead .byline{position:absolute;left:0px;top:217.6875px;width:286.328125px;margin:0;}}
+@media(min-width:1300px){.masthead{height:235.6875px;}.masthead .subtitle{position:absolute;left:0px;top:184.09375px;width:286.328125px;margin:0;}.masthead .byline{position:absolute;left:0px;top:217.6875px;width:286.328125px;margin:0;}}
+</style></head><body>
+<header class="masthead"><div class="theme">DAY 13 / INTERACTIONS</div><h1>Where Night Comes From</h1><p class="subtitle">40th Street · 21:00–24:00 · Aug–Sep 2025</p><div class="byline">Ming Cao</div></header>
 <main id="map" aria-label="Philadelphia late-evening origin map"></main><div class="north" aria-hidden="true">N</div>
 <section class="panel" aria-label="Map controls and interpretation"><label>Month</label><div class="months"><button id="aug" aria-pressed="false">August</button><button id="sep" aria-pressed="true">September</button></div><div class="select-wrap"><label for="destination">Destination</label><select id="destination"><option value="all">All Destinations</option></select></div><div class="actions"><button id="reset">Reset</button><button id="connections" aria-pressed="true">Hide Connections</button></div>
 <div class="state" aria-live="polite"><div class="destination-caption"><div id="selectionName">All Destinations</div><div id="selectionGeoid"></div></div><div class="sum" id="total"></div>

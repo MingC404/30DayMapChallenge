@@ -16,16 +16,20 @@ WORK = ROOT / '.work/typography-pass/candidates'
 
 
 def source_bytes(name):
+    if name in CFG.get('local_sources', {}):
+        return (ROOT / CFG['local_sources'][name]).read_bytes()
     return subprocess.check_output(['git', 'show', CFG['reference_revision'] + ':' + name], cwd=ROOT)
 
 
-def patches_for(day, size, suffix):
+def patches_for(day, size, suffix, source):
     patches = []
     mask = np.zeros((size[1], size[0]), dtype=bool)
     for item in CFG['patches']:
         if item['day'] != day or item.get('only_format', suffix) != suffix:
             continue
-        if suffix == 'gif' and day == '10' and item.get('only_format') != 'gif':
+        if item.get('only_source') and Path(item['only_source']).stem != Path(source).stem:
+            continue
+        if suffix == 'gif' and day == '10' and CFG.get('legacy_credit_capture') and item.get('only_format') != 'gif':
             continue
         if suffix != 'gif' and day == '10' and item.get('only_format') == 'gif':
             continue
@@ -33,6 +37,7 @@ def patches_for(day, size, suffix):
         l, t, r, b = item['rect']
         rect = (round(l*sx), round(t*sy), round(r*sx), round(b*sy))
         patch = Image.open(ROOT / item['patch']).convert('RGBA')
+        assert patch.size == (r-l, b-t), (item['patch'], patch.size, item['rect'])
         patch = patch.resize((rect[2]-rect[0], rect[3]-rect[1]), Image.Resampling.LANCZOS)
         patches.append((rect[:2], patch))
         mask[rect[1]:rect[3], rect[0]:rect[2]] |= np.asarray(patch)[:, :, 3] > 0
@@ -51,7 +56,7 @@ def prepare(day, name):
     raw = source_bytes(name)
     original = Image.open(io.BytesIO(raw))
     suffix = Path(name).suffix[1:]
-    patches, mask = patches_for(day, original.size, suffix)
+    patches, mask = patches_for(day, original.size, suffix, name)
     target = WORK / name
     target.parent.mkdir(parents=True, exist_ok=True)
     durations = []
@@ -107,10 +112,15 @@ def prepare(day, name):
 
 
 def main():
+    global CFG
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--day', help='Prepare only this two-digit day')
-    args = parser.parse_args(); result = []
+    parser.add_argument('--config', default='scripts/typography_pass.json')
+    args = parser.parse_args()
+    CFG=json.loads((ROOT/args.config).read_text(encoding='utf-8'))
+    if args.config=='scripts/typography_pass.json':CFG['legacy_credit_capture']=True
+    result = []
     for day, files in CFG['files'].items():
         if args.day and args.day != day:
             continue

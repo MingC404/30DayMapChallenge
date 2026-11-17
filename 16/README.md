@@ -47,8 +47,8 @@ Attribution identifies the sources; it does not imply source-owner endorsement, 
 
 ### Published artwork and release scope
 
-- `outputs/day16_njt_disruptions.gif`: 1440×1440, nine frames, 17.5 seconds, infinite loop; 291,105 bytes.
-- `outputs/day16_njt_disruptions.png`: matching Opening Overview cover; 177,191 bytes.
+- `outputs/day16_njt_disruptions.gif`: 1440×1440, nine frames, 17.5 seconds, infinite loop; 291,066 bytes.
+- `outputs/day16_njt_disruptions.png`: matching Opening Overview cover; 176,785 bytes.
 
 The sequence is Overview → Mechanical & Equipment → Congestion → Signal & Switch → Slippery Rails & Weather → Track & Infrastructure → Staffing & Operations → External Incidents → Overview. Each opening/cause frame lasts 2 seconds; the closing Overview lasts 1.5 seconds. All frames share the same map extent, projection, rail/hub locations and layout.
 

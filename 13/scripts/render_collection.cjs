@@ -49,10 +49,8 @@ svg+=`<path d="M${to[0]+15},${to[1]-15}L${lx-15},${ly+12}L${lx+280},${ly+12}" fi
 svg+=text(lx,ly-35,'SELECTED DESTINATION',14,'#9aaebd','letter-spacing="2"');
 svg+=text(lx,ly,labels[config.destination].title,23,'#e7eef3');
 svg+=`</g><rect x="0" y="0" width="700" height="900" fill="url(#wash)" mask="url(#washMask)"/>`;
-svg+=text(75,78,'30 DAY MAP CHALLENGE 2026',18,'#9aaebd','letter-spacing="3.4"');
-svg+=text(70,181,'Where Night',76,'#e7eef3','class="serif"');
-svg+=text(70,271,'Comes From',76,'#e7eef3','class="serif"');
-svg+=text(75,331,'DAY 13 / INTERACTIONS',19,'#d1e4ec','letter-spacing="2"');
+svg+=text(75,55,'DAY 13 / INTERACTIONS',19.8,'#d1e4ec','style="font-family:Segoe UI,sans-serif;font-weight:600;letter-spacing:.08em"');
+svg+=text(75,95,'Where Night Comes From',50.4,'#e7eef3','class="serif"');
 svg+=text(75,382,'40TH STREET · PHILADELPHIA',18,'#9aaebd','letter-spacing="1.5"');
 svg+=text(75,417,'21:00–24:00 · SEPTEMBER 2025',18,'#9aaebd');
 svg+=text(75,473,'Ming Cao',27,'#e7eef3','class="serif"');

@@ -1,0 +1,1311 @@
+{
+  "reference_revision": "04fc114aa79a553cad8abfd6459220f7a9bca95b",
+  "scope": "DAY / THEME, title, subtitle only; missing subtitles not invented; private Day 13 excluded from release.",
+  "patches": [
+    {
+      "day": "01",
+      "source": "01/outputs/nyc_changing_station_explorer.png",
+      "rect": [
+        25,
+        8,
+        850,
+        106
+      ],
+      "patch": "scripts/title_system/day01_main.png",
+      "canvas": [
+        1200,
+        900
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "03",
+      "source": "03/outputs/inside_the_park_jc.png",
+      "rect": [
+        55,
+        5,
+        2200,
+        145
+      ],
+      "patch": "scripts/title_system/day03_main.png",
+      "canvas": [
+        3600,
+        2380
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "04",
+      "source": "04/outputs/02_citywide_final.png",
+      "rect": [
+        55,
+        20,
+        2350,
+        220
+      ],
+      "patch": "scripts/title_system/day04_main.png",
+      "canvas": [
+        2400,
+        2000
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "05",
+      "source": "05/assets/fixed_canvas.png",
+      "rect": [
+        40,
+        12,
+        1100,
+        130
+      ],
+      "patch": "scripts/title_system/day05_main.png",
+      "canvas": [
+        1560,
+        1130
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "08",
+      "source": "08/outputs/a_city_at_stroller_speed.png",
+      "rect": [
+        280,
+        65,
+        4400,
+        565
+      ],
+      "patch": "scripts/title_system/day08_main.png",
+      "canvas": [
+        5700,
+        4380
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "14",
+      "source": "14/outputs/atlas_of_impossible_places_camera_preview.gif",
+      "rect": [
+        25,
+        20,
+        680,
+        120
+      ],
+      "patch": "scripts/title_system/day14_main.png",
+      "canvas": [
+        720,
+        655
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "15",
+      "source": "15/outputs/day15_philadelphia_gazetteer.png",
+      "rect": [
+        75,
+        35,
+        1150,
+        185
+      ],
+      "patch": "scripts/title_system/day15_main.png",
+      "canvas": [
+        2880,
+        2115
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "09",
+      "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+      "rect": [
+        95,
+        45,
+        2100,
+        350
+      ],
+      "patch": "scripts/title_system/day09_main.png",
+      "canvas": [
+        4200,
+        4500
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "06",
+      "source": "06/outputs/a_changing_harbor_edge.png",
+      "rect": [
+        102,
+        80,
+        1542,
+        346
+      ],
+      "patch": "scripts/title_system/day06_main.png",
+      "canvas": [
+        4620,
+        3030
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "10",
+      "source": "10/outputs/heritage_across_east_asia_symbols_a.png",
+      "rect": [
+        129,
+        70,
+        2006,
+        451
+      ],
+      "patch": "scripts/title_system/day10_main.png",
+      "canvas": [
+        4800,
+        3600
+      ],
+      "layer": "title",
+      "only_format": "png"
+    },
+    {
+      "day": "11",
+      "source": "11/outputs/where_sounds_ripple.png",
+      "rect": [
+        55,
+        4,
+        966,
+        1875
+      ],
+      "patch": "scripts/title_system/day11_main.png",
+      "canvas": [
+        2600,
+        1910
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "12",
+      "source": "12/output/The_Shape_of_Wind_January.png",
+      "rect": [
+        98,
+        70,
+        1213,
+        373
+      ],
+      "patch": "scripts/title_system/day12_January.png",
+      "canvas": [
+        3840,
+        3520
+      ],
+      "layer": "title",
+      "only_source": "12/output/The_Shape_of_Wind_January.png"
+    },
+    {
+      "day": "12",
+      "source": "12/output/The_Shape_of_Wind_September.png",
+      "rect": [
+        98,
+        70,
+        1213,
+        373
+      ],
+      "patch": "scripts/title_system/day12_September.png",
+      "canvas": [
+        3840,
+        3520
+      ],
+      "layer": "title",
+      "only_source": "12/output/The_Shape_of_Wind_September.png"
+    },
+    {
+      "day": "16",
+      "source": "16/outputs/day16_njt_disruptions.png",
+      "rect": [
+        44,
+        38,
+        384,
+        446
+      ],
+      "patch": "scripts/title_system/day16_main.png",
+      "canvas": [
+        1440,
+        1440
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "02",
+      "source": "02/outputs/waterfront_walks_preview.gif",
+      "rect": [
+        23,
+        17,
+        289,
+        101
+      ],
+      "patch": "scripts/title_system/day02_gif.png",
+      "canvas": [
+        1200,
+        900
+      ],
+      "layer": "title",
+      "only_format": "gif"
+    },
+    {
+      "day": "02",
+      "source": "02/outputs/waterfront_walks_preview.png",
+      "rect": [
+        25,
+        30,
+        587,
+        176
+      ],
+      "patch": "scripts/title_system/day02_png.png",
+      "canvas": [
+        2120,
+        1500
+      ],
+      "layer": "title",
+      "only_format": "png"
+    },
+    {
+      "day": "10",
+      "source": "10/outputs/heritage_across_east_asia_symbols_a.gif",
+      "rect": [
+        32,
+        23,
+        502,
+        112
+      ],
+      "patch": "scripts/title_system/day10_gif.png",
+      "canvas": [
+        1200,
+        900
+      ],
+      "layer": "title",
+      "only_format": "gif"
+    },
+    {
+      "day": "13",
+      "source": "13/output/Where_Night_Comes_From.png",
+      "rect": [
+        69,
+        55,
+        650,
+        331
+      ],
+      "patch": ".work/title-system/private/day13_png.png",
+      "canvas": [
+        1800,
+        1450
+      ],
+      "layer": "title",
+      "only_format": "png"
+    }
+  ],
+  "files": {
+    "01": [
+      "01/outputs/nyc_changing_station_explorer.gif",
+      "01/outputs/nyc_changing_station_explorer.png"
+    ],
+    "03": [
+      "03/outputs/inside_the_park_jc.gif",
+      "03/outputs/inside_the_park_jc.png"
+    ],
+    "04": [
+      "04/outputs/clusters_of_play.gif",
+      "04/outputs/02_citywide_final.png"
+    ],
+    "05": [
+      "05/outputs/seeing_new_york_final.gif",
+      "05/assets/fixed_canvas.png"
+    ],
+    "06": [
+      "06/outputs/a_changing_harbor_edge.gif",
+      "06/outputs/a_changing_harbor_edge.png"
+    ],
+    "08": [
+      "08/outputs/a_city_at_stroller_speed.gif",
+      "08/outputs/a_city_at_stroller_speed.png"
+    ],
+    "09": [
+      "09/outputs/top20_anchors/a_landscape_of_surnames_top20.gif",
+      "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png"
+    ],
+    "10": [
+      "10/outputs/heritage_across_east_asia_symbols_a.gif",
+      "10/outputs/heritage_across_east_asia_symbols_a.png"
+    ],
+    "11": [
+      "11/outputs/where_sounds_ripple.gif",
+      "11/outputs/where_sounds_ripple.png"
+    ],
+    "12": [
+      "12/output/The_Shape_of_Wind_January.gif",
+      "12/output/The_Shape_of_Wind_September.gif",
+      "12/output/The_Shape_of_Wind_January.png",
+      "12/output/The_Shape_of_Wind_September.png"
+    ],
+    "14": [
+      "14/outputs/atlas_of_impossible_places_camera_preview.gif"
+    ],
+    "15": [
+      "15/outputs/day15_philadelphia_gazetteer.png"
+    ],
+    "16": [
+      "16/outputs/day16_njt_disruptions.gif",
+      "16/outputs/day16_njt_disruptions.png",
+      "16/outputs/frames/00_overview.png",
+      "16/outputs/frames/01_mechanical.png",
+      "16/outputs/frames/02_congestion.png",
+      "16/outputs/frames/03_signal.png",
+      "16/outputs/frames/04_slippery_rails.png",
+      "16/outputs/frames/05_infrastructure.png",
+      "16/outputs/frames/06_operations.png",
+      "16/outputs/frames/07_external.png",
+      "16/outputs/frames/08_overview.png"
+    ],
+    "02": [
+      "02/outputs/waterfront_walks_preview.png",
+      "02/outputs/waterfront_walks_preview.gif"
+    ],
+    "13": [
+      "13/output/Where_Night_Comes_From.png"
+    ]
+  },
+  "preserved_days": [
+    "07"
+  ],
+  "preserved_web_sizes": {
+    "04": "70%",
+    "09": "70%",
+    "14": "75%",
+    "16": "70%"
+  },
+  "title_blocks": [
+    {
+      "day": "01",
+      "canvas": [
+        1200,
+        900
+      ],
+      "crop": [
+        29,
+        9,
+        516,
+        91
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 01 / POINTS",
+          "size": 13,
+          "color": "#647079",
+          "box": [
+            34,
+            14,
+            149.544375,
+            25
+          ]
+        },
+        {
+          "role": "title",
+          "text": "NYC Changing Station Explorer",
+          "size": 34,
+          "color": "#27343b",
+          "box": [
+            34,
+            31,
+            508.0,
+            64
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Changing tables in NYC public restrooms",
+          "size": 14,
+          "color": "#647079",
+          "box": [
+            34,
+            70,
+            285.0,
+            83
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "03",
+      "canvas": [
+        3600,
+        2380
+      ],
+      "crop": [
+        60,
+        11,
+        752,
+        144
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 03 / POLYGONS",
+          "size": 40,
+          "color": "#73887c",
+          "box": [
+            65,
+            16,
+            496.075,
+            49
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Inside the Park",
+          "size": 101,
+          "color": "#29474b",
+          "box": [
+            65,
+            59,
+            744.0,
+            136
+          ]
+        }
+      ],
+      "has_subtitle": false,
+      "subtitle_missing_authorized": true
+    },
+    {
+      "day": "04",
+      "canvas": [
+        2400,
+        2000
+      ],
+      "crop": [
+        65,
+        25,
+        1301,
+        178
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 04 / MY DATA",
+          "size": 26,
+          "color": "#788b9c",
+          "box": [
+            70,
+            30,
+            326.10625,
+            51
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Clusters of Play — Jersey City & Hoboken",
+          "size": 67,
+          "color": "#e5eaf0",
+          "box": [
+            70,
+            63,
+            1293.0,
+            129
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "400 m straight-line proximity · Connections show proximity, not routes.",
+          "size": 29,
+          "color": "#788b9c",
+          "box": [
+            70,
+            141,
+            972.953125,
+            170
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "05",
+      "canvas": [
+        1560,
+        1130
+      ],
+      "crop": [
+        43,
+        15,
+        695,
+        119
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 05 / SIGHT",
+          "size": 17,
+          "color": "#277f8a",
+          "box": [
+            48,
+            20,
+            186.664375,
+            34
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Seeing New York from the Water",
+          "size": 44,
+          "color": "#163f58",
+          "box": [
+            48,
+            42,
+            687.0,
+            85
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Lower Manhattan · An interpretive paper skyline",
+          "size": 19,
+          "color": "#617c8b",
+          "box": [
+            48,
+            93,
+            451.0,
+            111
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "08",
+      "canvas": [
+        5700,
+        4380
+      ],
+      "crop": [
+        295,
+        75,
+        1950,
+        418
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 08 / UTOPIA",
+          "size": 63,
+          "color": "#344a42",
+          "box": [
+            300,
+            80,
+            864.419375,
+            132
+          ]
+        },
+        {
+          "role": "title",
+          "text": "A City at Stroller Speed",
+          "size": 160,
+          "color": "#344a42",
+          "box": [
+            300,
+            160,
+            1942.0,
+            316
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Rittenhouse Square / West Walnut, Philadelphia",
+          "size": 68,
+          "color": "#344a42",
+          "box": [
+            300,
+            344,
+            1733.890625,
+            410
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "14",
+      "canvas": [
+        720,
+        655
+      ],
+      "crop": [
+        27,
+        17,
+        273,
+        73
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 14 / BORGESIAN MAP",
+          "size": 8,
+          "color": "#202e34",
+          "box": [
+            32,
+            22,
+            140.44,
+            29
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Atlas of Impossible Places",
+          "size": 20,
+          "color": "#202e34",
+          "box": [
+            32,
+            33,
+            265.0,
+            52
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Four real cities. Infinite impossible geographies.",
+          "size": 9,
+          "color": "#202e34",
+          "box": [
+            32,
+            56,
+            216.0,
+            65
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "15",
+      "canvas": [
+        2880,
+        2115
+      ],
+      "crop": [
+        80,
+        35,
+        707,
+        177
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 15 / INSIDE OUT",
+          "size": 32,
+          "color": "#955b47",
+          "box": [
+            85,
+            40,
+            438.04875,
+            67
+          ]
+        },
+        {
+          "role": "title",
+          "text": "PHILADELPHIA",
+          "size": 81,
+          "color": "#49473d",
+          "box": [
+            85,
+            77,
+            699.0,
+            134
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "A GAZETTEER OF PLACES",
+          "size": 35,
+          "color": "#82785f",
+          "box": [
+            85,
+            144,
+            477.046875,
+            169
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "09",
+      "canvas": [
+        4200,
+        4500
+      ],
+      "crop": [
+        105,
+        55,
+        1525,
+        315
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 09 / URBAN–RURAL",
+          "size": 46,
+          "color": "#163d50",
+          "box": [
+            110,
+            60,
+            701.8575,
+            98
+          ]
+        },
+        {
+          "role": "title",
+          "text": "A Landscape of Surnames",
+          "size": 118,
+          "color": "#163d50",
+          "box": [
+            110,
+            120,
+            1454.0,
+            235
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Twenty leading surnames with twenty selected local occurrences",
+          "size": 50,
+          "color": "#234657",
+          "box": [
+            110,
+            257,
+            1517.9375,
+            307
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "06",
+      "canvas": [
+        4620,
+        3030
+      ],
+      "crop": [
+        110,
+        75,
+        1552,
+        352
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 06 / VINTAGE",
+          "size": 51,
+          "color": "#163f58",
+          "box": [
+            115,
+            80,
+            606.04375,
+            123
+          ]
+        },
+        {
+          "role": "title",
+          "text": "A Changing Harbor Edge",
+          "size": 129,
+          "color": "#163f58",
+          "box": [
+            115,
+            143,
+            1544.0,
+            269
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Lower Manhattan · Historical chart catalog date: 1844",
+          "size": 55,
+          "color": "#163f58",
+          "box": [
+            115,
+            289,
+            1405.03125,
+            344
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "10",
+      "canvas": [
+        4800,
+        3600
+      ],
+      "crop": [
+        125,
+        65,
+        1658,
+        356
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 10 / PROMPTING ONLY",
+          "size": 53,
+          "color": "#77776e",
+          "box": [
+            130,
+            70,
+            904.12375,
+            114
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Heritage Across East Asia",
+          "size": 134,
+          "color": "#423834",
+          "box": [
+            130,
+            138,
+            1650.0,
+            267
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "How old are East Asia’s UNESCO cultural heritage sites?",
+          "size": 58,
+          "color": "#423834",
+          "box": [
+            130,
+            291,
+            1549.921875,
+            348
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "11",
+      "canvas": [
+        2600,
+        1910
+      ],
+      "crop": [
+        60,
+        3,
+        975,
+        151
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 11 / EVERYDAY MAP",
+          "size": 26,
+          "color": "#293d47",
+          "box": [
+            65,
+            8,
+            397.5375,
+            29
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Where Sounds Ripple",
+          "size": 66,
+          "color": "#293d47",
+          "box": [
+            65,
+            39,
+            699.0,
+            103
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "How “水” (water) is pronounced across Cantonese-speaking communities",
+          "size": 28,
+          "color": "#293d47",
+          "box": [
+            65,
+            113,
+            967.0,
+            143
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "12",
+      "canvas": [
+        3840,
+        3520
+      ],
+      "crop": [
+        95,
+        65,
+        1016,
+        238
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 12 / POWER",
+          "size": 42,
+          "color": "#d0e0e8",
+          "box": [
+            100,
+            70,
+            464.6175,
+            105
+          ]
+        },
+        {
+          "role": "title",
+          "text": "The Shape of Wind",
+          "size": 108,
+          "color": "#e9edf0",
+          "box": [
+            100,
+            125,
+            1008.0,
+            230
+          ]
+        }
+      ],
+      "has_subtitle": false,
+      "subtitle_missing_authorized": true
+    },
+    {
+      "day": "12",
+      "canvas": [
+        3840,
+        3520
+      ],
+      "crop": [
+        95,
+        65,
+        1016,
+        238
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 12 / POWER",
+          "size": 42,
+          "color": "#d0e0e8",
+          "box": [
+            100,
+            70,
+            464.6175,
+            105
+          ]
+        },
+        {
+          "role": "title",
+          "text": "The Shape of Wind",
+          "size": 108,
+          "color": "#e9edf0",
+          "box": [
+            100,
+            125,
+            1008.0,
+            230
+          ]
+        }
+      ],
+      "has_subtitle": false,
+      "subtitle_missing_authorized": true
+    },
+    {
+      "day": "16",
+      "canvas": [
+        1440,
+        1440
+      ],
+      "crop": [
+        40,
+        125,
+        312,
+        274
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 16 / COLLABORATIVE MAP",
+          "size": 16,
+          "color": "#77766e",
+          "box": [
+            45,
+            130,
+            304.96875,
+            143
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Why Are the",
+          "size": 40,
+          "color": "#383832",
+          "box": [
+            45,
+            151,
+            265.0,
+            190
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Trains Late?",
+          "size": 40,
+          "color": "#383832",
+          "box": [
+            45,
+            196,
+            265.0,
+            225
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "An Atlas of NJ Transit",
+          "size": 17,
+          "color": "#77766e",
+          "box": [
+            45,
+            233,
+            207.984375,
+            246
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Disruptions",
+          "size": 17,
+          "color": "#77766e",
+          "box": [
+            45,
+            249,
+            131.0,
+            266
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false
+    },
+    {
+      "day": "02",
+      "canvas": [
+        1200,
+        900
+      ],
+      "crop": [
+        17,
+        6,
+        295,
+        107
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 02 / LINES",
+          "size": 13.2,
+          "box": [
+            24,
+            12,
+            128.984375,
+            29
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Waterfront Walks",
+          "size": 33.6,
+          "box": [
+            23,
+            36,
+            289.453125,
+            74
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Jersey City & Brooklyn",
+          "size": 14.4,
+          "box": [
+            23,
+            81,
+            165.796875,
+            101
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false,
+      "format": "gif"
+    },
+    {
+      "day": "02",
+      "canvas": [
+        2120,
+        1500
+      ],
+      "crop": [
+        23,
+        15,
+        593,
+        182
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 02 / LINES",
+          "size": 23.32,
+          "box": [
+            30,
+            21.200000762939453,
+            215.453125,
+            52.20000076293945
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Enjoy the Waterfront",
+          "size": 59.36,
+          "box": [
+            30,
+            63.599998474121094,
+            587.296875,
+            130.60000610351562
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "Jersey City & Brooklyn",
+          "size": 25.44,
+          "box": [
+            29,
+            143.10000610351562,
+            280.5,
+            176.10000610351562
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false,
+      "format": "png"
+    },
+    {
+      "day": "10",
+      "canvas": [
+        1200,
+        900
+      ],
+      "crop": [
+        26,
+        11,
+        419,
+        101
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 10 / PROMPTING ONLY",
+          "size": 13.2,
+          "box": [
+            32.5,
+            17.5,
+            223.609375,
+            34.5
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Heritage Across East Asia",
+          "size": 33.6,
+          "box": [
+            32.5,
+            36,
+            413.4461669921875,
+            74
+          ]
+        },
+        {
+          "role": "subtitle",
+          "text": "How old are East Asia’s UNESCO cultural heritage sites?",
+          "size": 14.4,
+          "box": [
+            32.5,
+            75,
+            383.703125,
+            95
+          ]
+        }
+      ],
+      "has_subtitle": true,
+      "subtitle_missing_authorized": false,
+      "format": "gif"
+    },
+    {
+      "day": "13",
+      "canvas": [
+        1800,
+        1450
+      ],
+      "crop": [
+        68,
+        49,
+        663,
+        158
+      ],
+      "layers": [
+        {
+          "role": "day",
+          "text": "DAY 13 / INTERACTIONS",
+          "size": 19.8,
+          "box": [
+            75,
+            55,
+            326.15625,
+            81
+          ]
+        },
+        {
+          "role": "title",
+          "text": "Where Night Comes From",
+          "size": 50.4,
+          "box": [
+            74,
+            95,
+            657.65625,
+            152
+          ]
+        }
+      ],
+      "has_subtitle": false,
+      "subtitle_missing_authorized": true,
+      "format": "png"
+    }
+  ],
+  "local_sources": {
+    "13/output/Where_Night_Comes_From.png": ".work/title-system/original13.png"
+  },
+  "private_days": [
+    "13"
+  ]
+}

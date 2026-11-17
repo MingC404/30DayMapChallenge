@@ -75,3 +75,6 @@ body:not(.exporting) #brooklyn-view .control-box input{width:12px;height:12px}
 .map-title h1{font-family:Georgia,"Times New Roman",serif!important;font-weight:400!important;letter-spacing:0!important}
 body.exporting .map-title h1{font-size:60px!important;line-height:.95!important}
 body.exporting .map-title p{margin-top:8px!important}
+
+/* Three-tier visible title; hidden original layout slots preserve the existing map backing. */
+.map-title>.html-title,.map-title>.print-title,.map-title>p{visibility:hidden!important}.map-title .series-title-group{position:absolute;left:0;top:0;width:92vw;pointer-events:none;visibility:visible!important}.series-title-group .series-day{font:600 max(11px,1.1vw)/1.2 "Segoe UI",sans-serif;letter-spacing:.08em;margin:0}.series-title-group .series-main{font:400 max(22px,2.8vw)/1.08 Georgia,serif;letter-spacing:0;margin:.18em 0;white-space:nowrap}.series-title-group .series-subtitle{font:400 max(12px,1.2vw)/1.2 "Segoe UI",sans-serif;letter-spacing:0;margin:0}.series-print-title{display:none}body.exporting .series-html-title{display:none}body.exporting .series-print-title{display:block}
