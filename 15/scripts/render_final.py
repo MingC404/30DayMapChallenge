@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 from matplotlib.path import Path as MPath
 from matplotlib.patches import PathPatch
 from matplotlib.transforms import Affine2D
+from matplotlib.font_manager import FontProperties
 from shapely.geometry import Polygon,LineString,Point,box
 from shapely.geometry.polygon import orient
 from shapely.ops import unary_union
@@ -32,6 +33,12 @@ def pathshape(g,fill,edge,lw=.6):
   ax.add_patch(PathPatch(MPath(vv,cc),fc=fill,ec=edge,lw=lw,zorder=z(),joinstyle='round'))
 def label(xy,t,size=10,color='#82785f',angle=0,ha='center',road=False):
  kw=dict(fontfamily='DejaVu Serif',fontsize=size,color=color,rotation=angle,ha=ha,va='center',zorder=z())
+ # Only the explicit title/footer anchors receive the series typography.
+ roles={(95,2278):('seguisb.ttf',19.2),(95,2218):('georgia.ttf',51.2),(98,2172):('segoeui.ttf',19.2),
+        (96,63):('segoeui.ttf',17.6),(3140,63):('segoeui.ttf',17.6),(96,36):('segoeui.ttf',13.6)}
+ if tuple(xy) in roles:
+  name,points=roles[tuple(xy)];kw.pop('fontfamily');kw.update(fontproperties=FontProperties(fname='C:/Windows/Fonts/'+name),fontsize=points)
+  if tuple(xy)==(98,2172):xy=[98,2164]
  if road:kw['bbox']=dict(fc=C['road'],ec='none',pad=1.2)
  return ax.text(*xy,t,**kw)
 def sample_curve(points,widths=None,n=28):

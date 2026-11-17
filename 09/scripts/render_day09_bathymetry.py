@@ -169,8 +169,21 @@ for e in root.findall(f'{{{NS}}}polyline'):
     if e.get('data-role')=='generalized-isobath':continue
     pts=[tuple(map(float,s.split(','))) for s in e.get('points').split()]
     draw.line([(x*R,y*R) for x,y in pts],fill=e.get('stroke'),width=max(1,round(float(e.get('stroke-width'))*R)))
+heading_styles={'DAY 09 / URBAN\u2013RURAL':('seguisb.ttf',21,'Segoe UI',600),
+ 'A Landscape of Surnames':('georgia.ttf',58,'Georgia',400),
+ 'Twenty leading surnames with twenty selected local occurrences':('segoeui.ttf',25,'Segoe UI',400)}
 for t,e in zip(texts,text_nodes):
-    draw.text((t['bounds'][0]*R,t['bounds'][1]*R),t['text'],font=font(t['size'],t['cjk']),fill=e.get('fill'),anchor='lt')
+    if t['text'] in heading_styles:
+        name,size,family,weight=heading_styles[t['text']];f=ImageFont.truetype('C:/Windows/Fonts/'+name,round(size*R));x,y=t['bounds'][:2]
+        spacing=.08*size if t['text'].startswith('DAY ') else 0
+        if spacing:
+            for i,char in enumerate(t['text']):draw.text((x*R+f.getlength(t['text'][:i])+i*spacing*R,y*R),char,font=f,fill=e.get('fill'),anchor='lt')
+        else:draw.text((x*R,y*R),t['text'],font=f,fill=e.get('fill'),anchor='lt')
+        bb=f.getbbox(t['text'],anchor='lt');t['size']=size;t['bounds']=[x,y,x+(bb[2]-bb[0])/R+spacing*max(0,len(t['text'])-1),y+(bb[3]-bb[1])/R]
+        e.set('font-family',family);e.set('font-size',str(size));e.set('font-weight',str(weight));e.set('y',str(y-f.getbbox(t['text'],anchor='ls')[1]/R))
+        if spacing:e.set('letter-spacing',str(spacing))
+    else:
+        draw.text((t['bounds'][0]*R,t['bounds'][1]*R),t['text'],font=font(t['size'],t['cjk']),fill=e.get('fill'),anchor='lt')
 
 notes=[(1400,2140,'Bathymetry: NOAA ETOPO 2022 · 4′ subset.',16),(1400,2168,'Map surname size: 52.8–129.6 px (original × 1.2).',16),(1400,2196,'Depth bands: 0–50 / 50–200 / 200–1000 / 1000–3000 / >3000 m',16)]
 for x,y,s,size in notes:

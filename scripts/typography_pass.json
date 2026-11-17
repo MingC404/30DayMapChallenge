@@ -1,6 +1,6 @@
 {
   "reference_revision": "af2d1c6e6e4aa49ee25cec1817d76bfeb87666b7",
-  "scope": "Only explicit title / author pixel layers; all other pixels and animation timing preserved. Existing compatible notes and sources left untouched.",
+  "scope": "Only explicit title, peripheral note/source and author text layers; all other pixels and animation timing preserved. Existing compatible typography left untouched.",
   "patches": [
     {
       "day": "03",
@@ -196,6 +196,86 @@
       ],
       "layer": "credit",
       "only_format": "gif"
+    },
+    {
+      "day": "09",
+      "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+      "rect": [
+        100,
+        65,
+        1000,
+        125
+      ],
+      "patch": "scripts/typography_patches/day09_day.png",
+      "canvas": [
+        4200,
+        4500
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "09",
+      "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+      "rect": [
+        100,
+        140,
+        1750,
+        278
+      ],
+      "patch": "scripts/typography_patches/day09_title.png",
+      "canvas": [
+        4200,
+        4500
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "09",
+      "source": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+      "rect": [
+        105,
+        280,
+        1950,
+        350
+      ],
+      "patch": "scripts/typography_patches/day09_subtitle.png",
+      "canvas": [
+        4200,
+        4500
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "15",
+      "source": "15/outputs/day15_philadelphia_gazetteer.png",
+      "rect": [
+        75,
+        45,
+        1100,
+        185
+      ],
+      "patch": "scripts/typography_patches/day15_title.png",
+      "canvas": [
+        2880,
+        2115
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "15",
+      "source": "15/outputs/day15_philadelphia_gazetteer.png",
+      "rect": [
+        75,
+        2042,
+        2845,
+        2097
+      ],
+      "patch": "scripts/typography_patches/day15_notes.png",
+      "canvas": [
+        2880,
+        2115
+      ],
+      "layer": "notes"
     }
   ],
   "files": {
@@ -243,16 +323,21 @@
       "16/outputs/frames/06_operations.png",
       "16/outputs/frames/07_external.png",
       "16/outputs/frames/08_overview.png"
+    ],
+    "09": [
+      "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+      "09/outputs/top20_anchors/a_landscape_of_surnames_top20.gif"
+    ],
+    "15": [
+      "15/outputs/day15_philadelphia_gazetteer.png"
     ]
   },
   "preserved_days": [
     "01",
     "07",
-    "09",
     "12",
     "13",
-    "14",
-    "15"
+    "14"
   ],
   "preserved_web_sizes": {
     "04": "70%",
