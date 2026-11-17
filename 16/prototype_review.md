@@ -361,10 +361,10 @@ y: 4346213.670485008 — 4609134.765382982
 **发布状态：本地最终成品，未公开发布。** NJ Transhit 再利用许可仍 Unknown，Census 州界来源不会消除通知或铁路 GIS 的许可问题。本轮没有上传原始 HTML、通知全文、GIF 或 PNG，没有加入 GitHub Pages／学院仓库，没有修改 Day 01–15，没有 commit 或 push。等待用户确认成品。
 
 
-### Final layout refinement (local preview; source confirmation pending)
+### Final layout refinement (owner-authorized personal publication)
 
 Title and subtitle now occupy the main geographic axes upper-left space without changing the UTM extent or source geometry. The notice sidebar moves from x=0.64 to x=0.59 and the primary count grows from 56 to 76 points. The two bottom method sentences and lower-right LOCAL REVIEW label are removed from artwork; methodological limitations remain in README. Source credit and author credit remain visible. Canvas remains 1440 by 1440; nine frames, 17.5 seconds, infinite loop. All decoded frame transforms match; opening and closing overviews are identical.
 
 Day 04, 09 and 16 use scoped width:70% and margin-inline:auto on their gallery links. Browser checks at 1440, 390 and 320 pixels confirm centered native-aspect images with no overflow and other days unaffected. Day 04 and Day 09 original artwork are unchanged.
 
-The current artwork still uses NJ TRANSIT GIS, not OSM. OSM replacement remains incomplete. These local previews are not a claim of ODbL compliance; publication of this revision awaits confirmation resolving the request to preserve OSM geometry versus the existing NJT source.
+The current artwork still uses NJ TRANSIT GIS, not OSM. OSM replacement remains incomplete. The owner explicitly confirmed retaining the existing NJT geometry and publishing this revision. No OSM or ODbL compliance is claimed. The unresolved NJT and NJ Transhit source-use terms remain documented in README and publication_review.md.
