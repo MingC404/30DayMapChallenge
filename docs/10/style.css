@@ -18,3 +18,6 @@ main{height:100vh;height:100dvh}
   .timeline{top:auto;bottom:72px;font-size:14px}
   .mobile-hint{position:fixed;left:18px;right:18px;bottom:12px;margin:0}
 }
+
+/* The fixed author node only; geographic labels and legends retain their fonts. */
+#fixed-artwork text[x="2080"]{font-family:"Segoe UI",Arial,sans-serif;font-size:29px;font-weight:400}

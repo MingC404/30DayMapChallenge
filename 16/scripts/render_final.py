@@ -11,6 +11,7 @@ from PIL import Image
 import render_prototypes as a
 from matplotlib.collections import LineCollection
 from matplotlib.lines import Line2D
+from matplotlib.font_manager import FontProperties
 from matplotlib.patches import Rectangle
 from shapely.geometry import shape,box
 
@@ -57,9 +58,17 @@ def cause_title(cat):
     if cat is None:return 'Network','Overview'
     return tuple(cat.split(' & ',1)[0:1]+['& '+cat.split(' & ',1)[1]]) if ' & ' in cat else (cat,'')
 
+def tracked_day(fig,x,y,text,size,color):
+    prop=FontProperties(fname='C:/Windows/Fonts/seguisb.ttf',size=size)
+    renderer=fig.canvas.get_renderer()
+    for i,char in enumerate(text):
+        advance=renderer.get_text_width_height_descent(text[:i],prop,False)[0]
+        fig.text(x+(advance+i*.08*size*DPI/72)/W,y,char,
+          fontsize=size,fontproperties=prop,color=color)
+
 def render(cat):
     fig=a.plt.figure(figsize=(12,12),dpi=DPI)
-    a.txt(fig,.05,.965,a.EYEBROW,10,a.MUTED,fontproperties=a.MONO)
+    tracked_day(fig,.05,.965,a.EYEBROW,9.504,a.MUTED)
     a.txt(fig,.95,.965,'NOVEMBER 9\u201315, 2026',10,a.MUTED,ha='right',fontproperties=a.MONO)
     a.txt(fig,.05,.935,a.CREDIT,11,a.MUTED)
     ax=a.map_axes(fig,MAP_RECT,cat,hubs=True,endpoints=True,grid=True)
@@ -68,7 +77,7 @@ def render(cat):
     ax.text(.015,.84,'Why Are the\nTrains Late?',transform=ax.transAxes,
       fontsize=23,fontproperties=a.SERIF,color=a.INK,zorder=30,va='top',linespacing=1.12)
     ax.text(.015,.745,'An Atlas of NJ Transit\nDisruptions',transform=ax.transAxes,
-      fontsize=12,fontproperties=a.SERIF,color=a.MUTED,zorder=30,va='top')
+      fontsize=10.368,fontproperties=FontProperties(fname='C:/Windows/Fonts/segoeui.ttf'),color=a.MUTED,zorder=30,va='top')
     color=a.COLORS[cat] if cat else a.MUTED
     a.txt(fig,SIDEBAR,.718,'REPORTED DIRECT CAUSE' if cat else 'SEVEN-DAY SERVICE OVERVIEW',9.5,color,fontproperties=a.MONO)
     top,bottom=cause_title(cat)

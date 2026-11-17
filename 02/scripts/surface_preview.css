@@ -70,3 +70,8 @@ body:not(.exporting) #brooklyn-view .control-box summary,
 body:not(.exporting) #brooklyn-view .control-box label,
 body:not(.exporting) #brooklyn-view .control-box button{font-size:12px}
 body:not(.exporting) #brooklyn-view .control-box input{width:12px;height:12px}
+
+/* Typography pass: title block only; no map, legend or control styles. */
+.map-title h1{font-family:Georgia,"Times New Roman",serif!important;font-weight:400!important;letter-spacing:0!important}
+body.exporting .map-title h1{font-size:60px!important;line-height:.95!important}
+body.exporting .map-title p{margin-top:8px!important}

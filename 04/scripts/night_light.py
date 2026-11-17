@@ -1,4 +1,4 @@
-﻿"""Dark playground light studies. Existing points/relations remain unchanged.
+"""Dark playground light studies. Existing points/relations remain unchanged.
 
 Render one zoomed group and the citywide ending. No animation is generated.
 """
@@ -174,7 +174,7 @@ def render(citywide,state=None,save=True):
             x,y=xy(by_p[FOCUS]['p']);text(dr,x+20,y-32,'Hamilton Park',23,GOLD,True)
     dr.rectangle(rect,outline='#2b3b48',width=2)
     text(dr,70,40,'DAY 04     /     CLUSTERS OF PLAY',24,MUTED,True)
-    text(dr,65,91,'Clusters of Play — Jersey City & Hoboken',58,INK,True)
+    dr.text((65,91),'Clusters of Play — Jersey City & Hoboken',font=ImageFont.truetype('C:/Windows/Fonts/georgia.ttf',67),fill=INK)
     text(dr,70,171,'400 m straight-line proximity · Connections show proximity, not routes.',26,MUTED)
     text(dr,rect[2]-50,rect[1]+30,'N ↑',24,MUTED,True,anchor='ra')
     length=1000 if citywide else 200;x,y=rect[0]+40,rect[3]-55

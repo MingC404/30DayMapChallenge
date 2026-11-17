@@ -59,7 +59,7 @@ def render():
         patch=Image.blend(patch,Image.new('RGB',patch.size,PAPER),alpha/255)
         page.paste(patch,(x0,y0))
     def text(x,y,t,size=40,serif=False,bold=False,color=BLUE,symbol=False,halo=False):
-        f=font(size,serif,bold,symbol);b=d.textbbox((x,y),t,font=f)
+        f=ImageFont.truetype('C:/Windows/Fonts/segoeui.ttf',size) if t=='Ming Cao' else font(size,serif,bold,symbol);b=d.textbbox((x,y),t,font=f)
         assert b[0]>=0 and b[2]<W-25 and b[3]<H-20,(t,b)
         if halo:backing((b[0]-8,b[1]-5,b[2]+8,b[3]+5),185)
         d.text((x,y),t,font=f,fill=color)
@@ -128,7 +128,7 @@ def render():
     text(110,2779,'Approximate alignment; small shoreline offsets may reflect map and registration error.',34)
     text(110,2848,'Historical chart: E. & G.W. Blunt · NYPL, image 434593',35)
     text(110,2902,'Modern shoreline: NYC DCP 26b · © OpenStreetMap contributors · ODbL',35)
-    text(4060,2873,'Ming Cao',55,serif=True)
+    text(4060,2880,'Ming Cao',40)
     OUT.mkdir(exist_ok=True)
     page.save(OUT/'a_changing_harbor_edge.png',dpi=(300,300))
     page.save(OUT/'a_changing_harbor_edge.jpg',quality=97,subsampling=0,dpi=(300,300))

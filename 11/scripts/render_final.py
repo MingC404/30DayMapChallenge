@@ -64,7 +64,7 @@ def paint_fixture(image,item):
         pts=[tuple(map(float,s.split(','))) for s in a['points'].split()]
         draw.line([(round(x*S),round(y*S)) for x,y in pts],fill=a['stroke'],width=max(1,round(float(a['stroke-width'])*S)),joint='curve')
     elif tag=='text':
-        f=font(float(a['font-size']),a.get('font-family','').startswith('Arial'));x=float(a['x']);y=float(a['y'])
+        f=(ImageFont.truetype('C:/Windows/Fonts/georgia.ttf',60*S) if item['text']==scene['title'] else font(float(a['font-size']),a.get('font-family','').startswith('Arial')));x=float(a['x']);y=float(a['y'])
         if a.get('text-anchor')=='end':x-=f.getlength(item['text'])/S
         draw.text((x*S,y*S),item['text'],font=f,fill=a['fill'],anchor='lt')
     elif tag=='pattern':paint_texture(image,a['data-family'],matrix(a['transform']),a['stroke'],float(a['stroke-width']))
@@ -90,7 +90,9 @@ def make_svg(base):
         if q['tag']=='pattern':
             a={k:v for k,v in q['attributes'].items() if k not in ['d','transform']}
             svg_pattern(root,a['data-family'],q['attributes']['transform'],a)
-        else:ET.SubElement(root,f'{{{NS}}}'+q['tag'],q['attributes']).text=q.get('text')
+        else:
+            attrs=q['attributes'] | ({'font-family':'Georgia,serif','font-size':'60'} if q.get('text')==scene['title'] else {})
+            ET.SubElement(root,f'{{{NS}}}'+q['tag'],attrs).text=q.get('text')
     ET.SubElement(root,f'{{{NS}}}metadata',{'id':'final-layout'}).text=json.dumps(scene,ensure_ascii=False)
     ET.ElementTree(root).write(OUT/'where_sounds_ripple.svg',encoding='utf-8',xml_declaration=True)
 

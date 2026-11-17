@@ -1,0 +1,263 @@
+{
+  "reference_revision": "af2d1c6e6e4aa49ee25cec1817d76bfeb87666b7",
+  "scope": "Only explicit title / author pixel layers; all other pixels and animation timing preserved. Existing compatible notes and sources left untouched.",
+  "patches": [
+    {
+      "day": "03",
+      "source": "03/outputs/inside_the_park_jc.png",
+      "rect": [
+        60,
+        25,
+        1300,
+        140
+      ],
+      "patch": "scripts/typography_patches/day03_title0.png",
+      "canvas": [
+        3600,
+        2380
+      ],
+      "layer": "title0"
+    },
+    {
+      "day": "04",
+      "source": "04/outputs/02_citywide_final.png",
+      "rect": [
+        60,
+        80,
+        2350,
+        171
+      ],
+      "patch": "scripts/typography_patches/day04_title0.png",
+      "canvas": [
+        2400,
+        2000
+      ],
+      "layer": "title0"
+    },
+    {
+      "day": "16",
+      "source": "16/outputs/day16_njt_disruptions.png",
+      "rect": [
+        65,
+        30,
+        510,
+        58
+      ],
+      "patch": "scripts/typography_patches/day16_title0.png",
+      "canvas": [
+        1440,
+        1440
+      ],
+      "layer": "title0"
+    },
+    {
+      "day": "16",
+      "source": "16/outputs/day16_njt_disruptions.png",
+      "rect": [
+        160,
+        400,
+        550,
+        460
+      ],
+      "patch": "scripts/typography_patches/day16_title1.png",
+      "canvas": [
+        1440,
+        1440
+      ],
+      "layer": "title1"
+    },
+    {
+      "day": "08",
+      "source": "08/outputs/a_city_at_stroller_speed.png",
+      "rect": [
+        280,
+        210,
+        4400,
+        430
+      ],
+      "patch": "scripts/typography_patches/day08_title.png",
+      "canvas": [
+        5700,
+        4380
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "11",
+      "source": "11/outputs/where_sounds_ripple.png",
+      "rect": [
+        55,
+        20,
+        850,
+        94
+      ],
+      "patch": "scripts/typography_patches/day11_title.png",
+      "canvas": [
+        2600,
+        1910
+      ],
+      "layer": "title"
+    },
+    {
+      "day": "05",
+      "source": "05/assets/fixed_canvas.png",
+      "rect": [
+        1420,
+        1090,
+        1520,
+        1125
+      ],
+      "patch": "scripts/typography_patches/day05_credit.png",
+      "canvas": [
+        1560,
+        1130
+      ],
+      "layer": "credit"
+    },
+    {
+      "day": "06",
+      "source": "06/outputs/a_changing_harbor_edge.png",
+      "rect": [
+        4050,
+        2865,
+        4430,
+        2950
+      ],
+      "patch": "scripts/typography_patches/day06_credit.png",
+      "canvas": [
+        4620,
+        3030
+      ],
+      "layer": "credit"
+    },
+    {
+      "day": "10",
+      "source": "10/outputs/heritage_across_east_asia_symbols_a.png",
+      "rect": [
+        4150,
+        3360,
+        4590,
+        3455
+      ],
+      "patch": "scripts/typography_patches/day10_credit.png",
+      "canvas": [
+        4800,
+        3600
+      ],
+      "layer": "credit"
+    },
+    {
+      "day": "02",
+      "source": "02/outputs/waterfront_walks_preview.png",
+      "rect": [
+        23,
+        31,
+        382,
+        180
+      ],
+      "patch": "scripts/typography_patches/day02_png.png",
+      "canvas": [
+        2120,
+        1500
+      ],
+      "layer": "title",
+      "only_format": "png"
+    },
+    {
+      "day": "02",
+      "source": "02/outputs/waterfront_walks_preview.gif",
+      "rect": [
+        24,
+        20,
+        191,
+        103
+      ],
+      "patch": "scripts/typography_patches/day02_gif.png",
+      "canvas": [
+        1200,
+        900
+      ],
+      "layer": "title",
+      "only_format": "gif"
+    },
+    {
+      "day": "10",
+      "source": "10/outputs/heritage_across_east_asia_symbols_a.gif",
+      "rect": [
+        1037,
+        844,
+        1123,
+        866
+      ],
+      "patch": "scripts/typography_patches/day10_gif.png",
+      "canvas": [
+        1200,
+        900
+      ],
+      "layer": "credit",
+      "only_format": "gif"
+    }
+  ],
+  "files": {
+    "02": [
+      "02/outputs/waterfront_walks_preview.png",
+      "02/outputs/waterfront_walks_preview.gif"
+    ],
+    "03": [
+      "03/outputs/inside_the_park_jc.png",
+      "03/outputs/inside_the_park_jc.gif"
+    ],
+    "04": [
+      "04/outputs/02_citywide_final.png",
+      "04/outputs/clusters_of_play.gif"
+    ],
+    "05": [
+      "05/assets/fixed_canvas.png",
+      "05/outputs/seeing_new_york_final.gif"
+    ],
+    "06": [
+      "06/outputs/a_changing_harbor_edge.png",
+      "06/outputs/a_changing_harbor_edge.gif"
+    ],
+    "08": [
+      "08/outputs/a_city_at_stroller_speed.png",
+      "08/outputs/a_city_at_stroller_speed.gif"
+    ],
+    "10": [
+      "10/outputs/heritage_across_east_asia_symbols_a.png",
+      "10/outputs/heritage_across_east_asia_symbols_a.gif"
+    ],
+    "11": [
+      "11/outputs/where_sounds_ripple.png",
+      "11/outputs/where_sounds_ripple.gif"
+    ],
+    "16": [
+      "16/outputs/day16_njt_disruptions.png",
+      "16/outputs/day16_njt_disruptions.gif",
+      "16/outputs/frames/00_overview.png",
+      "16/outputs/frames/01_mechanical.png",
+      "16/outputs/frames/02_congestion.png",
+      "16/outputs/frames/03_signal.png",
+      "16/outputs/frames/04_slippery_rails.png",
+      "16/outputs/frames/05_infrastructure.png",
+      "16/outputs/frames/06_operations.png",
+      "16/outputs/frames/07_external.png",
+      "16/outputs/frames/08_overview.png"
+    ]
+  },
+  "preserved_days": [
+    "01",
+    "07",
+    "09",
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "preserved_web_sizes": {
+    "04": "70%",
+    "09": "70%",
+    "14": "75%",
+    "16": "70%"
+  }
+}

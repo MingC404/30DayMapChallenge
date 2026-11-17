@@ -37,12 +37,12 @@ def render(mode, export_layout=False):
     assert all(18<x<W-18 and 18<y<H-18 for (x,y),r in points),'Official point clipped'
     im=Image.new('RGB',(W*S,H*S),BG);d=ImageDraw.Draw(im);text_boxes=[];collisions=[]
     def text(x,y,s,size=20,color=INK,serif=False,bold=False,check=True):
-        ft=font(size,serif,bold);bb=tuple(v/S for v in d.textbbox((round(x*S),round(y*S)),s,font=ft))
+        ft=ImageFont.truetype('C:/Windows/Fonts/segoeui.ttf',round(size*S)) if s=='Ming Cao' else font(size,serif,bold);bb=tuple(v/S for v in d.textbbox((round(x*S),round(y*S)),s,font=ft))
         assert bb[0]>=0 and bb[1]>=0 and bb[2]<=W and bb[3]<=H,('Text clipped',s,bb)
         if check:
             for (px,py),r in points:
                 if bb[0]-9<px<bb[2]+9 and bb[1]-9<py<bb[3]+9:collisions.append({'text':s,'ref':r['component_ref']})
-        text_boxes.append({'text':s,'bounds':bb,'x':x,'y':y,'baseline':y+ft.getmetrics()[0]/S,'size':size,'color':color,'family':'Georgia' if serif else 'Arial','weight':700 if bold else 400})
+        text_boxes.append({'text':s,'bounds':bb,'x':x,'y':y,'baseline':y+ft.getmetrics()[0]/S,'size':size,'color':color,'family':'Segoe UI' if s=='Ming Cao' else 'Georgia' if serif else 'Arial','weight':700 if bold else 400})
         d.text((round(x*S),round(y*S)),s,font=ft,fill=color)
     def line(ps,color=COAST,width=1):d.line([(round(x*S),round(y*S)) for x,y in ps],fill=color,width=max(1,round(width*S)),joint='curve')
     def dot(x,y,r,fill,outline=BG):d.ellipse(((x-r)*S,(y-r)*S,(x+r)*S,(y+r)*S),fill=fill,outline=outline,width=SYMBOLS[mode]['stroke_export_pixels'])
@@ -105,7 +105,7 @@ def render(mode, export_layout=False):
     text(p[0],max(p[1],q[1])+16,'500 km at 28.5°N',17,MUTED)
     text(78,1698,'Sources: UNESCO World Heritage List / official historical descriptions · Natural Earth 1:50m',18,MUTED)
     text(78,1728,'Snapshot 10 Nov 2026 · Lambert conformal conic 20° / 45°N · No invented or displaced site coordinates',17,MUTED)
-    text(2080,1684,'Ming Cao',38,serif=True)
+    text(2080,1689,'Ming Cao',29)
     text(2083,1740,'HISTORICAL PHASES / 2026',15,MUTED)
     if collisions:
         print(json.dumps(collisions,ensure_ascii=True,indent=2))

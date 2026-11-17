@@ -76,7 +76,7 @@ W,H=3600,2380;im=Image.new('RGB',(W,H),'#fafbf8');d=ImageDraw.Draw(im)
 def font(n):return ImageFont.truetype('C:/Windows/Fonts/arial.ttf',n)
 ink='#29474b'
 def text(x,y,t,n=26,c=ink,anchor=None):d.text((x,y),t,font=font(n),fill=c,anchor=anchor,stroke_width=2,stroke_fill='#fafbf6')
-text(65,32,'Inside the Park',82)
+d.text((65,32),'Inside the Park',font=ImageFont.truetype('C:/Windows/Fonts/georgia.ttf',101),fill=ink,stroke_width=2,stroke_fill='#fafbf6')
 text(3535,77,'JERSEY CITY  /  ACTIVITY SPACES',34,'#73887c',anchor='ra')
 used=set();summary={}
 for idx,name in enumerate(names):

@@ -92,7 +92,7 @@ async function run(){
   assert((await page.locator('#view').boundingBox()).width>=(await page.locator('#stage').boundingBox()).width);
   assert(!(await page.locator('#map-options').isVisible()));
   assert(await page.locator('#surface-legend').isVisible());
-  assert.equal(await page.locator('.map-title .print-title').evaluate(e=>parseFloat(getComputedStyle(e).fontSize)),64);
+  assert.equal(await page.locator('.map-title .print-title').evaluate(e=>parseFloat(getComputedStyle(e).fontSize)),60);
   await page.locator('#stage').screenshot({path:path.join(work,'surface_preview_candidate.png')});
   await page.locator('#brooklyn-view').screenshot({path:path.join(work,'brooklyn_detail_candidate.png')});
   await page.evaluate(()=>document.querySelector('input[data-toggle="kerb"]').click());

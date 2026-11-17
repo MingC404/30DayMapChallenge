@@ -25,9 +25,12 @@ def ellipse(bb,fill,stroke=None,width=2):
     d.ellipse(tuple(v*EXPORT_SCALE for v in bb),fill=fill,outline=stroke,width=width*EXPORT_SCALE);a,b,c,e=bb
     svg.append(f'<ellipse cx="{(a+c)/2}" cy="{(b+e)/2}" rx="{(c-a)/2}" ry="{(e-b)/2}" fill="{fill or "none"}" stroke="{stroke or "none"}" stroke-width="{width}"/>')
 def text(x,y,s,size=25,color=INK,bold=False):
-    f=ImageFont.truetype('C:/Windows/Fonts/'+('arialbd.ttf' if bold else 'arial.ttf'),size*EXPORT_SCALE)
+    family='Georgia' if s=='A City at Stroller Speed' else 'Arial'
+    if s=='A City at Stroller Speed':bold=False
+    filename='georgia.ttf' if family=='Georgia' else 'arialbd.ttf' if bold else 'arial.ttf'
+    f=ImageFont.truetype('C:/Windows/Fonts/'+filename,size*EXPORT_SCALE)
     d.text((x*EXPORT_SCALE,y*EXPORT_SCALE),s,font=f,fill=color)
-    svg.append(f'<text x="{x}" y="{y+size*.94}" font-family="Arial" font-size="{size}" font-weight="{"bold" if bold else "normal"}" fill="{color}">{html.escape(s)}</text>')
+    svg.append(f'<text x="{x}" y="{y+size*.94}" font-family="{family}" font-size="{size}" font-weight="{"bold" if bold else "normal"}" fill="{color}">{html.escape(s)}</text>')
 def geom(g,fill,stroke=None,width=2):
     if g.is_empty:return
     if hasattr(g,'geoms'):

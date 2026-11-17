@@ -38,6 +38,7 @@ class Drawing:
         x+=self.tx;y+=self.ty;self.d.ellipse((x-r,y-r,x+r,y+r),fill=fill,outline=stroke,width=width)
     def text(self,x,y,s,size=26,color=NAVY,serif=False,bold=False,anchor='start'):
         fam='Georgia' if serif else 'Arial';file=('georgia' if serif else 'arial')+('b' if serif and bold else 'bd' if bold else '')+'.ttf'
+        if s=='Ming Cao':fam='Segoe UI';file='segoeui.ttf';bold=False
         font=ImageFont.truetype('C:/Windows/Fonts/'+file,size)
         self.s.append(f'<text x="{x}" y="{y}" font-family="{fam}" font-size="{size}" font-weight="{700 if bold else 400}" text-anchor="{anchor}" fill="{color}">{html.escape(s)}</text>')
         self.d.text((x+self.tx,y+self.ty),s,font=font,fill=color,anchor={'start':'ls','middle':'ms','end':'rs'}[anchor])
