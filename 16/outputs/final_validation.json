@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "canvas": [
+    1440,
+    1440
+  ],
+  "frames": 9,
+  "durations_ms": [
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    2000,
+    1500
+  ],
+  "total_duration_ms": 17500,
+  "loop": 0,
+  "opening_closing_decoded_identical": true,
+  "all_frame_transforms_identical": true,
+  "decoded_static_region_differing_pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "interstate_borders_clipped": true,
+  "no_synthetic_clip_box_border": true,
+  "borders_below_rail": true,
+  "mutually_exclusive_direct_category_sum": 234,
+  "seven_cause_sum": 232,
+  "other_unknown_in_overview": 2,
+  "category_color_nearest_rgb_errors": {
+    "Mechanical & Equipment": 0.0,
+    "Congestion": 0.0,
+    "Signal & Switch": 0.0,
+    "Slippery Rails & Weather": 0.0,
+    "Track & Infrastructure": 0.0,
+    "Staffing & Operations": 0.0,
+    "External Incidents": 0.0
+  },
+  "opening_png_vs_gif_mean_rgb_error": 1.3636,
+  "minimum_supporting_font_points": 9,
+  "minimum_supporting_font_px_at_960_width": 10,
+  "network_performance_note": "Static local byte size only; no public deployment/network benchmark.",
+  "outputs": {
+    "day16_njt_disruptions.gif": {
+      "bytes": 291022,
+      "sha256": "9eb94e1b05288c054f3e7eb3f8fec126ca541bd1182f2c487fd5ab32adbccde5"
+    },
+    "day16_njt_disruptions.png": {
+      "bytes": 203055,
+      "sha256": "faa80ab82fb9c6e375d222ef3556d2d4ae1ab3bfc881cbf46690165c7dd40222"
+    }
+  }
+}

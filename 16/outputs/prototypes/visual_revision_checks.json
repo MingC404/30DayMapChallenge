@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "scope": "visual style, credit, proportional C map enlargement only",
+  "data_files_byte_identical": true,
+  "checks": [
+    "warm paper background in all PNGs",
+    "PNG dimensions and integrity",
+    "unified credit constant",
+    "old credit and long eyebrow absent from renderer",
+    "equal geographic aspect retained",
+    "no GIF"
+  ],
+  "data_sha256": {
+    "data\\gis\\gis_validation.json": "76df4ea0c43fc9e42ee4633a0ab9182c36e75acc94695d49c22f9cca37ca0b70",
+    "data\\gis\\item_metadata.json": "f0dca0b3deff4dd8f23ded1511730ccd2b85558e8c87cac1a483c2b192c8a15d",
+    "data\\gis\\layer_metadata.json": "e31824e0c0f56be3da247ef9d6b6465dda76a45ee4763dc81682f142dbb2fd49",
+    "data\\gis\\manifest.csv": "7b7a963ca08449da0fdfa7bf6a371fc03f7ed7cd696c3111637092fcf35c91bf",
+    "data\\gis\\rail_lines.geojson": "318815210e520d9da7fdbb414d5924c05101d156280d4472c61d24d2fbee4839",
+    "data\\gis\\rail_stations.geojson": "d269351920b03e076bbedfedc342484cb62e5c9001028c8abb9cb51f4e1a022b",
+    "data\\gis\\service_metadata.json": "c9be2f356d9c3389424e5079b0ff49a2284e410d1aa23f75e0ba663d39b27858",
+    "data\\gis\\shared_corridors_utm.geojson": "5bcf5493cb1287535c3bd5fae4b52281092d147d0c17c13783b36bd9070e23db",
+    "data\\gis\\stations_item_metadata.json": "74b2ee438786a60a0877c702c6f76039560c745cf761d88590dc138304447876",
+    "data\\gis\\stations_metadata.json": "f9b37e12b4fba8b8cde0b7d9fec43297acc244652433ca9bd5672161a64ea8b1",
+    "data\\gis\\validation_log.txt": "4c726e28308563610ff618e8a16390d5345501d70db44d23d8b0cdb1776d24dc",
+    "data\\processed\\analysis_representatives.csv": "277c28f4f0c7474c829e62b11ce57c9657a8fd5c9866866414bbcd3211854b8e",
+    "data\\processed\\category_counts.csv": "94e56d3b0e05572c8bc4b2e4a9424720cc19977574f2d43b1eea72b5a9ee8838",
+    "data\\processed\\cause_route_counts.csv": "eae032a657d856f9d6854ea0aa1ecfdc4c920e61ee9559c4d3991f86156a3747",
+    "data\\processed\\cleaning_summary.json": "566b2382450a9cbf8e1abcd054b745a6ded7292b4ba75a3fe41383ec86f45ac2",
+    "data\\processed\\notices_reviewed.csv": "29260f41005ec8532f6cbd360a225e64fcbd45d4f143b59c7a00cf364ad5277c",
+    "data\\processed\\route_gis_crosswalk.csv": "db3064012efaf4c3bc3f10f922432ef147f0499c90e966e476bfbccd0d4f791a",
+    "data\\processed\\update_groups.csv": "1fc27b651833be652ff996792c149721e22adf331677e8c049431cd7e2fd2d93",
+    "data\\processed\\validation_results.json": "fde251cedf09515fbb15e2542b2665578ed69d27140e279cbfc45ada56257fef",
+    "data\\sample\\alerts_2026-11-09_2026-11-15.csv": "753dee24111d19e72e7318bb190bc41ab28ab173582dbdee856168932c89c1cd",
+    "data\\sample\\analyze.ps1": "24c32ddbf120d65a54549762f4bdb6005fe6b4db265530f476f00bf5e425b54b",
+    "data\\sample\\day_2026-11-09.txt": "7eaf370c8199c6ce3cbdf9655a3a0b3df535df5a798e43a20984d9bb4f427ef6",
+    "data\\sample\\day_2026-11-10.txt": "0931d0e1907f20f252ad8b357346763252fab76e1dc9092f63f6a39344a75dda",
+    "data\\sample\\day_2026-11-11.txt": "9924cc3bd93a05a805b9d9956903b4b2fc6c72741ccf8b9d5108abd963da1c09",
+    "data\\sample\\day_2026-11-12.txt": "b4c72658969ced0ee5417fe34245dd4a450d7fe327c858471c4dcbefc9a49fc9",
+    "data\\sample\\day_2026-11-13.txt": "ad8685ad17f8eb68bd24b7cd18246aa9793745c72669e2b4f1a459cadc162192",
+    "data\\sample\\day_2026-11-14.txt": "25a2e4efcebae7762ec89ca4e12cb404bfca9296ceacea0dd5782b32ac80b79f",
+    "data\\sample\\day_2026-11-15.txt": "7d6127ebf92d1cc5950a36c1b1af62250a2ee1e3cee194858cf76791605e5e4c",
+    "data\\sample\\excuses.txt": "cf7232dc057804d4de1657d4b0b6233a73f59fa56251df4c692fb9fc6a9defaf",
+    "data\\sample\\gis_item.json": "da5677bfd202267aea7aa17ba3a81570ef594d00d4023a88576596d0c43f21fa",
+    "data\\sample\\historical_2014-02-12.txt": "b9b7f3b13834130b37bbf73b87f54fe928a0138108767d122c8ea0092f60f1bf",
+    "data\\sample\\home.txt": "ad34bd2e337d0928addbce9b4b00eeac89fc7c24ce4a6e622b80f0d844740215",
+    "data\\sample\\manifest.csv": "351ae331666ead1f2e626ca4725401ef8de047edc77dcbd81d962eb445159c4a",
+    "data\\sample\\mechanical.txt": "72f08724348fbed1d84beaf9cbca87430b11438efb5913366b07e226a2cae1e1",
+    "data\\sample\\pilot_statistics.json": "6e1d4b73f2a27903043406ae22181d24ad449b03e15d2f8acc87d5faf27246fc",
+    "data\\sample\\robots.txt": "489a4970ba6b063aa539d502af8835f1dbdb8fb6146a72df82679275bdb0abbd",
+    "data\\sample\\script.txt": "856d7bb97b9bc30c31645a9291540f4664e571c0ab8c8716f66185a418c710bc",
+    "data\\sample\\sitemap.xml": "bf17c53699825a9cd8bc37afb602d67dbd90cfb036d5ea02a44e1838ecbfe000"
+  },
+  "images": [
+    {
+      "file": "day16_geographic_network.png",
+      "pixels": [
+        1760,
+        1920
+      ],
+      "sha256": "c4d8c33a795774798b8e9e6356edd8e5704743b7e01f17dac23f6ca32a9b5b29"
+    },
+    {
+      "file": "day16_small_multiples.png",
+      "pixels": [
+        2720,
+        1600
+      ],
+      "sha256": "00065ccb266912866a12aec9c5af11f8e9837b06d0a3002089c156705b0550ad"
+    },
+    {
+      "file": "day16_gif_frame_concept.png",
+      "pixels": [
+        1920,
+        1920
+      ],
+      "sha256": "44beeaa48101307598c4ed5da0bbfc59ae551ae1afe2f4682013a638c9de5bbb"
+    }
+  ]
+}
