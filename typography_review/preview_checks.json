@@ -1,0 +1,77 @@
+[
+  {
+    "day": "03",
+    "size": [
+      3600,
+      2380
+    ],
+    "changed_pixels": 30457,
+    "difference_bounds": [
+      67,
+      46,
+      747,
+      128
+    ],
+    "non_title_pixels_changed": 0,
+    "title_regions": [
+      [
+        60,
+        25,
+        1300,
+        140
+      ]
+    ]
+  },
+  {
+    "day": "04",
+    "size": [
+      2400,
+      2000
+    ],
+    "changed_pixels": 45235,
+    "difference_bounds": [
+      67,
+      45,
+      1286,
+      210
+    ],
+    "non_title_pixels_changed": 0,
+    "title_regions": [
+      [
+        60,
+        30,
+        2350,
+        215
+      ]
+    ]
+  },
+  {
+    "day": "16",
+    "size": [
+      1440,
+      1440
+    ],
+    "changed_pixels": 11044,
+    "difference_bounds": [
+      72,
+      39,
+      394,
+      450
+    ],
+    "non_title_pixels_changed": 0,
+    "title_regions": [
+      [
+        65,
+        30,
+        510,
+        58
+      ],
+      [
+        160,
+        300,
+        550,
+        460
+      ]
+    ]
+  }
+]

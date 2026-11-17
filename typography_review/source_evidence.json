@@ -1,0 +1,1192 @@
+{
+  "01/scripts/explorer_template.html": [
+    {
+      "line": 5,
+      "text": "<title>NYC Changing Station Explorer</title>"
+    },
+    {
+      "line": 8,
+      "text": ":root{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#27343b;background:#f7f8f6;font-size:14px}*{box-sizing:border-box}body{margin:0}header{height:112px;padding:23px 34px;border-bottom:1px solid #dde2e0;background:white;display:flex;align-items:center;justify-content:space-between;gap:20px}h1{font-family:Georgia,\"Times New Roman\",serif;font-weight:400;font-size:32px;letter-spacing:-.8px;margin:0 0 7px}header p{margin:0;color:#647079;font-size:14px}.edition{text-transform:uppercase;letter-spacing:2px;font-size:10px;color:#63746f}.dashboard{display:grid;grid-template-columns:minmax(0,1fr) 328px;height:calc(100dvh - 152px);min-height:470px}#map{height:100%;width:100%;background:#e9edeb}aside{background:#fff;border-left:1px solid #dde2e0;padding:30px 25px;overflow:auto;display:flex;flex-direction:column}.eyebrow{text-transform:uppercase;letter-spacing:1.8px;font-size:10px;color:#73817d;margin:0 0 12px}h2{font-family:Georgia,serif;font-weight:400;font-size:24px;line-height:1.2;margin:0 0 22px}.total{font-family:Georgia,serif;font-size:39px;line-height:1}.total-label{font-size:12px;color:#687780;margin:7px 0 24px}.actions{display:flex;gap:15px;margin-bottom:13px}button{font:inherit;cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #3478A4;outline-offset:3px}.text-button{background:none;border:0;padding:3px 0;color:#355f68;font-size:12px;text-decoration:underline;text-underline-offset:3px}.category{display:flex;align-items:center;gap:10px;padding:16px 0;border-top:1px solid #e9edeb;cursor:pointer}.swatch{height:9px;width:9px;border-radius:50%;flex:none}.category-name{font-size:12px;line-height:1.5;flex:1}.count{font-variant-numeric:tabular-nums;font-size:13px;color:#59666d}input{accent-color:#355f68;width:15px;height:15px;cursor:pointer}.explanation{font-size:12px;line-height:1.65;color:#637078;margin:17px 0 24px}.notes{margin-top:auto;padding-top:22px;border-top:1px solid #e9edeb;font-size:11px;color:#6c777c;line-height:1.65}.notes p{margin:0 0 10px}footer{min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 24px;font-size:10px;color:#687770;border-top:1px solid #dde2e0}.reset{background:white;border:1px solid #d8dfdb;border-radius:4px;padding:9px 13px;box-shadow:0 1px 5px #0002;font-size:12px;color:#304740}.leaflet-tooltip{font-family:inherit;border:0;box-shadow:0 2px 12px #0002;padding:8px 11px}.tip-category{color:#66747c;font-size:11px}.popup h3{font-family:Georgia,serif;font-size:18px;margin:0 0 12px}.popup dl{margin:0}.popup dt{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:#687770;margin-top:9px}.popup dd{margin:2px 0;font-size:12px}.leaflet-container{font-family:inherit}.leaflet-control-attribution{font-size:9px!important}#load-error{display:none;position:absolute;z-index:1000;bottom:18px;left:16px;max-width:300px;background:white;padding:12px;font-size:12px}.map-wrap{position:relative;min-width:0;min-height:0}@media(min-width:1600px){.dashboard{grid-template-columns:minmax(0,1fr) 340px}}@media(max-width:700px){header{height:auto;min-height:112px;padding:20px}.edition{display:none}h1{font-size:26px}.dashboard{display:flex;flex-direction:column;height:auto;min-height:0}.map-wrap{height:60dvh;min-height:360px}aside{border-left:0;border-top:1px solid #dde2e0;padding:25px}footer{flex-direction:column;align-items:flex-start}.notes{margin-top:0}}"
+    },
+    {
+      "line": 11,
+      "text": ".category-description{display:block;color:#7c8580;font-size:10px;line-height:1.5;margin-top:3px}"
+    },
+    {
+      "line": 12,
+      "text": ".leaflet-container#map{background:#fff}.basemap-compare{background:white;border:1px solid #ddd;border-radius:4px;padding:8px 10px;box-shadow:0 1px 5px #0001;font-size:11px}.basemap-compare legend{font-size:10px;color:#777;padding:0 3px}.basemap-compare label{display:flex;align-items:center;gap:5px;line-height:1.9;cursor:pointer}.basemap-compare input{width:12px;height:12px;margin:0}.borough-label{white-space:nowrap;background:none;border:0;color:#999;font-size:11px;font-weight:500;letter-spacing:1px;text-align:center;text-transform:uppercase;text-shadow:0 0 4px white,0 0 4px white,0 0 4px white;pointer-events:none}.info-tooltip .card-meta{font-size:10px;color:#788078;margin:-3px 0 10px}.info-tooltip dl{display:grid;grid-template-columns:78px minmax(0,1fr);gap:6px 8px}.info-tooltip dt,.info-tooltip dd{margin:0;font-size:11px;line-height:1.45}.info-tooltip dt{font-weight:500;color:#7c8580}.info-tooltip dd{color:#35413c}"
+    },
+    {
+      "line": 13,
+      "text": ".info-tooltip strong{display:block;font-size:14px;line-height:1.35;margin-bottom:9px}.info-tooltip dl{margin:0}.info-tooltip dt{font-size:10px;font-weight:600;color:#67766e;margin-top:7px}.info-tooltip dd{font-size:11px;margin:2px 0;white-space:pre-line;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.info-tooltip .details-hint{font-size:10px;color:#6b7b74;margin-top:10px}.popup{overflow-wrap:anywhere}.popup dd{white-space:pre-line}.view-controls{display:flex;flex-direction:column;gap:6px}.multi-swatch{background:conic-gradient(#F29B87 0 33%,#72B9E6 33% 66%,#AC94DB 66%);border:1px solid #40575d}.multi-note{display:flex;gap:8px;align-items:center;font-size:11px;color:#637078;margin-top:12px}.multi-marker{border-radius:50%;border:1px solid #fff;box-shadow:0 0 0 1px #40575d}"
+    }
+  ],
+  "01/scripts/capture_explorer.cjs": [
+    {
+      "line": 6,
+      "text": "  {key:'all-start',keys:null,title:'All changing-table records',duration:3000},"
+    },
+    {
+      "line": 7,
+      "text": "  {key:'unspecified',keys:['unspecified'],title:'Restroom with changing table',subtitle:'Restroom type not specified.',duration:2000},"
+    },
+    {
+      "line": 8,
+      "text": "  {key:'women',keys:['women'],title:'In women’s restrooms',duration:2000},"
+    },
+    {
+      "line": 9,
+      "text": "  {key:'men',keys:['men'],title:'In men’s restrooms',duration:2000},"
+    },
+    {
+      "line": 10,
+      "text": "  {key:'all-gender',keys:['all_gender'],title:'In all-gender restrooms',duration:2000},"
+    },
+    {
+      "line": 11,
+      "text": "  {key:'all-end',keys:null,title:'All changing-table records',duration:3000}"
+    },
+    {
+      "line": 34,
+      "text": "    await page.evaluate(()=>document.fonts.ready);"
+    },
+    {
+      "line": 46,
+      "text": "    await page.addStyleTag({content:'.edition{width:280px;flex:none;min-height:56px;font-size:13px;letter-spacing:0;text-transform:none;text-align:right;display:flex;flex-direction:column;justify-content:center;line-height:1.5;color:#52645e}.edition strong{font-size:15px;font-weight:500}.edition small{font-size:11px}'});"
+    },
+    {
+      "line": 56,
+      "text": "        document.querySelector('.edition').innerHTML=`<strong>${escapeHTML(state.title)}</strong>${state.subtitle?`<small>${escapeHTML(state.subtitle)}</small>`:''}<span>${count.toLocaleString('en-US')} matching records</span>`;"
+    }
+  ],
+  "02/scripts/surface_preview.css": [
+    {
+      "line": 1,
+      "text": "*{box-sizing:border-box}body{margin:0;background:#fffaf1;color:#425e61;font:13px Arial,sans-serif}a{color:#278d92}"
+    },
+    {
+      "line": 6,
+      "text": ".map-title{left:2.4%;top:1.4%;width:44%;padding:8px}.map-title h1{margin:0;font-weight:500;font-size:clamp(20px,1.8vw,30px);line-height:1.1}.map-title p{font-size:11px;margin:7px 0 0;line-height:1.4}"
+    },
+    {
+      "line": 7,
+      "text": ".map-title h1 span{display:block}"
+    },
+    {
+      "line": 8,
+      "text": ".region-label{right:2%;top:1.4%;padding:7px 10px;margin:0;font-size:clamp(15px,1.25vw,21px);font-weight:500}"
+    },
+    {
+      "line": 9,
+      "text": "#jersey_city-view .region-label{top:auto;bottom:7%;font-size:16px}"
+    },
+    {
+      "line": 10,
+      "text": ".control-box{left:2.4%;top:13.6%;width:43%;padding:9px 11px}.control-box summary{cursor:pointer;font-size:12px}.options-content{margin-top:10px}.mode-options,.layer-options,.zoom-options{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center}.layer-options{margin:11px 0}.mode-options label,.layer-options label{font-size:12px;white-space:nowrap}input{margin:0 3px 0 0;vertical-align:middle}"
+    },
+    {
+      "line": 11,
+      "text": "button{padding:5px 9px;background:#fffdf8;border:1px solid #d2d9cf;border-radius:3px;cursor:pointer;color:#425e61;font:inherit}"
+    },
+    {
+      "line": 12,
+      "text": ".legend-box{left:2.4%;top:22%;width:43%;padding:10px 11px;font-size:12px}.legend-box b{font-size:13px;font-weight:500}.swatches{display:grid;grid-template-columns:1fr 1fr;gap:9px 10px;margin-top:11px}.swatches span{display:flex;gap:7px;align-items:center;font-size:11px;line-height:1.3}.swatches i{display:inline-block;width:22px;height:3px;flex:none}.swatches .step-swatch{height:0;border-top:3px dashed #926aa5}.symbol-key{display:flex;gap:12px;margin-top:12px;align-items:center;font-size:11px}.symbol-key span{display:flex;align-items:center;gap:3px}.symbol-key svg{width:16px;height:16px}"
+    },
+    {
+      "line": 14,
+      "text": ".coverage{bottom:3.1%;left:34%;font-size:11px;padding:5px 7px}.coverage strong{font-weight:500}.map-credit{left:15%;right:2%;bottom:.6%;padding:3px 5px;font-size:10px;text-align:right;background:#fffaf1d9}.locator{left:58%;top:1.2%;width:18%;pointer-events:none;opacity:1}.locator svg{display:block;width:100%;height:auto}"
+    },
+    {
+      "line": 16,
+      "text": "#facility-tooltip{position:fixed;z-index:10000;pointer-events:none;background:#fffef9f5;border:1px solid #ced8d0;border-radius:4px;padding:8px 10px;max-width:min(280px,calc(100vw - 20px));font-size:12px;line-height:1.5;white-space:pre-line;color:#3e5b5b;box-shadow:0 1px 4px #354f5412}"
+    },
+    {
+      "line": 17,
+      "text": "dialog{width:min(580px,90vw);max-height:80vh;overflow:auto;border:1px solid #d4d9cf;border-radius:7px;padding:22px;background:#fffdf8;color:#425e61}dialog::backdrop{background:#354f5433}#close-details{float:right}dialog h2{font-size:19px;max-width:82%;margin-top:4px}dl{display:grid;grid-template-columns:130px 1fr;gap:9px}dt{font-weight:600}dd{margin:0;overflow-wrap:anywhere}table{width:100%;border-collapse:collapse;margin-top:10px}td{padding:6px;border-bottom:1px solid #e8e9e0;vertical-align:top;overflow-wrap:anywhere}td:first-child{width:42%;font-weight:600}#detail-source{font-size:11px;overflow-wrap:anywhere;color:#75827c}.member{padding:10px 0;border-top:1px solid #e3e7df}.member summary{cursor:pointer;font-size:13px}.member-position{font-size:11px;color:#75827c}"
+    },
+    {
+      "line": 19,
+      "text": "body.exporting .map-title{width:49%}body.exporting .map-title h1{font-size:64px;line-height:.88;font-weight:800;letter-spacing:-2px}body.exporting .map-title p{font-size:12px;margin-top:12px}"
+    },
+    {
+      "line": 23,
+      "text": ".print-title{display:none}body.exporting .html-title{display:none}body.exporting .print-title{display:block}"
+    },
+    {
+      "line": 25,
+      "text": "#brooklyn-view .control-box summary{list-style:none;cursor:default;font-size:11px}#brooklyn-view .control-box summary::-webkit-details-marker{display:none}"
+    },
+    {
+      "line": 26,
+      "text": "#brooklyn-view .control-box label,#brooklyn-view .control-box button{font-size:10px}.options-content{margin-top:6px}.layer-options{margin:7px 0}.zoom-options button{padding:3px 7px}"
+    },
+    {
+      "line": 27,
+      "text": ".legend-box{top:15%;font-size:11px}.legend-box b{font-size:11px}.swatches{gap:6px 8px;margin-top:8px}.swatches span,.symbol-key{font-size:9px}.swatches i{width:18px}"
+    },
+    {
+      "line": 29,
+      "text": "@media(max-width:900px){#brooklyn-view .control-box{width:100%;max-width:none;left:0}.swatches span{font-size:9px}}"
+    },
+    {
+      "line": 31,
+      "text": "#brooklyn-view .control-box summary{flex:none;font-size:10px;white-space:nowrap}"
+    },
+    {
+      "line": 34,
+      "text": "#brooklyn-view .control-box label,#brooklyn-view .control-box button{font-size:clamp(9px,.7vw,11px)}"
+    },
+    {
+      "line": 43,
+      "text": " .map-title{top:1%;width:48%;padding:7px}.map-title h1{font-size:22px}.map-title p{font-size:10px}.region-label{font-size:14px;padding:5px 7px}"
+    },
+    {
+      "line": 44,
+      "text": " .control-box{top:14%;width:46%;padding:8px}.legend-box{top:20%;width:46%;padding:9px;font-size:11px}"
+    },
+    {
+      "line": 45,
+      "text": " .swatches{gap:7px}.swatches span{font-size:10px}.swatches i{width:17px}.symbol-key{gap:7px;flex-wrap:wrap;font-size:10px}.coverage{font-size:9px;left:31%;bottom:3%}.map-credit{font-size:8px;left:5%}.locator{width:19%}"
+    },
+    {
+      "line": 46,
+      "text": " .legend-box>summary{display:list-item;cursor:pointer;font-size:12px}.legend-box[open]>summary{margin-bottom:10px}"
+    },
+    {
+      "line": 57,
+      "text": "body:not(.exporting) #brooklyn-view .control-box label,body:not(.exporting) #brooklyn-view .control-box button{font-size:10px}"
+    },
+    {
+      "line": 60,
+      "text": "body:not(.exporting) .swatches span{font-size:10px}"
+    },
+    {
+      "line": 61,
+      "text": "body:not(.exporting) .symbol-key{font-size:10px;gap:8px}"
+    },
+    {
+      "line": 71,
+      "text": "body:not(.exporting) #brooklyn-view .control-box button{font-size:12px}"
+    }
+  ],
+  "02/scripts/build_surface_facilities.py": [
+    {
+      "line": 24,
+      "text": " if cat=='toilet':return '<rect x=\"-7\" y=\"-6\" width=\"14\" height=\"12\" rx=\"2\" fill=\"#9d7565\" stroke=\"#fffaf1\"/><text x=\"0\" y=\"2.5\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"6.6\" fill=\"white\">WC</text>'"
+    },
+    {
+      "line": 46,
+      "text": " def text(x,y,value,size=18):return f'<text x=\"{x:.2f}\" y=\"{y:.2f}\" font-family=\"Arial,sans-serif\" font-size=\"{size}\" fill=\"#58746f\" paint-order=\"stroke\" stroke=\"#fffaf1\" stroke-width=\"3\" stroke-linejoin=\"round\" pointer-events=\"none\">{ESC(value)}</text>'"
+    },
+    {
+      "line": 57,
+      "text": "   svg.append(f'<g class=\"route {\"steps\" if steps else \"ordinary\"}\" tabindex=\"0\" role=\"button\" data-region=\"{key}\" data-osm-id=\"{p[\"osm_id\"]}\" data-material=\"{cls}\" data-surface=\"{color}\" data-permission=\"{permit}\" data-access=\"{evidence}\" data-details=\"{ESC(json.dumps(details,ensure_ascii=False),quote=True)}\" stroke=\"{\"#926aa5\" if steps else color}\" stroke-width=\"{3.1 if steps else 2.4}\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"'+(' stroke-dasharray=\"5 4\"' if steps else '')+'><title>'+ESC(line_tooltip(p))+'</title>')"
+    },
+    {
+      "line": 93,
+      "text": "   px,py=project(key,(lon,lat));svg.append(text(px,py,name).replace('<text ','<text class=\"place-label\" data-x=\"'+str(px)+'\" data-y=\"'+str(py)+'\" data-font=\"18\" ',1))"
+    },
+    {
+      "line": 102,
+      "text": " doc='<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Waterfront Walks — Jersey City & Brooklyn</title><style>'+css+'</style><div id=\"view\"><main id=\"stage\">'+''.join(view_html)+'</main></div>'+dialog+'<script>'+js+'</script></html>'"
+    },
+    {
+      "line": 116,
+      "text": " return '''<header class=\"map-title overlay\"><h1 class=\"html-title\"><span>Waterfront</span><span>Walks</span></h1><h1 class=\"print-title\"><span>Enjoy the</span><span>Waterfront</span></h1><p>Jersey City &amp; Brooklyn · Day 02 / Lines</p></header>'''+controls+'<details id=\"map-legend\" class=\"legend-box overlay\" open><summary id=\"legend-heading\">Surface legend</summary>'+surface+permit+'<div class=\"symbol-key\"><span>'+symbol('drinking_water').replace('<path','<svg viewBox=\"-9 -9 18 18\"><path',1)+'</svg> Water</span><span><svg viewBox=\"-9 -9 18 18\">'+symbol('toilet')+'</svg> Toilets</span><span>× Restricted</span></div></details>'"
+    },
+    {
+      "line": 125,
+      "text": "  (w,so),(e,n)=SOURCE_PANELS[key]['bounds'];a,b=xy(w,n),xy(e,so);s+=f'<rect x=\"{a[0]}\" y=\"{a[1]}\" width=\"{b[0]-a[0]}\" height=\"{b[1]-a[1]}\" fill=\"none\" stroke=\"#315e5c\" stroke-width=\"1.1\"/><text x=\"{b[0]+2}\" y=\"{a[1]+6}\" font-size=\"9\" font-weight=\"700\" fill=\"#244f4d\" paint-order=\"stroke\" stroke=\"#fffaf1\" stroke-width=\"1.8\">{label}</text>'"
+    }
+  ],
+  "03/scripts/inside_the_park_jc.py": [
+    {
+      "line": 76,
+      "text": "def font(n):return ImageFont.truetype('C:/Windows/Fonts/arial.ttf',n)"
+    },
+    {
+      "line": 78,
+      "text": "def text(x,y,t,n=26,c=ink,anchor=None):d.text((x,y),t,font=font(n),fill=c,anchor=anchor,stroke_width=2,stroke_fill='#fafbf6')"
+    },
+    {
+      "line": 137,
+      "text": "            p=clipped.representative_point();x,y=xy(p.x,p.y);bb=d.textbbox((0,0),label,font=font(32));w=bb[2]-bb[0]+18;hh=44"
+    },
+    {
+      "line": 201,
+      "text": "    d.text((px,py),str(idx),font=font(30),fill=marker_ink,anchor='mm')"
+    },
+    {
+      "line": 207,
+      "text": "    yy=1810+(idx-1)*100;d.ellipse((1265,yy-24,1313,yy+24),fill=marker_fill);d.text((1289,yy),str(idx),font=font(31),fill=marker_ink,anchor='mm');text(1340,yy,n,40,anchor='lm')"
+    },
+    {
+      "line": 209,
+      "text": "text(65,2310,'Ming Cao  |  © OpenStreetMap contributors  |  US Census land (locator)',32,'#5f796e')"
+    }
+  ],
+  "04/scripts/night_light.py": [
+    {
+      "line": 29,
+      "text": "def font(n,b=False):return ImageFont.truetype('C:/Windows/Fonts/'+('arialbd.ttf' if b else 'arial.ttf'),n)"
+    },
+    {
+      "line": 30,
+      "text": "def text(dr,x,y,s,n=25,c=INK,b=False,**kw):dr.text((x,y),s,font=font(n,b),fill=c,**kw)"
+    },
+    {
+      "line": 176,
+      "text": "    text(dr,70,40,'DAY 04     /     CLUSTERS OF PLAY',24,MUTED,True)"
+    },
+    {
+      "line": 196,
+      "text": "    text(dr,70,1830,'Ming Cao',32,INK,True)"
+    }
+  ],
+  "05/scripts/export_final_stills.py": [
+    {
+      "line": 13,
+      "text": "    c.text(80,65,'DAY 05  /  SIGHT',23,TEAL)"
+    },
+    {
+      "line": 24,
+      "text": "    c.text(WIDTH-80,1462,'Ming Cao',29,NAVY,serif=True,anchor='end')"
+    }
+  ],
+  "05/scripts/waterfront_drawing.py": [
+    {
+      "line": 21,
+      "text": "                '<title>Seeing New York from the Water — Lower Manhattan, lookout 03</title>',"
+    },
+    {
+      "line": 41,
+      "text": "        font=ImageFont.truetype('C:/Windows/Fonts/'+file,size)"
+    },
+    {
+      "line": 42,
+      "text": "        self.s.append(f'<text x=\"{x}\" y=\"{y}\" font-family=\"{fam}\" font-size=\"{size}\" font-weight=\"{700 if bold else 400}\" text-anchor=\"{anchor}\" fill=\"{color}\">{html.escape(s)}</text>')"
+    },
+    {
+      "line": 43,
+      "text": "        self.d.text((x+self.tx,y+self.ty),s,font=font,fill=color,anchor={'start':'ls','middle':'ms','end':'rs'}[anchor])"
+    }
+  ],
+  "06/scripts/render_final.py": [
+    {
+      "line": 18,
+      "text": "def font(size,serif=False,bold=False,symbol=False):"
+    },
+    {
+      "line": 62,
+      "text": "        f=font(size,serif,bold,symbol);b=d.textbbox((x,y),t,font=f)"
+    },
+    {
+      "line": 65,
+      "text": "        d.text((x,y),t,font=f,fill=color)"
+    },
+    {
+      "line": 70,
+      "text": "            if d.textlength(test,font=font(size))>width and row:"
+    },
+    {
+      "line": 75,
+      "text": "    text(115,85,'DAY 06 / VINTAGE',34,bold=True)"
+    },
+    {
+      "line": 84,
+      "text": "    def note(num,title,body,rect,world,anchor):"
+    },
+    {
+      "line": 90,
+      "text": "        text(x0+105,y0+26,title,49,serif=True)"
+    },
+    {
+      "line": 131,
+      "text": "    text(4060,2873,'Ming Cao',55,serif=True)"
+    }
+  ],
+  "08/scripts/render_final.py": [
+    {
+      "line": 29,
+      "text": "    d.text((x*EXPORT_SCALE,y*EXPORT_SCALE),s,font=f,fill=color)"
+    },
+    {
+      "line": 30,
+      "text": "    svg.append(f'<text x=\"{x}\" y=\"{y+size*.94}\" font-family=\"Arial\" font-size=\"{size}\" font-weight=\"{\"bold\" if bold else \"normal\"}\" fill=\"{color}\">{html.escape(s)}</text>')"
+    },
+    {
+      "line": 383,
+      "text": "text(100,30,'DAY 08 / UTOPIA',24,bold=True)"
+    },
+    {
+      "line": 386,
+      "text": "text(1630,39,'Ming Cao',28,bold=True)"
+    },
+    {
+      "line": 390,
+      "text": "label=Image.new('RGBA',(135*EXPORT_SCALE,42*EXPORT_SCALE));ImageDraw.Draw(label).text((6*EXPORT_SCALE,5*EXPORT_SCALE),'18TH ST',font=f,fill=INK)"
+    },
+    {
+      "line": 393,
+      "text": "svg.append(f'<text transform=\"translate(951,1125) rotate(-80)\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"23\" font-weight=\"bold\" fill=\"{INK}\">18TH ST</text>')"
+    },
+    {
+      "line": 422,
+      "text": "    'title':'A City at Stroller Speed',"
+    }
+  ],
+  "09/scripts/render_day09_bathymetry.py": [
+    {
+      "line": 19,
+      "text": "fonts={}"
+    },
+    {
+      "line": 20,
+      "text": "def font(size,cjk=False):"
+    },
+    {
+      "line": 22,
+      "text": "    if key not in fonts:"
+    },
+    {
+      "line": 25,
+      "text": "        fonts[key]=f"
+    },
+    {
+      "line": 26,
+      "text": "    return fonts[key]"
+    },
+    {
+      "line": 33,
+      "text": "    size=old['font_size']*1.2;f=font(size,True);bb=f.getbbox(r['surname'],anchor='lt');tw,th=(bb[2]-bb[0])/R,(bb[3]-bb[1])/R"
+    },
+    {
+      "line": 38,
+      "text": "# exception is permitted, and no national/table/annotation font is scaled."
+    },
+    {
+      "line": 74,
+      "text": "    r=q['r'];r['font_size_before_enlargement']=old['font_size'];r['font_size']=q['size'];r['base_font_size']=q['size'];r['font_scale_once']=1.2;r['font_reduction']=0"
+    },
+    {
+      "line": 86,
+      "text": "    node=text_nodes[q['i']];bearing=font(q['size'],True).getbbox(t['text'],anchor='ls')[1]/R"
+    },
+    {
+      "line": 87,
+      "text": "    node.set('x',f'{t[\"bounds\"][0]:.3f}');node.set('y',f'{t[\"bounds\"][1]-bearing:.3f}');node.set('font-size',f'{q[\"size\"]:.3f}')"
+    },
+    {
+      "line": 173,
+      "text": "    draw.text((t['bounds'][0]*R,t['bounds'][1]*R),t['text'],font=font(t['size'],t['cjk']),fill=e.get('fill'),anchor='lt')"
+    },
+    {
+      "line": 177,
+      "text": "    f=font(size);bb=f.getbbox(s,anchor='lt');ww,hh=(bb[2]-bb[0])/R,(bb[3]-bb[1])/R;bearing=f.getbbox(s,anchor='ls')[1]/R"
+    },
+    {
+      "line": 179,
+      "text": "    draw.text((x*R,y*R),s,font=f,fill='#234657',anchor='lt')"
+    },
+    {
+      "line": 180,
+      "text": "    ET.SubElement(root,f'{{{NS}}}text',{'x':str(x),'y':f'{y-bearing:.3f}','font-family':'Arial','font-weight':'400','font-size':str(size),'fill':'#234657','data-role':'bathymetry-note'}).text=s"
+    },
+    {
+      "line": 189,
+      "text": "assert all(abs(r['font_size']-s['font_size']*1.2)<1e-9 and r['color']==s['color'] for r,s in zip(records,baseline['records']))"
+    },
+    {
+      "line": 194,
+      "text": "    font_scale_once=1.2,font_scale_reference='data/render_inputs/approved_pre_enlargement.json',base_labels_repacked=True,"
+    },
+    {
+      "line": 196,
+      "text": "    max_font_enlargement_shift_m=max(r['enlargement_extra_shift_m'] for r in records),text_box_overlaps=overlap)"
+    },
+    {
+      "line": 199,
+      "text": "audit['layout_adjustment']={'executed':True,'type':'Local collision separation after a single uniform 1.2 map-font enlargement; source positions remain the preferred centers.'}"
+    },
+    {
+      "line": 205,
+      "text": "    'reading_area_method':'Smooth pale display compositing behind title, table and footer; locator uses neutral pale sea without quantitative bathymetry or contours.',"
+    },
+    {
+      "line": 208,
+      "text": "    fields=['id','label_type','surname','national_population','font_size_before_enlargement','font_size','font_scale_once','panel','source_place','source_local_rank','source_local_count','source_local_population','source_local_share','local_reference_displacement_m','enlargement_extra_shift_m','label_x','label_y']"
+    },
+    {
+      "line": 211,
+      "text": "print(json.dumps({'labels':40,'size_range':[52.8,129.6],'scale_factor':1.2,'max_position_adjustment_m':audit['max_font_enlargement_shift_m'],'text_overlaps':overlap,'bathymetry':'real NOAA ETOPO 2022 subset','contour_parts':len(contour_parts)},indent=2))"
+    }
+  ],
+  "10/scripts/render_heritage.py": [
+    {
+      "line": 24,
+      "text": "def font(size,serif=False,bold=False):return ImageFont.truetype('C:/Windows/Fonts/'+('georgia.ttf' if serif else 'arialbd.ttf' if bold else 'arial.ttf'),round(size*S))"
+    },
+    {
+      "line": 40,
+      "text": "        ft=font(size,serif,bold);bb=tuple(v/S for v in d.textbbox((round(x*S),round(y*S)),s,font=ft))"
+    },
+    {
+      "line": 46,
+      "text": "        d.text((round(x*S),round(y*S)),s,font=ft,fill=color)"
+    },
+    {
+      "line": 79,
+      "text": "    text(65,45,'30 DAY MAP CHALLENGE 2026  /  10  PROMPTING ONLY',19,MUTED,bold=True)"
+    },
+    {
+      "line": 108,
+      "text": "    text(2080,1684,'Ming Cao',38,serif=True)"
+    }
+  ],
+  "10/interactive/style.css": [
+    {
+      "line": 2,
+      "text": "*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,sans-serif}main{max-width:1920px;margin:auto}.stage{position:relative;width:100%;aspect-ratio:4/3;overflow:hidden;background:var(--paper)}#map{display:block;width:100%;height:100%;touch-action:none;cursor:grab}#map.dragging{cursor:grabbing}#basemap,#geographic-labels,#scale-bar,#fixed-artwork{pointer-events:none}#fixed-artwork text,#geographic-labels text{user-select:none}.heritage-point{stroke:var(--paper);stroke-width:.5;transition:fill .38s ease,stroke .15s;outline:none;cursor:pointer}.heritage-point.hovered{stroke:var(--ink);stroke-width:1.4}.heritage-point.selected{stroke:#181c1b;stroke-width:1.8}.heritage-point.related{stroke:#423834;stroke-width:1}button,input,select,a{-webkit-tap-highlight-color:transparent}button{font:inherit;background:transparent;border:1px solid var(--line);border-radius:2px;color:var(--ink);cursor:pointer;padding:6px 12px}button:hover{background:#e8e2d7}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #914c45;outline-offset:3px}button:disabled{opacity:.4}.view-tools{position:absolute;left:2.7%;top:17.8%;display:flex;align-items:center;gap:12px;color:var(--muted);font-size:clamp(10px,.75vw,14px);pointer-events:none}.view-tools button{pointer-events:auto;background:var(--paper)}.timeline{position:absolute;left:30%;bottom:6.5%;width:39%;font-size:clamp(10px,.85vw,15px);color:var(--ink)}.timeline-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;font-size:.83em;letter-spacing:.07em}.timeline output{font-family:Georgia,serif;font-size:1.7em;letter-spacing:0;white-space:nowrap}.timeline-controls{display:flex;gap:12px;align-items:center;margin-top:8px}.timeline button{min-width:63px;padding:6px 8px}.timeline input{width:100%;height:30px;margin:0;accent-color:#914c45;cursor:ew-resize}.timeline-ticks{position:relative;height:16px;margin-left:75px;font-size:.78em;color:var(--muted)}.timeline-ticks span{position:absolute;transform:translateX(-50%);white-space:nowrap}.timeline-ticks span:first-child{transform:none}.timeline-ticks span:last-child{transform:translateX(-100%)}.timeline p{font-size:.77em;line-height:1.45;margin:7px 0 0;color:var(--muted)}.tooltip,.details{position:absolute;z-index:4;background:rgba(250,247,240,.98);border:1px solid #c8c2b6;color:var(--ink);font-size:13px;line-height:1.45;box-shadow:0 3px 16px #42383412}.tooltip{pointer-events:none;max-width:290px;padding:11px 13px}.tooltip strong{font:18px Georgia,serif;display:block;margin-bottom:7px}.tooltip p{margin:3px 0}.tooltip .tip-note{margin-top:8px;color:var(--muted);font-size:11px}.details{width:min(355px,calc(100% - 24px));max-height:min(67vh,640px);overflow:auto;padding:16px;border-color:#75665b}.details .close{position:absolute;right:8px;top:6px;border:0;font-size:23px;padding:0 7px}.details .eyebrow{font-size:10px;color:var(--muted);letter-spacing:.08em;margin:0 22px 9px 0}.details h2{font:23px/1.16 Georgia,serif;margin:0 15px 12px 0}.details p{margin:8px 0}.details .component-name{font-size:12px;color:var(--muted)}.details dl{margin:12px 0}.details dt{font-size:10px;font-weight:bold;color:var(--muted);text-transform:uppercase;margin-top:12px;letter-spacing:.04em}.details dd{margin:3px 0;overflow-wrap:anywhere}.details a{color:#783f37;text-underline-offset:3px}.details select{font:12px Arial,sans-serif;max-width:100%;width:100%;padding:8px 4px;background:var(--paper);border:1px solid var(--line);color:var(--ink)}.details label{display:block;margin:12px 0 5px;font-size:11px;color:var(--muted)}.details .status{font-size:11px;color:#864f39}.mobile-hint{display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[hidden]{display:none!important}"
+    },
+    {
+      "line": 3,
+      "text": "@media(max-width:700px){.stage{overflow:visible;margin-bottom:160px}.view-tools{top:18%;font-size:10px}.view-tools span{display:none}.view-tools button{padding:4px 8px;font-size:10px}.timeline{left:5%;bottom:auto;top:calc(100% + 12px);width:90%;font-size:14px}.timeline p{font-size:11px}.timeline button{height:38px}.timeline input{height:40px}.timeline-ticks{height:18px}.timeline-heading{font-size:11px}.timeline-ticks .extra-tick{display:none}.mobile-hint{display:block;margin:0 18px 24px;font-size:12px;color:var(--muted);line-height:1.5}.details{position:fixed;left:12px!important;right:12px;top:auto!important;bottom:12px;max-height:58vh;width:auto;font-size:13px}.tooltip{display:none}.timeline output{font-size:22px}}"
+    },
+    {
+      "line": 12,
+      "text": ".view-tools{font-size:clamp(12px,.75vw,14px);flex-direction:row;align-items:center;gap:12px;white-space:nowrap}"
+    },
+    {
+      "line": 15,
+      "text": ".timeline{font-size:clamp(13px,.85vw,15px)}"
+    },
+    {
+      "line": 18,
+      "text": "  .timeline{top:auto;bottom:72px;font-size:14px}"
+    }
+  ],
+  "11/scripts/render_final.py": [
+    {
+      "line": 18,
+      "text": "fonts={}"
+    },
+    {
+      "line": 20,
+      "text": "def font(size,ipa=False):"
+    },
+    {
+      "line": 22,
+      "text": "    if key not in fonts:"
+    },
+    {
+      "line": 25,
+      "text": "        fonts[key]=f"
+    },
+    {
+      "line": 26,
+      "text": "    return fonts[key]"
+    },
+    {
+      "line": 67,
+      "text": "        f=font(float(a['font-size']),a.get('font-family','').startswith('Arial'));x=float(a['x']);y=float(a['y'])"
+    },
+    {
+      "line": 69,
+      "text": "        draw.text((x*S,y*S),item['text'],font=f,fill=a['fill'],anchor='lt')"
+    },
+    {
+      "line": 84,
+      "text": "        css.append(\"@font-face{font-family:'\"+family+\"';src:url(data:font/ttf;base64,\"+data+\") format('truetype');}\")"
+    },
+    {
+      "line": 165,
+      "text": "    assert scene['subtitle']=='How “水” (water) is pronounced across Cantonese-speaking communities'"
+    },
+    {
+      "line": 166,
+      "text": "    assert sum(q.get('text')==scene['subtitle'] for q in scene['overlay'])==1"
+    },
+    {
+      "line": 191,
+      "text": "    report=dict(title=scene['title'],subtitle=scene['subtitle'],author=scene['author'],records=79,located_records=74,in_frame_records=73,clusters=48,cluster_records=60,anchor_only_records=13,unlocated_records=5,outside_frame_records=1,initial_counts=dict(collections.Counter(r['initial'] for r in rows)),final_counts=dict(collections.Counter(r['final'] for r in rows)),gif=animation,legend=dict(columns=2,header_y=1382,first_caption_y=1410,pattern_width=330,pattern_left_edge=2160,caption_x=2160,caption_side='above sample',pattern_row_centers=[1475,1585,1695,1805],unclassified_finals_retained=True),source_csv_sha256=frozen,files={name:dict(bytes=(OUT/name).stat().st_size,sha256=hashlib.sha256((OUT/name).read_bytes()).hexdigest()) for name in ['where_sounds_ripple.png','where_sounds_ripple.jpg','where_sounds_ripple.gif','where_sounds_ripple.svg']})"
+    }
+  ],
+  "12/scripts/render_final.py": [
+    {
+      "line": 12,
+      "text": "from drawing import layer, over, font"
+    },
+    {
+      "line": 221,
+      "text": "        draw.text((x0,y0),text,font=typeface,fill=color)"
+    },
+    {
+      "line": 222,
+      "text": "        occupied.append(list(draw.textbbox((x0,y0),text,font=typeface)))"
+    },
+    {
+      "line": 224,
+      "text": "    label(70,'30 DAY MAP CHALLENGE 2026',font(30),'#9db1bf')"
+    },
+    {
+      "line": 225,
+      "text": "    label(148,'The Shape of Wind',font(132,serif=True),'#e9edf0')"
+    },
+    {
+      "line": 226,
+      "text": "    day_font=ImageFont.truetype('C:/Windows/Fonts/arialbd.ttf',34)"
+    },
+    {
+      "line": 227,
+      "text": "    label(340,'DAY 12 / POWER',day_font,'#d0e0e8')"
+    },
+    {
+      "line": 228,
+      "text": "    label(410,CFG['region_label'],font(28),'#a6bac9')"
+    },
+    {
+      "line": 229,
+      "text": "    label(505,'WIND SPEED (m/s)',font(26),'#b4cbd6')"
+    },
+    {
+      "line": 240,
+      "text": "        draw.text(position,f'{v:g}',font=font(26),fill='#a6bac9',anchor='mt' if v else 'lt')"
+    },
+    {
+      "line": 241,
+      "text": "        occupied.append(list(draw.textbbox(position,f'{v:g}',font=font(26),anchor='mt' if v else 'lt')))"
+    },
+    {
+      "line": 242,
+      "text": "    label(680,'ERA5 \\u00b7 10 m wind \\u00b7 15 Jan 2025 \\u00b7 06:00 UTC' if data_label is None else data_label,font(28),'#a6bac9')"
+    },
+    {
+      "line": 243,
+      "text": "    label(760,'Ming Cao',font(42,serif=True),'#e1e9ed')"
+    }
+  ],
+  "12/scripts/drawing.py": [
+    {
+      "line": 1,
+      "text": "\"\"\"Antialiased rounded brush layers and local system fonts.\"\"\""
+    },
+    {
+      "line": 34,
+      "text": "def font(size,serif=False,italic=False):"
+    }
+  ],
+  "13/scripts/render_collection.cjs": [
+    {
+      "line": 11,
+      "text": "assert.ok(x&&dest);assert.equal(labels[config.destination].title,'40th St & Walnut St');"
+    },
+    {
+      "line": 25,
+      "text": "const text=(x,y,value,size=18,fill='#9aaebd',attrs='')=>`<text x=\"${x}\" y=\"${y}\" font-size=\"${size}\" fill=\"${fill}\" ${attrs}>${esc(value)}</text>`;"
+    },
+    {
+      "line": 29,
+      "text": "<style>text{font-family:Arial,Helvetica,sans-serif;font-weight:normal}.serif{font-family:Georgia,'Times New Roman',serif;font-style:normal}.place{letter-spacing:3px;paint-order:stroke;stroke:#101a29;stroke-width:5;stroke-opacity:.65}.fine{letter-spacing:2px}</style>"
+    },
+    {
+      "line": 50,
+      "text": "svg+=text(lx,ly,labels[config.destination].title,23,'#e7eef3');"
+    },
+    {
+      "line": 52,
+      "text": "svg+=text(75,78,'30 DAY MAP CHALLENGE 2026',18,'#9aaebd','letter-spacing=\"3.4\"');"
+    },
+    {
+      "line": 55,
+      "text": "svg+=text(75,331,'DAY 13 / INTERACTIONS',19,'#d1e4ec','letter-spacing=\"2\"');"
+    },
+    {
+      "line": 58,
+      "text": "svg+=text(75,473,'Ming Cao',27,'#e7eef3','class=\"serif\"');"
+    },
+    {
+      "line": 89,
+      "text": "const manifest={...config,title:'Where Night Comes From',streetLabel:labels[config.destination].title,"
+    },
+    {
+      "line": 94,
+      "text": "(async()=>{const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});try{const page=await browser.newPage({viewport:{width:W,height:H},deviceScaleFactor:1});await page.setContent('<!doctype html><html><head><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#101a29}svg{display:block}</style></head><body>'+svg+'</body></html>');await page.evaluate(()=>document.fonts.ready);assert.equal(await page.locator('button,select,input,.panel,.leaflet-control').count(),0);assert.equal(await page.locator('svg').count(),1);const boxes=await page.locator('text').evaluateAll(es=>es.map(e=>{const b=e.getBBox();return {text:e.textContent,x:b.x,y:b.y,r:b.x+b.width,b:b.y+b.height}}));for(let i=0;i<boxes.length;i++)for(let j=i+1;j<boxes.length;j++){const a=boxes[i],b=boxes[j];assert.ok(!(Math.min(a.r,b.r)-Math.max(a.x,b.x)>1&&Math.min(a.b,b.b)-Math.max(a.y,b.y)>1),'Text overlap: '+a.text+' / '+b.text)}await page.screenshot({path:output,fullPage:false});const png=fs.readFileSync(output);assert.equal(png.readUInt32BE(16),W);assert.equal(png.readUInt32BE(20),H);fs.writeFileSync(path.join(root,'metadata/collection_validation.json'),JSON.stringify({passed:true,noDashboard:true,noControls:true,noTextOverlap:true,realSelectedDestination:config.destination,width:W,height:H,bytes:png.length,connections:drawn.length,publicationCleared:false},null,2));console.log(JSON.stringify({...manifest,bytes:png.length},null,2));}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});"
+    }
+  ],
+  "13/scripts/prototype.css": [
+    {
+      "line": 2,
+      "text": "*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:var(--bg);color:var(--ink);font:13px/1.5 Arial,Helvetica,sans-serif}button,select{font:inherit;color:inherit;background:#1b2c40;border:1px solid #3b5267;border-radius:4px}button{padding:9px 11px;cursor:pointer}button:hover{background:#29445a}button:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid #c6edf0;outline-offset:3px}button[aria-pressed=true]{background:#386d87;border-color:#69b4c7;color:#f1fafb}select{width:100%;padding:9px 7px;font-size:12px}"
+    },
+    {
+      "line": 3,
+      "text": "#map{position:absolute;inset:0 var(--sidebar) var(--footer) 0;background:var(--bg)}.leaflet-container{background:var(--bg);font-family:Arial,Helvetica,sans-serif}.leaflet-control-scale-line{border-color:#9aaebd;color:#d6e6ed;background:#101a29d9;text-shadow:none;font-size:11px}.leaflet-bottom.leaflet-left{left:calc(var(--inset) + 48px);bottom:18px}.leaflet-bottom.leaflet-right{right:12px;bottom:18px}.leaflet-bar{border:1px solid #3b5267!important;box-shadow:none!important}.leaflet-bar a{background:#172436!important;color:#e7eef3!important;border-color:#3b5267!important}.leaflet-bar a:hover{background:#29445a!important}.leaflet-tooltip{background:#172436;color:#e7eef3;border:1px solid #517890;box-shadow:0 3px 12px #08111b70;font-size:12px}.leaflet-tooltip:before{display:none}.leaflet-interactive:focus{outline:2px solid #c6edf0}"
+    },
+    {
+      "line": 4,
+      "text": ".masthead{position:absolute;z-index:700;left:30px;top:26px;max-width:calc(100% - var(--sidebar) - 90px);pointer-events:none}.eyebrow{font-size:10px;letter-spacing:2.5px;color:var(--soft);text-transform:uppercase;margin-bottom:12px}h1{font:normal 48px/1.1 Georgia,'Times New Roman',serif;letter-spacing:-1.3px;margin:0 0 15px;color:var(--ink);text-shadow:0 2px 18px #101a29}h1 em{font:inherit;color:inherit}.subtitle{max-width:520px;font-size:12px;line-height:1.8;color:#b8cbd7;margin:0}.local-tag{display:inline-block;margin-top:12px;color:#9aaebd;font-size:9px;letter-spacing:1.3px;border-top:1px solid #385064;padding-top:6px}"
+    },
+    {
+      "line": 5,
+      "text": ".panel{position:absolute;z-index:800;right:0;top:0;bottom:var(--footer);width:var(--sidebar);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#3e6279 #172436;background:var(--secondary);border-left:1px solid #30465b;padding:25px 22px 24px}label,.label{display:block;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--soft);margin-bottom:8px}.months{display:flex;gap:7px;margin-bottom:17px}.months button{flex:1;font-size:12px}.select-wrap{margin-bottom:12px}.actions{display:flex;gap:7px}.actions button{font-size:11px;flex:1;padding:9px 6px}.state{border-top:1px solid #30465b;margin-top:20px;padding-top:17px}#selectionName{font:normal 17px/1.4 Arial,Helvetica,sans-serif;overflow-wrap:anywhere;margin-bottom:6px}.small{font-size:11px;line-height:1.65;color:var(--soft)}.sum{font:normal 32px/1.2 Arial,Helvetica,sans-serif;font-variant-numeric:tabular-nums;color:#e7eef3;margin-top:15px}.sum small{font-size:11px;line-height:1.55;display:block;color:var(--soft);margin-top:4px}.data-month{display:block;font-size:11px;color:#b8cbd7;margin-top:4px}"
+    },
+    {
+      "line": 6,
+      "text": ".coverage-block{margin-top:22px}.coverage-heading{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}.coverage-heading .label{margin:0;letter-spacing:1px}.mapped{font-size:20px;line-height:1.4;font-variant-numeric:tabular-nums;color:#c6edf0}.coverage{height:12px;display:flex;width:100%;overflow:hidden;border-radius:2px;background:#26394d}.coverage span{height:100%;min-width:0;transition:width 160ms ease-out}.coverage span:nth-child(1){background:#69b4c7}.coverage span:nth-child(2){background:#386d87}.coverage span:nth-child(3){background:#526072}.coverage-labels{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:10px}.coverage-labels div{min-width:0}.coverage-labels strong{display:block;font-size:14px;font-weight:normal;font-variant-numeric:tabular-nums;color:#e7eef3}.coverage-labels span{display:block;font-size:10px;line-height:1.5;color:#9aaebd;margin-top:3px}.coverage-labels i{display:inline-block;width:6px;height:6px;margin-right:4px;background:#69b4c7}.coverage-labels div:nth-child(2) i{background:#386d87}.coverage-labels div:nth-child(3) i{background:#526072}.coverage-note{font-size:10px;line-height:1.6;color:#9aaebd;margin:11px 0 0}"
+    },
+    {
+      "line": 7,
+      "text": ".legend{border-top:1px solid #30465b;margin-top:20px;padding-top:17px}.ramp{height:8px;margin:10px 0 7px;border-radius:2px}.ticks{position:relative;height:20px;font-size:10px;color:#b8cbd7}.ticks span{position:absolute;transform:translateX(-50%)}.ticks span:nth-child(1){left:0;transform:none}.ticks span:nth-child(2){left:31.6228%}.ticks span:nth-child(3){left:63.2456%}.ticks span:nth-child(4){right:0;transform:none}.legend-detail{margin-top:8px}.legend-detail summary,.ranked summary{cursor:pointer;color:#bbd1de;font-size:12px}.legend-detail .small{margin:8px 0}.key{display:flex;align-items:center;gap:8px;font-size:11px;color:#b8cbd7;margin-top:8px}.sample{width:22px;height:10px;display:inline-block;border:1px solid #e7eef3;flex-shrink:0}.sample.target{border:1px dashed #aedce8}.sample.sliver{border-color:#687e91;border-style:dotted}"
+    },
+    {
+      "line": 8,
+      "text": ".inset-card{position:absolute;z-index:700;left:28px;bottom:calc(var(--footer) + 24px);width:var(--inset);border:1px solid #405b70;background:#142234;box-shadow:0 4px 20px #09111d50}.inset-title{padding:11px 13px 10px;display:flex;justify-content:space-between;gap:10px;align-items:baseline}.inset-title strong{font:normal 14px Arial,Helvetica,sans-serif}.inset-title span{font-size:9px;color:#9aaebd;letter-spacing:.8px;white-space:nowrap}#inset{height:185px}.inset-caption{font-size:10px;color:#afc2d0;padding:9px 13px;line-height:1.6}.map-note{position:absolute;z-index:650;left:calc(var(--inset) + 48px);bottom:calc(var(--footer) + 76px);max-width:min(320px,calc(100% - var(--sidebar) - var(--inset) - 125px));color:#9aaebd;font-size:10px;line-height:1.7;pointer-events:none}.map-note strong{font-weight:normal;color:#c6dce7}.map-note .note-detail{display:block;margin-top:4px}"
+    },
+    {
+      "line": 9,
+      "text": ".city-label{font-size:10px;letter-spacing:1.7px;text-transform:uppercase;color:#879eb1;white-space:nowrap;pointer-events:none;text-shadow:0 1px 5px #101a29}.city-label.river{font:normal 12px Arial,Helvetica,sans-serif;letter-spacing:1px;color:#7097ae;text-transform:none}.road-label{font-size:9px;color:#b2c5d3;white-space:nowrap;text-shadow:0 1px 3px #101a29}.corridor-label{color:#d6f1f3;font-size:11px;line-height:1.6;width:158px;letter-spacing:.3px;text-shadow:0 1px 4px #08121c}.origin-info{margin-top:18px;border-top:1px solid #30465b;padding-top:14px;font-size:12px;line-height:1.7;color:#c8dbe5}.origin-info strong{color:#c6edf0;font-weight:normal}.ranked{margin-top:17px}.ranked ol{list-style:none;padding:0;margin:9px 0 0}.ranked button{font-size:11px;width:100%;display:flex;justify-content:space-between;gap:6px;border:0;border-bottom:1px solid #30465b;border-radius:0;padding:9px 0;background:transparent;font-variant-numeric:tabular-nums}.ranked button:hover{background:#20364b}"
+    },
+    {
+      "line": 10,
+      "text": ".footer{position:absolute;z-index:950;left:0;right:0;bottom:0;height:var(--footer);background:#101a29;border-top:1px solid #26394d;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:0 22px;font-size:9px;color:#9aaebd;letter-spacing:.1px}.footer a{color:#aacbdc;text-decoration:none}.footer a:hover{text-decoration:underline}.north{position:absolute;z-index:650;right:calc(var(--sidebar) + 23px);top:24px;color:#9aaebd;text-align:center;font-size:10px;pointer-events:none}.north:before{content:'↑';display:block;font-size:23px}.error{position:absolute;z-index:999;top:40%;left:15%;background:#342334;padding:25px;max-width:60%}#loading{position:absolute;z-index:999;left:35%;top:40%;font:18px Georgia;color:#c6edf0}"
+    },
+    {
+      "line": 11,
+      "text": ".coverage-labels span{font-size:11px}.panel::-webkit-scrollbar{width:6px}.panel::-webkit-scrollbar-track{background:#172436}.panel::-webkit-scrollbar-thumb{background:#45647a;border-radius:6px}"
+    },
+    {
+      "line": 12,
+      "text": ".panel .state{border-top:0;margin-top:25px;padding-top:0}.destination-caption{min-height:66px}.panel #selectionName{font:normal 22px/1.35 Arial,Helvetica,sans-serif;margin:0 0 5px;overflow-wrap:normal}.panel #selectionGeoid{font-size:12px;line-height:1.5;color:var(--soft);font-variant-numeric:tabular-nums;min-height:18px}.panel .sum{font:normal 40px/1.15 Arial,Helvetica,sans-serif;font-variant-numeric:lining-nums tabular-nums;margin-top:16px}.panel .total-value{display:block;min-height:46px}.panel .sum small{font-size:11px;line-height:1.6;margin-top:8px}.panel .coverage-block{margin-top:25px}.panel .legend{border-top:0;padding-top:0;margin-top:25px}.panel .ranked{margin-top:20px}.panel .origin-info{border-top:0;padding-top:0;margin-top:16px}.panel .origin-info:empty{display:none}"
+    },
+    {
+      "line": 13,
+      "text": ".theme{font-size:11px;letter-spacing:1.5px;color:#c6dce7;margin:0 0 9px}.byline{font-size:12px;color:#c6dce7;margin-top:12px}.masthead .eyebrow{letter-spacing:2px}.inset-caption{padding:9px 13px}.map-note .note-detail{margin-top:2px}"
+    },
+    {
+      "line": 14,
+      "text": "@media(min-height:870px) and (min-width:1150px){:root{--inset:330px}#inset{height:225px}.masthead{top:32px;left:34px}h1{font-size:53px}.inset-card{left:30px}.map-note{bottom:calc(var(--footer) + 100px)}}"
+    },
+    {
+      "line": 15,
+      "text": "@media(max-width:1100px) and (min-width:761px){:root{--sidebar:292px;--inset:265px}.panel{padding:22px 17px}.masthead{left:24px;top:24px}h1{font-size:40px}.subtitle{font-size:11px;max-width:410px}.inset-card{left:22px}#inset{height:170px}.inset-title{padding:10px}.inset-title strong{font-size:12px}.inset-title span{font-size:8px}.map-note{font-size:10px;max-width:calc(100% - var(--sidebar) - var(--inset) - 105px)}.note-detail{display:none!important}.footer{font-size:8px;padding:0 14px}.local-tag{font-size:8px;letter-spacing:1px}}"
+    },
+    {
+      "line": 16,
+      "text": "@media(max-width:760px){html,body{height:auto;min-height:100%;overflow:auto;overflow-x:hidden}.masthead{position:relative;left:auto;top:auto;max-width:none;padding:23px 20px 20px;background:var(--bg)}h1{font-size:39px;line-height:1.12;letter-spacing:-1px;margin-bottom:13px}.eyebrow{font-size:9px;letter-spacing:2px}.subtitle{font-size:11px}.local-tag{font-size:8px;letter-spacing:1px}#map{position:relative;inset:auto;height:470px;width:100%}.panel{position:relative;inset:auto;width:auto;max-height:560px;margin:12px;border:1px solid #30465b;padding:20px;overflow-y:auto}.inset-card{position:relative;left:auto;bottom:auto;width:auto;margin:12px}#inset{height:240px}.map-note{position:relative;left:auto;bottom:auto;max-width:none;margin:19px 20px;font-size:11px}.footer{position:relative;height:auto;min-height:52px;padding:12px 20px;display:block;font-size:9px;line-height:1.7}.footer span{display:block}.north{display:none}.leaflet-bottom.leaflet-left{left:8px;bottom:12px}.leaflet-bottom.leaflet-right{right:8px;bottom:12px}.coverage-labels span{font-size:11px}.origin-info{font-size:12px}.inset-caption{font-size:11px}.map-note .note-detail{display:block!important}}"
+    }
+  ],
+  "14/scripts/animate_audited_camera.py": [
+    {
+      "line": 14,
+      "text": "from matplotlib.font_manager import FontProperties"
+    },
+    {
+      "line": 58,
+      "text": " font=FontProperties(fname='C:/Windows/Fonts/georgia.ttf')"
+    },
+    {
+      "line": 59,
+      "text": " for x,y,text,size,prop in [(.045,.93,'Atlas of Impossible Places',24,font),(.045,.885,'Four real cities. Infinite impossible geographies.',10.5,None),(.045,.84,'DAY 14 / BORGESIAN MAP',8.5,None),(.045,.105,'The same city fragments, endlessly rearranged.',9,None),(.045,.065,'Philadelphia · Nanjing · Guangzhou · New York City',7.3,None),(.045,.035,'© OpenStreetMap contributors · ODbL · GEOMETRY PREVIEW',6.4,None)]:fig.text(x,y,text,fontsize=size,fontproperties=prop,color=INK)"
+    },
+    {
+      "line": 60,
+      "text": " fig.text(.955,.035,'Ming Cao',fontsize=8.5,color=INK,ha='right')"
+    }
+  ],
+  "15/scripts/render_final.py": [
+    {
+      "line": 34,
+      "text": " kw=dict(fontfamily='DejaVu Serif',fontsize=size,color=color,rotation=angle,ha=ha,va='center',zorder=z())"
+    },
+    {
+      "line": 181,
+      "text": "label([95,2278],'DAY 15  /  INSIDE OUT',12,'#955b47',ha='left')"
+    }
+  ],
+  "16/scripts/render_final.py": [
+    {
+      "line": 56,
+      "text": "def cause_title(cat):"
+    },
+    {
+      "line": 62,
+      "text": "    a.txt(fig,.05,.965,a.EYEBROW,10,a.MUTED,fontproperties=a.MONO)"
+    },
+    {
+      "line": 63,
+      "text": "    a.txt(fig,.95,.965,'NOVEMBER 9\\u201315, 2026',10,a.MUTED,ha='right',fontproperties=a.MONO)"
+    },
+    {
+      "line": 64,
+      "text": "    a.txt(fig,.05,.935,a.CREDIT,11,a.MUTED)"
+    },
+    {
+      "line": 69,
+      "text": "      fontsize=23,fontproperties=a.SERIF,color=a.INK,zorder=30,va='top',linespacing=1.12)"
+    },
+    {
+      "line": 71,
+      "text": "      fontsize=12,fontproperties=a.SERIF,color=a.MUTED,zorder=30,va='top')"
+    },
+    {
+      "line": 73,
+      "text": "    a.txt(fig,SIDEBAR,.718,'REPORTED DIRECT CAUSE' if cat else 'SEVEN-DAY SERVICE OVERVIEW',9.5,color,fontproperties=a.MONO)"
+    },
+    {
+      "line": 74,
+      "text": "    top,bottom=cause_title(cat)"
+    },
+    {
+      "line": 75,
+      "text": "    a.txt(fig,SIDEBAR,.673,top,24,fontproperties=a.SERIF)"
+    },
+    {
+      "line": 76,
+      "text": "    a.txt(fig,SIDEBAR,.64,bottom,24,fontproperties=a.SERIF)"
+    },
+    {
+      "line": 77,
+      "text": "    subtitle=SUBTITLES[cat] if cat else f'{SERVICE_GROUPS} service groups · same seven-day window.'"
+    },
+    {
+      "line": 78,
+      "text": "    a.txt(fig,SIDEBAR,.608,subtitle,9.7,a.MUTED)"
+    },
+    {
+      "line": 80,
+      "text": "    a.txt(fig,SIDEBAR,.527,str(n),76,color,fontproperties=a.MONO)"
+    },
+    {
+      "line": 81,
+      "text": "    a.txt(fig,SIDEBAR,.497,'RETAINED NOTICES',10,color,fontproperties=a.MONO)"
+    },
+    {
+      "line": 83,
+      "text": "    a.txt(fig,SIDEBAR,.425,'NOV 09 — NOV 15, 2026',11,fontproperties=a.MONO)"
+    },
+    {
+      "line": 92,
+      "text": "    a.txt(fig,SIDEBAR,.257,'METRO DETAIL / REFERENCE HUBS',8.8,a.MUTED,fontproperties=a.MONO)"
+    },
+    {
+      "line": 103,
+      "text": "        label.set_fontsize(max(9,label.get_fontsize()))"
+    },
+    {
+      "line": 154,
+      "text": "      'credit':a.CREDIT,'frame_alignment':alignment,'opening_closing_rgb_identical':True,"
+    },
+    {
+      "line": 158,
+      "text": "      'minimum_supporting_font_points':9,'publication_status':'Owner-authorized personal publication; NJ Transhit and NJT reuse permission unresolved'}"
+    }
+  ],
+  "16/scripts/render_prototypes.py": [
+    {
+      "line": 15,
+      "text": "from matplotlib.font_manager import FontProperties"
+    },
+    {
+      "line": 24,
+      "text": "CREDIT='Question by Chiun Heng Chou · Mapping by Ming Cao'"
+    },
+    {
+      "line": 25,
+      "text": "EYEBROW='DAY 16 / COLLABORATIVE MAP'"
+    },
+    {
+      "line": 35,
+      "text": "plt.rcParams.update({'font.family':'Segoe UI','text.color':INK,'axes.facecolor':BG,"
+    },
+    {
+      "line": 36,
+      "text": " 'figure.facecolor':BG,'savefig.facecolor':BG,'font.size':11,'axes.unicode_minus':False})"
+    },
+    {
+      "line": 59,
+      "text": "    return fig.text(x,y,s,fontsize=size,color=color,**kw)"
+    },
+    {
+      "line": 94,
+      "text": "    ax.annotate(display or name,(x,y),xytext=offset,textcoords='offset points',fontsize=size,color=MUTED,"
+    },
+    {
+      "line": 103,
+      "text": "        ax.annotate(name,(x,y),xytext=offset,textcoords='offset points',fontsize=7.3,color=INK,"
+    },
+    {
+      "line": 112,
+      "text": "    ax.text(x+12500,y+3500,'25 km',ha='center',fontsize=7.5,color=MUTED)"
+    },
+    {
+      "line": 113,
+      "text": "    ax.text(EXTENT[1]-8000,EXTENT[3]-7000,'N ↑',ha='right',fontsize=9,color=MUTED)"
+    },
+    {
+      "line": 115,
+      "text": "    txt(fig,x,y,'RETAINED NOTICES PER SERVICE GROUP',8.4,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 120,
+      "text": "        txt(fig,xx+.0165,y-.048,str(n),8,MUTED,ha='center',fontproperties=MONO)"
+    },
+    {
+      "line": 127,
+      "text": "        txt(fig,x+w,yy,str(n),size,COLORS[cat] if n else FAINT,ha='right',fontproperties=MONO)"
+    },
+    {
+      "line": 141,
+      "text": "    txt(fig,.05,.957,EYEBROW,9,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 142,
+      "text": "    txt(fig,.05,.898,'Why Are the Trains Late?',30,fontproperties=SERIF)"
+    },
+    {
+      "line": 143,
+      "text": "    txt(fig,.05,.867,'An Atlas of NJ Transit Disruptions',15,MUTED,fontproperties=SERIF)"
+    },
+    {
+      "line": 144,
+      "text": "    txt(fig,.05,.835,CREDIT,10,MUTED)"
+    },
+    {
+      "line": 146,
+      "text": "    txt(fig,.05,.78,'A / GEOGRAPHIC NETWORK',8.5,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 147,
+      "text": "    txt(fig,.95,.78,'09–15 NOV 2026',8.5,MUTED,fontproperties=MONO,ha='right')"
+    },
+    {
+      "line": 149,
+      "text": "    txt(fig,.65,.728,'01 / REPORTED CAUSE',8.5,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 150,
+      "text": "    txt(fig,.65,.69,'Mechanical',22,fontproperties=SERIF)"
+    },
+    {
+      "line": 151,
+      "text": "    txt(fig,.65,.66,'& Equipment',22,fontproperties=SERIF)"
+    },
+    {
+      "line": 152,
+      "text": "    txt(fig,.65,.595,str(sum(counts[cat].values())),42,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 156,
+      "text": "    txt(fig,.65,.27,'METRO DETAIL / REFERENCE HUBS',7.5,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 164,
+      "text": "    txt(fig,.04,.954,EYEBROW,9,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 165,
+      "text": "    txt(fig,.04,.886,'Why Are the Trains Late?',33,fontproperties=SERIF)"
+    },
+    {
+      "line": 166,
+      "text": "    txt(fig,.04,.846,'An Atlas of NJ Transit Disruptions',15,MUTED,fontproperties=SERIF)"
+    },
+    {
+      "line": 167,
+      "text": "    txt(fig,.96,.892,'09–15 NOV 2026',10,MUTED,ha='right',fontproperties=MONO)"
+    },
+    {
+      "line": 168,
+      "text": "    txt(fig,.96,.856,CREDIT,9,MUTED,ha='right')"
+    },
+    {
+      "line": 174,
+      "text": "        title=cat.replace(' & ',' &\\n') if cat!='Congestion' else cat"
+    },
+    {
+      "line": 175,
+      "text": "        txt(fig,x,.741,f'{i+1:02d}',9,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 176,
+      "text": "        txt(fig,x+.033,.742,title,14,va='top',fontproperties=SERIF,linespacing=1.15)"
+    },
+    {
+      "line": 177,
+      "text": "        txt(fig,x,.637,f'{sum(counts[cat].values()):02d}',31,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 184,
+      "text": "        txt(fig,x,.18,f'Largest service group: {peak} / {n}',8.5,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 191,
+      "text": "    txt(fig,.96,.034,'PROVISIONAL · INTERNAL REVIEW ONLY',8,MUTED,ha='right',fontproperties=MONO)"
+    },
+    {
+      "line": 197,
+      "text": "    txt(fig,.05,.957,EYEBROW,9,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 198,
+      "text": "    txt(fig,.95,.957,'STATIC FRAME CONCEPT  /  04 OF 08',9,MUTED,ha='right',fontproperties=MONO)"
+    },
+    {
+      "line": 199,
+      "text": "    txt(fig,.05,.899,'Why Are the Trains Late?',31,fontproperties=SERIF)"
+    },
+    {
+      "line": 200,
+      "text": "    txt(fig,.05,.865,'An Atlas of NJ Transit Disruptions',15,MUTED,fontproperties=SERIF)"
+    },
+    {
+      "line": 201,
+      "text": "    txt(fig,.05,.829,CREDIT,10,MUTED)"
+    },
+    {
+      "line": 203,
+      "text": "    txt(fig,.05,.781,'C / ANIMATED GIF FRAME CONCEPT',8.5,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 205,
+      "text": "    txt(fig,.64,.718,'REPORTED DIRECT CAUSE',8.5,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 206,
+      "text": "    txt(fig,.64,.673,'Slippery Rails',24,fontproperties=SERIF)"
+    },
+    {
+      "line": 207,
+      "text": "    txt(fig,.64,.64,'& Weather',24,fontproperties=SERIF)"
+    },
+    {
+      "line": 209,
+      "text": "    txt(fig,.64,.527,'24',56,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 210,
+      "text": "    txt(fig,.64,.497,'RETAINED NOTICES',9,COLORS[cat],fontproperties=MONO)"
+    },
+    {
+      "line": 212,
+      "text": "    txt(fig,.64,.425,'NOV 09 — NOV 15, 2026',11,fontproperties=MONO)"
+    },
+    {
+      "line": 216,
+      "text": "    txt(fig,.64,.257,'METRO DETAIL / REFERENCE HUBS',7.5,MUTED,fontproperties=MONO)"
+    },
+    {
+      "line": 222,
+      "text": "    txt(fig,.05,.099,'MECHANICAL  /  CONGESTION  /  SIGNAL  /  SLIPPERY RAILS  /  INFRASTRUCTURE  /  OPERATIONS  /  EXTERNAL  /  OTHER',7.2,MUTED,fontproperties=MONO)"
+    }
+  ],
+  "scripts/animate_collection.py": [
+    {
+      "line": 19,
+      "text": "def save(day,frames,durations,notes):"
+    },
+    {
+      "line": 20,
+      "text": " source=ROOT/SOURCES[day];dest=WORK/(day+'-preview.gif') if PREVIEW else source.with_suffix('.gif')"
+    },
+    {
+      "line": 22,
+      "text": " sample=Image.new('RGB',(frames[0].width,len(frames)*min(80,frames[0].height)))"
+    },
+    {
+      "line": 23,
+      "text": " for i,f in enumerate(frames):sample.paste(f.resize((f.width,min(80,f.height))),(0,i*min(80,f.height)))"
+    },
+    {
+      "line": 28,
+      "text": " indexed=[f.quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]"
+    },
+    {
+      "line": 29,
+      "text": " indexed[0].save(dest,save_all=True,append_images=indexed[1:],duration=durations,loop=0,optimize=True,disposal=1)"
+    },
+    {
+      "line": 30,
+      "text": " picks=[frames[round(i*(len(frames)-1)/3)] for i in range(4)]"
+    },
+    {
+      "line": 31,
+      "text": " sheet=Image.new('RGB',(600*2,round(frames[0].height*600/frames[0].width)*2),'white')"
+    },
+    {
+      "line": 34,
+      "text": " with Image.open(dest) as im: duration=sum((im.seek(i),im.info.get('duration',0))[1] for i in range(im.n_frames));size=list(im.size);count=im.n_frames"
+    },
+    {
+      "line": 35,
+      "text": " return {'day':day,'path':dest.relative_to(ROOT).as_posix(),'size':size,'duration_ms':duration,'frames':count,'bytes':dest.stat().st_size,'loop':0,'method':notes,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest()}"
+    },
+    {
+      "line": 39,
+      "text": "  frames,durations,notes=animate(ROOT,day,WIDTH)"
+    },
+    {
+      "line": 40,
+      "text": "  return save(day,frames,durations,notes)"
+    },
+    {
+      "line": 60,
+      "text": " frames=[];dur=[]"
+    },
+    {
+      "line": 64,
+      "text": "  for i in range(1,5):frames.append(frame([p+(c-p)*i/4 for p,c in zip(previous,current)]));dur.append(100)"
+    },
+    {
+      "line": 67,
+      "text": " return save(day,frames,dur,{'categories':names,'mask':'accepted PNG class-color pixels in map panels','original_png_unchanged':True})"
+    },
+    {
+      "line": 70,
+      "text": " meta=json.loads((WORK/day/'frames.json').read_text('utf8'));frames=[]"
+    },
+    {
+      "line": 71,
+      "text": " for p in meta['frames']:"
+    },
+    {
+      "line": 72,
+      "text": "  with Image.open(WORK/day/p) as im:frames.append(im.convert('RGB').resize((WIDTH,round(im.height*WIDTH/im.width)),Image.Resampling.LANCZOS))"
+    },
+    {
+      "line": 73,
+      "text": " return save(day,frames,meta['durations'],meta['method'])"
+    },
+    {
+      "line": 78,
+      "text": " print(json.dumps([{k:v for k,v in r.items() if k not in ('method','source_sha256')} for r in result],indent=2))"
+    }
+  ],
+  "scripts/capture_collection.cjs": [
+    {
+      "line": 1,
+      "text": "/* Capture existing map interactions without rewriting source HTML or map data. */"
+    },
+    {
+      "line": 14,
+      "text": "  const frames=[],durations=[],evidence=[];"
+    },
+    {
+      "line": 15,
+      "text": "  async function shot(ms){const name=String(frames.length).padStart(3,'0')+'.png';await page.screenshot({path:path.join(dir,name)});frames.push(name);durations.push(ms);}"
+    },
+    {
+      "line": 17,
+      "text": "   // Native SVG title tooltips do not appear in headless screenshots. Mirror the"
+    },
+    {
+      "line": 18,
+      "text": "   // exact existing title in the app's own tooltip element for this capture only."
+    },
+    {
+      "line": 22,
+      "text": "     const routes=[...document.querySelectorAll(`.route[data-region=\"${region}\"]`)].filter(e=>e.querySelector('title')&&e.getBoundingClientRect().height>20);"
+    },
+    {
+      "line": 28,
+      "text": "    for(const e of window.captureRoutes){e.addEventListener('pointerenter',event=>{const tip=document.getElementById('facility-tooltip');tip.textContent=e.querySelector('title').textContent;tip.hidden=false;tip.style.left=Math.min(event.clientX+15,innerWidth-330)+'px';tip.style.top=Math.min(event.clientY+15,innerHeight-210)+'px';});e.addEventListener('pointerleave',()=>document.getElementById('facility-tooltip').hidden=true);}"
+    },
+    {
+      "line": 37,
+      "text": "       if(v.x>15&&v.x<innerWidth-15&&v.y>30&&v.y<innerHeight-30&&document.elementFromPoint(v.x,v.y)?.closest('.route')===e)return{x:v.x,y:v.y,title:e.querySelector('title').textContent,osm:e.dataset.osmId,region:e.dataset.region};}"
+    },
+    {
+      "line": 42,
+      "text": "    assert.equal(await page.locator('#facility-tooltip').innerText(),point.title);"
+    },
+    {
+      "line": 50,
+      "text": "   // including labels, by 7% around the same visible-map center. Fixed title,"
+    },
+    {
+      "line": 76,
+      "text": "  assert.deepEqual(errors,[]);fs.writeFileSync(path.join(dir,'frames.json'),JSON.stringify({frames,durations,method:{source:day==='02'?'unchanged dual-map HTML; real route hover and verbatim native SVG titles in existing tooltip style':'existing year-slider input handler and timing; geography, points and labels enlarged together by 7% over the preceding GIF view; same center',evidence}},null,2));"
+    },
+    {
+      "line": 77,
+      "text": "  await page.close();console.log('Captured Day '+day+' '+frames.length+' frames');"
+    }
+  ],
+  "scripts/collection_layers.py": [
+    {
+      "line": 1,
+      "text": "\"\"\"Recover real drawing layers in memory; accepted source files are read-only."
+    },
+    {
+      "line": 12,
+      "text": "    source=path.read_text('utf8');tree=ast.parse(source)"
+    },
+    {
+      "line": 13,
+      "text": "    if stop:tree.body=[n for n in tree.body if n.lineno<source[:source.index(stop)].count('\\n')+1]"
+    },
+    {
+      "line": 14,
+      "text": "    return source,tree"
+    },
+    {
+      "line": 25,
+      "text": "    path=root/'06/scripts/render_final.py';source,tree=load_tree(path)"
+    },
+    {
+      "line": 46,
+      "text": "    path=root/'08/scripts/render_final.py';source,tree=load_tree(path,\"im.save(OUT/'a_city_at_stroller_speed.png'\")"
+    },
+    {
+      "line": 47,
+      "text": "    def line(marker):return source[:source.index(marker)].count('\\n')+1"
+    },
+    {
+      "line": 48,
+      "text": "    # Exact source statement ranges, not rectangular image masks. Props, mats,"
+    },
+    {
+      "line": 104,
+      "text": "    source,tree=load_tree(path,\"tree.write(OUT/'a_landscape_of_surnames_top20.svg'\")"
+    },
+    {
+      "line": 133,
+      "text": "    source={'06':'06/outputs/a_changing_harbor_edge.png','08':'08/outputs/a_city_at_stroller_speed.png','09':'09/outputs/top20_anchors/a_landscape_of_surnames_top20.png'}[day]"
+    },
+    {
+      "line": 134,
+      "text": "    with Image.open(root/source) as im:full=reduced(im,width)"
+    },
+    {
+      "line": 140,
+      "text": "    frames=[];durations=[]"
+    },
+    {
+      "line": 143,
+      "text": "        for v in values+values[-2::-1]:frames.append(frame([v]));durations.append(100)"
+    },
+    {
+      "line": 144,
+      "text": "        durations[0]=500;durations[12]=1100"
+    },
+    {
+      "line": 145,
+      "text": "        assert frames[0].tobytes()==base.tobytes()==frames[-1].tobytes()"
+    },
+    {
+      "line": 151,
+      "text": "            for i in range(1,steps+1):frames.append(frame([p+(c-p)*i/steps for p,c in zip(previous,current)]));durations.append(100)"
+    },
+    {
+      "line": 152,
+      "text": "            durations[-1]=500 if day=='09' else 800"
+    },
+    {
+      "line": 153,
+      "text": "            if current==states[-1]:durations[-1]=1600"
+    },
+    {
+      "line": 158,
+      "text": "    return frames,durations,{'categories':names,'method':'original drawing operations replayed over their real underlay; opacity only','full_native_replay_matches_png':True,'palette_rgb':colors,'original_png_unchanged':True}"
+    }
+  ]
+}

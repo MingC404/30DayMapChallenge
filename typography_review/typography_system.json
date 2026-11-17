@@ -1,0 +1,62 @@
+{
+  "status": "PROPOSAL - approval required before production changes",
+  "reference_width": "final artwork width; use viewBox for SVG and dpi/72 for Matplotlib pt conversion",
+  "roles": {
+    "day_theme": {
+      "family": "Segoe UI Semibold",
+      "weight": 600,
+      "width_ratio": 0.011,
+      "tracking_em": 0.08,
+      "line_height": 1.25
+    },
+    "main_title": {
+      "family": "Georgia",
+      "weight": 400,
+      "width_ratio": 0.028,
+      "tracking_em": 0,
+      "line_height": [
+        1.08,
+        1.12
+      ]
+    },
+    "subtitle": {
+      "family": "Segoe UI",
+      "fallback_for_existing_CJK": "Noto Sans SC",
+      "weight": 400,
+      "width_ratio": 0.012,
+      "tracking_em": 0,
+      "line_height": 1.3
+    }
+  },
+  "gaps_ink_edge_in_title_em": {
+    "day_to_title": 0.45,
+    "title_to_subtitle": [
+      0.25,
+      0.35
+    ]
+  },
+  "exceptions": {
+    "02": "constrained left map panel; retain distinct HTML/GIF and PNG title strings",
+    "05": "baked fixed_canvas heading source settings unknown",
+    "09": "preserve original heading and data-encoded surname glyphs",
+    "10": "retain existing larger Georgia title",
+    "12": "retain existing larger Georgia title; synchronize January and September",
+    "13": "retain two-line display title; local only",
+    "14": "retain compact editorial display scale and existing order",
+    "15": "preserve complete gazetteer typography"
+  },
+  "missing_elements": "never add Day/Theme or subtitle if absent",
+  "preview_days": [
+    "03",
+    "04",
+    "16"
+  ],
+  "untouched_roles": [
+    "credits",
+    "sources",
+    "map_labels",
+    "legends",
+    "data_glyphs",
+    "statistics"
+  ]
+}

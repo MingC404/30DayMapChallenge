@@ -1,0 +1,116 @@
+{
+  "09": [
+    {
+      "text": "DAY 09 / URBAN–RURAL",
+      "attributes": {
+        "x": "55.000",
+        "y": "50.500",
+        "font-family": "Arial",
+        "font-weight": "400",
+        "font-size": "19.000",
+        "fill": "#163D50"
+      }
+    },
+    {
+      "text": "A Landscape of Surnames",
+      "attributes": {
+        "x": "55.000",
+        "y": "115.500",
+        "font-family": "Arial",
+        "font-weight": "400",
+        "font-size": "53.000",
+        "fill": "#163D50"
+      }
+    },
+    {
+      "text": "Twenty leading surnames with twenty selected local occurrences",
+      "attributes": {
+        "x": "57.000",
+        "y": "161.000",
+        "font-family": "Arial",
+        "font-weight": "400",
+        "font-size": "21.000",
+        "fill": "#234657"
+      }
+    },
+    {
+      "text": "Household-registered population · 30 June 2023 · layout study",
+      "attributes": {
+        "x": "57.000",
+        "y": "194.500",
+        "font-family": "Arial",
+        "font-weight": "400",
+        "font-size": "17.000",
+        "fill": "#234657"
+      }
+    },
+    {
+      "text": "Ming Cao",
+      "attributes": {
+        "x": "1930.000",
+        "y": "198.000",
+        "font-family": "Arial",
+        "font-weight": "400",
+        "font-size": "22.000",
+        "fill": "#163D50"
+      }
+    }
+  ],
+  "11": [
+    {
+      "text": "Where Sounds Ripple",
+      "attributes": {
+        "x": "65.0",
+        "y": "30.0",
+        "dominant-baseline": "text-before-edge",
+        "font-family": "Noto Sans SC,sans-serif",
+        "font-size": "48.0",
+        "fill": "#293d47"
+      }
+    },
+    {
+      "text": "How “水” (water) is pronounced across Cantonese-speaking communities",
+      "attributes": {
+        "x": "65.0",
+        "y": "96.0",
+        "dominant-baseline": "text-before-edge",
+        "font-family": "Noto Sans SC,sans-serif",
+        "font-size": "25",
+        "fill": "#293d47"
+      }
+    },
+    {
+      "text": "Observed pronunciations / initial = color / final = wave pattern / tone not encoded",
+      "attributes": {
+        "x": "65.0",
+        "y": "150.0",
+        "dominant-baseline": "text-before-edge",
+        "font-family": "Noto Sans SC,sans-serif",
+        "font-size": "19.0",
+        "fill": "#657a83"
+      }
+    },
+    {
+      "text": "GUANGDONG",
+      "attributes": {
+        "x": "1850.0",
+        "y": "80.0",
+        "dominant-baseline": "text-before-edge",
+        "font-family": "Noto Sans SC,sans-serif",
+        "font-size": "22.0",
+        "fill": "#9ba396"
+      }
+    },
+    {
+      "text": "Ming Cao / 2026 Day 11 · Senses: Sound",
+      "attributes": {
+        "x": "130",
+        "y": "1850.0",
+        "dominant-baseline": "text-before-edge",
+        "font-family": "Noto Sans SC,sans-serif",
+        "font-size": "19.0",
+        "fill": "#293d47"
+      }
+    }
+  ]
+}

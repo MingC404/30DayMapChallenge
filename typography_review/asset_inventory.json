@@ -1,0 +1,2327 @@
+[
+  {
+    "day": "01",
+    "title": "NYC Changing Station Explorer",
+    "assets": [
+      {
+        "file": "01/outputs/nyc_changing_station_explorer.gif",
+        "size": [
+          1200,
+          900
+        ],
+        "frames": 6,
+        "duration_ms": 14000,
+        "frame_durations_ms": [
+          3000,
+          2000,
+          2000,
+          2000,
+          2000,
+          3000
+        ],
+        "loop": 0,
+        "sha256": "15e723ff4a50041a35ac08f054977bd2cf25f82c9371d5ed2cccd0ac37df6cae"
+      },
+      {
+        "file": "01/outputs/nyc_changing_station_explorer.png",
+        "size": [
+          1200,
+          900
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "f5b4e0d9cb57164398fb9329aee22ff7d20b25a3373b049534d3dc1bb0583e50"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "02",
+    "title": "Waterfront Walks",
+    "assets": [
+      {
+        "file": "02/outputs/waterfront_walks_preview.gif",
+        "size": [
+          1200,
+          900
+        ],
+        "frames": 9,
+        "duration_ms": 9200,
+        "frame_durations_ms": [
+          900,
+          1500,
+          400,
+          1500,
+          400,
+          1500,
+          400,
+          1500,
+          1100
+        ],
+        "loop": 0,
+        "sha256": "ed1b5cb5419028738abd713add026202121adbad083e51fe085100d4827d202e"
+      },
+      {
+        "file": "02/outputs/waterfront_walks_preview.png",
+        "size": [
+          2120,
+          1500
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "ef8b1b8f9533fd4483421213b3eeb304e1f5eabbe8bc8ca785df2c75731d61b5"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "03",
+    "title": "Inside the Park",
+    "assets": [
+      {
+        "file": "03/outputs/inside_the_park_jc.gif",
+        "size": [
+          1200,
+          793
+        ],
+        "frames": 16,
+        "duration_ms": 6100,
+        "frame_durations_ms": [
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          1600
+        ],
+        "loop": 0,
+        "sha256": "0ee3b26c4580836173cff67b1b7b37ca92fc5a81e9694cf5925b42951d76c5a1"
+      },
+      {
+        "file": "03/outputs/inside_the_park_jc.png",
+        "size": [
+          3600,
+          2380
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "ec3ac97a19f59ee0ef637bb4150ac76ab0a36f26a45470eae1042b398c7e05e3"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "04",
+    "title": "Clusters of Play",
+    "assets": [
+      {
+        "file": "04/outputs/clusters_of_play.gif",
+        "size": [
+          1440,
+          1200
+        ],
+        "frames": 140,
+        "duration_ms": 20400,
+        "frame_durations_ms": [
+          1000,
+          100,
+          100,
+          200,
+          100,
+          100,
+          100,
+          200,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          1200,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          200,
+          800,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          3500
+        ],
+        "loop": 0,
+        "sha256": "c5e274556691ae50d1dfa7436e350fda1f9f867c3b345c0d8b9805d901d2b9eb"
+      },
+      {
+        "file": "04/outputs/02_citywide_final.png",
+        "size": [
+          2400,
+          2000
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "80143cbe217abe2ca484f88d8595db5ba5c89d7e0dfd038cd7dac0f1f1a51852"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "05",
+    "title": "Seeing New York from the Water",
+    "assets": [
+      {
+        "file": "05/outputs/seeing_new_york_final.gif",
+        "size": [
+          1560,
+          1130
+        ],
+        "frames": 401,
+        "duration_ms": 42000,
+        "frame_durations_ms": [
+          2000,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          2100,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "loop": 0,
+        "sha256": "428dd0cdc2b35c1ff0942f5e8d5565b0bda0e849115a369450f625272e45c6a0"
+      }
+    ],
+    "svg_headers": [
+      {
+        "file": "05/outputs/final_locator_middle.svg",
+        "root": {
+          "width": "496",
+          "height": "225",
+          "viewBox": "1032 830 496 225"
+        },
+        "first_texts": [
+          {
+            "text": "LOWER",
+            "attributes": {
+              "x": "1160.987462397141",
+              "y": "870.7328113313764",
+              "font-family": "Arial",
+              "font-size": "14",
+              "font-weight": "700",
+              "text-anchor": "middle",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "MANHATTAN",
+            "attributes": {
+              "x": "1160.987462397141",
+              "y": "888.7328113313764",
+              "font-family": "Arial",
+              "font-size": "14",
+              "font-weight": "700",
+              "text-anchor": "middle",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "DUMBO",
+            "attributes": {
+              "x": "1377.810856733669",
+              "y": "992.6112729837187",
+              "font-family": "Arial",
+              "font-size": "15",
+              "font-weight": "700",
+              "text-anchor": "middle",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "EAST RIVER",
+            "attributes": {
+              "x": "1257.1658687521935",
+              "y": "1008.4229365791194",
+              "font-family": "Arial",
+              "font-size": "14",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#628C9E",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "Brooklyn Bridge",
+            "attributes": {
+              "x": "1394.6043691279833",
+              "y": "910.2620782813058",
+              "font-family": "Arial",
+              "font-size": "14",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "Pier 11",
+            "attributes": {
+              "x": "1213.5461163503",
+              "y": "989.6225493585691",
+              "font-family": "Arial",
+              "font-size": "12",
+              "font-weight": "400",
+              "text-anchor": "end",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "N",
+            "attributes": {
+              "x": "1494",
+              "y": "866",
+              "font-family": "Arial",
+              "font-size": "12",
+              "font-weight": "700",
+              "text-anchor": "middle",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "500 m",
+            "attributes": {
+              "x": "1062",
+              "y": "1002",
+              "font-family": "Arial",
+              "font-size": "11",
+              "font-weight": "400",
+              "text-anchor": "start",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "Travel along route",
+            "attributes": {
+              "x": "1082",
+              "y": "1041",
+              "font-family": "Arial",
+              "font-size": "12",
+              "font-weight": "400",
+              "text-anchor": "start",
+              "fill": "#163F58"
+            }
+          }
+        ],
+        "last_texts": [
+          {
+            "text": "N",
+            "attributes": {
+              "x": "1494",
+              "y": "866",
+              "font-family": "Arial",
+              "font-size": "12",
+              "font-weight": "700",
+              "text-anchor": "middle",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "500 m",
+            "attributes": {
+              "x": "1062",
+              "y": "1002",
+              "font-family": "Arial",
+              "font-size": "11",
+              "font-weight": "400",
+              "text-anchor": "start",
+              "fill": "#163F58",
+              "stroke": "#FFFFFF",
+              "stroke-width": "4",
+              "paint-order": "stroke",
+              "stroke-linejoin": "round"
+            }
+          },
+          {
+            "text": "Travel along route",
+            "attributes": {
+              "x": "1082",
+              "y": "1041",
+              "font-family": "Arial",
+              "font-size": "12",
+              "font-weight": "400",
+              "text-anchor": "start",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "View direction",
+            "attributes": {
+              "x": "1322",
+              "y": "1041",
+              "font-family": "Arial",
+              "font-size": "12",
+              "font-weight": "400",
+              "text-anchor": "start",
+              "fill": "#163F58"
+            }
+          }
+        ]
+      },
+      {
+        "file": "05/outputs/final_skyline_back.svg",
+        "root": {
+          "width": "6639",
+          "height": "1500",
+          "viewBox": "-400 0 6639 1500"
+        },
+        "first_texts": [],
+        "last_texts": []
+      },
+      {
+        "file": "05/outputs/final_skyline_front.svg",
+        "root": {
+          "width": "8700",
+          "height": "1500",
+          "viewBox": "-400 0 8700 1500"
+        },
+        "first_texts": [],
+        "last_texts": []
+      },
+      {
+        "file": "05/outputs/final_skyline_middle.svg",
+        "root": {
+          "width": "6639",
+          "height": "1500",
+          "viewBox": "-400 0 6639 1500"
+        },
+        "first_texts": [
+          {
+            "text": "One World Trade Center",
+            "attributes": {
+              "x": "1433.921046876935",
+              "y": "392.9992193622486",
+              "font-family": "Georgia",
+              "font-size": "30",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "Woolworth Building",
+            "attributes": {
+              "x": "2052.409758771984",
+              "y": "614.373835562707",
+              "font-family": "Georgia",
+              "font-size": "30",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "70 Pine Street",
+            "attributes": {
+              "x": "640.390659730616",
+              "y": "387.212154601026",
+              "font-family": "Georgia",
+              "font-size": "30",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "56 Leonard Street",
+            "attributes": {
+              "x": "2735.489427299037",
+              "y": "675.677543361935",
+              "font-family": "Georgia",
+              "font-size": "34",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "Confucius Plaza",
+            "attributes": {
+              "x": "4165.81286203373",
+              "y": "724.6483509440176",
+              "font-family": "Georgia",
+              "font-size": "34",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "One Manhattan Square",
+            "attributes": {
+              "x": "5480.456927343627",
+              "y": "472.5770567756383",
+              "font-family": "Georgia",
+              "font-size": "34",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          }
+        ],
+        "last_texts": [
+          {
+            "text": "70 Pine Street",
+            "attributes": {
+              "x": "640.390659730616",
+              "y": "387.212154601026",
+              "font-family": "Georgia",
+              "font-size": "30",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "56 Leonard Street",
+            "attributes": {
+              "x": "2735.489427299037",
+              "y": "675.677543361935",
+              "font-family": "Georgia",
+              "font-size": "34",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "Confucius Plaza",
+            "attributes": {
+              "x": "4165.81286203373",
+              "y": "724.6483509440176",
+              "font-family": "Georgia",
+              "font-size": "34",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          },
+          {
+            "text": "One Manhattan Square",
+            "attributes": {
+              "x": "5480.456927343627",
+              "y": "472.5770567756383",
+              "font-family": "Georgia",
+              "font-size": "34",
+              "font-weight": "400",
+              "text-anchor": "middle",
+              "fill": "#163F58"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "06",
+    "title": "A Changing Harbor Edge",
+    "assets": [
+      {
+        "file": "06/outputs/a_changing_harbor_edge.gif",
+        "size": [
+          1200,
+          787
+        ],
+        "frames": 25,
+        "duration_ms": 3900,
+        "frame_durations_ms": [
+          500,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "loop": 0,
+        "sha256": "c8488cab95038f48b5a76e8439a91bffa737470202a7f683b6f544bc90ad7d6e"
+      },
+      {
+        "file": "06/outputs/a_changing_harbor_edge.png",
+        "size": [
+          4620,
+          3030
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "d8098a2c8bc6626a4a9c645229c8a56eb70805db558446dfabac82283ac78daf"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "08",
+    "title": "A City at Stroller Speed",
+    "assets": [
+      {
+        "file": "08/outputs/a_city_at_stroller_speed.gif",
+        "size": [
+          1200,
+          922
+        ],
+        "frames": 36,
+        "duration_ms": 10700,
+        "frame_durations_ms": [
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          1600
+        ],
+        "loop": 0,
+        "sha256": "8a902cc87dfa2bd1a1c68203d33c138941968d16e549b41cfa43f93e34c57e33"
+      },
+      {
+        "file": "08/outputs/a_city_at_stroller_speed.png",
+        "size": [
+          5700,
+          4380
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "0104aaa22770b33b023f4f9754ab1fa90b59bcebfd1d7aef04b0fc3ab374b263"
+      }
+    ],
+    "svg_headers": [
+      {
+        "file": "08/outputs/a_city_at_stroller_speed.svg",
+        "root": {
+          "width": "5700",
+          "height": "4380",
+          "viewBox": "0 0 1900 1460"
+        },
+        "first_texts": [
+          {
+            "text": "Time to play",
+            "attributes": {
+              "x": "339",
+              "y": "831.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "No hurry",
+            "attributes": {
+              "x": "566",
+              "y": "999.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "Shade along the way",
+            "attributes": {
+              "x": "1165",
+              "y": "329.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "Room to pause",
+            "attributes": {
+              "x": "1364",
+              "y": "787.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "A little play",
+            "attributes": {
+              "x": "932",
+              "y": "707.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "Room to crawl",
+            "attributes": {
+              "x": "560",
+              "y": "809.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "Little pauses",
+            "attributes": {
+              "x": "602",
+              "y": "1229.74",
+              "font-family": "Arial",
+              "font-size": "21",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "DAY 08 / UTOPIA",
+            "attributes": {
+              "x": "100",
+              "y": "52.56",
+              "font-family": "Arial",
+              "font-size": "24",
+              "font-weight": "bold",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "A City at Stroller Speed",
+            "attributes": {
+              "x": "98",
+              "y": "124.94",
+              "font-family": "Arial",
+              "font-size": "51",
+              "font-weight": "bold",
+              "fill": "#344A42"
+            }
+          }
+        ],
+        "last_texts": [
+          {
+            "text": "SQUARE",
+            "attributes": {
+              "x": "225",
+              "y": "1188.44",
+              "font-family": "Arial",
+              "font-size": "26",
+              "font-weight": "bold",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "Real streets. Imagined everyday spaces.",
+            "attributes": {
+              "x": "103",
+              "y": "1357.26",
+              "font-family": "Arial",
+              "font-size": "29",
+              "font-weight": "normal",
+              "fill": "#344A42"
+            }
+          },
+          {
+            "text": "Light dashes: existing park edge. All play, street changes and everyday scenes are imagined.",
+            "attributes": {
+              "x": "103",
+              "y": "1397.86",
+              "font-family": "Arial",
+              "font-size": "19",
+              "font-weight": "normal",
+              "fill": "#7D877F"
+            }
+          },
+          {
+            "text": "Base: © OpenStreetMap contributors (ODbL) · Neighborhood vision, not an accessibility audit.",
+            "attributes": {
+              "x": "103",
+              "y": "1430.92",
+              "font-family": "Arial",
+              "font-size": "18",
+              "font-weight": "normal",
+              "fill": "#7D877F"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "09",
+    "title": "A Landscape of Surnames",
+    "assets": [
+      {
+        "file": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.gif",
+        "size": [
+          1200,
+          1286
+        ],
+        "frames": 42,
+        "duration_ms": 13700,
+        "frame_durations_ms": [
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          500,
+          100,
+          1600
+        ],
+        "loop": 0,
+        "sha256": "d4934f57c9717d338e30f8890dc578b98c9ca40da1d657e9961c75abf7f66bc2"
+      },
+      {
+        "file": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.png",
+        "size": [
+          4200,
+          4500
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "3c85c2055555875b6866d6388a4e94696deb614d7821f885d284578387513316"
+      }
+    ],
+    "svg_headers": [
+      {
+        "file": "09/outputs/top20_anchors/a_landscape_of_surnames_top20.svg",
+        "root": {
+          "width": "2100",
+          "height": "2250",
+          "viewBox": "0 0 2100 2250"
+        },
+        "first_texts": [
+          {
+            "text": "KINMEN",
+            "attributes": {
+              "x": "175.000",
+              "y": "291.000",
+              "font-family": "Arial",
+              "font-weight": "400",
+              "font-size": "18.000",
+              "fill": "#234657"
+            }
+          },
+          {
+            "text": "5 km · island locator",
+            "attributes": {
+              "x": "175.000",
+              "y": "516.000",
+              "font-family": "Arial",
+              "font-weight": "400",
+              "font-size": "15.000",
+              "fill": "#234657"
+            }
+          },
+          {
+            "text": "陳",
+            "attributes": {
+              "x": "1101.819",
+              "y": "392.861",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "129.600",
+              "fill": "#B94B36"
+            }
+          },
+          {
+            "text": "林",
+            "attributes": {
+              "x": "898.577",
+              "y": "449.428",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "113.690",
+              "fill": "#B45B26"
+            }
+          },
+          {
+            "text": "黃",
+            "attributes": {
+              "x": "877.113",
+              "y": "623.276",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "98.612",
+              "fill": "#3E793E"
+            }
+          },
+          {
+            "text": "張",
+            "attributes": {
+              "x": "671.631",
+              "y": "828.749",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "93.549",
+              "fill": "#B45B26"
+            }
+          },
+          {
+            "text": "李",
+            "attributes": {
+              "x": "479.389",
+              "y": "1480.221",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "92.257",
+              "fill": "#B94B36"
+            }
+          },
+          {
+            "text": "王",
+            "attributes": {
+              "x": "549.971",
+              "y": "1673.594",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "83.820",
+              "fill": "#B45B26"
+            }
+          },
+          {
+            "text": "吳",
+            "attributes": {
+              "x": "734.740",
+              "y": "955.388",
+              "font-family": "Noto Serif TC",
+              "font-weight": "650",
+              "font-size": "83.109",
+              "fill": "#3E793E"
+            }
+          }
+        ],
+        "last_texts": [
+          {
+            "text": "Colors evoke local landscapes; they do not encode surname statistics.",
+            "attributes": {
+              "x": "1300",
+              "y": "2235.500",
+              "font-family": "Arial",
+              "font-weight": "400",
+              "font-size": "16",
+              "fill": "#234657",
+              "data-role": "color-note"
+            }
+          },
+          {
+            "text": "Bathymetry: NOAA ETOPO 2022 · 4′ subset.",
+            "attributes": {
+              "x": "1400",
+              "y": "2151.500",
+              "font-family": "Arial",
+              "font-weight": "400",
+              "font-size": "16",
+              "fill": "#234657",
+              "data-role": "bathymetry-note"
+            }
+          },
+          {
+            "text": "Map surname size: 52.8–129.6 px (original × 1.2).",
+            "attributes": {
+              "x": "1400",
+              "y": "2179.500",
+              "font-family": "Arial",
+              "font-weight": "400",
+              "font-size": "16",
+              "fill": "#234657",
+              "data-role": "bathymetry-note"
+            }
+          },
+          {
+            "text": "Depth bands: 0–50 / 50–200 / 200–1000 / 1000–3000 / >3000 m",
+            "attributes": {
+              "x": "1400",
+              "y": "2207.500",
+              "font-family": "Arial",
+              "font-weight": "400",
+              "font-size": "16",
+              "fill": "#234657",
+              "data-role": "bathymetry-note"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "10",
+    "title": "Heritage Across East Asia",
+    "assets": [
+      {
+        "file": "10/outputs/heritage_across_east_asia_symbols_a.gif",
+        "size": [
+          1200,
+          900
+        ],
+        "frames": 49,
+        "duration_ms": 7560,
+        "frame_durations_ms": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          120,
+          1800
+        ],
+        "loop": 0,
+        "sha256": "7be62b346799264a4a0ec8d292e674ca0661bb084314eeb20c7966824c04f5c0"
+      },
+      {
+        "file": "10/outputs/heritage_across_east_asia_symbols_a.png",
+        "size": [
+          4800,
+          3600
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "432315dfc2338d2d857b0136a58843f231b401ac61cbc004dccc81ee62d47c94"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "11",
+    "title": "Where Sounds Ripple",
+    "assets": [
+      {
+        "file": "11/outputs/where_sounds_ripple.gif",
+        "size": [
+          1200,
+          882
+        ],
+        "frames": 21,
+        "duration_ms": 8000,
+        "frame_durations_ms": [
+          800,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          1100,
+          100,
+          100,
+          100,
+          100,
+          1300
+        ],
+        "loop": 0,
+        "sha256": "d5e2dc03b642f3ebee402dcce68e21e1e25bb1d970dca410a0383a942e8086b5"
+      },
+      {
+        "file": "11/outputs/where_sounds_ripple.png",
+        "size": [
+          2600,
+          1910
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "327b025762522e3e1b97d1af64d98cec1011c2cd44f9731c9f4cee8426e89abe"
+      }
+    ],
+    "svg_headers": [
+      {
+        "file": "11/outputs/where_sounds_ripple.svg",
+        "root": {
+          "width": "2600",
+          "height": "1910",
+          "viewBox": "0 0 2600 1910"
+        },
+        "first_texts": [
+          {
+            "text": "樂昌 Lechang",
+            "attributes": {
+              "x": "2153.69398388095",
+              "y": "231.10399056194115",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "17.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "英德 Yingde",
+            "attributes": {
+              "x": "2207.570224719103",
+              "y": "619.3691315764081",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "17.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "廣州 Guangzhou",
+            "attributes": {
+              "x": "2084.07561417463",
+              "y": "865.801363496726",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "15.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "百色 Baise",
+            "attributes": {
+              "x": "227.67977528089813",
+              "y": "493.2576789587166",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "17.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "南寧 Nanning",
+            "attributes": {
+              "x": "748.0045694544287",
+              "y": "887.1689996890766",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "17.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "北海 Beihai",
+            "attributes": {
+              "x": "954.8511235955076",
+              "y": "1319.5258944959332",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "17.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "懷集 Huaiji",
+            "attributes": {
+              "x": "1851.994382022473",
+              "y": "598.092589262157",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "17.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "Where Sounds Ripple",
+            "attributes": {
+              "x": "65.0",
+              "y": "30.0",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "48.0",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "How “水” (water) is pronounced across Cantonese-speaking communities",
+            "attributes": {
+              "x": "65.0",
+              "y": "96.0",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "25",
+              "fill": "#293d47"
+            }
+          }
+        ],
+        "last_texts": [
+          {
+            "text": "C — Curling Waves · øy (3)",
+            "attributes": {
+              "x": "2160",
+              "y": "1630",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Arial,sans-serif",
+              "font-size": "20",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "D — Crested Waves · oi (4)",
+            "attributes": {
+              "x": "2160",
+              "y": "1740",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Arial,sans-serif",
+              "font-size": "20",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "Unclassified finals; categories remain separate:",
+            "attributes": {
+              "x": "1840",
+              "y": "1856",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Noto Sans SC,sans-serif",
+              "font-size": "15",
+              "fill": "#293d47"
+            }
+          },
+          {
+            "text": "œ (3), y (3), øi (2), u (2), ɵy (2), ɔ (1), ɛ (1), ɔi (1). Colored anchors only.",
+            "attributes": {
+              "x": "1840",
+              "y": "1880",
+              "dominant-baseline": "text-before-edge",
+              "font-family": "Arial,sans-serif",
+              "font-size": "14",
+              "fill": "#293d47"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "12",
+    "title": "The Shape of Wind",
+    "assets": [
+      {
+        "file": "12/output/The_Shape_of_Wind_January.gif",
+        "size": [
+          1056,
+          968
+        ],
+        "frames": 66,
+        "duration_ms": 5940,
+        "frame_durations_ms": [
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "loop": 0,
+        "sha256": "160090af03dd21c140ebfba64ca7e94bd4fac3d95a8bc2e3243f573cf9943388"
+      },
+      {
+        "file": "12/output/The_Shape_of_Wind_September.gif",
+        "size": [
+          1056,
+          968
+        ],
+        "frames": 66,
+        "duration_ms": 5940,
+        "frame_durations_ms": [
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "loop": 0,
+        "sha256": "9c51d9329ff03f5edb9865992ce18dc23fe3cc849b4101c22e80ccfc8cecfe0c"
+      },
+      {
+        "file": "12/output/The_Shape_of_Wind_January.png",
+        "size": [
+          3840,
+          3520
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "80ff41bcf5ec9c0c22b3ea59fd42d1be9aee3c0dc345772d6f17f3cb3cd50a43"
+      },
+      {
+        "file": "12/output/The_Shape_of_Wind_September.png",
+        "size": [
+          3840,
+          3520
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "cdad45f2ffef8cb131e11aac1fc7d7e2c394ede8e581216353aaae0beefe18a1"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "13",
+    "title": "Where Night Comes From",
+    "assets": [
+      {
+        "file": "13/output/Where_Night_Comes_From.png",
+        "size": [
+          1800,
+          1450
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "2286c5107bc7e25038db25e58bba10c09a4dd9f7f2dc03808ac25b2a31d7300a"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "14",
+    "title": "Atlas of Impossible Places",
+    "assets": [
+      {
+        "file": "14/outputs/atlas_of_impossible_places_camera_preview.gif",
+        "size": [
+          720,
+          655
+        ],
+        "frames": 123,
+        "duration_ms": 14400,
+        "frame_durations_ms": [
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          800,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "loop": 0,
+        "sha256": "4c029b37adf0cc6131b9d0bff70f84a84a31069f7f014709ac3c0075df8a41fe"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "15",
+    "title": "Philadelphia: A Gazetteer of Places",
+    "assets": [
+      {
+        "file": "15/outputs/day15_philadelphia_gazetteer.png",
+        "size": [
+          2880,
+          2115
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "512bac6801acb64b8fe3e6fffe85830eb4cb28c50c16cdc6544737e435837ed1"
+      }
+    ],
+    "svg_headers": []
+  },
+  {
+    "day": "16",
+    "title": "Why Are the Trains Late?",
+    "assets": [
+      {
+        "file": "16/outputs/day16_njt_disruptions.gif",
+        "size": [
+          1440,
+          1440
+        ],
+        "frames": 9,
+        "duration_ms": 17500,
+        "frame_durations_ms": [
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          1500
+        ],
+        "loop": 0,
+        "sha256": "cd0ae03f57fd1c0d645b6f666db85f0158449b811a457a67e1fd6fac9cc35d03"
+      },
+      {
+        "file": "16/outputs/day16_njt_disruptions.png",
+        "size": [
+          1440,
+          1440
+        ],
+        "frames": 1,
+        "duration_ms": 0,
+        "frame_durations_ms": [
+          0
+        ],
+        "loop": null,
+        "sha256": "17d765b49cb9efadc174228b2f1d714bcd9c8ad5ee98aaf5ae5677bb8ac4a8cd"
+      }
+    ],
+    "svg_headers": []
+  }
+]
