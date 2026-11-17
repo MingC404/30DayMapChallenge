@@ -17,6 +17,7 @@ Maps and spatial illustrations by **Ming Cao**.
 | 12 / Power | The Shape of Wind | [January PNG](12/output/The_Shape_of_Wind_January.png) · [September PNG](12/output/The_Shape_of_Wind_September.png) · [Methods](12/METHODS.md) |
 | 13 / Interactions | Where Night Comes From | [Project notes](13/README.md) · Local outputs withheld pending publication clearance |
 | 14 / Borgesian Map | Atlas of Impossible Places | [GIF](14/outputs/atlas_of_impossible_places_camera_preview.gif) · [Notes](14/README.md) · [Methods](14/METHODS.md) |
+| 16 / Collaborative Map | Why Are the Trains Late? | [Project notes](16/README.md) · [Personal collection](https://mingc404.github.io/30DayMapChallenge/#day-16) · [GIF](16/outputs/day16_njt_disruptions.gif) · [PNG](16/outputs/day16_njt_disruptions.png) |
 
 Numbered folders contain each map's scripts and outputs. Shared original data, metadata and licenses are in `data_raw/`; generated web pages are in `docs/`. Each day's README identifies its sources and limits. Maps use NYC Open Data, OpenStreetMap, institutional collections and other credited sources; data timestamps do not imply current field verification.
 

@@ -4,7 +4,7 @@ const local=process.argv.includes('--local-preview'),localDir=path.join(root,'.w
 const dayArg=process.argv.indexOf('--day'),copyDay=dayArg>=0?process.argv[dayArg+1]:null;
 if(copyDay&&!entries.some(e=>e.day===copyDay))throw Error('Unknown day '+copyDay);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pending=e=>e.publication&&e.publication.status!=='cleared';
+const pending=e=>e.publication&&!['cleared','owner-authorized'].includes(e.publication.status);
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const publicURL=p=>local?'/30DayMapChallenge/'+p:p;
 function publish(m,e){
@@ -41,7 +41,7 @@ const articles=entries.map(e=>{
   return `<figure><a class="cover-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(e.title+' — '+m.label+' — '+action+' (new tab)')}"><img src="${esc(src)}" alt="${esc(alt)}" width="${w}" height="${h}"${e.day==='01'?'':' loading="lazy"'}></a>${e.media.length>1?`<figcaption>${esc(m.label)}</figcaption>`:''}</figure>`;
  }).join('');
  const downloads=blocked?'':(e.downloads||[]).map(m=>`<a href="${esc(publicURL(m.path))}" target="_blank" rel="noopener noreferrer">${esc(m.label)}</a>`).join('');
- return `<article id="day-${e.day}" aria-labelledby="title-${e.day}"><header><p class="day">DAY ${e.day} / ${esc(e.theme.toUpperCase())}</p><h2 id="title-${e.day}">${esc(e.title)}</h2>${e.subtitle?`<p class="description">${esc(e.subtitle)}</p>`:''}<p class="description">${esc(e.description)}</p><p class="tools">${esc(e.tools.join(' · '))}</p><nav class="links" aria-label="Day ${e.day} resources">${interactive?`<a href="${esc(interactive)}" target="_blank" rel="noopener noreferrer">View interactive map</a>`:''}<a href="https://github.com/MingC404/30DayMapChallenge/tree/main/${e.day}" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>${downloads}</nav></header><div class="media-grid${e.media.length>1?' dual':''}">${media}</div></article>`;
+ return `<article id="day-${e.day}" aria-labelledby="title-${e.day}"><header><p class="day">DAY ${e.day} / ${esc(e.theme.toUpperCase())}</p><h2 id="title-${e.day}">${esc(e.title)}</h2>${e.subtitle?`<p class="description">${esc(e.subtitle)}</p>`:''}<p class="description">${esc(e.description)}</p>${e.credits?`<p class="description">${esc(e.credits)}</p>`:''}<p class="tools">${esc(e.tools.join(' · '))}</p><nav class="links" aria-label="Day ${e.day} resources">${interactive?`<a href="${esc(interactive)}" target="_blank" rel="noopener noreferrer">View interactive map</a>`:''}<a href="https://github.com/MingC404/30DayMapChallenge/tree/main/${e.day}" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>${downloads}</nav></header><div class="media-grid${e.media.length>1?' dual':''}">${media}</div></article>`;
 }).join('\n');
 const template=fs.readFileSync(path.join(__dirname,'gallery_template.html'),'utf8');
 const html=template.replace('<!-- GALLERY_ENTRIES -->',articles);
@@ -51,7 +51,7 @@ else{
  // Only known superseded published copies; original day files are never removed.
  const obsolete=['nyc-changing-stations/preview.gif','assets/04/citywide.png','assets/04/hamilton_park.png','assets/05/seeing_new_york_scroll.jpg','assets/05/seeing_new_york.png.source.sha256','assets/05/seeing_new_york.png','assets/11/where_sounds_ripple.jpg','assets/13/publication-pending.svg'];
  const removed=[];
- for(const rel of obsolete){const file=path.resolve(docs,rel);if(!file.startsWith(docs+path.sep))throw Error('Unsafe cleanup');if(fs.existsSync(file)&&!managed.includes(rel)){removed.push({path:rel,sha256:hash(fs.readFileSync(file))});fs.unlinkSync(file);}}
+ if(!copyDay)for(const rel of obsolete){const file=path.resolve(docs,rel);if(!file.startsWith(docs+path.sep))throw Error('Unsafe cleanup');if(fs.existsSync(file)&&!managed.includes(rel)){removed.push({path:rel,sha256:hash(fs.readFileSync(file))});fs.unlinkSync(file);}}
  if(removed.length){const log=path.join(root,'.work/gallery-cleanup.json');const previous=fs.existsSync(log)?JSON.parse(fs.readFileSync(log)):[];fs.writeFileSync(log,JSON.stringify([...previous,...removed],null,2));}
  fs.writeFileSync(path.join(docs,'gallery-manifest.json'),JSON.stringify({entries:entries.map(e=>({day:e.day,interactive:pending(e)?null:e.interactive||null,status:pending(e)?'pending':'published-assets-ready'})),managedAssets:[...new Set(managed)],restrictedSourcesExcluded:entries.filter(pending).map(e=>e.day)},null,2)+'\n');
  console.log(`Prepared ${entries.length} cards. Pending Day 13 map and data excluded.`);

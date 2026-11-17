@@ -468,5 +468,34 @@
       }
     ],
     "downloads": []
+  },
+  {
+    "day": "16",
+    "theme": "Collaborative Map",
+    "title": "Why Are the Trains Late?",
+    "subtitle": "An Atlas of NJ Transit Disruptions",
+    "credits": "Question by Chiun Heng Chou · Mapping by Ming Cao",
+    "description": "An animated atlas of NJ Transit service disruptions, exploring how different reported causes affect the regional rail network. Based on 234 update-adjusted service notices from November 9–15, 2026, the map highlights affected rail services across seven disruption categories.",
+    "tools": ["Python", "Matplotlib", "Shapely", "PyProj", "Pillow"],
+    "evidence": ["16/README.md", "16/publication_review.md"],
+    "publication": {
+      "status": "owner-authorized",
+      "reason": "Owner explicitly requested publication of the existing NJ TRANSIT GIS version after the failed OSM replacement was disclosed. This is not a claim of source-license clearance."
+    },
+    "media": [
+      {
+        "source": "16/outputs/day16_njt_disruptions.gif",
+        "path": "assets/16/day16_njt_disruptions.gif",
+        "label": "Why Are the Trains Late? — final animation",
+        "alt": "Animated NJ Transit rail-service network showing 234 update-adjusted notices across seven reported disruption causes, November 9–15, 2026; affected services, not incident sites or delay probabilities"
+      }
+    ],
+    "downloads": [
+      {
+        "source": "16/outputs/day16_njt_disruptions.png",
+        "path": "assets/16/day16_njt_disruptions.png",
+        "label": "Overview PNG"
+      }
+    ]
   }
 ]

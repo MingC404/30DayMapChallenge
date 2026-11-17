@@ -69,6 +69,11 @@
       "day": "15",
       "interactive": null,
       "status": "published-assets-ready"
+    },
+    {
+      "day": "16",
+      "interactive": null,
+      "status": "published-assets-ready"
     }
   ],
   "managedAssets": [
@@ -102,7 +107,9 @@
     "assets/12/The_Shape_of_Wind_January.gif",
     "assets/12/The_Shape_of_Wind_September.gif",
     "assets/14/atlas_of_impossible_places_camera_preview.gif",
-    "assets/15/day15_philadelphia_gazetteer.png"
+    "assets/15/day15_philadelphia_gazetteer.png",
+    "assets/16/day16_njt_disruptions.png",
+    "assets/16/day16_njt_disruptions.gif"
   ],
   "restrictedSourcesExcluded": [
     "13"

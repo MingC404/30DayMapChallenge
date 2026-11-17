@@ -1,0 +1,7 @@
+.deps/
+__pycache__/
+.mpl-cache/
+# Keep source snapshots, complete notices and GIS downloads out of public repositories.
+/data/
+# Third-party terms/metadata saved solely as local publication-review evidence.
+/outputs/publication_audit/
