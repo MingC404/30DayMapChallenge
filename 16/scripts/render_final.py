@@ -16,6 +16,10 @@ from shapely.geometry import shape,box
 
 ROOT=a.ROOT; OUT=ROOT/'outputs';FRAMES=OUT/'frames';FRAMES.mkdir(parents=True,exist_ok=True)
 W=H=1440;DPI=120
+# Layout-only revision: fixed extent, equal aspect, unchanged source geometry.
+MAP_RECT=(.025,.15,.55,.76)
+SIDEBAR=.59
+LEGEND_POSITION=(SIDEBAR,.335)
 ORDER=['Mechanical & Equipment','Congestion','Signal & Switch','Slippery Rails & Weather',
        'Track & Infrastructure','Staffing & Operations','External Incidents']
 SEQUENCE=[None]+ORDER+[None]
@@ -55,47 +59,45 @@ def cause_title(cat):
 
 def render(cat):
     fig=a.plt.figure(figsize=(12,12),dpi=DPI)
-    a.txt(fig,.05,.957,a.EYEBROW,10,a.MUTED,fontproperties=a.MONO)
-    a.txt(fig,.95,.957,'NOVEMBER 9–15, 2026',10,a.MUTED,ha='right',fontproperties=a.MONO)
-    a.txt(fig,.05,.899,'Why Are the Trains Late?',31,fontproperties=a.SERIF)
-    a.txt(fig,.05,.865,'An Atlas of NJ Transit Disruptions',15,a.MUTED,fontproperties=a.SERIF)
-    a.txt(fig,.05,.829,a.CREDIT,11,a.MUTED)
-    a.rule(fig,.803)
-    a.txt(fig,.05,.781,'AFFECTED RAIL SERVICES BY REPORTED DISRUPTION CAUSE',9.4,a.MUTED,fontproperties=a.MONO)
-    ax=a.map_axes(fig,a.C_MAP_RECT,cat,hubs=True,endpoints=True,grid=True)
+    a.txt(fig,.05,.965,a.EYEBROW,10,a.MUTED,fontproperties=a.MONO)
+    a.txt(fig,.95,.965,'NOVEMBER 9\u201315, 2026',10,a.MUTED,ha='right',fontproperties=a.MONO)
+    a.txt(fig,.05,.935,a.CREDIT,11,a.MUTED)
+    ax=a.map_axes(fig,MAP_RECT,cat,hubs=True,endpoints=True,grid=True)
     border=add_borders(ax);a.scalebar(ax)
+    # Title sits inside the geographic axes' upper-left blank area.
+    ax.text(.015,.84,'Why Are the\nTrains Late?',transform=ax.transAxes,
+      fontsize=23,fontproperties=a.SERIF,color=a.INK,zorder=30,va='top',linespacing=1.12)
+    ax.text(.015,.745,'An Atlas of NJ Transit\nDisruptions',transform=ax.transAxes,
+      fontsize=12,fontproperties=a.SERIF,color=a.MUTED,zorder=30,va='top')
     color=a.COLORS[cat] if cat else a.MUTED
-    a.txt(fig,.64,.718,'REPORTED DIRECT CAUSE' if cat else 'SEVEN-DAY SERVICE OVERVIEW',9.5,color,fontproperties=a.MONO)
+    a.txt(fig,SIDEBAR,.718,'REPORTED DIRECT CAUSE' if cat else 'SEVEN-DAY SERVICE OVERVIEW',9.5,color,fontproperties=a.MONO)
     top,bottom=cause_title(cat)
-    a.txt(fig,.64,.673,top,24,fontproperties=a.SERIF)
-    a.txt(fig,.64,.64,bottom,24,fontproperties=a.SERIF)
+    a.txt(fig,SIDEBAR,.673,top,24,fontproperties=a.SERIF)
+    a.txt(fig,SIDEBAR,.64,bottom,24,fontproperties=a.SERIF)
     subtitle=SUBTITLES[cat] if cat else f'{SERVICE_GROUPS} service groups · same seven-day window.'
-    a.txt(fig,.64,.608,subtitle,9.7,a.MUTED)
+    a.txt(fig,SIDEBAR,.608,subtitle,9.7,a.MUTED)
     n=COUNTS[cat] if cat else len(a.records)
-    a.txt(fig,.64,.527,str(n),56,color,fontproperties=a.MONO)
-    a.txt(fig,.64,.497,'RETAINED NOTICES',10,color,fontproperties=a.MONO)
-    a.txt(fig,.64,.468,f'{n} of {len(a.records)} total · linked updates counted once' if cat else f'{ELIGIBLE_COUNT} eligible notices, after linking known updates',9.7,a.MUTED)
-    a.txt(fig,.64,.425,'NOV 09 — NOV 15, 2026',11,fontproperties=a.MONO)
+    a.txt(fig,SIDEBAR,.527,str(n),76,color,fontproperties=a.MONO)
+    a.txt(fig,SIDEBAR,.497,'RETAINED NOTICES',10,color,fontproperties=a.MONO)
+    a.txt(fig,SIDEBAR,.468,f'{n} of {len(a.records)} total · linked updates counted once' if cat else f'{ELIGIBLE_COUNT} eligible notices, after linking known updates',9.7,a.MUTED)
+    a.txt(fig,SIDEBAR,.425,'NOV 09 — NOV 15, 2026',11,fontproperties=a.MONO)
     if cat:
         peak,value=a.counts[cat].most_common(1)[0]
-        a.txt(fig,.64,.392,f'{a.LABELS[peak]}: {value} notices.',10,a.INK)
-        a.txt(fig,.64,.369,'Service-group extent; exact branch may be unknown.',9.3,a.MUTED)
+        a.txt(fig,SIDEBAR,.392,f'{a.LABELS[peak]}: {value} notices.',10,a.INK)
+        a.txt(fig,SIDEBAR,.369,'Service-group extent; exact branch may be unknown.',9.3,a.MUTED)
     else:
-        a.txt(fig,.64,.392,f'{SEVEN_CAUSE_COUNT} across seven causes + {COUNTS["Other / Unknown"]} Other / Unknown.',10,a.INK)
-        a.txt(fig,.64,.369,'Overview lines are unweighted service extents.',9.3,a.MUTED)
-    a.legend(fig,*a.C_LEGEND_POSITION,color,w=.25,note=False)
-    a.txt(fig,.64,.257,'METRO DETAIL / REFERENCE HUBS',8.8,a.MUTED,fontproperties=a.MONO)
-    inset=a.metro_inset(fig,[.64,.137,.24,.109],cat);ib=add_borders(inset)
+        a.txt(fig,SIDEBAR,.392,f'{SEVEN_CAUSE_COUNT} across seven causes + {COUNTS["Other / Unknown"]} Other / Unknown.',10,a.INK)
+        a.txt(fig,SIDEBAR,.369,'Overview lines are unweighted service extents.',9.3,a.MUTED)
+    a.legend(fig,*LEGEND_POSITION,color,w=.25,note=False)
+    a.txt(fig,SIDEBAR,.257,'METRO DETAIL / REFERENCE HUBS',8.8,a.MUTED,fontproperties=a.MONO)
+    inset=a.metro_inset(fig,[SIDEBAR,.145,.24,.109],cat);ib=add_borders(inset)
     for i,c in enumerate(ORDER):
         xx=.05+i*.13
         fig.add_artist(Rectangle((xx,.113),.117,.004,transform=fig.transFigure,
           facecolor=a.COLORS[c],edgecolor='none',alpha=1 if c==cat else .3))
-    a.txt(fig,.05,.095,'Fixed geography · 0–20 count scale for cause frames · Shared tracks show the highest service-group count, never a sum.',9.1,a.MUTED)
-    a.rule(fig,.083)
-    a.txt(fig,.05,.065,'Notices: NJ Transhit · Rail: NJ TRANSIT GIS Department · State borders: U.S. Census Bureau, 2025',9.3,a.MUTED)
-    a.txt(fig,.05,.045,'Linked updates counted once. Highlighted lines indicate affected services,',9.8,a.INK)
-    a.txt(fig,.05,.028,'not incident locations or delay probabilities.',9.8,a.INK)
-    a.txt(fig,.95,.028,'LOCAL REVIEW · CLASSIFICATIONS PROVISIONAL',8.5,a.MUTED,ha='right',fontproperties=a.MONO)
+    a.rule(fig,.088)
+    a.txt(fig,.05,.068,'Notices: NJ Transhit \u00b7 Rail: NJ TRANSIT GIS Department',9.3,a.MUTED)
+    a.txt(fig,.05,.048,'State borders: U.S. Census Bureau, 2025',9.3,a.MUTED)
     # Keep supporting text >=9 pt (10px at a 960px-wide normal web presentation).
     for label in list(fig.texts)+list(ax.texts)+list(inset.texts):
         label.set_fontsize(max(9,label.get_fontsize()))
@@ -142,7 +144,7 @@ def main():
     quantized[0].save(OUT/'day16_njt_disruptions.gif',save_all=True,append_images=quantized[1:],
       duration=DURATIONS,loop=0,disposal=1,optimize=True)
     manifest={'canvas':[W,H],'projection':'EPSG:32618','fixed_map_extent_utm':list(a.EXTENT),
-      'main_map_rectangle':list(a.C_MAP_RECT),'legend_position':list(a.C_LEGEND_POSITION),
+      'main_map_rectangle':list(MAP_RECT),'legend_position':list(LEGEND_POSITION),
       'count_scale':[0,20],'line_width_points':'0.65 + 4.1 * n / 20',
       'overview_line_width_points':1.6,'overview_quantitative_line_width':False,
       'total_retained_notices':len(a.records),'eligible_notices':ELIGIBLE_COUNT,'category_counts':dict(COUNTS),
@@ -153,7 +155,7 @@ def main():
       'analysis_source':'data/processed/analysis_representatives.csv',
       'analysis_sha256':hashlib.sha256((ROOT/'data/processed/analysis_representatives.csv').read_bytes()).hexdigest(),
       'count_rule':'one representative per verified update group; one direct-cause category per representative; unknown included only in total',
-      'minimum_supporting_font_points':9,'publication_status':'LOCAL ONLY; NJ Transhit reuse permission unresolved'}
+      'minimum_supporting_font_points':9,'publication_status':'Owner-authorized personal publication; NJ Transhit and NJT reuse permission unresolved'}
     (OUT/'animation_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
     # A normal 960px web-display review, not an alternate published cover.
     frames[0].resize((960,960),Image.Resampling.LANCZOS).save(OUT/'web_readability_preview_960.png')

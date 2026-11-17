@@ -46,18 +46,18 @@
     "Staffing & Operations": 0.0,
     "External Incidents": 0.0
   },
-  "opening_png_vs_gif_mean_rgb_error": 1.3636,
+  "opening_png_vs_gif_mean_rgb_error": 1.3541,
   "minimum_supporting_font_points": 9,
   "minimum_supporting_font_px_at_960_width": 10,
   "network_performance_note": "Static local byte size only; no public deployment/network benchmark.",
   "outputs": {
     "day16_njt_disruptions.gif": {
-      "bytes": 291022,
-      "sha256": "9eb94e1b05288c054f3e7eb3f8fec126ca541bd1182f2c487fd5ab32adbccde5"
+      "bytes": 298481,
+      "sha256": "cd0ae03f57fd1c0d645b6f666db85f0158449b811a457a67e1fd6fac9cc35d03"
     },
     "day16_njt_disruptions.png": {
-      "bytes": 203055,
-      "sha256": "faa80ab82fb9c6e375d222ef3556d2d4ae1ab3bfc881cbf46690165c7dd40222"
+      "bytes": 178933,
+      "sha256": "17d765b49cb9efadc174228b2f1d714bcd9c8ad5ee98aaf5ae5677bb8ac4a8cd"
     }
   }
 }

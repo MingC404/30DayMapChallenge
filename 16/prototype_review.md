@@ -359,3 +359,12 @@ y: 4346213.670485008 — 4609134.765382982
 `render_prototypes.py` 已加入 main guard，作为复用的样式／几何模块被导入时不会覆盖三个旧原型。`render_final.py` 和 `verify_final.py` 不进行网络访问、不运行清理脚本，输出单帧 PNG 留在 `outputs/frames/` 方便复核。依赖中新增 `pyshp==3.1.9`，仍安装在 Day 16 的 `.deps/`，没有修改其他日期环境。
 
 **发布状态：本地最终成品，未公开发布。** NJ Transhit 再利用许可仍 Unknown，Census 州界来源不会消除通知或铁路 GIS 的许可问题。本轮没有上传原始 HTML、通知全文、GIF 或 PNG，没有加入 GitHub Pages／学院仓库，没有修改 Day 01–15，没有 commit 或 push。等待用户确认成品。
+
+
+### Final layout refinement (local preview; source confirmation pending)
+
+Title and subtitle now occupy the main geographic axes upper-left space without changing the UTM extent or source geometry. The notice sidebar moves from x=0.64 to x=0.59 and the primary count grows from 56 to 76 points. The two bottom method sentences and lower-right LOCAL REVIEW label are removed from artwork; methodological limitations remain in README. Source credit and author credit remain visible. Canvas remains 1440 by 1440; nine frames, 17.5 seconds, infinite loop. All decoded frame transforms match; opening and closing overviews are identical.
+
+Day 04, 09 and 16 use scoped width:70% and margin-inline:auto on their gallery links. Browser checks at 1440, 390 and 320 pixels confirm centered native-aspect images with no overflow and other days unaffected. Day 04 and Day 09 original artwork are unchanged.
+
+The current artwork still uses NJ TRANSIT GIS, not OSM. OSM replacement remains incomplete. These local previews are not a claim of ODbL compliance; publication of this revision awaits confirmation resolving the request to preserve OSM geometry versus the existing NJT source.

@@ -47,12 +47,12 @@ Attribution identifies the sources; it does not imply source-owner endorsement, 
 
 ### Published artwork and release scope
 
-- `outputs/day16_njt_disruptions.gif`: 1440×1440, nine frames, 17.5 seconds, infinite loop; 291,022 bytes.
-- `outputs/day16_njt_disruptions.png`: matching Opening Overview cover; 203,055 bytes.
+- `outputs/day16_njt_disruptions.gif`: 1440×1440, nine frames, 17.5 seconds, infinite loop; 298,481 bytes.
+- `outputs/day16_njt_disruptions.png`: matching Opening Overview cover; 178,933 bytes.
 
 The sequence is Overview → Mechanical & Equipment → Congestion → Signal & Switch → Slippery Rails & Weather → Track & Infrastructure → Staffing & Operations → External Incidents → Overview. Each opening/cause frame lasts 2 seconds; the closing Overview lasts 1.5 seconds. All frames share the same map extent, projection, rail/hub locations and layout.
 
-The project uses Python, Matplotlib, Shapely, PyProj and Pillow. Rendering scripts and required source snapshots remain in the local workspace. This release contains the artwork, credits and methods summary, not a self-contained public reproduction bundle; do not upload private inputs to make it self-contained. The images are published byte-for-byte and retain their original embedded LOCAL REVIEW and provisional-classification labels; no animation or statistics were changed for this release.
+The project uses Python, Matplotlib, Shapely, PyProj and Pillow. Rendering scripts and required source snapshots remain in the local workspace. This release contains the artwork, credits and methods summary, not a self-contained public reproduction bundle; do not upload private inputs to make it self-contained. The layout revision places the title inside the geographic map, enlarges the notice count and removes the embedded LOCAL REVIEW label and bottom method sentences. The methods and provisional classification status remain documented above; statistics, source geometry and animation timing are unchanged. The personal gallery displays Days 04, 09 and 16 at 70% width within their original media columns.
 
 **Do not publish the entire Day 16 directory.** `data/` contains raw HTML, full-text notice tables and downloaded GIS data; it is locally ignored, not deleted. Saved third-party terms in `outputs/publication_audit/` are also ignored. This release explicitly selects only the final images, this README, the publication review and the ignore rules, plus shared gallery integration files. Publishing these assets does not authorize raw-data redistribution, uploads to a college repository or a ZIP of the local workspace.
 

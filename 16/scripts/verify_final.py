@@ -44,7 +44,7 @@ def main():
     static=np.ones((1440,1440),dtype=bool)
     rect_mask(static,m['frame_alignment'][0]['main_position'])
     rect_mask(static,m['frame_alignment'][0]['inset_position'])
-    rect_mask(static,(.62,.25,.38,.49)) # changing sidebar and count-legend color
+    rect_mask(static,(.57,.25,.43,.49)) # changing sidebar and count-legend color
     rect_mask(static,(.045,.11,.91,.009)) # category sequence strip
     differences=[int(np.count_nonzero(np.any(frame!=decoded[0],axis=2)&static)) for frame in decoded]
     assert max(differences)==0,differences
