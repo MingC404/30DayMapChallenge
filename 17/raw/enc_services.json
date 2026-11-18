@@ -1,0 +1,28 @@
+{
+ "currentVersion": 10.91,
+ "folders": [
+  "ARHC",
+  "ASSIST",
+  "AVPG",
+  "encdirect",
+  "Hydrographic_Services",
+  "IOCM",
+  "KBR",
+  "MACHC",
+  "MarineChart_Services",
+  "MaritimeBoundaries",
+  "MCS",
+  "nav_updates",
+  "Navigation_Services",
+  "NavigationChartData",
+  "NGS",
+  "ports_delineation",
+  "PrecisionNav",
+  "RNC",
+  "StoryMap",
+  "survey_priorities2_national",
+  "USCHC",
+  "Utilities"
+ ],
+ "services": []
+}

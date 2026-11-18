@@ -1,0 +1,283 @@
+{
+  "currentVersion": 10.91,
+  "id": 13,
+  "name": "Approach.Light_point",
+  "type": "Feature Layer",
+  "description": "",
+  "geometryType": "esriGeometryPoint",
+  "sourceSpatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "copyrightText": "",
+  "parentLayer": {
+    "id": 0,
+    "name": "AidsToNavigationP"
+  },
+  "subLayers": [],
+  "minScale": 0,
+  "maxScale": 0,
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "COLOUR",
+      "field2": null,
+      "field3": null,
+      "defaultSymbol": {
+        "type": "esriPMS",
+        "url": "be6dc8dbb375bf31914ded4b907d3e3b",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAPCAYAAADgbT9oAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAZ9JREFUOI21089LFGEcx/H387gDmrC4K+I5EonuBYWVkt06BCouu8zOIiJ0KAj3D4igIOgQCAqhMbPDLgshqHvw4M1T5b9gRHXpUDvD9guxeb4d2gGTDZyVPsfP83let2+K/5TU8SLI++ewWMAwqoy8itI9y4Mrha+ngsNCZVK0bGI4AyCa2/qbKbZytavper7ZNSyah/AHPdJeiKxfm8H8+mRmdeqgKxgY+sduTB3+8AVmFUhy2PAWzUinoRiZCW3/A75dTgyLpR6rSK4BfZ3nshgUKu8z1eJSIjjr2rtNx5tQRj0Brnf8oXkWOO7HjFfaODEMkPWc18B4mPcviiVlDFNAz1+00bWm4020tyeD4wzU7D1g9ovtndWo+wrmBPrbz33KqEaQc69k6qX9RHCcQd95B9xr5WoPIuvwDui7IMPAEJbebs68uJx9Ofc5MRynfSCPgvn1pxx8t4FF4LzqTW21cs9vpOsLP7uC47SPZFVgLSx4txSqHFm9VWFnWnHTdA3HUSBUnQbQCEuVS0Hp0xguu6eGj2bALb453v0GwtGQfevoE3sAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "width": 16,
+        "height": 11,
+        "angle": 0,
+        "xoffset": -7.354385751994396,
+        "yoffset": 1.7784853698756742
+      },
+      "defaultLabel": "<all other values>",
+      "uniqueValueInfos": [],
+      "fieldDelimiter": ","
+    },
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": -178.49114,
+    "ymin": -14.3728506000007,
+    "xmax": 179.01244720000102,
+    "ymax": 71.5079999999998,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "CATLIT",
+  "typeIdField": null,
+  "subtypeFieldName": null,
+  "subtypeField": null,
+  "defaultSubtypeCode": null,
+  "fields": [
+    {
+      "name": "OBJL",
+      "type": "esriFieldTypeDouble",
+      "alias": "OBJL",
+      "domain": null
+    },
+    {
+      "name": "CATLIT",
+      "type": "esriFieldTypeString",
+      "alias": "CATLIT",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "COLOUR",
+      "type": "esriFieldTypeString",
+      "alias": "COLOUR",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "EXCLIT",
+      "type": "esriFieldTypeDouble",
+      "alias": "EXCLIT",
+      "domain": null
+    },
+    {
+      "name": "HEIGHT",
+      "type": "esriFieldTypeDouble",
+      "alias": "HEIGHT",
+      "domain": null
+    },
+    {
+      "name": "LITCHR",
+      "type": "esriFieldTypeDouble",
+      "alias": "LITCHR",
+      "domain": null
+    },
+    {
+      "name": "LITVIS",
+      "type": "esriFieldTypeString",
+      "alias": "LITVIS",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "MARSYS",
+      "type": "esriFieldTypeDouble",
+      "alias": "MARSYS",
+      "domain": null
+    },
+    {
+      "name": "MLTYLT",
+      "type": "esriFieldTypeDouble",
+      "alias": "MLTYLT",
+      "domain": null
+    },
+    {
+      "name": "OBJNAM",
+      "type": "esriFieldTypeString",
+      "alias": "OBJNAM",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "ORIENT",
+      "type": "esriFieldTypeDouble",
+      "alias": "ORIENT",
+      "domain": null
+    },
+    {
+      "name": "SECTR1",
+      "type": "esriFieldTypeDouble",
+      "alias": "SECTR1",
+      "domain": null
+    },
+    {
+      "name": "SECTR2",
+      "type": "esriFieldTypeDouble",
+      "alias": "SECTR2",
+      "domain": null
+    },
+    {
+      "name": "SIGGRP",
+      "type": "esriFieldTypeString",
+      "alias": "SIGGRP",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "SIGPER",
+      "type": "esriFieldTypeDouble",
+      "alias": "SIGPER",
+      "domain": null
+    },
+    {
+      "name": "SIGSEQ",
+      "type": "esriFieldTypeString",
+      "alias": "SIGSEQ",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "VERACC",
+      "type": "esriFieldTypeDouble",
+      "alias": "VERACC",
+      "domain": null
+    },
+    {
+      "name": "VALNMR",
+      "type": "esriFieldTypeDouble",
+      "alias": "VALNMR",
+      "domain": null
+    },
+    {
+      "name": "VERDAT",
+      "type": "esriFieldTypeDouble",
+      "alias": "VERDAT",
+      "domain": null
+    },
+    {
+      "name": "INFORM",
+      "type": "esriFieldTypeString",
+      "alias": "INFORM",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "SCAMIN",
+      "type": "esriFieldTypeDouble",
+      "alias": "SCAMIN",
+      "domain": null
+    },
+    {
+      "name": "SORDAT",
+      "type": "esriFieldTypeString",
+      "alias": "SORDAT",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "SORIND",
+      "type": "esriFieldTypeString",
+      "alias": "SORIND",
+      "length": 254,
+      "domain": null
+    },
+    {
+      "name": "DSNM",
+      "type": "esriFieldTypeString",
+      "alias": "DSNM",
+      "length": 12,
+      "domain": null
+    },
+    {
+      "name": "APPROACH.LIGHTS.FID",
+      "type": "esriFieldTypeOID",
+      "alias": "APPROACH.LIGHTS.FID",
+      "domain": null
+    },
+    {
+      "name": "SHAPE",
+      "type": "esriFieldTypeGeometry",
+      "alias": "SHAPE",
+      "domain": null
+    }
+  ],
+  "geometryField": {
+    "name": "SHAPE",
+    "type": "esriFieldTypeGeometry",
+    "alias": "SHAPE"
+  },
+  "indexes": [
+    {
+      "name": "R5419_SDE_ROWID_UK",
+      "fields": "APPROACH.LIGHTS.FID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "A5086_IX1",
+      "fields": "SHAPE",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [],
+  "canModifyLayer": false,
+  "canScaleSymbols": false,
+  "hasLabels": false,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 1000,
+  "supportsStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportedQueryFormats": "JSON, geoJSON",
+  "isDataVersioned": false,
+  "effectiveMinScale": 144449,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsHavingClause": true,
+    "supportsCountDistinct": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true
+  },
+  "supportsDatumTransformation": true,
+  "dateFieldsTimeReference": null,
+  "supportsCoordinatesQuantization": true
+}

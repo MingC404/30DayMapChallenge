@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "groups": {
+    "sigseq": 141,
+    "fixed": 8,
+    "unknown": 3,
+    "iso": 1
+  },
+  "model_checks": 3793,
+  "entries": 153,
+  "non_dividing_rhythms": 51,
+  "source_positions_and_colors_match_approved_layout": true,
+  "titles_unchanged": true,
+  "beam_period_seconds": 12,
+  "browser": {
+    "offline_file_open": true,
+    "all_153_entries_accessible": true,
+    "loop_zero_and_12_pixel_identical": true,
+    "continuous_mode_default": true,
+    "pause_play_speed_and_conditions": true,
+    "mobile_no_horizontal_overflow": true,
+    "external_requests": [],
+    "errors": []
+  }
+}

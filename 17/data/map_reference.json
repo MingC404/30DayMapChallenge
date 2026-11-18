@@ -1,0 +1,2822 @@
+{
+  "purpose": "Approved geographic layout reference for regression checks, not a rendered historical version.",
+  "canvas": [
+    3000,
+    3600
+  ],
+  "scope": [
+    -74.2,
+    40.4,
+    -73.85,
+    40.72
+  ],
+  "points": [
+    {
+      "llnr": "34790",
+      "llen_uid": "100116449518",
+      "lon": -74.04286999999994,
+      "lat": 40.53797000000003,
+      "pixel": [
+        1389.2383578924964,
+        1935.3452395900442
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34795",
+      "llen_uid": "100116449519",
+      "lon": -74.14124999999996,
+      "lat": 40.57609000000008,
+      "pixel": [
+        779.6529434177545,
+        1633.5228223632416
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34796",
+      "llen_uid": "100117253372",
+      "lon": -73.87222999999994,
+      "lat": 40.46876000000003,
+      "pixel": [
+        2448.5139547167432,
+        2482.2314961411494
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34797",
+      "llen_uid": "100117253374",
+      "lon": -73.86754999999994,
+      "lat": 40.472930000000076,
+      "pixel": [
+        2476.967110064629,
+        2448.1614571889113
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34798",
+      "llen_uid": "100117253376",
+      "lon": -73.91271999999998,
+      "lat": 40.48446000000007,
+      "pixel": [
+        2197.04179212751,
+        2358.4864993175024
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34799",
+      "llen_uid": "100117253378",
+      "lon": -73.89974999999998,
+      "lat": 40.48563000000007,
+      "pixel": [
+        2276.957532372782,
+        2348.0389891512705
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34800",
+      "llen_uid": "100116449520",
+      "lon": -73.92723999999998,
+      "lat": 40.48994000000005,
+      "pixel": [
+        2106.905229553402,
+        2315.296080345312
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34805",
+      "llen_uid": "100116449521",
+      "lon": -73.92385999999993,
+      "lat": 40.494770000000074,
+      "pixel": [
+        2127.284267557234,
+        2276.0080322727563
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34807",
+      "llen_uid": "100117253380",
+      "lon": -73.89941999999996,
+      "lat": 40.468980000000045,
+      "pixel": [
+        2280.671875064724,
+        2482.57189472967
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34815",
+      "llen_uid": "100116449523",
+      "lon": -73.95575999999994,
+      "lat": 40.50099000000006,
+      "pixel": [
+        1929.8752170975426,
+        2228.1057654684773
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34825",
+      "llen_uid": "100116449525",
+      "lon": -73.95256999999998,
+      "lat": 40.505990000000054,
+      "pixel": [
+        1949.0749498518787,
+        2187.4644786909685
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34830",
+      "llen_uid": "100116449526",
+      "lon": -73.97464999999994,
+      "lat": 40.50834000000003,
+      "pixel": [
+        1812.6496475378488,
+        2170.0731775454933
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34835",
+      "llen_uid": "100116449527",
+      "lon": -73.97141999999997,
+      "lat": 40.51316000000003,
+      "pixel": [
+        1832.1194843794542,
+        2130.887895318327
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34840",
+      "llen_uid": "100116449528",
+      "lon": -73.99354999999997,
+      "lat": 40.51571000000007,
+      "pixel": [
+        1695.386010640165,
+        2111.8547361341593
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34845",
+      "llen_uid": "100116449529",
+      "lon": -74.00281999999999,
+      "lat": 40.51938000000007,
+      "pixel": [
+        1637.8752802663762,
+        2082.844828330059
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34850",
+      "llen_uid": "100116449530",
+      "lon": -73.99031999999994,
+      "lat": 40.52066000000008,
+      "pixel": [
+        1714.8498990308733,
+        2071.6230949879005
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34855",
+      "llen_uid": "100116449531",
+      "lon": -73.99969999999996,
+      "lat": 40.52428000000003,
+      "pixel": [
+        1656.6684606567057,
+        2043.0270472923228
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34860",
+      "llen_uid": "100116449532",
+      "lon": -74.01472999999999,
+      "lat": 40.52388000000008,
+      "pixel": [
+        1564.0146772964135,
+        2047.3033686917372
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34865",
+      "llen_uid": "100116449533",
+      "lon": -74.00936999999993,
+      "lat": 40.527960000000064,
+      "pixel": [
+        1596.6994698833864,
+        2013.960053553185
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34870",
+      "llen_uid": "100116449534",
+      "lon": -74.02044999999998,
+      "lat": 40.53047000000004,
+      "pixel": [
+        1528.1475662090122,
+        1994.4386808413135
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34875",
+      "llen_uid": "100116449535",
+      "lon": -74.01463999999999,
+      "lat": 40.533390000000054,
+      "pixel": [
+        1563.7107124433924,
+        1970.4411277767738
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34880",
+      "llen_uid": "100116449536",
+      "lon": -74.02680999999995,
+      "lat": 40.53725000000003,
+      "pixel": [
+        1488.324222179147,
+        1940.0797492193935
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34885",
+      "llen_uid": "100116449537",
+      "lon": -74.01998999999995,
+      "lat": 40.539510000000064,
+      "pixel": [
+        1530.1719042431944,
+        1921.3494108149573
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34890",
+      "llen_uid": "100116449538",
+      "lon": -74.03084999999999,
+      "lat": 40.552130000000034,
+      "pixel": [
+        1462.0920327839058,
+        1820.0997199072233
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34895",
+      "llen_uid": "100116449539",
+      "lon": -74.02384999999998,
+      "lat": 40.55325000000005,
+      "pixel": [
+        1505.142796796254,
+        1810.571999930973
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34903",
+      "llen_uid": "100116449540",
+      "lon": -74.03481999999997,
+      "lat": 40.56593000000004,
+      "pixel": [
+        1436.3975148841023,
+        1708.8417431232099
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34905",
+      "llen_uid": "100116449541",
+      "lon": -74.02766999999994,
+      "lat": 40.567030000000045,
+      "pixel": [
+        1480.3660314724002,
+        1699.4673422404235
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34910",
+      "llen_uid": "100116449548",
+      "lon": -74.01175999999998,
+      "lat": 40.57661000000007,
+      "pixel": [
+        1577.5518282831747,
+        1620.9538836426395
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34920",
+      "llen_uid": "100116449549",
+      "lon": -74.04133999999993,
+      "lat": 40.585500000000025,
+      "pixel": [
+        1394.4922546799944,
+        1551.1224959188755
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34930",
+      "llen_uid": "100116449547",
+      "lon": -74.06020999999998,
+      "lat": 40.61280000000005,
+      "pixel": [
+        1275.8720704335956,
+        1331.7458362095858
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34935",
+      "llen_uid": "100116449546",
+      "lon": -74.06008999999995,
+      "lat": 40.61302000000006,
+      "pixel": [
+        1276.5921453372193,
+        1329.9599698706265
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34945",
+      "llen_uid": "100116449551",
+      "lon": -74.05055999999996,
+      "lat": 40.63428000000005,
+      "pixel": [
+        1333.4319338992595,
+        1157.5126389371094
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34946",
+      "llen_uid": "100118119939",
+      "lon": -74.07049999999998,
+      "lat": 40.63715000000008,
+      "pixel": [
+        1210.4186368513626,
+        1135.6291282070802
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34946.1",
+      "llen_uid": "100118119941",
+      "lon": -74.07055999999994,
+      "lat": 40.63746000000003,
+      "pixel": [
+        1210.0227693679267,
+        1133.1276949146873
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34949",
+      "llen_uid": "100116992976",
+      "lon": -74.07082999999994,
+      "lat": 40.644130000000075,
+      "pixel": [
+        1207.7910716527151,
+        1079.240084504513
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "NOAA LIGHTS COLOUR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34965",
+      "llen_uid": "100116449555",
+      "lon": -74.05389999999994,
+      "lat": 40.64411000000007,
+      "pixel": [
+        1312.013486169235,
+        1078.2906929547853
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34970",
+      "llen_uid": "100116449556",
+      "lon": -74.06383999999997,
+      "lat": 40.652780000000064,
+      "pixel": [
+        1250.077209830432,
+        1008.8766819662786
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34975",
+      "llen_uid": "100116449557",
+      "lon": -74.06535999999994,
+      "lat": 40.65737000000007,
+      "pixel": [
+        1240.3270635610022,
+        971.8809372642343
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34980",
+      "llen_uid": "100116449558",
+      "lon": -74.05050999999997,
+      "lat": 40.65547000000004,
+      "pixel": [
+        1331.891059128322,
+        986.25708532131
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34985",
+      "llen_uid": "100116449559",
+      "lon": -74.05258999999995,
+      "lat": 40.66503000000006,
+      "pixel": [
+        1318.2562949369728,
+        909.1334675032695
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34990",
+      "llen_uid": "100116449560",
+      "lon": -74.04000999999994,
+      "lat": 40.67195000000004,
+      "pixel": [
+        1395.0636524606884,
+        852.3677235546199
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "34995",
+      "llen_uid": "100116449561",
+      "lon": -74.04019999999997,
+      "lat": 40.68392000000006,
+      "pixel": [
+        1392.8381229608892,
+        755.6413870914535
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35005",
+      "llen_uid": "100116449563",
+      "lon": -74.03341999999998,
+      "lat": 40.694330000000036,
+      "pixel": [
+        1433.6254756894373,
+        671.052539130623
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35010",
+      "llen_uid": "100118254811",
+      "lon": -74.01966999999996,
+      "lat": 40.69295000000005,
+      "pixel": [
+        1518.3312452151304,
+        681.2683859095566
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35015",
+      "llen_uid": "100119395119",
+      "lon": -74.01564999999994,
+      "lat": 40.693310000000054,
+      "pixel": [
+        1543.0276786790914,
+        678.0824635730283
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35030",
+      "llen_uid": "100116447751",
+      "lon": -74.10738999999995,
+      "lat": 40.557990000000075,
+      "pixel": [
+        989.7874677232836,
+        1777.7257342463415
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35035",
+      "llen_uid": "100116447752",
+      "lon": -74.14120999999994,
+      "lat": 40.57607000000007,
+      "pixel": [
+        779.9010075437193,
+        1633.6820515404897
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35040",
+      "llen_uid": "100116447753",
+      "lon": -74.00202999999993,
+      "lat": 40.46172000000007,
+      "pixel": [
+        1648.01827158251,
+        2548.7721911511276
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35065",
+      "llen_uid": "100116447758",
+      "lon": -74.01713999999998,
+      "lat": 40.510110000000054,
+      "pixel": [
+        1550.392472695716,
+        2158.7526813746776
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35070",
+      "llen_uid": "100116447759",
+      "lon": -74.01351999999997,
+      "lat": 40.51302000000004,
+      "pixel": [
+        1572.4586273007965,
+        2134.985987041644
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighthouse",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35085",
+      "llen_uid": "100116447920",
+      "lon": -73.91682999999995,
+      "lat": 40.442450000000065,
+      "pixel": [
+        2175.8460862912734,
+        2698.3044686225458
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35090",
+      "llen_uid": "100116447921",
+      "lon": -73.93802999999997,
+      "lat": 40.45293000000004,
+      "pixel": [
+        2043.9278574786356,
+        2615.199845663245
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35095",
+      "llen_uid": "100116447922",
+      "lon": -73.93636999999995,
+      "lat": 40.45493000000005,
+      "pixel": [
+        2053.9812480668616,
+        2598.913428477321
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35100",
+      "llen_uid": "100116447923",
+      "lon": -73.95294999999999,
+      "lat": 40.46198000000004,
+      "pixel": [
+        1950.9511420351857,
+        2543.1620354107854
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35105",
+      "llen_uid": "100116447924",
+      "lon": -73.95119999999997,
+      "lat": 40.46386000000007,
+      "pixel": [
+        1961.572895292676,
+        2527.8405170206465
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35110",
+      "llen_uid": "100116447925",
+      "lon": -73.96649999999994,
+      "lat": 40.47035000000005,
+      "pixel": [
+        1866.5188912393962,
+        2476.5051648664994
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35115",
+      "llen_uid": "100116447926",
+      "lon": -73.96478999999994,
+      "lat": 40.47220000000004,
+      "pixel": [
+        1876.8975701814857,
+        2461.430629971849
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35120",
+      "llen_uid": "100116447927",
+      "lon": -73.97910999999993,
+      "lat": 40.48076000000003,
+      "pixel": [
+        1787.7175221245286,
+        2393.2820141447223
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35125",
+      "llen_uid": "100116447928",
+      "lon": -73.98099999999994,
+      "lat": 40.47894000000008,
+      "pixel": [
+        1776.224187641579,
+        2408.1252337872097
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35135",
+      "llen_uid": "100116447930",
+      "lon": -73.99308999999994,
+      "lat": 40.48754000000008,
+      "pixel": [
+        1700.8218819374017,
+        2339.4802862836987
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35140",
+      "llen_uid": "100116447931",
+      "lon": -74.00776999999994,
+      "lat": 40.49633000000006,
+      "pixel": [
+        1609.4420676322536,
+        2269.4695548119143
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35145",
+      "llen_uid": "100116447932",
+      "lon": -73.99008999999995,
+      "lat": 40.48846000000003,
+      "pixel": [
+        1719.2478774829501,
+        2331.8336980913764
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35150",
+      "llen_uid": "100116447933",
+      "lon": -74.00370999999996,
+      "lat": 40.48595000000006,
+      "pixel": [
+        1635.4377139086828,
+        2353.073799895998
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35155",
+      "llen_uid": "100116447934",
+      "lon": -74.00413999999995,
+      "lat": 40.48323000000005,
+      "pixel": [
+        1633.0324753214395,
+        2375.085558020929
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35160",
+      "llen_uid": "100119222651",
+      "lon": -74.01235999999994,
+      "lat": 40.483940000000075,
+      "pixel": [
+        1582.2446507334498,
+        2369.9177342069743
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35165",
+      "llen_uid": "100116447936",
+      "lon": -74.01104999999995,
+      "lat": 40.48108000000008,
+      "pixel": [
+        1590.587279661903,
+        2392.940406789102
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35170",
+      "llen_uid": "100116447937",
+      "lon": -74.02279999999996,
+      "lat": 40.47959000000003,
+      "pixel": [
+        1518.211964375902,
+        2405.789634653268
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35175",
+      "llen_uid": "100116447938",
+      "lon": -74.02794999999998,
+      "lat": 40.47559000000007,
+      "pixel": [
+        1486.7869324971987,
+        2438.466730928088
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35180",
+      "llen_uid": "100116447939",
+      "lon": -74.03390999999993,
+      "lat": 40.47613000000007,
+      "pixel": [
+        1449.9573328916324,
+        2434.506572525661
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35185",
+      "llen_uid": "100116447940",
+      "lon": -74.03830999999997,
+      "lat": 40.47601000000003,
+      "pixel": [
+        1422.8137533133158,
+        2435.772916613441
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35190",
+      "llen_uid": "100116447941",
+      "lon": -74.01866999999999,
+      "lat": 40.47076000000004,
+      "pixel": [
+        1544.4919823041182,
+        2476.8667168557113
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35192",
+      "llen_uid": "100119437575",
+      "lon": -74.02805999999998,
+      "lat": 40.46389000000005,
+      "pixel": [
+        1487.1492229700523,
+        2533.027956260946
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35195",
+      "llen_uid": "100116447729",
+      "lon": -74.05494999999996,
+      "lat": 40.47935000000007,
+      "pixel": [
+        1319.8325349945353,
+        2409.8899448476795
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35205",
+      "llen_uid": "100116447731",
+      "lon": -74.04920999999996,
+      "lat": 40.48214000000007,
+      "pixel": [
+        1355.0117091478724,
+        2386.962019378173
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35235",
+      "llen_uid": "100116447737",
+      "lon": -74.04134999999997,
+      "lat": 40.51228000000003,
+      "pixel": [
+        1400.8676527083944,
+        2142.8593765682253
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35260",
+      "llen_uid": "100116448013",
+      "lon": -74.04091999999997,
+      "lat": 40.53314000000006,
+      "pixel": [
+        1401.6862224167094,
+        1974.2486899761245
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35265",
+      "llen_uid": "100116448014",
+      "lon": -74.03888999999998,
+      "lat": 40.54668000000004,
+      "pixel": [
+        1413.0103692411212,
+        1864.687382696401
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35305",
+      "llen_uid": "100116448003",
+      "lon": -73.98777999999999,
+      "lat": 40.56654000000003,
+      "pixel": [
+        1726.2564701368028,
+        1700.6581662371507
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35307",
+      "llen_uid": "100119518049",
+      "lon": -73.98299999999995,
+      "lat": 40.569000000000074,
+      "pixel": [
+        1755.4866772805426,
+        1680.4379623030934
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35330",
+      "llen_uid": "100116448007",
+      "lon": -74.01044999999993,
+      "lat": 40.56929000000008,
+      "pixel": [
+        1586.2889011398327,
+        1680.0210302497055
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35395",
+      "llen_uid": "100116448038",
+      "lon": -74.09871999999996,
+      "lat": 40.51231000000007,
+      "pixel": [
+        1047.0026956043957,
+        2146.3483171751886
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35595",
+      "llen_uid": "100116450376",
+      "lon": -74.01956999999999,
+      "lat": 40.41868000000005,
+      "pixel": [
+        1543.6098086709,
+        2897.812245846614
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35596.2",
+      "llen_uid": "100117826233",
+      "lon": -74.02066999999994,
+      "lat": 40.417860000000076,
+      "pixel": [
+        1536.8889285476616,
+        2904.5143807824093
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35596.3",
+      "llen_uid": "100117826235",
+      "lon": -74.02310999999997,
+      "lat": 40.41667000000007,
+      "pixel": [
+        1521.9240142950184,
+        2914.2981319154483
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35596.4",
+      "llen_uid": "100117826237",
+      "lon": -74.02321999999998,
+      "lat": 40.41722000000004,
+      "pixel": [
+        1521.195428380051,
+        2909.8608471940383
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35596.5",
+      "llen_uid": "100117826239",
+      "lon": -74.02813999999995,
+      "lat": 40.41719000000006,
+      "pixel": [
+        1490.8082765968252,
+        2910.438377815843
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35596.6",
+      "llen_uid": "100117826241",
+      "lon": -74.02813999999995,
+      "lat": 40.417500000000075,
+      "pixel": [
+        1490.7807226668535,
+        2907.933129678952
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35596.7",
+      "llen_uid": "100117826243",
+      "lon": -74.03027999999995,
+      "lat": 40.41728000000006,
+      "pixel": [
+        1477.5819554693342,
+        2909.856268928868
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35597",
+      "llen_uid": "100117826245",
+      "lon": -74.03305999999998,
+      "lat": 40.42142000000007,
+      "pixel": [
+        1460.0443628105443,
+        2876.5872543549394
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35597.1",
+      "llen_uid": "100117826247",
+      "lon": -74.03307999999998,
+      "lat": 40.42094000000003,
+      "pixel": [
+        1459.9632852901857,
+        2880.4677016804903
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35597.2",
+      "llen_uid": "100117826249",
+      "lon": -74.03327999999993,
+      "lat": 40.420750000000055,
+      "pixel": [
+        1458.7447950976095,
+        2882.016693715343
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35597.3",
+      "llen_uid": "100117826251",
+      "lon": -74.03371999999996,
+      "lat": 40.42036000000007,
+      "pixel": [
+        1456.0616174053794,
+        2885.198185540598
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35597.4",
+      "llen_uid": "100117826253",
+      "lon": -74.03410999999994,
+      "lat": 40.420060000000035,
+      "pixel": [
+        1453.6792841934353,
+        2887.648957413118
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35597.5",
+      "llen_uid": "100117826255",
+      "lon": -74.03388999999999,
+      "lat": 40.42000000000007,
+      "pixel": [
+        1455.0434225624192,
+        2888.1189883987026
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35610",
+      "llen_uid": "100116450308",
+      "lon": -74.03851999999995,
+      "lat": 40.47289000000006,
+      "pixel": [
+        1421.7924357560023,
+        2461.0013775126317
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35615",
+      "llen_uid": "100116450309",
+      "lon": -74.05249999999995,
+      "lat": 40.45222000000007,
+      "pixel": [
+        1337.305031524252,
+        2628.978989460634
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35620",
+      "llen_uid": "100116450310",
+      "lon": -74.05610999999993,
+      "lat": 40.44500000000005,
+      "pixel": [
+        1315.6420727135414,
+        2687.5659469083266
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35625",
+      "llen_uid": "100116450311",
+      "lon": -74.03895999999997,
+      "lat": 40.468900000000076,
+      "pixel": [
+        1419.4279751942236,
+        2493.276194803415
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35630",
+      "llen_uid": "100116450312",
+      "lon": -74.04482999999993,
+      "lat": 40.46037000000007,
+      "pixel": [
+        1383.943879826151,
+        2562.604670245017
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35635",
+      "llen_uid": "100116450313",
+      "lon": -74.04533999999995,
+      "lat": 40.46201000000008,
+      "pixel": [
+        1380.652414200381,
+        2549.385063220293
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35660",
+      "llen_uid": "100118394378",
+      "lon": -74.04117999999994,
+      "lat": 40.459820000000036,
+      "pixel": [
+        1406.523011845629,
+        2566.8052652423044
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35665",
+      "llen_uid": "100118394386",
+      "lon": -74.05016999999998,
+      "lat": 40.46318000000008,
+      "pixel": [
+        1350.7366064455275,
+        2540.251293713371
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35670",
+      "llen_uid": "100118394393",
+      "lon": -74.03619999999995,
+      "lat": 40.457730000000026,
+      "pixel": [
+        1437.4483866551248,
+        2583.3608737346754
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35675",
+      "llen_uid": "100118394399",
+      "lon": -74.05666999999994,
+      "lat": 40.46556000000004,
+      "pixel": [
+        1310.4093187175276,
+        2521.4475277305864
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35680",
+      "llen_uid": "100118394402",
+      "lon": -74.04152999999997,
+      "lat": 40.45001000000008,
+      "pixel": [
+        1405.2231003773427,
+        2646.1081582301463
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35685",
+      "llen_uid": "100118394408",
+      "lon": -74.06240999999994,
+      "lat": 40.457100000000025,
+      "pixel": [
+        1275.7060752110028,
+        2590.194404695474
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35686",
+      "llen_uid": "100118394413",
+      "lon": -74.04753999999997,
+      "lat": 40.44153000000006,
+      "pixel": [
+        1368.8577628890941,
+        2715.0405583084635
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35687",
+      "llen_uid": "100118394416",
+      "lon": -74.06749999999994,
+      "lat": 40.44944000000004,
+      "pixel": [
+        1244.938589778842,
+        2652.431302922961
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "35688",
+      "llen_uid": "100118394421",
+      "lon": -74.05346999999995,
+      "lat": 40.43509000000006,
+      "pixel": [
+        1332.800347628905,
+        2767.478826887996
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36870",
+      "llen_uid": "100116447856",
+      "lon": -74.04658999999998,
+      "lat": 40.63428000000005,
+      "pixel": [
+        1357.8747675723498,
+        1157.248290357525
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36872",
+      "llen_uid": "100116447857",
+      "lon": -74.04684999999995,
+      "lat": 40.62267000000003,
+      "pixel": [
+        1357.2904538559228,
+        1251.094481317
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36880",
+      "llen_uid": "100116447858",
+      "lon": -74.04125999999997,
+      "lat": 40.64570000000003,
+      "pixel": [
+        1389.6850273555624,
+        1064.5981298263396
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36889.5",
+      "llen_uid": "100119431609",
+      "lon": -74.02557999999993,
+      "lat": 40.65017000000006,
+      "pixel": [
+        1485.808343307449,
+        1027.4118817676067
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36889.6",
+      "llen_uid": "100119431611",
+      "lon": -74.02635999999995,
+      "lat": 40.650690000000054,
+      "pixel": [
+        1480.960580322624,
+        1023.2625408737865
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36889.7",
+      "llen_uid": "100119431613",
+      "lon": -74.02621999999997,
+      "lat": 40.651170000000036,
+      "pixel": [
+        1481.7793795140833,
+        1019.373752472411
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36889.8",
+      "llen_uid": "100119431615",
+      "lon": -74.02580999999998,
+      "lat": 40.65153000000004,
+      "pixel": [
+        1484.2708388512951,
+        1016.436366403389
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36890",
+      "llen_uid": "100116447860",
+      "lon": -74.02258999999998,
+      "lat": 40.66370000000006,
+      "pixel": [
+        1502.9976410785548,
+        917.8612397641238
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36891",
+      "llen_uid": "100116447861",
+      "lon": -74.02408999999994,
+      "lat": 40.672450000000026,
+      "pixel": [
+        1492.9813466598137,
+        847.2481334167742
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36895",
+      "llen_uid": "100116447915",
+      "lon": -74.01921999999996,
+      "lat": 40.67167000000006,
+      "pixel": [
+        1523.0186589912416,
+        853.2184118683222
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36955",
+      "llen_uid": "100116447862",
+      "lon": -74.02950999999996,
+      "lat": 40.66683000000006,
+      "pixel": [
+        1460.131431858314,
+        893.0370242315327
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36960",
+      "llen_uid": "100116447863",
+      "lon": -74.04013999999995,
+      "lat": 40.65095000000008,
+      "pixel": [
+        1396.1164936101104,
+        1022.093711690537
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36965",
+      "llen_uid": "100116447864",
+      "lon": -74.00759999999997,
+      "lat": 40.664750000000026,
+      "pixel": [
+        1595.1531663733122,
+        908.3419322526029
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36975",
+      "llen_uid": "100116447820",
+      "lon": -74.01664999999997,
+      "lat": 40.68105000000003,
+      "pixel": [
+        1537.98494786636,
+        777.2344256784099
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36980",
+      "llen_uid": "100116447821",
+      "lon": -74.01424999999995,
+      "lat": 40.681760000000054,
+      "pixel": [
+        1552.6868167410535,
+        771.3309255499261
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36985",
+      "llen_uid": "100116447822",
+      "lon": -74.02876999999995,
+      "lat": 40.680030000000045,
+      "pixel": [
+        1463.5066203690612,
+        786.3070483017505
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "36986",
+      "llen_uid": "100119395117",
+      "lon": -74.01727999999997,
+      "lat": 40.686330000000055,
+      "pixel": [
+        1533.6316556592565,
+        734.6058095557366
+      ],
+      "color_codes": [
+        "W"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37010",
+      "llen_uid": "100116447890",
+      "lon": -74.07844999999998,
+      "lat": 40.65450000000004,
+      "pixel": [
+        1160.0043779570435,
+        995.9259140288236
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37015",
+      "llen_uid": "100116447891",
+      "lon": -74.07411999999994,
+      "lat": 40.652540000000045,
+      "pixel": [
+        1186.8223878239025,
+        1011.4861947993084
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37020",
+      "llen_uid": "100116447892",
+      "lon": -74.07238999999998,
+      "lat": 40.65709000000004,
+      "pixel": [
+        1197.0829906116096,
+        974.6019998213983
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37032",
+      "llen_uid": "100116447896",
+      "lon": -74.06507999999997,
+      "lat": 40.66431000000006,
+      "pixel": [
+        1241.4540145282494,
+        915.7751733894338
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "NOAA LIGHTS COLOUR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37033",
+      "llen_uid": "100116447897",
+      "lon": -74.06633999999997,
+      "lat": 40.66564000000005,
+      "pixel": [
+        1233.585675352822,
+        905.1088211176349
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37035",
+      "llen_uid": "100116447899",
+      "lon": -74.06145999999995,
+      "lat": 40.66986000000003,
+      "pixel": [
+        1263.2530904746625,
+        870.6839696328566
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37038",
+      "llen_uid": "100116447902",
+      "lon": -74.06033999999994,
+      "lat": 40.67408000000006,
+      "pixel": [
+        1269.780571792502,
+        836.5052286760063
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37039",
+      "llen_uid": "100116447810",
+      "lon": -74.04711999999995,
+      "lat": 40.67753000000005,
+      "pixel": [
+        1350.8239459226943,
+        807.747358264591
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37055",
+      "llen_uid": "100116447814",
+      "lon": -74.05882999999994,
+      "lat": 40.675130000000024,
+      "pixel": [
+        1278.9810796941522,
+        827.9199509741063
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37100",
+      "llen_uid": "100116447831",
+      "lon": -74.05817999999994,
+      "lat": 40.65583000000004,
+      "pixel": [
+        1284.6515389282517,
+        983.855330776065
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37110",
+      "llen_uid": "100116447833",
+      "lon": -74.06444999999997,
+      "lat": 40.658240000000035,
+      "pixel": [
+        1245.8530855149538,
+        964.790244883454
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37150",
+      "llen_uid": "100118131817",
+      "lon": -74.08311999999995,
+      "lat": 40.66477000000003,
+      "pixel": [
+        1130.3949566061915,
+        913.2267394943644
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37151",
+      "llen_uid": "100118131819",
+      "lon": -74.08300999999994,
+      "lat": 40.66515000000004,
+      "pixel": [
+        1131.0398734714572,
+        910.148609225392
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37152",
+      "llen_uid": "100118131821",
+      "lon": -74.08456999999999,
+      "lat": 40.66492000000005,
+      "pixel": [
+        1121.458928250439,
+        912.1074608792021
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37153",
+      "llen_uid": "100118131823",
+      "lon": -74.08432999999997,
+      "lat": 40.66515000000004,
+      "pixel": [
+        1122.9165430275407,
+        910.2332747310721
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37154",
+      "llen_uid": "100118131825",
+      "lon": -74.08836999999994,
+      "lat": 40.66492000000005,
+      "pixel": [
+        1098.07350546492,
+        912.3504496838257
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37155",
+      "llen_uid": "100118131827",
+      "lon": -74.08796999999998,
+      "lat": 40.66515000000004,
+      "pixel": [
+        1100.5158462914424,
+        910.4661142656785
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37181",
+      "llen_uid": "100119443579",
+      "lon": -74.09072999999995,
+      "lat": 40.674570000000074,
+      "pixel": [
+        1082.7432755904583,
+        834.5117933383845
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37182",
+      "llen_uid": "100119443581",
+      "lon": -74.09474999999998,
+      "lat": 40.67628000000008,
+      "pixel": [
+        1057.865208413185,
+        820.9472651128481
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37195",
+      "llen_uid": "100116447801",
+      "lon": -74.05372999999997,
+      "lat": 40.66945000000004,
+      "pixel": [
+        1310.8561790220906,
+        873.4875685864304
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37200",
+      "llen_uid": "100116447802",
+      "lon": -74.05169999999998,
+      "lat": 40.67050000000006,
+      "pixel": [
+        1323.2565513993998,
+        864.8670901841454
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37203",
+      "llen_uid": "100116447803",
+      "lon": -74.05841999999996,
+      "lat": 40.67350000000005,
+      "pixel": [
+        1281.6449711055561,
+        841.0662424952841
+      ],
+      "color_codes": [
+        "G"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37205",
+      "llen_uid": "100116447804",
+      "lon": -74.05633999999998,
+      "lat": 40.67353000000003,
+      "pixel": [
+        1294.4411853277072,
+        840.6865419776836
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37208",
+      "llen_uid": "100116447800",
+      "lon": -74.06527999999997,
+      "lat": 40.67892000000006,
+      "pixel": [
+        1238.9676874963493,
+        797.713471092653
+      ],
+      "color_codes": [
+        "R"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37208.5",
+      "llen_uid": "100117514923",
+      "lon": -74.06896999999998,
+      "lat": 40.67598000000004,
+      "pixel": [
+        1216.5156226488807,
+        821.7148913251976
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_buoy",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37209",
+      "llen_uid": "100116768787",
+      "lon": -74.08055999999993,
+      "lat": 40.688060000000064,
+      "pixel": [
+        1144.180501616201,
+        724.8375532599301
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    },
+    {
+      "llnr": "37209.1",
+      "llen_uid": "100116768789",
+      "lon": -74.08582999999999,
+      "lat": 40.69139000000007,
+      "pixel": [
+        1111.4798499589915,
+        698.263408282803
+      ],
+      "color_codes": [
+        "Y"
+      ],
+      "color_source": "USCG LIGHT_CHAR",
+      "symbol_type": "lighted_beacon",
+      "core_radius_px": 3.5,
+      "halo_radius_px": 24,
+      "displacement_px": 0
+    }
+  ],
+  "titles": [
+    {
+      "text": "DAY 17 / LIGHT & DARK",
+      "bounds": [
+        150,
+        125,
+        559.7375,
+        153
+      ],
+      "origin": [
+        150,
+        125
+      ],
+      "anchor": "lt",
+      "role": "title_day",
+      "font": "seguisb.ttf",
+      "size_px": 33
+    },
+    {
+      "text": "Where the Darkness Ends",
+      "bounds": [
+        149,
+        173,
+        1112,
+        238
+      ],
+      "origin": [
+        150,
+        173
+      ],
+      "anchor": "lt",
+      "role": "title_main",
+      "font": "georgia.ttf",
+      "size_px": 84
+    },
+    {
+      "text": "Navigation Lights of New York Harbor",
+      "bounds": [
+        150,
+        258,
+        754,
+        293
+      ],
+      "origin": [
+        150,
+        258
+      ],
+      "anchor": "lt",
+      "role": "title_subtitle",
+      "font": "segoeui.ttf",
+      "size_px": 36
+    }
+  ]
+}

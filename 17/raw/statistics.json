@@ -1,0 +1,29 @@
+{
+  "scope_all_entries": 243,
+  "confirmed": 153,
+  "unconfirmed": 0,
+  "uscg_characteristic": 152,
+  "uscg_colors": 151,
+  "uscg_periods": 114,
+  "colors": 153,
+  "periods": 144,
+  "exact": 141,
+  "sectors": 5,
+  "reliable": 142,
+  "steady": 8,
+  "nominal": 108,
+  "groups": 144,
+  "orientation": 0,
+  "conditional_animation": 2,
+  "types": {
+    "lighthouse": 7,
+    "lighted_buoy": 114,
+    "lighted_beacon": 32
+  },
+  "matches": {
+    "position_and_characteristic_agree": 147,
+    "ambiguous": 2,
+    "no_candidate_within_25m": 3,
+    "position_only_uscg_characteristic_missing": 1
+  }
+}

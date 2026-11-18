@@ -1,0 +1,1 @@
+﻿const path=require('path'),os=require('os');let last;for(const name of ['playwright',process.env.DAY17_PLAYWRIGHT_MODULE,path.join(os.tmpdir(),'day17-runtime/node-deps/node_modules/playwright')].filter(Boolean)){try{module.exports=require(name);last=null;break}catch(e){last=e}}if(last)throw Error('Install the pinned Playwright dependency with npm install in 17/. '+last.message);

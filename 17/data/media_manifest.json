@@ -1,0 +1,35 @@
+{
+  "duration_seconds": 12,
+  "gif": {
+    "size": [
+      900,
+      1080
+    ],
+    "frames": 240,
+    "duration_ms": 12000,
+    "bytes": 3383488,
+    "palette_colors": 128,
+    "dither": "none"
+  },
+  "mp4": {
+    "size": [
+      1080,
+      1296
+    ],
+    "frames": 360,
+    "fps": 30,
+    "bytes": 337943,
+    "codec": "H.264",
+    "pixel_format": "yuv420p",
+    "decode_ok": true
+  },
+  "png": {
+    "size": [
+      3000,
+      3600
+    ],
+    "mode": "continuous data snapshot at 0.15 s"
+  },
+  "seam_method": "Only non-dividing-period navigation halos fade over first/last 1.2 s. Original SIGSEQ is not rescaled. Two beam rotations are explicitly artistic 12-second turns.",
+  "ffmpeg_version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers"
+}

@@ -1,0 +1,706 @@
+[
+  {
+    "cell": "US4NJ1FE",
+    "title": [
+      "New Jersey"
+    ],
+    "edition": [
+      "3.0"
+    ],
+    "dates": [
+      "2026-05-15",
+      "2026-05-15"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US4NJ1FE.zip"
+    ],
+    "bbox": [
+      -74.4,
+      40.2,
+      -74.1,
+      40.5
+    ]
+  },
+  {
+    "cell": "US4NJ1FF",
+    "title": [
+      "New Jersey"
+    ],
+    "edition": [
+      "2.7"
+    ],
+    "dates": [
+      "2025-06-04",
+      "2026-10-22"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US4NJ1FF.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.2,
+      -73.8,
+      40.5
+    ]
+  },
+  {
+    "cell": "US4NY1AP",
+    "title": [
+      "Raritan River to Passaic River"
+    ],
+    "edition": [
+      "6.4"
+    ],
+    "dates": [
+      "2026-05-15",
+      "2026-08-27"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US4NY1AP.zip"
+    ],
+    "bbox": [
+      -74.4,
+      40.5,
+      -74.1,
+      40.8
+    ]
+  },
+  {
+    "cell": "US4NY1AQ",
+    "title": [
+      "New York Lower Bay to Hudson River"
+    ],
+    "edition": [
+      "13.0"
+    ],
+    "dates": [
+      "2026-10-22",
+      "2026-10-22"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US4NY1AQ.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.5,
+      -73.8,
+      40.8
+    ]
+  },
+  {
+    "cell": "US5NJ1UM",
+    "title": [
+      "Navesink River"
+    ],
+    "edition": [
+      "7.1"
+    ],
+    "dates": [
+      "2026-09-03",
+      "2026-10-22"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NJ1UM.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.35,
+      -74.025,
+      40.425
+    ]
+  },
+  {
+    "cell": "US5NJ1UN",
+    "title": [
+      "Navesink and Shrewsbury Rivers"
+    ],
+    "edition": [
+      "9.1"
+    ],
+    "dates": [
+      "2026-09-03",
+      "2026-10-22"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NJ1UN.zip"
+    ],
+    "bbox": [
+      -74.025,
+      40.35,
+      -73.95,
+      40.425
+    ]
+  },
+  {
+    "cell": "US5NJ1UO",
+    "title": [
+      "North Atlantic Ocean"
+    ],
+    "edition": [
+      "3.0"
+    ],
+    "dates": [
+      "2025-12-12",
+      "2025-12-12"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NJ1UO.zip"
+    ],
+    "bbox": [
+      -73.95,
+      40.35,
+      -73.875,
+      40.425
+    ]
+  },
+  {
+    "cell": "US5NJ1UP",
+    "title": [
+      "North Atlantic Ocean"
+    ],
+    "edition": [
+      "3.0"
+    ],
+    "dates": [
+      "2025-12-12",
+      "2025-12-12"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NJ1UP.zip"
+    ],
+    "bbox": [
+      -73.875,
+      40.35,
+      -73.8,
+      40.425
+    ]
+  },
+  {
+    "cell": "US5NY1BE",
+    "title": [
+      "Rockaway Inlet to Jamaica Bay and Western Basins"
+    ],
+    "edition": [
+      "12.2"
+    ],
+    "dates": [
+      "2025-11-25",
+      "2026-05-07"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NY1BE.zip"
+    ],
+    "bbox": [
+      -73.95,
+      40.575,
+      -73.875,
+      40.65
+    ]
+  },
+  {
+    "cell": "US5NY1BF",
+    "title": [
+      "Jamaica Bay"
+    ],
+    "edition": [
+      "6.2"
+    ],
+    "dates": [
+      "2025-11-25",
+      "2026-05-13"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NY1BF.zip"
+    ],
+    "bbox": [
+      -73.875,
+      40.575,
+      -73.8,
+      40.65
+    ]
+  },
+  {
+    "cell": "US5NY1CE",
+    "title": [
+      "Newtown Creek"
+    ],
+    "edition": [
+      "6.0"
+    ],
+    "dates": [
+      "2026-05-27",
+      "2026-05-27"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NY1CE.zip"
+    ],
+    "bbox": [
+      -73.95,
+      40.65,
+      -73.875,
+      40.725
+    ]
+  },
+  {
+    "cell": "US5NY1CF",
+    "title": [
+      "North Jamaica Bay to North Basins"
+    ],
+    "edition": [
+      "3.0"
+    ],
+    "dates": [
+      "2025-08-22",
+      "2025-08-22"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NY1CF.zip"
+    ],
+    "bbox": [
+      -73.875,
+      40.65,
+      -73.8,
+      40.725
+    ]
+  },
+  {
+    "cell": "US5NYCAD",
+    "title": [
+      "Raritan Bay and Southern Part of Arthur Kill"
+    ],
+    "edition": [
+      "12.0"
+    ],
+    "dates": [
+      "2026-06-23",
+      "2026-06-23"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCAD.zip"
+    ],
+    "bbox": [
+      -74.25,
+      40.425,
+      -74.175,
+      40.5
+    ]
+  },
+  {
+    "cell": "US5NYCAE",
+    "title": [
+      "New York Lower Bay"
+    ],
+    "edition": [
+      "5.1"
+    ],
+    "dates": [
+      "2026-06-10",
+      "2026-08-20"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCAE.zip"
+    ],
+    "bbox": [
+      -74.175,
+      40.425,
+      -74.1,
+      40.5
+    ]
+  },
+  {
+    "cell": "US5NYCAF",
+    "title": [
+      "New York Lower Bay and Sandy Hook Bay"
+    ],
+    "edition": [
+      "6.0"
+    ],
+    "dates": [
+      "2026-10-19",
+      "2026-10-19"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCAF.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.425,
+      -74.025,
+      40.5
+    ]
+  },
+  {
+    "cell": "US5NYCAG",
+    "title": [
+      "New York Lower Bay and Sandy Hook Bay"
+    ],
+    "edition": [
+      "14.0"
+    ],
+    "dates": [
+      "2026-10-19",
+      "2026-10-19"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCAG.zip"
+    ],
+    "bbox": [
+      -74.025,
+      40.425,
+      -73.95,
+      40.5
+    ]
+  },
+  {
+    "cell": "US5NYCAH",
+    "title": [
+      "Approach to New York Lower Bay"
+    ],
+    "edition": [
+      "5.0"
+    ],
+    "dates": [
+      "2026-10-14",
+      "2026-10-14"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCAH.zip"
+    ],
+    "bbox": [
+      -73.95,
+      40.425,
+      -73.875,
+      40.5
+    ]
+  },
+  {
+    "cell": "US5NYCAI",
+    "title": [
+      "North Atlantic Ocean"
+    ],
+    "edition": [
+      "3.0"
+    ],
+    "dates": [
+      "2025-12-12",
+      "2025-12-12"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCAI.zip"
+    ],
+    "bbox": [
+      -73.875,
+      40.425,
+      -73.8,
+      40.5
+    ]
+  },
+  {
+    "cell": "US5NYCBD",
+    "title": [
+      "Raritan Bay and Southern Part of Arthur Kill"
+    ],
+    "edition": [
+      "8.1"
+    ],
+    "dates": [
+      "2026-06-23",
+      "2026-08-20"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCBD.zip"
+    ],
+    "bbox": [
+      -74.25,
+      40.5,
+      -74.175,
+      40.575
+    ]
+  },
+  {
+    "cell": "US5NYCBE",
+    "title": [
+      "New York Lower Bay Northern Part"
+    ],
+    "edition": [
+      "10.2"
+    ],
+    "dates": [
+      "2026-06-10",
+      "2026-08-20"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCBE.zip"
+    ],
+    "bbox": [
+      -74.175,
+      40.5,
+      -74.1,
+      40.575
+    ]
+  },
+  {
+    "cell": "US5NYCBF",
+    "title": [
+      "New York Lower Bay"
+    ],
+    "edition": [
+      "4.0"
+    ],
+    "dates": [
+      "2026-11-10",
+      "2026-11-10"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCBF.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.5,
+      -74.025,
+      40.575
+    ]
+  },
+  {
+    "cell": "US5NYCBG",
+    "title": [
+      "New York Lower Bay"
+    ],
+    "edition": [
+      "10.0"
+    ],
+    "dates": [
+      "2026-11-10",
+      "2026-11-10"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCBG.zip"
+    ],
+    "bbox": [
+      -74.025,
+      40.5,
+      -73.95,
+      40.575
+    ]
+  },
+  {
+    "cell": "US5NYCBH",
+    "title": [
+      "Rockaway Inlet"
+    ],
+    "edition": [
+      "11.0"
+    ],
+    "dates": [
+      "2026-10-14",
+      "2026-10-14"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCBH.zip"
+    ],
+    "bbox": [
+      -73.95,
+      40.5,
+      -73.875,
+      40.575
+    ]
+  },
+  {
+    "cell": "US5NYCBI",
+    "title": [
+      "North Atlantic Ocean"
+    ],
+    "edition": [
+      "7.0"
+    ],
+    "dates": [
+      "2025-12-12",
+      "2025-12-12"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCBI.zip"
+    ],
+    "bbox": [
+      -73.875,
+      40.5,
+      -73.8,
+      40.575
+    ]
+  },
+  {
+    "cell": "US5NYCCD",
+    "title": [
+      "Northern Part of Arthur Kill"
+    ],
+    "edition": [
+      "7.0"
+    ],
+    "dates": [
+      "2026-05-27",
+      "2026-05-27"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCCD.zip"
+    ],
+    "bbox": [
+      -74.25,
+      40.575,
+      -74.175,
+      40.65
+    ]
+  },
+  {
+    "cell": "US5NYCCE",
+    "title": [
+      "Kill Van Kull"
+    ],
+    "edition": [
+      "12.2"
+    ],
+    "dates": [
+      "2026-05-27",
+      "2026-10-30"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCCE.zip"
+    ],
+    "bbox": [
+      -74.175,
+      40.575,
+      -74.1,
+      40.65
+    ]
+  },
+  {
+    "cell": "US5NYCCF",
+    "title": [
+      "New York Harbor, New York Lower Bay Northern Part, Upper Bay and Narrows"
+    ],
+    "edition": [
+      "10.5"
+    ],
+    "dates": [
+      "2026-01-26",
+      "2026-08-04"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCCF.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.575,
+      -74.025,
+      40.65
+    ]
+  },
+  {
+    "cell": "US5NYCCG",
+    "title": [
+      "NY Harbor, Gravesend Bay, Northern Part Lower Bay"
+    ],
+    "edition": [
+      "8.3"
+    ],
+    "dates": [
+      "2026-04-28",
+      "2026-07-27"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCCG.zip"
+    ],
+    "bbox": [
+      -74.025,
+      40.575,
+      -73.95,
+      40.65
+    ]
+  },
+  {
+    "cell": "US5NYCDD",
+    "title": [
+      "Northern Part of Arthur Kill"
+    ],
+    "edition": [
+      "2.0"
+    ],
+    "dates": [
+      "2026-01-26",
+      "2026-01-26"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCDD.zip"
+    ],
+    "bbox": [
+      -74.25,
+      40.65,
+      -74.175,
+      40.725
+    ]
+  },
+  {
+    "cell": "US5NYCDE",
+    "title": [
+      "Newark Bay"
+    ],
+    "edition": [
+      "10.2"
+    ],
+    "dates": [
+      "2026-05-27",
+      "2026-08-27"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCDE.zip"
+    ],
+    "bbox": [
+      -74.175,
+      40.65,
+      -74.1,
+      40.725
+    ]
+  },
+  {
+    "cell": "US5NYCDF",
+    "title": [
+      "New York Harbor, Upper Bay, Hudson and Hackensack Rivers"
+    ],
+    "edition": [
+      "16.5"
+    ],
+    "dates": [
+      "2026-07-01",
+      "2026-11-13"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCDF.zip"
+    ],
+    "bbox": [
+      -74.1,
+      40.65,
+      -74.025,
+      40.725
+    ]
+  },
+  {
+    "cell": "US5NYCDG",
+    "title": [
+      "NY Harbor, Upper Bay, Hudson and East Rivers"
+    ],
+    "edition": [
+      "13.3"
+    ],
+    "dates": [
+      "2026-07-01",
+      "2026-10-16"
+    ],
+    "urls": [
+      "https://www.charts.noaa.gov/ENCs/US5NYCDG.zip"
+    ],
+    "bbox": [
+      -74.025,
+      40.65,
+      -73.95,
+      40.725
+    ]
+  }
+]

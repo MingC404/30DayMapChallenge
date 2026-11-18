@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "gif_frames": 240,
+  "gif_duration_ms": 12000,
+  "gif_size_bytes": 3383488,
+  "gif_decoded_seam_mean_absolute_channel_difference": 0.2712678326474623,
+  "gif_max_normal_adjacent_difference": 0.2547013031550069,
+  "gif_seam_not_an_outlier": true,
+  "mp4_decode_ok": true,
+  "mp4_duration_seconds": 12,
+  "png_dimensions": [
+    3000,
+    3600
+  ]
+}
