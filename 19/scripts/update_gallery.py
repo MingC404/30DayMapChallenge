@@ -16,12 +16,12 @@ SPECS = {
     '17': dict(title='Where the Darkness Ends', subtitle='Navigation Lights of New York Harbor',
                theme='Light & Dark', size=(900, 1080), interactive='17/day17.html',
                description="An artistic night map of New York Harbor's navigation lights, combining documented light rhythms with illustrative lighthouse beams.",
-               tools='Python · JavaScript · Canvas · Pillow · FFmpeg',
+               tools='Python · JavaScript · NumPy · Pillow',
                alt='New York Harbor navigation lights with illustrative lighthouse beams against dark water'),
     '19': dict(title='Where Smells Wander', subtitle='A Smellscape of SoHo, New York',
                theme='Senses: Smell', size=(1600, 1200), interactive='19/index.html',
                description='An interactive-inspired smellscape of SoHo, revealing how mapped aroma sources and historical odor reports relate to building-constrained street space.',
-               tools='JavaScript · Canvas · Web Worker · Python · FFmpeg',
+               tools='JavaScript · Python · Shapely · Pillow',
                alt='One building-constrained fluid field in SoHo, colored amber for potential aroma sources and violet for historical odor complaints'),
 }
 
@@ -48,7 +48,7 @@ def main():
                f'<p class="day">DAY {day} / {e(spec["theme"].upper())}</p>'
                f'<h2 id="title-{day}">{e(spec["title"])}</h2>'
                f'<p class="description"><em>{e(spec["subtitle"])}</em><br>{e(spec["description"])}</p>'
-               f'<p class="tools">{e(spec["tools"])} · Ming Cao</p>'
+               f'<p class="tools">{e(spec["tools"])}</p>'
                f'<nav class="links" aria-label="Day {day} resources">'
                f'<a href="{spec["interactive"]}" target="_blank" rel="noopener noreferrer">View interactive map</a>'
                f'<a href="https://github.com/MingC404/30DayMapChallenge/tree/main/{day}" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>'
