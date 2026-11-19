@@ -1,5 +1,17 @@
 # Day 17 directory cleanup
 
+## Final audit: November 18, 2026
+
+The final review found 397 files (113,471,550 bytes) before edits. No obsolete media, frame sequences, screenshots, logs or unused version folders remained. The only GIF, MP4 and root poster are the formal outputs. The other PNGs are renderer textures; the other HTML files are the source template and saved official source pages, not competing map versions.
+
+All 336 files in `raw/` are retained: official source snapshots, ENC archives and extracted exchange files, updates, catalog, user agreements and research audits. Repeated agreement text belongs to distinct official exchange packages; ZIP and extracted files serve provenance and the existing GDAL pipeline. Empty API responses also document unsuccessful source queries. These are not disposable caches.
+
+The README is now an English overview. Unique rendering/timing details were moved into `lighthouse_beam_research.md`. The final GIF, PNG, MP4, HTML, inventory, geometry and artwork were not changed. Existing HTML and media checks passed, including all 153 entries, offline interaction, mobile layout, infinite GIF metadata and full MP4 decode.
+
+The exporter already uses `TemporaryDirectory` for 360 frames and the palette, including automatic cleanup on failure. The frame helper now rejects any destination outside an export-owned `day17-render-*` directory under the OS temporary root. A rejection check confirms that it cannot write a frame sequence into `17/`. The new local ignore rules cover bytecode and accidental temporary artifacts.
+
+Final counts, file types and subdirectory totals for both days are recorded in [the shared final audit](../19/data/final_audit.json). No research or original-source files were removed. No new media export was necessary. Local Gallery staging is reproducible with `python -B 19/scripts/update_gallery.py`; it does not publish.
+
 清理范围仅为 `17/`，未改动其他 Day、Gallery 或共享仓库文件。未 commit / push。
 
 ## 保留

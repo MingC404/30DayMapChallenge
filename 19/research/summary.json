@@ -1,0 +1,464 @@
+[
+  {
+    "id": "chinatown",
+    "name": "Chinatown / Grand–Broome",
+    "bbox": [
+      40.717,
+      -73.9975,
+      40.7202,
+      -73.9932
+    ],
+    "area_m2": 129238,
+    "raw_311": 82,
+    "groups": {
+      "excluded": 18,
+      "sewer_odor": 1,
+      "waste_proxy": 55,
+      "outdoor_odor_fumes": 2,
+      "indoor_odor": 3,
+      "public_urination_proxy": 3
+    },
+    "retained_311": 64,
+    "outdoor_odor_records": 3,
+    "outdoor_odor_unique_coords": 2,
+    "pois": 84,
+    "poi_categories": {
+      "restaurant": 41,
+      "cafe": 20,
+      "fast_food": 17,
+      "florist": 2,
+      "bakery": 3,
+      "food_court": 1
+    },
+    "duplicate_flags": 0,
+    "relevant_relations": [],
+    "building_features": 285,
+    "footprint_coverage": 0.486,
+    "street_segments": 37,
+    "complete_street_faces": 5,
+    "nearest_odor_poi": [
+      {
+        "unique_key": "63993981",
+        "nearest_poi_m": 58.8
+      },
+      {
+        "unique_key": "64227307",
+        "nearest_poi_m": 11.1
+      },
+      {
+        "unique_key": "66954282",
+        "nearest_poi_m": 11.1
+      }
+    ]
+  },
+  {
+    "id": "les",
+    "name": "Lower East Side / Broome–Rivington",
+    "bbox": [
+      40.7184,
+      -73.991,
+      40.722,
+      -73.9868
+    ],
+    "area_m2": 142008,
+    "raw_311": 88,
+    "groups": {
+      "outdoor_odor_fumes": 16,
+      "food_odor": 1,
+      "waste_proxy": 57,
+      "indoor_odor": 2,
+      "excluded": 7,
+      "public_urination_proxy": 3,
+      "chemical_odor": 2
+    },
+    "retained_311": 81,
+    "outdoor_odor_records": 19,
+    "outdoor_odor_unique_coords": 10,
+    "pois": 82,
+    "poi_categories": {
+      "cafe": 10,
+      "restaurant": 46,
+      "fast_food": 20,
+      "bakery": 5,
+      "food_court": 1
+    },
+    "duplicate_flags": 2,
+    "relevant_relations": [],
+    "building_features": 305,
+    "footprint_coverage": 0.453,
+    "street_segments": 55,
+    "complete_street_faces": 12,
+    "nearest_odor_poi": [
+      {
+        "unique_key": "63603576",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63605458",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63629074",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63638080",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63655270",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63730113",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63763907",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "63920955",
+        "nearest_poi_m": 9.2
+      },
+      {
+        "unique_key": "63949928",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "64027917",
+        "nearest_poi_m": 15.2
+      },
+      {
+        "unique_key": "64077121",
+        "nearest_poi_m": 24.3
+      },
+      {
+        "unique_key": "64337187",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "64416565",
+        "nearest_poi_m": 23.1
+      },
+      {
+        "unique_key": "65622914",
+        "nearest_poi_m": 31.0
+      },
+      {
+        "unique_key": "66459447",
+        "nearest_poi_m": 19.2
+      },
+      {
+        "unique_key": "66544714",
+        "nearest_poi_m": 8.6
+      },
+      {
+        "unique_key": "66766285",
+        "nearest_poi_m": 17.8
+      },
+      {
+        "unique_key": "66829522",
+        "nearest_poi_m": 21.0
+      },
+      {
+        "unique_key": "67099090",
+        "nearest_poi_m": 79.5
+      }
+    ]
+  },
+  {
+    "id": "east_village",
+    "name": "East Village / E 6th–E 9th",
+    "bbox": [
+      40.7255,
+      -73.9885,
+      40.729,
+      -73.984
+    ],
+    "area_m2": 147909,
+    "raw_311": 131,
+    "groups": {
+      "waste_proxy": 87,
+      "excluded": 22,
+      "outdoor_odor_fumes": 12,
+      "indoor_odor": 9,
+      "chemical_odor": 1
+    },
+    "retained_311": 109,
+    "outdoor_odor_records": 13,
+    "outdoor_odor_unique_coords": 10,
+    "pois": 119,
+    "poi_categories": {
+      "restaurant": 77,
+      "fast_food": 30,
+      "coffee": 1,
+      "florist": 2,
+      "cafe": 7,
+      "bakery": 2
+    },
+    "duplicate_flags": 4,
+    "relevant_relations": [],
+    "building_features": 419,
+    "footprint_coverage": 0.438,
+    "street_segments": 24,
+    "complete_street_faces": 1,
+    "nearest_odor_poi": [
+      {
+        "unique_key": "64212283",
+        "nearest_poi_m": 13.8
+      },
+      {
+        "unique_key": "64216149",
+        "nearest_poi_m": 14.3
+      },
+      {
+        "unique_key": "64318573",
+        "nearest_poi_m": 13.8
+      },
+      {
+        "unique_key": "64352713",
+        "nearest_poi_m": 14.1
+      },
+      {
+        "unique_key": "64518442",
+        "nearest_poi_m": 14.4
+      },
+      {
+        "unique_key": "64742713",
+        "nearest_poi_m": 13.2
+      },
+      {
+        "unique_key": "65242906",
+        "nearest_poi_m": 16.1
+      },
+      {
+        "unique_key": "65622907",
+        "nearest_poi_m": 12.5
+      },
+      {
+        "unique_key": "65827875",
+        "nearest_poi_m": 39.6
+      },
+      {
+        "unique_key": "66357924",
+        "nearest_poi_m": 14.4
+      },
+      {
+        "unique_key": "66445809",
+        "nearest_poi_m": 14.4
+      },
+      {
+        "unique_key": "66959386",
+        "nearest_poi_m": 12.9
+      },
+      {
+        "unique_key": "67090657",
+        "nearest_poi_m": 15.8
+      }
+    ]
+  },
+  {
+    "id": "west_village",
+    "name": "West Village / Bleecker–Grove",
+    "bbox": [
+      40.731,
+      -74.004,
+      40.7344,
+      -73.9995
+    ],
+    "area_m2": 143672,
+    "raw_311": 251,
+    "groups": {
+      "waste_proxy": 171,
+      "excluded": 47,
+      "outdoor_odor_fumes": 17,
+      "public_urination_proxy": 7,
+      "food_odor": 5,
+      "indoor_odor": 3,
+      "chemical_odor": 1
+    },
+    "retained_311": 204,
+    "outdoor_odor_records": 23,
+    "outdoor_odor_unique_coords": 13,
+    "pois": 67,
+    "poi_categories": {
+      "restaurant": 42,
+      "cafe": 14,
+      "florist": 1,
+      "fast_food": 7,
+      "bakery": 3
+    },
+    "duplicate_flags": 0,
+    "relevant_relations": [],
+    "building_features": 404,
+    "footprint_coverage": 0.467,
+    "street_segments": 67,
+    "complete_street_faces": 13,
+    "nearest_odor_poi": [
+      {
+        "unique_key": "63947506",
+        "nearest_poi_m": 17.0
+      },
+      {
+        "unique_key": "64395533",
+        "nearest_poi_m": 10.2
+      },
+      {
+        "unique_key": "64407936",
+        "nearest_poi_m": 10.2
+      },
+      {
+        "unique_key": "64667805",
+        "nearest_poi_m": 10.2
+      },
+      {
+        "unique_key": "64758470",
+        "nearest_poi_m": 10.1
+      },
+      {
+        "unique_key": "64802712",
+        "nearest_poi_m": 10.2
+      },
+      {
+        "unique_key": "64811209",
+        "nearest_poi_m": 7.5
+      },
+      {
+        "unique_key": "64849675",
+        "nearest_poi_m": 7.5
+      },
+      {
+        "unique_key": "64879607",
+        "nearest_poi_m": 7.5
+      },
+      {
+        "unique_key": "64896610",
+        "nearest_poi_m": 7.5
+      },
+      {
+        "unique_key": "64943010",
+        "nearest_poi_m": 8.6
+      },
+      {
+        "unique_key": "65241301",
+        "nearest_poi_m": 25.2
+      },
+      {
+        "unique_key": "65309315",
+        "nearest_poi_m": 10.1
+      },
+      {
+        "unique_key": "65514738",
+        "nearest_poi_m": 10.2
+      },
+      {
+        "unique_key": "65578042",
+        "nearest_poi_m": 25.2
+      },
+      {
+        "unique_key": "65651103",
+        "nearest_poi_m": 25.2
+      },
+      {
+        "unique_key": "65940060",
+        "nearest_poi_m": 23.6
+      },
+      {
+        "unique_key": "66584096",
+        "nearest_poi_m": 23.8
+      },
+      {
+        "unique_key": "66725456",
+        "nearest_poi_m": 27.1
+      },
+      {
+        "unique_key": "66791063",
+        "nearest_poi_m": 23.6
+      },
+      {
+        "unique_key": "66803811",
+        "nearest_poi_m": 23.6
+      },
+      {
+        "unique_key": "67061342",
+        "nearest_poi_m": 8.9
+      },
+      {
+        "unique_key": "67081143",
+        "nearest_poi_m": 17.9
+      }
+    ]
+  },
+  {
+    "id": "williamsburg",
+    "name": "Williamsburg / Bedford–Berry",
+    "bbox": [
+      40.713,
+      -73.9625,
+      40.7165,
+      -73.958
+    ],
+    "area_m2": 147937,
+    "raw_311": 56,
+    "groups": {
+      "outdoor_odor_fumes": 5,
+      "food_odor": 1,
+      "excluded": 9,
+      "waste_proxy": 39,
+      "sewer_odor": 1,
+      "chemical_odor": 1
+    },
+    "retained_311": 47,
+    "outdoor_odor_records": 8,
+    "outdoor_odor_unique_coords": 8,
+    "pois": 52,
+    "poi_categories": {
+      "fast_food": 12,
+      "cafe": 11,
+      "restaurant": 25,
+      "bakery": 3,
+      "florist": 1
+    },
+    "duplicate_flags": 0,
+    "relevant_relations": [],
+    "building_features": 357,
+    "footprint_coverage": 0.458,
+    "street_segments": 47,
+    "complete_street_faces": 8,
+    "nearest_odor_poi": [
+      {
+        "unique_key": "63680692",
+        "nearest_poi_m": 13.7
+      },
+      {
+        "unique_key": "63683214",
+        "nearest_poi_m": 12.7
+      },
+      {
+        "unique_key": "63805540",
+        "nearest_poi_m": 36.9
+      },
+      {
+        "unique_key": "64971320",
+        "nearest_poi_m": 9.5
+      },
+      {
+        "unique_key": "65634971",
+        "nearest_poi_m": 43.9
+      },
+      {
+        "unique_key": "66171430",
+        "nearest_poi_m": 35.8
+      },
+      {
+        "unique_key": "66313832",
+        "nearest_poi_m": 12.7
+      },
+      {
+        "unique_key": "66589069",
+        "nearest_poi_m": 32.7
+      }
+    ]
+  }
+]

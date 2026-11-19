@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+*.partial
+frame_*.png
+palette.png

@@ -1,0 +1,489 @@
+[
+  {
+    "type": "node",
+    "id": "1666263415",
+    "lon": -73.9602181,
+    "lat": 40.7154566,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:postcode": "11211",
+      "amenity": "fast_food",
+      "cuisine": "mexican",
+      "name": "Endless Summer",
+      "website": "https://www.endlesssummertacos.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "1979669269",
+    "lon": -73.9616239,
+    "lat": 40.7141835,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "300",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Bedford Avenue",
+      "amenity": "cafe",
+      "check_date": "2023-04-22",
+      "name": "Black Brick Coffee",
+      "website": "https://blackbrickcoffee.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "1979669271",
+    "lon": -73.9602838,
+    "lat": 40.7142048,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:country": "US",
+      "addr:housenumber": "199",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "check_date": "2022-05-30",
+      "name": "Dokébi"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2187906509",
+    "lon": -73.9606917,
+    "lat": 40.7143802,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:country": "US",
+      "addr:housenumber": "187",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2025-04-26",
+      "name": "Garden Carver",
+      "opening_hours:signed": "no"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2839628051",
+    "lon": -73.9605048,
+    "lat": 40.7146064,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:housenumber": "168",
+      "addr:postcode": "11211",
+      "addr:street": "North 1st Street",
+      "amenity": "cafe",
+      "drink:espresso": "yes",
+      "opening_hours": "Sa-Su 12:00-18:00",
+      "shop": "video_games;gift",
+      "website": "https://playvitamin.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2839628066",
+    "lon": -73.9605332,
+    "lat": 40.7143133,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "191",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "email": "birdsofafeather.nyc@gmail.com",
+      "name": "Birds of a Feather",
+      "opening_hours": "Mo-Th 12:00-15:00,17:00-22:00; Fr 12:00-15:00,17:00-22:30; Sa 12:00-22:30; Su 12:00-22:00",
+      "phone": "+1-718-969-6800",
+      "website": "https://birdsofafeatherny.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2839628069",
+    "lon": -73.96014,
+    "lat": 40.7141481,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "205",
+      "addr:postcode": "11211",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "cuisine": "japanese;ramen",
+      "name": "Samurai Mama",
+      "name:en": "Samurai Mama",
+      "opening_hours": "Mo-Fr 12:00-16:30, 17:00-23:00; Sa-Su 12:00-23:30"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "3743024926",
+    "lon": -73.95913,
+    "lat": 40.7143881,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "667",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Driggs Avenue",
+      "amenity": "cafe",
+      "internet_access": "yes",
+      "name": "Meyers Bageri",
+      "website": "https://www.margopatisserie.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4320052886",
+    "lon": -73.9612417,
+    "lat": 40.7143588,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "172",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "fast_food",
+      "cuisine": "chinese",
+      "delivery": "yes",
+      "drive_through": "no",
+      "level": "0",
+      "name": "Food Sing",
+      "opening_hours": "Mo-Th 11:00-23:30, Fr-Sa 11:00-24:00, Su 12:00-23:30",
+      "phone": "+1-718-782-7596",
+      "takeaway": "yes"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4336929648",
+    "lon": -73.9614893,
+    "lat": 40.713994,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "287",
+      "addr:state": "NY",
+      "addr:street": "Bedford Avenue",
+      "amenity": "fast_food",
+      "cuisine": "health_food",
+      "diet:vegan": "yes",
+      "name": "Quinoa Kitchen",
+      "phone": "+1-718-486-5150",
+      "takeaway": "yes",
+      "toilets": "no",
+      "website": "https://quinoa.kitchen/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4466534299",
+    "lon": -73.96032,
+    "lat": 40.7139789,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "208",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "alt_name": "Zaab Zaab Talay",
+      "amenity": "restaurant",
+      "branch": "Williamsburg",
+      "cuisine": "thai",
+      "name": "Zaab Zaab",
+      "opening_hours": "We-Th 17:30-22:30, Fr-Sa 11:30-23:30, Su 11:30-22:30",
+      "phone": "+1-718-576-3743",
+      "website": "https://zaabzaabnyc.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4811875621",
+    "lon": -73.9597145,
+    "lat": 40.714903,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "232",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Metropolitan Avenue",
+      "amenity": "cafe",
+      "cuisine": "coffee_shop",
+      "name": "sweatshop",
+      "opening_hours": "Mo-Su 07:00-18:00",
+      "website": "https://sweatshop.coffee/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4848257938",
+    "lon": -73.9606445,
+    "lat": 40.7149653,
+    "position_method": "node",
+    "category": "bakery",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "263",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Bedford Avenue",
+      "name": "Martha's Country Bakery",
+      "name:en": "Martha's Country Bakery",
+      "opening_hours": "Mo-Th 06:00-24:00, Fr-Sa 06:00-25:00, Su 06:00-24:00",
+      "shop": "bakery"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4961172027",
+    "lon": -73.9613388,
+    "lat": 40.7142331,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "277",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Bedford Avenue",
+      "amenity": "restaurant",
+      "branch": "Williamsburg",
+      "diet:gluten_free": "yes",
+      "email": "info@springbone.com",
+      "name": "Springbone",
+      "opening_hours": "Mo-Su 10:30-20:30",
+      "operator": "Michel Cluizel",
+      "phone": "+1-929-295-0537",
+      "website": "https://springbone.com/branches/williamsburg/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5978792101",
+    "lon": -73.9613291,
+    "lat": 40.7146299,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "171",
+      "addr:postcode": "11249",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "alt_name": "Salt and Charcoal",
+      "amenity": "restaurant",
+      "cocktails": "yes",
+      "cuisine": "japanese;steak_house",
+      "drink:beer": "yes",
+      "drink:liquor": "yes",
+      "drink:sake": "yes",
+      "drink:wine": "yes",
+      "name": "Salt+Charcoal",
+      "opening_hours": "Mo-Fr 17:30-24:00, Sa-Su 12:00-15:30,17:30-24:00",
+      "phone": "+1-718-782-2087",
+      "website": "https://www.saltandcharcoal.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5978837391",
+    "lon": -73.9611571,
+    "lat": 40.7147818,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "ramen",
+      "name": "Setagaya",
+      "opening_hours": "Mo-Th 12:00-22:20, Fr-Sa 12:00-10:50, Su 12:00-21:50",
+      "phone": "+1-718-218-8508",
+      "website": "https://www.setagayany.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5978837392",
+    "lon": -73.9608457,
+    "lat": 40.7147436,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "265",
+      "addr:street": "Bedford Avenue",
+      "amenity": "restaurant",
+      "name": "Healthy Way Market",
+      "website": "https://www.getsauce.com/order/site/healthy-way-organic-market"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9353067726",
+    "lon": -73.9594218,
+    "lat": 40.7148432,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "brand": "Tacombi",
+      "brand:wikidata": "Q123165959",
+      "cuisine": "mexican",
+      "name": "Tacombi"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9543941117",
+    "lon": -73.9590893,
+    "lat": 40.7144304,
+    "position_method": "node",
+    "category": "bakery",
+    "tags": {
+      "name": "La Bicyclette Bakery",
+      "shop": "bakery"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10838671326",
+    "lon": -73.9616034,
+    "lat": 40.7142409,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "Brooklyn",
+      "addr:housenumber": "298",
+      "addr:postcode": "11211",
+      "addr:state": "NY",
+      "addr:street": "Bedford Avenue",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2026-11-17",
+      "cuisine": "seafood",
+      "name": "Maison Premiere",
+      "opening_hours": "Mo-Th 12:00-01:00; Fr 12:00-02:00; Sa 10:00-02:00; Su 10:00-01:00",
+      "phone": "+1-347-889-5710",
+      "website": "https://maisonpremiere.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13375145302",
+    "lon": -73.9602576,
+    "lat": 40.7154282,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "255",
+      "addr:postcode": "11211",
+      "addr:street": "Bedford Avenue",
+      "amenity": "fast_food",
+      "cuisine": "mexican",
+      "name": "Don Panchito Taco Truck",
+      "website": "http://orderdonpanchitotacotruck.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "14027807047",
+    "lon": -73.960876,
+    "lat": 40.7142078,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "186",
+      "addr:postcode": "11211",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "cocktails": "yes",
+      "cuisine": "japanese;sushi",
+      "drink:beer": "yes",
+      "drink:liquor": "yes",
+      "drink:tea": "yes",
+      "drink:wine": "yes",
+      "name": "The Residence of Mr. Moto",
+      "opening_hours": "Mo-Th 17:30-22:00; Fr 17:30-23:00; Sa 11:30-15:30,17:30-23:00; Su 11:30-15:30,17:30-22:00",
+      "phone": "+1-347-227-7288",
+      "website": "https://www.residenceofmrmoto.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "14027807048",
+    "lon": -73.9614603,
+    "lat": 40.7140402,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "amenity": "fast_food",
+      "cuisine": "middle_eastern",
+      "diet:vegan": "only",
+      "name": "Paolina",
+      "outdoor_seating": "sidewalk",
+      "takeaway": "yes",
+      "website": "https://www.paolina.nyc"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "14027807052",
+    "lon": -73.960379,
+    "lat": 40.7140032,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "drink:wine": "yes",
+      "name": "Baci & Abbracci",
+      "opening_hours": "Mo-Th 17:00-22:00, Fr-Sa 17:00-23:00, Su 16:00-22:00",
+      "phone": "+1-718-599-6599",
+      "website": "https://www.baciny.com"
+    },
+    "possible_duplicate_ids": []
+  }
+]

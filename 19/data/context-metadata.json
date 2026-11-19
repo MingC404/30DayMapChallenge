@@ -1,0 +1,14 @@
+{
+  "purpose": "SoHo: 110 m computational geometry padding only; no new study area or source records",
+  "accessed": "2026-11-18T17:00:53.924Z",
+  "bbox": [
+    40.719985982839866,
+    -74.00211067436321,
+    40.725727931049256,
+    -73.99501642802099
+  ],
+  "building": "5zhs-2jue",
+  "streets": "inkn-q76z",
+  "evidence": "research/soho/selected-*",
+  "units": "WGS84 degrees"
+}

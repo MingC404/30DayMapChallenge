@@ -1,0 +1,212 @@
+{
+  "before": {
+    "17": {
+      "files": 397,
+      "bytes": 113471550,
+      "types": {
+        ".md": 5,
+        ".json": 26,
+        ".geojson": 11,
+        ".html": 6,
+        ".png": 17,
+        ".gif": 1,
+        ".mp4": 1,
+        ".csv": 2,
+        ".031": 32,
+        ".TXT": 164,
+        ".000": 32,
+        ".001": 15,
+        ".002": 11,
+        ".003": 6,
+        ".004": 4,
+        ".005": 3,
+        ".006": 1,
+        ".007": 1,
+        ".xml": 1,
+        ".pdf": 2,
+        ".zip": 32,
+        ".txt": 1,
+        ".cjs": 10,
+        ".py": 10,
+        ".js": 2,
+        ".css": 1
+      },
+      "directories": {
+        "(root)": {
+          "files": 13,
+          "bytes": 5548513
+        },
+        "data": {
+          "files": 7,
+          "bytes": 1197599
+        },
+        "raw": {
+          "files": 336,
+          "bytes": 105799434
+        },
+        "scripts": {
+          "files": 20,
+          "bytes": 58598
+        },
+        "src": {
+          "files": 21,
+          "bytes": 867406
+        }
+      }
+    },
+    "19": {
+      "files": 63,
+      "bytes": 4666558,
+      "types": {
+        "(none)": 1,
+        ".mjs": 9,
+        ".md": 7,
+        ".json": 30,
+        ".png": 1,
+        ".gif": 1,
+        ".html": 1,
+        ".txt": 1,
+        ".geojson": 6,
+        ".py": 3,
+        ".cjs": 2,
+        ".css": 1
+      },
+      "directories": {
+        "(root)": {
+          "files": 17,
+          "bytes": 3287896
+        },
+        "data": {
+          "files": 4,
+          "bytes": 321280
+        },
+        "research": {
+          "files": 33,
+          "bytes": 1012522
+        },
+        "scripts": {
+          "files": 7,
+          "bytes": 25406
+        },
+        "tests": {
+          "files": 2,
+          "bytes": 19454
+        }
+      }
+    }
+  },
+  "deleted": [],
+  "date": "2026-11-18",
+  "retention": "No redundant daily outputs remained. Retain original source packages, research snapshots, runtime textures, and active reproducibility scripts.",
+  "verification": {
+    "gallery_desktop_and_mobile": true,
+    "painted_gif_playback": true,
+    "infinite_loop_metadata": true,
+    "day17_mp4_decode": true,
+    "html_interactions": true,
+    "readme_local_links": true,
+    "previous_gallery_rows_and_css_unchanged": true,
+    "day19_single_fluid_and_building_mask": true,
+    "gallery_update_idempotent": true,
+    "day17_frame_destination_guard": true
+  },
+  "after": {
+    "17": {
+      "files": 398,
+      "bytes": 113473296,
+      "types": {
+        "(none)": 1,
+        ".000": 32,
+        ".001": 15,
+        ".002": 11,
+        ".003": 6,
+        ".004": 4,
+        ".005": 3,
+        ".006": 1,
+        ".007": 1,
+        ".031": 32,
+        ".TXT": 164,
+        ".cjs": 10,
+        ".css": 1,
+        ".csv": 2,
+        ".geojson": 11,
+        ".gif": 1,
+        ".html": 6,
+        ".js": 2,
+        ".json": 26,
+        ".md": 5,
+        ".mp4": 1,
+        ".pdf": 2,
+        ".png": 17,
+        ".py": 10,
+        ".txt": 1,
+        ".xml": 1,
+        ".zip": 32
+      },
+      "directories": {
+        "(root)": {
+          "files": 14,
+          "bytes": 5549523
+        },
+        "data": {
+          "files": 7,
+          "bytes": 1197585
+        },
+        "raw": {
+          "files": 336,
+          "bytes": 105799434
+        },
+        "scripts": {
+          "files": 20,
+          "bytes": 59348
+        },
+        "src": {
+          "files": 21,
+          "bytes": 867406
+        }
+      },
+      "identical_content_groups": 19
+    },
+    "19": {
+      "files": 68,
+      "bytes": 4681886,
+      "types": {
+        "(none)": 1,
+        ".cjs": 4,
+        ".css": 1,
+        ".geojson": 6,
+        ".gif": 1,
+        ".html": 1,
+        ".json": 31,
+        ".md": 7,
+        ".mjs": 9,
+        ".png": 1,
+        ".py": 5,
+        ".txt": 1
+      },
+      "directories": {
+        "(root)": {
+          "files": 17,
+          "bytes": 3283985
+        },
+        "data": {
+          "files": 5,
+          "bytes": 325792
+        },
+        "research": {
+          "files": 33,
+          "bytes": 1012522
+        },
+        "scripts": {
+          "files": 10,
+          "bytes": 35560
+        },
+        "tests": {
+          "files": 3,
+          "bytes": 24027
+        }
+      },
+      "identical_content_groups": 0
+    }
+  }
+}

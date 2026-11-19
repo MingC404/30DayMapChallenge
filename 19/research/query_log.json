@@ -1,0 +1,47 @@
+﻿{
+    "access_date_local":  "2026-11-18",
+    "timezone":  "America/New_York",
+    "time_filter":  "created_date \u003e= \u00272025-01-01T00:00:00\u0027 AND created_date \u003c \u00272026-01-01T00:00:00\u0027",
+    "soda_endpoint":  "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+    "bbox_filter":  "latitude between south and north AND longitude between west and east",
+    "limit":  5000,
+    "wide_query_and_selection":  "Historical wide filter: ODOR in complaint_type/descriptor/descriptor_2, or sanitation/garbage/dirty categories and URIN substrings. Manufacturing/urinal false matches excluded. Final evidence_group is retained per selected record; five connected street faces nearest the bbox centre were unioned and expanded 12 m. See sites.json, selected_summary.json and site_selection.md. Obsolete process scripts were removed after dependency audit.",
+    "global_urination_group":  {
+                                   "$select":  "complaint_type,descriptor,descriptor_2,count(*)",
+                                   "$where":  "created_date \u003e= \u00272025-01-01T00:00:00\u0027 AND created_date \u003c \u00272026-01-01T00:00:00\u0027 AND complaint_type = \u0027Urinating in Public\u0027",
+                                   "$group":  "complaint_type,descriptor,descriptor_2",
+                                   "result":  [
+                                                  {
+                                                      "complaint_type":  "Urinating in Public",
+                                                      "descriptor":  "N/A",
+                                                      "count":  "1419"
+                                                  }
+                                              ]
+                               },
+    "global_urination_coordinates":  {
+                                         "$select":  "count(*),count(latitude),count(longitude)",
+                                         "$where":  "same exact category and time filter as global_urination_group",
+                                         "result":  [
+                                                        {
+                                                            "count":  "1419",
+                                                            "count_latitude":  "1405",
+                                                            "count_longitude":  "1405"
+                                                        }
+                                                    ]
+                                     },
+    "failed_queries":  [
+                           "Citywide 2025 grouped ODOR/URIN substring scan timed out after 120 seconds; no citywide absence inference made.",
+                           "Overpass primary and kumi failed or timed out; private.coffee required a descriptive User-Agent and subsequent bounded requests timed out. No POI counts taken from failed responses."
+                       ],
+    "successful_osm_fallback":  "https://api.openstreetmap.org/api/0.6/map?bbox=west,south,east,north",
+    "source_ids":  {
+                       "311":  "erm2-nwe9",
+                       "building":  "5zhs-2jue",
+                       "street":  "inkn-q76z"
+                   },
+    "notes":  [
+                  "Current OSM API snapshots are not historical 2025 POI inventories.",
+                  "No independent urine-odor category confirmed; public urination is a behavior proxy.",
+                  "Missing coordinate rate cannot be calculated for bbox-filtered local samples."
+              ]
+}

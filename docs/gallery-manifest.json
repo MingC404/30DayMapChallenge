@@ -74,6 +74,16 @@
       "day": "16",
       "interactive": null,
       "status": "published-assets-ready"
+    },
+    {
+      "day": "17",
+      "interactive": "17/day17.html",
+      "status": "local-assets-ready"
+    },
+    {
+      "day": "19",
+      "interactive": "19/index.html",
+      "status": "local-assets-ready"
     }
   ],
   "managedAssets": [
@@ -109,7 +119,24 @@
     "assets/14/atlas_of_impossible_places_camera_preview.gif",
     "assets/15/day15_philadelphia_gazetteer.png",
     "assets/16/day16_njt_disruptions.png",
-    "assets/16/day16_njt_disruptions.gif"
+    "assets/16/day16_njt_disruptions.gif",
+    "assets/17/day17_loop.gif",
+    "assets/17/day17.png",
+    "assets/19/day19_loop.gif",
+    "assets/19/day19.png",
+    "17/day17.html",
+    "19/index.html",
+    "19/style.css",
+    "19/app.mjs",
+    "19/core.mjs",
+    "19/worker.mjs",
+    "19/artwork.mjs",
+    "19/research/soho/selected-extent.geojson",
+    "19/research/soho/selected-pois.json",
+    "19/research/soho/selected-311.json",
+    "19/data/context-buildings.json",
+    "19/data/context-streets.json",
+    "19/data/context-metadata.json"
   ],
   "restrictedSourcesExcluded": [
     "13"

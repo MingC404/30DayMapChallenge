@@ -1,0 +1,261 @@
+﻿{
+    "id":  "erm2-nwe9",
+    "name":  "311 Service Requests from 2020 to Present",
+    "columns":  [
+                    {
+                        "fieldName":  "unique_key",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "created_date",
+                        "dataTypeName":  "calendar_date"
+                    },
+                    {
+                        "fieldName":  "closed_date",
+                        "dataTypeName":  "calendar_date"
+                    },
+                    {
+                        "fieldName":  "agency",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "agency_name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "complaint_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "descriptor",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "descriptor_2",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "location_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "incident_zip",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "incident_address",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "street_name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "cross_street_1",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "cross_street_2",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "intersection_street_1",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "intersection_street_2",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "address_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "city",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "landmark",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "facility_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "status",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "due_date",
+                        "dataTypeName":  "calendar_date"
+                    },
+                    {
+                        "fieldName":  "resolution_description",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "resolution_action_updated_date",
+                        "dataTypeName":  "calendar_date"
+                    },
+                    {
+                        "fieldName":  "community_board",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "council_district",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "police_precinct",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bbl",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "borough",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "x_coordinate_state_plane",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "y_coordinate_state_plane",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "open_data_channel_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "park_facility_name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "park_borough",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "vehicle_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "taxi_company_borough",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "taxi_pick_up_location",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bridge_highway_name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bridge_highway_direction",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "road_ramp",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bridge_highway_segment",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "latitude",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "longitude",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "location",
+                        "dataTypeName":  "point"
+                    },
+                    {
+                        "fieldName":  ":@computed_region_f5dn_yrer",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  ":@computed_region_yeji_bk3q",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  ":@computed_region_sbqj_enih",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  ":@computed_region_92fq_4b7q",
+                        "dataTypeName":  "number"
+                    }
+                ],
+    "rowsUpdatedAt":  1794972626,
+    "metadata":  {
+                     "rdfSubject":  "0",
+                     "rdfClass":  "",
+                     "jsonQuery":  {
+                                       "order":  [
+                                                     {
+                                                         "columnFieldName":  "created_date",
+                                                         "ascending":  false
+                                                     }
+                                                 ]
+                                   },
+                     "attachments":  [
+                                         {
+                                             "filename":  "311_ServiceRequest_2020-present_DataDictionary_Updated_2025.xlsx",
+                                             "assetId":  "c5cc6926-45bb-4af3-8aab-0ee6a29bcf4d",
+                                             "name":  "311_ServiceRequest_2020-present_DataDictionary_Updated_2025.xlsx"
+                                         }
+                                     ],
+                     "custom_fields":  {
+                                           "Update":  {
+                                                          "Automation":  "Yes",
+                                                          "Date Made Public":  "10/18/2011",
+                                                          "Update Frequency":  "Daily"
+                                                      },
+                                           "Dataset Information":  {
+                                                                       "Agency":  "Office of Technology and Innovation (OTI)"
+                                                                   }
+                                       },
+                     "filterCondition":  {
+                                             "metadata":  {
+                                                              "advanced":  true,
+                                                              "unifiedVersion":  2
+                                                          },
+                                             "children":  [
+                                                              {
+                                                                  "metadata":  {
+                                                                                   "tableColumnId":  {
+                                                                                                         "244403":  1567787
+                                                                                                     },
+                                                                                   "operator":  "EQUALS"
+                                                                               },
+                                                                  "type":  "operator",
+                                                                  "value":  "OR"
+                                                              }
+                                                          ],
+                                             "type":  "operator",
+                                             "value":  "AND"
+                                         },
+                     "rowIdentifier":  623546861,
+                     "rowLabel":  "311 Service Request",
+                     "availableDisplayTypes":  [
+                                                   "table",
+                                                   "fatrow",
+                                                   "page"
+                                               ],
+                     "renderTypeConfig":  {
+                                              "visible":  {
+                                                              "table":  true
+                                                          }
+                                          }
+                 },
+    "description":  "\u003cb\u003eNOTE:\u003c/b\u003e Learn more about the latest changes to this dataset: https://opendata.cityofnewyork.us/311-service-requests-from-2010-to-present-updates/\n\n311 responds to thousands of inquiries, comments and requests from customers every single day. This dataset represents only service requests that can be directed to specific agencies.\n\nThis dataset is updated daily and expected values for many fields will change over time. The lists of expected values associated with each column are not exhaustive.\n\nEach row of data contains information about the service request, including complaint type, responding agency, and geographic location. However the data does not reveal any personally identifying information about the customer who made the request.\n\nFor data from 2010-2019 see: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-2019/76ig-c548/about_data"
+}

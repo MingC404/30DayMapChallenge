@@ -1,0 +1,93 @@
+﻿{
+    "id":  "5zhs-2jue",
+    "name":  "BUILDING",
+    "columns":  [
+                    {
+                        "fieldName":  "the_geom",
+                        "dataTypeName":  "multipolygon"
+                    },
+                    {
+                        "fieldName":  "name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bin",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "doitt_id",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "shape_area",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "base_bbl",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "objectid",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "construction_year",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "feature_code",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "geom_source",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "ground_elevation",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "height_roof",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "last_edited_date",
+                        "dataTypeName":  "date"
+                    },
+                    {
+                        "fieldName":  "last_status_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "mappluto_bbl",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "shape_length",
+                        "dataTypeName":  "number"
+                    }
+                ],
+    "rowsUpdatedAt":  1795001007,
+    "metadata":  {
+                     "custom_fields":  {
+                                           "Data Collection":  {
+                                                                   "Data Collection":  "Building Footprints"
+                                                               },
+                                           "Update":  {
+                                                          "Automation":  "No",
+                                                          "Date Made Public":  "5/3/2016",
+                                                          "Update Frequency":  "Weekly"
+                                                      },
+                                           "Dataset Information":  {
+                                                                       "Agency":  "Office of Technology and Innovation (OTI)"
+                                                                   }
+                                       },
+                     "rowLabel":  "building footprint",
+                     "availableDisplayTypes":  [
+                                                   "table",
+                                                   "fatrow",
+                                                   "page"
+                                               ]
+                 },
+    "description":  "Footprint outlines of buildings in New York City. Please see the following link for additional documentation: https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_BuildingFootprints.md\n\nFor additional resources, please refer to: https://nycmaps-nyc.hub.arcgis.com/search?tags=building\u0026type=feature%2520service%2Cfeature%2520layer"
+}

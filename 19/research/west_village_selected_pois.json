@@ -1,0 +1,514 @@
+[
+  {
+    "type": "node",
+    "id": "896465603",
+    "lon": -74.002464,
+    "lat": 40.7326428,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Rockmeisha Izakaya"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "896469827",
+    "lon": -74.0025709,
+    "lat": 40.7326055,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Annisa"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "999961211",
+    "lon": -74.0033462,
+    "lat": 40.7322601,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "71",
+      "addr:street": "South 7th Avenue",
+      "amenity": "restaurant",
+      "name": "Hummus Place"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2358048512",
+    "lon": -74.0026862,
+    "lat": 40.7332121,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:country": "US",
+      "addr:housenumber": "74",
+      "addr:postcode": "10014",
+      "addr:state": "NY",
+      "addr:street": "Grove Street",
+      "amenity": "cafe",
+      "brand": "Starbucks",
+      "brand:wikidata": "Q37158",
+      "contact:website": "https://www.starbucks.com/store-locator/store/18506/7th-ave-at-grove-street-72-grove-street-new-york-ny-100143557-us",
+      "cuisine": "coffee_shop",
+      "diet:vegan": "yes",
+      "drink:soy_milk": "yes",
+      "internet_access": "wlan",
+      "name": "Starbucks",
+      "official_name": "Starbucks Coffee",
+      "opening_hours": "Mo-Th 05:30-23:30; Fr 05:30-00:30; Sa 06:00-00:30; Su 06:00-23:30",
+      "takeaway": "yes"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2562441215",
+    "lon": -74.0030581,
+    "lat": 40.7327934,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "89",
+      "addr:postcode": "10014",
+      "addr:street": "7th Avenue South",
+      "amenity": "fast_food",
+      "cuisine": "italian;sandwich",
+      "name": "All'Antico Vinaio",
+      "website": "https://www.allanticovinaionyc.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4097224495",
+    "lon": -74.0034001,
+    "lat": 40.7321893,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "69",
+      "addr:postcode": "10014",
+      "addr:state": "NY",
+      "addr:street": "South 7th Avenue",
+      "amenity": "restaurant",
+      "check_date": "2026-05-21",
+      "contact:facebook": "https://www.facebook.com/BleeckerStreetPizza",
+      "contact:instagram": "https://www.instagram.com/bleeckerstreetpizza",
+      "contact:youtube": "https://www.youtube.com/channel/UCqT4ewSxx5yTOlWLdgs5CRQ",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "email": "owners@bleeckerstreetpizza.com",
+      "name": "Bleecker Street Pizza",
+      "opening_hours": "Su-We 10:00-00:00; Th 10:00-04:00; Fr-Sa 10:00-05:00",
+      "phone": "+1 212-924-4466",
+      "smoking": "outside",
+      "website": "https://www.bleeckerstreetpizza.com",
+      "website:menu": "https://www.slicelife.com/restaurants/ny/new-york/10014/bleecker-street-pizza/menu"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4316479389",
+    "lon": -74.0017782,
+    "lat": 40.7326391,
+    "position_method": "node",
+    "category": "bakery",
+    "tags": {
+      "addr:housenumber": "187",
+      "addr:street": "West 4th Street",
+      "check_date": "2026-05-21",
+      "name": "Patisserie Claude",
+      "shop": "bakery"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4322641192",
+    "lon": -74.0030897,
+    "lat": 40.7327694,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Jekyll and Hyde Club",
+      "wikidata": "Q6176594",
+      "wikipedia": "en:Jekyll & Hyde Club"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5154037340",
+    "lon": -74.003445,
+    "lat": 40.7317814,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "japanese",
+      "name": "KUNI sushi"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5243570858",
+    "lon": -74.0021598,
+    "lat": 40.732235,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "9",
+      "addr:street": "Jones Street",
+      "amenity": "restaurant",
+      "name": "Voula"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5415650671",
+    "lon": -74.0013962,
+    "lat": 40.7318916,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "162",
+      "addr:street": "West 4th Street",
+      "amenity": "restaurant",
+      "check_date": "2026-05-21",
+      "name": "Pokerice",
+      "opening_hours": "Mo-Su 11:00-23:00",
+      "phone": "+1-212-300-4567",
+      "website": "https://www.pokericenyc.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5734886422",
+    "lon": -74.0021665,
+    "lat": 40.7327579,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "190",
+      "addr:street": "West 4th Street",
+      "amenity": "restaurant",
+      "check_date": "2026-05-21",
+      "cuisine": "american",
+      "name": "The Spaniard"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5756090021",
+    "lon": -74.0033283,
+    "lat": 40.7321386,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "name": "The Loyal",
+      "website": "https://www.loyalrestaurant.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5994570785",
+    "lon": -74.0033379,
+    "lat": 40.7322928,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "73",
+      "addr:street": "7th Avenue South",
+      "amenity": "restaurant",
+      "check_date": "2026-05-21",
+      "cuisine": "indian",
+      "name": "Taco Mahal",
+      "opening_hours": "Mo-Sa 11:00-00:00; Su 11:00-22:00"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "7048022347",
+    "lon": -74.0026275,
+    "lat": 40.7325495,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:postcode": "10014",
+      "amenity": "restaurant",
+      "name": "One if by Land, Two by if See",
+      "name:en": "One if by Land, Two if by Sea"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "8307416282",
+    "lon": -74.0007701,
+    "lat": 40.7322375,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "359",
+      "addr:postcode": "10014",
+      "addr:state": "NY",
+      "addr:street": "6th Avenue",
+      "amenity": "restaurant",
+      "cuisine": "peruvian;japanese",
+      "name": "Llama San",
+      "opening_hours": "Mo-Th,Su 17:00-22:00; Fr 17:00-22:30; Sa 11:00-03:30",
+      "phone": "+1-646-490-4422",
+      "website": "https://www.llamasannyc.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9920390979",
+    "lon": -74.0007467,
+    "lat": 40.7318115,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:city": "New York",
+      "addr:postcode": "10012",
+      "addr:state": "NY",
+      "addr:street": "6th Avenue",
+      "amenity": "fast_food",
+      "diet:halal": "yes",
+      "name": "Sammy's Halal Food",
+      "opening_hours": "09:00-16:00",
+      "phone": "+1-347-861-1902",
+      "takeaway": "yes",
+      "website": "https://www.sammyshalalfood.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10936948507",
+    "lon": -74.0028099,
+    "lat": 40.7331393,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "101",
+      "addr:street": "7th Avenue South",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Two Boots"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10937001805",
+    "lon": -74.0029005,
+    "lat": 40.7330542,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "99",
+      "addr:street": "7th Avenue South",
+      "amenity": "restaurant",
+      "cuisine": "french",
+      "name": "Boucherie"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "11987722720",
+    "lon": -74.0013412,
+    "lat": 40.7339144,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "172",
+      "addr:postcode": "10014",
+      "addr:state": "NY",
+      "addr:street": "Waverly Place",
+      "air_conditioning": "yes",
+      "amenity": "restaurant",
+      "bar": "yes",
+      "cuisine": "seafood",
+      "name": "Jeffrey's Grocery",
+      "opening_hours": "Mo 11:30-22:00; Tu-Fr 11:30-23:00; Sa 10:00-15:15,17:00-23:00; Su 10:00-15:15,17:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+1-646-398-7630",
+      "reservation": "yes",
+      "website": "https://www.jeffreysgrocery.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "12621649169",
+    "lon": -74.0015137,
+    "lat": 40.7322995,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "171",
+      "addr:postcode": "10014",
+      "addr:state": "NY",
+      "addr:street": "West 4th Street",
+      "air_conditioning": "yes",
+      "amenity": "cafe",
+      "cuisine": "coffee_shop",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "The Coppola Cafe",
+      "outdoor_seating": "no",
+      "phone": "+1-917-639-3970"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "12986810601",
+    "lon": -74.0016467,
+    "lat": 40.7335937,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "170",
+      "addr:street": "Waverly Place",
+      "amenity": "restaurant",
+      "bar": "yes",
+      "cocktails": "yes",
+      "cuisine": "american;brunch",
+      "diet:vegetarian": "yes",
+      "drink:beer": "yes",
+      "drink:wine": "yes",
+      "name": "Joseph Leonard",
+      "opening_hours": "Mo 09:00-22:00, Tu-We 09:00-23:00, Th-Fr 09:00-24:00, Sa 10:30-24:00, Su 10:30-22:00",
+      "website": "https://www.josephleonard.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13089386425",
+    "lon": -74.0034057,
+    "lat": 40.7317339,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "280",
+      "addr:street": "Bleecker Street",
+      "amenity": "fast_food",
+      "check_date": "2025-09-25",
+      "contact:instagram": "salt_hanks",
+      "contact:tiktok": "https://www.tiktok.com/@https:",
+      "contact:yelp": "salt-hank-s-new-york",
+      "cuisine": "sandwich",
+      "description": "Shop offering a single French dip sandwich. Check Instagram for opening hours, which are subject to change and selling out.",
+      "email": "contact@salthanks.com",
+      "name": "Salt Hank's",
+      "note": "Using the Instagram profile as the website because it effectively is. The \"real\" website is under website:1 and barely has any information.",
+      "opening_hours": "Th-Su 11:30-15:00",
+      "opening_hours:url": "https://www.instagram.com/salt_hanks/",
+      "operator": "Henry Laporte",
+      "start_date": "2025-06-20",
+      "website": "https://salthanks.com/",
+      "website:1": "https://salthanks.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13326302618",
+    "lon": -74.0033019,
+    "lat": 40.7319374,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "indian",
+      "diet:gluten_free": "yes",
+      "diet:vegetarian": "yes",
+      "drink:beer": "yes",
+      "drink:wine": "yes",
+      "name": "Gandhi Cafe",
+      "opening_hours": "Mo-Su 12:30-23:00",
+      "phone": "+1-212-645-1456",
+      "toilets": "yes",
+      "toilets:access": "customers"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13326385962",
+    "lon": -74.001509,
+    "lat": 40.7320136,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "170",
+      "addr:postcode": "10014",
+      "addr:street": "West 4th Street",
+      "amenity": "restaurant",
+      "cocktails": "yes",
+      "cuisine": "burger",
+      "delivery": "yes",
+      "drink:beer": "yes",
+      "drink:wine": "yes",
+      "happy_hours": "Mo-Fr 15:00-18:00",
+      "name": "Burgers & Beer",
+      "opening_hours": "Tu-Su 12:00-22:00",
+      "phone": "+1-646-413-1860",
+      "takeaway": "yes",
+      "website": "https://burgersandbeernyc.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13326385965",
+    "lon": -74.0015562,
+    "lat": 40.7320656,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "168",
+      "addr:postcode": "10014",
+      "addr:street": "West 4th Street",
+      "amenity": "restaurant",
+      "cocktails": "yes",
+      "cuisine": "spanish",
+      "delivery": "yes",
+      "drink:beer": "yes",
+      "drink:espresso": "yes",
+      "drink:wine": "yes",
+      "name": "Tio Pepe",
+      "opening_hours": "Tu-Th 16:00-22:00, Fr-Sa 12:00-23:00, Su 12:00-22:00",
+      "takeaway": "yes",
+      "website": "https://tiopepenyc.com"
+    },
+    "possible_duplicate_ids": []
+  }
+]

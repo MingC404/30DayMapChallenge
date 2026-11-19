@@ -1,0 +1,7 @@
+# Local scratch material only. Source JSON/GeoJSON remain visible to Git.
+__pycache__/
+*.pyc
+*.tmp.xml
+*.partial
+*.log
+.preview-*/

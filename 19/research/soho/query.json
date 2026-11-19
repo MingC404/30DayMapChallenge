@@ -1,0 +1,23 @@
+﻿{
+    "accessed":  "2026-11-18T16:59:14.248Z",
+    "bbox":  [
+                 40.7195,
+                 -74.004,
+                 40.726,
+                 -73.9955
+             ],
+    "complaintQuery":  {
+                           "$where":  "created_date \u003e= \u00272025-01-01T00:00:00\u0027 AND created_date \u003c \u00272026-01-01T00:00:00\u0027 AND latitude between 40.7195 and 40.726 AND longitude between -74.004 and -73.9955 AND (upper(complaint_type) like \u0027%ODOR%\u0027 OR upper(descriptor) like \u0027%ODOR%\u0027 OR upper(descriptor_2) like \u0027%ODOR%\u0027 OR upper(descriptor) like \u0027%FUMES%\u0027)",
+                           "$select":  "unique_key,created_date,complaint_type,descriptor,descriptor_2,agency,latitude,longitude,address_type,street_name,location_type,resolution_description",
+                           "$order":  "unique_key",
+                           "$limit":  5000
+                       },
+    "geometryQuery":  "intersects(the_geom, \u0027POLYGON((-74.004 40.7195,-73.9955 40.7195,-73.9955 40.726,-74.004 40.726,-74.004 40.7195))\u0027)",
+    "osmEndpoint":  "https://api.openstreetmap.org/api/0.6/map",
+    "note":  "Investigation window only; final four-to-six-block selection follows exact street faces.",
+    "osm_extraction":  {
+                           "poi_objects":  150,
+                           "unhandled_poi_relations":  0,
+                           "xml_retained":  false
+                       }
+}

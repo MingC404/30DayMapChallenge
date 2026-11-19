@@ -1,0 +1,836 @@
+[
+  {
+    "type": "node",
+    "id": "2547247040",
+    "lon": -73.9951032,
+    "lat": 40.7196837,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "351",
+      "addr:postcode": "10013",
+      "addr:street": "Broome Street",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Piacere",
+      "phone": "+1-212-219-4080",
+      "website": "https://www.piacerenyc.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2555098994",
+    "lon": -73.9966792,
+    "lat": 40.718849,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:housenumber": "147",
+      "addr:postcode": "10013",
+      "addr:street": "Mott Street",
+      "amenity": "cafe",
+      "cuisine": "coffee_shop",
+      "name": "Haven Cafe"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2555099000",
+    "lon": -73.9963707,
+    "lat": 40.7195996,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "amenity": "cafe",
+      "name": "Chiu Hong Bakery & Restaurant",
+      "phone": "+1-212-966-7664"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2555099003",
+    "lon": -73.9968732,
+    "lat": 40.7178799,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "173",
+      "addr:postcode": "10013",
+      "addr:street": "Hester Street",
+      "amenity": "fast_food",
+      "cuisine": "sushi",
+      "name": "Isshin Sushi",
+      "opening_hours": "Mo-Su 11:00-22:30",
+      "outdoor_seating": "no",
+      "phone": "+1-917-261-2403",
+      "takeaway": "yes"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2555099021",
+    "lon": -73.9961673,
+    "lat": 40.7201124,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "371",
+      "addr:postcode": "10013",
+      "addr:street": "Broome Street",
+      "amenity": "restaurant",
+      "bar": "yes",
+      "cocktails": "yes",
+      "cuisine": "mediterranean",
+      "drink:beer": "yes",
+      "drink:coffee": "yes",
+      "drink:espresso": "yes",
+      "drink:liquor": "yes",
+      "drink:wine": "yes",
+      "name": "Shoo Shoo Nolita",
+      "opening_hours": "Tu-We 11:30-16:00,17:30-23:00; Th-Sa 11:00-16:00,17:30-24:00; Su 11:00-16:00,17:00-22:00",
+      "outdoor_seating": "sidewalk;street",
+      "phone": "+1-646-590-6800",
+      "website": "https://shooshoonolita.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2555099029",
+    "lon": -73.9960141,
+    "lat": 40.7183351,
+    "position_method": "node",
+    "category": "florist",
+    "tags": {
+      "addr:housenumber": "91",
+      "addr:postcode": "10013",
+      "addr:street": "Elizabeth Street",
+      "description": "Florist",
+      "name": "G & J Florist",
+      "phone": "+1 212-796-2577",
+      "shop": "florist",
+      "website": "https://www.gjflorist.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2555099032",
+    "lon": -73.995959,
+    "lat": 40.7184411,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "95A",
+      "addr:postcode": "10013",
+      "addr:street": "Elizabeth Street",
+      "alt_name": "Ssfnyc",
+      "amenity": "fast_food",
+      "cuisine": "fish",
+      "name": "Something Smells Fishy",
+      "opening_hours": "Tu-Su 12:00-21:00"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2563985396",
+    "lon": -73.9954117,
+    "lat": 40.7176912,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "98",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Bowery",
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "delivery": "yes",
+      "name": "Funny BBQ 98",
+      "opening_hours": "11:00-21:00; Fr,Sa 11:00-22:00",
+      "phone": "+1-212-965-0076",
+      "website": "https://funnybbq98ny.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2563985397",
+    "lon": -73.995453,
+    "lat": 40.7176273,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "alt_name": "Tada",
+      "amenity": "restaurant",
+      "cuisine": "korean;chicken",
+      "name": "Tofu Tofu",
+      "phone": "+1-917-442-5001"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "2572411291",
+    "lon": -73.9945454,
+    "lat": 40.7185051,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "240",
+      "addr:postcode": "10002",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "cafe",
+      "cuisine": "tea",
+      "name": "Hey Tea",
+      "website": "https://www.heytea.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "3902076224",
+    "lon": -73.9955675,
+    "lat": 40.7174276,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "90",
+      "addr:postcode": "10013",
+      "addr:street": "Bowery",
+      "amenity": "fast_food",
+      "branch": "Chinatown",
+      "check_date": "2025-09-05",
+      "cuisine": "taiwanese",
+      "indoor_seating": "yes",
+      "name": "Sanmiwago",
+      "opening_hours": "Mo-Su 10:00-02:00",
+      "outdoor_seating": "no",
+      "phone": "+1-212-796-2866",
+      "takeaway": "yes",
+      "website": "http://sanmiwago.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "4515550805",
+    "lon": -73.997117,
+    "lat": 40.7180559,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "121",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Mott Street",
+      "amenity": "cafe",
+      "cuisine": "coffee_shop",
+      "name": "12 Corners",
+      "opening_hours": "Mo-Fr 07:30-19:00; Sa-Su 08:00-19:00",
+      "phone": "+1 646 717 2849",
+      "smoking": "no",
+      "website": "http://12cornerscoffee.com/index.html",
+      "wheelchair": "yes"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "5215246722",
+    "lon": -73.9967322,
+    "lat": 40.7187355,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "amenity": "fast_food",
+      "cuisine": "chinese",
+      "name": "Golden Steamer",
+      "phone": "+1-212-226-1886"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "6110828687",
+    "lon": -73.9961333,
+    "lat": 40.7174266,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "148",
+      "addr:postcode": "10013",
+      "addr:street": "Hester Street",
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "name": "Tin Wong",
+      "opening_hours": "Mo-Su 07:30-20:30",
+      "phone": "+1-917-265-8187",
+      "website": "https://www.tinwongrestaurant.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "6110940186",
+    "lon": -73.9963326,
+    "lat": 40.7191116,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "206",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "cafe",
+      "branch": "Little Italy",
+      "cuisine": "bubble_tea;japanese",
+      "name": "Yaya Tea",
+      "opening_hours": "Mo-Su 10:00-20:00",
+      "phone": "+1-212-929-2832",
+      "website": "https://yayatea.com/store/little-italy-manhattan-ny/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "8289646188",
+    "lon": -73.9947937,
+    "lat": 40.7189751,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:housenumber": "134",
+      "addr:postcode": "10013",
+      "addr:street": "Bowery",
+      "amenity": "cafe",
+      "cuisine": "coffee_shop;breakfast;sandwich",
+      "drink:coffee": "yes",
+      "drink:espresso": "yes",
+      "drink:tea": "yes",
+      "name": "Prince Tea House",
+      "opening_hours": "Mo-Th 12:00-22:30; Fr 12:00-23:30; Sa 11:30-23:30; Su 11:30-22:30",
+      "phone": "+1-646-892-3160",
+      "toilets": "customers",
+      "website": "https://www.princeteahousenyc.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "8289646189",
+    "lon": -73.9946356,
+    "lat": 40.7194963,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "341A",
+      "addr:postcode": "10013",
+      "addr:street": "Broome Street",
+      "amenity": "restaurant",
+      "cocktails": "yes",
+      "cuisine": "mexican",
+      "drink:beer": "draught",
+      "drink:liquor": "yes",
+      "drink:wine": "yes",
+      "name": "Casa Bocada",
+      "phone": "+1-212-204-7502",
+      "website": "https://www.casabocadonyc.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "8486650115",
+    "lon": -73.9962653,
+    "lat": 40.7174722,
+    "position_method": "node",
+    "category": "bakery",
+    "tags": {
+      "addr:housenumber": "146",
+      "addr:postcode": "10013",
+      "addr:street": "Hester Street",
+      "name": "Ho Won Bake",
+      "shop": "bakery"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9114865966",
+    "lon": -73.9956135,
+    "lat": 40.7192614,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:housenumber": "119",
+      "addr:postcode": "10013",
+      "addr:street": "Elizabeth Street",
+      "amenity": "cafe",
+      "contact:instagram": "parkatkims",
+      "cuisine": "pastry;sandwich",
+      "drink:espresso": "yes",
+      "name": "PARK at KIMS",
+      "opening_hours": "Mo-Su 08:00-18:00"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9187969159",
+    "lon": -73.9961279,
+    "lat": 40.7181176,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "83",
+      "addr:postcode": "10013",
+      "addr:street": "Elizabeth Street",
+      "amenity": "fast_food",
+      "contact:facebook": "banhmicoutnyc",
+      "cuisine": "vietnamese;sandwich",
+      "name": "Bánh Mì Cô Út",
+      "opening_hours": "Mo-Su 10:00-18:30",
+      "outdoor_seating": "no",
+      "phone": "+1-646-767-0444",
+      "takeaway": "only"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9275819963",
+    "lon": -73.9953729,
+    "lat": 40.7177539,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:postcode": "10013",
+      "amenity": "restaurant",
+      "check_date": "2026-10-21",
+      "check_date:opening_hours": "2026-10-21",
+      "cuisine": "chinese;seafood",
+      "delivery": "yes",
+      "level": "0",
+      "name": "Sun Hong Wong",
+      "opening_hours": "Mo-Su 09:00-21:30",
+      "phone": "+1-212-226-8778",
+      "self_service": "partially",
+      "takeaway": "yes",
+      "website": "https://www.sunhongwong.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9450485817",
+    "lon": -73.9958654,
+    "lat": 40.7199901,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "369",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Broome Street",
+      "amenity": "fast_food",
+      "cuisine": "sandwich;vietnamese",
+      "drive_through": "no",
+      "name": "Saigon Vietnamese Sandwich",
+      "opening_hours": "Tu-Su 07:00-16:00",
+      "outdoor_seating": "sidewalk",
+      "phone": "+1-212-219-8341",
+      "website": "https://www.banhmi.nyc/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9543912717",
+    "lon": -73.9961879,
+    "lat": 40.7176997,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Cheong Fun Cart"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9543912817",
+    "lon": -73.9958285,
+    "lat": 40.7182009,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "88",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Elizabeth Street",
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "description": "Rice Rolls",
+      "name": "Yi Ji Shi Mo",
+      "phone": "+16462336311",
+      "takeaway": "only"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9735458939",
+    "lon": -73.996424,
+    "lat": 40.7194647,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "vietnamese;rice_noodle",
+      "name": "Mott Pho Bang",
+      "opening_hours": "Mo-Su 11:00-20:45",
+      "phone": "+1-212-966-3797",
+      "rice_noodle": "pho"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "9736053031",
+    "lon": -73.9944776,
+    "lat": 40.7187004,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "japanese",
+      "name": "Hyake"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10270349365",
+    "lon": -73.9938501,
+    "lat": 40.7185168,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:postcode": "10002",
+      "amenity": "cafe",
+      "cuisine": "coffee_shop",
+      "drink:coffee": "yes",
+      "name": "Cafecito",
+      "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-19:00",
+      "phone": "+1-929-668-7080",
+      "shop": "convenience",
+      "website:menu": "https://direct.chownow.com/order/37624/locations/57326"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10289996862",
+    "lon": -73.99679,
+    "lat": 40.7178502,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "name": "Lady Chow Kitchen",
+      "opening_hours": "Mo-Su 09:00-21:00",
+      "phone": "+1-212-343-9496"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10584741958",
+    "lon": -73.9942283,
+    "lat": 40.7183915,
+    "position_method": "node",
+    "category": "bakery",
+    "tags": {
+      "amenity": "cafe",
+      "brand": "Paris Baguette",
+      "brand:wikidata": "Q62605260",
+      "delivery": "yes",
+      "diet:gluten_free": "yes",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "name": "Paris Baguette",
+      "opening_hours": "Mo-Su 06:00-21:00",
+      "phone": "+1-212-863-9676",
+      "shop": "bakery",
+      "takeaway": "yes",
+      "website": "https://parisbaguette.com/locations/ny/new-york/244-grand-st/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10584741960",
+    "lon": -73.9941338,
+    "lat": 40.7183685,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "amenity": "cafe",
+      "drink:coffee": "yes",
+      "name": "Daronghua Bakery",
+      "payment:cash": "only",
+      "phone": "+1-212-941-1924",
+      "shop": "pastry"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10584741961",
+    "lon": -73.9943311,
+    "lat": 40.7184239,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "242",
+      "addr:postcode": "10002-4902",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "fast_food",
+      "cuisine": "burger",
+      "name": "Burger By Day",
+      "phone": "+1 646-964-5871",
+      "website": "http://www.burgerbyday.org/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10584741963",
+    "lon": -73.994286,
+    "lat": 40.7184114,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "amenity": "cafe",
+      "drink:espresso": "yes",
+      "drink:tea": "yes",
+      "name": "I'Milky"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10756703058",
+    "lon": -73.9948257,
+    "lat": 40.7188978,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "japanese;ramen",
+      "name": "Kyuramen",
+      "opening_hours": "Mo-Th 11:00-21:30; Fr-Sa 11:00-22:30; Su 11:00-21:30",
+      "phone": "+1-917-688-3166",
+      "website": "https://www.kyuramen.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10756703060",
+    "lon": -73.9948154,
+    "lat": 40.7189289,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "132",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Bowery",
+      "amenity": "cafe",
+      "brand": "Matcha Cafe Maiko",
+      "brand:wikidata": "Q113528897",
+      "cuisine": "coffee_shop",
+      "drink:tea": "yes",
+      "name": "Matcha Cafe Maiko",
+      "phone": "+1-646-379-8778",
+      "takeaway": "yes",
+      "website": "https://www.matchacafe-maiko.com"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10979262388",
+    "lon": -73.9962605,
+    "lat": 40.7193224,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "150",
+      "addr:postcode": "10013",
+      "addr:street": "Mott Street",
+      "amenity": "fast_food",
+      "cuisine": "chinese",
+      "name": "Yiwanmen",
+      "phone": "+1-646-833-7768"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10979262390",
+    "lon": -73.9960952,
+    "lat": 40.7197286,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "164",
+      "addr:street": "Mott Street",
+      "amenity": "fast_food",
+      "contact:instagram": "ceres.nyc",
+      "cuisine": "pizza",
+      "name": "Ceres",
+      "opening_hours": "Mo, We-Th 11:30-21:00; Fr-Su 11:00-21:45",
+      "takeaway": "yes",
+      "website": "https://www.ceresnyc.com/"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10979262391",
+    "lon": -73.9959003,
+    "lat": 40.7200019,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:housenumber": "369",
+      "addr:postcode": "10013",
+      "addr:street": "Broome Street",
+      "amenity": "fast_food",
+      "name": "El Gallo",
+      "outdoor_seating": "yes",
+      "phone": "+1-917-668-0033"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "10979262392",
+    "lon": -73.996191,
+    "lat": 40.719466,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "amenity": "cafe",
+      "cuisine": "snack",
+      "diet:vegetarian": "yes",
+      "drink:tea": "yes",
+      "name": "The Chai Spot",
+      "opening_hours": "We-Fr 15:00-22:00; Sa-Su 12:00-22:00",
+      "outdoor_seating": "sidewalk;street",
+      "phone": "+1-646-678-5868"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13062290351",
+    "lon": -73.9939503,
+    "lat": 40.7183133,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "amenity": "restaurant",
+      "check_date": "2025-08-08",
+      "name": "Dumpling Story"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13078894001",
+    "lon": -73.993949,
+    "lat": 40.7183113,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "250",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "name": "一品小笼包",
+      "name:en": "Dumpling Story"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "13918600001",
+    "lon": -73.9940231,
+    "lat": 40.7182933,
+    "position_method": "node",
+    "category": "fast_food",
+    "tags": {
+      "addr:street": "Grand Street",
+      "amenity": "fast_food",
+      "cuisine": "chinese;kebab",
+      "name": "Xinjiang BBQ Cart"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "14053151280",
+    "lon": -73.9962403,
+    "lat": 40.7190861,
+    "position_method": "node",
+    "category": "cafe",
+    "tags": {
+      "addr:city": "New York",
+      "addr:housenumber": "208",
+      "addr:postcode": "10013",
+      "addr:state": "NY",
+      "addr:street": "Grand Street",
+      "amenity": "cafe",
+      "branch": "Chinatown",
+      "cuisine": "bubble_tea",
+      "name": "Jooy Tea Shoppe",
+      "phone": "+1-646-360-2233"
+    },
+    "possible_duplicate_ids": []
+  },
+  {
+    "type": "node",
+    "id": "14178148301",
+    "lon": -73.9960734,
+    "lat": 40.7187834,
+    "position_method": "node",
+    "category": "restaurant",
+    "tags": {
+      "addr:housenumber": "213",
+      "addr:street": "Grand Street",
+      "amenity": "restaurant",
+      "name": "Paris Sandwich Bakery Caré"
+    },
+    "possible_duplicate_ids": []
+  }
+]

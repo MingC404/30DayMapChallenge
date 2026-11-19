@@ -1,0 +1,52 @@
+[
+  {
+    "id": "chinatown",
+    "name": "Chinatown / Grand–Broome",
+    "bbox": [
+      40.717,
+      -73.9975,
+      40.7202,
+      -73.9932
+    ]
+  },
+  {
+    "id": "les",
+    "name": "Lower East Side / Broome–Rivington",
+    "bbox": [
+      40.7184,
+      -73.991,
+      40.722,
+      -73.9868
+    ]
+  },
+  {
+    "id": "east_village",
+    "name": "East Village / E 6th–E 9th",
+    "bbox": [
+      40.7255,
+      -73.9885,
+      40.729,
+      -73.984
+    ]
+  },
+  {
+    "id": "west_village",
+    "name": "West Village / Bleecker–Grove",
+    "bbox": [
+      40.731,
+      -74.004,
+      40.7344,
+      -73.9995
+    ]
+  },
+  {
+    "id": "williamsburg",
+    "name": "Williamsburg / Bedford–Berry",
+    "bbox": [
+      40.713,
+      -73.9625,
+      40.7165,
+      -73.958
+    ]
+  }
+]

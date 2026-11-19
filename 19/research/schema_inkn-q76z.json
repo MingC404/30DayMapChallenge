@@ -1,0 +1,289 @@
+﻿{
+    "id":  "inkn-q76z",
+    "name":  "Centerline",
+    "columns":  [
+                    {
+                        "fieldName":  "the_geom",
+                        "dataTypeName":  "multiline"
+                    },
+                    {
+                        "fieldName":  "physicalid",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "l_low_hn",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "l_high_hn",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "r_low_hn",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "r_high_hn",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "l_zip",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "r_zip",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "status",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bike_lane",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "trafdir",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "rw_type",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "pre_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "post_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "objectid",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "fcc",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "l_blockfaceid",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "r_blockfaceid",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "avgtravtime",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "rwjurisdiction",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "nominaldir",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "accessible",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "nonped",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "boroughcode",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "borough_indicator",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "seglocstatus",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "sandist_ind",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "lsubsect",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "rsubsect",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "continuous_parity_flag",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "twisted_parity_flag",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "posted_speed",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "segmentlength",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "streetwidth",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "streetwidth_irr",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "special_disaster",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "fire_lane",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "created_date",
+                        "dataTypeName":  "date"
+                    },
+                    {
+                        "fieldName":  "modified_date",
+                        "dataTypeName":  "date"
+                    },
+                    {
+                        "fieldName":  "within_bndy_dist",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "truck_route_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "collectionmethod",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "from_level_code",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "to_level_code",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "b5sc",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "snow_priority",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "joinid",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bphys_id",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "carto_display_level",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "number_travel_lanes",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "number_park_lanes",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "number_total_lanes",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "pre_modifier",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "pre_directional",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "post_directional",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "post_modifier",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "full_street_name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "bike_trafdir",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "shape_length",
+                        "dataTypeName":  "number"
+                    },
+                    {
+                        "fieldName":  "globalid",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "segment_type",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "segment_type_value",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "street_name",
+                        "dataTypeName":  "text"
+                    },
+                    {
+                        "fieldName":  "stname_label",
+                        "dataTypeName":  "text"
+                    }
+                ],
+    "rowsUpdatedAt":  1794706635,
+    "metadata":  {
+                     "attachments":  [
+                                         {
+                                             "filename":  "Centerline.pdf",
+                                             "assetId":  "4cff63bb-aeb0-4ca3-adb5-d6027dc133d5",
+                                             "name":  "Centerline.pdf"
+                                         }
+                                     ],
+                     "custom_fields":  {
+                                           "Update":  {
+                                                          "Automation":  "Yes",
+                                                          "Date Made Public":  "6/19/2014",
+                                                          "Update Frequency":  "Weekly"
+                                                      },
+                                           "Dataset Information":  {
+                                                                       "Agency":  "Office of Technology and Innovation (OTI)"
+                                                                   }
+                                       },
+                     "rowLabel":  "single line representation of New York City street",
+                     "availableDisplayTypes":  [
+                                                   "table",
+                                                   "fatrow",
+                                                   "page"
+                                               ]
+                 },
+    "description":  "The NYC Street Centerline (CSCL) is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types."
+}

@@ -1,0 +1,241 @@
+[
+  {
+    "id": "chinatown",
+    "blocks": 5,
+    "face_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "area_m2": 63823,
+    "groups": {
+      "outdoor_odor_fumes": 2,
+      "waste_proxy": 44,
+      "indoor_odor": 3
+    },
+    "details": {
+      "Air Quality | Air: Odor/Fumes, Vehicle Idling (AD3) | AD3": 2,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | MISSING OR INADEQUATE CANS/LID": 2,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | ACCUMULATION": 4,
+      "Dirty Condition | Trash | Littering": 8,
+      "Maintenance or Facility | Garbage or Litter | Medical Waste": 2,
+      "Dirty Condition | Trash | Not Cleaned by Property Owner": 10,
+      "Indoor Air Quality | Sewage Odor | ": 1,
+      "Maintenance or Facility | Garbage or Litter | Other Litter": 13,
+      "Maintenance or Facility | Garbage or Litter | Overflowing Trash Can": 3,
+      "Maintenance or Facility | Garbage or Litter | Bike Path/Greenways": 1,
+      "Maintenance or Facility | Garbage or Litter | Full Trash Bag Not Picked Up": 1,
+      "Indoor Air Quality | Chemical Vapors/Gases/Odors | ": 2
+    },
+    "retained_311": 49,
+    "outdoor_odor_records": 2,
+    "outdoor_odor_unique_coords": 1,
+    "pois": 43,
+    "poi_categories": {
+      "restaurant": 16,
+      "cafe": 13,
+      "fast_food": 11,
+      "florist": 1,
+      "bakery": 2
+    },
+    "duplicate_flags": 0,
+    "building_features": 150,
+    "street_segments": 29,
+    "footprint_coverage": 0.479,
+    "nearest_poi_distance_m": {
+      "min": 11.1,
+      "median": 11.1,
+      "max": 11.1
+    },
+    "odor_within_5m": 0,
+    "odor_20_to_100m": 0,
+    "odor_distances": [
+      11.1,
+      11.1
+    ]
+  },
+  {
+    "id": "les",
+    "blocks": 5,
+    "face_ids": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "area_m2": 45634,
+    "groups": {
+      "outdoor_odor_fumes": 12,
+      "food_odor": 1,
+      "waste_proxy": 18,
+      "public_urination_proxy": 1,
+      "chemical_odor": 1
+    },
+    "details": {
+      "Air Quality | Air: Odor/Fumes, Restaurant (AD2) | AD2": 9,
+      "Food Establishment | Odor | N/A": 1,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | ACCUMULATION": 3,
+      "Air Quality | Air: Odor/Fumes, Vehicle Idling (AD3) | AD3": 3,
+      "Dirty Condition | Trash | Littering": 8,
+      "Food Establishment | Rodents/Insects/Garbage | Garbage Improperly Stored": 3,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | MISSING OR INADEQUATE CANS/LID": 1,
+      "Dirty Condition | Trash | Not Cleaned by Property Owner": 3,
+      "Urinating in Public | N/A | ": 1,
+      "Hazardous Materials | Chemical Odor (HD1) | HD1": 1
+    },
+    "retained_311": 33,
+    "outdoor_odor_records": 14,
+    "outdoor_odor_unique_coords": 5,
+    "pois": 37,
+    "poi_categories": {
+      "cafe": 6,
+      "bakery": 3,
+      "restaurant": 18,
+      "fast_food": 10
+    },
+    "duplicate_flags": 0,
+    "building_features": 123,
+    "street_segments": 29,
+    "footprint_coverage": 0.394,
+    "nearest_poi_distance_m": {
+      "min": 8.6,
+      "median": 32.3,
+      "max": 32.4
+    },
+    "odor_within_5m": 0,
+    "odor_20_to_100m": 13,
+    "odor_distances": [
+      32.3,
+      32.3,
+      32.3,
+      32.3,
+      32.3,
+      32.3,
+      32.3,
+      32.3,
+      24.3,
+      32.3,
+      32.3,
+      32.4,
+      8.6,
+      22.4
+    ]
+  },
+  {
+    "id": "west_village",
+    "blocks": 5,
+    "face_ids": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "area_m2": 53571,
+    "groups": {
+      "waste_proxy": 70,
+      "food_odor": 3,
+      "indoor_odor": 3,
+      "chemical_odor": 1,
+      "outdoor_odor_fumes": 1
+    },
+    "details": {
+      "Dirty Condition | Trash | Littering": 57,
+      "Dirty Condition | Trash | Not Cleaned by Property Owner": 7,
+      "Maintenance or Facility | Garbage or Litter | Full Trash Bag Not Picked Up": 3,
+      "Mobile Food Vendor | Smoke/Odor | From Unit Creating Nuisance": 3,
+      "Indoor Air Quality | Chemical Vapors/Gases/Odors | ": 3,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | ACCUMULATION": 1,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | MISSING OR INADEQUATE CANS/LID": 1,
+      "Hazardous Materials | Chemical Odor (HD1) | HD1": 1,
+      "Air Quality | Air: Odor/Fumes, Restaurant (AD2) | AD2": 1,
+      "Maintenance or Facility | Garbage or Litter | Other Litter": 1
+    },
+    "retained_311": 78,
+    "outdoor_odor_records": 5,
+    "outdoor_odor_unique_coords": 3,
+    "pois": 26,
+    "poi_categories": {
+      "restaurant": 20,
+      "cafe": 2,
+      "fast_food": 3,
+      "bakery": 1
+    },
+    "duplicate_flags": 0,
+    "building_features": 147,
+    "street_segments": 43,
+    "footprint_coverage": 0.389,
+    "nearest_poi_distance_m": {
+      "min": 8.9,
+      "median": 25.2,
+      "max": 25.2
+    },
+    "odor_within_5m": 0,
+    "odor_20_to_100m": 3,
+    "odor_distances": [
+      25.2,
+      25.2,
+      25.2,
+      8.9,
+      17.9
+    ]
+  },
+  {
+    "id": "williamsburg",
+    "blocks": 5,
+    "face_ids": [
+      0,
+      1,
+      2,
+      4,
+      6
+    ],
+    "area_m2": 49379,
+    "groups": {
+      "food_odor": 1,
+      "outdoor_odor_fumes": 3,
+      "waste_proxy": 20,
+      "sewer_odor": 1
+    },
+    "details": {
+      "Food Establishment | Odor | Nuisance Created/Exists": 1,
+      "Air Quality | Air: Odor/Fumes, Vehicle Idling (AD3) | AD3": 2,
+      "Dirty Condition | Trash | Littering": 16,
+      "Sewer | Sewer Odor (SA2) | SA2": 1,
+      "Dirty Condition | Trash | Not Cleaned by Property Owner": 2,
+      "Air Quality | Air: Odor/Fumes, Restaurant (AD2) | AD2": 1,
+      "UNSANITARY CONDITION | GARBAGE/RECYCLING STORAGE | MISSING OR INADEQUATE CANS/LID": 2
+    },
+    "retained_311": 25,
+    "outdoor_odor_records": 5,
+    "outdoor_odor_unique_coords": 5,
+    "pois": 24,
+    "poi_categories": {
+      "fast_food": 5,
+      "cafe": 4,
+      "restaurant": 13,
+      "bakery": 2
+    },
+    "duplicate_flags": 0,
+    "building_features": 118,
+    "street_segments": 32,
+    "footprint_coverage": 0.346,
+    "nearest_poi_distance_m": {
+      "min": 9.5,
+      "median": 12.7,
+      "max": 38.2
+    },
+    "odor_within_5m": 0,
+    "odor_20_to_100m": 2,
+    "odor_distances": [
+      12.7,
+      38.2,
+      9.5,
+      12.7,
+      32.7
+    ]
+  }
+]

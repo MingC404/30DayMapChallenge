@@ -1,0 +1,276 @@
+{
+  "title": "Where Smells Wander",
+  "theme": "DAY 19 / SENSES: SMELL",
+  "subtitle": "An Interactive Smellscape of SoHo, New York",
+  "author": "Ming Cao",
+  "gif": {
+    "file": "day19_loop.gif",
+    "width": 1600,
+    "height": 1200,
+    "frames": 210,
+    "nominal_fps": 15,
+    "duration_ms": 14000,
+    "effective_fps": 15.0,
+    "frame_delays_ms": [
+      60,
+      70
+    ],
+    "loop": 0,
+    "bytes": 2466332,
+    "palette_colors": 256,
+    "dither": "none"
+  },
+  "png": {
+    "file": "day19.png",
+    "width": 1600,
+    "height": 1200,
+    "gif_frame_index": 32,
+    "gif_timestamp_ms": 2130,
+    "nominal_time_seconds": 2.1333333333333333,
+    "bytes": 694720,
+    "decoded_rgb_sha256": "a774911db5125caf9c85ed82257468181fcf14a529e0c7018b39c5a675b9ad34",
+    "exact_decoded_gif_match": true,
+    "selection": "Maximum mixed-evidence support score among actual captured animation frames, with at least 100 amber and 100 violet model cells."
+  },
+  "typography": {
+    "day": "Segoe UI Semibold 600, 1.1% width, 0.08em tracking",
+    "title": "Georgia Regular 400, 2.8% width",
+    "subtitle": "Segoe UI Regular 400, 1.2% width",
+    "stationary_regions": [
+      [
+        80,
+        55,
+        660,
+        145
+      ],
+      [
+        1180,
+        990,
+        365,
+        155
+      ],
+      [
+        80,
+        1065,
+        580,
+        110
+      ]
+    ],
+    "all_decoded_frames_stationary": true,
+    "selected_street_text_overlap_cells": 0
+  },
+  "route": {
+    "stops": [
+      {
+        "name": "BROADWAY / SPRING ST",
+        "actual": [
+          -17.971760663754683,
+          -3.3007524777718604
+        ],
+        "point": [
+          -17.181488235669917,
+          -2.6718953224934694
+        ],
+        "cell": 45139,
+        "offset": 1.009946450231804,
+        "lonlat": [
+          -73.99880365422104,
+          40.723024002044056
+        ]
+      },
+      {
+        "name": "CROSBY ST / SPRING ST",
+        "actual": [
+          52.143453465110674,
+          36.60772223438724
+        ],
+        "point": [
+          52.81851176433008,
+          37.32810467750653
+        ],
+        "cell": 51174,
+        "offset": 0.9872459529922213,
+        "lonlat": [
+          -73.99797393590579,
+          40.72266467593041
+        ]
+      },
+      {
+        "name": "CROSBY ST / BROOME ST",
+        "actual": [
+          -36.52628398494082,
+          174.8180262280353
+        ],
+        "point": [
+          -37.18148823566992,
+          175.32810467750653
+        ],
+        "cell": 71829,
+        "offset": 0.830344889060231,
+        "lonlat": [
+          -73.99904071659681,
+          40.72142500083832
+        ]
+      },
+      {
+        "name": "BROADWAY / BROOME ST",
+        "actual": [
+          -105.845860681423,
+          133.58012027730643
+        ],
+        "point": [
+          -105.18148823566992,
+          133.32810467750653
+        ],
+        "cell": 65495,
+        "offset": 0.7105649929587338,
+        "lonlat": [
+          -73.99984672867447,
+          40.72180229325765
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "type": "hold",
+        "start": 0,
+        "end": 0.55,
+        "point": [
+          -17.181488235669917,
+          -2.6718953224934694
+        ]
+      },
+      {
+        "type": "move",
+        "start": 0.55,
+        "end": 2.299042757426297,
+        "leg": 0
+      },
+      {
+        "type": "hold",
+        "start": 2.299042757426297,
+        "end": 3.149042757426297,
+        "point": [
+          52.81851176433008,
+          37.32810467750653
+        ]
+      },
+      {
+        "type": "move",
+        "start": 3.149042757426297,
+        "end": 6.690408275500974,
+        "leg": 1
+      },
+      {
+        "type": "hold",
+        "start": 6.690408275500974,
+        "end": 7.540408275500973,
+        "point": [
+          -37.18148823566992,
+          175.32810467750653
+        ]
+      },
+      {
+        "type": "move",
+        "start": 7.540408275500973,
+        "end": 9.265780413170909,
+        "leg": 2
+      },
+      {
+        "type": "move",
+        "start": 9.265780413170909,
+        "end": 12.75,
+        "leg": 3
+      },
+      {
+        "type": "hold",
+        "start": 12.75,
+        "end": 14,
+        "point": [
+          -17.181488235669917,
+          -2.6718953224934694
+        ]
+      }
+    ],
+    "totalLength": 519.6955262170043,
+    "seconds": 14,
+    "streetCostLimit": 1.12
+  },
+  "evidence": {
+    "builds": 1,
+    "pathSearches": 2,
+    "records": {
+      "aroma": 18,
+      "odor": 12
+    },
+    "coordinateGroups": {
+      "aroma": 18,
+      "odor": 10
+    },
+    "gridOrigins": {
+      "aroma": 18,
+      "odor": 10
+    },
+    "excluded": [],
+    "settings": {
+      "cutoff": 150,
+      "decay": 58,
+      "neutralBelow": 0.12,
+      "saturatedAt": 0.6,
+      "maxOriginOffset": 20
+    },
+    "normalization": "Within each class: max compact exponential kernel of unique coordinate origins; each class independently has unit peak. No count sums or cross-class measurement equivalence."
+  },
+  "representative_frame": {
+    "point": [
+      51.274237451801675,
+      35.78383036497812
+    ],
+    "cell": 50873,
+    "support": 2686,
+    "amber": 1372,
+    "violet": 640,
+    "neutral": 86,
+    "leaks": 0,
+    "geometryFields": 1,
+    "contours": 1
+  },
+  "validation": {
+    "original_canvas_seam": {
+      "changed_pixels": 20,
+      "maximum_channel_delta": 1,
+      "mean_absolute_channel_delta": 3.819444444444444e-06
+    },
+    "decoded_gif_seam": {
+      "changed_pixels": 0,
+      "maximum_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0
+    },
+    "all_source_positions_in_model_open_streets": true,
+    "all_frames_one_geometry": true,
+    "all_frames_zero_blocked_support": true,
+    "all_frames_no_cursor_or_controls": true,
+    "seam_method": "Closed model-open street circuit; periodic pre-roll; 1.25 s closing hold at initial point. No crossfade or position reset."
+  },
+  "temporary_frames": {
+    "count": 210,
+    "location": "OS TemporaryDirectory outside repository",
+    "automatic_cleanup_on_success_or_failure": true
+  },
+  "reproduction": {
+    "command": "python -B 19/scripts/export_media.py",
+    "render_module": "artwork.mjs + shared app.mjs/core.mjs/worker.mjs",
+    "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+    "immutable_inputs_sha256": {
+      "core.mjs": "2338caaa9b3aca3a7e971b3d7d604b5a7809a23c32783dde66151c2096ae4711",
+      "worker.mjs": "b1437e05dfb1ddab79e955e6684b24e20bbf52e5fc9a7c1daae216a265a890c8",
+      "data/context-buildings.json": "6e55a45ce9e966d43f873861c447edbabec873451db856d11aacbc7be8663dd4",
+      "data/context-streets.json": "f62db9a2f34ebb29cdc722d925e4e7f19349399804eee47bd1122346b7e18847",
+      "data/context-metadata.json": "b34197ac31024f6d408430d259be94e9e508bea2f0a4f89f8f246985933c9476",
+      "research/soho/selected-extent.geojson": "f44dec1b7d220f39ef184690d701c7a5d094d3a328d17983f4cf4a2ddf1e7f79",
+      "research/soho/selected-pois.json": "b8caf79d8f8a6225cf856c14e1774ac710a6337241106b81f766753e8ffccf1e",
+      "research/soho/selected-311.json": "21f3d9e3b872ad9c2e3baffdd10b6697cde4227042e840197a2149ecf1a471d8"
+    }
+  },
+  "elapsed_seconds": 42.37
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "code": "A",
+    "name": "Greene–Broadway / Prince–Broome",
+    "face_ids": [
+      14,
+      15,
+      30,
+      31
+    ],
+    "blocks": 4,
+    "area_m2": 62758,
+    "poi": 3,
+    "poi_categories": {
+      "restaurant": 2,
+      "coffee": 1
+    },
+    "odor": 14,
+    "independent_coordinates": 12,
+    "complaint_categories": {
+      "Air Quality / Air: Odor/Fumes, Vehicle Idling (AD3)": 9,
+      "Air Quality / Air: Odor/Fumes, Restaurant (AD2)": 4,
+      "Mobile Food Vendor / Smoke/Odor": 1
+    },
+    "indoor_excluded": 3,
+    "building_features": 137,
+    "street_segments": 24,
+    "footprint_coverage": 0.563,
+    "possible_duplicate_pois": [],
+    "nearest_poi_median_m": 94.4,
+    "core_bbox": [
+      -119.75751068093034,
+      -134.22904199864436,
+      186.87064893242908,
+      223.52953751328994
+    ],
+    "core_bbox_lonlat": [
+      -74.0014195,
+      40.7217942,
+      -73.997785,
+      40.725008
+    ]
+  },
+  {
+    "code": "B",
+    "name": "Wooster–Broadway / Prince–Broome",
+    "face_ids": [
+      6,
+      8,
+      14,
+      15,
+      30,
+      31
+    ],
+    "blocks": 6,
+    "area_m2": 89252,
+    "poi": 3,
+    "poi_categories": {
+      "restaurant": 2,
+      "coffee": 1
+    },
+    "odor": 17,
+    "independent_coordinates": 14,
+    "complaint_categories": {
+      "Air Quality / Air: Odor/Fumes, Vehicle Idling (AD3)": 11,
+      "Hazardous Materials / Chemical Odor (HD1)": 1,
+      "Air Quality / Air: Odor/Fumes, Restaurant (AD2)": 4,
+      "Mobile Food Vendor / Smoke/Odor": 1
+    },
+    "indoor_excluded": 3,
+    "building_features": 187,
+    "street_segments": 31,
+    "footprint_coverage": 0.579,
+    "possible_duplicate_pois": [],
+    "nearest_poi_median_m": 139.6,
+    "core_bbox": [
+      -183.82503700153293,
+      -134.22904199864436,
+      186.87064893242908,
+      265.1630270700591
+    ],
+    "core_bbox_lonlat": [
+      -74.0021789,
+      40.7217942,
+      -73.997785,
+      40.725382
+    ]
+  },
+  {
+    "code": "C",
+    "name": "Greene–Crosby / Prince–Broome",
+    "face_ids": [
+      14,
+      15,
+      18,
+      20,
+      30,
+      31
+    ],
+    "blocks": 6,
+    "area_m2": 90961,
+    "poi": 6,
+    "poi_categories": {
+      "restaurant": 4,
+      "fast_food": 1,
+      "coffee": 1
+    },
+    "odor": 16,
+    "independent_coordinates": 14,
+    "complaint_categories": {
+      "Food Establishment / Odor": 1,
+      "Air Quality / Air: Odor/Fumes, Vehicle Idling (AD3)": 10,
+      "Air Quality / Air: Odor/Fumes, Restaurant (AD2)": 4,
+      "Mobile Food Vendor / Smoke/Odor": 1
+    },
+    "indoor_excluded": 7,
+    "building_features": 172,
+    "street_segments": 31,
+    "footprint_coverage": 0.589,
+    "possible_duplicate_pois": [],
+    "nearest_poi_median_m": 72.7,
+    "core_bbox": [
+      -119.75751068093034,
+      -175.41725359178275,
+      257.64527077768054,
+      223.52953751328994
+    ],
+    "core_bbox_lonlat": [
+      -74.0014195,
+      40.7214242,
+      -73.9969461,
+      40.725008
+    ]
+  },
+  {
+    "code": "D",
+    "name": "Mercer–Lafayette / Prince–Broome",
+    "face_ids": [
+      10,
+      18,
+      19,
+      20,
+      30,
+      31
+    ],
+    "blocks": 6,
+    "area_m2": 88639,
+    "poi": 18,
+    "poi_categories": {
+      "cafe": 4,
+      "restaurant": 10,
+      "fast_food": 2,
+      "bakery": 1,
+      "coffee": 1
+    },
+    "odor": 12,
+    "independent_coordinates": 10,
+    "complaint_categories": {
+      "Food Establishment / Odor": 1,
+      "Air Quality / Air: Odor/Fumes, Restaurant (AD2)": 4,
+      "Air Quality / Air: Odor/Fumes, Vehicle Idling (AD3)": 6,
+      "Mobile Food Vendor / Smoke/Odor": 1
+    },
+    "indoor_excluded": 7,
+    "building_features": 141,
+    "street_segments": 34,
+    "footprint_coverage": 0.549,
+    "possible_duplicate_pois": [],
+    "nearest_poi_median_m": 51.7,
+    "core_bbox": [
+      -56.069631277133986,
+      -213.52191529029756,
+      298.44465941090965,
+      181.6734089747053
+    ],
+    "core_bbox_lonlat": [
+      -74.0006646,
+      40.7210819,
+      -73.9964625,
+      40.724632
+    ]
+  }
+]

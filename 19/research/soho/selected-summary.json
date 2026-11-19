@@ -1,0 +1,48 @@
+{
+  "code": "D",
+  "name": "Mercer–Lafayette / Prince–Broome",
+  "face_ids": [
+    10,
+    18,
+    19,
+    20,
+    30,
+    31
+  ],
+  "blocks": 6,
+  "area_m2": 88639,
+  "poi": 18,
+  "poi_categories": {
+    "cafe": 4,
+    "restaurant": 10,
+    "fast_food": 2,
+    "bakery": 1,
+    "coffee": 1
+  },
+  "odor": 12,
+  "independent_coordinates": 10,
+  "complaint_categories": {
+    "Food Establishment / Odor": 1,
+    "Air Quality / Air: Odor/Fumes, Restaurant (AD2)": 4,
+    "Air Quality / Air: Odor/Fumes, Vehicle Idling (AD3)": 6,
+    "Mobile Food Vendor / Smoke/Odor": 1
+  },
+  "indoor_excluded": 7,
+  "building_features": 141,
+  "street_segments": 34,
+  "footprint_coverage": 0.549,
+  "possible_duplicate_pois": [],
+  "nearest_poi_median_m": 51.7,
+  "core_bbox": [
+    -56.069631277133986,
+    -213.52191529029756,
+    298.44465941090965,
+    181.6734089747053
+  ],
+  "core_bbox_lonlat": [
+    -74.0006646,
+    40.7210819,
+    -73.9964625,
+    40.724632
+  ]
+}
