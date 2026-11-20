@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-19",
+  "files": [
+    {
+      "file": "terrain/.gitignore",
+      "bytes": 20,
+      "sha256": "0572832eb6ecab28ff4a6a38432fa51326e71ed54ca6bdd825c36d4005c1b1eb"
+    },
+    {
+      "file": "terrain/data/analysis_summary.json",
+      "bytes": 1158,
+      "sha256": "3859336cfbc06268570b4b4c715b3f957245b368f7ea170d2f09a1c9c23a87db"
+    },
+    {
+      "file": "terrain/data/contours_20m.geojson",
+      "bytes": 884743,
+      "sha256": "d7e6e7a875070cff36b95ece3854f653185536a40376703b40c9016d46c7ac60"
+    },
+    {
+      "file": "terrain/data/copernicus_glo30_native_aoi.tif",
+      "bytes": 32377,
+      "sha256": "e20e111f917d19322bb04536ec8e0e3b56dd8b667fe0d8532210d30f4a5b308e"
+    },
+    {
+      "file": "terrain/data/dem_acquisition.json",
+      "bytes": 1246,
+      "sha256": "e9f00425428b211ff94284f8a19da763bb18f321ee11d6d6f09421d6074eef66"
+    },
+    {
+      "file": "terrain/data/dem_glo30_tm2_30m.tif",
+      "bytes": 28131,
+      "sha256": "ca2a908d889280f9266a884265284d89c33c7f425772615ed79e76cca893fe4f"
+    },
+    {
+      "file": "terrain/data/elevation_distribution.csv",
+      "bytes": 543,
+      "sha256": "d0dee186ee61369c098ce87eedfb1be4cc5719b4d124eefe3644b717971b5433"
+    },
+    {
+      "file": "terrain/data/hillshade_multidirectional.tif",
+      "bytes": 29111,
+      "sha256": "91d877ee1377edaf6953a5d1a6ba84402aa9138cafe0325f8d56b1978f142c17"
+    },
+    {
+      "file": "terrain/data/hillshade_nw.tif",
+      "bytes": 29201,
+      "sha256": "fb01ac046429e07e337a35ca342c9354a37a341df8e93de96b35d7b95bfa2d49"
+    },
+    {
+      "file": "terrain/data/ridge_candidate_mask.tif",
+      "bytes": 1891,
+      "sha256": "85d5eae1985e77d2629364f1797f1f462021fffcb916081067b3a22261524fa8"
+    },
+    {
+      "file": "terrain/data/ridge_valley_candidates.geojson",
+      "bytes": 119227,
+      "sha256": "a38db3c07ebefb11c23c43c3610b4f88b7011c2e1aa6f79c7ddf9f004f99b5f5"
+    },
+    {
+      "file": "terrain/data/slope_degrees.tif",
+      "bytes": 29392,
+      "sha256": "f9ae3e61e045ab9289b8830eccbaacab342577b68f67f08955cdd9ef8cb2e1e6"
+    },
+    {
+      "file": "terrain/data/terrain_diagnostics.pdf",
+      "bytes": 84359,
+      "sha256": "45280e77c724a42e379a6e5423982ecfcb9b151713bb48b316f0da8304943b21"
+    },
+    {
+      "file": "terrain/data/tpi_150m.tif",
+      "bytes": 27659,
+      "sha256": "83c4f8ba2b950c2bf43998f0db6924f8c3fa953a1ae028fc06b5282c3b4f68bd"
+    },
+    {
+      "file": "terrain/data/valley_candidate_mask.tif",
+      "bytes": 1946,
+      "sha256": "4a7e609a10ce1d1a1a6c975ab72b172ea3605c614d2d20eaede9910b19b91c63"
+    },
+    {
+      "file": "terrain/README.md",
+      "bytes": 8476,
+      "sha256": "6fd9129cc89e9dd956c63d56caaff947cc68eb51a7200f2f4de93f1fa7afcafa"
+    },
+    {
+      "file": "terrain/research_preservation_baseline.json",
+      "bytes": 6171,
+      "sha256": "d84f1d1aadf99288323ed0f9450dd4b05f8fa2e6be8a84bb9f61d6867e107717"
+    },
+    {
+      "file": "terrain/scripts/acquire_dem.py",
+      "bytes": 2597,
+      "sha256": "e312241201a2bc02f14299e25bbb91c927598c73bee030dfdeab987d27a73c2a"
+    },
+    {
+      "file": "terrain/scripts/build_preview.py",
+      "bytes": 13649,
+      "sha256": "0b26df52c6d978068873128e3efcf19591d3bdf8aa6a67d0996d240ebb233538"
+    },
+    {
+      "file": "terrain/scripts/check_moi.py",
+      "bytes": 1775,
+      "sha256": "c947434fc57e666ded5934af5e9baca0f62517a8e6971b361a76281b86a1162f"
+    },
+    {
+      "file": "terrain/scripts/validate_outputs.py",
+      "bytes": 2535,
+      "sha256": "393b9e2f3a6764b97b605a784768bce5e4f849bae5cf09025d7858323c99413c"
+    },
+    {
+      "file": "terrain/sources/copernicus_aws_readme.html",
+      "bytes": 8536,
+      "sha256": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2"
+    },
+    {
+      "file": "terrain/sources/copernicus_glo30_license.pdf",
+      "bytes": 113786,
+      "sha256": "9cd37d37ea654bbcaf0a2e059e6a3a5b5f76072824d8dd860ccf274ada8951bd"
+    },
+    {
+      "file": "terrain/sources/copernicus_product.html",
+      "bytes": 114336,
+      "sha256": "8e5ddcfd3cee83dcb30d1e5c3594161258a55156a0146a36d007424e2d3f6c4c"
+    },
+    {
+      "file": "terrain/sources/copernicus_registry.html",
+      "bytes": 10002,
+      "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca"
+    },
+    {
+      "file": "terrain/sources/copernicus_tile_header.bin",
+      "bytes": 16384,
+      "sha256": "99164d5feb9f010b84804a286ea4644ddd5eda24074b59e87e2270b9e42f5ecc"
+    },
+    {
+      "file": "terrain/sources/copernicus_tile_range.headers",
+      "bytes": 455,
+      "sha256": "8fb94219eb2a82bd00493be98f0b60ffce06ca2555f02bcb611f303d7c3687c1"
+    },
+    {
+      "file": "terrain/sources/License-COPDEM-30.pdf",
+      "bytes": 113786,
+      "sha256": "9cd37d37ea654bbcaf0a2e059e6a3a5b5f76072824d8dd860ccf274ada8951bd"
+    },
+    {
+      "file": "terrain/sources/moi_2025_taoyuan.headers",
+      "bytes": 198,
+      "sha256": "49624badf2dcda48a1e3e3c356ade717e1d0943e236ca069481f8323fe821309"
+    },
+    {
+      "file": "terrain/sources/moi_2025_taoyuan.response",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "terrain/sources/moi_2026_retry.body",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "terrain/sources/moi_2026_retry.headers",
+      "bytes": 173,
+      "sha256": "c24321af35b3ecfdcad89d3d0a8bca91091ced863999e689ba2e3255cd815325"
+    },
+    {
+      "file": "terrain/sources/moi_alternate_catalog.csv",
+      "bytes": 5546,
+      "sha256": "5f6e853ccb044d7b76dbe95f4a8a3890f9d5f0613105e0428743f36658aa8869"
+    },
+    {
+      "file": "terrain/sources/moi_official_legacy_host.headers",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "terrain/sources/moi_other_catalog.csv",
+      "bytes": 5546,
+      "sha256": "5f6e853ccb044d7b76dbe95f4a8a3890f9d5f0613105e0428743f36658aa8869"
+    },
+    {
+      "file": "terrain/sources/moi_probe_log.json",
+      "bytes": 788,
+      "sha256": "fff27718a5f62afd63d31c384b8b1de02bbe81f27121eff39897ff83e531e66e"
+    },
+    {
+      "file": "terrain/sources/moi_schema_control.headers",
+      "bytes": 173,
+      "sha256": "71b5dd03d12c883d7ea0c2727b15b1c3b178e36de19ae3ce2c5f44596681b7d2"
+    },
+    {
+      "file": "terrain/sources/moi_schema_control.response",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "terrain/sources/moi_schema_retry.body",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "terrain/sources/moi_schema_retry.headers",
+      "bytes": 173,
+      "sha256": "4e93fa303802939ed2b55feb426c801246d52e38e1546e392c0684f71e1ef1cd"
+    },
+    {
+      "file": "terrain/sources/official_opdadm_control.bin",
+      "bytes": 314437,
+      "sha256": "27e402b9075a9d241d383da49b1a66077e0bfe978c7a0aecd60bc8d68504994f"
+    },
+    {
+      "file": "terrain/sources/official_opdadm_control.headers",
+      "bytes": 1112,
+      "sha256": "80a543a4064f96508aebcfc94dd208593c3b8bf3ece2e2915fbb59f1fab3bab1"
+    },
+    {
+      "file": "terrain/sources/tgos_home_control.headers",
+      "bytes": 173,
+      "sha256": "5c4dc7630957b4e0c1e8c0e53e725d16af469fc7b4ef3917eda407401f7fe760"
+    },
+    {
+      "file": "terrain/sources/tgos_home_control.html",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "terrain/validation.json",
+      "bytes": 418,
+      "sha256": "85e867372e48855d2b015efd685c8d392286d388d03a5d2b5f45d077d45dd45a"
+    },
+    {
+      "file": "preview/day18_shanshui_composition_01.png",
+      "bytes": 3781156,
+      "sha256": "cf188065aac5c5e5d455a65a5e080b6da67bcc9642c4edff1c280a766dfe8237"
+    }
+  ]
+}

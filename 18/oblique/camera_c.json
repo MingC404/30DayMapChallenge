@@ -1,0 +1,41 @@
+﻿{
+    "selection":  "C — Monumental Mountain",
+    "azimuth_deg":  315.0,
+    "elevation_deg":  18.0,
+    "vertical_exaggeration":  1.2,
+    "orthographic_height_m":  1808.8367082405482,
+    "orthographic_width_m":  2129.759350025162,
+    "target_xyz":  [
+                       294300.0,
+                       2733845.0,
+                       1707.492919921875
+                   ],
+    "world_to_camera_matrix":  [
+                                   [
+                                       -0.7071067811865474,
+                                       -0.7071067811865477,
+                                       0.0
+                                   ],
+                                   [
+                                       0.21850801222441057,
+                                       -0.21850801222441046,
+                                       0.9510565162951535
+                                   ],
+                                   [
+                                       -0.6724985119639575,
+                                       0.6724985119639572,
+                                       0.3090169943749474
+                                   ]
+                               ],
+    "original_image_size":  [
+                                1600,
+                                1800
+                            ],
+    "original_viewport":  [
+                              70,
+                              270,
+                              1530,
+                              1510
+                          ],
+    "source":  "camera_comparison.json C record; frozen by user selection"
+}

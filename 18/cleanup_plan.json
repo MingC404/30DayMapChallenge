@@ -1,0 +1,791 @@
+{
+  "root": "E:\\MUSA\\30DayMapChallenge\\18",
+  "camera_conclusions_saved": "oblique/camera_study.md",
+  "fixed_camera": "oblique/camera_c.json",
+  "delete_files": [
+    {
+      "path": "preview/day18_shanshui_composition_01.png",
+      "bytes": 3781156,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "preview/day18_shanshui_composition_02A.png",
+      "bytes": 1624319,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "preview/day18_shanshui_composition_02B.png",
+      "bytes": 1548795,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "preview/day18_shanshui_composition_03.png",
+      "bytes": 3888009,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "preview/composition_02_validation.json",
+      "bytes": 9803,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "preview/composition_03_validation.json",
+      "bytes": 3792,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "oblique/A_gentle_oblique.png",
+      "bytes": 193088,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "oblique/B_landscape_depth.png",
+      "bytes": 185566,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "oblique/C_monumental_mountain.png",
+      "bytes": 179790,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "oblique/A_gentle_oblique_depth.npz",
+      "bytes": 2515555,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "oblique/B_landscape_depth_depth.npz",
+      "bytes": 2126691,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "oblique/C_monumental_mountain_depth.npz",
+      "bytes": 1734225,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "terrain/scripts/build_preview.py",
+      "bytes": 13649,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "terrain/scripts/refine_preview.py",
+      "bytes": 13641,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "terrain/scripts/paint_shanshui.py",
+      "bytes": 11888,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "terrain/scripts/validate_outputs.py",
+      "bytes": 2535,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "terrain/.deps/scipy-1.18.1-cp314-cp314-win_amd64.whl",
+      "bytes": 0,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "terrain/.deps/.lock",
+      "bytes": 0,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    },
+    {
+      "path": "research/.deps/.lock",
+      "bytes": 0,
+      "reason": "retired image pipeline/output or zero-byte installer residue"
+    }
+  ],
+  "delete_cache_directories": [
+    {
+      "path": "terrain/.deps/affine/__pycache__",
+      "files": 1,
+      "bytes": 34972,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/attr/__pycache__",
+      "files": 13,
+      "bytes": 211559,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/attrs/__pycache__",
+      "files": 6,
+      "bytes": 2711,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/certifi/__pycache__",
+      "files": 2,
+      "bytes": 2985,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/click/__pycache__",
+      "files": 13,
+      "bytes": 464997,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/cycler/__pycache__",
+      "files": 1,
+      "bytes": 26341,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/dateutil/__pycache__",
+      "files": 6,
+      "bytes": 112548,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/__pycache__",
+      "files": 3,
+      "bytes": 116118,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/kiwisolver/__pycache__",
+      "files": 2,
+      "bytes": 2868,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/lazy_loader/__pycache__",
+      "files": 1,
+      "bytes": 16569,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/__pycache__",
+      "files": 70,
+      "bytes": 4332709,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/__pycache__",
+      "files": 10,
+      "bytes": 71621,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/packaging/__pycache__",
+      "files": 2,
+      "bytes": 50598,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/PIL/__pycache__",
+      "files": 28,
+      "bytes": 762068,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/pyparsing/__pycache__",
+      "files": 11,
+      "bytes": 558969,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/rasterio/__pycache__",
+      "files": 20,
+      "bytes": 226927,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/__pycache__",
+      "files": 4,
+      "bytes": 12007,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/__pycache__",
+      "files": 1,
+      "bytes": 4491,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/draw/__pycache__",
+      "files": 1,
+      "bytes": 401,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/exposure/__pycache__",
+      "files": 1,
+      "bytes": 413,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/filters/__pycache__",
+      "files": 2,
+      "bytes": 3027,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/measure/__pycache__",
+      "files": 4,
+      "bytes": 15229,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/morphology/__pycache__",
+      "files": 13,
+      "bytes": 237929,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/util/__pycache__",
+      "files": 15,
+      "bytes": 85547,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/_shared/__pycache__",
+      "files": 5,
+      "bytes": 55603,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/skimage/_vendored/__pycache__",
+      "files": 2,
+      "bytes": 11247,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/constants/__pycache__",
+      "files": 5,
+      "bytes": 239922,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/linalg/__pycache__",
+      "files": 31,
+      "bytes": 479405,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/ndimage/__pycache__",
+      "files": 16,
+      "bytes": 337270,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/sparse/__pycache__",
+      "files": 31,
+      "bytes": 636486,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/spatial/__pycache__",
+      "files": 10,
+      "bytes": 184011,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/special/__pycache__",
+      "files": 19,
+      "bytes": 357542,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/__pycache__",
+      "files": 1,
+      "bytes": 330,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_lib/__pycache__",
+      "files": 10,
+      "bytes": 200746,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/array_api_compat/__pycache__",
+      "files": 2,
+      "bytes": 5300,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/array_api_extra/__pycache__",
+      "files": 3,
+      "bytes": 63815,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/packaging_version/__pycache__",
+      "files": 2,
+      "bytes": 29663,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/array_api_extra/_lib/__pycache__",
+      "files": 4,
+      "bytes": 71190,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/array_api_extra/_lib/_utils/__pycache__",
+      "files": 4,
+      "bytes": 27504,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/array_api_compat/common/__pycache__",
+      "files": 6,
+      "bytes": 94233,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/_external/array_api_compat/numpy/__pycache__",
+      "files": 6,
+      "bytes": 31696,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/scipy/spatial/transform/__pycache__",
+      "files": 8,
+      "bytes": 295936,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/char/__pycache__",
+      "files": 1,
+      "bytes": 1533,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/core/__pycache__",
+      "files": 2,
+      "bytes": 2437,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/ctypeslib/__pycache__",
+      "files": 2,
+      "bytes": 22500,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/f2py/__pycache__",
+      "files": 16,
+      "bytes": 538677,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/fft/__pycache__",
+      "files": 3,
+      "bytes": 76547,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/lib/__pycache__",
+      "files": 29,
+      "bytes": 857101,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/linalg/__pycache__",
+      "files": 2,
+      "bytes": 124366,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/ma/__pycache__",
+      "files": 3,
+      "bytes": 383610,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/matrixlib/__pycache__",
+      "files": 2,
+      "bytes": 32588,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/polynomial/__pycache__",
+      "files": 9,
+      "bytes": 451667,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/random/__pycache__",
+      "files": 2,
+      "bytes": 11187,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/rec/__pycache__",
+      "files": 1,
+      "bytes": 256,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/strings/__pycache__",
+      "files": 1,
+      "bytes": 260,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/testing/__pycache__",
+      "files": 2,
+      "bytes": 3413,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/typing/__pycache__",
+      "files": 1,
+      "bytes": 7625,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/_core/__pycache__",
+      "files": 28,
+      "bytes": 989724,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/_typing/__pycache__",
+      "files": 11,
+      "bytes": 57509,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/_utils/__pycache__",
+      "files": 3,
+      "bytes": 14448,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/testing/_private/__pycache__",
+      "files": 3,
+      "bytes": 123020,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/numpy/f2py/_backends/__pycache__",
+      "files": 1,
+      "bytes": 447,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/mpl_toolkits/mplot3d/__pycache__",
+      "files": 5,
+      "bytes": 317494,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/axes/__pycache__",
+      "files": 4,
+      "bytes": 586951,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/backends/__pycache__",
+      "files": 6,
+      "bytes": 200982,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/projections/__pycache__",
+      "files": 3,
+      "bytes": 111901,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/style/__pycache__",
+      "files": 1,
+      "bytes": 10685,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/tri/__pycache__",
+      "files": 9,
+      "bytes": 133901,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/matplotlib/_api/__pycache__",
+      "files": 2,
+      "bytes": 46699,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/cffLib/__pycache__",
+      "files": 1,
+      "bytes": 144968,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/colorLib/__pycache__",
+      "files": 6,
+      "bytes": 58546,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/config/__pycache__",
+      "files": 1,
+      "bytes": 3753,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/designspaceLib/__pycache__",
+      "files": 4,
+      "bytes": 182043,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/encodings/__pycache__",
+      "files": 2,
+      "bytes": 6253,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/feaLib/__pycache__",
+      "files": 5,
+      "bytes": 132867,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/misc/__pycache__",
+      "files": 24,
+      "bytes": 257713,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/otlLib/__pycache__",
+      "files": 4,
+      "bytes": 166960,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/pens/__pycache__",
+      "files": 7,
+      "bytes": 95342,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/subset/__pycache__",
+      "files": 4,
+      "bytes": 246787,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/ttLib/__pycache__",
+      "files": 8,
+      "bytes": 251183,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/unicodedata/__pycache__",
+      "files": 6,
+      "bytes": 143620,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/varLib/__pycache__",
+      "files": 10,
+      "bytes": 308169,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/ttLib/tables/__pycache__",
+      "files": 46,
+      "bytes": 1066111,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/otlLib/optimize/__pycache__",
+      "files": 2,
+      "bytes": 23855,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/fontTools/misc/plistlib/__pycache__",
+      "files": 1,
+      "bytes": 34235,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/dateutil/parser/__pycache__",
+      "files": 3,
+      "bytes": 83850,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "terrain/.deps/dateutil/tz/__pycache__",
+      "files": 7,
+      "bytes": 135798,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/__pycache__",
+      "files": 1,
+      "bytes": 253944,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/certifi/__pycache__",
+      "files": 2,
+      "bytes": 2987,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/__pycache__",
+      "files": 19,
+      "bytes": 811880,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pyproj/__pycache__",
+      "files": 12,
+      "bytes": 165293,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pyproj/crs/__pycache__",
+      "files": 7,
+      "bytes": 167434,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/actions/__pycache__",
+      "files": 2,
+      "bytes": 10634,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/generic/__pycache__",
+      "files": 13,
+      "bytes": 329704,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/_codecs/__pycache__",
+      "files": 8,
+      "bytes": 1018499,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/_crypt_providers/__pycache__",
+      "files": 5,
+      "bytes": 26889,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/_text_extraction/__pycache__",
+      "files": 2,
+      "bytes": 41743,
+      "reason": "regenerable Python bytecode cache"
+    },
+    {
+      "path": "research/.deps/pypdf/_text_extraction/_layout_mode/__pycache__",
+      "files": 4,
+      "bytes": 50882,
+      "reason": "regenerable Python bytecode cache"
+    }
+  ],
+  "protected_source_hashes": {
+    "research/.gitignore": "0572832eb6ecab28ff4a6a38432fa51326e71ed54ca6bdd825c36d4005c1b1eb",
+    "research/cartographic_feasibility.md": "708ced78d5179a2845bcb40f437334683293e91856ddb45b14b8ef87842f47c7",
+    "research/README.md": "30669a36b6284207d650ac7f9810518596109f0a19b9524bfce969b13298d26f",
+    "research/sources.md": "7c151b671501b51761ccbbfdac76c0cdb48da7d959f49d8ec81d72919ad0dcde",
+    "research/source_manifest.json": "4ad55dad76e05f073a882b486a6382cbd2c17a900c6fc373d853084d4f937813",
+    "research/terrain_feasibility.md": "cedec9891b13ab6b22c9fe50218615a16a1967f353a78c7d43084ddc97f98687",
+    "research/trails_feasibility.md": "6a2acf2ef7ff3663f1c3a808d5c17e7c1948ca83baf680ed073281d8d30b0648",
+    "research/trees_feasibility.md": "4cc5601925ba03e9752b06b13ed7d6e0d0ff9a16851be63da68df673aa9ed1e9",
+    "research/data/official_communication_points.csv": "5caa289d95c318456b5db714f55a4557196ae0c9960d4b8694e65d302d22ca33",
+    "research/data/official_communication_points.geojson": "8a6d02e86d40ed8e3e90325d14d549c37cb44d4e2b015b59cbcc40a54531122e",
+    "research/data/osm_pedestrian_ways.geojson": "f6f2ae584a14da53774c33b6b4915e39ae4f79d4a368ae7115c44328cc367539",
+    "research/data/osm_tree_candidates.csv": "90c176b41205264fc500edb45741e3d04a772be289cfe315e505b5d1cf6a09a4",
+    "research/data/osm_tree_candidates.geojson": "4e365cd85f72d9a94cee6ed4384b6a22fb57b0655d1412916101128393e41b61",
+    "research/data/position_comparison.csv": "e1a01beaef77a61dcd5e2c360ccb1f9ef94011cab2b13bc53cc1dc9a2e4751e4",
+    "research/data/public_track_20240802.geojson": "4d13719556d7ccc49fdd87efb4fc2ec14697595ff5a3764a05b6ef67545491d6",
+    "research/data/public_track_20240802.gpx": "17f0224bca1edd4a019668758cb4ba723c4077ef99215e8acec3e9cab68c617b",
+    "research/data/reference_sheets_5k.geojson": "8f6e4c5c912090394d554cd705a559285f89914c805727389030cdb84deb664d",
+    "research/data/trail_control_point_distances.csv": "2491c7049b23ca28ade23eee4c87fdb44406c1c2c64e1bd1fe56b1d779c52b66",
+    "research/data/tree_inventory_1_24.csv": "86b7aded87f94f8ef118166474a657c42dcc05a9a24a427d409f0102da37b61b",
+    "research/data/validation_summary.json": "9a21f40d2d0cd132aea2202574b6a0f95644bc243ac111c93ac16504114f70a1",
+    "research/scripts/analyze_data.py": "d9532d789aafcc34c834452a1bed0c6c51b8d1bc066bb4a42934b12b14398a15",
+    "research/scripts/fetch_sources.py": "d1f2ee29103496f6348a0415bbcba6ac78a6ee40ba9ce8438e30090e1f72a33c",
+    "research/scripts/validate_research.py": "6772202d32a96a22fddbc161d439dd6a3fff67b4e7fd59c1284317ad3b9eeffd",
+    "research/sources/communication_11502.pdf": "d17d6b85034efd665bed8fa16338a927ba4ed2a74721fb6223f98371dbd41b5c",
+    "research/sources/communication_11502.pdf.headers": "176d8d9879a42489bbb78a7d827fc109bcf12444c58895cbc616e5be08d8ecfe",
+    "research/sources/communication_11502.txt": "3771eff90c207c2a319e1e1209e24e2bda6c36530a4a8c5a1729a1c81fe23185",
+    "research/sources/download_log.json": "c1c6aa7deab3edb241137d0c7a0a34c592132c6f017dfbe81986c31649023e04",
+    "research/sources/dtm_2026_catalog.csv": "b7380a8c9afd479d03705c5276b85e72e91cfeb8cf20433512efe075b5ba5206",
+    "research/sources/dtm_faq.html": "6f4bd4db13c9befc566ec761af661b6c8d4e78ae83192e72a130dd5997c6da66",
+    "research/sources/dtm_openapi.json": "d85959877f7fdc30d0217c9d411ae7c6fbe94e3360e74795e222b2152338791c",
+    "research/sources/dtm_openapi.json.headers": "606f4d58e495144b0e2c094345e512a561a576d37640e08e611d5242d8bd7420",
+    "research/sources/dtm_sheet_template.csv": "3004c7e2f988563dcca93dbc5f1f789001e963212adc1a27d59540df9f3f4da7",
+    "research/sources/moidemd_fetch_reference.py": "ff9b6383439c051f572076fbf534c82a9cd7bae747ced2ac9dc57c1cf5ddd3e0",
+    "research/sources/moidemd_readme.md": "ff6ff434da284e1df95d95e002d50be56105565e62aa6c4c40959bb2b8f2c1ba",
+    "research/sources/nlsc_5k_index.zip": "27e402b9075a9d241d383da49b1a66077e0bfe978c7a0aecd60bc8d68504994f",
+    "research/sources/odc_10m.html": "e1ee39515ded9ce23c5f3beea9d81382e871afced453d35f739bc5e59f9dc68d",
+    "research/sources/odc_10m.html.headers": "d83c15d436071a022a2ab100705dd666e4eb6b833ec6a5c7b9868bbf0bbd4273",
+    "research/sources/official_224.jpg": "b7c616c8ae49256991f35064d113fa57a076be3e1ab8a0c1e6d3be01cab6c3b5",
+    "research/sources/official_224.jpg.headers": "722cff3d24d1740356a901379d61a1d43640ded6b31914888829641cb1dbfe5b",
+    "research/sources/official_225.jpg": "aecf8a50e872aa19bf6022b9bd1a52bb96348e36d2cbd5c2473a781037576485",
+    "research/sources/official_225.jpg.headers": "7a6ab3a6262538750fccd1a8a80e0f0df150252e59be386d4de125ddd39e8a8a",
+    "research/sources/official_226.jpg": "4fb4381c7be0d50be3d5684a9e613f9c222651a36e8fad7326bc343eed6f6d97",
+    "research/sources/official_226.jpg.headers": "62511dc79d275e66e0fc55c60013e40b013e7cb40a712ec723df9051b41f1afd",
+    "research/sources/official_age_20230412.html": "085746073d43bd15c7a3d0474d00fb5385a8b751e43f7e2236efa37aca60daa5",
+    "research/sources/official_age_20230412.html.headers": "94018c8cdc7e5e39af1bb3d1de6acb1d2741c5298605ce460ffbefe0337a7540",
+    "research/sources/official_park.html": "547621f5242fbe15e8c253e2d63ed3480d7d47c127a110b51a36a386cb8259e4",
+    "research/sources/official_park.html.headers": "3eb88e75e2163e0f1f9ff981e7840d0559766e2cb63966ebad23869da94919b5",
+    "research/sources/osm_api_bbox.osm": "e74652061ff58f013410ba25b2a63079cab4d282237f5cfd6dbc248e511df88f",
+    "research/sources/osm_api_bbox.osm.headers": "b4f186f0e5f7abb9d3acaf5619399c3e841cd1396d881d9551989d209676d3e7",
+    "research/sources/osm_overpass_error.html": "7cd905d731bc5983f218aa91824747ef52e7b2cef4a2bf4aa2adba91dc3e61e6",
+    "research/sources/public_gpx_download_response": "17f0224bca1edd4a019668758cb4ba723c4077ef99215e8acec3e9cab68c617b",
+    "research/sources/public_gpx_download_response.headers": "52b018b5850cf7fd866cfe9e43ef29ca8c0e965e8bcd36a33b4083093dec8ccb",
+    "research/sources/schema_hdr.zip.headers": "526b4318eb6d83d9d6bb42f4354f5b9ab3da5318f7cad5e713814881b943b194",
+    "research/sources/schema_hdr_http403.html": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "research/sources/taiwanoutdoors.html": "f6600b86b5db7cc732d1997ebb4d963a7f1d3746a871c9f6ba11d439ce06fd61",
+    "research/sources/taiwanoutdoors.html.headers": "f920b6b0f395dacda27638d059df0fa2799a5828999374064e4fe64f46874139",
+    "research/sources/taoyuan_range_retry.bin": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "research/sources/taoyuan_range_retry.headers": "30c2ae7874d6a83608cf082012128b6e2b9c13887f5193d7333e8c0615cb2405",
+    "research/sources/taoyuan_zip_tail.bin.headers": "526b4318eb6d83d9d6bb42f4354f5b9ab3da5318f7cad5e713814881b943b194",
+    "terrain/data/analysis_summary.json": "3859336cfbc06268570b4b4c715b3f957245b368f7ea170d2f09a1c9c23a87db",
+    "terrain/data/contours_20m.geojson": "d7e6e7a875070cff36b95ece3854f653185536a40376703b40c9016d46c7ac60",
+    "terrain/data/copernicus_glo30_native_aoi.tif": "e20e111f917d19322bb04536ec8e0e3b56dd8b667fe0d8532210d30f4a5b308e",
+    "terrain/data/dem_acquisition.json": "e9f00425428b211ff94284f8a19da763bb18f321ee11d6d6f09421d6074eef66",
+    "terrain/data/dem_glo30_tm2_30m.tif": "ca2a908d889280f9266a884265284d89c33c7f425772615ed79e76cca893fe4f",
+    "terrain/data/elevation_distribution.csv": "d0dee186ee61369c098ce87eedfb1be4cc5719b4d124eefe3644b717971b5433",
+    "terrain/data/hillshade_multidirectional.tif": "91d877ee1377edaf6953a5d1a6ba84402aa9138cafe0325f8d56b1978f142c17",
+    "terrain/data/hillshade_nw.tif": "fb01ac046429e07e337a35ca342c9354a37a341df8e93de96b35d7b95bfa2d49",
+    "terrain/data/ridge_candidate_mask.tif": "85d5eae1985e77d2629364f1797f1f462021fffcb916081067b3a22261524fa8",
+    "terrain/data/ridge_valley_candidates.geojson": "a38db3c07ebefb11c23c43c3610b4f88b7011c2e1aa6f79c7ddf9f004f99b5f5",
+    "terrain/data/slope_degrees.tif": "f9ae3e61e045ab9289b8830eccbaacab342577b68f67f08955cdd9ef8cb2e1e6",
+    "terrain/data/terrain_diagnostics.pdf": "45280e77c724a42e379a6e5423982ecfcb9b151713bb48b316f0da8304943b21",
+    "terrain/data/tpi_150m.tif": "83c4f8ba2b950c2bf43998f0db6924f8c3fa953a1ae028fc06b5282c3b4f68bd",
+    "terrain/data/valley_candidate_mask.tif": "4a7e609a10ce1d1a1a6c975ab72b172ea3605c614d2d20eaede9910b19b91c63",
+    "terrain/sources/copernicus_aws_readme.html": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2",
+    "terrain/sources/copernicus_glo30_license.pdf": "9cd37d37ea654bbcaf0a2e059e6a3a5b5f76072824d8dd860ccf274ada8951bd",
+    "terrain/sources/copernicus_product.html": "8e5ddcfd3cee83dcb30d1e5c3594161258a55156a0146a36d007424e2d3f6c4c",
+    "terrain/sources/copernicus_registry.html": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca",
+    "terrain/sources/copernicus_tile_header.bin": "99164d5feb9f010b84804a286ea4644ddd5eda24074b59e87e2270b9e42f5ecc",
+    "terrain/sources/copernicus_tile_range.headers": "8fb94219eb2a82bd00493be98f0b60ffce06ca2555f02bcb611f303d7c3687c1",
+    "terrain/sources/License-COPDEM-30.pdf": "9cd37d37ea654bbcaf0a2e059e6a3a5b5f76072824d8dd860ccf274ada8951bd",
+    "terrain/sources/moi_2025_taoyuan.headers": "49624badf2dcda48a1e3e3c356ade717e1d0943e236ca069481f8323fe821309",
+    "terrain/sources/moi_2025_taoyuan.response": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "terrain/sources/moi_2026_retry.body": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "terrain/sources/moi_2026_retry.headers": "c24321af35b3ecfdcad89d3d0a8bca91091ced863999e689ba2e3255cd815325",
+    "terrain/sources/moi_alternate_catalog.csv": "5f6e853ccb044d7b76dbe95f4a8a3890f9d5f0613105e0428743f36658aa8869",
+    "terrain/sources/moi_official_legacy_host.headers": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "terrain/sources/moi_other_catalog.csv": "5f6e853ccb044d7b76dbe95f4a8a3890f9d5f0613105e0428743f36658aa8869",
+    "terrain/sources/moi_probe_log.json": "fff27718a5f62afd63d31c384b8b1de02bbe81f27121eff39897ff83e531e66e",
+    "terrain/sources/moi_schema_control.headers": "71b5dd03d12c883d7ea0c2727b15b1c3b178e36de19ae3ce2c5f44596681b7d2",
+    "terrain/sources/moi_schema_control.response": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "terrain/sources/moi_schema_retry.body": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+    "terrain/sources/moi_schema_retry.headers": "4e93fa303802939ed2b55feb426c801246d52e38e1546e392c0684f71e1ef1cd",
+    "terrain/sources/official_opdadm_control.bin": "27e402b9075a9d241d383da49b1a66077e0bfe978c7a0aecd60bc8d68504994f",
+    "terrain/sources/official_opdadm_control.headers": "80a543a4064f96508aebcfc94dd208593c3b8bf3ece2e2915fbb59f1fab3bab1",
+    "terrain/sources/tgos_home_control.headers": "5c4dc7630957b4e0c1e8c0e53e725d16af469fc7b4ef3917eda407401f7fe760",
+    "terrain/sources/tgos_home_control.html": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+  },
+  "preserve_dependency_installations": true
+}

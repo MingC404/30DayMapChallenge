@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43308,
+          24.71103
+        ]
+      },
+      "properties": {
+        "source_row": 275,
+        "name": "遊客中心",
+        "twd97_easting": 293817.0,
+        "twd97_northing": 2733841.0,
+        "longitude": 121.43308,
+        "latitude": 24.71103,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43749,
+          24.71005
+        ]
+      },
+      "properties": {
+        "source_row": 276,
+        "name": "1號巨木",
+        "twd97_easting": 294264.0,
+        "twd97_northing": 2733733.0,
+        "longitude": 121.43749,
+        "latitude": 24.71005,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44016,
+          24.70981
+        ]
+      },
+      "properties": {
+        "source_row": 277,
+        "name": "休憩區",
+        "twd97_easting": 294534.0,
+        "twd97_northing": 2733708.0,
+        "longitude": 121.44016,
+        "latitude": 24.70981,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43975,
+          24.70849
+        ]
+      },
+      "properties": {
+        "source_row": 278,
+        "name": "5號巨木觀景台",
+        "twd97_easting": 294493.0,
+        "twd97_northing": 2733561.0,
+        "longitude": 121.43975,
+        "latitude": 24.70849,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4407,
+          24.71062
+        ]
+      },
+      "properties": {
+        "source_row": 279,
+        "name": "叉路口",
+        "twd97_easting": 294588.0,
+        "twd97_northing": 2733798.0,
+        "longitude": 121.4407,
+        "latitude": 24.71062,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.43947,
+          24.71176
+        ]
+      },
+      "properties": {
+        "source_row": 280,
+        "name": "達觀亭",
+        "twd97_easting": 294463.0,
+        "twd97_northing": 2733923.0,
+        "longitude": 121.43947,
+        "latitude": 24.71176,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44073,
+          24.71132
+        ]
+      },
+      "properties": {
+        "source_row": 281,
+        "name": "15號神木旁路牌",
+        "twd97_easting": 294591.3,
+        "twd97_northing": 2733875.27,
+        "longitude": 121.44073,
+        "latitude": 24.71132,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44007,
+          24.7113
+        ]
+      },
+      "properties": {
+        "source_row": 282,
+        "name": "19號巨木",
+        "twd97_easting": 294524.0,
+        "twd97_northing": 2733873.0,
+        "longitude": 121.44007,
+        "latitude": 24.7113,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44018,
+          24.71063
+        ]
+      },
+      "properties": {
+        "source_row": 283,
+        "name": "21號巨木",
+        "twd97_easting": 294536.0,
+        "twd97_northing": 2733799.0,
+        "longitude": 121.44018,
+        "latitude": 24.71063,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44125,
+          24.71188
+        ]
+      },
+      "properties": {
+        "source_row": 284,
+        "name": "支線 24號巨木",
+        "twd97_easting": 294643.4,
+        "twd97_northing": 2733937.8,
+        "longitude": 121.44125,
+        "latitude": 24.71188,
+        "category": "A",
+        "position_type": "communication_sign_not_surveyed_trunk",
+        "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+        "page": 6
+      }
+    }
+  ]
+}

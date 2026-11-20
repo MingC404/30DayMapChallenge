@@ -1,0 +1,185 @@
+{
+  "crs": "EPSG:3826",
+  "vertical_datum": "EGM2008",
+  "source_product": "Copernicus GLO-30 DSM, nominal 30m; includes canopy, not bare earth",
+  "mesh_bounds_epsg3826": [
+    293655.0,
+    2733245.0,
+    294945.0,
+    2734445.0
+  ],
+  "mesh_vertices": 1804,
+  "mesh_triangles": 3440,
+  "native_grid_m": 30,
+  "interpolation": "piecewise planar barycentric on the same terrain triangles",
+  "target_world_epsg3826_egm2008": [
+    294300.0,
+    2733845.0,
+    1707.492919921875
+  ],
+  "azimuth_convention": "camera position bearing clockwise from EPSG:3826 grid north; looks toward target",
+  "vertical_exaggeration": 1.2,
+  "marker_height_m_before_exaggeration": 22,
+  "marker_ground_clearance_m": 0,
+  "track_render_offset_m": 0.12,
+  "root_visibility": "terrain LOS, 1.5m horizontal marching, 0.25m vertical tolerance after exaggeration",
+  "trail_visibility": "length-weighted horizontal GPX edge midpoint LOS; repeats retained; not unique trail-network completeness",
+  "root_records": [
+    {
+      "number": 1,
+      "easting": 294271.41555295006,
+      "northing": 2733744.9222541223,
+      "surface_elevation_m_egm2008": 1614.9030646431634,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 2,
+      "easting": 294378.80284180504,
+      "northing": 2733752.3541978477,
+      "surface_elevation_m_egm2008": 1637.2496634835973,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 3,
+      "easting": 294518.8009487213,
+      "northing": 2733718.4670944093,
+      "surface_elevation_m_egm2008": 1643.112170412375,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 4,
+      "easting": 294524.8101357388,
+      "northing": 2733702.9688006826,
+      "surface_elevation_m_egm2008": 1644.236191277499,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 5,
+      "easting": 294454.6762744268,
+      "northing": 2733572.5334346932,
+      "surface_elevation_m_egm2008": 1694.4059060851255,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 6,
+      "easting": 294498.6419108107,
+      "northing": 2733571.5889819474,
+      "surface_elevation_m_egm2008": 1695.577221303061,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 7,
+      "easting": 294519.2531958877,
+      "northing": 2733577.591909924,
+      "surface_elevation_m_egm2008": 1702.174455448199,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 8,
+      "easting": 294551.628679794,
+      "northing": 2733634.9148978437,
+      "surface_elevation_m_egm2008": 1665.0577408336464,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 12,
+      "easting": 294693.492061027,
+      "northing": 2733741.701752881,
+      "surface_elevation_m_egm2008": 1737.182523276761,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 14,
+      "easting": 294603.23114501097,
+      "northing": 2733791.8848384693,
+      "surface_elevation_m_egm2008": 1687.2570156484248,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 15,
+      "easting": 294593.23267919215,
+      "northing": 2733861.7427559597,
+      "surface_elevation_m_egm2008": 1684.148729340071,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 16,
+      "easting": 294624.5069005691,
+      "northing": 2733927.7017548773,
+      "surface_elevation_m_egm2008": 1688.17729696896,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 19,
+      "easting": 294532.150030361,
+      "northing": 2733903.2257486572,
+      "surface_elevation_m_egm2008": 1653.807195172735,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 20,
+      "easting": 294552.7978308126,
+      "northing": 2733800.085150583,
+      "surface_elevation_m_egm2008": 1654.2380642954395,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    },
+    {
+      "number": 21,
+      "easting": 294539.5987274166,
+      "northing": 2733811.2406666987,
+      "surface_elevation_m_egm2008": 1644.9684569285378,
+      "status": "unverified OSM tree candidate; DSM surface not measured trunk base"
+    }
+  ],
+  "azimuth_screen": [
+    {
+      "azimuth_deg": 135.0,
+      "tree_roots_visible": 7,
+      "track_sample_visibility": 0.4171597633136095,
+      "horizontal_grove_spread_m": 378.91791072580963,
+      "score": 0.4608179811517471
+    },
+    {
+      "azimuth_deg": 180.0,
+      "tree_roots_visible": 7,
+      "track_sample_visibility": 0.4230769230769231,
+      "horizontal_grove_spread_m": 422.0765080769197,
+      "score": 0.4711525861065083
+    },
+    {
+      "azimuth_deg": 225.0,
+      "tree_roots_visible": 12,
+      "track_sample_visibility": 0.6997041420118343,
+      "horizontal_grove_spread_m": 300.7303993073292,
+      "score": 0.7194011151383944
+    },
+    {
+      "azimuth_deg": 270.0,
+      "tree_roots_visible": 15,
+      "track_sample_visibility": 0.8979289940828402,
+      "horizontal_grove_spread_m": 356.1127729299478,
+      "score": 0.9049154941740495
+    },
+    {
+      "azimuth_deg": 315.0,
+      "tree_roots_visible": 15,
+      "track_sample_visibility": 0.9127218934911243,
+      "horizontal_grove_spread_m": 378.91791072580963,
+      "score": 0.915042833222753
+    }
+  ],
+  "sources": [
+    {
+      "file": "terrain\\data\\dem_glo30_tm2_30m.tif",
+      "sha256": "ca2a908d889280f9266a884265284d89c33c7f425772615ed79e76cca893fe4f"
+    },
+    {
+      "file": "research\\data\\tree_inventory_1_24.csv",
+      "sha256": "86b7aded87f94f8ef118166474a657c42dcc05a9a24a427d409f0102da37b61b"
+    },
+    {
+      "file": "research\\data\\public_track_20240802.geojson",
+      "sha256": "4d13719556d7ccc49fdd87efb4fc2ec14697595ff5a3764a05b6ef67545491d6"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "osm_tree_node_count": 17,
+  "osm_distinct_tree_numbers": 16,
+  "osm_single_candidate_tree_count": 15,
+  "osm_missing_tree_numbers": [
+    9,
+    10,
+    11,
+    17,
+    18,
+    22,
+    23,
+    24
+  ],
+  "osm_conflicting_tree_numbers": [
+    13
+  ],
+  "tree13_duplicate_separation_m": 61.32,
+  "verified_surveyed_trunk_count": 0,
+  "official_communication_point_count": 10,
+  "osm_pedestrian_way_count_full_extract": 14,
+  "local_graph_bbox": [
+    121.432,
+    24.708,
+    121.4435,
+    24.713
+  ],
+  "local_graph_way_count": 14,
+  "local_graph_vertices": 205,
+  "local_graph_edges": 206,
+  "local_graph_components": 2,
+  "local_graph_component_vertex_counts": [
+    190,
+    15
+  ],
+  "local_graph_cycle_rank": 3,
+  "local_graph_length_m": 3336.74,
+  "gpx_point_count": 1491,
+  "gpx_segment_count": 1,
+  "gpx_length_m": 5852.5,
+  "gpx_max_step_m": 84.57,
+  "gpx_date_start": "2024-08-02T03:23:57Z",
+  "gpx_date_end": "2024-08-02T05:45:19Z",
+  "gpx_bbox": [
+    121.4327243485786,
+    24.708019803221028,
+    121.441439447681,
+    24.71217627982866
+  ]
+}

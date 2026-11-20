@@ -1,0 +1,471 @@
+[
+  {
+    "name": "Gentle Oblique",
+    "file": "A_gentle_oblique.png",
+    "camera_azimuth_deg": 315.0,
+    "camera_elevation_deg": 45.0,
+    "orthographic_scale_vertical_m": 1808.8367082405482,
+    "orthographic_scale_horizontal_m": 2129.759350025162,
+    "vertical_exaggeration": 1.2,
+    "visible_tree_root_count": 15,
+    "visible_tree_root_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21
+    ],
+    "visible_marker_any_part_count": 15,
+    "visible_trail_fraction": 1.0,
+    "total_reference_track_planar_m": 5852.497784423448,
+    "visible_reference_track_planar_m": 5852.497784423448,
+    "terrain_depth_test_enabled": true,
+    "buried_60m_test_all_hidden": true,
+    "world_to_camera_matrix": [
+      [
+        -0.7071067811865474,
+        -0.7071067811865477,
+        0.0
+      ],
+      [
+        0.5000000000000001,
+        -0.4999999999999999,
+        0.7071067811865475
+      ],
+      [
+        -0.5000000000000001,
+        0.4999999999999999,
+        0.7071067811865476
+      ]
+    ],
+    "root_screen_coordinates": [
+      {
+        "number": 1,
+        "x": 862.3674910907403,
+        "y": 919.3530506736568,
+        "camera_depth": -114.31174685785402,
+        "root_los_visible": true
+      },
+      {
+        "number": 2,
+        "x": 806.7102128953743,
+        "y": 872.0934811520904,
+        "camera_depth": -145.32770153084874,
+        "root_los_visible": true
+      },
+      {
+        "number": 3,
+        "x": 755.2741467639696,
+        "y": 809.0821476879273,
+        "camera_depth": -227.29580462325742,
+        "root_los_visible": true
+      },
+      {
+        "number": 4,
+        "x": 759.8738801019347,
+        "y": 801.056379233621,
+        "camera_depth": -237.09578166425527,
+        "root_los_visible": true
+      },
+      {
+        "number": 5,
+        "x": 857.0974639081779,
+        "y": 751.2043131689875,
+        "camera_depth": -224.676119342122,
+        "root_los_visible": true
+      },
+      {
+        "number": 6,
+        "x": 836.2434490168697,
+        "y": 735.1295157099103,
+        "camera_depth": -246.1372699867894,
+        "root_los_visible": true
+      },
+      {
+        "number": 7,
+        "x": 823.3425209529039,
+        "y": 726.2848115732868,
+        "camera_depth": -247.84350973563627,
+        "root_los_visible": true
+      },
+      {
+        "number": 8,
+        "x": 779.8622373111742,
+        "y": 756.4261324408312,
+        "camera_depth": -266.8643344481308,
+        "root_los_visible": true
+      },
+      {
+        "number": 12,
+        "x": 659.3319475467108,
+        "y": 702.4492693779025,
+        "camera_depth": -223.20269023738683,
+        "root_los_visible": true
+      },
+      {
+        "number": 14,
+        "x": 678.7592064427574,
+        "y": 779.6290644782214,
+        "camera_depth": -195.34388743305993,
+        "root_los_visible": true
+      },
+      {
+        "number": 15,
+        "x": 649.7430383371412,
+        "y": 808.8088230584787,
+        "camera_depth": -158.05316417025057,
+        "root_los_visible": true
+      },
+      {
+        "number": 16,
+        "x": 602.6103736245595,
+        "y": 818.354076255268,
+        "camera_depth": -137.292422413284,
+        "root_los_visible": true
+      },
+      {
+        "number": 19,
+        "x": 659.2437420907522,
+        "y": 861.6136438031415,
+        "camera_depth": -132.51598887952463,
+        "root_los_visible": true
+      },
+      {
+        "number": 20,
+        "x": 699.231159557412,
+        "y": 818.9330876168735,
+        "camera_depth": -194.04458356817244,
+        "root_los_visible": true
+      },
+      {
+        "number": 21,
+        "x": 700.2217645565134,
+        "y": 832.6729194652956,
+        "camera_depth": -189.73279648612933,
+        "root_los_visible": true
+      }
+    ]
+  },
+  {
+    "name": "Landscape Depth",
+    "file": "B_landscape_depth.png",
+    "camera_azimuth_deg": 315.0,
+    "camera_elevation_deg": 30.0,
+    "orthographic_scale_vertical_m": 1808.8367082405482,
+    "orthographic_scale_horizontal_m": 2129.759350025162,
+    "vertical_exaggeration": 1.2,
+    "visible_tree_root_count": 15,
+    "visible_tree_root_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21
+    ],
+    "visible_marker_any_part_count": 15,
+    "visible_trail_fraction": 0.9109423631260577,
+    "total_reference_track_planar_m": 5852.497784423448,
+    "visible_reference_track_planar_m": 5331.288161932713,
+    "terrain_depth_test_enabled": true,
+    "buried_60m_test_all_hidden": true,
+    "world_to_camera_matrix": [
+      [
+        -0.7071067811865474,
+        -0.7071067811865477,
+        0.0
+      ],
+      [
+        0.3535533905932738,
+        -0.3535533905932736,
+        0.8660254037844387
+      ],
+      [
+        -0.6123724356957947,
+        0.6123724356957945,
+        0.49999999999999994
+      ]
+    ],
+    "root_screen_coordinates": [
+      {
+        "number": 1,
+        "x": 862.3674910907403,
+        "y": 938.6348060215759,
+        "camera_depth": -99.3344387062905,
+        "root_los_visible": true
+      },
+      {
+        "number": 2,
+        "x": 806.7102128953743,
+        "y": 898.4886204155946,
+        "camera_depth": -147.1363775598892,
+        "root_los_visible": true
+      },
+      {
+        "number": 3,
+        "x": 755.2741467639696,
+        "y": 852.1676619697117,
+        "camera_depth": -250.1013831989677,
+        "root_los_visible": true
+      },
+      {
+        "number": 4,
+        "x": 759.8738801019347,
+        "y": 846.1541408396796,
+        "camera_depth": -262.5975590489082,
+        "root_los_visible": true
+      },
+      {
+        "number": 5,
+        "x": 857.0974639081779,
+        "y": 795.7971651756523,
+        "camera_depth": -269.422709459714,
+        "root_los_visible": true
+      },
+      {
+        "number": 6,
+        "x": 836.2434490168697,
+        "y": 784.0778805922391,
+        "camera_depth": -296.2216209966571,
+        "root_los_visible": true
+      },
+      {
+        "number": 7,
+        "x": 823.3425209529039,
+        "y": 775.8372846344804,
+        "camera_depth": -301.2090357286234,
+        "root_los_visible": true
+      },
+      {
+        "number": 8,
+        "x": 779.8622373111742,
+        "y": 808.3263637775103,
+        "camera_depth": -308.2019007001574,
+        "root_los_visible": true
+      },
+      {
+        "number": 12,
+        "x": 659.3319475467108,
+        "y": 748.4419838064431,
+        "camera_depth": -286.4069290164514,
+        "root_los_visible": true
+      },
+      {
+        "number": 14,
+        "x": 678.7592064427574,
+        "y": 818.0490505201308,
+        "camera_depth": -230.35819825217666,
+        "root_los_visible": true
+      },
+      {
+        "number": 15,
+        "x": 649.7430383371412,
+        "y": 839.6181694018268,
+        "camera_depth": -183.3213220842564,
+        "root_los_visible": true
+      },
+      {
+        "number": 16,
+        "x": 602.6103736245595,
+        "y": 845.1546696651614,
+        "camera_depth": -159.6641798027708,
+        "root_los_visible": true
+      },
+      {
+        "number": 19,
+        "x": 659.2437420907522,
+        "y": 886.0927371781,
+        "camera_depth": -138.7178708630656,
+        "root_los_visible": true
+      },
+      {
+        "number": 20,
+        "x": 699.231159557412,
+        "y": 855.7832905739256,
+        "camera_depth": -214.26395250545812,
+        "root_los_visible": true
+      },
+      {
+        "number": 21,
+        "x": 700.2217645565134,
+        "y": 868.289923595972,
+        "camera_depth": -204.91161925492125,
+        "root_los_visible": true
+      }
+    ]
+  },
+  {
+    "name": "Monumental Mountain",
+    "file": "C_monumental_mountain.png",
+    "camera_azimuth_deg": 315.0,
+    "camera_elevation_deg": 18.0,
+    "orthographic_scale_vertical_m": 1808.8367082405482,
+    "orthographic_scale_horizontal_m": 2129.759350025162,
+    "vertical_exaggeration": 1.2,
+    "visible_tree_root_count": 13,
+    "visible_tree_root_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      14,
+      15,
+      20,
+      21
+    ],
+    "visible_marker_any_part_count": 14,
+    "visible_trail_fraction": 0.7330759094092757,
+    "total_reference_track_planar_m": 5852.497784423448,
+    "visible_reference_track_planar_m": 4290.325135631991,
+    "terrain_depth_test_enabled": true,
+    "buried_60m_test_all_hidden": true,
+    "world_to_camera_matrix": [
+      [
+        -0.7071067811865474,
+        -0.7071067811865477,
+        0.0
+      ],
+      [
+        0.21850801222441057,
+        -0.21850801222441046,
+        0.9510565162951535
+      ],
+      [
+        -0.6724985119639575,
+        0.6724985119639572,
+        0.3090169943749474
+      ]
+    ],
+    "root_screen_coordinates": [
+      {
+        "number": 1,
+        "x": 862.3674910907403,
+        "y": 951.7299916546835,
+        "camera_depth": -82.41334362244866,
+        "root_los_visible": true
+      },
+      {
+        "number": 2,
+        "x": 806.7102128953743,
+        "y": 919.2742276052477,
+        "camera_depth": -141.34658991517546,
+        "root_los_visible": true
+      },
+      {
+        "number": 3,
+        "x": 755.2741467639696,
+        "y": 888.6409247549693,
+        "camera_depth": -256.11019800644925,
+        "root_los_visible": true
+      },
+      {
+        "number": 4,
+        "x": 759.8738801019347,
+        "y": 884.5398727124102,
+        "camera_depth": -270.15713694380037,
+        "root_los_visible": true
+      },
+      {
+        "number": 5,
+        "x": 857.0974639081779,
+        "y": 836.2560951570247,
+        "camera_depth": -292.10585573429535,
+        "root_los_visible": true
+      },
+      {
+        "number": 6,
+        "x": 836.2434490168697,
+        "y": 828.6125094828706,
+        "camera_depth": -321.8734762764909,
+        "root_los_visible": true
+      },
+      {
+        "number": 7,
+        "x": 823.3425209529039,
+        "y": 821.2628382697924,
+        "camera_depth": -329.25118572864574,
+        "root_los_visible": true
+      },
+      {
+        "number": 8,
+        "x": 779.8622373111742,
+        "y": 854.0386345324276,
+        "camera_depth": -326.23766111195414,
+        "root_los_visible": true
+      },
+      {
+        "number": 12,
+        "x": 659.3319475467108,
+        "y": 792.3564707686219,
+        "camera_depth": -323.0812325947554,
+        "root_los_visible": true
+      },
+      {
+        "number": 14,
+        "x": 678.7592064427574,
+        "y": 852.4539234128592,
+        "camera_depth": -247.1462468735564,
+        "root_los_visible": true
+      },
+      {
+        "number": 15,
+        "x": 649.7430383371412,
+        "y": 866.8476173332273,
+        "camera_depth": -194.59556387847036,
+        "root_los_visible": true
+      },
+      {
+        "number": 16,
+        "x": 602.6103736245595,
+        "y": 868.8913185211433,
+        "camera_depth": -169.77622756218452,
+        "root_los_visible": false
+      },
+      {
+        "number": 19,
+        "x": 659.2437420907522,
+        "y": 905.9493483575784,
+        "camera_depth": -136.87158220357207,
+        "root_los_visible": false
+      },
+      {
+        "number": 20,
+        "x": 699.231159557412,
+        "y": 887.0696936281771,
+        "camera_depth": -219.9593209529319,
+        "root_los_visible": true
+      },
+      {
+        "number": 21,
+        "x": 700.2217645565134,
+        "y": 897.9700541617822,
+        "camera_depth": -207.0182350210928,
+        "root_los_visible": true
+      }
+    ]
+  }
+]

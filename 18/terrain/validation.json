@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-19",
+  "research_files_preserved": 59,
+  "research_content_and_file_set_unchanged": true,
+  "real_native_dem_crop_present": true,
+  "analysis_epsg": 3826,
+  "analysis_resolution_m": 30,
+  "nodata_cells": 0,
+  "hillshade_valid_range": true,
+  "preview_dimensions": [
+    1800,
+    2400
+  ],
+  "osm_candidates_shown": 15,
+  "conflicted_tree13_omitted": true,
+  "gif_created": false
+}

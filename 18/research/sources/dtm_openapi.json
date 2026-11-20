@@ -1,0 +1,4234 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DTM 加值應用服務 API 說明文件",
+    "description": "本系統採用WGS84經緯度座標",
+    "contact": {
+      "name": "數值地形模型加值應用服務平台",
+      "url": "https://dtm.moi.gov.tw/v2",
+      "email": "dtm_service@narlabs.org.tw"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Aspect/getAspectValue/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡向分析(Aspect)"
+        ],
+        "summary": "取得單點坡向值",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POINT(120.73358154296876 23.896630859375)"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AspectValue"
+                  }
+                },
+                "example": {"aspect_direction":"W","desc":"西","aspect_angle":"255.2012"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aspect/getAspectClassify/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡向分析(Aspect)"
+        ],
+        "summary": "取得坡向分級分析結果",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AspectClassify"
+                  }
+                },
+                "example": {"area_length":"7482740.898437","unit":"平方公尺","cellArea":"6686000","classify":[{"cellRatio":"0.0202","cellArea":"135200","classid":"Flat","desc":"平地"},{"cellRatio":"0.194","cellArea":"1297200","classid":"N","desc":"北"},{"cellRatio":"0.1103","cellArea":"737200","classid":"NE","desc":"東北"},{"cellRatio":"0.0867","cellArea":"579600","classid":"NE","desc":"東北"},{"cellRatio":"0.0538","cellArea":"359600","classid":"SE","desc":"東南"},{"cellRatio":"0.0623","cellArea":"416400","classid":"S","desc":"南"},{"cellRatio":"0.0929","cellArea":"620800","classid":"SW","desc":"西南"},{"cellRatio":"0.1736","cellArea":"1160400","classid":"W","desc":"西"},{"cellRatio":"0.2063","cellArea":"1379600","classid":"NW","desc":"西北"}]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aspect/getAspectImageFile/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡向分析(Aspect)"
+        ],
+        "summary": "取得坡向分級影像",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AspectImageFile"
+                  }
+                },
+                "example": {"bbox":"121.03845214843751,24.2866455078125,121.07141113281251,24.292138671875","imageURL":"https://dtm-openapi.colife.org.tw/images/aspect/ImageFile/82af1221-986a-4d57-aeb5-4b3ef5415235.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/aspect/ImageFile/82af1221-986a-4d57-aeb5-4b3ef5415235.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/aspect/ImageFile/82af1221-986a-4d57-aeb5-4b3ef5415235.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/aspect/LegendGraph/LegendGraph.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aspect/getAspectImage/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡向分析(Aspect)"
+        ],
+        "summary": "取得坡向分級圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AspectImage"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":"https://dtm-openapi.colife.org.tw/images/aspect/Image/d960e994-e49d-4b08-8bda-7939999d732f.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Contour/getContourImage/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "等高線計算(Contour)"
+        ],
+        "summary": "取得等高線圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ContourImage"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":"https://dtm-openapi.colife.org.tw/images/contour/Image/cb9f8246-a15a-4a44-8a0e-7ba5d5f9a64d.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CutFill/getCutFillImage/{wkt}/{data}/{api_key}/{height}": {
+      "get": {
+        "tags": [
+          "挖填方分析(CutFill)"
+        ],
+        "summary": "取得挖填方區域圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "height",
+            "in": "path",
+            "description": "預定高程（預設20m）",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CutFillImage"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":"https://dtm-openapi.colife.org.tw/images/0d51a9af-02e0-4572-b239-53b03cd6ec03.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CutFill/getCutFill/{wkt}/{data}/{api_key}/{height}": {
+      "get": {
+        "tags": [
+          "挖填方分析(CutFill)"
+        ],
+        "summary": "取得挖填方計算結果",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "height",
+            "in": "path",
+            "description": "預定高程（預設20m）",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CutFill"
+                  }
+                },
+                "example": {"fillArea":"0.0","cutArea":"400.0","fillVolume":"0.0","cutVolume":"636931.982422","areaUnit":"平方公尺","volumeUnit":"立方公尺"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DtmDiff/getDiffData/{wkt}/{dataA}/{api_key}/{dataB}": {
+      "get": {
+        "tags": [
+          "不同時期數值地形模型差異分析(DtmDiff)"
+        ],
+        "summary": "不同時期數值地形模型差異分析",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "dataA",
+            "in": "path",
+            "description": "比較數值資料 A",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "比較數值資料 A",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dataB",
+            "in": "path",
+            "description": "比較數值資料 B",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "比較數值資料 B",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DiffData"
+                  }
+                },
+                "example": {"gridcount":"6","diffdata":[{"x":"295020","y":"2685020","lon":"121.443420","lat":"24.270206","dem":"12.65","degree":"-0.042454"},{"x":"295020","y":"2685040","lon":"121.443420","lat":"24.270388","dem":"9.53","degree":"-3.395947"},{"x":"295020","y":"2685060","lon":"121.443420","lat":"24.270569","dem":"5.38","degree":"-2.578621"},{"x":"295040","y":"2685020","lon":"121.443619","lat":"24.270206","dem":"16.25","degree":"-0.669109"},{"x":"295040","y":"2685040","lon":"121.443619","lat":"24.270388","dem":"13.96","degree":"-5.028568"},{"x":"295040","y":"2685060","lon":"121.443619","lat":"24.270567","dem":"-6.62","degree":"-5.071228"}]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Geomorphon/getGeomorphonImages/{wkt}/{data}/{api_key}/{zoom}/{ncell}/{tdegs}": {
+      "get": {
+        "tags": [
+          "地表形貌(Geomorphon)"
+        ],
+        "summary": "取得地表形貌分析圖檔",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "zoom",
+            "in": "path",
+            "description": "圖片寬度的pixel值",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ncell",
+            "in": "path",
+            "description": "網格數",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "tdegs",
+            "in": "path",
+            "description": "傾斜角(0~90度，最多五個值)",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GeomorphonImages"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":["https://dtmfile.colife.org.tw/api/images/f8403ead-52ba-49ad-9ca2-84feca2090c3_80_d1.0.png","https://dtmfile.colife.org.tw/api/images/f8403ead-52ba-49ad-9ca2-84feca2090c3_80_d55.0.png","https://dtmfile.colife.org.tw/api/images/f8403ead-52ba-49ad-9ca2-84feca2090c3_80_d30.0.png","https://dtmfile.colife.org.tw/api/images/f8403ead-52ba-49ad-9ca2-84feca2090c3_80_d1.2.png","https://dtmfile.colife.org.tw/api/images/f8403ead-52ba-49ad-9ca2-84feca2090c3_80_d89.9.png"],"legendGraphURL":"https://dtm.moi.gov.tw/services/geomorphon/LegendGraph/LegendGraph.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Hillshade/getHillshadeImageFile/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "高程陰影圖(Hillshade)"
+        ],
+        "summary": "取得高程陰影圖影像",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HillshadeImageFile"
+                  }
+                },
+                "example": {"bbox":"120.50561523437501,23.6054931640625,120.59899902343751,23.6933837890625","imageURL":"https://dtm-openapi.colife.org.tw/images/hillshade/ImageFile/abcba00b-44d3-4ecd-8a2e-050aca581888.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/hillshade/ImageFile/abcba00b-44d3-4ecd-8a2e-050aca581888.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/hillshade/ImageFile/abcba00b-44d3-4ecd-8a2e-050aca581888.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/hillshade/LegendGraph/LegendGraph.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Hillshade/getHillshadeImage/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "高程陰影圖(Hillshade)"
+        ],
+        "summary": "取得高程陰影圖圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HillshadeImage"
+                  }
+                },
+                "example": {"imageURL":"https://dtm-openapi.colife.org.tw/images/hillshade/Image/6345a6a2-0a4b-48a6-a6de-d555add7363a.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/HillshadeAz/getHillshadeAzImageFile/{wkt}/{data}/{api_key}/{angle}": {
+      "get": {
+        "tags": [
+          "八方位陰影圖(HillshadeAz)"
+        ],
+        "summary": "取得八方位陰影圖影像",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "angle",
+            "in": "path",
+            "description": "方位角",
+            "required": true,
+            "schema": {
+              "enum": [
+                "000",
+                "045",
+                "090",
+                "135",
+                "180",
+                "225",
+                "270",
+                "315",
+                "NCHC"
+              ],
+              "type": "string",
+              "description": "方位角",
+              "default": "000"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HillshadeAzImageFile"
+                  }
+                },
+                "example": {"bbox":"120.67041015625001,22.896875,120.76928710937501,22.973779296875","imageURL":"https://dtm-openapi.colife.org.tw/images/hillshadeAz/ImageFile/b83c5906-2d61-4738-becf-72d443732201.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/hillshadeAz/ImageFile/b83c5906-2d61-4738-becf-72d443732201.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/hillshadeAz/ImageFile/b83c5906-2d61-4738-becf-72d443732201.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/hillshadeAz/LegendGraph/LegendGraph.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/HillshadeAz/getHillshadeAzImage/{wkt}/{data}/{api_key}/{angle}": {
+      "get": {
+        "tags": [
+          "八方位陰影圖(HillshadeAz)"
+        ],
+        "summary": "取得八方位陰影圖圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "angle",
+            "in": "path",
+            "description": "方位角",
+            "required": true,
+            "schema": {
+              "enum": [
+                "000",
+                "045",
+                "090",
+                "135",
+                "180",
+                "225",
+                "270",
+                "315",
+                "NCHC"
+              ],
+              "type": "string",
+              "description": "方位角",
+              "default": "000"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HillshadeAzImage"
+                  }
+                },
+                "example": {"imageURL":"https://dtm-openapi.colife.org.tw/images/hillshadeAz/Image/1e47f9fb-a17b-4e63-a2dc-ea260b9e418f.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LineProfile/getLineProfile/{wkt}/{data}/{api_key}/{stepSizeValue}/{LineLength}/{LineStepSize}": {
+      "get": {
+        "tags": [
+          "縱橫斷面分析(LineProfile)"
+        ],
+        "summary": "取得縱橫斷面座標資訊",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "LINESTRING(120.52376886237136 23.877699131871765,120.54447452077238 23.871165828747877)"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "stepSizeValue",
+            "in": "path",
+            "description": "推估間隔（預設100）",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          },
+          {
+            "name": "LineLength",
+            "in": "path",
+            "description": "橫斷面長度（預設100）",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          },
+          {
+            "name": "LineStepSize",
+            "in": "path",
+            "description": "橫斷面推估間隔（預設10）",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LineProfile"
+                  }
+                },
+                "example": {"count":"2","lineArray":[[{"line_id":"1","line_x":"216009.674893","line_y":"2538512.372432","line_z":"1197.171439"},{"line_id":"1","line_x":"216007.541978","line_y":"2538502.602546","line_z":"1192.500023"},{"line_id":"1","line_x":"216005.409062","line_y":"2538492.83266","line_z":"1188.1703"},{"line_id":"1","line_x":"216003.276147","line_y":"2538483.062774","line_z":"1184.405349"},{"line_id":"1","line_x":"216001.143231","line_y":"2538473.292888","line_z":"1181.294589"},{"line_id":"1","line_x":"215999.010316","line_y":"2538463.523002","line_z":"1178.330898"},{"line_id":"1","line_x":"215996.877401","line_y":"2538453.753116","line_z":"1174.207359"},{"line_id":"1","line_x":"215994.744485","line_y":"2538443.98323","line_z":"1169.453445"},{"line_id":"1","line_x":"215992.61157","line_y":"2538434.213344","line_z":"1163.56428"},{"line_id":"1","line_x":"215990.478654","line_y":"2538424.443458","line_z":"1157.064858"},{"line_id":"1","line_x":"215988.345739","line_y":"2538414.673572","line_z":"1150.978534"},{"line_id":"1","line_x":"215986.212823","line_y":"2538404.903686","line_z":"1145.214604"},{"line_id":"1","line_x":"215984.079908","line_y":"2538395.1338","line_z":"1139.637609"},{"line_id":"1","line_x":"215981.946993","line_y":"2538385.363914","line_z":"1134.275583"},{"line_id":"1","line_x":"215979.814077","line_y":"2538375.594028","line_z":"1128.584404"},{"line_id":"1","line_x":"215977.681162","line_y":"2538365.824142","line_z":"1122.244162"},{"line_id":"1","line_x":"215975.548246","line_y":"2538356.054256","line_z":"1115.94875"},{"line_id":"1","line_x":"215973.415331","line_y":"2538346.28437","line_z":"1109.731049"},{"line_id":"1","line_x":"215971.282415","line_y":"2538336.514484","line_z":"1103.55231"},{"line_id":"1","line_x":"215969.1495","line_y":"2538326.744598","line_z":"1097.46727"},{"line_id":"1","line_x":"215967.016585","line_y":"2538316.974712","line_z":"1091.408399"}],[{"line_id":"2","line_x":"216010.362234","line_y":"2538512.222374","line_z":"1197.688128"},{"line_id":"2","line_x":"216008.229319","line_y":"2538502.452488","line_z":"1193.02151"},{"line_id":"2","line_x":"216006.096403","line_y":"2538492.682602","line_z":"1188.640264"},{"line_id":"2","line_x":"216003.963488","line_y":"2538482.912717","line_z":"1184.79857"},{"line_id":"2","line_x":"216001.830573","line_y":"2538473.142831","line_z":"1181.64739"},{"line_id":"2","line_x":"215999.697657","line_y":"2538463.372945","line_z":"1178.775069"},{"line_id":"2","line_x":"215997.564742","line_y":"2538453.603059","line_z":"1174.64205"},{"line_id":"2","line_x":"215995.431826","line_y":"2538443.833173","line_z":"1169.902683"},{"line_id":"2","line_x":"215993.298911","line_y":"2538434.063287","line_z":"1163.976399"},{"line_id":"2","line_x":"215991.165995","line_y":"2538424.293401","line_z":"1157.452835"},{"line_id":"2","line_x":"215989.03308","line_y":"2538414.523515","line_z":"1151.355222"},{"line_id":"2","line_x":"215986.900165","line_y":"2538404.753629","line_z":"1145.576744"},{"line_id":"2","line_x":"215984.767249","line_y":"2538394.983743","line_z":"1139.985025"},{"line_id":"2","line_x":"215982.634334","line_y":"2538385.213857","line_z":"1134.602854"},{"line_id":"2","line_x":"215980.501418","line_y":"2538375.443971","line_z":"1128.901282"},{"line_id":"2","line_x":"215978.368503","line_y":"2538365.674085","line_z":"1122.595021"},{"line_id":"2","line_x":"215976.235587","line_y":"2538355.904199","line_z":"1116.302675"},{"line_id":"2","line_x":"215974.102672","line_y":"2538346.134313","line_z":"1110.085135"},{"line_id":"2","line_x":"215971.969757","line_y":"2538336.364427","line_z":"1103.906279"},{"line_id":"2","line_x":"215969.836841","line_y":"2538326.594541","line_z":"1097.816283"},{"line_id":"2","line_x":"215967.703926","line_y":"2538316.824655","line_z":"1091.759301"}]],"linePointArray":[{"m":"0.0","x":"215988.34","y":"2538414.8","z":"1151.011906"},{"m":"0.70353","x":"215989.03","y":"2538414.5","z":"1151.343338"}]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Openness/getOpennessImageFile/{wkt}/{data}/{api_key}/{radius}": {
+      "get": {
+        "tags": [
+          "開闊度分析(Openness)"
+        ],
+        "summary": "取得開闊度分析影像",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "radius",
+            "in": "path",
+            "description": "正負開闊度半徑（公尺），負開闊前用-表示",
+            "required": true,
+            "schema": {
+              "enum": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                -50,
+                -100,
+                -250,
+                -500,
+                -1000
+              ],
+              "type": "integer",
+              "description": "正負開闊度半徑（公尺），負開闊前用-表示",
+              "default": 50
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OpennessImageFile"
+                  }
+                },
+                "example": {"bbox":"121.31311035156251,24.270166015625,121.35156250000001,24.32509765625","imageURL":"https://dtm-openapi.colife.org.tw/images/openness/ImageFile/7eb34ead-1bd5-40f5-82ae-c114b9d96feb.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/openness/ImageFile/7eb34ead-1bd5-40f5-82ae-c114b9d96feb.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/openness/ImageFile/7eb34ead-1bd5-40f5-82ae-c114b9d96feb.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/openness/LegendGraph/LegendGraph.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Openness/getOpennessImage/{wkt}/{data}/{api_key}/{radius}": {
+      "get": {
+        "tags": [
+          "開闊度分析(Openness)"
+        ],
+        "summary": "取得開闊度分析圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "radius",
+            "in": "path",
+            "description": "正負開闊度半徑（公尺），負開闊前用-表示",
+            "required": true,
+            "schema": {
+              "enum": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                -50,
+                -100,
+                -250,
+                -500,
+                -1000
+              ],
+              "type": "integer",
+              "description": "正負開闊度半徑（公尺），負開闊前用-表示",
+              "default": 50
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OpennessImage"
+                  }
+                },
+                "example": {"imageURL":"https://dtm-openapi.colife.org.tw/images/openness/Image/325c1758-b605-45fa-9603-d89c9eebb403.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/PathProfile/getPathProfile/{wkt}/{data}/{api_key}/{stepSizeValue}": {
+      "get": {
+        "tags": [
+          "路線剖面分析(PathProfile)"
+        ],
+        "summary": "取得路線剖面座標資訊",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "LINESTRING(120.52376886237136 23.877699131871765,120.54447452077238 23.871165828747877)"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          },
+          {
+            "name": "stepSizeValue",
+            "in": "path",
+            "description": "推估間隔(預設100)",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PathProfile"
+                  }
+                },
+                "example": {"count":"8","pointArray":[{"m":"0.0","x":"237608.27","y":"2670368.8","z":"822.806"},{"m":"100.0","x":"237624.64","y":"2670270.0","z":"772.6075"},{"m":"200.0","x":"237641.02","y":"2670171.5","z":"738.9793"},{"m":"212.01624","x":"237642.98","y":"2670159.5","z":"731.8116"},{"m":"312.01624","x":"237699.61","y":"2670077.2","z":"709.9618"},{"m":"396.65015","x":"237747.53","y":"2670007.5","z":"698.9816"},{"m":"496.65015","x":"237815.2","y":"2670081.0","z":"737.72174"},{"m":"525.66785","x":"237834.84","y":"2670102.5","z":"744.86725"}]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Polate/getSinglePolate/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "近似高程分析(Polate)"
+        ],
+        "summary": "單點近似高程",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "MULTIPOINT((121.39157108014423 23.467471636318194))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SinglePolate"
+                  }
+                },
+                "example": {"count":"1","pointArray":[{"x":"234352.040339","y":"2655750.879724","z":"268.413871"}]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Polate/getMultiPolate/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "近似高程分析(Polate)"
+        ],
+        "summary": "多點近似高程",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "MULTIPOINT((121.39157108014423 23.467471636318194),(121.40119511560698 23.37620343144977),(121.41139682872034 23.475525960214444),(121.42116040521698 23.484665361573946))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MultiPolate"
+                  }
+                },
+                "example": {"count":"3","pointArray":[{"x":"239953.457312","y":"2673996.661115","z":"634.499196"},{"x":"227645.753084","y":"2655759.771551","z":"399.568932"},{"x":"212085.304759","y":"2688644.884343","z":"102.506113"}]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeValue/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "單點坡度資訊",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POINT(120.73358154296876 23.896630859375)"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeValue"
+                  }
+                },
+                "example": {"slope_degree":"8.32411","slope_percent":"14.700576","classid":"2","desc":"二級坡(5%<坡度≤15%)"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeClassify/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "坡度分級分析",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeClassify"
+                  }
+                },
+                "example": {"area":"32255319.371473","classifyArray":[{"cellRatio":"0.000322","cellArea":"10400.0","classid":"1","desc":"一級坡(坡度≤5%)"},{"cellRatio":"0.002936","cellArea":"94800.0","classid":"2","desc":"二級坡(5%<坡度≤15%)"},{"cellRatio":"0.017925","cellArea":"578800.0","classid":"3","desc":"三級坡(15%<坡度≤30%)"},{"cellRatio":"0.029631","cellArea":"956800.0","classid":"4","desc":"四級坡(30%<坡度≤40%)"},{"cellRatio":"0.091657","cellArea":"2959600.0","classid":"5","desc":"五級坡(40%<坡度≤55%)"},{"cellRatio":"0.666188","cellArea":"21511200.0","classid":"6","desc":"六級坡(55%<坡度≤100%)"},{"cellRatio":"0.191341","cellArea":"6178400.0","classid":"7","desc":"七級坡(坡度>100%)"}],"areaUnit":"平方公尺","cellArea":"32290000.0"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeRange/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "坡度統計值",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeRange"
+                  }
+                },
+                "example": {"area":"20941502.4803967","cellArea":"1191050.0","avgSlope_degree":"25.8765557134042","minSlope_degree":"98.75866","maxSlope_degree":"0.399315","avgSlope_percent":"13.9713872461466","minSlope_percent":"44.64217","maxSlope_percent":"0.2287894","areaUnit":"平方公尺"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageFileLV7/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "取得坡度分級影像地圖(7級)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageFileLV7"
+                  }
+                },
+                "example": {"bbox":"121.35430908203126,24.489892578125,121.38726806640626,24.511865234375","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageFileLV7/c74525dd-600e-4990-9451-7144c96eb6cf.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFileLV7/c74525dd-600e-4990-9451-7144c96eb6cf.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFileLV7/c74525dd-600e-4990-9451-7144c96eb6cf.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/slope/LegendGraph/SLOPEP-LV7.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageFileLV6/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "取得坡度分級影像地圖(6級)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageFileLV6"
+                  }
+                },
+                "example": {"bbox":"120.99725341796876,24.270166015625,121.01373291015626,24.292138671875","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageFileLV6/24c4c688-9931-4de5-9810-4f03719909ea.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFileLV6/24c4c688-9931-4de5-9810-4f03719909ea.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFileLV6/24c4c688-9931-4de5-9810-4f03719909ea.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/slope/LegendGraph/SLOPEP-LV6.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageLV7/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "套疊坡度分級WMS(7級)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageLV7"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageLV7/4eafe30f-2b3f-4180-8ed8-b00f8fba84b5.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageLV6/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "套疊坡度分級WMS(6級)",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageLV6"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageLV6/2e4975fd-1f7c-4761-92f2-65ff47ea8b3d.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageFile30Percent/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "坡度大於30%分級影像地圖",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageFile30Percent"
+                  }
+                },
+                "example": {"bbox":"121.00274658203126,24.12734375,121.01373291015626,24.14931640625","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageFile30Percent/ea022979-51a4-4742-bc99-f941633fc17e.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFile30Percent/ea022979-51a4-4742-bc99-f941633fc17e.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFile30Percent/ea022979-51a4-4742-bc99-f941633fc17e.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/slope/LegendGraph/SLOPEP-GT30.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageFileDPLV6/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "災害潛勢坡度分級影像",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageFileDPLV6"
+                  }
+                },
+                "example": {"bbox":"120.70611572265626,24.116357421875,120.73358154296876,24.1438232421875","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageFileDPLV6/ef3c1251-893c-4f4c-a92c-27a58b8df920.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFileDPLV6/ef3c1251-893c-4f4c-a92c-27a58b8df920.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/slope/ImageFileDPLV6/ef3c1251-893c-4f4c-a92c-27a58b8df920.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/slope/LegendGraph/SLOPEP-DPLV6.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Slope/getSlopeImageDPLV6/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "坡度分析(Slope)"
+        ],
+        "summary": "災害潛勢坡度分級圖檔",
+        "description": "",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20100101_20191101_20M_3826_DEM",
+                "KM_DLA_20160101_20170101_20M_3825_DEM",
+                "PH_DLA_20100101_20191101_20M_3825_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SlopeImageDPLV6"
+                  }
+                },
+                "example": {"bbox":"121.33513320780277,24.73744249179534,121.34226877757634,24.743959121565005","imageURL":"https://dtm-openapi.colife.org.tw/images/slope/ImageDPLV6/92ec64c1-4c6c-4322-9809-dcbd86e01cc4.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Stl/getStlFile/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "高程立體透視圖(Stl)"
+        ],
+        "summary": "取得3維立體模型檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "bot",
+            "in": "query",
+            "description": "底座（預設不需要）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "botH",
+            "in": "query",
+            "description": "底座高度（預設0公尺）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "map",
+            "in": "query",
+            "description": "套疊底圖",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "pitch",
+            "in": "query",
+            "description": "視角（預設45度）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 45
+            }
+          },
+          {
+            "name": "roll",
+            "in": "query",
+            "description": "旋轉角（預設0度）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/StlFile"
+                  }
+                },
+                "example": {"imageURL":"https://dtm.moi.gov.tw/services/getstl/stl/a2d4c40d-576a-41dc-afd4-02a702ef1788.stl"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Stl/getStl3DImage/{wkt}/{data}/{api_key}": {
+      "get": {
+        "tags": [
+          "高程立體透視圖(Stl)"
+        ],
+        "summary": "取得3維高程影像",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "bot",
+            "in": "query",
+            "description": "底座（預設不需要）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "botH",
+            "in": "query",
+            "description": "底座高度（預設0公尺）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "map",
+            "in": "query",
+            "description": "套疊底圖",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "pitch",
+            "in": "query",
+            "description": "視角（預設45度）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 45
+            }
+          },
+          {
+            "name": "roll",
+            "in": "query",
+            "description": "旋轉角（預設0度）",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Stl3DImage"
+                  }
+                },
+                "example": {"imageURL":"https://dtm.moi.gov.tw/services/getstl/3d/b5e88914-032e-4188-b262-cef6f2578aee.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Svf/getSvfImageFile/{wkt}/{data}/{api_key}/{radius}": {
+      "get": {
+        "tags": [
+          "透空度分析(Svf)"
+        ],
+        "summary": "取得透空度分析影像",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "radius",
+            "in": "path",
+            "description": "半徑（公尺）",
+            "required": true,
+            "schema": {
+              "enum": [
+                50,
+                100,
+                250,
+                500,
+                1000
+              ],
+              "type": "integer",
+              "description": "半徑（公尺）",
+              "default": 50
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SvfImageFile"
+                  }
+                },
+                "example": {"bbox":"121.23384070544283,24.21721849145814,121.25581336169283,24.23919114770814","imageURL":"https://dtm-openapi.colife.org.tw/images/svf/ImageFile/bb1460f5-73b9-4974-b11e-d29dc5fea1c2.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/svf/ImageFile/bb1460f5-73b9-4974-b11e-d29dc5fea1c2.pgw","kmzURL":"https://dtm-openapi.colife.org.tw/kmzs/svf/ImageFile/bb1460f5-73b9-4974-b11e-d29dc5fea1c2.kmz","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/svf/LegendGraph/LegendGraph.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Svf/getSvfImage/{wkt}/{data}/{api_key}/{radius}": {
+      "get": {
+        "tags": [
+          "透空度分析(Svf)"
+        ],
+        "summary": "取得透空度分析圖檔",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POLYGON((121.34215920626417 24.743909892114615,121.34215920626417 24.73759109040894,121.33521414237396 24.73759109040894,121.33521414237396 24.743909892114615,121.34215920626417 24.743909892114615))"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "radius",
+            "in": "path",
+            "description": "半徑（公尺）",
+            "required": true,
+            "schema": {
+              "enum": [
+                50,
+                100,
+                250,
+                500,
+                1000
+              ],
+              "type": "integer",
+              "description": "半徑（公尺）",
+              "default": 50
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SvfImage"
+                  }
+                },
+                "example": {"imageURL":"https://dtm-openapi.colife.org.tw/images/svf/Image/d333cb95-7d67-4317-86bc-28de3b5a94f7.png"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Viewshed/getViewshedImageFile/{wkt}/{data}/{api_key}/{H}/{distance_range}/{EarthCurve}": {
+      "get": {
+        "tags": [
+          "視域範圍分析(Viewshed)"
+        ],
+        "summary": "取得視域範圍分析",
+        "parameters": [
+          {
+            "name": "wkt",
+            "in": "path",
+            "description": "Well-known text標記語言",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "POINT(120.73358154296876 23.896630859375)"
+          },
+          {
+            "name": "data",
+            "in": "path",
+            "description": "數值資料",
+            "required": true,
+            "schema": {
+              "enum": [
+                "TW_DLA_20010814_20061226_20M_3826_DEM",
+                "TW_DLA_20110101_20161101_20M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DEM",
+                "TW_DLA_20110101_20161101_5M_3826_DEM",
+                "TW_DLA_20010814_20061226_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_5M_3826_DSM",
+                "TW_DLA_20110101_20161101_1M_3826_DEM",
+                "TW_DLA_20110101_20161101_1M_3826_DSM"
+              ],
+              "type": "string",
+              "description": "數值資料",
+              "default": "TW_DLA_20010814_20061226_20M_3826_DEM"
+            }
+          },
+          {
+            "name": "api_key",
+            "in": "path",
+            "description": "服務單位發給的認證碼",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "H",
+            "in": "path",
+            "description": "眼睛高度（公尺）",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double",
+              "default": 1
+            }
+          },
+          {
+            "name": "distance_range",
+            "in": "path",
+            "description": "可視半徑（公尺）",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          },
+          {
+            "name": "EarthCurve",
+            "in": "path",
+            "description": "地球曲率",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViewshedImageFile"
+                  }
+                },
+                "example": {"bbox":"296445.09206999256,2692221.0627915994,296645.09206999256,2692421.0627915994","imageURL":"https://dtm-openapi.colife.org.tw/images/viewshed/ViewshedImageFile/517a6a63-8408-48fc-86a3-d5f236c5ec46.png","legendDescription":"圖例說明","legendGraphURL":"https://dtm-openapi.colife.org.tw/images/viewshed/LegendGraph/LegendGraph.png","worldFileURL":"https://dtm-openapi.colife.org.tw/kmzs/viewshed/ViewshedImageFile/517a6a63-8408-48fc-86a3-d5f236c5ec46.pgw"}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AspectClassify": {
+        "type": "object",
+        "properties": {
+          "area_length": {
+            "type": "string",
+            "description": "面積或長度",
+            "nullable": true
+          },
+          "unit": {
+            "type": "string",
+            "description": "單位",
+            "nullable": true
+          },
+          "cellArea": {
+            "type": "string",
+            "description": "格點面積",
+            "nullable": true
+          },
+          "classify": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Classify"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AspectImage": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AspectImageFile": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AspectValue": {
+        "type": "object",
+        "properties": {
+          "aspect_direction": {
+            "type": "string",
+            "description": "坡向",
+            "nullable": true
+          },
+          "desc": {
+            "type": "string",
+            "description": "說明文字",
+            "nullable": true
+          },
+          "aspect_angle": {
+            "type": "string",
+            "description": "坡向數值",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Classify": {
+        "type": "object",
+        "properties": {
+          "cellRatio": {
+            "type": "string",
+            "description": "包含格點所占的百分比",
+            "nullable": true
+          },
+          "cellArea": {
+            "type": "string",
+            "description": "格點面積",
+            "nullable": true
+          },
+          "classid": {
+            "type": "string",
+            "description": "格點坡向分級類別",
+            "nullable": true
+          },
+          "desc": {
+            "type": "string",
+            "description": "說明文字",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Classifyarray": {
+        "type": "object",
+        "properties": {
+          "cellRatio": {
+            "type": "string",
+            "description": "包含格點所占的百分比",
+            "nullable": true
+          },
+          "cellArea": {
+            "type": "string",
+            "description": "格點面積",
+            "nullable": true
+          },
+          "classid": {
+            "type": "string",
+            "description": "格點坡度分級類別",
+            "nullable": true
+          },
+          "desc": {
+            "type": "string",
+            "description": "說明文字",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ContourImage": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CutFill": {
+        "type": "object",
+        "properties": {
+          "fillArea": {
+            "type": "string",
+            "description": "填方面積",
+            "nullable": true
+          },
+          "cutArea": {
+            "type": "string",
+            "description": "挖方面積",
+            "nullable": true
+          },
+          "fillVolume": {
+            "type": "string",
+            "description": "填方體積",
+            "nullable": true
+          },
+          "cutVolume": {
+            "type": "string",
+            "description": "挖方體積",
+            "nullable": true
+          },
+          "areaUnit": {
+            "type": "string",
+            "description": "面積單位",
+            "nullable": true
+          },
+          "volumeUnit": {
+            "type": "string",
+            "description": "體積單位",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CutFillImage": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "挖填方區域圖檔URL(紅色:填方、藍色:挖方)",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DiffData": {
+        "type": "object",
+        "properties": {
+          "gridcount": {
+            "type": "string",
+            "description": "Wkt內包含格點數",
+            "nullable": true
+          },
+          "diffdata": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Diffdata"
+            },
+            "description": "格點集合內容",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Diffdata": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "string",
+            "description": "格點x座標值(TWD97座標)",
+            "nullable": true
+          },
+          "y": {
+            "type": "string",
+            "description": "格點y座標值(TWD97座標)",
+            "nullable": true
+          },
+          "lon": {
+            "type": "string",
+            "description": "格點lon座標值(WGS84座標)",
+            "nullable": true
+          },
+          "lat": {
+            "type": "string",
+            "description": "格點lat座標值(WGS84座標)",
+            "nullable": true
+          },
+          "dem": {
+            "type": "string",
+            "description": "dataB dem值減去dataA dem值",
+            "nullable": true
+          },
+          "degree": {
+            "type": "string",
+            "description": "dataB degree值減去dataA degree值",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GeomorphonImages": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "png圖檔URL陣列",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HillshadeAzImage": {
+        "type": "object",
+        "properties": {
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HillshadeAzImageFile": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HillshadeImage": {
+        "type": "object",
+        "properties": {
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HillshadeImageFile": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LineProfile": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "string",
+            "description": "間隔點數",
+            "nullable": true
+          },
+          "lineArray": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Linearray"
+              }
+            },
+            "description": "橫斷面陣列",
+            "nullable": true
+          },
+          "linePointArray": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Linepointarray"
+            },
+            "description": "縱斷面座標陣列",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Linearray": {
+        "type": "object",
+        "properties": {
+          "line_id": {
+            "type": "string",
+            "description": "距離",
+            "nullable": true
+          },
+          "line_x": {
+            "type": "string",
+            "description": "橫斷面座標x",
+            "nullable": true
+          },
+          "line_y": {
+            "type": "string",
+            "description": "橫斷面座標y",
+            "nullable": true
+          },
+          "line_z": {
+            "type": "string",
+            "description": "橫斷面座標z",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Linepointarray": {
+        "type": "object",
+        "properties": {
+          "m": {
+            "type": "string",
+            "description": "縱斷面間隔距離",
+            "nullable": true
+          },
+          "x": {
+            "type": "string",
+            "description": "縱斷面間隔座標x",
+            "nullable": true
+          },
+          "y": {
+            "type": "string",
+            "description": "縱斷面間隔座標y",
+            "nullable": true
+          },
+          "z": {
+            "type": "string",
+            "description": "縱斷面間隔座標z",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MultiPolate": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "string",
+            "description": "間隔點數",
+            "nullable": true
+          },
+          "pointArray": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MultiPolatePointarray"
+            },
+            "description": "座標陣列",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MultiPolatePointarray": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "string",
+            "description": "座標x",
+            "nullable": true
+          },
+          "y": {
+            "type": "string",
+            "description": "座標y",
+            "nullable": true
+          },
+          "z": {
+            "type": "string",
+            "description": "座標z",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OpennessImage": {
+        "type": "object",
+        "properties": {
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OpennessImageFile": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PathProfile": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "string",
+            "description": "間隔點數",
+            "nullable": true
+          },
+          "pointArray": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pointarray"
+            },
+            "description": "座標陣列",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pointarray": {
+        "type": "object",
+        "properties": {
+          "m": {
+            "type": "string",
+            "description": "距離",
+            "nullable": true
+          },
+          "x": {
+            "type": "string",
+            "description": "座標x",
+            "nullable": true
+          },
+          "y": {
+            "type": "string",
+            "description": "座標y",
+            "nullable": true
+          },
+          "z": {
+            "type": "string",
+            "description": "座標z",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "Resolution": {
+        "enum": [
+          0,
+          1,
+          5,
+          20
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SinglePolate": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "string",
+            "description": "間隔點數",
+            "nullable": true
+          },
+          "pointArray": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SinglePolatePointarray"
+            },
+            "description": "座標陣列",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SinglePolatePointarray": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "string",
+            "description": "座標x",
+            "nullable": true
+          },
+          "y": {
+            "type": "string",
+            "description": "座標y",
+            "nullable": true
+          },
+          "z": {
+            "type": "string",
+            "description": "座標z",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeClassify": {
+        "type": "object",
+        "properties": {
+          "area": {
+            "type": "string",
+            "description": "面積",
+            "nullable": true
+          },
+          "classifyArray": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Classifyarray"
+            },
+            "description": "格點分級結構內容",
+            "nullable": true
+          },
+          "areaUnit": {
+            "type": "string",
+            "description": "單位",
+            "nullable": true
+          },
+          "cellArea": {
+            "type": "string",
+            "description": "格點面積",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageDPLV6": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageFile30Percent": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageFileDPLV6": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageFileLV6": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageFileLV7": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageLV6": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeImageLV7": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeRange": {
+        "type": "object",
+        "properties": {
+          "area": {
+            "type": "string",
+            "description": "面積",
+            "nullable": true
+          },
+          "cellArea": {
+            "type": "string",
+            "description": "格點面積",
+            "nullable": true
+          },
+          "avgSlope_degree": {
+            "type": "string",
+            "description": "平均坡度",
+            "nullable": true
+          },
+          "minSlope_degree": {
+            "type": "string",
+            "description": "最小坡度值",
+            "nullable": true
+          },
+          "maxSlope_degree": {
+            "type": "string",
+            "description": "最大坡度值",
+            "nullable": true
+          },
+          "avgSlope_percent": {
+            "type": "string",
+            "description": "平均坡度上升百分比",
+            "nullable": true
+          },
+          "minSlope_percent": {
+            "type": "string",
+            "description": "最小坡度上升百分比",
+            "nullable": true
+          },
+          "maxSlope_percent": {
+            "type": "string",
+            "description": "最大坡度上升百分比",
+            "nullable": true
+          },
+          "areaUnit": {
+            "type": "string",
+            "description": "單位",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SlopeValue": {
+        "type": "object",
+        "properties": {
+          "slope_degree": {
+            "type": "string",
+            "description": "坡度",
+            "nullable": true
+          },
+          "slope_percent": {
+            "type": "string",
+            "description": "坡度上升百分比",
+            "nullable": true
+          },
+          "classid": {
+            "type": "string",
+            "description": "坡度分級",
+            "nullable": true
+          },
+          "desc": {
+            "type": "string",
+            "description": "說明文字",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Stl3DImage": {
+        "type": "object",
+        "properties": {
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StlFile": {
+        "type": "object",
+        "properties": {
+          "imageURL": {
+            "type": "string",
+            "description": "STL立體模型URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SvfImage": {
+        "type": "object",
+        "properties": {
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SvfImageFile": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          },
+          "kmzURL": {
+            "type": "string",
+            "description": "kmz檔案URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ViewshedImageFile": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "string",
+            "description": "Bounding box 數值",
+            "nullable": true
+          },
+          "imageURL": {
+            "type": "string",
+            "description": "png圖檔URL",
+            "nullable": true
+          },
+          "legendDescription": {
+            "type": "string",
+            "description": "圖例說明文字",
+            "nullable": true
+          },
+          "legendGraphURL": {
+            "type": "string",
+            "description": "圖例說明圖檔URL",
+            "nullable": true
+          },
+          "worldFileURL": {
+            "type": "string",
+            "description": "pgw檔案URL",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

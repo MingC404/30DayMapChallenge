@@ -1,0 +1,4 @@
+﻿name,camera_azimuth_deg,camera_elevation_deg,orthographic_scale_vertical_m,orthographic_scale_horizontal_m,vertical_exaggeration,visible_tree_root_count,visible_marker_any_part_count,visible_trail_fraction
+Gentle Oblique,315.0,45.0,1808.8367082405482,2129.759350025162,1.2,15,15,1.0
+Landscape Depth,315.0,30.0,1808.8367082405482,2129.759350025162,1.2,15,15,0.9109423631260577
+Monumental Mountain,315.0,18.0,1808.8367082405482,2129.759350025162,1.2,13,14,0.7330759094092757

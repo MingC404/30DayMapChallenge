@@ -1,0 +1,26 @@
+{
+  "protected_files_unchanged": 79,
+  "root_surface_residual_max_m": 0.0,
+  "route_surface_residual_max_m": 0.0,
+  "all_roots_inside_scene": true,
+  "all_gpx_edges_inside_scene": true,
+  "tree_candidate_count": 15,
+  "candidate_13_excluded": true,
+  "same_projection_for_terrain_track_markers": true,
+  "same_camera_azimuth_and_ortho_scale": true,
+  "real_terrain_mesh_not_warped_hillshade": true,
+  "source_files": [
+    {
+      "file": "terrain\\data\\dem_glo30_tm2_30m.tif",
+      "sha256": "ca2a908d889280f9266a884265284d89c33c7f425772615ed79e76cca893fe4f"
+    },
+    {
+      "file": "research\\data\\tree_inventory_1_24.csv",
+      "sha256": "86b7aded87f94f8ef118166474a657c42dcc05a9a24a427d409f0102da37b61b"
+    },
+    {
+      "file": "research\\data\\public_track_20240802.geojson",
+      "sha256": "4d13719556d7ccc49fdd87efb4fc2ec14697595ff5a3764a05b6ef67545491d6"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "analysis_crs": "EPSG:3826",
+  "vertical_datum": "EGM2008",
+  "source_nominal_resolution_m": 30,
+  "analysis_grid_m": 30,
+  "analysis_shape": [
+    100,
+    80
+  ],
+  "view_bounds_epsg3826": [
+    293250,
+    2732900,
+    295050,
+    2735300
+  ],
+  "processing_bounds_epsg3826": [
+    292950,
+    2732600,
+    295350,
+    2735600
+  ],
+  "analysis_area_km2": 7.2,
+  "nodata_cells": 0,
+  "analysis_min_m": 1287.9310302734375,
+  "analysis_max_m": 2127.51171875,
+  "analysis_mean_m": 1717.8863525390625,
+  "analysis_percentiles_m": {
+    "5": 1435.0572509765625,
+    "25": 1591.759521484375,
+    "50": 1718.957275390625,
+    "75": 1842.427001953125,
+    "95": 2014.240966796875
+  },
+  "view_min_m": 1345.325927734375,
+  "view_max_m": 2077.41357421875,
+  "contour_features": 116,
+  "ridge_valley_candidate_features": 90,
+  "display_contour_interval_m": 40,
+  "vertical_exaggeration": 1,
+  "gpx_geometry_modified": false,
+  "displayed_osm_candidates": 15,
+  "displayed_tree_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12,
+    14,
+    15,
+    16,
+    19,
+    20,
+    21
+  ]
+}

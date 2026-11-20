@@ -1,0 +1,7 @@
+HTTP/1.1 403 Forbidden
+content-type: text/html; charset=UTF-8
+Content-Length: 134
+via: 1.1 google
+date: Thu, 19 Nov 2026 19:10:19 GMT
+Alt-Svc: h3=":443"; ma=2592000
+

@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 19 Nov 2026 17:33:38 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-hacker: Want root?  Visit join.a8c.com and mention this header.
+Host-Header: WordPress.com
+Set-Cookie: PHPSESSID=ba8692738a21e3d7aca14e6653905411; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: accept, content-type, cookie
+X-Pingback: https://taiwanoutdoors.com/xmlrpc.php
+Permissions-Policy: private-state-token-redemption=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com"), private-state-token-issuance=(self "https://www.google.com" "https://www.gstatic.com" "https://recaptcha.net" "https://challenges.cloudflare.com" "https://hcaptcha.com")
+Set-Cookie: tpg_post_views=%7B%229066%22%3A1795109617%7D; expires=Fri, 20 Nov 2026 17:33:37 GMT; Max-Age=86400; path=/; secure
+Link: <https://taiwanoutdoors.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://taiwanoutdoors.com/wp-json/wp/v2/posts/9066>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://wp.me/pddigJ-2me>; rel=shortlink
+X-ac: 2.dca _atomic_dca MISS
+Alt-Svc: clear
+Server-Timing: a8c-cdn, dc;desc=dca, cache;desc=MISS;dur=2800.0
+

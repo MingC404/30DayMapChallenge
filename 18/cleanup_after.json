@@ -1,0 +1,19 @@
+{
+  "before": {
+    "files": 6969,
+    "bytes": 412461066
+  },
+  "after": {
+    "files": 6200,
+    "bytes": 374928690
+  },
+  "protected_source_files_verified": 96,
+  "retired_files_removed": 19,
+  "cache_directories_removed": 98,
+  "cache_files_removed": 763,
+  "project_png_outputs": 1,
+  "package_data_images_preserved": true,
+  "camera_locked": true,
+  "visible_tree_candidates": 15,
+  "original_root_coordinates_unchanged": true
+}

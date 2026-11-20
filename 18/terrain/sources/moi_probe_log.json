@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://www.tgos.tw:443/MDE/VirtualDir_TC/Product/ba0fcc26-f82e-4345-bfc4-4785574d9014/%E5%88%86%E5%B9%85_%E6%A1%83%E5%9C%92%E5%B8%8220MDEM%282025%29.zip",
+    "name": "moi_2025_taoyuan",
+    "curl_exit": 0,
+    "http_status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://www.tgos.tw/MDE/VirtualDir_TC/Product/342505d1-81bc-490a-8e10-9f7e1ec0ed98/schema_hdr.zip",
+    "name": "moi_schema_control",
+    "curl_exit": 0,
+    "http_status": "403",
+    "error": ""
+  },
+  {
+    "url": "https://tgos.nat.gov.tw/MDE/VirtualDir_TC/Product/342505d1-81bc-490a-8e10-9f7e1ec0ed98/schema_hdr.zip",
+    "name": "moi_official_legacy_host",
+    "curl_exit": 6,
+    "http_status": "000",
+    "error": "curl: (6) Could not resolve host: tgos.nat.gov.tw"
+  }
+]

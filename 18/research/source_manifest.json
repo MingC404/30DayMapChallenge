@@ -1,0 +1,185 @@
+{
+  "access_date": "2026-11-19",
+  "files": [
+    {
+      "file": "sources/communication_11502.pdf",
+      "bytes": 2043367,
+      "sha256": "d17d6b85034efd665bed8fa16338a927ba4ed2a74721fb6223f98371dbd41b5c"
+    },
+    {
+      "file": "sources/communication_11502.pdf.headers",
+      "bytes": 535,
+      "sha256": "176d8d9879a42489bbb78a7d827fc109bcf12444c58895cbc616e5be08d8ecfe"
+    },
+    {
+      "file": "sources/communication_11502.txt",
+      "bytes": 208820,
+      "sha256": "3771eff90c207c2a319e1e1209e24e2bda6c36530a4a8c5a1729a1c81fe23185"
+    },
+    {
+      "file": "sources/download_log.json",
+      "bytes": 4087,
+      "sha256": "c1c6aa7deab3edb241137d0c7a0a34c592132c6f017dfbe81986c31649023e04"
+    },
+    {
+      "file": "sources/dtm_2026_catalog.csv",
+      "bytes": 5108,
+      "sha256": "b7380a8c9afd479d03705c5276b85e72e91cfeb8cf20433512efe075b5ba5206"
+    },
+    {
+      "file": "sources/dtm_faq.html",
+      "bytes": 76350,
+      "sha256": "6f4bd4db13c9befc566ec761af661b6c8d4e78ae83192e72a130dd5997c6da66"
+    },
+    {
+      "file": "sources/dtm_openapi.json",
+      "bytes": 143582,
+      "sha256": "d85959877f7fdc30d0217c9d411ae7c6fbe94e3360e74795e222b2152338791c"
+    },
+    {
+      "file": "sources/dtm_openapi.json.headers",
+      "bytes": 234,
+      "sha256": "606f4d58e495144b0e2c094345e512a561a576d37640e08e611d5242d8bd7420"
+    },
+    {
+      "file": "sources/dtm_sheet_template.csv",
+      "bytes": 100,
+      "sha256": "3004c7e2f988563dcca93dbc5f1f789001e963212adc1a27d59540df9f3f4da7"
+    },
+    {
+      "file": "sources/moidemd_fetch_reference.py",
+      "bytes": 11797,
+      "sha256": "ff9b6383439c051f572076fbf534c82a9cd7bae747ced2ac9dc57c1cf5ddd3e0"
+    },
+    {
+      "file": "sources/moidemd_readme.md",
+      "bytes": 6761,
+      "sha256": "ff6ff434da284e1df95d95e002d50be56105565e62aa6c4c40959bb2b8f2c1ba"
+    },
+    {
+      "file": "sources/nlsc_5k_index.zip",
+      "bytes": 314437,
+      "sha256": "27e402b9075a9d241d383da49b1a66077e0bfe978c7a0aecd60bc8d68504994f"
+    },
+    {
+      "file": "sources/odc_10m.html",
+      "bytes": 59258,
+      "sha256": "e1ee39515ded9ce23c5f3beea9d81382e871afced453d35f739bc5e59f9dc68d"
+    },
+    {
+      "file": "sources/odc_10m.html.headers",
+      "bytes": 249,
+      "sha256": "d83c15d436071a022a2ab100705dd666e4eb6b833ec6a5c7b9868bbf0bbd4273"
+    },
+    {
+      "file": "sources/official_224.jpg",
+      "bytes": 379983,
+      "sha256": "b7c616c8ae49256991f35064d113fa57a076be3e1ab8a0c1e6d3be01cab6c3b5"
+    },
+    {
+      "file": "sources/official_224.jpg.headers",
+      "bytes": 201,
+      "sha256": "722cff3d24d1740356a901379d61a1d43640ded6b31914888829641cb1dbfe5b"
+    },
+    {
+      "file": "sources/official_225.jpg",
+      "bytes": 457011,
+      "sha256": "aecf8a50e872aa19bf6022b9bd1a52bb96348e36d2cbd5c2473a781037576485"
+    },
+    {
+      "file": "sources/official_225.jpg.headers",
+      "bytes": 200,
+      "sha256": "7a6ab3a6262538750fccd1a8a80e0f0df150252e59be386d4de125ddd39e8a8a"
+    },
+    {
+      "file": "sources/official_226.jpg",
+      "bytes": 417902,
+      "sha256": "4fb4381c7be0d50be3d5684a9e613f9c222651a36e8fad7326bc343eed6f6d97"
+    },
+    {
+      "file": "sources/official_226.jpg.headers",
+      "bytes": 201,
+      "sha256": "62511dc79d275e66e0fc55c60013e40b013e7cb40a712ec723df9051b41f1afd"
+    },
+    {
+      "file": "sources/official_age_20230412.html",
+      "bytes": 69367,
+      "sha256": "085746073d43bd15c7a3d0474d00fb5385a8b751e43f7e2236efa37aca60daa5"
+    },
+    {
+      "file": "sources/official_age_20230412.html.headers",
+      "bytes": 521,
+      "sha256": "94018c8cdc7e5e39af1bb3d1de6acb1d2741c5298605ce460ffbefe0337a7540"
+    },
+    {
+      "file": "sources/official_park.html",
+      "bytes": 212694,
+      "sha256": "547621f5242fbe15e8c253e2d63ed3480d7d47c127a110b51a36a386cb8259e4"
+    },
+    {
+      "file": "sources/official_park.html.headers",
+      "bytes": 522,
+      "sha256": "3eb88e75e2163e0f1f9ff981e7840d0559766e2cb63966ebad23869da94919b5"
+    },
+    {
+      "file": "sources/osm_api_bbox.osm",
+      "bytes": 411989,
+      "sha256": "e74652061ff58f013410ba25b2a63079cab4d282237f5cfd6dbc248e511df88f"
+    },
+    {
+      "file": "sources/osm_api_bbox.osm.headers",
+      "bytes": 623,
+      "sha256": "b4f186f0e5f7abb9d3acaf5619399c3e841cd1396d881d9551989d209676d3e7"
+    },
+    {
+      "file": "sources/osm_overpass_error.html",
+      "bytes": 156,
+      "sha256": "7cd905d731bc5983f218aa91824747ef52e7b2cef4a2bf4aa2adba91dc3e61e6"
+    },
+    {
+      "file": "sources/public_gpx_download_response",
+      "bytes": 188341,
+      "sha256": "17f0224bca1edd4a019668758cb4ba723c4077ef99215e8acec3e9cab68c617b"
+    },
+    {
+      "file": "sources/public_gpx_download_response.headers",
+      "bytes": 6985,
+      "sha256": "52b018b5850cf7fd866cfe9e43ef29ca8c0e965e8bcd36a33b4083093dec8ccb"
+    },
+    {
+      "file": "sources/schema_hdr.zip.headers",
+      "bytes": 173,
+      "sha256": "526b4318eb6d83d9d6bb42f4354f5b9ab3da5318f7cad5e713814881b943b194"
+    },
+    {
+      "file": "sources/schema_hdr_http403.html",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "sources/taiwanoutdoors.html",
+      "bytes": 225928,
+      "sha256": "f6600b86b5db7cc732d1997ebb4d963a7f1d3746a871c9f6ba11d439ce06fd61"
+    },
+    {
+      "file": "sources/taiwanoutdoors.html.headers",
+      "bytes": 1427,
+      "sha256": "f920b6b0f395dacda27638d059df0fa2799a5828999374064e4fe64f46874139"
+    },
+    {
+      "file": "sources/taoyuan_range_retry.bin",
+      "bytes": 134,
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "file": "sources/taoyuan_range_retry.headers",
+      "bytes": 173,
+      "sha256": "30c2ae7874d6a83608cf082012128b6e2b9c13887f5193d7333e8c0615cb2405"
+    },
+    {
+      "file": "sources/taoyuan_zip_tail.bin.headers",
+      "bytes": 173,
+      "sha256": "526b4318eb6d83d9d6bb42f4354f5b9ab3da5318f7cad5e713814881b943b194"
+    }
+  ]
+}

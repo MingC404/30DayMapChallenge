@@ -1,0 +1,43 @@
+{
+  "source_url": "https://copernicus-dem-30m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_10_N24_00_E121_00_DEM/Copernicus_DSM_COG_10_N24_00_E121_00_DEM.tif",
+  "access_date": "2026-11-19",
+  "distribution_release": "2021 release per AWS registry",
+  "source_type": "DSM; includes vegetation and built surfaces",
+  "source_crs": "EPSG:4326",
+  "source_resolution_degrees": [
+    0.0002777777777777778,
+    0.0002777777777777778
+  ],
+  "nominal_resolution_m": 30,
+  "source_full_tile_shape": [
+    3600,
+    3600
+  ],
+  "download_method": "GDAL /vsicurl HTTP byte ranges; only AOI intersecting COG blocks read",
+  "source_window": [
+    1526,
+    981,
+    90,
+    102
+  ],
+  "native_crop_shape": [
+    102,
+    90
+  ],
+  "view_bounds_epsg3826": [
+    293250,
+    2732900,
+    295050,
+    2735300
+  ],
+  "processing_bounds_epsg3826": [
+    292950,
+    2732600,
+    295350,
+    2735600
+  ],
+  "native_valid_min_m": 1281.1651611328125,
+  "native_valid_max_m": 2133.395751953125,
+  "license_url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+  "native_crop_sha256": "e20e111f917d19322bb04536ec8e0e3b56dd8b667fe0d8532210d30f4a5b308e"
+}

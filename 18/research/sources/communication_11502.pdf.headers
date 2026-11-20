@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Thu, 19 Nov 2026 17:33:37 GMT
+Content-Type: application/pdf
+Content-Length: 2043367
+Connection: keep-alive
+Cache-Control: Public, max-age=3600
+Last-Modified: Tue, 28 Apr 2026 08:54:23 GMT
+Accept-Ranges: bytes
+ETag: "8049df9becd6dc1:0"
+Strict-Transport-Security: max-age=15552000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+x-xss-protection: 1;mode=block
+Set-Cookie: cookiesession1=678A3E22BC52BA4DD10AEDF780539424;Expires=Fri, 19 Nov 2027 17:33:37 GMT;Path=/;HttpOnly
+Server: CDN
+
