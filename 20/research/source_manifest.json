@@ -1,0 +1,130 @@
+[
+  {
+    "file": "landscan-usa-2021-day-assets.zip",
+    "source": "https://hm52ct46i7.execute-api.us-east-1.amazonaws.com/prod/download",
+    "year": 2021,
+    "period": "day",
+    "sha256": "aa84d2d4db40ddb96ac970d0a45445be8f05811ca189545d0171cbc3b390e27f",
+    "bytes": 131111742
+  },
+  {
+    "file": "landscan-usa-2021-night-assets.zip",
+    "source": "https://hm52ct46i7.execute-api.us-east-1.amazonaws.com/prod/download",
+    "year": 2021,
+    "period": "night",
+    "sha256": "04bab9cc36d882038e430e2a6c8509d05db0110229c91b89504c2f5ae9de24bb",
+    "bytes": 153646149
+  },
+  {
+    "file": "tl_2021_us_county.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/COUNTY/tl_2021_us_county.zip",
+    "year": 2021,
+    "sha256": "26890ff92275ff1392cd205c7021ba510b7f63f2ff985ca327b9f5fd5e9ecc90",
+    "bytes": 82328531
+  },
+  {
+    "file": "tl_2021_34003_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34003_areawater.zip",
+    "year": 2021,
+    "sha256": "515d9bd805726de11d6e870e4effed95f220ec09b6384d7266374571faf54b33",
+    "bytes": 414672
+  },
+  {
+    "file": "tl_2021_34013_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34013_areawater.zip",
+    "year": 2021,
+    "sha256": "cb1bb2032dd28e6ee38adab4b3c095799c44cae1a5422f85176d01367a7e5de3",
+    "bytes": 102827
+  },
+  {
+    "file": "tl_2021_34017_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34017_areawater.zip",
+    "year": 2021,
+    "sha256": "516ea6b064a984911a601818ae903095955204bd256d4bec34484641702c6e66",
+    "bytes": 143500
+  },
+  {
+    "file": "tl_2021_34023_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34023_areawater.zip",
+    "year": 2021,
+    "sha256": "e0287d2727957cab5a6f7154cd3ecfdddcc7417dcceaedd501c970d65f5065dd",
+    "bytes": 287924
+  },
+  {
+    "file": "tl_2021_34025_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34025_areawater.zip",
+    "year": 2021,
+    "sha256": "e20420b7cfeecda2f53005c84616d6e75758a5fb44a2e330a2bfa4a2c845c9d0",
+    "bytes": 1609385
+  },
+  {
+    "file": "tl_2021_34027_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34027_areawater.zip",
+    "year": 2021,
+    "sha256": "296c508e1bab345f0c81550dcc9e996a60a7bc052174f6574c5a44b10493d184",
+    "bytes": 1363615
+  },
+  {
+    "file": "tl_2021_34031_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34031_areawater.zip",
+    "year": 2021,
+    "sha256": "aee9d92fd89fc1b16490118417b003bbe62c56df54cd6a39dd4ec59067afed82",
+    "bytes": 309770
+  },
+  {
+    "file": "tl_2021_34039_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_34039_areawater.zip",
+    "year": 2021,
+    "sha256": "a577062d7f26a6d4afe8c3c71eb0371d73103fca794b44c288d2fa36b7ed88bf",
+    "bytes": 106016
+  },
+  {
+    "file": "tl_2021_36005_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36005_areawater.zip",
+    "year": 2021,
+    "sha256": "1fa7f91b13957ccd7b4114fce9b4fc2c4553c85028089b3205f6d2418b7fb280",
+    "bytes": 29052
+  },
+  {
+    "file": "tl_2021_36047_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36047_areawater.zip",
+    "year": 2021,
+    "sha256": "b13f95b0e469d6bb7531faad4c993a906e8ad1d1d49aeed098aa72ce7de4eb8d",
+    "bytes": 67163
+  },
+  {
+    "file": "tl_2021_36059_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36059_areawater.zip",
+    "year": 2021,
+    "sha256": "4cbeb77550c894ad8d38f312115965aa40b38ff281099ba12437e8ceb15f38b3",
+    "bytes": 171584
+  },
+  {
+    "file": "tl_2021_36061_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36061_areawater.zip",
+    "year": 2021,
+    "sha256": "db6c932d4a128ec470918a7cf94ae0354b3fd6545835f1915ed7870d30947b58",
+    "bytes": 37287
+  },
+  {
+    "file": "tl_2021_36081_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36081_areawater.zip",
+    "year": 2021,
+    "sha256": "f068d705c74d0ad22695892ca7b70a87f0ba52d0bfab20cd6d554e5ad97a4789",
+    "bytes": 140102
+  },
+  {
+    "file": "tl_2021_36085_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36085_areawater.zip",
+    "year": 2021,
+    "sha256": "e6cf2219af36cc20775250d7836b029047f01bbb7bc14b36028615dbb9f7fa8c",
+    "bytes": 81490
+  },
+  {
+    "file": "tl_2021_36119_areawater.zip",
+    "source": "https://www2.census.gov/geo/tiger/TIGER2021/AREAWATER/tl_2021_36119_areawater.zip",
+    "year": 2021,
+    "sha256": "058250f281e7288e75def6411f99f62798b1e553accd667cbd0adcf1bd20eba3",
+    "bytes": 587319
+  }
+]

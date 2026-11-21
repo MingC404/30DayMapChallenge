@@ -1,0 +1,53 @@
+{
+  "viewports": [
+    {
+      "viewport_width": 1440,
+      "width": 862.25,
+      "height": 1034.6875,
+      "natural": [
+        2400,
+        2880
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "viewport_width": 390,
+      "width": 350,
+      "height": 420,
+      "natural": [
+        2400,
+        2880
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "viewport_width": 320,
+      "width": 292,
+      "height": 350.390625,
+      "natural": [
+        2400,
+        2880
+      ],
+      "horizontal_overflow": false
+    }
+  ],
+  "localLinks": [
+    {
+      "path": "/30DayMapChallenge/assets/20/new_york_day_and_night.gif",
+      "status": 200
+    },
+    {
+      "path": "/30DayMapChallenge/assets/20/new_york_daytime.png",
+      "status": 200
+    },
+    {
+      "path": "/30DayMapChallenge/assets/20/new_york_nighttime.png",
+      "status": 200
+    }
+  ],
+  "status": "local review only",
+  "browser_animation_observed": true,
+  "errors": [],
+  "passed": true,
+  "external_source_link": "Canonical GitHub /20 link is prepared for the future approved publication; not a local HTTP resource."
+}

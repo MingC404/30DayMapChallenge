@@ -1,0 +1,14 @@
+HTTP/1.1 502 Bad Gateway
+Content-Type: application/json
+Content-Length: 36
+Connection: keep-alive
+Date: Fri, 20 Nov 2026 21:29:27 GMT
+x-amz-apigw-id: HKJEFFxKoAMEJDg=
+x-amzn-RequestId: d68f717f-8297-46ff-a346-961064ec9ff9
+x-amzn-ErrorType: InternalServerErrorException
+X-Cache: Error from cloudfront
+Via: 1.1 13123a343330dc5aacb74d5b3c4fdf0e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK52-P4
+X-Amz-Cf-Id: 0f47kBHqP4gU2nzJRkuN7BpScXTNc1sjcSpQVxrVVto2Q4H6jiDBUg==
+
+{"message": "Internal server error"}

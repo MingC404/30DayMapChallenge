@@ -1,0 +1,744 @@
+{
+  "crs": "EPSG:5070",
+  "display_extent_m": [
+    1816500.0,
+    2167200.0,
+    1844500.0,
+    2200800.0
+  ],
+  "image_size": [
+    2400,
+    2880
+  ],
+  "frame_order": [
+    "Daytime",
+    "Nighttime"
+  ],
+  "durations_ms": [
+    800,
+    800
+  ],
+  "loop": 0,
+  "transition": "direct cut",
+  "minimum_distance_to_original_coverage_edge_m": 1060.2398478602731,
+  "complete_manhattan_island": true,
+  "visible_hexagons": 4521,
+  "frozen_analysis_sha256": {
+    "hexagons.gpkg": "bd8d2cef9b372d7fbe134fbcd6802f529a73c126d528533e6db9746db4cb640b",
+    "hexagons.csv": "b208a7121dd19e53817a126dad1ea3a3ea3aa4a74575a9b77ce830324ebb1a1f",
+    "land_mask.gpkg": "3b00c3622555de75439c39c5e5ca1d72733356f1e328004693f5c4f2f491f3eb",
+    "audit.json": "65265eb896ab9c012f12ead8312cf884782eaa4cf0dd4cc69f6e0e215c3083bc",
+    "landscan_2021_day_crop.tif": "7b0facc552603382561bcaaea599642387b06f8a1638e7b67b84310e23a576ec",
+    "landscan_2021_night_crop.tif": "96fdd72bbb0b4f35fa2a67364edd034259af55b35d81f376e3af3964c5df839a"
+  },
+  "fixed_pixels_unchanged_after_gif_encoding": 3144659,
+  "shared_text_positions": true,
+  "layouts": [
+    [
+      {
+        "text": "DAY 20 / HEXAGONS",
+        "box": [
+          1808,
+          83,
+          2060,
+          108
+        ],
+        "font": "day",
+        "size_px": 26.4,
+        "role": "fixed"
+      },
+      {
+        "text": "New York,",
+        "box": [
+          1804,
+          138,
+          2114,
+          205
+        ],
+        "font": "title",
+        "size_px": 67.2,
+        "role": "fixed"
+      },
+      {
+        "text": "Day and Night",
+        "box": [
+          1804,
+          218,
+          2236,
+          288
+        ],
+        "font": "title",
+        "size_px": 67.2,
+        "role": "fixed"
+      },
+      {
+        "text": "Estimated Population Density",
+        "box": [
+          1808,
+          323,
+          2296,
+          362
+        ],
+        "font": "day",
+        "size_px": 36,
+        "role": "fixed"
+      },
+      {
+        "text": "Across the New York\u2013New Jersey",
+        "box": [
+          1808,
+          375,
+          2354,
+          414
+        ],
+        "font": "day",
+        "size_px": 36,
+        "role": "fixed"
+      },
+      {
+        "text": "Urban Core",
+        "box": [
+          1808,
+          427,
+          1998,
+          458
+        ],
+        "font": "day",
+        "size_px": 36,
+        "role": "fixed"
+      },
+      {
+        "text": "Daytime",
+        "box": [
+          1808,
+          513,
+          1992,
+          562
+        ],
+        "font": "title",
+        "size_px": 48,
+        "role": "state"
+      },
+      {
+        "text": "MANHATTAN",
+        "box": [
+          853.4760433278578,
+          958.0959891673443,
+          1072.476043327858,
+          986.0959891673443
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "BRONX",
+        "box": [
+          1306.0999706339758,
+          359.54590470193483,
+          1425.0999706339758,
+          387.54590470193483
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "QUEENS",
+        "box": [
+          1414.6893350668586,
+          1318.4198077322915,
+          1549.6893350668586,
+          1349.4198077322915
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "BROOKLYN",
+        "box": [
+          1160.1644898781553,
+          2024.2480022059488,
+          1342.1644898781553,
+          2052.248002205949
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "Jersey City",
+        "box": [
+          313.32033097414035,
+          1839.00262641932,
+          480.32033097414035,
+          1877.00262641932
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "Hoboken",
+        "box": [
+          451.47600546014894,
+          1532.9803912439384,
+          596.4760054601489,
+          1562.9803912439384
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "estimated people per km\u00b2 of land",
+        "box": [
+          1808,
+          2478,
+          2298,
+          2517
+        ],
+        "font": "day",
+        "size_px": 32,
+        "role": "fixed"
+      },
+      {
+        "text": "0",
+        "box": [
+          1808,
+          2579,
+          1828,
+          2603
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "1k",
+        "box": [
+          1873,
+          2579,
+          1903,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "3k",
+        "box": [
+          1938,
+          2579,
+          1973,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "6k",
+        "box": [
+          2003,
+          2579,
+          2038,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "10k",
+        "box": [
+          2068,
+          2579,
+          2114,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "20k",
+        "box": [
+          2133,
+          2579,
+          2184,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "40k",
+        "box": [
+          2198,
+          2579,
+          2249,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "80k+",
+        "box": [
+          2263,
+          2579,
+          2333,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "2021 \u00b7 500 m hexagons",
+        "box": [
+          1808,
+          2634,
+          2138,
+          2669
+        ],
+        "font": "body",
+        "size_px": 32,
+        "role": "fixed"
+      },
+      {
+        "text": "Zero: ivory \u00b7 Small land: light gray",
+        "box": [
+          1808,
+          2681,
+          2224,
+          2712
+        ],
+        "font": "body",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "Water: white \u00b7 Missing: gray",
+        "box": [
+          1808,
+          2723,
+          2152,
+          2754
+        ],
+        "font": "body",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "LandScan USA 2021 \u00b7 ORNL \u00b7 CC BY 4.0",
+        "box": [
+          94,
+          2728,
+          645,
+          2756
+        ],
+        "font": "body",
+        "size_px": 32,
+        "role": "fixed"
+      },
+      {
+        "text": "Weber et al. (2022) \u00b7 doi:10.48690/1527701",
+        "box": [
+          94,
+          2778,
+          663,
+          2810
+        ],
+        "font": "body",
+        "size_px": 30,
+        "role": "fixed"
+      },
+      {
+        "text": "0",
+        "box": [
+          94,
+          2594,
+          115,
+          2619
+        ],
+        "font": "day",
+        "size_px": 30,
+        "role": "fixed"
+      },
+      {
+        "text": "5 km",
+        "box": [
+          454.57142857142856,
+          2594,
+          526.5714285714286,
+          2621
+        ],
+        "font": "day",
+        "size_px": 30,
+        "role": "fixed"
+      }
+    ],
+    [
+      {
+        "text": "DAY 20 / HEXAGONS",
+        "box": [
+          1808,
+          83,
+          2060,
+          108
+        ],
+        "font": "day",
+        "size_px": 26.4,
+        "role": "fixed"
+      },
+      {
+        "text": "New York,",
+        "box": [
+          1804,
+          138,
+          2114,
+          205
+        ],
+        "font": "title",
+        "size_px": 67.2,
+        "role": "fixed"
+      },
+      {
+        "text": "Day and Night",
+        "box": [
+          1804,
+          218,
+          2236,
+          288
+        ],
+        "font": "title",
+        "size_px": 67.2,
+        "role": "fixed"
+      },
+      {
+        "text": "Estimated Population Density",
+        "box": [
+          1808,
+          323,
+          2296,
+          362
+        ],
+        "font": "day",
+        "size_px": 36,
+        "role": "fixed"
+      },
+      {
+        "text": "Across the New York\u2013New Jersey",
+        "box": [
+          1808,
+          375,
+          2354,
+          414
+        ],
+        "font": "day",
+        "size_px": 36,
+        "role": "fixed"
+      },
+      {
+        "text": "Urban Core",
+        "box": [
+          1808,
+          427,
+          1998,
+          458
+        ],
+        "font": "day",
+        "size_px": 36,
+        "role": "fixed"
+      },
+      {
+        "text": "Nighttime",
+        "box": [
+          1808,
+          513,
+          2028,
+          563
+        ],
+        "font": "title",
+        "size_px": 48,
+        "role": "state"
+      },
+      {
+        "text": "MANHATTAN",
+        "box": [
+          853.4760433278578,
+          958.0959891673443,
+          1072.476043327858,
+          986.0959891673443
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "BRONX",
+        "box": [
+          1306.0999706339758,
+          359.54590470193483,
+          1425.0999706339758,
+          387.54590470193483
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "QUEENS",
+        "box": [
+          1414.6893350668586,
+          1318.4198077322915,
+          1549.6893350668586,
+          1349.4198077322915
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "BROOKLYN",
+        "box": [
+          1160.1644898781553,
+          2024.2480022059488,
+          1342.1644898781553,
+          2052.248002205949
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "Jersey City",
+        "box": [
+          313.32033097414035,
+          1839.00262641932,
+          480.32033097414035,
+          1877.00262641932
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "Hoboken",
+        "box": [
+          451.47600546014894,
+          1532.9803912439384,
+          596.4760054601489,
+          1562.9803912439384
+        ],
+        "font": "day",
+        "size_px": 34,
+        "role": "fixed"
+      },
+      {
+        "text": "estimated people per km\u00b2 of land",
+        "box": [
+          1808,
+          2478,
+          2298,
+          2517
+        ],
+        "font": "day",
+        "size_px": 32,
+        "role": "fixed"
+      },
+      {
+        "text": "0",
+        "box": [
+          1808,
+          2579,
+          1828,
+          2603
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "1k",
+        "box": [
+          1873,
+          2579,
+          1903,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "3k",
+        "box": [
+          1938,
+          2579,
+          1973,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "6k",
+        "box": [
+          2003,
+          2579,
+          2038,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "10k",
+        "box": [
+          2068,
+          2579,
+          2114,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "20k",
+        "box": [
+          2133,
+          2579,
+          2184,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "40k",
+        "box": [
+          2198,
+          2579,
+          2249,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "80k+",
+        "box": [
+          2263,
+          2579,
+          2333,
+          2604
+        ],
+        "font": "day",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "2021 \u00b7 500 m hexagons",
+        "box": [
+          1808,
+          2634,
+          2138,
+          2669
+        ],
+        "font": "body",
+        "size_px": 32,
+        "role": "fixed"
+      },
+      {
+        "text": "Zero: ivory \u00b7 Small land: light gray",
+        "box": [
+          1808,
+          2681,
+          2224,
+          2712
+        ],
+        "font": "body",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "Water: white \u00b7 Missing: gray",
+        "box": [
+          1808,
+          2723,
+          2152,
+          2754
+        ],
+        "font": "body",
+        "size_px": 28,
+        "role": "fixed"
+      },
+      {
+        "text": "LandScan USA 2021 \u00b7 ORNL \u00b7 CC BY 4.0",
+        "box": [
+          94,
+          2728,
+          645,
+          2756
+        ],
+        "font": "body",
+        "size_px": 32,
+        "role": "fixed"
+      },
+      {
+        "text": "Weber et al. (2022) \u00b7 doi:10.48690/1527701",
+        "box": [
+          94,
+          2778,
+          663,
+          2810
+        ],
+        "font": "body",
+        "size_px": 30,
+        "role": "fixed"
+      },
+      {
+        "text": "0",
+        "box": [
+          94,
+          2594,
+          115,
+          2619
+        ],
+        "font": "day",
+        "size_px": 30,
+        "role": "fixed"
+      },
+      {
+        "text": "5 km",
+        "box": [
+          454.57142857142856,
+          2594,
+          526.5714285714286,
+          2621
+        ],
+        "font": "day",
+        "size_px": 30,
+        "role": "fixed"
+      }
+    ]
+  ],
+  "typography_references": [
+    "15/scripts/render_final.py",
+    "16/scripts/render_final.py",
+    "17/scripts/build_scene.py",
+    "18/oblique/render_art.py"
+  ]
+}

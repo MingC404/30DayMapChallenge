@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1340
+Connection: keep-alive
+Date: Fri, 20 Nov 2026 21:29:42 GMT
+Access-Control-Allow-Credentials: true
+x-amzn-RequestId: e764a78f-d4fa-490a-8215-49a0f7617d5d
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type
+x-amz-apigw-id: HKJG3Hj8oAMEJ0A=
+Access-Control-Allow-Methods: POST,GET,OPTIONS
+X-Amzn-Trace-Id: Root=1-6b00bbc5-5d2152e05540446e0bd078b0;Sampled=1;Lineage=1:81f892a4:0
+X-Cache: Miss from cloudfront
+Via: 1.1 1f1744cc287fbe3723d548ac02f36c6a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK52-P4
+X-Amz-Cf-Id: 9iPLlRmhtUYVZR2V0-ycquwkehMY7O0nVubuo2hOdDMvWdK8BPQAYA==
+
+https://ornl-backend-prod-olivedownloadstaging-s3ftazk1x5ev.s3.amazonaws.com/usa/2021/day/landscan-usa-2021-day-assets.zip?[temporary signature redacted] signed query redacted]

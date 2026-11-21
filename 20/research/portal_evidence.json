@@ -1,0 +1,22 @@
+{
+  "retrieved": "2026-11-20",
+  "source": "https://landscan.ornl.gov/assets/index-D8WEj_Vq.js",
+  "evidence": [
+    {
+      "term": "const N4=",
+      "excerpt": "n,toggleOpen:i,toggleClose:a}}const N4=2026,I4=2021,D4=[{label:\"Day\",value:\"Day\"},{label:\"Night\",value:\"Night\"}],R4=[{label:\"Afghanistan\",value:\"afghan\",version:\"v1\",longname:\"afghanistan\"},{label:\"Afghanistan\",value:\"afghan\",version:\"v2\",longname:\"afghanistan\"},{label:\"Bahrain\",value:\"bahrain\",longname:\"bahrain\"},{label:\"Belarus\",value:\"belarus\",longname:\"belarus\"},{label:\"China\",value:\"china\",longname:\"china\"},{label:\"Cuba\",value:\"cuba\",longname:\"cuba\"},{label:\"Egypt\",value:\"egypt\",longname:\"egypt\"},{label:\"Ethiopia\",value:\"ethiopia\",version:\"v1\",longname:\"ethiopia\"},{lab"
+    },
+    {
+      "term": "H4=[",
+      "excerpt": "\",value:\"Wyoming\",abbr:\"WY\"}],H4=[2021,2020,2019,2018,2017,2016],W4=[{label:\"2025\",value:2025},{label:\"2024\",value:2024},{label:\"2023\",value:2023},{label:\"2022\",value:2022},{label:\"2021\",value:2021},{label:\"2020\",value:2020},{label:\"2019\",value:2019},{label:\"2018\",value:2018},{label:\"2017\",value:2017},{label:\"2016\",value:2016},{label:\"2015\",value:2015},{label:\"2014\",value:2014},{label:\"2013\",value:2013},{label:\"2012\",value:2012},{label:\"2011\",value:2011},{label:\"2010\",value:2010},{label:\"2009\",value:2009},{label:\"2008\",value:2008},{label:\"2007\",value:2007},{label:\"2006\",val"
+    },
+    {
+      "term": "These datasets are offered",
+      "excerpt": "t\"},B.createElement(\"p\",null,\"These datasets are offered under the Creative Commons Attribution 4.0 International License. Users are free to use, copy, distribute, transmit, and adapt the data for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided. For more information, please refer to the\",\" \",B.createElement(\"a\",{href:\"https://creativecommons.org/licenses/by/4.0/\",target:\"_blank\",rel:\"noopener noreferrer\"},\"CC BY 4.0\"),\" \",\"documentation.\"))));var Qg={exports:{}},Gw;function j8e(){return Gw||(Gw=1,(function("
+    },
+    {
+      "term": "hm52ct46i7.execute-api",
+      "excerpt": "sector,...N};cb.post(\"https://hm52ct46i7.execute-api.us-east-1.amazonaws.com/prod/download\",JSON.stringify(D)).then(F=>{d(F.data),i(!1),s(!0),setTimeout(()=>{s(!1)},8e3)}).catch(F=>{i(!1),F.request&&console.log(\"request error\",F.request),F.response&&console.log(\"response error\",F.response),console.error(F,F.stack),r(\"Failed to download product assets.\")})}const x=ze.hdCountryOptions.map(E=>{const O=E.version||\"v1\";return{...E,value:`${E.longname}/${O}`,label:`${E.label} (${O})`}}),_=ze.mosaicCountryOptions.map(E=>{const O=E.version||\"v1\";return{...E,value:`${E.longname}/${O"
+    }
+  ]
+}

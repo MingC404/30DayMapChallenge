@@ -1,0 +1,14 @@
+HTTP/1.1 206 Partial Content
+x-amz-request-id: E8FVJPMM3JWBKMTT
+x-amz-id-2: /YIy+XCN57HBgsgBwidAa9NoZgb1xyvE+kvL1TjYSgFT1qGqhlw9JcqQU47LaCXihtK6IyiDtV8L171Fut/K136LEGwhDKVF
+Content-Length: 65536
+Accept-Ranges: bytes
+Content-Range: bytes 131046206-131111741/131111742
+Date: Fri, 20 Nov 2026 21:30:08 GMT
+Server: AmazonS3
+Last-Modified: Fri, 18 Nov 2022 23:23:10 GMT
+ETag: "df03517905e3f3c356ebdf5f4cd0dd46-16"
+x-amz-version-id: Pd0QbOkIGD8UwFXLHgiK0ar2jnhHvee3
+Content-Type: application/zip
+x-amz-server-side-encryption: AES256
+

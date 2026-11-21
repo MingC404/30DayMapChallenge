@@ -1,5 +1,7 @@
 # Adopted C camera — Oblique Shanshui
 
+2026-11-20 构图修订：查看 [新版 PNG](shanshui_C_composition.png) 与 [构图说明](composition_revision.md)。运行 `render_art.py --composition` 使用独立相机配置及扩展真实 DSM；默认运行仍复现旧版。旧预览与冻结 C 参数保留。
+
 正式参数固定于[camera_c.json](camera_c.json)，只沿用C。查看[当前艺术预览](shanshui_C_art.png)与[制作说明](../README.md)。
 
 完整相机比较、矩阵定义和历史可见性统计保存在[camera_study.md](camera_study.md)。阶段PNG与可再生成的深度缓冲已清理，`camera_comparison.json/.csv`、网格、输入哈希与研究代码保留。

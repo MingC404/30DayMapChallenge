@@ -1,0 +1,7 @@
+{
+  "trial_water": "#253745",
+  "formal_water": "white",
+  "pixel_fraction_changed": 0.2608667534722222,
+  "mean_channel_difference_0_255": 40.867567949459875,
+  "decision": "Use the light background: blue introduces a large alternating water field that competes with the density change. Trial uses the same hexagon colors, extents and 800 ms cadence."
+}

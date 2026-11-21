@@ -84,6 +84,11 @@
       "day": "19",
       "interactive": "19/index.html",
       "status": "local-assets-ready"
+    },
+    {
+      "day": "20",
+      "interactive": null,
+      "status": "local-assets-ready"
     }
   ],
   "managedAssets": [
@@ -136,7 +141,10 @@
     "19/research/soho/selected-311.json",
     "19/data/context-buildings.json",
     "19/data/context-streets.json",
-    "19/data/context-metadata.json"
+    "19/data/context-metadata.json",
+    "assets/20/new_york_daytime.png",
+    "assets/20/new_york_nighttime.png",
+    "assets/20/new_york_day_and_night.gif"
   ],
   "restrictedSourcesExcluded": [
     "13"

@@ -1,0 +1,107 @@
+{
+  "camera": {
+    "selection": "C composition revision — continuous landscape",
+    "azimuth_deg": 315,
+    "elevation_deg": 18,
+    "vertical_exaggeration": 1.2,
+    "orthographic_height_m": 1500,
+    "orthographic_width_m": 1766.1290322580646,
+    "target_xyz": [
+      294300,
+      2733845,
+      1707.492919921875
+    ],
+    "world_to_camera_matrix": [
+      [
+        -0.7071067811865474,
+        -0.7071067811865477,
+        0
+      ],
+      [
+        0.21850801222441057,
+        -0.21850801222441046,
+        0.9510565162951535
+      ],
+      [
+        -0.6724985119639575,
+        0.6724985119639572,
+        0.3090169943749474
+      ]
+    ],
+    "original_image_size": [
+      1600,
+      1800
+    ],
+    "original_viewport": [
+      70,
+      642,
+      1530,
+      1882
+    ],
+    "tree_scale_factors": {
+      "1": 0.65,
+      "5": 0.65,
+      "12": 0.68,
+      "2": 0.78,
+      "3": 0.72,
+      "4": 0.75,
+      "6": 0.8,
+      "7": 0.75,
+      "8": 0.72,
+      "14": 0.75,
+      "15": 1,
+      "16": 0.75,
+      "19": 0.78,
+      "20": 0.72,
+      "21": 0.78
+    },
+    "source": "Same C basis; metric orthographic reframing and existing real DSM extent, no image resizing"
+  },
+  "dem_sha256": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b",
+  "camera_sha256": "163b2d378e57279daf8391ecb5897ea469834e14d65433e7fff546f75154c6c8",
+  "geometry_sha256": "57330678165cc96b18dd2d4bd4a538f2aa30454336bfdb511caf2356130c827d",
+  "depth_sha256": "de944edc1c37653ad51996d7e7784d5e3d24174be7db71bb7e47330876dc23c2",
+  "terrain_mask_sha256": "2594f8857f6ffe49a60e9bbedf078564f998773723699287a7c4548079702eb4",
+  "same_geometry_as_A": true,
+  "image_size": [
+    1800,
+    2025
+  ],
+  "base_opacity_levels": [
+    0.0,
+    0.018,
+    0.04,
+    0.067,
+    0.098
+  ],
+  "base_opacity_max": 0.098,
+  "directional_light_weight_in_level_selection": 0.15,
+  "continuous_dark_wash": false,
+  "ambient_occlusion": false,
+  "whole_image_blur": false,
+  "stroke_edge_bleed_sigma_px": 0.42,
+  "brush_statistics": {
+    "brush_groups": 6779,
+    "brush_lines": 20310,
+    "structure_lines": 370,
+    "depth_tested_samples": 2090019,
+    "rejected_hidden_samples": 237924
+  },
+  "dark_area_fraction": 0.00019992607841265764,
+  "largest_dark_component_pixels": 46,
+  "hidden": [
+    "trees",
+    "GPX",
+    "title",
+    "legend",
+    "sources",
+    "seal"
+  ],
+  "artistic_only": [
+    "stroke pressure, width, length, gaps, bristle splitting, edge seepage, paper fibres"
+  ],
+  "geometry_source": "Existing Copernicus 30m DSM including canopy; no new peaks or fine terrain inferred",
+  "geometry_code_sha256": "0800ec532c2dd8a98657ba595a18418b02f2ec413d84bc719f0a8d3e3086b09f",
+  "renderer_sha256": "cec41f6fce838b1793ce4d599df8f8c093462191b2512ebc13425efec3405166",
+  "output_sha256": "a092e2c9a844477d4b18bc58b369441ad31a02b384d6db0fa654631d61720c6f"
+}

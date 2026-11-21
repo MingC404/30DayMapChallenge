@@ -1,0 +1,162 @@
+{
+  "data_year": 2021,
+  "crs": "EPSG:5070",
+  "requested_bbox": [
+    -74.3,
+    40.48,
+    -73.68,
+    40.93
+  ],
+  "pixel_aligned_bbox": [
+    -74.30000020279999,
+    40.47999993508,
+    -73.67916687194999,
+    40.93083326661
+  ],
+  "raster_shape": [
+    541,
+    745
+  ],
+  "nodata": -32768,
+  "native_pixel_degrees": 0.00083333333,
+  "hex_opposite_side_distance_m": 500,
+  "hex_count": 12394,
+  "land_km2": 1823.4331972309883,
+  "county_geoids": [
+    "34039",
+    "36059",
+    "34023",
+    "36119",
+    "34017",
+    "36085",
+    "34025",
+    "34027",
+    "34013",
+    "36081",
+    "34003",
+    "36047",
+    "36061",
+    "34031",
+    "36005"
+  ],
+  "statistics": {
+    "day": {
+      "source_population": 12528509.0,
+      "hex_population": 12528509.000002183,
+      "difference_people": 2.1830201148986816e-06,
+      "relative_error": 1.742442069442327e-13,
+      "valid_pixels": 389402,
+      "zero_pixels": 175084,
+      "nodata_pixels": 13643,
+      "negative_values_other_than_nodata": 0,
+      "max_pixel_count": 11296,
+      "status_hex_counts": {
+        "positive": 8701,
+        "small_land": 343,
+        "water": 2865,
+        "zero": 485
+      },
+      "population_in_water_only_hexes": 49.55079723954411,
+      "population_in_small_land_hexes": 6031.3866622884225,
+      "missing_land_km2": 0.0,
+      "max_raw_density": 1686959.265844864,
+      "max_displayed_density": 389880.4508784134
+    },
+    "night": {
+      "source_population": 11964781.0,
+      "hex_population": 11964781.000002053,
+      "difference_people": 2.0526349544525146e-06,
+      "relative_error": 1.7155641665756478e-13,
+      "valid_pixels": 389402,
+      "zero_pixels": 213056,
+      "nodata_pixels": 13643,
+      "negative_values_other_than_nodata": 0,
+      "max_pixel_count": 5487,
+      "status_hex_counts": {
+        "positive": 7883,
+        "small_land": 343,
+        "water": 2865,
+        "zero": 1303
+      },
+      "population_in_water_only_hexes": 21.73011850899556,
+      "population_in_small_land_hexes": 2352.710788143197,
+      "missing_land_km2": 0.0,
+      "max_raw_density": 4454427.776736611,
+      "max_displayed_density": 70783.33979939426
+    }
+  },
+  "local_checks": {
+    "Midtown": {
+      "hex_id": "4219_4368",
+      "land_fraction": 0.9999999999998667,
+      "day_people": 82757.25193167214,
+      "day_density": 382239.3734411418,
+      "day_status": "positive",
+      "night_people": 121.59742126012334,
+      "night_density": 561.6344311783504,
+      "night_status": "positive"
+    },
+    "Downtown Brooklyn": {
+      "hex_id": "4223_4354",
+      "land_fraction": 1.0,
+      "day_people": 45389.763565241556,
+      "day_density": 209646.33770272927,
+      "day_status": "positive",
+      "night_people": 6333.598588085417,
+      "night_density": 29253.638798156146,
+      "night_status": "positive"
+    },
+    "Jersey City waterfront": {
+      "hex_id": "4212_4359",
+      "land_fraction": 0.6821451118769918,
+      "day_people": 4805.484995488932,
+      "day_density": 32537.92200427956,
+      "day_status": "positive",
+      "night_people": 3976.1824385834057,
+      "night_density": 26922.717308005987,
+      "night_status": "positive"
+    },
+    "Hoboken": {
+      "hex_id": "4212_4364",
+      "land_fraction": 0.8553954769150721,
+      "day_people": 5817.882582303124,
+      "day_density": 31414.2982108778,
+      "day_status": "positive",
+      "night_people": 1766.9429394592266,
+      "night_density": 9540.80314212933,
+      "night_status": "positive"
+    },
+    "Lower Manhattan": {
+      "hex_id": "4218_4357",
+      "land_fraction": 1.0,
+      "day_people": 45269.81252308918,
+      "day_density": 209092.30757091937,
+      "day_status": "positive",
+      "night_people": 10268.184486390288,
+      "night_density": 47426.7126184412,
+      "night_status": "positive"
+    },
+    "Newark": {
+      "hex_id": "4185_4356",
+      "land_fraction": 0.9999999999998667,
+      "day_people": 11608.844334337504,
+      "day_density": 53618.95521127967,
+      "day_status": "positive",
+      "night_people": 698.2146183004546,
+      "night_density": 3224.915182623068,
+      "night_status": "positive"
+    }
+  },
+  "max_pixel_area_allocation_relative_error": 7.283728426113441e-12,
+  "classification_people_per_land_km2": [
+    0,
+    1000,
+    3000,
+    6000,
+    10000,
+    20000,
+    40000,
+    80000,
+    "infinity"
+  ]
+}

@@ -1,0 +1,33 @@
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Bearer realm="https://accounts.google.com/"
+Vary: X-Origin
+Vary: Referer
+Content-Type: application/json; charset=UTF-8
+Date: Fri, 20 Nov 2026 21:29:11 GMT
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Origin,Accept-Encoding
+Transfer-Encoding: chunked
+
+{
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.earthengine.v1.EarthEngine.GetAsset",
+          "service": "earthengine.googleapis.com"
+        }
+      }
+    ]
+  }
+}

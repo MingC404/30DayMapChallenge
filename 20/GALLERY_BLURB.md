@@ -1,0 +1,1 @@
+LandScan USA 2021 estimates are mapped as people per square kilometer of land in 500 m hexagons, revealing strong daytime concentrations in Midtown and Downtown Brooklyn and varied day–night patterns along the Hudson waterfront.

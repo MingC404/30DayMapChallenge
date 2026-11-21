@@ -1,0 +1,20 @@
+{
+  "source_url": "https://copernicus-dem-30m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_10_N24_00_E121_00_DEM/Copernicus_DSM_COG_10_N24_00_E121_00_DEM.tif",
+  "source_product": "Copernicus GLO-30 DSM, not bare earth",
+  "acquired_date": "2026-11-20",
+  "method": "HTTP COG range reads; bilinear reprojection to aligned existing EPSG:3826 grid; original overlap copied verbatim",
+  "bounds_epsg3826": [
+    291450.0,
+    2731100.0,
+    296850.0,
+    2737100.0
+  ],
+  "shape": [
+    200,
+    180
+  ],
+  "vertical_datum": "EGM2008",
+  "resolution_m": 30,
+  "license": "../terrain/sources/License-COPDEM-30.pdf",
+  "sha256": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b"
+}

@@ -9,10 +9,26 @@ import numpy as np
 from scipy.ndimage import gaussian_filter,gaussian_filter1d
 from PIL import Image,ImageDraw,ImageFont
 sys.stdout.reconfigure(encoding='utf8')
-C=json.loads((R/'camera_c.json').read_text(encoding='utf-8-sig'))
+COMPOSITION='--composition' in sys.argv
+C=json.loads((R/('camera_composition.json' if COMPOSITION else 'camera_c.json')).read_text(encoding='utf-8-sig'))
 scene=json.loads((R/'scene.json').read_text())
 mesh=np.load(R/'scene_mesh_epsg3826.npz')
 V=mesh['vertices_epsg3826_egm2008'];F=mesh['faces'];roots=mesh['tree_xyz'];numbers=mesh['tree_numbers']
+original_roots=roots.copy()
+if COMPOSITION:
+    # Extend the actual triangulated surface using the already acquired 30m DSM.
+    # Grid origin/diagonals match the adopted scene, so root XYZ stays identical.
+    import rasterio
+    with rasterio.open(R/'composition_dem_30m.tif') as src:
+        z=src.read(1).astype(float);tf=src.transform
+        assert src.crs.to_epsg()==3826 and src.res==(30.,30.)
+        assert np.all(np.isfinite(z)) and not np.any(z==src.nodata)
+        x=tf.c+(np.arange(src.width)+.5)*30
+        y=tf.f-(np.arange(src.height)+.5)*30
+    xx,yy=np.meshgrid(x,y);V=np.column_stack([xx.ravel(),yy.ravel(),z.ravel()])
+    ny,nx=z.shape;r,c=np.mgrid[:ny-1,:nx-1];a=(r*nx+c).ravel()
+    F=np.array([[i,i+1,i+nx+1] for i in a]+[[i,i+nx+1,i+nx] for i in a])
+    scene['mesh_bounds_epsg3826']=[float(x[0]),float(y[-1]),float(x[-1]),float(y[0])]
 assert C['azimuth_deg']==315 and C['elevation_deg']==18 and C['vertical_exaggeration']==1.2
 M=np.array(C['world_to_camera_matrix']);CENTER=np.array(C['target_xyz']);VE=C['vertical_exaggeration']
 W,H=1800,2025;FACTOR=W/1600;VIEW=np.array(C['original_viewport'])*FACTOR
@@ -61,6 +77,19 @@ for face in F:
     xyz=wa[...,None]*V[face[0]]+wb[...,None]*V[face[1]]+wc[...,None]*V[face[2]]
     surface[y0:y1+1,x0:x1+1][keep]=xyz[keep];lightbuffer[y0:y1+1,x0:x1+1][keep]=illum[keep]
 terrain_depth=depth.copy();terrain_mask=np.isfinite(depth)
+boundary_samples=[]
+if COMPOSITION:
+    # Independently locate any visible outer mesh edge in the rendered canvas.
+    grid=V.reshape(NY,NX,3)
+    for name,edge in [('north',grid[0]),('south',grid[-1]),('west',grid[:,0]),('east',grid[:,-1])]:
+        count=0
+        for a,b in zip(edge,edge[1:]):
+            q=project(a+np.linspace(0,1,30)[:,None]*(b-a))
+            x=np.rint(q[:,0]).astype(int);y=np.rint(q[:,1]).astype(int)
+            ok=(x>=2)&(x<W-2)&(y>=2)&(y<H-2)
+            x,y,z=x[ok],y[ok],q[ok,2]
+            count+=int(np.count_nonzero(np.isfinite(depth[y,x])&(z>=depth[y,x]-1)))
+        boundary_samples.append({'edge':name,'visible_interior_samples':count})
 def stroke(points,color,width=1,alpha=.6,object_id=None):
     """World-space polyline -> shared camera -> per-sample depth test."""
     p=project(points)
@@ -115,6 +144,9 @@ for part in np.unique(parts):
 # Three-dimensional ancient trees. Local XY spreads and world-Z branches are all camera projected.
 ownership=np.full((H,W),-1,dtype=np.int16)
 right=M[0];toward=M[2];heights={1:155,5:165,12:135,2:57,3:53,4:44,6:55,7:49,8:64,14:53,15:0,16:69,19:66,20:47,21:58}
+original_heights=heights.copy()
+if COMPOSITION:
+    heights={n:h*C['tree_scale_factors'].get(str(n),.78) for n,h in heights.items()}
 tree_records=[]
 def draw_tree(number,root):
     rr=np.random.default_rng(180000+number);height=heights[number]
@@ -147,7 +179,7 @@ def draw_tree(number,root):
     for i,tval in enumerate(np.linspace(.28,.90,7)):
         start=trunk[int(tval*34)];sign=-1 if (i+variant)%2 else 1
         direction=right*sign*rr.uniform(.55,1)+lateral*rr.uniform(-.55,.55)+[0,0,rr.uniform(.25,.85)]
-        branch(start,direction,height*rr.uniform(.15,.26),max(1,thickness//2),2 if height>65 else 1)
+        branch(start,direction,height*rr.uniform(.15,.26),max(1,thickness//2),2 if original_heights[number]>65 else 1)
     # Broken foliage brush clusters: world-space leaf strokes, depth-tested against mountains/trees.
     for tip in tips:
         if rr.random()<.20:continue
@@ -178,9 +210,19 @@ text((100,1932),'Copernicus GLO-30 DSM · 30 m  /  © OpenStreetMap contributors
 text((100,1962),'Public GPX: Taiwan Outdoors linked track · Sources and licences in README / NOTICE',16)
 draw.rectangle((1650,100,1688,138),outline=(151,61,44),width=2)
 draw.line((1660,111,1678,111,1678,128,1666,128),fill=(151,61,44),width=2)
-output=R/'shanshui_C_art.png';im.save(output,dpi=(240,240))
+output=R/('shanshui_C_composition.png' if COMPOSITION else 'shanshui_C_art.png');im.save(output,dpi=(240,240))
 assert all(hashlib.sha256((DAY/name).read_bytes()).hexdigest()==sha for name,sha in protected.items())
 assert np.max(np.abs(roots[:,2]-ground(roots[:,:2])))<1e-8
 report={'camera_locked_to':'camera_c.json','camera':C,'mesh_geometry_changed':False,'dem_changed':False,'smooth_shading':'area-weighted vertex normals interpolated per visible terrain fragment','terrain_texture':'world-space downslope surface strokes; all pass common depth test','root_surface_residual_max_m':float(np.max(np.abs(roots[:,2]-ground(roots[:,:2])))),'source_files_preserved':len(protected),'tree_count_in_scene':15,'visible_tree_candidate_count':len(visible_numbers),'visible_numbers':visible_numbers,'visible_tree_pixels':visible_pixels,'visibility_definition':'at least 4 final surviving depth-tested branch/foliage pixels, not necessarily a visible root','main_trees':[1,5,12],'tree_records':tree_records,'track_display':path_info,'rendered_geometry':'shared 3D orthographic camera and depth buffer; not a warped hillshade','image_size':[W,H],'output_sha256':hashlib.sha256(output.read_bytes()).hexdigest()}
-(R/'art_validation.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+if COMPOSITION:
+    assert np.array_equal(roots,original_roots)
+    report.update(camera_locked_to='camera_composition.json',mesh_geometry_changed=True,dem_changed=True,
+        visible_mesh_boundary_samples=boundary_samples,
+        mesh_bounds_epsg3826=scene['mesh_bounds_epsg3826'],mesh_vertex_count=len(V),
+        original_tree_heights=original_heights,root_xyz_unchanged=True,
+        terrain_edge_pixel_coverage={edge:float(mask.mean()) for edge,mask in {
+            'bottom':terrain_mask[-1,:],'left_lower_half':terrain_mask[H//2:,0],
+            'right_lower_half':terrain_mask[H//2:,-1]}.items()},
+        tree_root_screen_positions={int(n):p[:2].tolist() for n,p in zip(numbers,project(roots))})
+(R/('composition_validation.json' if COMPOSITION else 'art_validation.json')).write_text(json.dumps(report,indent=2),encoding='utf8')
 print(json.dumps({k:v for k,v in report.items() if k not in ['tree_records','camera']},indent=2))

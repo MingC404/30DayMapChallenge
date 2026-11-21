@@ -1,0 +1,384 @@
+{
+  "camera_locked_to": "camera_composition.json",
+  "camera": {
+    "selection": "C composition revision \u2014 continuous landscape",
+    "azimuth_deg": 315,
+    "elevation_deg": 18,
+    "vertical_exaggeration": 1.2,
+    "orthographic_height_m": 1500,
+    "orthographic_width_m": 1766.1290322580646,
+    "target_xyz": [
+      294300,
+      2733845,
+      1707.492919921875
+    ],
+    "world_to_camera_matrix": [
+      [
+        -0.7071067811865474,
+        -0.7071067811865477,
+        0
+      ],
+      [
+        0.21850801222441057,
+        -0.21850801222441046,
+        0.9510565162951535
+      ],
+      [
+        -0.6724985119639575,
+        0.6724985119639572,
+        0.3090169943749474
+      ]
+    ],
+    "original_image_size": [
+      1600,
+      1800
+    ],
+    "original_viewport": [
+      70,
+      642,
+      1530,
+      1882
+    ],
+    "tree_scale_factors": {
+      "1": 0.65,
+      "5": 0.65,
+      "12": 0.68,
+      "2": 0.78,
+      "3": 0.72,
+      "4": 0.75,
+      "6": 0.8,
+      "7": 0.75,
+      "8": 0.72,
+      "14": 0.75,
+      "15": 1,
+      "16": 0.75,
+      "19": 0.78,
+      "20": 0.72,
+      "21": 0.78
+    },
+    "source": "Same C basis; metric orthographic reframing and existing real DSM extent, no image resizing"
+  },
+  "mesh_geometry_changed": true,
+  "dem_changed": true,
+  "smooth_shading": "area-weighted vertex normals interpolated per visible terrain fragment",
+  "terrain_texture": "world-space downslope surface strokes; all pass common depth test",
+  "root_surface_residual_max_m": 2.2737367544323206e-13,
+  "source_files_preserved": 78,
+  "tree_count_in_scene": 15,
+  "visible_tree_candidate_count": 15,
+  "visible_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    12,
+    14,
+    15,
+    16,
+    19,
+    20,
+    21
+  ],
+  "visible_tree_pixels": {
+    "1": 2484,
+    "2": 381,
+    "3": 294,
+    "4": 229,
+    "5": 2205,
+    "6": 360,
+    "7": 273,
+    "8": 410,
+    "12": 2036,
+    "14": 394,
+    "15": 116,
+    "16": 541,
+    "19": 390,
+    "20": 226,
+    "21": 461
+  },
+  "visibility_definition": "at least 4 final surviving depth-tested branch/foliage pixels, not necessarily a visible root",
+  "main_trees": [
+    1,
+    5,
+    12
+  ],
+  "tree_records": [
+    {
+      "number": 7,
+      "root_xyz": [
+        294519.2531958877,
+        2733577.591909924,
+        1702.174455448199
+      ],
+      "form": 1,
+      "art_height_m": 36.75
+    },
+    {
+      "number": 8,
+      "root_xyz": [
+        294551.628679794,
+        2733634.9148978437,
+        1665.0577408336464
+      ],
+      "form": 2,
+      "art_height_m": 46.08
+    },
+    {
+      "number": 12,
+      "root_xyz": [
+        294693.492061027,
+        2733741.701752881,
+        1737.182523276761
+      ],
+      "form": 0,
+      "art_height_m": 91.80000000000001
+    },
+    {
+      "number": 6,
+      "root_xyz": [
+        294498.6419108107,
+        2733571.5889819474,
+        1695.577221303061
+      ],
+      "form": 0,
+      "art_height_m": 44.0
+    },
+    {
+      "number": 5,
+      "root_xyz": [
+        294454.6762744268,
+        2733572.5334346932,
+        1694.4059060851255
+      ],
+      "form": 5,
+      "art_height_m": 107.25
+    },
+    {
+      "number": 4,
+      "root_xyz": [
+        294524.8101357388,
+        2733702.9688006826,
+        1644.236191277499
+      ],
+      "form": 4,
+      "art_height_m": 33.0
+    },
+    {
+      "number": 3,
+      "root_xyz": [
+        294518.8009487213,
+        2733718.4670944093,
+        1643.112170412375
+      ],
+      "form": 3,
+      "art_height_m": 38.16
+    },
+    {
+      "number": 14,
+      "root_xyz": [
+        294603.23114501097,
+        2733791.8848384693,
+        1687.2570156484248
+      ],
+      "form": 2,
+      "art_height_m": 39.75
+    },
+    {
+      "number": 20,
+      "root_xyz": [
+        294552.7978308126,
+        2733800.085150583,
+        1654.2380642954395
+      ],
+      "form": 2,
+      "art_height_m": 33.839999999999996
+    },
+    {
+      "number": 21,
+      "root_xyz": [
+        294539.5987274166,
+        2733811.2406666987,
+        1644.9684569285378
+      ],
+      "form": 3,
+      "art_height_m": 45.24
+    },
+    {
+      "number": 15,
+      "root_xyz": [
+        294593.23267919215,
+        2733861.7427559597,
+        1684.148729340071
+      ],
+      "form": "fallen",
+      "art_height_m": 0
+    },
+    {
+      "number": 16,
+      "root_xyz": [
+        294624.5069005691,
+        2733927.7017548773,
+        1688.17729696896
+      ],
+      "form": 4,
+      "art_height_m": 51.75
+    },
+    {
+      "number": 2,
+      "root_xyz": [
+        294378.80284180504,
+        2733752.3541978477,
+        1637.2496634835973
+      ],
+      "form": 2,
+      "art_height_m": 44.46
+    },
+    {
+      "number": 19,
+      "root_xyz": [
+        294532.150030361,
+        2733903.2257486572,
+        1653.807195172735
+      ],
+      "form": 1,
+      "art_height_m": 51.480000000000004
+    },
+    {
+      "number": 1,
+      "root_xyz": [
+        294271.41555295006,
+        2733744.9222541223,
+        1614.9030646431634
+      ],
+      "form": 1,
+      "art_height_m": 100.75
+    }
+  ],
+  "track_display": [
+    {
+      "part": 0,
+      "max_xy_display_displacement_m": 4.0000000001583995,
+      "source_order_and_endpoints_retained": true
+    }
+  ],
+  "rendered_geometry": "shared 3D orthographic camera and depth buffer; not a warped hillshade",
+  "image_size": [
+    1800,
+    2025
+  ],
+  "output_sha256": "7746429008d54d8817724a92558917c85669993d55242cba082275b6ff937c94",
+  "visible_mesh_boundary_samples": [
+    {
+      "edge": "north",
+      "visible_interior_samples": 0
+    },
+    {
+      "edge": "south",
+      "visible_interior_samples": 0
+    },
+    {
+      "edge": "west",
+      "visible_interior_samples": 0
+    },
+    {
+      "edge": "east",
+      "visible_interior_samples": 0
+    }
+  ],
+  "mesh_bounds_epsg3826": [
+    291465.0,
+    2731115.0,
+    296835.0,
+    2737085.0
+  ],
+  "mesh_vertex_count": 36000,
+  "original_tree_heights": {
+    "1": 155,
+    "5": 165,
+    "12": 135,
+    "2": 57,
+    "3": 53,
+    "4": 44,
+    "6": 55,
+    "7": 49,
+    "8": 64,
+    "14": 53,
+    "15": 0,
+    "16": 69,
+    "19": 66,
+    "20": 47,
+    "21": 58
+  },
+  "root_xyz_unchanged": true,
+  "terrain_edge_pixel_coverage": {
+    "bottom": 1.0,
+    "left_lower_half": 1.0,
+    "right_lower_half": 1.0
+  },
+  "tree_root_screen_positions": {
+    "1": [
+      984.6094554643472,
+      1503.4946061782807
+    ],
+    "2": [
+      909.1032595539466,
+      1459.4642231233206
+    ],
+    "3": [
+      839.3236761444666,
+      1417.9062411056457
+    ],
+    "4": [
+      845.5638010268384,
+      1412.3426409979063
+    ],
+    "5": [
+      977.4599914984141,
+      1346.8395390568794
+    ],
+    "6": [
+      949.1688607612191,
+      1336.4700402943859
+    ],
+    "7": [
+      931.667106571865,
+      1326.4992739815998
+    ],
+    "8": [
+      872.6805567199614,
+      1370.9638215478508
+    ],
+    "12": [
+      709.1658472843377,
+      1287.284100003093
+    ],
+    "14": [
+      735.5214015580841,
+      1368.8139588140766
+    ],
+    "15": [
+      696.1572690566463,
+      1388.340840261832
+    ],
+    "16": [
+      632.2157984896625,
+      1391.113381558865
+    ],
+    "19": [
+      709.046185334384,
+      1441.387325086278
+    ],
+    "20": [
+      763.2942167704589,
+      1415.7746657011917
+    ],
+    "21": [
+      764.638098784765,
+      1430.5623949008727
+    ]
+  }
+}

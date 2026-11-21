@@ -1,0 +1,8 @@
+HTTP/1.1 403 Forbidden
+Server: AmazonS3
+x-amz-request-id: 4CEG7F1E0X98Y334
+x-amz-id-2: it6M7VIv+m/B7edGMffzmhuEtGWryM0vD9uAZtdrxvg34Ikp+UEib1Hkc0Wecl14etDtD8p/bX1HfgfK44j+nj+U+sbmXbYT
+Content-Type: application/xml
+Transfer-Encoding: chunked
+Date: Fri, 20 Nov 2026 21:29:56 GMT
+

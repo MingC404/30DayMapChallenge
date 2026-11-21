@@ -1,5 +1,7 @@
 # Day 18 — Among the Ancient Trees：数据可行性调查
 
+> 2026-11-20 复核入口：[data_feasibility.md](data_feasibility.md)、[tree_inventory.csv](tree_inventory.csv)、[trail_sources.md](trail_sources.md)、[cartographic_options.md](cartographic_options.md)。以下为 2026-11-19 原始研究记录；其中“没有 DEM 栅格”仅描述当时本研究目录及 MOI 取数状态。仓库另有后续取得的 Copernicus 30m DSM 小裁切，详见新报告；不能等同于成功取得 MOI 20m DTM。本轮没有制作图像。
+
 研究日期：2026-11-19（America/New_York）。研究对象是拉拉山国家森林游乐区巨木群，不是北面的拉拉山山顶。仅进行资料调查和 GIS 数据核验，未制作地图、GIF 或 PNG。
 
 **结论：真实地形适合做山水地图，但目前不能将 24 个巨木符号全部放到经过验证的精确位置，也不能把现有步道直接称作完整官方网络。建议以 A / Topographic Shanshui 为最终方向，先补齐坐标与 DEM 原始图幅，再进入制图。**

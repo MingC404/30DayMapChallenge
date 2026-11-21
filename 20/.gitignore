@@ -1,0 +1,7 @@
+.venv/
+.uv-cache/
+__pycache__/
+research/*.zip
+research/*.tif
+research/*url*
+research/*.bin

@@ -1,0 +1,76 @@
+{
+  "removed": [
+    {
+      "path": "outputs/new_york_day_and_night_v1.png",
+      "bytes": 1955574,
+      "sha256": "75ef380da96dbb2e23949980adf2db4368344407c236a4557b6ec6dcaed2beed"
+    },
+    {
+      "path": "outputs/preview.png",
+      "bytes": 818977,
+      "sha256": "de5015a3012b176ecddd27218a247c1245a63630a893e35d3712b0a9ce7a0ce5"
+    },
+    {
+      "path": "outputs/preview_daytime.png",
+      "bytes": 735850,
+      "sha256": "163bfecc6838771696bb54c5f5c08accc24cb31c76a34cb22423102eeb3605db"
+    },
+    {
+      "path": "outputs/preview_nighttime.png",
+      "bytes": 708230,
+      "sha256": "0926db2d312882db4fa05171dbf73c809f8fd88f8a23c45c7fca2ea68f5479e2"
+    },
+    {
+      "path": "research/type_references.png",
+      "bytes": 356451,
+      "sha256": "6df0264d5f8e5f559c6328cf69ea149779d41c34b6bba41500242f548a6b0efc"
+    },
+    {
+      "path": "research/day_zip_tail.bin",
+      "bytes": 65536,
+      "sha256": "c65fc859617b62e33726371454967072c771170c1cb9e92af2dea7dbe65e431c"
+    },
+    {
+      "path": "research/landscan-usa-2021-day.zip",
+      "bytes": 62526754,
+      "sha256": "ccd6df03ffb44f78507dbbd38f6ac74e88b24507f5021598b5b928415c3c1e6f"
+    },
+    {
+      "path": "research/landscan-usa-2021-night.zip",
+      "bytes": 74969247,
+      "sha256": "1618aa5c65f4ae4d1e196bf3ea463439065403363f0d243bf7ebe11b035ededd"
+    },
+    {
+      "path": "research/landscan-usa-2021-conus-day.tif",
+      "bytes": 66711387,
+      "sha256": "45710edff9f379aeebdd1087dac48510d04f6f5fc8d147543cc7ed02e672ecc1"
+    },
+    {
+      "path": "research/landscan-usa-2021-conus-night.tif",
+      "bytes": 79031835,
+      "sha256": "ffef5b4b128ad70ccf4e424a2aae39423a74939b684dca1acf656c618fbf0801"
+    },
+    {
+      "path": "review/night_blue_trial.png",
+      "bytes": 1710090,
+      "sha256": "567c636902642c1b2a1f09fee01f55a19c0aea32f2e0a006a874c52d91a9d976"
+    },
+    {
+      "path": "review/blue_background_trial.gif",
+      "bytes": 1545626,
+      "sha256": "15a0684fa38413a1a616e4a4c96b3f5a24070d57d221d4a6e42d5c2c6d1cc520"
+    },
+    {
+      "path": "review/blue_compare.png",
+      "bytes": 700678,
+      "sha256": "44f853a8e4466d6f8ccf2adf845d44d3f0ca920c6361c3c90fe4796b1b0ee6e6"
+    },
+    {
+      "path": "review/light_compare.png",
+      "bytes": 615900,
+      "sha256": "9090429222d0ec26ed59879ddd2478782698549521a769536431c9464d0865ca"
+    }
+  ],
+  "reason": "Old parallel-map/preview exports have no remaining publishing or validation references. Blue candidates are rejected trial exports. Full CONUS TIFFs and inner ZIPs are reproducible extracts; original ORNL archives, 18 source hashes, metadata, cropped TIFFs and analysis tables remain. Final card screenshots and JSON audits are retained as QA evidence.",
+  "freed_bytes": 292452135
+}
