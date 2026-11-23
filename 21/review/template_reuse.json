@@ -1,0 +1,44 @@
+{
+  "canvas": [
+    1600,
+    1200
+  ],
+  "anchors": {
+    "day": [
+      84.0,
+      82.0
+    ],
+    "title": [
+      84.0,
+      138.0
+    ],
+    "subtitle": [
+      84.0,
+      175.0
+    ]
+  },
+  "sizes": {
+    "day": 17.599999999999998,
+    "title": 44.800000000000004,
+    "subtitle": 19.2,
+    "caption": 16,
+    "source": 14,
+    "author": 17
+  },
+  "fonts": {
+    "day": "seguisb.ttf",
+    "title": "georgia.ttf",
+    "subtitle": "segoeui.ttf",
+    "caption": "segoeui.ttf",
+    "source": "segoeui.ttf",
+    "author": "segoeui.ttf"
+  },
+  "attribution_baseline": 1123,
+  "author_baseline": 1157,
+  "left": 84,
+  "right": 1535,
+  "dpi": 300,
+  "source": "19/artwork.mjs",
+  "reference_png": "19/day19.png",
+  "source_sha256": "5aac3924b24dd363c77b507c79189ad8580ae080215634199445f17c6eaab820"
+}

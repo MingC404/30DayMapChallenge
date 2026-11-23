@@ -1,0 +1,21 @@
+{
+  "other_rows_and_css_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "other_manifest_entries_unchanged": true,
+  "description": "The animation follows Typhoon Bolaven (2023) across the Pacific. Watch the northern outline as the projection switches. It appears larger on Mercator, while Equal Earth keeps all three outlined areas equal in size.",
+  "assets": [
+    {
+      "path": "assets/22/day22_the_pacific_reprojected.gif",
+      "sha256": "39af61421f87d06c2cd5ead09a5c5b319f08b346ff690aacddbdb5956cf62109"
+    },
+    {
+      "path": "assets/22/day22_merc.png",
+      "sha256": "51f28e02418c6ed567aa09d5d81149b034363a9350e3815819bca5f0a80202f3"
+    },
+    {
+      "path": "assets/22/day22_eqearth.png",
+      "sha256": "019bc4f74ae5c6b7ecf483abdbf64aa2ad86f02b13d5c303589a287a197859c6"
+    }
+  ],
+  "status": "local workspace only; no commit, push or deployment"
+}

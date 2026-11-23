@@ -1,5 +1,36 @@
 # Gallery maintenance
 
+## Day 22 / Projections — personal collection final
+
+Day 22 displays `22/outputs/day22_the_pacific_reprojected.gif`: two confirmed 1600 × 1200 frames, 1000 ms each, a 2-second direct-cut cycle, infinite looping. The original Mercator and Equal Earth PNGs remain unchanged and are linked separately, following Day 20's GIF-entry pattern. The exact owner-supplied English paragraph in `22/GALLERY_BLURB.md` appears beside the GIF on desktop and above it on mobile.
+
+`22/scripts/update_gallery.cjs` updates only D22 in `scripts/gallery_entries.json`, the actual `docs/index.html` row, manifest and three byte-identical files in `docs/assets/22/`. Other rows and CSS remain unchanged. Use this scoped updater rather than rebuilding the entire gallery, which would omit older scoped additions. `22/scripts/check_gallery.cjs` previews the actual collection in Edge at desktop and mobile widths and verifies repeated animation frames, description, paths and full-size links. No screenshots or map previews are retained.
+
+```powershell
+& ./20/.venv/Scripts/python.exe ./22/scripts/encode_gif.py
+node ./22/scripts/update_gallery.cjs
+node ./22/scripts/check_gallery.cjs
+node ./19/scripts/preview_gallery.cjs
+```
+
+Preview: `http://127.0.0.1:8026/30DayMapChallenge/#day-22`. Finalization and cleanup records are in `22/review/`. This updates only the local personal collection; no commit, push or deployment is performed.
+
+## Day 21 / OpenStreetMap — local gallery addition
+
+Day 21 uses `21/outputs/day21_three_street_fabrics_of_manhattan.png` (1600 × 1200, RGB, 300 dpi), copied byte for byte to `docs/assets/21/`. The artwork follows Day 19's standard series canvas, title hierarchy and signature. Its three north-up 600 × 600 m windows retain the original extents and scale. Explanations and evidence annotations have been removed from the image; the exact supplied English paragraph in `21/GALLERY_BLURB.md` appears alongside it, and above it on mobile.
+
+`21/scripts/update_gallery.cjs` updates Day 21's JavaScript-backed registry entry in `scripts/gallery_entries.json`, its actual `docs/index.html` row, manifest and PNG asset. It preserves every other row and the gallery CSS. The general generator can read the registry entry, but still lacks the scoped Days 17/19/20 additions; to preserve the current complete gallery, use this scoped updater for Day 21 rather than rebuilding all rows. Reapplying the updater is idempotent.
+
+```powershell
+& ./20/.venv/Scripts/python.exe ./21/scripts/render_final.py
+node ./21/scripts/update_gallery.cjs
+node ./21/scripts/check_gallery.cjs
+& ./20/.venv/Scripts/python.exe ./21/scripts/review_outputs.py
+node ./19/scripts/preview_gallery.cjs
+```
+
+Preview: `http://127.0.0.1:8026/30DayMapChallenge/#day-21`. Actual desktop/mobile row screenshots and checks are in `21/review/`. They verify the image, exact Markdown description, chronological placement, normal responsive layout, no horizontal overflow, and a working full-size PNG link. This is a local workspace addition only: no staging, commit, push or deployment.
+
 ## Days 17 and 19: local review additions
 
 Day 17 uses `17/day17_loop.gif` (12 s, 900 x 1080); Day 19 uses `19/day19_loop.gif` (14 s, 1600 x 1200). Each is copied byte for byte once into `docs/assets/NN/`, alongside its formal PNG. Each date has one gallery row. Clicking either preview opens its interactive map: Day 17 is self-contained, while Day 19 has a minimal local runtime bundle with its exact selected evidence and context geometry. Research links point to the canonical repository documents. No raw ENC downloads or unrelated study samples are copied into Pages.

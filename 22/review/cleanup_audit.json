@@ -1,0 +1,84 @@
+{
+  "repository_references_checked_before_deletion": true,
+  "live_references_to_deleted_files": [],
+  "resolved_paths_verified_within": "22/",
+  "deleted": [
+    {
+      "path": "22/outputs/day22_the_pacific_reprojected.png",
+      "sha256": "a203475aed94fdcc509e2148e46879e8098cedac8d4a7625d2a825a6ffe1befa",
+      "bytes": 139935
+    },
+    {
+      "path": "22/scripts/render_side_by_side.py",
+      "sha256": "5c7b1a9a0e104c2fcb22a66653dbc44fa74301423507bd7cebfa8fa69a4d6e6a",
+      "bytes": 7494
+    },
+    {
+      "path": "22/review/eqearth-gallery-width-350.png",
+      "sha256": "324c3ebe8a1b0834afc324974f23744f7069f19a4a8cb3cd23c78c538c3af58a",
+      "bytes": 44829
+    },
+    {
+      "path": "22/review/eqearth-gallery-width-862.png",
+      "sha256": "7c04d12f297ad84dd35e6f9114dcd2407aa44add98a6770df94c35a7c4a4f84d",
+      "bytes": 149726
+    },
+    {
+      "path": "22/review/gallery-width-350.gif",
+      "sha256": "d26f42e7acf0c218ef46de5ff3a2317474b9d62d194fd9982f3d74a758de6a6f",
+      "bytes": 35292
+    },
+    {
+      "path": "22/review/gallery-width-350.png",
+      "sha256": "5da979392bcc8a87da4da704b296849a5a6173c924dfb8395d20bf37626841f9",
+      "bytes": 28552
+    },
+    {
+      "path": "22/review/gallery-width-862.gif",
+      "sha256": "485592095e1c4a405d6e216d062707f3c46e41fc4f20b22394ffd1171e0a87c5",
+      "bytes": 107908
+    },
+    {
+      "path": "22/review/gallery-width-862.png",
+      "sha256": "065f25a256b68577834f6abd3ec0d4bb9b2c421205f83ec4f33d5b825875b4ae",
+      "bytes": 98469
+    },
+    {
+      "path": "22/review/gif-decoded-frames.png",
+      "sha256": "a4887faad05fbdad786e87164038ef185e096bece3b9e8eb1102d7d58c14a4a5",
+      "bytes": 258914
+    },
+    {
+      "path": "22/review/merc-gallery-width-350.png",
+      "sha256": "1f06bb2fba6033cfa2495c1a5570ba97fcff388d0b1d3b3888ec9a32081548af",
+      "bytes": 39296
+    },
+    {
+      "path": "22/review/merc-gallery-width-862.png",
+      "sha256": "860e54639356f50386ad5bd4d285c80411bd1f6017ea387fa07a252dfc9c60c6",
+      "bytes": 128232
+    },
+    {
+      "path": "22/review/validation.json",
+      "sha256": "0dc4307b0f7f47388b23dfc4ec3b55a173a83a399323ad41305f4db1d55c752d",
+      "bytes": 5770
+    },
+    {
+      "path": "22/scripts/finalize_edit.py",
+      "sha256": "8faa88b8537c3419b3f35210269ee0bf0ac44bac698486641a47a1524316f1db",
+      "bytes": 560
+    },
+    {
+      "path": "22/scripts/make_check.py",
+      "sha256": "a2ba2d8d26eb4b911049d5254bb96f24c62d38a1fc9581818dbab6b09153b0d1",
+      "bytes": 2117
+    },
+    {
+      "path": "22/scripts/final_docs.py",
+      "sha256": "552104fb7454b95f8a755da36aaa8877ad68e95f3395224cbe7ff23605590455",
+      "bytes": 2103
+    }
+  ],
+  "kept_placeholder_reason": "22/.gitkeep is referenced by typography_review/baseline_hashes.json and is retained.",
+  "kept": "Final GIF, two confirmed PNGs, data, reproduction/gallery scripts, source notes and compact validation reports. No recursive deletion."
+}

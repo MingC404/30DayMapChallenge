@@ -1,0 +1,1 @@
+At the same scale, West Village’s angled streets create triangular blocks. SoHo and Midtown both show regular street grids, but their blocks read differently: the SoHo window shows small gaps within blocks, while the Midtown window shows more continuous building footprints.

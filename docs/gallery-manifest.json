@@ -89,6 +89,16 @@
       "day": "20",
       "interactive": null,
       "status": "local-assets-ready"
+    },
+    {
+      "day": "21",
+      "interactive": null,
+      "status": "local-assets-ready"
+    },
+    {
+      "day": "22",
+      "interactive": null,
+      "status": "local-assets-ready"
     }
   ],
   "managedAssets": [
@@ -144,7 +154,11 @@
     "19/data/context-metadata.json",
     "assets/20/new_york_daytime.png",
     "assets/20/new_york_nighttime.png",
-    "assets/20/new_york_day_and_night.gif"
+    "assets/20/new_york_day_and_night.gif",
+    "assets/21/day21_three_street_fabrics_of_manhattan.png",
+    "assets/22/day22_the_pacific_reprojected.gif",
+    "assets/22/day22_merc.png",
+    "assets/22/day22_eqearth.png"
   ],
   "restrictedSourcesExcluded": [
     "13"

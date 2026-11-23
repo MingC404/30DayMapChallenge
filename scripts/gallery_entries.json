@@ -497,5 +497,74 @@
         "label": "Overview PNG"
       }
     ]
+  },
+  {
+    "day": "21",
+    "theme": "OpenStreetMap",
+    "title": "Three Street Fabrics of Manhattan",
+    "author": "Ming Cao",
+    "description": "At the same scale, West Village’s angled streets create triangular blocks. SoHo and Midtown both show regular street grids, but their blocks read differently: the SoHo window shows small gaps within blocks, while the Midtown window shows more continuous building footprints.",
+    "tools": [
+      "Python",
+      "Shapely",
+      "pyproj",
+      "Matplotlib",
+      "Pillow"
+    ],
+    "evidence": [
+      "21/README.md",
+      "21/GALLERY_BLURB.md",
+      "21/scripts/render_final.py"
+    ],
+    "media": [
+      {
+        "source": "21/outputs/day21_three_street_fabrics_of_manhattan.png",
+        "path": "assets/21/day21_three_street_fabrics_of_manhattan.png",
+        "label": "Three Street Fabrics of Manhattan",
+        "alt": "Three north-up 600 by 600 metre windows in West Village, SoHo and Midtown, comparing OSM street centerlines and building footprints at the same scale"
+      }
+    ],
+    "downloads": []
+  },
+  {
+    "day": "22",
+    "theme": "Projections",
+    "title": "The Pacific, Reprojected",
+    "author": "Ming Cao",
+    "description": "The animation follows Typhoon Bolaven (2023) across the Pacific. Watch the northern outline as the projection switches. It appears larger on Mercator, while Equal Earth keeps all three outlined areas equal in size.",
+    "tools": [
+      "Python",
+      "NumPy",
+      "Shapely",
+      "pyproj",
+      "Matplotlib",
+      "Pillow"
+    ],
+    "evidence": [
+      "22/README.md",
+      "22/GALLERY_BLURB.md",
+      "22/scripts/render.py",
+      "22/scripts/encode_gif.py"
+    ],
+    "media": [
+      {
+        "source": "22/outputs/day22_the_pacific_reprojected.gif",
+        "path": "assets/22/day22_the_pacific_reprojected.gif",
+        "label": "The Pacific, Reprojected — final animation",
+        "alt": "Typhoon Bolaven (2023) switches between Pacific-centered Mercator and Equal Earth; equal ground-area outlines show increasing Mercator area with latitude, with a fixed low-latitude center and an overlaid outline legend"
+      }
+    ],
+    "downloads": [
+      {
+        "source": "22/outputs/day22_merc.png",
+        "path": "assets/22/day22_merc.png",
+        "label": "Mercator PNG"
+      },
+      {
+        "source": "22/outputs/day22_eqearth.png",
+        "path": "assets/22/day22_eqearth.png",
+        "label": "Equal Earth PNG"
+      }
+    ]
   }
 ]

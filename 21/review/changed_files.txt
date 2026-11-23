@@ -1,0 +1,40 @@
+Final Day 21 revision — modified or newly created files
+Paths are relative to the repository root. Existing cached OSM data and other days' artwork were not changed.
+
+Artwork and render source:
+21/scripts/render_final.py
+21/outputs/day21_three_street_fabrics_of_manhattan.png
+21/outputs/final_metadata.json
+
+Gallery source, entry and copy:
+21/scripts/update_gallery.cjs
+21/GALLERY_BLURB.md
+scripts/gallery_entries.json
+docs/index.html
+docs/gallery-manifest.json
+docs/assets/21/day21_three_street_fabrics_of_manhattan.png
+
+Markdown documentation:
+README.md
+docs/GALLERY.md
+21/README.md
+
+Review scripts, generated reports and screenshots:
+21/scripts/check_gallery.cjs
+21/scripts/review_outputs.py
+21/review/gallery_scope.json
+21/review/gallery_validation.json
+21/review/gallery-card-1440.png
+21/review/gallery-card-390.png
+21/review/gallery-d21-1440.png
+21/review/gallery-d21-390.png
+21/review/equal_width_comparison_1440.png
+21/review/equal_width_comparison_390.png
+21/review/changed_files.txt
+
+Re-generated reference artifacts (same template/reference; no source artwork edits):
+21/review/template_reuse.json
+21/review/gallery-reference-1440.png
+21/review/gallery-reference-390.png
+
+No git add, commit, push or deployment.

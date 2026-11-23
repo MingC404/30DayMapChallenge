@@ -1,0 +1,1 @@
+﻿The animation follows Typhoon Bolaven (2023) across the Pacific. Watch the northern outline as the projection switches. It appears larger on Mercator, while Equal Earth keeps all three outlined areas equal in size.

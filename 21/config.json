@@ -1,0 +1,9 @@
+{
+  "window_m": 600,
+  "crs": "EPSG:32618",
+  "candidates": [
+    {"slug":"west_village", "name":"West Village", "intersection":"Bleecker St & Grove St", "seed_lonlat":[-74.0032,40.7322], "streets":["Bleecker Street","Grove Street"], "center_lonlat":null},
+    {"slug":"soho", "name":"SoHo", "intersection":"Greene St & Prince St", "seed_lonlat":[-73.9995,40.7245], "streets":["Greene Street","Prince Street"], "center_lonlat":null},
+    {"slug":"midtown", "name":"Midtown", "intersection":"6th Ave & W 45th St", "seed_lonlat":[-73.9822,40.7571], "streets":["6th Avenue","West 45th Street"], "center_lonlat":null}
+  ]
+}

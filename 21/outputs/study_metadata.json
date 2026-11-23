@@ -1,0 +1,65 @@
+{
+  "window_m": 600,
+  "crs": "EPSG:32618",
+  "panels": [
+    {
+      "name": "West Village",
+      "center_lonlat": [
+        -74.0039756,
+        40.732925
+      ],
+      "center_method": "shared OSM street node",
+      "bounds_projected_m": [
+        583805.0291582936,
+        4509286.944549427,
+        584405.0291582936,
+        4509886.944549427
+      ],
+      "crs": "EPSG:32618",
+      "building_polygons": 1046,
+      "street_segments": 97,
+      "retrieved_at_utc": "2026-11-21T13:37:05.669432+00:00"
+    },
+    {
+      "name": "SoHo",
+      "center_lonlat": [
+        -73.999345,
+        40.725008
+      ],
+      "center_method": "shared OSM street node",
+      "bounds_projected_m": [
+        584206.0621599494,
+        4508412.549981657,
+        584806.0621599494,
+        4509012.549981657
+      ],
+      "crs": "EPSG:32618",
+      "building_polygons": 590,
+      "street_segments": 85,
+      "retrieved_at_utc": "2026-11-21T13:37:30.917647+00:00"
+    },
+    {
+      "name": "Midtown",
+      "center_lonlat": [
+        -73.9827118,
+        40.7567712
+      ],
+      "center_method": "shared OSM street node",
+      "bounds_projected_m": [
+        585569.9087822952,
+        4511954.6317528915,
+        586169.9087822952,
+        4512554.6317528915
+      ],
+      "crs": "EPSG:32618",
+      "building_polygons": 263,
+      "street_segments": 75,
+      "retrieved_at_utc": "2026-11-21T13:37:56.203851+00:00"
+    }
+  ],
+  "style": {
+    "background": "#f3efe6",
+    "buildings": "#50514e",
+    "streets": "#b9b5ac"
+  }
+}

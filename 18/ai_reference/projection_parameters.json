@@ -1,0 +1,425 @@
+{
+  "camera": {
+    "selection": "C composition revision — continuous landscape",
+    "azimuth_deg": 315,
+    "elevation_deg": 18,
+    "vertical_exaggeration": 1.2,
+    "orthographic_height_m": 1500,
+    "orthographic_width_m": 1766.1290322580646,
+    "target_xyz": [
+      294300,
+      2733845,
+      1707.492919921875
+    ],
+    "world_to_camera_matrix": [
+      [
+        -0.7071067811865474,
+        -0.7071067811865477,
+        0
+      ],
+      [
+        0.21850801222441057,
+        -0.21850801222441046,
+        0.9510565162951535
+      ],
+      [
+        -0.6724985119639575,
+        0.6724985119639572,
+        0.3090169943749474
+      ]
+    ],
+    "original_image_size": [
+      1600,
+      1800
+    ],
+    "original_viewport": [
+      70,
+      642,
+      1530,
+      1882
+    ],
+    "tree_scale_factors": {
+      "1": 0.65,
+      "5": 0.65,
+      "12": 0.68,
+      "2": 0.78,
+      "3": 0.72,
+      "4": 0.75,
+      "6": 0.8,
+      "7": 0.75,
+      "8": 0.72,
+      "14": 0.75,
+      "15": 1,
+      "16": 0.75,
+      "19": 0.78,
+      "20": 0.72,
+      "21": 0.78
+    },
+    "source": "Same C basis; metric orthographic reframing and existing real DSM extent, no image resizing"
+  },
+  "dem_sha256": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b",
+  "camera_sha256": "163b2d378e57279daf8391ecb5897ea469834e14d65433e7fff546f75154c6c8",
+  "geometry_sha256": "57330678165cc96b18dd2d4bd4a538f2aa30454336bfdb511caf2356130c827d",
+  "depth_sha256": "de944edc1c37653ad51996d7e7784d5e3d24174be7db71bb7e47330876dc23c2",
+  "terrain_mask_sha256": "2594f8857f6ffe49a60e9bbedf078564f998773723699287a7c4548079702eb4",
+  "canvas": [
+    1800,
+    2025
+  ],
+  "pixel_origin": "top left; x right, y down; continuous coordinates",
+  "crs": "EPSG:3826",
+  "vertical_datum": "EGM2008",
+  "source_product": "existing Copernicus GLO-30 DSM including canopy",
+  "projection_formula": "q=XYZ-target; q.z*=1.2; p=q @ M.T; pixel=(CX+S*p.x,CY-S*p.y)",
+  "pixels_per_camera_metre": 0.93,
+  "projection_center_pixel_xy": [
+    900.0,
+    1419.75
+  ],
+  "depth_test": "camera z >= terrain depth - 0.55; hidden portions omitted; no x-ray",
+  "tree_pin_stem_height_m": 22,
+  "tree_candidates": [
+    {
+      "number": 1,
+      "root_xyz": [
+        294271.41555295006,
+        2733744.9222541223,
+        1614.9030646431634
+      ],
+      "root_pixel_xy": [
+        984.6094554643472,
+        1503.4946061782807
+      ],
+      "symbol_top_pixel_xy": [
+        984.6094554643472,
+        1480.144266590202
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 108
+    },
+    {
+      "number": 2,
+      "root_xyz": [
+        294378.80284180504,
+        2733752.3541978477,
+        1637.2496634835973
+      ],
+      "root_pixel_xy": [
+        909.1032595539466,
+        1459.4642231233206
+      ],
+      "symbol_top_pixel_xy": [
+        909.1032595539466,
+        1436.113883535242
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 101
+    },
+    {
+      "number": 3,
+      "root_xyz": [
+        294518.8009487213,
+        2733718.4670944093,
+        1643.112170412375
+      ],
+      "root_pixel_xy": [
+        839.3236761444666,
+        1417.9062411056457
+      ],
+      "symbol_top_pixel_xy": [
+        839.3236761444666,
+        1394.555901517567
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 85
+    },
+    {
+      "number": 4,
+      "root_xyz": [
+        294524.8101357388,
+        2733702.9688006826,
+        1644.236191277499
+      ],
+      "root_pixel_xy": [
+        845.5638010268385,
+        1412.3426409979063
+      ],
+      "symbol_top_pixel_xy": [
+        845.5638010268385,
+        1388.9923014098276
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 93
+    },
+    {
+      "number": 5,
+      "root_xyz": [
+        294454.6762744268,
+        2733572.5334346932,
+        1694.4059060851255
+      ],
+      "root_pixel_xy": [
+        977.4599914984141,
+        1346.8395390568794
+      ],
+      "symbol_top_pixel_xy": [
+        977.4599914984141,
+        1323.4891994688007
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 93
+    },
+    {
+      "number": 6,
+      "root_xyz": [
+        294498.6419108107,
+        2733571.5889819474,
+        1695.577221303061
+      ],
+      "root_pixel_xy": [
+        949.1688607612191,
+        1336.4700402943859
+      ],
+      "symbol_top_pixel_xy": [
+        949.1688607612191,
+        1313.1197007063072
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 104
+    },
+    {
+      "number": 7,
+      "root_xyz": [
+        294519.2531958877,
+        2733577.591909924,
+        1702.174455448199
+      ],
+      "root_pixel_xy": [
+        931.667106571865,
+        1326.4992739815998
+      ],
+      "symbol_top_pixel_xy": [
+        931.667106571865,
+        1303.1489343935211
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 105
+    },
+    {
+      "number": 8,
+      "root_xyz": [
+        294551.628679794,
+        2733634.9148978437,
+        1665.0577408336464
+      ],
+      "root_pixel_xy": [
+        872.6805567199614,
+        1370.9638215478508
+      ],
+      "symbol_top_pixel_xy": [
+        872.6805567199614,
+        1347.6134819597723
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 102
+    },
+    {
+      "number": 12,
+      "root_xyz": [
+        294693.492061027,
+        2733741.701752881,
+        1737.182523276761
+      ],
+      "root_pixel_xy": [
+        709.1658472843377,
+        1287.284100003093
+      ],
+      "symbol_top_pixel_xy": [
+        709.1658472843377,
+        1263.9337604150146
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 102
+    },
+    {
+      "number": 14,
+      "root_xyz": [
+        294603.23114501097,
+        2733791.8848384693,
+        1687.2570156484248
+      ],
+      "root_pixel_xy": [
+        735.5214015580841,
+        1368.8139588140766
+      ],
+      "symbol_top_pixel_xy": [
+        735.5214015580841,
+        1345.4636192259982
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 109
+    },
+    {
+      "number": 15,
+      "root_xyz": [
+        294593.23267919215,
+        2733861.7427559597,
+        1684.148729340071
+      ],
+      "root_pixel_xy": [
+        696.1572690566463,
+        1388.340840261832
+      ],
+      "symbol_top_pixel_xy": [
+        696.1572690566463,
+        1364.9905006737533
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 110
+    },
+    {
+      "number": 16,
+      "root_xyz": [
+        294624.5069005691,
+        2733927.7017548773,
+        1688.17729696896
+      ],
+      "root_pixel_xy": [
+        632.2157984896625,
+        1391.113381558865
+      ],
+      "symbol_top_pixel_xy": [
+        632.2157984896625,
+        1367.7630419707864
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 76
+    },
+    {
+      "number": 19,
+      "root_xyz": [
+        294532.150030361,
+        2733903.2257486572,
+        1653.807195172735
+      ],
+      "root_pixel_xy": [
+        709.046185334384,
+        1441.387325086278
+      ],
+      "symbol_top_pixel_xy": [
+        709.046185334384,
+        1418.0369854981993
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 0
+    },
+    {
+      "number": 20,
+      "root_xyz": [
+        294552.7978308126,
+        2733800.085150583,
+        1654.2380642954395
+      ],
+      "root_pixel_xy": [
+        763.2942167704589,
+        1415.7746657011917
+      ],
+      "symbol_top_pixel_xy": [
+        763.2942167704589,
+        1392.424326113113
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 96
+    },
+    {
+      "number": 21,
+      "root_xyz": [
+        294539.5987274166,
+        2733811.2406666987,
+        1644.9684569285378
+      ],
+      "root_pixel_xy": [
+        764.638098784765,
+        1430.5623949008727
+      ],
+      "symbol_top_pixel_xy": [
+        764.638098784765,
+        1407.212055312794
+      ],
+      "source_category": "B; unverified OSM candidate",
+      "visible_symbol_pixels": 109
+    }
+  ],
+  "registration_anchors": [
+    {
+      "id": "275",
+      "name": "遊客中心",
+      "xyz_draped_on_DSM": [
+        293817.0,
+        2733841.0,
+        1552.8572591145837
+      ],
+      "pixel_xy": [
+        1220.2557322671992,
+        1681.215818400026
+      ],
+      "position_type": "communication_sign_not_surveyed_trunk",
+      "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+      "overlay_owner_id": 200,
+      "visible_anchor_pixels": 85
+    },
+    {
+      "id": "277",
+      "name": "休憩區",
+      "xyz_draped_on_DSM": [
+        294534.0,
+        2733708.0,
+        1643.550496419271
+      ],
+      "pixel_xy": [
+        836.2118972691616,
+        1412.225330672691
+      ],
+      "position_type": "communication_sign_not_surveyed_trunk",
+      "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+      "overlay_owner_id": 201,
+      "visible_anchor_pixels": 46
+    },
+    {
+      "id": "280",
+      "name": "達觀亭",
+      "xyz_draped_on_DSM": [
+        294463.0,
+        2733923.0,
+        1673.5004964192708
+      ],
+      "pixel_xy": [
+        741.5161571326591,
+        1438.5557885521873
+      ],
+      "position_type": "communication_sign_not_surveyed_trunk",
+      "source_url": "https://www.forest.gov.tw/UserFiles/001/Images/web/communication_11502.pdf",
+      "overlay_owner_id": 202,
+      "visible_anchor_pixels": 0
+    }
+  ],
+  "track_display": [
+    {
+      "part": 0,
+      "display_max_shift_m": 4.0000000001583995,
+      "source_edges": 2704,
+      "endpoints_and_order_preserved": true
+    }
+  ],
+  "track_visible_pixels": 4969,
+  "inputs": {
+    "oblique\\composition_dem_30m.tif": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b",
+    "oblique\\camera_composition.json": "163b2d378e57279daf8391ecb5897ea469834e14d65433e7fff546f75154c6c8",
+    "oblique\\scene_mesh_epsg3826.npz": "daae24cb75b57bb0a7f7a0d9fc5ae83f884bae17016ec4b4059c40fdc442aeed",
+    "research\\data\\official_communication_points.csv": "5caa289d95c318456b5db714f55a4557196ae0c9960d4b8694e65d302d22ca33"
+  },
+  "outputs": {
+    "terrain_reference.png": "d2c3b7ac62a2a76ad86642a5604b7941ab1c0dcbd69880c8e8ab2b10d09f5161",
+    "gis_overlay_reference.png": "35708f24785be758f2a37eb4d1f535d2195b996b7bd0caadba06cd4045c6dbbc"
+  }
+}

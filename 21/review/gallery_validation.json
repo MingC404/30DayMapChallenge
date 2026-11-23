@@ -1,0 +1,68 @@
+{
+  "reference": "19/day19.png",
+  "candidate": "21/outputs/day21_three_street_fabrics_of_manhattan.png",
+  "actual_local_day21_row": true,
+  "viewports": [
+    {
+      "viewport_width": 1440,
+      "image": "reference",
+      "display_width": 862.25,
+      "display_height": 646.6875,
+      "natural": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "viewport_width": 1440,
+      "image": "d21",
+      "display_width": 862.25,
+      "display_height": 646.6875,
+      "natural": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "viewport_width": 390,
+      "image": "reference",
+      "display_width": 350,
+      "display_height": 262.5,
+      "natural": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "viewport_width": 390,
+      "image": "d21",
+      "display_width": 350,
+      "display_height": 262.5,
+      "natural": [
+        1600,
+        1200
+      ]
+    }
+  ],
+  "description": "At the same scale, West Village\u00e2\u20ac\u2122s angled streets create triangular blocks. SoHo and Midtown both show regular street grids, but their blocks read differently: the SoHo window shows small gaps within blocks, while the Midtown window shows more continuous building footprints.",
+  "description_matches_markdown": true,
+  "image_opens_full_png": true,
+  "byte_identical_gallery_copy": true,
+  "horizontal_overflow": false,
+  "geometry_checks": "Renderer asserts all three projected extents equal the first render; same 600 m square and equal pixel size in every panel.",
+  "visual_review": {
+    "desktop": "The actual Day 21 gallery row shows the clean triptych alongside the exact supplied English description. Title, place labels, scale, OSM attribution and author remain on the artwork; all explanations and evidence callouts are removed.",
+    "mobile": "Description remains readable in the gallery header above the 350 CSS px image. Fine footprint detail and small artwork labels are inspected via the functioning full-size PNG link.",
+    "reference_choice": "Day 20 was inspected but uses a custom full-bleed northeast title arrangement. Day 19 is the latest completed landscape work with the unmodified standard series title hierarchy, complete author line and a compatible canvas."
+  },
+  "export_checks": {
+    "size": [
+      1600,
+      1200
+    ],
+    "mode": "RGB",
+    "dpi": 300,
+    "bounds_equal_to_preview": true,
+    "all_windows_600_m": true
+  }
+}

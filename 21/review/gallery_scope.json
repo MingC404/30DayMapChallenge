@@ -1,0 +1,9 @@
+{
+  "day": "21",
+  "asset": "assets/21/day21_three_street_fabrics_of_manhattan.png",
+  "sha256": "25b7d7f20e5c38100e8b2e9b3399d6e722575970f57800911156f3efc517dd54",
+  "description": "At the same scale, West Village’s angled streets create triangular blocks. SoHo and Midtown both show regular street grids, but their blocks read differently: the SoHo window shows small gaps within blocks, while the Midtown window shows more continuous building footprints.",
+  "other_rows_and_css_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "status": "Local only; no git add, commit, push or deployment"
+}

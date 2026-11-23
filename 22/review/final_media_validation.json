@@ -1,0 +1,20 @@
+{
+  "size": [
+    1600,
+    1200
+  ],
+  "frames": 2,
+  "duration_ms": [
+    1000,
+    1000
+  ],
+  "cycle_ms": 2000,
+  "loop": 0,
+  "transition": "direct cut",
+  "png_sha256": {
+    "day22_merc.png": "51f28e02418c6ed567aa09d5d81149b034363a9350e3815819bca5f0a80202f3",
+    "day22_eqearth.png": "019bc4f74ae5c6b7ecf483abdbf64aa2ad86f02b13d5c303589a287a197859c6"
+  },
+  "confirmed_pngs_unchanged": true,
+  "gif_sha256": "39af61421f87d06c2cd5ead09a5c5b319f08b346ff690aacddbdb5956cf62109"
+}

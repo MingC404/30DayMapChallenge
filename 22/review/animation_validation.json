@@ -1,0 +1,609 @@
+{
+  "template": {
+    "canvas": [
+      1600,
+      1200
+    ],
+    "anchors": {
+      "day": [
+        84.0,
+        82.0
+      ],
+      "title": [
+        84.0,
+        138.0
+      ],
+      "subtitle": [
+        84.0,
+        175.0
+      ]
+    },
+    "sizes": {
+      "day": 17.599999999999998,
+      "title": 44.800000000000004,
+      "subtitle": 19.2,
+      "caption": 16,
+      "source": 14,
+      "author": 17
+    },
+    "fonts": {
+      "day": "seguisb.ttf",
+      "title": "georgia.ttf",
+      "subtitle": "segoeui.ttf",
+      "caption": "segoeui.ttf",
+      "source": "segoeui.ttf",
+      "author": "segoeui.ttf"
+    },
+    "attribution_baseline": 1123,
+    "author_baseline": 1157,
+    "left": 84,
+    "right": 1535,
+    "dpi": 300,
+    "source": "19/artwork.mjs",
+    "reference_png": "19/day19.png",
+    "source_sha256": "5aac3924b24dd363c77b507c79189ad8580ae080215634199445f17c6eaab820"
+  },
+  "layout": "full bleed; map behind all text; no cards or reserved bands",
+  "alignment": {
+    "reference": "lowest latitude geodesic circle",
+    "target_polygon_area_px2": 26000.0,
+    "center_px": [
+      620.0,
+      915.0
+    ],
+    "axis_scale": "uniform x and y in each frame"
+  },
+  "frames": [
+    {
+      "name": "Mercator",
+      "projection": "merc",
+      "uniform_pixels_per_metre": 0.00013683476800687016,
+      "anchor_center_px": [
+        620.0,
+        915.0
+      ],
+      "low_circle_area_px2": 26000.0,
+      "projected_area_m2": [
+        1388610444641.3804,
+        1711914869969.8342,
+        2654895779331.806
+      ],
+      "screen_area_px2": [
+        26000.0,
+        32053.47244144537,
+        49709.6147656111
+      ],
+      "relative_area": [
+        1.0,
+        1.2328258631325144,
+        1.9119082602158117
+      ],
+      "circle_screen_bounds": [
+        [
+          529.1098783101542,
+          822.9638843387308,
+          710.8901216898457,
+          1005.0756493177424
+        ],
+        [
+          537.3824539035844,
+          547.2216109900812,
+          739.1752501700324,
+          749.4676060579482
+        ],
+        [
+          896.5629509519204,
+          201.01563565796437,
+          1147.7065386676584,
+          453.0320209339019
+        ]
+      ],
+      "legend": [
+        {
+          "circle_index": 0,
+          "projected_geodesic_center_px": [
+            620.0,
+            915.0
+          ],
+          "legend_center_px": [
+            970.0,
+            1030.0
+          ],
+          "scale_from_map": 0.55,
+          "polygon_area_px2": 7865.000000000004,
+          "bounds": [
+            920.0104330705848,
+            979.380136386302,
+            1019.9895669294151,
+            1079.5416071247582
+          ]
+        },
+        {
+          "circle_index": 2,
+          "projected_geodesic_center_px": [
+            1022.1347448097895,
+            333.439236438987
+          ],
+          "legend_center_px": [
+            970.0,
+            1030.0
+          ],
+          "scale_from_map": 0.55,
+          "polygon_area_px2": 15037.158466597375,
+          "bounds": [
+            900.935513378172,
+            957.1670195704376,
+            1039.0644866218279,
+            1095.7760314722032
+          ]
+        }
+      ],
+      "text": [
+        {
+          "text": "The Pacific, Reprojected",
+          "role": "title",
+          "baseline": [
+            850.0,
+            856.0
+          ],
+          "box": [
+            850,
+            822,
+            1332,
+            866
+          ]
+        },
+        {
+          "text": "Mercator",
+          "role": "day",
+          "baseline": [
+            850.0,
+            901.0
+          ],
+          "box": [
+            850,
+            888,
+            926,
+            901
+          ]
+        },
+        {
+          "text": "Bolaven (2023)",
+          "role": "caption",
+          "baseline": [
+            850.0,
+            936.0
+          ],
+          "box": [
+            850,
+            924,
+            955,
+            939
+          ]
+        },
+        {
+          "text": "Equal ground area",
+          "role": "caption",
+          "baseline": [
+            1090.0,
+            997.0
+          ],
+          "box": [
+            1090,
+            985,
+            1217,
+            1001
+          ]
+        },
+        {
+          "text": "Low latitude",
+          "role": "caption",
+          "baseline": [
+            1135.0,
+            1035.0
+          ],
+          "box": [
+            1135,
+            1023,
+            1220,
+            1035
+          ]
+        },
+        {
+          "text": "High latitude",
+          "role": "caption",
+          "baseline": [
+            1135.0,
+            1065.0
+          ],
+          "box": [
+            1135,
+            1053,
+            1224,
+            1069
+          ]
+        },
+        {
+          "text": "06 Oct",
+          "role": "caption",
+          "baseline": [
+            754.8590135787242,
+            997.934103023768
+          ],
+          "box": [
+            754.8590135787242,
+            986.934103023768,
+            801.8590135787242,
+            997.934103023768
+          ]
+        },
+        {
+          "text": "11 Oct",
+          "role": "caption",
+          "baseline": [
+            482.45430486196767,
+            818.667208548148
+          ],
+          "box": [
+            482.45430486196767,
+            807.667208548148,
+            529.4543048619677,
+            818.667208548148
+          ]
+        },
+        {
+          "text": "16 Oct",
+          "role": "caption",
+          "baseline": [
+            1204.214126150269,
+            351.8362600614878
+          ],
+          "box": [
+            1204.214126150269,
+            340.8362600614878,
+            1251.214126150269,
+            351.8362600614878
+          ]
+        },
+        {
+          "text": "Track: NOAA / NCEI IBTrACS v04r01  /  Land: Natural Earth",
+          "role": "source",
+          "baseline": [
+            850.0,
+            1123.0
+          ],
+          "box": [
+            850,
+            1113,
+            1211,
+            1125
+          ]
+        },
+        {
+          "text": "Ming Cao",
+          "role": "author",
+          "baseline": [
+            850.0,
+            1157.0
+          ],
+          "box": [
+            850,
+            1144,
+            924,
+            1161
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Equal Earth",
+      "projection": "eqearth",
+      "uniform_pixels_per_metre": 0.00014001938959958116,
+      "anchor_center_px": [
+        620.0,
+        915.0
+      ],
+      "low_circle_area_px2": 26000.0,
+      "projected_area_m2": [
+        1326163247173.6973,
+        1326166031165.643,
+        1326170256440.3584
+      ],
+      "screen_area_px2": [
+        26000.0,
+        26000.05458135772,
+        26000.137419683117
+      ],
+      "relative_area": [
+        1.0,
+        1.0000020992829892,
+        1.0000052853724277
+      ],
+      "circle_screen_bounds": [
+        [
+          540.6733468152567,
+          811.1275413153745,
+          699.3377001304664,
+          1020.0576713302545
+        ],
+        [
+          570.5858544565231,
+          534.1537196208305,
+          739.2110135772243,
+          731.6975149025327
+        ],
+        [
+          884.6838622316493,
+          279.7028719954493,
+          1074.3636618533424,
+          454.21050656859734
+        ]
+      ],
+      "legend": [
+        {
+          "circle_index": 0,
+          "projected_geodesic_center_px": [
+            620.0,
+            915.0
+          ],
+          "legend_center_px": [
+            970.0,
+            1030.0
+          ],
+          "scale_from_map": 0.55,
+          "polygon_area_px2": 7865.000000000003,
+          "bounds": [
+            926.3703407483912,
+            972.870147723456,
+            1013.6357350717565,
+            1087.78171923164
+          ]
+        },
+        {
+          "circle_index": 2,
+          "projected_geodesic_center_px": [
+            979.5014856921191,
+            364.3436888619908
+          ],
+          "legend_center_px": [
+            970.0,
+            1030.0
+          ],
+          "scale_from_map": 0.55,
+          "polygon_area_px2": 7865.041569454128,
+          "bounds": [
+            917.8503070967416,
+            983.4475507234022,
+            1022.1741968886728,
+            1079.4267497386336
+          ]
+        }
+      ],
+      "text": [
+        {
+          "text": "The Pacific, Reprojected",
+          "role": "title",
+          "baseline": [
+            850.0,
+            856.0
+          ],
+          "box": [
+            850,
+            822,
+            1332,
+            866
+          ]
+        },
+        {
+          "text": "Equal Earth",
+          "role": "day",
+          "baseline": [
+            850.0,
+            901.0
+          ],
+          "box": [
+            850,
+            887,
+            942,
+            905
+          ]
+        },
+        {
+          "text": "Bolaven (2023)",
+          "role": "caption",
+          "baseline": [
+            850.0,
+            936.0
+          ],
+          "box": [
+            850,
+            924,
+            955,
+            939
+          ]
+        },
+        {
+          "text": "Equal ground area",
+          "role": "caption",
+          "baseline": [
+            1090.0,
+            997.0
+          ],
+          "box": [
+            1090,
+            985,
+            1217,
+            1001
+          ]
+        },
+        {
+          "text": "Low latitude",
+          "role": "caption",
+          "baseline": [
+            1135.0,
+            1035.0
+          ],
+          "box": [
+            1135,
+            1023,
+            1220,
+            1035
+          ]
+        },
+        {
+          "text": "High latitude",
+          "role": "caption",
+          "baseline": [
+            1135.0,
+            1065.0
+          ],
+          "box": [
+            1135,
+            1053,
+            1224,
+            1069
+          ]
+        },
+        {
+          "text": "06 Oct",
+          "role": "caption",
+          "baseline": [
+            737.4570509765597,
+            1007.6257150333789
+          ],
+          "box": [
+            737.4570509765597,
+            996.6257150333789,
+            784.4570509765597,
+            1007.6257150333789
+          ]
+        },
+        {
+          "text": "11 Oct",
+          "role": "caption",
+          "baseline": [
+            496.47603454803436,
+            807.977141911947
+          ],
+          "box": [
+            496.47603454803436,
+            796.977141911947,
+            543.4760345480344,
+            807.977141911947
+          ]
+        },
+        {
+          "text": "16 Oct",
+          "role": "caption",
+          "baseline": [
+            1120.1208916373582,
+            385.37796187965307
+          ],
+          "box": [
+            1120.1208916373582,
+            374.37796187965307,
+            1167.1208916373582,
+            385.37796187965307
+          ]
+        },
+        {
+          "text": "Track: NOAA / NCEI IBTrACS v04r01  /  Land: Natural Earth",
+          "role": "source",
+          "baseline": [
+            850.0,
+            1123.0
+          ],
+          "box": [
+            850,
+            1113,
+            1211,
+            1125
+          ]
+        },
+        {
+          "text": "Ming Cao",
+          "role": "author",
+          "baseline": [
+            850.0,
+            1157.0
+          ],
+          "box": [
+            850,
+            1144,
+            924,
+            1161
+          ]
+        }
+      ]
+    }
+  ],
+  "gif": {
+    "frames": 2,
+    "duration_ms": [
+      1000,
+      1000
+    ],
+    "loop": 0,
+    "transition": "direct cut",
+    "shared_palette": true
+  },
+  "data_checksums": {
+    "bolaven_2023_ibtracs.csv": "eb4b225c82960bbb11e7b5d5abcb6074f4b78e886a7e0acddc302573f90e9c72",
+    "ne_110m_land.geojson": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+    "reference_circles.geojson": "5eb2fbd0372209fce662a1cc521a0289d769371b22eba9ae9440f50eaa24aa6c",
+    "sources.json": "a6a5f36831de381a7c073c164f400dd22a00eba1567b544370f48e2210e33180"
+  },
+  "gallery_display_widths": [
+    862.25,
+    350
+  ],
+  "marker_export_checks": [
+    {
+      "format": "PNG",
+      "frame": 0,
+      "detected_dot_centroid_px": [
+        620.0,
+        915.0
+      ],
+      "dot_pixels": 37
+    },
+    {
+      "format": "PNG",
+      "frame": 1,
+      "detected_dot_centroid_px": [
+        620.0,
+        915.0
+      ],
+      "dot_pixels": 37
+    },
+    {
+      "format": "GIF",
+      "frame": 0,
+      "detected_dot_centroid_px": [
+        620.0,
+        915.0
+      ],
+      "dot_pixels": 37
+    },
+    {
+      "format": "GIF",
+      "frame": 1,
+      "detected_dot_centroid_px": [
+        620.0,
+        915.0
+      ],
+      "dot_pixels": 37
+    }
+  ],
+  "shared_text_solid_glyph_pixels_identical": true,
+  "legend_scale_both_frames": 0.55,
+  "palette": {
+    "ocean": "#e3edef",
+    "land": "#e1d4b9",
+    "coast": "#8eaaaf",
+    "graticule": "#ccdadd",
+    "track": "#b66332",
+    "circles": "#214e68"
+  },
+  "texture": "none; flat colors retained for small-text clarity"
+}

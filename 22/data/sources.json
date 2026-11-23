@@ -1,0 +1,10 @@
+{
+  "retrieved_utc": "2026-11-23T16:01:58.052907+00:00",
+  "ibtracs": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.WP.list.v04r01.csv",
+  "basemap": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson",
+  "rows": 85,
+  "files_sha256": {
+    "bolaven_2023_ibtracs.csv": "eb4b225c82960bbb11e7b5d5abcb6074f4b78e886a7e0acddc302573f90e9c72",
+    "ne_110m_land.geojson": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9"
+  }
+}

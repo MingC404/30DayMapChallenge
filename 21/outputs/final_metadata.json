@@ -1,0 +1,287 @@
+{
+  "template": {
+    "canvas": [
+      1600,
+      1200
+    ],
+    "anchors": {
+      "day": [
+        84.0,
+        82.0
+      ],
+      "title": [
+        84.0,
+        138.0
+      ],
+      "subtitle": [
+        84.0,
+        175.0
+      ]
+    },
+    "sizes": {
+      "day": 17.599999999999998,
+      "title": 44.800000000000004,
+      "subtitle": 19.2,
+      "caption": 16,
+      "source": 14,
+      "author": 17
+    },
+    "fonts": {
+      "day": "seguisb.ttf",
+      "title": "georgia.ttf",
+      "subtitle": "segoeui.ttf",
+      "caption": "segoeui.ttf",
+      "source": "segoeui.ttf",
+      "author": "segoeui.ttf"
+    },
+    "attribution_baseline": 1123,
+    "author_baseline": 1157,
+    "left": 84,
+    "right": 1535,
+    "dpi": 300,
+    "source": "19/artwork.mjs",
+    "reference_png": "19/day19.png",
+    "source_sha256": "5aac3924b24dd363c77b507c79189ad8580ae080215634199445f17c6eaab820"
+  },
+  "image_size": [
+    1600,
+    1200
+  ],
+  "panels": [
+    {
+      "name": "West Village",
+      "center_lonlat": [
+        -74.0039756,
+        40.732925
+      ],
+      "center_method": "shared OSM street node",
+      "bounds_projected_m": [
+        583805.0291582936,
+        4509286.944549427,
+        584405.0291582936,
+        4509886.944549427
+      ],
+      "crs": "EPSG:32618",
+      "building_polygons": 1046,
+      "street_segments": 97,
+      "retrieved_at_utc": "2026-11-21T13:37:05.669432+00:00"
+    },
+    {
+      "name": "SoHo",
+      "center_lonlat": [
+        -73.999345,
+        40.725008
+      ],
+      "center_method": "shared OSM street node",
+      "bounds_projected_m": [
+        584206.0621599494,
+        4508412.549981657,
+        584806.0621599494,
+        4509012.549981657
+      ],
+      "crs": "EPSG:32618",
+      "building_polygons": 590,
+      "street_segments": 85,
+      "retrieved_at_utc": "2026-11-21T13:37:30.917647+00:00"
+    },
+    {
+      "name": "Midtown",
+      "center_lonlat": [
+        -73.9827118,
+        40.7567712
+      ],
+      "center_method": "shared OSM street node",
+      "bounds_projected_m": [
+        585569.9087822952,
+        4511954.6317528915,
+        586169.9087822952,
+        4512554.6317528915
+      ],
+      "crs": "EPSG:32618",
+      "building_polygons": 263,
+      "street_segments": 75,
+      "retrieved_at_utc": "2026-11-21T13:37:56.203851+00:00"
+    }
+  ],
+  "explanatory_text_location": "Gallery description, not on artwork",
+  "text": [
+    {
+      "text": "Three Street Fabrics of Manhattan",
+      "role": "title",
+      "size_px": 44.800000000000004,
+      "baseline": [
+        84.0,
+        138.0
+      ],
+      "box": [
+        84.0,
+        104.0,
+        770.0,
+        139.0
+      ]
+    },
+    {
+      "text": "West Village",
+      "role": "day",
+      "size_px": 17.599999999999998,
+      "baseline": [
+        84,
+        316
+      ],
+      "box": [
+        84,
+        302,
+        188,
+        320
+      ]
+    },
+    {
+      "text": "Bleecker St & Grove St",
+      "role": "caption",
+      "size_px": 16,
+      "baseline": [
+        84,
+        343
+      ],
+      "box": [
+        84,
+        331,
+        242,
+        343
+      ]
+    },
+    {
+      "text": "SoHo",
+      "role": "day",
+      "size_px": 17.599999999999998,
+      "baseline": [
+        579,
+        316
+      ],
+      "box": [
+        579,
+        303,
+        624,
+        316
+      ]
+    },
+    {
+      "text": "Greene St & Prince St",
+      "role": "caption",
+      "size_px": 16,
+      "baseline": [
+        579,
+        343
+      ],
+      "box": [
+        579,
+        331,
+        730,
+        343
+      ]
+    },
+    {
+      "text": "Midtown",
+      "role": "day",
+      "size_px": 17.599999999999998,
+      "baseline": [
+        1074,
+        316
+      ],
+      "box": [
+        1074,
+        302,
+        1150,
+        316
+      ]
+    },
+    {
+      "text": "6th Ave & W 45th St",
+      "role": "caption",
+      "size_px": 16,
+      "baseline": [
+        1074,
+        343
+      ],
+      "box": [
+        1074,
+        331,
+        1218,
+        343
+      ]
+    },
+    {
+      "text": "0",
+      "role": "caption",
+      "size_px": 16,
+      "baseline": [
+        1190,
+        1040
+      ],
+      "box": [
+        1190,
+        1029,
+        1199,
+        1040
+      ]
+    },
+    {
+      "text": "100 m",
+      "role": "caption",
+      "size_px": 16,
+      "baseline": [
+        1250.6666666666667,
+        1040
+      ],
+      "box": [
+        1250.6666666666667,
+        1029,
+        1295.6666666666667,
+        1040
+      ]
+    },
+    {
+      "text": "\u00a9 OpenStreetMap contributors \u00b7 ODbL",
+      "role": "source",
+      "size_px": 14,
+      "baseline": [
+        84,
+        1123
+      ],
+      "box": [
+        84,
+        1113,
+        324,
+        1126
+      ]
+    },
+    {
+      "text": "Ming Cao",
+      "role": "author",
+      "size_px": 17,
+      "baseline": [
+        84,
+        1157
+      ],
+      "box": [
+        84,
+        1144,
+        158,
+        1161
+      ]
+    }
+  ],
+  "day_line": "DAY 21 / OPENSTREETMAP",
+  "panel_size_px": 460,
+  "panel_top_px": 358,
+  "panel_left_px": [
+    84,
+    579,
+    1074
+  ],
+  "palette": {
+    "background": "#f3efe6",
+    "buildings": "#50514e",
+    "streets": "#cbc6bc"
+  }
+}

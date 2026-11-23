@@ -1,0 +1,59 @@
+{
+  "viewports": [
+    {
+      "viewport_width": 1440,
+      "width": 862.25,
+      "height": 646.6875,
+      "natural": [
+        1600,
+        1200
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "viewport_width": 390,
+      "width": 350,
+      "height": 262.5,
+      "natural": [
+        1600,
+        1200
+      ],
+      "horizontal_overflow": false
+    },
+    {
+      "viewport_width": 320,
+      "width": 292,
+      "height": 219,
+      "natural": [
+        1600,
+        1200
+      ],
+      "horizontal_overflow": false
+    }
+  ],
+  "localLinks": [
+    {
+      "path": "/30DayMapChallenge/assets/22/day22_the_pacific_reprojected.gif",
+      "status": 200
+    },
+    {
+      "path": "/30DayMapChallenge/assets/22/day22_merc.png",
+      "status": 200
+    },
+    {
+      "path": "/30DayMapChallenge/assets/22/day22_eqearth.png",
+      "status": 200
+    }
+  ],
+  "status": "local review only",
+  "preview_url": "http://127.0.0.1:55642/30DayMapChallenge/#day-22",
+  "description_matches_markdown": true,
+  "browser_frame_capture_counts": [
+    7,
+    7
+  ],
+  "browser_animation_observed": true,
+  "errors": [],
+  "passed": true,
+  "external_source_link": "Canonical GitHub /22 link is prepared for the future approved publication; not a local HTTP resource."
+}
