@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "network_disabled": true,
+  "scripts": [
+    "enfield_trial.py",
+    "enfield_dem.py",
+    "enfield_quick.py",
+    "gorge_select.py"
+  ],
+  "old_studies_absent": true,
+  "final_samples_route_and_estimates_byte_identical": true,
+  "sha256": {
+    "samples.csv": "0e5f2c29cc9f311cad9f5a1203bef77be75fa83e846c503fc37e4d9df555e8ba",
+    "route.geojson": "7d6aee7fdfc44db4f1f12082fe2a97305da5f42c4b7cc9b0a9e937d8f07d6aa9",
+    "selected_descents.csv": "0116b7fbd6e2df11e4ddef3c4174e67d03fc3d90773a429221ba544971f7fcc9",
+    "selected_descents.json": "85e22ffdcf34cb67df3f1d513abdc2a89445332a781e841c299e6c22f36aefe1"
+  }
+}
