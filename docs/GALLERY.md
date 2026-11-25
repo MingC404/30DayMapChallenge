@@ -1,5 +1,17 @@
 # Gallery maintenance
 
+## Day 25 / Is This a Map? — Taiwan: Two Landscapes
+
+By Ming Cao. Main gallery media is the confirmed 1600 × 1200, 10-second infinite crossfade GIF, copied byte for byte to `assets/25/day25_taiwan_two_landscapes.gif`. The approved elevation and population-density PNGs are linked as separate static downloads, following D22; the elevation PNG is the static cover. Source filenames and paths are unchanged.
+
+One island, two kinds of mountains. I drew elevation and population density along the same east–west transects across Taiwan. As the two landscapes fade into each other, the peaks shift from the mountain ranges to the populated western lowlands and the north. The two views use separate vertical scales.
+
+Alt text: Animated ridge-line map of Taiwan crossfading between elevation and population density along the same east–west transects.
+
+Sources: Copernicus DEM GLO-90, 2021 release (DSM, EGM2008 metres); WorldPop Taiwan 2025 Global2 R2025A v1 constrained counts, DOI 10.5258/SOTON/WP00839, CC BY 4.0; Natural Earth 1:10 million land v5.1.1, public domain. Population counts were conservatively aggregated before dividing by land area. Missing values remain missing. Separate vertical scales are retained. The artwork includes its concise source credit; the gallery follows D22–D24 with a Source & methods link to `25/README.md` for full attribution and licences.
+
+Use `25/scripts/update_gallery.py` for the scoped update and `node 25/scripts/check_gallery.cjs` for the real `/30DayMapChallenge/` desktop/mobile preview. Other cards and CSS are preserved. Review records are in `25/review/`. No screenshots or temporary animation frames are retained. This is a local gallery update; commit, push and deployment remain with the owner.
+
 ## Day 24 / Network — Getting Home to Summit
 
 The confirmed GIF is the main gallery media, copied byte for byte to `assets/24/getting_home_to_summit.gif`; `assets/24/getting_home_to_summit.png` is the static download / fallback. Both retain the formal source filenames. Ming Cao is the author. Four 3-second frames form a 12-second infinite loop; no composition, route, legend or playback timing is changed. No estimated commute time is added to the image.

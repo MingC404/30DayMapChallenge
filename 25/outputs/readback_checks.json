@@ -1,0 +1,284 @@
+{
+  "passed": true,
+  "intermediate_grids_present_and_rechecked": false,
+  "grid_recheck_note": "Run build.py then verify.py to regenerate and recheck intermediate grids; raw source hashes and retained profile hashes are always checked.",
+  "raw_rasters": [
+    {
+      "file": "Copernicus_DSM_COG_30_N21_00_E120_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        119.99958333333333,
+        21.000416666666666,
+        120.99958333333333,
+        22.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N21_00_E121_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        120.99958333333333,
+        21.000416666666666,
+        121.99958333333333,
+        22.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N22_00_E120_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        119.99958333333333,
+        22.000416666666666,
+        120.99958333333333,
+        23.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N22_00_E121_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        120.99958333333333,
+        22.000416666666666,
+        121.99958333333333,
+        23.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N23_00_E120_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        119.99958333333333,
+        23.000416666666666,
+        120.99958333333333,
+        24.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N23_00_E121_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        120.99958333333333,
+        23.000416666666666,
+        121.99958333333333,
+        24.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N24_00_E120_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        119.99958333333333,
+        24.000416666666666,
+        120.99958333333333,
+        25.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N24_00_E121_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        120.99958333333333,
+        24.000416666666666,
+        121.99958333333333,
+        25.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N24_00_E122_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        121.99958333333333,
+        24.000416666666666,
+        122.99958333333333,
+        25.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N25_00_E121_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        120.99958333333333,
+        25.000416666666666,
+        121.99958333333333,
+        26.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "Copernicus_DSM_COG_30_N25_00_E122_00_DEM.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        121.99958333333333,
+        25.000416666666666,
+        122.99958333333333,
+        26.000416666666666
+      ],
+      "resolution": [
+        0.0008333333333333334,
+        0.0008333333333333334
+      ],
+      "shape": [
+        1200,
+        1200
+      ],
+      "nodata": null,
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      }
+    },
+    {
+      "file": "worldpop.tif",
+      "crs": "EPSG:4326",
+      "bounds": [
+        116.71083214648999,
+        20.697500253209988,
+        122.10749879157,
+        26.385000230459987
+      ],
+      "resolution": [
+        0.00083333333,
+        0.00083333333
+      ],
+      "shape": [
+        6825,
+        6476
+      ],
+      "nodata": -99999.0,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "twn_pop_2025_CN_100m_R2025A_v1",
+        "TIFFTAG_IMAGEDESCRIPTION": "TWN population 2025 [WorldPop R2025A v1]",
+        "TIFFTAG_DATETIME": "2025-08-01 06:12:40",
+        "TIFFTAG_COPYRIGHT": "CC-BY-4.0",
+        "Description": "TWN population 2025 [WorldPop R2025A v1]",
+        "AREA_OR_POINT": "Area"
+      }
+    }
+  ],
+  "population_missing_land_grid_fraction": 0.40896013152486643,
+  "population_missing_land_area_fraction": 0.4066920578479767,
+  "population_missing_profile_fraction": 0.407315006590096,
+  "notes": [
+    "Missing WorldPop cells are not zeros. Grid cells with some valid native pixels retain their available count; full polygon land area is denominator.",
+    "Both variables use the same coordinates, mask and camera; differing missingness is preserved.",
+    "Static review: island recognizable in both. Western and northern urban peaks contrast with central/eastern terrain. Northern peaks are unclipped and within the canvas."
+  ]
+}

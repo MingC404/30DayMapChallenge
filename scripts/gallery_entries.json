@@ -644,5 +644,45 @@
         "label": "Static overview PNG"
       }
     ]
+  },
+  {
+    "day": "25",
+    "theme": "Is This a Map?",
+    "title": "Taiwan: Two Landscapes",
+    "author": "Ming Cao",
+    "description": "One island, two kinds of mountains. I drew elevation and population density along the same east–west transects across Taiwan. As the two landscapes fade into each other, the peaks shift from the mountain ranges to the populated western lowlands and the north. The two views use separate vertical scales.",
+    "tools": [
+      "Python",
+      "NumPy",
+      "Rasterio",
+      "Matplotlib",
+      "Pillow"
+    ],
+    "evidence": [
+      "25/README.md",
+      "25/GALLERY_BLURB.md",
+      "25/data/downloads.json",
+      "25/outputs/final_media_validation.json"
+    ],
+    "media": [
+      {
+        "source": "25/outputs/day25_taiwan_two_landscapes.gif",
+        "path": "assets/25/day25_taiwan_two_landscapes.gif",
+        "label": "View animation",
+        "alt": "Animated ridge-line map of Taiwan crossfading between elevation and population density along the same east–west transects."
+      }
+    ],
+    "downloads": [
+      {
+        "source": "25/outputs/day25_elevation.png",
+        "path": "assets/25/day25_elevation.png",
+        "label": "Elevation PNG"
+      },
+      {
+        "source": "25/outputs/day25_population.png",
+        "path": "assets/25/day25_population.png",
+        "label": "Population density PNG"
+      }
+    ]
   }
 ]

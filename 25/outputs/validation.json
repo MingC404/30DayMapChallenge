@@ -1,0 +1,377 @@
+{
+  "projection": "EPSG:3826 TWD97 / TM2 zone 121 (metres)",
+  "grid_resolution_m": 1000,
+  "bounds": [
+    152000,
+    2423000,
+    352000,
+    2798000
+  ],
+  "grid_shape": [
+    375,
+    200
+  ],
+  "coastline_area_km2": 35852.01189449933,
+  "land_grid_area_km2": 35852.011894499345,
+  "population_source": {
+    "crs": "EPSG:4326",
+    "bounds": [
+      116.71083214648999,
+      20.697500253209988,
+      122.10749879157,
+      26.385000230459987
+    ],
+    "resolution": [
+      0.00083333333,
+      0.00083333333
+    ],
+    "nodata": -99999.0,
+    "shape": [
+      6825,
+      6476
+    ],
+    "unit": "people/pixel",
+    "version": "2025 constrained R2025A v1",
+    "doi": "10.5258/SOTON/WP00839"
+  },
+  "population_aggregation": "Assign each valid native pixel centre inside main island to one projected 1 km cell; sum counts, then divide by exact polygon land area in km2. Whole source pixels, no interpolation of counts. Coastal allocation uncertainty at native 3 arc-second scale.",
+  "selected_source_population": 22725278.594744988,
+  "aggregated_population": 22725278.59474498,
+  "conservation_relative_error": 3.278543128024273e-16,
+  "missing_population_land_cells": 14925,
+  "missing_dem_land_cells": 0,
+  "profiles": {
+    "count": 112,
+    "spacing_m": 3373.1418278627098,
+    "sample_spacing_m": 500,
+    "mask_sha256": "74ea3742b6f59be87a9c268c4ed2150ebf56424d7eab781a864a50446830f48b",
+    "smoothing_review": [
+      {
+        "candidate_sigma_samples": 0.6,
+        "median_profile_peak_loss": 0.007279753684997559,
+        "maximum_profile_peak_loss": 0.2269970178604126,
+        "applied": false
+      },
+      {
+        "candidate_sigma_samples": 0.6,
+        "median_profile_peak_loss": 0.051330194806166185,
+        "maximum_profile_peak_loss": 0.2945234591704473,
+        "applied": false
+      }
+    ],
+    "population_peak_west_of_elevation_fraction": 0.8828828828828829,
+    "median_population_peak_east_offset_km": -51.0
+  },
+  "render": {
+    "canvas": [
+      1600,
+      1200
+    ],
+    "template": "19/artwork.mjs, reused by days 21\u201324",
+    "north_up": true,
+    "coastline_and_camera_shared": true,
+    "linework_clipped_to_main_island": false,
+    "smoothing": "none",
+    "occlusion": "north-to-south visible-line occlusion; see current_static_validation.json",
+    "frames": [
+      {
+        "file": "day25_elevation.png",
+        "height_px_per_unit": 0.025,
+        "text": [
+          {
+            "text": "Taiwan: Two Landscapes",
+            "baseline": [
+              84,
+              138
+            ],
+            "box": [
+              84,
+              104,
+              584,
+              148
+            ],
+            "role": "title"
+          },
+          {
+            "text": "One island. Two kinds of mountains.",
+            "baseline": [
+              84,
+              175
+            ],
+            "box": [
+              84,
+              161,
+              387,
+              175
+            ],
+            "role": "subtitle"
+          },
+          {
+            "text": "Elevation",
+            "baseline": [
+              84,
+              310
+            ],
+            "box": [
+              84,
+              296,
+              161,
+              310
+            ],
+            "role": "subtitle"
+          },
+          {
+            "text": "m",
+            "baseline": [
+              84,
+              341
+            ],
+            "box": [
+              84,
+              333,
+              98,
+              341
+            ],
+            "role": "caption"
+          },
+          {
+            "text": "1,000 m",
+            "baseline": [
+              104,
+              393
+            ],
+            "box": [
+              104,
+              382,
+              161,
+              395
+            ],
+            "role": "caption"
+          },
+          {
+            "text": "N",
+            "baseline": [
+              1320,
+              310
+            ],
+            "box": [
+              1320,
+              299,
+              1332,
+              310
+            ],
+            "role": "caption"
+          },
+          {
+            "text": "Copernicus DEM GLO-90 \u00b7 WorldPop 2025 R2025A v1 \u00b7 Natural Earth 1:10m",
+            "baseline": [
+              84,
+              1123
+            ],
+            "box": [
+              84,
+              1113,
+              555,
+              1126
+            ],
+            "role": "source"
+          },
+          {
+            "text": "Ming Cao",
+            "baseline": [
+              84,
+              1157
+            ],
+            "box": [
+              84,
+              1144,
+              158,
+              1161
+            ],
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "file": "day25_population.png",
+        "height_px_per_unit": 0.0025,
+        "text": [
+          {
+            "text": "Taiwan: Two Landscapes",
+            "baseline": [
+              84,
+              138
+            ],
+            "box": [
+              84,
+              104,
+              584,
+              148
+            ],
+            "role": "title"
+          },
+          {
+            "text": "One island. Two kinds of mountains.",
+            "baseline": [
+              84,
+              175
+            ],
+            "box": [
+              84,
+              161,
+              387,
+              175
+            ],
+            "role": "subtitle"
+          },
+          {
+            "text": "Population density \u00b7 2025",
+            "baseline": [
+              84,
+              310
+            ],
+            "box": [
+              84,
+              296,
+              295,
+              314
+            ],
+            "role": "subtitle"
+          },
+          {
+            "text": "people / km\u00b2",
+            "baseline": [
+              84,
+              341
+            ],
+            "box": [
+              84,
+              328,
+              173,
+              345
+            ],
+            "role": "caption"
+          },
+          {
+            "text": "10,000 people / km\u00b2",
+            "baseline": [
+              104,
+              393
+            ],
+            "box": [
+              104,
+              380,
+              245,
+              397
+            ],
+            "role": "caption"
+          },
+          {
+            "text": "N",
+            "baseline": [
+              1320,
+              310
+            ],
+            "box": [
+              1320,
+              299,
+              1332,
+              310
+            ],
+            "role": "caption"
+          },
+          {
+            "text": "Copernicus DEM GLO-90 \u00b7 WorldPop 2025 R2025A v1 \u00b7 Natural Earth 1:10m",
+            "baseline": [
+              84,
+              1123
+            ],
+            "box": [
+              84,
+              1113,
+              555,
+              1126
+            ],
+            "role": "source"
+          },
+          {
+            "text": "Ming Cao",
+            "baseline": [
+              84,
+              1157
+            ],
+            "box": [
+              84,
+              1144,
+              158,
+              1161
+            ],
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "profile_count": 56,
+    "profile_indices": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110
+    ],
+    "selection": "Every other original profile, zero-based indices 0, 2, \u2026, 110; identical for both variables.",
+    "profile_spacing_m": 6746.283655725885,
+    "gallery_preview_width_each_px": 862
+  }
+}

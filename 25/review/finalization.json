@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "owner_description_exact_unicode": true,
+  "owner_alt_exact_unicode": true,
+  "all_other_cards_css_and_registry_unchanged": true,
+  "other_manifest_data_and_assets_unchanged": true,
+  "final_artwork_copied_without_reencoding": true,
+  "source_versions": "Copernicus DEM GLO-90 2021; WorldPop 2025 R2025A v1 / WP00839; Natural Earth land 5.1.1",
+  "cleanup_this_turn": [
+    "25/data/elevation_m.tif",
+    "25/data/land_area_km2.tif",
+    "25/data/population_count.tif",
+    "25/data/population_people_km2.tif"
+  ]
+}

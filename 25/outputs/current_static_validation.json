@@ -1,0 +1,2878 @@
+{
+  "confirmed_population_png_sha256": "230c1d58219c199ac82167325c98a00180244ab780e8a41265d485f2a2c410c4",
+  "confirmed_population_png_unchanged": true,
+  "source_arrays_unchanged": true,
+  "profile_indices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    108,
+    110
+  ],
+  "coastline_drawn": false,
+  "coastline_clip": false,
+  "numeric_clamping": false,
+  "smoothing": "none; previous setting retained",
+  "shared_baseline_camera": {
+    "anchor": [
+      855,
+      680
+    ],
+    "pixels_per_m": 0.002028187845990531
+  },
+  "top_clearance_required_px": 210,
+  "frames": [
+    {
+      "file": "day25_elevation.png",
+      "variable": "elevation",
+      "occlusion": true,
+      "line_width_pt": 0.48750000000000004,
+      "height_px_per_unit": 0.0195,
+      "scale_bar_length_px": 19.5,
+      "height_transform": "linear; no clamp",
+      "draw_order_indices": [
+        110,
+        108,
+        106,
+        104,
+        102,
+        100,
+        98,
+        96,
+        94,
+        92,
+        90,
+        88,
+        86,
+        84,
+        82,
+        80,
+        78,
+        76,
+        74,
+        72,
+        70,
+        68,
+        66,
+        64,
+        62,
+        60,
+        58,
+        56,
+        54,
+        52,
+        50,
+        48,
+        46,
+        44,
+        42,
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "segments": [
+        {
+          "profile_index": 110,
+          "sample_start": 287,
+          "sample_end_exclusive": 319,
+          "fill": true,
+          "top_min_px": 301.98620823065824,
+          "top_max_px": 307.1455934349734
+        },
+        {
+          "profile_index": 108,
+          "sample_start": 277,
+          "sample_end_exclusive": 333,
+          "fill": true,
+          "top_min_px": 303.74235593354217,
+          "top_max_px": 320.8283239511203
+        },
+        {
+          "profile_index": 106,
+          "sample_start": 265,
+          "sample_end_exclusive": 282,
+          "fill": true,
+          "top_min_px": 326.10476345927344,
+          "top_max_px": 334.50937519406324
+        },
+        {
+          "profile_index": 106,
+          "sample_start": 284,
+          "sample_end_exclusive": 359,
+          "fill": true,
+          "top_min_px": 322.4607862940513,
+          "top_max_px": 334.41303173066007
+        },
+        {
+          "profile_index": 104,
+          "sample_start": 223,
+          "sample_end_exclusive": 377,
+          "fill": true,
+          "top_min_px": 336.6438143565848,
+          "top_max_px": 348.09459182765033
+        },
+        {
+          "profile_index": 102,
+          "sample_start": 199,
+          "sample_end_exclusive": 398,
+          "fill": true,
+          "top_min_px": 353.64628421446946,
+          "top_max_px": 361.8765154995647
+        },
+        {
+          "profile_index": 100,
+          "sample_start": 190,
+          "sample_end_exclusive": 379,
+          "fill": true,
+          "top_min_px": 362.592459631129,
+          "top_max_px": 375.5592460157115
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 182,
+          "sample_end_exclusive": 368,
+          "fill": true,
+          "top_min_px": 373.9618757094115,
+          "top_max_px": 389.24197653186025
+        },
+        {
+          "profile_index": 96,
+          "sample_start": 177,
+          "sample_end_exclusive": 361,
+          "fill": true,
+          "top_min_px": 378.7508999038421,
+          "top_max_px": 402.9186817485772
+        },
+        {
+          "profile_index": 94,
+          "sample_start": 172,
+          "sample_end_exclusive": 359,
+          "fill": true,
+          "top_min_px": 387.5048412811969,
+          "top_max_px": 416.6074375641559
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 165,
+          "sample_end_exclusive": 362,
+          "fill": true,
+          "top_min_px": 391.14305046555666,
+          "top_max_px": 430.29016808030275
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 146,
+          "sample_end_exclusive": 361,
+          "fill": true,
+          "top_min_px": 411.74032794825814,
+          "top_max_px": 443.97289629348245
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 134,
+          "sample_end_exclusive": 367,
+          "fill": true,
+          "top_min_px": 416.4867677234382,
+          "top_max_px": 457.6556291125984
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 127,
+          "sample_end_exclusive": 366,
+          "fill": true,
+          "top_min_px": 424.6503866062852,
+          "top_max_px": 471.33835962874616
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 121,
+          "sample_end_exclusive": 360,
+          "fill": true,
+          "top_min_px": 423.36118947961074,
+          "top_max_px": 485.02109014489395
+        },
+        {
+          "profile_index": 82,
+          "sample_start": 109,
+          "sample_end_exclusive": 354,
+          "fill": true,
+          "top_min_px": 431.2830214056707,
+          "top_max_px": 498.7038206610418
+        },
+        {
+          "profile_index": 80,
+          "sample_start": 103,
+          "sample_end_exclusive": 351,
+          "fill": true,
+          "top_min_px": 445.77227810590057,
+          "top_max_px": 512.3865511771896
+        },
+        {
+          "profile_index": 78,
+          "sample_start": 96,
+          "sample_end_exclusive": 347,
+          "fill": true,
+          "top_min_px": 469.8109618386011,
+          "top_max_px": 526.0506792159508
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 90,
+          "sample_end_exclusive": 338,
+          "fill": true,
+          "top_min_px": 482.2915629907352,
+          "top_max_px": 539.6705233394009
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 80,
+          "sample_end_exclusive": 328,
+          "fill": true,
+          "top_min_px": 492.09651259257635,
+          "top_max_px": 553.3856136046275
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 77,
+          "sample_end_exclusive": 322,
+          "fill": true,
+          "top_min_px": 504.2332950801597,
+          "top_max_px": 567.0943967056469
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 64,
+          "sample_end_exclusive": 322,
+          "fill": true,
+          "top_min_px": 522.2026276165712,
+          "top_max_px": 580.7980267059617
+        },
+        {
+          "profile_index": 68,
+          "sample_start": 58,
+          "sample_end_exclusive": 320,
+          "fill": true,
+          "top_min_px": 537.3387730497112,
+          "top_max_px": 594.4822784417253
+        },
+        {
+          "profile_index": 66,
+          "sample_start": 52,
+          "sample_end_exclusive": 318,
+          "fill": true,
+          "top_min_px": 553.0917588454,
+          "top_max_px": 608.1656647902242
+        },
+        {
+          "profile_index": 64,
+          "sample_start": 43,
+          "sample_end_exclusive": 314,
+          "fill": true,
+          "top_min_px": 561.9598798339599,
+          "top_max_px": 621.8403650575661
+        },
+        {
+          "profile_index": 62,
+          "sample_start": 34,
+          "sample_end_exclusive": 311,
+          "fill": true,
+          "top_min_px": 584.1898439316507,
+          "top_max_px": 635.4894996149893
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 28,
+          "sample_end_exclusive": 308,
+          "fill": true,
+          "top_min_px": 593.4337240449665,
+          "top_max_px": 649.2466148092924
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 23,
+          "sample_end_exclusive": 304,
+          "fill": true,
+          "top_min_px": 609.202674348712,
+          "top_max_px": 662.8661931500435
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 21,
+          "sample_end_exclusive": 301,
+          "fill": true,
+          "top_min_px": 612.3354895511391,
+          "top_max_px": 676.587378511739
+        },
+        {
+          "profile_index": 54,
+          "sample_start": 21,
+          "sample_end_exclusive": 298,
+          "fill": true,
+          "top_min_px": 634.1542102101091,
+          "top_max_px": 690.3036831582729
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 23,
+          "sample_end_exclusive": 296,
+          "fill": true,
+          "top_min_px": 634.5568923558956,
+          "top_max_px": 703.9663766063666
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 19,
+          "sample_end_exclusive": 294,
+          "fill": true,
+          "top_min_px": 655.8455341269263,
+          "top_max_px": 717.6452558745631
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 25,
+          "sample_end_exclusive": 291,
+          "fill": true,
+          "top_min_px": 672.2682052863846,
+          "top_max_px": 731.366855056406
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 14,
+          "sample_end_exclusive": 286,
+          "fill": true,
+          "top_min_px": 680.7942013359797,
+          "top_max_px": 745.0020194008183
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 11,
+          "sample_end_exclusive": 279,
+          "fill": true,
+          "top_min_px": 697.1477387368931,
+          "top_max_px": 758.6793658391824
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 9,
+          "sample_end_exclusive": 279,
+          "fill": true,
+          "top_min_px": 714.5478192591444,
+          "top_max_px": 772.4050429412499
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 9,
+          "sample_end_exclusive": 276,
+          "fill": true,
+          "top_min_px": 730.441410981347,
+          "top_max_px": 786.0605073778379
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 2,
+          "sample_end_exclusive": 266,
+          "fill": true,
+          "top_min_px": 741.1617544125338,
+          "top_max_px": 799.7355155488049
+        },
+        {
+          "profile_index": 36,
+          "sample_start": 25,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 762.4212442670605,
+          "top_max_px": 813.2895760644815
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 25,
+          "sample_end_exclusive": 255,
+          "fill": true,
+          "top_min_px": 782.6928457854056,
+          "top_max_px": 827.0893530485891
+        },
+        {
+          "profile_index": 32,
+          "sample_start": 27,
+          "sample_end_exclusive": 244,
+          "fill": true,
+          "top_min_px": 793.6617434463287,
+          "top_max_px": 840.7720835647369
+        },
+        {
+          "profile_index": 30,
+          "sample_start": 31,
+          "sample_end_exclusive": 235,
+          "fill": true,
+          "top_min_px": 812.5605193421152,
+          "top_max_px": 854.4548140808847
+        },
+        {
+          "profile_index": 28,
+          "sample_start": 35,
+          "sample_end_exclusive": 229,
+          "fill": true,
+          "top_min_px": 829.5335330613881,
+          "top_max_px": 868.1375445970326
+        },
+        {
+          "profile_index": 26,
+          "sample_start": 42,
+          "sample_end_exclusive": 211,
+          "fill": true,
+          "top_min_px": 833.1755111666472,
+          "top_max_px": 881.8201019200543
+        },
+        {
+          "profile_index": 24,
+          "sample_start": 42,
+          "sample_end_exclusive": 199,
+          "fill": true,
+          "top_min_px": 851.8773075397286,
+          "top_max_px": 895.3620946760449
+        },
+        {
+          "profile_index": 22,
+          "sample_start": 55,
+          "sample_end_exclusive": 193,
+          "fill": true,
+          "top_min_px": 860.2347588200366,
+          "top_max_px": 909.062125775615
+        },
+        {
+          "profile_index": 20,
+          "sample_start": 60,
+          "sample_end_exclusive": 185,
+          "fill": true,
+          "top_min_px": 886.3144925100125,
+          "top_max_px": 922.8492183120318
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 84,
+          "sample_end_exclusive": 182,
+          "fill": true,
+          "top_min_px": 907.9550343817511,
+          "top_max_px": 936.5509584741351
+        },
+        {
+          "profile_index": 16,
+          "sample_start": 102,
+          "sample_end_exclusive": 176,
+          "fill": true,
+          "top_min_px": 922.6478948264878,
+          "top_max_px": 950.216926845492
+        },
+        {
+          "profile_index": 14,
+          "sample_start": 112,
+          "sample_end_exclusive": 171,
+          "fill": true,
+          "top_min_px": 942.3330686562342,
+          "top_max_px": 963.9166582100672
+        },
+        {
+          "profile_index": 12,
+          "sample_start": 120,
+          "sample_end_exclusive": 170,
+          "fill": true,
+          "top_min_px": 965.1715456323429,
+          "top_max_px": 977.599388726215
+        },
+        {
+          "profile_index": 10,
+          "sample_start": 125,
+          "sample_end_exclusive": 171,
+          "fill": true,
+          "top_min_px": 979.9970650355147,
+          "top_max_px": 991.2821192423628
+        },
+        {
+          "profile_index": 8,
+          "sample_start": 130,
+          "sample_end_exclusive": 171,
+          "fill": true,
+          "top_min_px": 991.1004708293725,
+          "top_max_px": 1004.9648497585107
+        },
+        {
+          "profile_index": 6,
+          "sample_start": 131,
+          "sample_end_exclusive": 171,
+          "fill": true,
+          "top_min_px": 1009.9124938336184,
+          "top_max_px": 1018.6475802746585
+        },
+        {
+          "profile_index": 4,
+          "sample_start": 130,
+          "sample_end_exclusive": 170,
+          "fill": true,
+          "top_min_px": 1023.8393878629499,
+          "top_max_px": 1032.0970017602735
+        },
+        {
+          "profile_index": 2,
+          "sample_start": 134,
+          "sample_end_exclusive": 162,
+          "fill": true,
+          "top_min_px": 1041.500246335488,
+          "top_max_px": 1046.0130413069542
+        }
+      ]
+    },
+    {
+      "file": "day25_population.png",
+      "variable": "population",
+      "occlusion": true,
+      "height_px_per_unit": 0.003125,
+      "scale_bar_length_px": 31.25,
+      "height_transform": "linear; no clamp",
+      "draw_order_indices": [
+        110,
+        108,
+        106,
+        104,
+        102,
+        100,
+        98,
+        96,
+        94,
+        92,
+        90,
+        88,
+        86,
+        84,
+        82,
+        80,
+        78,
+        76,
+        74,
+        72,
+        70,
+        68,
+        66,
+        64,
+        62,
+        60,
+        58,
+        56,
+        54,
+        52,
+        50,
+        48,
+        46,
+        44,
+        42,
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "segments": [
+        {
+          "profile_index": 110,
+          "sample_start": 290,
+          "sample_end_exclusive": 319,
+          "fill": true,
+          "top_min_px": 289.479660318448,
+          "top_max_px": 307.0633830069385
+        },
+        {
+          "profile_index": 108,
+          "sample_start": 278,
+          "sample_end_exclusive": 302,
+          "fill": true,
+          "top_min_px": 302.5621572387766,
+          "top_max_px": 320.81876971613826
+        },
+        {
+          "profile_index": 108,
+          "sample_start": 308,
+          "sample_end_exclusive": 333,
+          "fill": true,
+          "top_min_px": 319.13141400641905,
+          "top_max_px": 320.8283239511203
+        },
+        {
+          "profile_index": 106,
+          "sample_start": 265,
+          "sample_end_exclusive": 282,
+          "fill": true,
+          "top_min_px": 331.57770813428687,
+          "top_max_px": 334.5085107364316
+        },
+        {
+          "profile_index": 106,
+          "sample_start": 284,
+          "sample_end_exclusive": 359,
+          "fill": true,
+          "top_min_px": 256.41984538943393,
+          "top_max_px": 334.4542989955738
+        },
+        {
+          "profile_index": 104,
+          "sample_start": 223,
+          "sample_end_exclusive": 344,
+          "fill": true,
+          "top_min_px": 220.3215661838248,
+          "top_max_px": 348.18913988648615
+        },
+        {
+          "profile_index": 104,
+          "sample_start": 348,
+          "sample_end_exclusive": 350,
+          "fill": true,
+          "top_min_px": 348.19378498341587,
+          "top_max_px": 348.19378498341587
+        },
+        {
+          "profile_index": 104,
+          "sample_start": 352,
+          "sample_end_exclusive": 358,
+          "fill": true,
+          "top_min_px": 348.1583463395776,
+          "top_max_px": 348.1756860207829
+        },
+        {
+          "profile_index": 104,
+          "sample_start": 360,
+          "sample_end_exclusive": 377,
+          "fill": true,
+          "top_min_px": 348.01131912153846,
+          "top_max_px": 348.1816865520615
+        },
+        {
+          "profile_index": 102,
+          "sample_start": 200,
+          "sample_end_exclusive": 342,
+          "fill": true,
+          "top_min_px": 233.3439975418773,
+          "top_max_px": 361.8764250077405
+        },
+        {
+          "profile_index": 102,
+          "sample_start": 346,
+          "sample_end_exclusive": 352,
+          "fill": true,
+          "top_min_px": 361.7541496303555,
+          "top_max_px": 361.8603084588813
+        },
+        {
+          "profile_index": 102,
+          "sample_start": 354,
+          "sample_end_exclusive": 364,
+          "fill": true,
+          "top_min_px": 361.5042251514893,
+          "top_max_px": 361.8688385901431
+        },
+        {
+          "profile_index": 102,
+          "sample_start": 368,
+          "sample_end_exclusive": 398,
+          "fill": true,
+          "top_min_px": 360.97491013642104,
+          "top_max_px": 361.86598024660896
+        },
+        {
+          "profile_index": 100,
+          "sample_start": 194,
+          "sample_end_exclusive": 358,
+          "fill": true,
+          "top_min_px": 323.3901594819266,
+          "top_max_px": 375.55472240014916
+        },
+        {
+          "profile_index": 100,
+          "sample_start": 362,
+          "sample_end_exclusive": 366,
+          "fill": true,
+          "top_min_px": 375.5461493939159,
+          "top_max_px": 375.55787336570194
+        },
+        {
+          "profile_index": 100,
+          "sample_start": 372,
+          "sample_end_exclusive": 379,
+          "fill": true,
+          "top_min_px": 375.3389558999922,
+          "top_max_px": 375.5523044938685
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 186,
+          "sample_end_exclusive": 290,
+          "fill": true,
+          "top_min_px": 376.78683812272254,
+          "top_max_px": 389.23731784446613
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 292,
+          "sample_end_exclusive": 314,
+          "fill": true,
+          "top_min_px": 388.71271994024033,
+          "top_max_px": 389.229513169159
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 328,
+          "sample_end_exclusive": 332,
+          "fill": true,
+          "top_min_px": 389.2069359537655,
+          "top_max_px": 389.23423013499456
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 338,
+          "sample_end_exclusive": 344,
+          "fill": true,
+          "top_min_px": 389.21700243486305,
+          "top_max_px": 389.2397365755726
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 346,
+          "sample_end_exclusive": 348,
+          "fill": true,
+          "top_min_px": 389.2293555130808,
+          "top_max_px": 389.2293555130808
+        },
+        {
+          "profile_index": 98,
+          "sample_start": 356,
+          "sample_end_exclusive": 368,
+          "fill": true,
+          "top_min_px": 388.78011956174777,
+          "top_max_px": 389.2350811443383
+        },
+        {
+          "profile_index": 96,
+          "sample_start": 177,
+          "sample_end_exclusive": 280,
+          "fill": true,
+          "top_min_px": 364.4323974016987,
+          "top_max_px": 402.92315722611295
+        },
+        {
+          "profile_index": 96,
+          "sample_start": 284,
+          "sample_end_exclusive": 288,
+          "fill": true,
+          "top_min_px": 402.907298366905,
+          "top_max_px": 402.91298481360343
+        },
+        {
+          "profile_index": 96,
+          "sample_start": 296,
+          "sample_end_exclusive": 304,
+          "fill": true,
+          "top_min_px": 402.753234032302,
+          "top_max_px": 402.9235538198546
+        },
+        {
+          "profile_index": 96,
+          "sample_start": 336,
+          "sample_end_exclusive": 361,
+          "fill": true,
+          "top_min_px": 386.2837142856725,
+          "top_max_px": 402.92207153247546
+        },
+        {
+          "profile_index": 94,
+          "sample_start": 178,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 391.90552774491056,
+          "top_max_px": 416.586288945298
+        },
+        {
+          "profile_index": 94,
+          "sample_start": 260,
+          "sample_end_exclusive": 264,
+          "fill": true,
+          "top_min_px": 416.4241216080057,
+          "top_max_px": 416.59790453287104
+        },
+        {
+          "profile_index": 94,
+          "sample_start": 266,
+          "sample_end_exclusive": 274,
+          "fill": true,
+          "top_min_px": 416.4615361478672,
+          "top_max_px": 416.5944075766512
+        },
+        {
+          "profile_index": 94,
+          "sample_start": 290,
+          "sample_end_exclusive": 300,
+          "fill": true,
+          "top_min_px": 416.3737028011613,
+          "top_max_px": 416.6063916266457
+        },
+        {
+          "profile_index": 94,
+          "sample_start": 330,
+          "sample_end_exclusive": 359,
+          "fill": true,
+          "top_min_px": 399.92821516758096,
+          "top_max_px": 416.6051677985842
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 166,
+          "sample_end_exclusive": 244,
+          "fill": true,
+          "top_min_px": 420.5181448644128,
+          "top_max_px": 430.28920056155033
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 246,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 430.0011219436637,
+          "top_max_px": 430.2890014553078
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 264,
+          "sample_end_exclusive": 270,
+          "fill": true,
+          "top_min_px": 430.15078600194386,
+          "top_max_px": 430.2384836457422
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 272,
+          "sample_end_exclusive": 276,
+          "fill": true,
+          "top_min_px": 430.2878432271521,
+          "top_max_px": 430.2885542427989
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 278,
+          "sample_end_exclusive": 284,
+          "fill": true,
+          "top_min_px": 430.26441811144895,
+          "top_max_px": 430.28511713653415
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 318,
+          "sample_end_exclusive": 322,
+          "fill": true,
+          "top_min_px": 430.2776976646258,
+          "top_max_px": 430.27964364584614
+        },
+        {
+          "profile_index": 92,
+          "sample_start": 324,
+          "sample_end_exclusive": 362,
+          "fill": true,
+          "top_min_px": 422.6959651865166,
+          "top_max_px": 430.2012372961835
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 146,
+          "sample_end_exclusive": 206,
+          "fill": true,
+          "top_min_px": 439.6181723871463,
+          "top_max_px": 443.97258211844144
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 208,
+          "sample_end_exclusive": 224,
+          "fill": true,
+          "top_min_px": 443.6344019922622,
+          "top_max_px": 443.94260043992745
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 226,
+          "sample_end_exclusive": 232,
+          "fill": true,
+          "top_min_px": 443.6751828394792,
+          "top_max_px": 443.9623630465901
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 248,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 443.8525968747408,
+          "top_max_px": 443.9591917745265
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 260,
+          "sample_end_exclusive": 266,
+          "fill": true,
+          "top_min_px": 443.91274613735345,
+          "top_max_px": 443.9437504683583
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 274,
+          "sample_end_exclusive": 280,
+          "fill": true,
+          "top_min_px": 443.9211402339124,
+          "top_max_px": 443.97256029645996
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 282,
+          "sample_end_exclusive": 284,
+          "fill": true,
+          "top_min_px": 443.96919079646085,
+          "top_max_px": 443.96919079646085
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 296,
+          "sample_end_exclusive": 298,
+          "fill": true,
+          "top_min_px": 443.97009982147335,
+          "top_max_px": 443.97009982147335
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 308,
+          "sample_end_exclusive": 326,
+          "fill": true,
+          "top_min_px": 443.77256550069046,
+          "top_max_px": 443.9618999621094
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 328,
+          "sample_end_exclusive": 330,
+          "fill": true,
+          "top_min_px": 443.9716891558104,
+          "top_max_px": 443.9716891558104
+        },
+        {
+          "profile_index": 90,
+          "sample_start": 332,
+          "sample_end_exclusive": 361,
+          "fill": true,
+          "top_min_px": 441.24725069768806,
+          "top_max_px": 443.95227994317736
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 136,
+          "sample_end_exclusive": 208,
+          "fill": true,
+          "top_min_px": 447.24013288098286,
+          "top_max_px": 457.6551822250978
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 210,
+          "sample_end_exclusive": 220,
+          "fill": true,
+          "top_min_px": 457.46357740881285,
+          "top_max_px": 457.64570328127957
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 248,
+          "sample_end_exclusive": 252,
+          "fill": true,
+          "top_min_px": 457.6309882847163,
+          "top_max_px": 457.6378332595843
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 256,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 457.5309574331193,
+          "top_max_px": 457.620355159304
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 262,
+          "sample_end_exclusive": 268,
+          "fill": true,
+          "top_min_px": 457.609995860156,
+          "top_max_px": 457.65127144386423
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 292,
+          "sample_end_exclusive": 298,
+          "fill": true,
+          "top_min_px": 457.58414600973845,
+          "top_max_px": 457.6371810126853
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 332,
+          "sample_end_exclusive": 334,
+          "fill": true,
+          "top_min_px": 457.65469312821875,
+          "top_max_px": 457.65469312821875
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 358,
+          "sample_end_exclusive": 360,
+          "fill": true,
+          "top_min_px": 457.6540327875678,
+          "top_max_px": 457.6540327875678
+        },
+        {
+          "profile_index": 88,
+          "sample_start": 362,
+          "sample_end_exclusive": 367,
+          "fill": true,
+          "top_min_px": 457.0463240333058,
+          "top_max_px": 457.64175020624316
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 132,
+          "sample_end_exclusive": 194,
+          "fill": true,
+          "top_min_px": 464.94275410895966,
+          "top_max_px": 471.33189182250095
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 198,
+          "sample_end_exclusive": 202,
+          "fill": true,
+          "top_min_px": 471.29436392815586,
+          "top_max_px": 471.3197807006192
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 218,
+          "sample_end_exclusive": 224,
+          "fill": true,
+          "top_min_px": 471.25260388165515,
+          "top_max_px": 471.3013059663008
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 276,
+          "sample_end_exclusive": 278,
+          "fill": true,
+          "top_min_px": 471.3334004599721,
+          "top_max_px": 471.3334004599721
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 286,
+          "sample_end_exclusive": 288,
+          "fill": true,
+          "top_min_px": 471.1896572425849,
+          "top_max_px": 471.1896572425849
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 300,
+          "sample_end_exclusive": 302,
+          "fill": true,
+          "top_min_px": 471.33123872868055,
+          "top_max_px": 471.33123872868055
+        },
+        {
+          "profile_index": 86,
+          "sample_start": 358,
+          "sample_end_exclusive": 366,
+          "fill": true,
+          "top_min_px": 470.7494234213868,
+          "top_max_px": 471.3354342599519
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 124,
+          "sample_end_exclusive": 194,
+          "fill": true,
+          "top_min_px": 482.9701874594175,
+          "top_max_px": 485.02083351988983
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 236,
+          "sample_end_exclusive": 240,
+          "fill": true,
+          "top_min_px": 485.0089080105972,
+          "top_max_px": 485.01789204487284
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 246,
+          "sample_end_exclusive": 248,
+          "fill": true,
+          "top_min_px": 485.01703446049646,
+          "top_max_px": 485.01703446049646
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 272,
+          "sample_end_exclusive": 280,
+          "fill": true,
+          "top_min_px": 484.7112630072952,
+          "top_max_px": 485.01979213240264
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 344,
+          "sample_end_exclusive": 346,
+          "fill": true,
+          "top_min_px": 485.0165367730515,
+          "top_max_px": 485.0165367730515
+        },
+        {
+          "profile_index": 84,
+          "sample_start": 348,
+          "sample_end_exclusive": 360,
+          "fill": true,
+          "top_min_px": 480.0751531267952,
+          "top_max_px": 485.00459701665386
+        },
+        {
+          "profile_index": 82,
+          "sample_start": 112,
+          "sample_end_exclusive": 194,
+          "fill": true,
+          "top_min_px": 490.1433664079345,
+          "top_max_px": 498.6914284423165
+        },
+        {
+          "profile_index": 82,
+          "sample_start": 256,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 498.68448729244375,
+          "top_max_px": 498.70319407978644
+        },
+        {
+          "profile_index": 82,
+          "sample_start": 346,
+          "sample_end_exclusive": 348,
+          "fill": true,
+          "top_min_px": 498.68810983603436,
+          "top_max_px": 498.68810983603436
+        },
+        {
+          "profile_index": 80,
+          "sample_start": 106,
+          "sample_end_exclusive": 176,
+          "fill": true,
+          "top_min_px": 477.03687950937535,
+          "top_max_px": 512.3791673834575
+        },
+        {
+          "profile_index": 80,
+          "sample_start": 178,
+          "sample_end_exclusive": 190,
+          "fill": true,
+          "top_min_px": 511.73521271950096,
+          "top_max_px": 512.383840717785
+        },
+        {
+          "profile_index": 80,
+          "sample_start": 256,
+          "sample_end_exclusive": 264,
+          "fill": true,
+          "top_min_px": 512.3143669143226,
+          "top_max_px": 512.3803518022667
+        },
+        {
+          "profile_index": 80,
+          "sample_start": 334,
+          "sample_end_exclusive": 336,
+          "fill": true,
+          "top_min_px": 512.3865511771896,
+          "top_max_px": 512.3865511771896
+        },
+        {
+          "profile_index": 80,
+          "sample_start": 344,
+          "sample_end_exclusive": 350,
+          "fill": true,
+          "top_min_px": 512.3605743523826,
+          "top_max_px": 512.3852959678647
+        },
+        {
+          "profile_index": 78,
+          "sample_start": 96,
+          "sample_end_exclusive": 188,
+          "fill": true,
+          "top_min_px": 516.7417441116403,
+          "top_max_px": 526.0676011464316
+        },
+        {
+          "profile_index": 78,
+          "sample_start": 200,
+          "sample_end_exclusive": 202,
+          "fill": true,
+          "top_min_px": 526.0599769652579,
+          "top_max_px": 526.0599769652579
+        },
+        {
+          "profile_index": 78,
+          "sample_start": 248,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 525.7855224458025,
+          "top_max_px": 526.0407024181903
+        },
+        {
+          "profile_index": 78,
+          "sample_start": 296,
+          "sample_end_exclusive": 298,
+          "fill": true,
+          "top_min_px": 526.0639506433382,
+          "top_max_px": 526.0639506433382
+        },
+        {
+          "profile_index": 78,
+          "sample_start": 338,
+          "sample_end_exclusive": 347,
+          "fill": true,
+          "top_min_px": 526.0646900808196,
+          "top_max_px": 526.069075605831
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 90,
+          "sample_end_exclusive": 178,
+          "fill": true,
+          "top_min_px": 506.42050295908274,
+          "top_max_px": 539.7426652594311
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 236,
+          "sample_end_exclusive": 250,
+          "fill": true,
+          "top_min_px": 539.6918650275403,
+          "top_max_px": 539.7518367094876
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 252,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 539.694831536834,
+          "top_max_px": 539.7471013719057
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 296,
+          "sample_end_exclusive": 298,
+          "fill": true,
+          "top_min_px": 539.7261999188297,
+          "top_max_px": 539.7261999188297
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 310,
+          "sample_end_exclusive": 312,
+          "fill": true,
+          "top_min_px": 539.7472278814022,
+          "top_max_px": 539.7472278814022
+        },
+        {
+          "profile_index": 76,
+          "sample_start": 334,
+          "sample_end_exclusive": 336,
+          "fill": true,
+          "top_min_px": 539.7507219313485,
+          "top_max_px": 539.7507219313485
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 80,
+          "sample_end_exclusive": 176,
+          "fill": true,
+          "top_min_px": 488.3907263405546,
+          "top_max_px": 553.4189045036602
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 184,
+          "sample_end_exclusive": 188,
+          "fill": true,
+          "top_min_px": 553.3468775037135,
+          "top_max_px": 553.434742725633
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 214,
+          "sample_end_exclusive": 216,
+          "fill": true,
+          "top_min_px": 553.4343010037596,
+          "top_max_px": 553.4343010037596
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 228,
+          "sample_end_exclusive": 242,
+          "fill": true,
+          "top_min_px": 553.2208329784143,
+          "top_max_px": 553.4219428255846
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 254,
+          "sample_end_exclusive": 256,
+          "fill": true,
+          "top_min_px": 553.4246068226098,
+          "top_max_px": 553.4246068226098
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 274,
+          "sample_end_exclusive": 276,
+          "fill": true,
+          "top_min_px": 553.4344562975149,
+          "top_max_px": 553.4344562975149
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 278,
+          "sample_end_exclusive": 280,
+          "fill": true,
+          "top_min_px": 553.4343397600152,
+          "top_max_px": 553.4343397600152
+        },
+        {
+          "profile_index": 74,
+          "sample_start": 318,
+          "sample_end_exclusive": 328,
+          "fill": true,
+          "top_min_px": 552.7465487720835,
+          "top_max_px": 553.4259573880856
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 80,
+          "sample_end_exclusive": 188,
+          "fill": true,
+          "top_min_px": 517.3198598594413,
+          "top_max_px": 567.1155005793096
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 210,
+          "sample_end_exclusive": 212,
+          "fill": true,
+          "top_min_px": 567.1108091386625,
+          "top_max_px": 567.1108091386625
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 222,
+          "sample_end_exclusive": 226,
+          "fill": true,
+          "top_min_px": 567.1112789230663,
+          "top_max_px": 567.1171512292823
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 230,
+          "sample_end_exclusive": 244,
+          "fill": true,
+          "top_min_px": 567.0018835529461,
+          "top_max_px": 567.1060663511287
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 256,
+          "sample_end_exclusive": 258,
+          "fill": true,
+          "top_min_px": 567.1124865886297,
+          "top_max_px": 567.1124865886297
+        },
+        {
+          "profile_index": 72,
+          "sample_start": 316,
+          "sample_end_exclusive": 322,
+          "fill": true,
+          "top_min_px": 565.8095702044809,
+          "top_max_px": 567.110219372996
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 66,
+          "sample_end_exclusive": 174,
+          "fill": true,
+          "top_min_px": 571.0018754737545,
+          "top_max_px": 580.7998704766773
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 176,
+          "sample_end_exclusive": 192,
+          "fill": true,
+          "top_min_px": 579.914289474776,
+          "top_max_px": 580.7950276267342
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 216,
+          "sample_end_exclusive": 230,
+          "fill": true,
+          "top_min_px": 579.7765967957769,
+          "top_max_px": 580.7845035297074
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 232,
+          "sample_end_exclusive": 238,
+          "fill": true,
+          "top_min_px": 580.6989763175928,
+          "top_max_px": 580.7288526548864
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 252,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 580.797579535991,
+          "top_max_px": 580.797579535991
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 266,
+          "sample_end_exclusive": 268,
+          "fill": true,
+          "top_min_px": 580.7869076391192,
+          "top_max_px": 580.7869076391192
+        },
+        {
+          "profile_index": 70,
+          "sample_start": 314,
+          "sample_end_exclusive": 322,
+          "fill": true,
+          "top_min_px": 575.6253984880726,
+          "top_max_px": 580.6690954995435
+        },
+        {
+          "profile_index": 68,
+          "sample_start": 58,
+          "sample_end_exclusive": 200,
+          "fill": true,
+          "top_min_px": 569.369668840169,
+          "top_max_px": 594.4755359490072
+        },
+        {
+          "profile_index": 68,
+          "sample_start": 208,
+          "sample_end_exclusive": 212,
+          "fill": true,
+          "top_min_px": 594.474771611317,
+          "top_max_px": 594.4777262146762
+        },
+        {
+          "profile_index": 68,
+          "sample_start": 214,
+          "sample_end_exclusive": 226,
+          "fill": true,
+          "top_min_px": 594.2363274017176,
+          "top_max_px": 594.4636912928838
+        },
+        {
+          "profile_index": 68,
+          "sample_start": 290,
+          "sample_end_exclusive": 294,
+          "fill": true,
+          "top_min_px": 594.4062945797517,
+          "top_max_px": 594.482407027198
+        },
+        {
+          "profile_index": 68,
+          "sample_start": 304,
+          "sample_end_exclusive": 320,
+          "fill": true,
+          "top_min_px": 566.5673725525935,
+          "top_max_px": 594.4791172272237
+        },
+        {
+          "profile_index": 66,
+          "sample_start": 54,
+          "sample_end_exclusive": 208,
+          "fill": true,
+          "top_min_px": 577.7949702184908,
+          "top_max_px": 608.1628677214757
+        },
+        {
+          "profile_index": 66,
+          "sample_start": 262,
+          "sample_end_exclusive": 264,
+          "fill": true,
+          "top_min_px": 608.1637689215158,
+          "top_max_px": 608.1637689215158
+        },
+        {
+          "profile_index": 66,
+          "sample_start": 294,
+          "sample_end_exclusive": 318,
+          "fill": true,
+          "top_min_px": 606.2846380044035,
+          "top_max_px": 608.1652199871168
+        },
+        {
+          "profile_index": 64,
+          "sample_start": 44,
+          "sample_end_exclusive": 178,
+          "fill": true,
+          "top_min_px": 602.863077301287,
+          "top_max_px": 621.8469848875766
+        },
+        {
+          "profile_index": 64,
+          "sample_start": 182,
+          "sample_end_exclusive": 188,
+          "fill": true,
+          "top_min_px": 621.7907930810815,
+          "top_max_px": 621.847266596986
+        },
+        {
+          "profile_index": 64,
+          "sample_start": 196,
+          "sample_end_exclusive": 198,
+          "fill": true,
+          "top_min_px": 621.8358810281376,
+          "top_max_px": 621.8358810281376
+        },
+        {
+          "profile_index": 64,
+          "sample_start": 288,
+          "sample_end_exclusive": 310,
+          "fill": true,
+          "top_min_px": 620.9604673214135,
+          "top_max_px": 621.8451701719425
+        },
+        {
+          "profile_index": 62,
+          "sample_start": 34,
+          "sample_end_exclusive": 100,
+          "fill": true,
+          "top_min_px": 622.0524014501328,
+          "top_max_px": 635.5265358599796
+        },
+        {
+          "profile_index": 62,
+          "sample_start": 114,
+          "sample_end_exclusive": 190,
+          "fill": true,
+          "top_min_px": 633.0355142288571,
+          "top_max_px": 635.5303273506424
+        },
+        {
+          "profile_index": 62,
+          "sample_start": 192,
+          "sample_end_exclusive": 196,
+          "fill": true,
+          "top_min_px": 635.4428020656304,
+          "top_max_px": 635.4979943789853
+        },
+        {
+          "profile_index": 62,
+          "sample_start": 228,
+          "sample_end_exclusive": 230,
+          "fill": true,
+          "top_min_px": 635.5180553351141,
+          "top_max_px": 635.5180553351141
+        },
+        {
+          "profile_index": 62,
+          "sample_start": 284,
+          "sample_end_exclusive": 311,
+          "fill": true,
+          "top_min_px": 635.0925843887925,
+          "top_max_px": 635.530277010003
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 28,
+          "sample_end_exclusive": 32,
+          "fill": true,
+          "top_min_px": 649.2094553574617,
+          "top_max_px": 649.2108561330443
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 34,
+          "sample_end_exclusive": 120,
+          "fill": true,
+          "top_min_px": 645.1417353699496,
+          "top_max_px": 649.200470376159
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 122,
+          "sample_end_exclusive": 156,
+          "fill": true,
+          "top_min_px": 647.5648835016694,
+          "top_max_px": 649.2022034385755
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 164,
+          "sample_end_exclusive": 172,
+          "fill": true,
+          "top_min_px": 648.5017192169605,
+          "top_max_px": 649.2030395761644
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 176,
+          "sample_end_exclusive": 178,
+          "fill": true,
+          "top_min_px": 649.2088221949339,
+          "top_max_px": 649.2088221949339
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 278,
+          "sample_end_exclusive": 280,
+          "fill": true,
+          "top_min_px": 649.2062752979389,
+          "top_max_px": 649.2062752979389
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 282,
+          "sample_end_exclusive": 292,
+          "fill": true,
+          "top_min_px": 648.284237262425,
+          "top_max_px": 649.2122108855332
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 294,
+          "sample_end_exclusive": 302,
+          "fill": true,
+          "top_min_px": 649.156203132663,
+          "top_max_px": 649.2117945573805
+        },
+        {
+          "profile_index": 60,
+          "sample_start": 304,
+          "sample_end_exclusive": 308,
+          "fill": true,
+          "top_min_px": 649.2085161433489,
+          "top_max_px": 649.2132998511707
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 23,
+          "sample_end_exclusive": 122,
+          "fill": true,
+          "top_min_px": 648.6821792014539,
+          "top_max_px": 662.8833464188418
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 124,
+          "sample_end_exclusive": 136,
+          "fill": true,
+          "top_min_px": 662.2373070222689,
+          "top_max_px": 662.8917718486292
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 140,
+          "sample_end_exclusive": 150,
+          "fill": true,
+          "top_min_px": 662.8566168892095,
+          "top_max_px": 662.8870737955571
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 152,
+          "sample_end_exclusive": 156,
+          "fill": true,
+          "top_min_px": 662.7607435923666,
+          "top_max_px": 662.8579941797434
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 160,
+          "sample_end_exclusive": 174,
+          "fill": true,
+          "top_min_px": 662.1286110195462,
+          "top_max_px": 662.8781227112413
+        },
+        {
+          "profile_index": 58,
+          "sample_start": 270,
+          "sample_end_exclusive": 298,
+          "fill": true,
+          "top_min_px": 653.6062044561505,
+          "top_max_px": 662.8958371704342
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 21,
+          "sample_end_exclusive": 118,
+          "fill": true,
+          "top_min_px": 671.3222792250318,
+          "top_max_px": 676.5564607806067
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 120,
+          "sample_end_exclusive": 132,
+          "fill": true,
+          "top_min_px": 676.3979297300782,
+          "top_max_px": 676.578199639705
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 136,
+          "sample_end_exclusive": 146,
+          "fill": true,
+          "top_min_px": 676.5316382771805,
+          "top_max_px": 676.566505767962
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 154,
+          "sample_end_exclusive": 156,
+          "fill": true,
+          "top_min_px": 676.5775359303556,
+          "top_max_px": 676.5775359303556
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 164,
+          "sample_end_exclusive": 176,
+          "fill": true,
+          "top_min_px": 675.2094865442933,
+          "top_max_px": 676.5747487584576
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 180,
+          "sample_end_exclusive": 182,
+          "fill": true,
+          "top_min_px": 676.5636148584522,
+          "top_max_px": 676.5636148584522
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 270,
+          "sample_end_exclusive": 278,
+          "fill": true,
+          "top_min_px": 676.5077347048773,
+          "top_max_px": 676.5671820082916
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 280,
+          "sample_end_exclusive": 286,
+          "fill": true,
+          "top_min_px": 676.4783991771266,
+          "top_max_px": 676.5614439424808
+        },
+        {
+          "profile_index": 56,
+          "sample_start": 298,
+          "sample_end_exclusive": 301,
+          "fill": true,
+          "top_min_px": 676.5053111059107,
+          "top_max_px": 676.5512766814377
+        },
+        {
+          "profile_index": 54,
+          "sample_start": 21,
+          "sample_end_exclusive": 146,
+          "fill": true,
+          "top_min_px": 675.4154834206048,
+          "top_max_px": 690.2600509775275
+        },
+        {
+          "profile_index": 54,
+          "sample_start": 166,
+          "sample_end_exclusive": 174,
+          "fill": true,
+          "top_min_px": 689.9005418537482,
+          "top_max_px": 690.2480642399117
+        },
+        {
+          "profile_index": 54,
+          "sample_start": 176,
+          "sample_end_exclusive": 182,
+          "fill": true,
+          "top_min_px": 689.9415850951168,
+          "top_max_px": 690.2415810371581
+        },
+        {
+          "profile_index": 54,
+          "sample_start": 266,
+          "sample_end_exclusive": 268,
+          "fill": true,
+          "top_min_px": 690.2452334523732,
+          "top_max_px": 690.2452334523732
+        },
+        {
+          "profile_index": 54,
+          "sample_start": 270,
+          "sample_end_exclusive": 284,
+          "fill": true,
+          "top_min_px": 690.0143467932539,
+          "top_max_px": 690.2589593683783
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 23,
+          "sample_end_exclusive": 122,
+          "fill": true,
+          "top_min_px": 667.6243731077676,
+          "top_max_px": 703.9402202062923
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 124,
+          "sample_end_exclusive": 128,
+          "fill": true,
+          "top_min_px": 703.8891434187684,
+          "top_max_px": 703.9195802315985
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 130,
+          "sample_end_exclusive": 148,
+          "fill": true,
+          "top_min_px": 703.7105978998038,
+          "top_max_px": 703.9434670157647
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 150,
+          "sample_end_exclusive": 152,
+          "fill": true,
+          "top_min_px": 703.9238227595258,
+          "top_max_px": 703.9238227595258
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 154,
+          "sample_end_exclusive": 156,
+          "fill": true,
+          "top_min_px": 703.9447784032589,
+          "top_max_px": 703.9447784032589
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 158,
+          "sample_end_exclusive": 162,
+          "fill": true,
+          "top_min_px": 703.9415305188772,
+          "top_max_px": 703.9436406470053
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 172,
+          "sample_end_exclusive": 176,
+          "fill": true,
+          "top_min_px": 703.9052536909617,
+          "top_max_px": 703.9395927439127
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 186,
+          "sample_end_exclusive": 190,
+          "fill": true,
+          "top_min_px": 703.9205488063544,
+          "top_max_px": 703.9444042751365
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 200,
+          "sample_end_exclusive": 202,
+          "fill": true,
+          "top_min_px": 703.9393771406994,
+          "top_max_px": 703.9393771406994
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 256,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 703.9167186159324,
+          "top_max_px": 703.938648131202
+        },
+        {
+          "profile_index": 52,
+          "sample_start": 262,
+          "sample_end_exclusive": 288,
+          "fill": true,
+          "top_min_px": 703.0573393070986,
+          "top_max_px": 703.9429303438784
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 22,
+          "sample_end_exclusive": 58,
+          "fill": true,
+          "top_min_px": 716.4303584279493,
+          "top_max_px": 717.5973243569956
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 60,
+          "sample_end_exclusive": 114,
+          "fill": true,
+          "top_min_px": 705.4496834543535,
+          "top_max_px": 717.578908603848
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 116,
+          "sample_end_exclusive": 130,
+          "fill": true,
+          "top_min_px": 716.8472876934801,
+          "top_max_px": 717.6270743100439
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 138,
+          "sample_end_exclusive": 146,
+          "fill": true,
+          "top_min_px": 717.5384082437727,
+          "top_max_px": 717.6251388131642
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 252,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 717.6187222288456,
+          "top_max_px": 717.6187222288456
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 256,
+          "sample_end_exclusive": 278,
+          "fill": true,
+          "top_min_px": 716.684537667269,
+          "top_max_px": 717.6268297569128
+        },
+        {
+          "profile_index": 50,
+          "sample_start": 288,
+          "sample_end_exclusive": 294,
+          "fill": true,
+          "top_min_px": 717.5430930474541,
+          "top_max_px": 717.6192359443871
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 25,
+          "sample_end_exclusive": 110,
+          "fill": true,
+          "top_min_px": 728.6844752791422,
+          "top_max_px": 731.3093485088368
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 114,
+          "sample_end_exclusive": 118,
+          "fill": true,
+          "top_min_px": 731.3015399980094,
+          "top_max_px": 731.3052525449395
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 120,
+          "sample_end_exclusive": 130,
+          "fill": true,
+          "top_min_px": 731.1914091497744,
+          "top_max_px": 731.2980056980243
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 214,
+          "sample_end_exclusive": 218,
+          "fill": true,
+          "top_min_px": 731.3035913293451,
+          "top_max_px": 731.3082043449479
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 256,
+          "sample_end_exclusive": 258,
+          "fill": true,
+          "top_min_px": 731.3072476918195,
+          "top_max_px": 731.3072476918195
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 260,
+          "sample_end_exclusive": 276,
+          "fill": true,
+          "top_min_px": 730.8296520237429,
+          "top_max_px": 731.3096284386786
+        },
+        {
+          "profile_index": 48,
+          "sample_start": 288,
+          "sample_end_exclusive": 291,
+          "fill": true,
+          "top_min_px": 731.2469313109257,
+          "top_max_px": 731.309813088676
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 14,
+          "sample_end_exclusive": 16,
+          "fill": true,
+          "top_min_px": 744.961101037405,
+          "top_max_px": 744.961101037405
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 20,
+          "sample_end_exclusive": 98,
+          "fill": true,
+          "top_min_px": 720.2321364141237,
+          "top_max_px": 744.9879712923598
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 100,
+          "sample_end_exclusive": 102,
+          "fill": true,
+          "top_min_px": 744.9866329734964,
+          "top_max_px": 744.9866329734964
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 110,
+          "sample_end_exclusive": 124,
+          "fill": true,
+          "top_min_px": 744.9539599142205,
+          "top_max_px": 744.9896997267083
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 126,
+          "sample_end_exclusive": 136,
+          "fill": true,
+          "top_min_px": 744.8922189890808,
+          "top_max_px": 744.9749800082232
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 246,
+          "sample_end_exclusive": 250,
+          "fill": true,
+          "top_min_px": 744.8891244641906,
+          "top_max_px": 744.9919944610615
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 252,
+          "sample_end_exclusive": 268,
+          "fill": true,
+          "top_min_px": 744.4509415938687,
+          "top_max_px": 744.9651059985329
+        },
+        {
+          "profile_index": 46,
+          "sample_start": 278,
+          "sample_end_exclusive": 286,
+          "fill": true,
+          "top_min_px": 744.9738467736687,
+          "top_max_px": 744.9908112735656
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 12,
+          "sample_end_exclusive": 92,
+          "fill": true,
+          "top_min_px": 754.8579927605829,
+          "top_max_px": 758.6711913178926
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 94,
+          "sample_end_exclusive": 112,
+          "fill": true,
+          "top_min_px": 758.5776175174881,
+          "top_max_px": 758.6718223959925
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 116,
+          "sample_end_exclusive": 122,
+          "fill": true,
+          "top_min_px": 758.5537823365787,
+          "top_max_px": 758.6753903522175
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 130,
+          "sample_end_exclusive": 138,
+          "fill": true,
+          "top_min_px": 758.375511564712,
+          "top_max_px": 758.6739798084619
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 156,
+          "sample_end_exclusive": 164,
+          "fill": true,
+          "top_min_px": 758.6457277613478,
+          "top_max_px": 758.6720662116791
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 192,
+          "sample_end_exclusive": 194,
+          "fill": true,
+          "top_min_px": 758.6318700649562,
+          "top_max_px": 758.6318700649562
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 248,
+          "sample_end_exclusive": 266,
+          "fill": true,
+          "top_min_px": 758.1315067732493,
+          "top_max_px": 758.6741267616181
+        },
+        {
+          "profile_index": 44,
+          "sample_start": 274,
+          "sample_end_exclusive": 279,
+          "fill": true,
+          "top_min_px": 758.6524056815775,
+          "top_max_px": 758.6715860584304
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 10,
+          "sample_end_exclusive": 82,
+          "fill": true,
+          "top_min_px": 757.226747050263,
+          "top_max_px": 772.3572743120706
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 84,
+          "sample_end_exclusive": 110,
+          "fill": true,
+          "top_min_px": 769.4975793150589,
+          "top_max_px": 772.3392336901729
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 112,
+          "sample_end_exclusive": 118,
+          "fill": true,
+          "top_min_px": 772.269957437493,
+          "top_max_px": 772.3487412965959
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 148,
+          "sample_end_exclusive": 156,
+          "fill": true,
+          "top_min_px": 772.238360128236,
+          "top_max_px": 772.3566240465138
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 198,
+          "sample_end_exclusive": 204,
+          "fill": true,
+          "top_min_px": 772.0350964914179,
+          "top_max_px": 772.3555482089855
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 216,
+          "sample_end_exclusive": 220,
+          "fill": true,
+          "top_min_px": 772.3539738433188,
+          "top_max_px": 772.3564734746107
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 240,
+          "sample_end_exclusive": 256,
+          "fill": true,
+          "top_min_px": 771.2954637779259,
+          "top_max_px": 772.3420278214719
+        },
+        {
+          "profile_index": 42,
+          "sample_start": 274,
+          "sample_end_exclusive": 279,
+          "fill": true,
+          "top_min_px": 772.18228843439,
+          "top_max_px": 772.3101767436006
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 9,
+          "sample_end_exclusive": 102,
+          "fill": true,
+          "top_min_px": 770.7604524258944,
+          "top_max_px": 786.0407525782894
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 106,
+          "sample_end_exclusive": 120,
+          "fill": true,
+          "top_min_px": 785.9754241532601,
+          "top_max_px": 786.0409417126515
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 124,
+          "sample_end_exclusive": 142,
+          "fill": true,
+          "top_min_px": 785.6189200176347,
+          "top_max_px": 786.0406125501452
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 220,
+          "sample_end_exclusive": 258,
+          "fill": true,
+          "top_min_px": 782.4724638632454,
+          "top_max_px": 786.0381764939126
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 266,
+          "sample_end_exclusive": 270,
+          "fill": true,
+          "top_min_px": 785.978972475296,
+          "top_max_px": 786.0032978349087
+        },
+        {
+          "profile_index": 40,
+          "sample_start": 272,
+          "sample_end_exclusive": 276,
+          "fill": true,
+          "top_min_px": 785.9170003426599,
+          "top_max_px": 786.0311747658719
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 4,
+          "sample_end_exclusive": 134,
+          "fill": true,
+          "top_min_px": 778.2921913023611,
+          "top_max_px": 799.7236371006622
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 136,
+          "sample_end_exclusive": 148,
+          "fill": true,
+          "top_min_px": 799.6650878008028,
+          "top_max_px": 799.7180173036913
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 224,
+          "sample_end_exclusive": 246,
+          "fill": true,
+          "top_min_px": 799.3337287132201,
+          "top_max_px": 799.7225910913005
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 248,
+          "sample_end_exclusive": 250,
+          "fill": true,
+          "top_min_px": 799.7196188194482,
+          "top_max_px": 799.7196188194482
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 254,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 799.6359379389827,
+          "top_max_px": 799.7167190663089
+        },
+        {
+          "profile_index": 38,
+          "sample_start": 262,
+          "sample_end_exclusive": 266,
+          "fill": true,
+          "top_min_px": 799.660773714307,
+          "top_max_px": 799.7135665006974
+        },
+        {
+          "profile_index": 36,
+          "sample_start": 25,
+          "sample_end_exclusive": 128,
+          "fill": true,
+          "top_min_px": 768.0995828692458,
+          "top_max_px": 813.4053859293117
+        },
+        {
+          "profile_index": 36,
+          "sample_start": 202,
+          "sample_end_exclusive": 204,
+          "fill": true,
+          "top_min_px": 813.4056372886878,
+          "top_max_px": 813.4056372886878
+        },
+        {
+          "profile_index": 36,
+          "sample_start": 218,
+          "sample_end_exclusive": 236,
+          "fill": true,
+          "top_min_px": 812.7600996584288,
+          "top_max_px": 813.4029648543458
+        },
+        {
+          "profile_index": 36,
+          "sample_start": 246,
+          "sample_end_exclusive": 260,
+          "fill": true,
+          "top_min_px": 811.7445028544992,
+          "top_max_px": 813.4054340732805
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 26,
+          "sample_end_exclusive": 104,
+          "fill": true,
+          "top_min_px": 814.9959980142974,
+          "top_max_px": 827.0883284329177
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 108,
+          "sample_end_exclusive": 116,
+          "fill": true,
+          "top_min_px": 826.9949123200234,
+          "top_max_px": 827.0820369891446
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 120,
+          "sample_end_exclusive": 126,
+          "fill": true,
+          "top_min_px": 827.0700199987014,
+          "top_max_px": 827.0885973454658
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 216,
+          "sample_end_exclusive": 232,
+          "fill": true,
+          "top_min_px": 826.6787543016459,
+          "top_max_px": 827.0790580642615
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 238,
+          "sample_end_exclusive": 244,
+          "fill": true,
+          "top_min_px": 827.0571222332046,
+          "top_max_px": 827.0842284080079
+        },
+        {
+          "profile_index": 34,
+          "sample_start": 250,
+          "sample_end_exclusive": 254,
+          "fill": true,
+          "top_min_px": 826.9261218064814,
+          "top_max_px": 827.0673150299323
+        },
+        {
+          "profile_index": 32,
+          "sample_start": 28,
+          "sample_end_exclusive": 130,
+          "fill": true,
+          "top_min_px": 823.4241518801833,
+          "top_max_px": 840.7631179052462
+        },
+        {
+          "profile_index": 32,
+          "sample_start": 142,
+          "sample_end_exclusive": 144,
+          "fill": true,
+          "top_min_px": 840.7665882085506,
+          "top_max_px": 840.7665882085506
+        },
+        {
+          "profile_index": 32,
+          "sample_start": 202,
+          "sample_end_exclusive": 204,
+          "fill": true,
+          "top_min_px": 840.7699233990801,
+          "top_max_px": 840.7699233990801
+        },
+        {
+          "profile_index": 32,
+          "sample_start": 206,
+          "sample_end_exclusive": 232,
+          "fill": true,
+          "top_min_px": 840.5390751719764,
+          "top_max_px": 840.7679518365125
+        },
+        {
+          "profile_index": 32,
+          "sample_start": 234,
+          "sample_end_exclusive": 244,
+          "fill": true,
+          "top_min_px": 840.4254756995537,
+          "top_max_px": 840.7333554925453
+        },
+        {
+          "profile_index": 30,
+          "sample_start": 32,
+          "sample_end_exclusive": 124,
+          "fill": true,
+          "top_min_px": 842.6054517775681,
+          "top_max_px": 854.4544491933799
+        },
+        {
+          "profile_index": 30,
+          "sample_start": 212,
+          "sample_end_exclusive": 230,
+          "fill": true,
+          "top_min_px": 853.7528693278693,
+          "top_max_px": 854.4416241247579
+        },
+        {
+          "profile_index": 30,
+          "sample_start": 232,
+          "sample_end_exclusive": 235,
+          "fill": true,
+          "top_min_px": 853.749899483967,
+          "top_max_px": 854.3967732127197
+        },
+        {
+          "profile_index": 28,
+          "sample_start": 38,
+          "sample_end_exclusive": 128,
+          "fill": true,
+          "top_min_px": 854.2073084109455,
+          "top_max_px": 868.1255397500928
+        },
+        {
+          "profile_index": 28,
+          "sample_start": 132,
+          "sample_end_exclusive": 148,
+          "fill": true,
+          "top_min_px": 867.6130223855602,
+          "top_max_px": 868.1328680407713
+        },
+        {
+          "profile_index": 28,
+          "sample_start": 196,
+          "sample_end_exclusive": 229,
+          "fill": true,
+          "top_min_px": 839.9505469393205,
+          "top_max_px": 868.1351571001337
+        },
+        {
+          "profile_index": 26,
+          "sample_start": 44,
+          "sample_end_exclusive": 124,
+          "fill": true,
+          "top_min_px": 852.5333737464697,
+          "top_max_px": 881.8058588572853
+        },
+        {
+          "profile_index": 26,
+          "sample_start": 126,
+          "sample_end_exclusive": 130,
+          "fill": true,
+          "top_min_px": 881.8046903068508,
+          "top_max_px": 881.8148353820742
+        },
+        {
+          "profile_index": 26,
+          "sample_start": 134,
+          "sample_end_exclusive": 138,
+          "fill": true,
+          "top_min_px": 881.8015524132486,
+          "top_max_px": 881.8140876414562
+        },
+        {
+          "profile_index": 26,
+          "sample_start": 194,
+          "sample_end_exclusive": 211,
+          "fill": true,
+          "top_min_px": 880.5348792553955,
+          "top_max_px": 881.8200308811131
+        },
+        {
+          "profile_index": 24,
+          "sample_start": 42,
+          "sample_end_exclusive": 126,
+          "fill": true,
+          "top_min_px": 816.8920901115212,
+          "top_max_px": 895.501361263699
+        },
+        {
+          "profile_index": 24,
+          "sample_start": 180,
+          "sample_end_exclusive": 199,
+          "fill": true,
+          "top_min_px": 895.2521369835521,
+          "top_max_px": 895.5024456980798
+        },
+        {
+          "profile_index": 22,
+          "sample_start": 55,
+          "sample_end_exclusive": 130,
+          "fill": true,
+          "top_min_px": 871.0199601073062,
+          "top_max_px": 909.1592048831528
+        },
+        {
+          "profile_index": 22,
+          "sample_start": 176,
+          "sample_end_exclusive": 178,
+          "fill": true,
+          "top_min_px": 909.1794624360988,
+          "top_max_px": 909.1794624360988
+        },
+        {
+          "profile_index": 22,
+          "sample_start": 182,
+          "sample_end_exclusive": 193,
+          "fill": true,
+          "top_min_px": 909.0983857739141,
+          "top_max_px": 909.1851239017222
+        },
+        {
+          "profile_index": 20,
+          "sample_start": 60,
+          "sample_end_exclusive": 76,
+          "fill": true,
+          "top_min_px": 909.0399165210642,
+          "top_max_px": 922.8648209719248
+        },
+        {
+          "profile_index": 20,
+          "sample_start": 78,
+          "sample_end_exclusive": 124,
+          "fill": true,
+          "top_min_px": 918.3835154810317,
+          "top_max_px": 922.8666415928725
+        },
+        {
+          "profile_index": 20,
+          "sample_start": 126,
+          "sample_end_exclusive": 130,
+          "fill": true,
+          "top_min_px": 922.863185449117,
+          "top_max_px": 922.8664957741138
+        },
+        {
+          "profile_index": 20,
+          "sample_start": 174,
+          "sample_end_exclusive": 185,
+          "fill": true,
+          "top_min_px": 922.8200644308841,
+          "top_max_px": 922.8662927116129
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 84,
+          "sample_end_exclusive": 86,
+          "fill": true,
+          "top_min_px": 936.5326555457322,
+          "top_max_px": 936.5326555457322
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 88,
+          "sample_end_exclusive": 122,
+          "fill": true,
+          "top_min_px": 934.1931819130147,
+          "top_max_px": 936.437932539819
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 124,
+          "sample_end_exclusive": 134,
+          "fill": true,
+          "top_min_px": 936.4931282842477,
+          "top_max_px": 936.5483250090333
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 136,
+          "sample_end_exclusive": 138,
+          "fill": true,
+          "top_min_px": 936.5060721805265,
+          "top_max_px": 936.5060721805265
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 164,
+          "sample_end_exclusive": 166,
+          "fill": true,
+          "top_min_px": 936.5508211965152,
+          "top_max_px": 936.5508211965152
+        },
+        {
+          "profile_index": 18,
+          "sample_start": 168,
+          "sample_end_exclusive": 182,
+          "fill": true,
+          "top_min_px": 936.0823757032344,
+          "top_max_px": 936.5484895652571
+        },
+        {
+          "profile_index": 16,
+          "sample_start": 102,
+          "sample_end_exclusive": 122,
+          "fill": true,
+          "top_min_px": 948.4493912182312,
+          "top_max_px": 950.2142918155092
+        },
+        {
+          "profile_index": 16,
+          "sample_start": 144,
+          "sample_end_exclusive": 146,
+          "fill": true,
+          "top_min_px": 950.2315788157663,
+          "top_max_px": 950.2315788157663
+        },
+        {
+          "profile_index": 16,
+          "sample_start": 164,
+          "sample_end_exclusive": 168,
+          "fill": true,
+          "top_min_px": 950.1929829030095,
+          "top_max_px": 950.2201465189487
+        },
+        {
+          "profile_index": 16,
+          "sample_start": 172,
+          "sample_end_exclusive": 176,
+          "fill": true,
+          "top_min_px": 950.2273743321239,
+          "top_max_px": 950.2307957783138
+        },
+        {
+          "profile_index": 14,
+          "sample_start": 114,
+          "sample_end_exclusive": 126,
+          "fill": true,
+          "top_min_px": 962.8202550393177,
+          "top_max_px": 963.9159083850795
+        },
+        {
+          "profile_index": 14,
+          "sample_start": 168,
+          "sample_end_exclusive": 171,
+          "fill": true,
+          "top_min_px": 963.7339641958208,
+          "top_max_px": 963.862953316222
+        },
+        {
+          "profile_index": 12,
+          "sample_start": 124,
+          "sample_end_exclusive": 136,
+          "fill": true,
+          "top_min_px": 977.2592548927722,
+          "top_max_px": 977.5987467043299
+        },
+        {
+          "profile_index": 12,
+          "sample_start": 142,
+          "sample_end_exclusive": 144,
+          "fill": true,
+          "top_min_px": 977.5927958824636,
+          "top_max_px": 977.5927958824636
+        },
+        {
+          "profile_index": 12,
+          "sample_start": 162,
+          "sample_end_exclusive": 168,
+          "fill": true,
+          "top_min_px": 977.5397430445264,
+          "top_max_px": 977.5794894857529
+        },
+        {
+          "profile_index": 10,
+          "sample_start": 130,
+          "sample_end_exclusive": 152,
+          "fill": true,
+          "top_min_px": 990.4658082566039,
+          "top_max_px": 991.2788876111434
+        },
+        {
+          "profile_index": 10,
+          "sample_start": 164,
+          "sample_end_exclusive": 168,
+          "fill": true,
+          "top_min_px": 991.0163546370622,
+          "top_max_px": 991.2281368544141
+        },
+        {
+          "profile_index": 8,
+          "sample_start": 132,
+          "sample_end_exclusive": 138,
+          "fill": true,
+          "top_min_px": 1004.8228452733152,
+          "top_max_px": 1004.9633819678465
+        },
+        {
+          "profile_index": 8,
+          "sample_start": 156,
+          "sample_end_exclusive": 160,
+          "fill": true,
+          "top_min_px": 1004.9027577583345,
+          "top_max_px": 1004.956070480439
+        },
+        {
+          "profile_index": 8,
+          "sample_start": 168,
+          "sample_end_exclusive": 171,
+          "fill": true,
+          "top_min_px": 1004.7355998126706,
+          "top_max_px": 1004.9080343902011
+        },
+        {
+          "profile_index": 6,
+          "sample_start": 134,
+          "sample_end_exclusive": 150,
+          "fill": true,
+          "top_min_px": 1017.1130888475088,
+          "top_max_px": 1018.6389796369692
+        },
+        {
+          "profile_index": 6,
+          "sample_start": 158,
+          "sample_end_exclusive": 164,
+          "fill": true,
+          "top_min_px": 1018.5057900433877,
+          "top_max_px": 1018.6431255934277
+        },
+        {
+          "profile_index": 4,
+          "sample_start": 130,
+          "sample_end_exclusive": 150,
+          "fill": true,
+          "top_min_px": 1031.3907335403676,
+          "top_max_px": 1032.3256979845066
+        },
+        {
+          "profile_index": 4,
+          "sample_start": 154,
+          "sample_end_exclusive": 168,
+          "fill": true,
+          "top_min_px": 1030.1238217631424,
+          "top_max_px": 1032.2962542750242
+        },
+        {
+          "profile_index": 2,
+          "sample_start": 136,
+          "sample_end_exclusive": 162,
+          "fill": true,
+          "top_min_px": 1044.0826847054961,
+          "top_max_px": 1046.011439313196
+        }
+      ]
+    }
+  ]
+}

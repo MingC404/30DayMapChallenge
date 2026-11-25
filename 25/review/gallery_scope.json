@@ -1,0 +1,18 @@
+{
+  "other_cards_and_css_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "other_manifest_entries_unchanged": true,
+  "confirmed_artwork_sha256": {
+    "25/outputs/day25_taiwan_two_landscapes.gif": "bc2940286d5491dd7b33593c586d319160a2361215715727d7df0f2256a1cd94",
+    "25/outputs/day25_elevation.png": "3d6d4b7a1161a30702b984b19411d459a2a73f6a308620b631a33d4741fe3457",
+    "25/outputs/day25_population.png": "230c1d58219c199ac82167325c98a00180244ab780e8a41265d485f2a2c410c4"
+  },
+  "assets": [
+    "assets/25/day25_taiwan_two_landscapes.gif",
+    "assets/25/day25_elevation.png",
+    "assets/25/day25_population.png"
+  ],
+  "description": "One island, two kinds of mountains. I drew elevation and population density along the same east–west transects across Taiwan. As the two landscapes fade into each other, the peaks shift from the mountain ranges to the populated western lowlands and the north. The two views use separate vertical scales.",
+  "alt": "Animated ridge-line map of Taiwan crossfading between elevation and population density along the same east–west transects.",
+  "status": "Local workspace update only; no commit, push or deployment."
+}

@@ -22,6 +22,7 @@ Maps and spatial illustrations by **Ming Cao**.
 | 22 / Projections | The Pacific, Reprojected | [GIF](22/outputs/day22_the_pacific_reprojected.gif) · [Mercator PNG](22/outputs/day22_merc.png) · [Equal Earth PNG](22/outputs/day22_eqearth.png) · [Notes](22/README.md) |
 | 23 / Senses: Taste | A Tasting Map of Tea | [GIF](23/outputs/day23_a_tasting_map_of_tea.gif) / [Static PNG](23/outputs/day23_a_tasting_map_of_tea.png) / [Notes](23/README.md) / [Personal collection](docs/index.html#day-23) |
 | 24 / Network | Getting Home to Summit | [GIF](24/summit/outputs/getting_home_to_summit.gif) / [Static PNG](24/summit/outputs/getting_home_to_summit.png) / [Notes](24/README.md) / [Personal collection](docs/index.html#day-24) |
+| 25 / Is This a Map? | Taiwan: Two Landscapes | [GIF](25/outputs/day25_taiwan_two_landscapes.gif) / [Elevation PNG](25/outputs/day25_elevation.png) / [Population PNG](25/outputs/day25_population.png) / [Notes](25/README.md) / [Personal collection](docs/index.html#day-25) |
 
 Numbered folders contain each map's scripts and outputs. Shared original data, metadata and licenses are in `data_raw/`; generated web pages are in `docs/`. Each day's README identifies its sources and limits. Maps use NYC Open Data, OpenStreetMap, institutional collections and other credited sources; data timestamps do not imply current field verification.
 

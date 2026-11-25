@@ -1,0 +1,226 @@
+{
+  "scope": "25/ only",
+  "updated": [
+    "README.md",
+    "scripts/encode_final_gif.py",
+    "scripts/render_current.py",
+    "scripts/build.py",
+    "scripts/verify.py",
+    "outputs/day25_taiwan_two_landscapes.gif",
+    "outputs/final_media_validation.json",
+    "outputs/validation.json",
+    "outputs/readback_checks.json"
+  ],
+  "added": [
+    "data/render_template.json",
+    "cleanup_manifest.json"
+  ],
+  "retained_final_artwork": [
+    "outputs/day25_elevation.png",
+    "outputs/day25_population.png",
+    "outputs/day25_taiwan_two_landscapes.gif"
+  ],
+  "removed": [
+    {
+      "path": "outputs/day25_B_two_landscapes_gallery.png",
+      "sha256": "546bdfdd0a7349e532840bf26626496161e600d777f9b45672e006172058505a",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_A.png",
+      "sha256": "fd791604184cd0accf255119ea7a2ab9183b9897061d02274ef333cd29768603",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_AB.png",
+      "sha256": "75d12b046533073b9bc5538d301b3837cf80d36e182d89089281b2485eb0aa75",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_AB_gallery.png",
+      "sha256": "f7209737e4cef6b0300776268d603c8d465e559541c65be25bbcc6ba21975070",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_B.png",
+      "sha256": "0418681bad587595b7120b74ec788ee3cfbfa57e2a60f3c922f9dd365b42468a",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_linear_nonlinear_gallery.png",
+      "sha256": "0a18e9b16570d444eec745a9a6af4140598fc19eb3f16bd0a7669191379a33e4",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_nonlinear.png",
+      "sha256": "664f7f096f3da9012a157b6064b2946f147b93e8d215ae12ec4a59b08d9ede40",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_elevation_profile_audit.png",
+      "sha256": "3c35cbc0d55a7d4fa539fd2effb93e4e000cbfffcdb3478f64dde2f6988fc0f8",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_gallery_width_preview.png",
+      "sha256": "cda783d6809e343092be97ad50b0cc63c164a16b6b5faf8f6e72cdcd7aacb546",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_gif_decoded_gallery_preview.png",
+      "sha256": "0d224745713757150e317f87eb525ca49c5cf5aefe191f5b5502c99a326e2d8a",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_population_A.png",
+      "sha256": "3af69638546135a03a1c8f253731f7de0c4c9376440da4d3b91f0492df70ea5e",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_population_AB_gallery.png",
+      "sha256": "3c72e1999490724718692f9a07d3b8364c3d2a327bf0e7b65d6dcfafc994cc75",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_population_B.png",
+      "sha256": "c9af72b6744f0a3be879d61c90a883195be22d7785c4cbc9af942339cf0b9a84",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/day25_side_by_side.png",
+      "sha256": "f5846e81cfb4722bd7e20e3ea2d26a9a6c676684b4a18eb33afa22556a67dac3",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/elevation_profile_audit.json",
+      "sha256": "c6d7bb48aad39cf5a7196fe0b52ffc264782d527f70728e07f2b6632781a2fbb",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/line_reduction_checks.json",
+      "sha256": "3dce59aa6871b9201b6514f2271e1e130b0cf56bfbe1d1b71db178c407f950f7",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "outputs/occlusion_trials.json",
+      "sha256": "93b9af6fbfc6b30ab0ed5f4692dc3d840b9332ec2e540c98990c05acbdc8f5a3",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "scripts/render_occlusion_trials.py",
+      "sha256": "c58de8d964505bfa604a342f48fc7724bb6138a349959920c3d0d430ffeef04e",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "scripts/review_elevation_profiles.py",
+      "sha256": "0b66ae1dac894511162c76c1abcf32d6534f6d243fbcf3fde1da233fc89c4bed",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": ".gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "data/profile_review_24.npz",
+      "sha256": "ba09ad49771a93ba57d98eb798baed1ad4acbebd984bd2e7d94a4f390fb09c19",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "data/profile_review_48.npz",
+      "sha256": "2983a0d28cb2cc0b0ab2110b245aa76f7e4e328f9112df444075baba76b1e419",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "data/profile_review_64.npz",
+      "sha256": "bfddc6052df13392054882c432782333f7b5e00579a62b7c7b67238eae10b0b5",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": "data/profile_review_84.npz",
+      "sha256": "a8dbcf030d532cb857aef3404503833ab29e5fc472f4616b62299bc137f0255c",
+      "reason": "Superseded static trial, comparison, audit helper or placeholder; not referenced by retained generation pipeline."
+    },
+    {
+      "path": ".review_crossfade.png",
+      "sha256": "1484c88edcc2915f22135e9a743e5c22bea167d4ccdd48b559b2b81247c6b14f",
+      "reason": "Temporary gallery-width review snapshot or compile-check bytecode."
+    },
+    {
+      "path": "scripts/__pycache__/acquire.cpython-314.pyc",
+      "sha256": "eed445558ea219cac4999d92c5d1a31bc68a918f6c4b35a74aa7c5174fb75a46",
+      "reason": "Temporary gallery-width review snapshot or compile-check bytecode."
+    },
+    {
+      "path": "scripts/__pycache__/build.cpython-314.pyc",
+      "sha256": "84837ac77bdd3339102e079b2dfc49dfdee76cbeaa95a670fb33de2edc0589b2",
+      "reason": "Temporary gallery-width review snapshot or compile-check bytecode."
+    },
+    {
+      "path": "scripts/__pycache__/encode_final_gif.cpython-314.pyc",
+      "sha256": "f2362af9cc997d7296a5c951d55d05d56d5285b9a4d867673a654673adacb29e",
+      "reason": "Temporary gallery-width review snapshot or compile-check bytecode."
+    },
+    {
+      "path": "scripts/__pycache__/render_current.cpython-314.pyc",
+      "sha256": "ae9d47821278c7f41001f362399a12fdf637423a1087178ddb20fc40a55d8779",
+      "reason": "Temporary gallery-width review snapshot or compile-check bytecode."
+    },
+    {
+      "path": "scripts/__pycache__/verify.cpython-314.pyc",
+      "sha256": "c638d9ed999b86ce289cadd6ac76867ef81e0c55f545a6e163c1df54db916172",
+      "reason": "Temporary gallery-width review snapshot or compile-check bytecode."
+    },
+    {
+      "path": "data/elevation_m.tif",
+      "sha256": "53ce340d45e14096f8b47dfd999133200d418ec296a0afd3a75917b5f672a5cb",
+      "reason": "Regenerable projected analysis-grid intermediate; conservation verified before deletion, native sources and final profile archive retained."
+    },
+    {
+      "path": "data/land_area_km2.tif",
+      "sha256": "5bb7822db58eabc3d56fe6bcb505df45de75d9b7e0ae5cdbbe3feea8d70ac17e",
+      "reason": "Regenerable projected analysis-grid intermediate; conservation verified before deletion, native sources and final profile archive retained."
+    },
+    {
+      "path": "data/population_count.tif",
+      "sha256": "497c57a1ac0b906abb2e47db59ae4aac3d0298e11db19941c7e8e671317e1613",
+      "reason": "Regenerable projected analysis-grid intermediate; conservation verified before deletion, native sources and final profile archive retained."
+    },
+    {
+      "path": "data/population_people_km2.tif",
+      "sha256": "1ff8a240895d421f57087c6bfc814069d0610843485970ea0c730e55cbaa1ad3",
+      "reason": "Regenerable projected analysis-grid intermediate; conservation verified before deletion, native sources and final profile archive retained."
+    }
+  ],
+  "removed_file_count": 34,
+  "external_references": "Current gallery asset paths intentionally reference byte-identical docs/assets/25 copies. Shared data, HTML, Markdown and root table updated only for D25.",
+  "gallery_finalization_removed": [
+    "data/elevation_m.tif",
+    "data/land_area_km2.tif",
+    "data/population_count.tif",
+    "data/population_people_km2.tif"
+  ],
+  "gallery_finalization_updated": [
+    "25/README.md",
+    "25/scripts/verify.py",
+    "25/outputs/readback_checks.json",
+    "25/cleanup_manifest.json",
+    "README.md",
+    "scripts/gallery_entries.json",
+    "docs/index.html",
+    "docs/gallery-manifest.json",
+    "docs/GALLERY.md"
+  ],
+  "gallery_finalization_added": [
+    "25/gallery-entry.json",
+    "25/GALLERY_BLURB.md",
+    "25/scripts/update_gallery.py",
+    "25/scripts/check_gallery.cjs",
+    "25/review/gallery_scope.json",
+    "25/review/gallery_validation.json",
+    "docs/assets/25/day25_taiwan_two_landscapes.gif",
+    "docs/assets/25/day25_elevation.png",
+    "docs/assets/25/day25_population.png",
+    "25/review/finalization.json"
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "arrays": {
+    "x_m": "c09dfbbe18d5f5ec4651cf4ddba1aed3dd3ce747712e275714dd9cd550575e71",
+    "y_m": "c677006e7703fb655ae23d7911aa2ca1b24fbfc2e2d341ee2667736c325ff30d",
+    "land_mask": "74ea3742b6f59be87a9c268c4ed2150ebf56424d7eab781a864a50446830f48b",
+    "elevation_m": "db7ac57177ec25d737ab70702e1c0bfe01c25ddc5ef3e315d736b53e209eb465",
+    "population_people_km2": "2b180854bd41ea607f142c98b880ed6f129edd84d9b5ae991842f1010959211f"
+  },
+  "frames": [
+    {
+      "file": "day25_elevation.png",
+      "height_px_per_unit": 0.025,
+      "text": [
+        {
+          "text": "Taiwan: Two Landscapes",
+          "baseline": [
+            84,
+            138
+          ],
+          "box": [
+            84,
+            104,
+            584,
+            148
+          ],
+          "role": "title"
+        },
+        {
+          "text": "One island. Two kinds of mountains.",
+          "baseline": [
+            84,
+            175
+          ],
+          "box": [
+            84,
+            161,
+            387,
+            175
+          ],
+          "role": "subtitle"
+        },
+        {
+          "text": "Elevation",
+          "baseline": [
+            84,
+            310
+          ],
+          "box": [
+            84,
+            296,
+            161,
+            310
+          ],
+          "role": "subtitle"
+        },
+        {
+          "text": "m",
+          "baseline": [
+            84,
+            341
+          ],
+          "box": [
+            84,
+            333,
+            98,
+            341
+          ],
+          "role": "caption"
+        },
+        {
+          "text": "1,000 m",
+          "baseline": [
+            104,
+            393
+          ],
+          "box": [
+            104,
+            382,
+            161,
+            395
+          ],
+          "role": "caption"
+        },
+        {
+          "text": "N",
+          "baseline": [
+            1320,
+            310
+          ],
+          "box": [
+            1320,
+            299,
+            1332,
+            310
+          ],
+          "role": "caption"
+        },
+        {
+          "text": "Copernicus DEM GLO-90 \u00b7 WorldPop 2025 R2025A v1 \u00b7 Natural Earth 1:10m",
+          "baseline": [
+            84,
+            1123
+          ],
+          "box": [
+            84,
+            1113,
+            555,
+            1126
+          ],
+          "role": "source"
+        },
+        {
+          "text": "Ming Cao",
+          "baseline": [
+            84,
+            1157
+          ],
+          "box": [
+            84,
+            1144,
+            158,
+            1161
+          ],
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "file": "day25_population.png",
+      "height_px_per_unit": 0.0025,
+      "text": [
+        {
+          "text": "Taiwan: Two Landscapes",
+          "baseline": [
+            84,
+            138
+          ],
+          "box": [
+            84,
+            104,
+            584,
+            148
+          ],
+          "role": "title"
+        },
+        {
+          "text": "One island. Two kinds of mountains.",
+          "baseline": [
+            84,
+            175
+          ],
+          "box": [
+            84,
+            161,
+            387,
+            175
+          ],
+          "role": "subtitle"
+        },
+        {
+          "text": "Population density \u00b7 2025",
+          "baseline": [
+            84,
+            310
+          ],
+          "box": [
+            84,
+            296,
+            295,
+            314
+          ],
+          "role": "subtitle"
+        },
+        {
+          "text": "people / km\u00b2",
+          "baseline": [
+            84,
+            341
+          ],
+          "box": [
+            84,
+            328,
+            173,
+            345
+          ],
+          "role": "caption"
+        },
+        {
+          "text": "10,000 people / km\u00b2",
+          "baseline": [
+            104,
+            393
+          ],
+          "box": [
+            104,
+            380,
+            245,
+            397
+          ],
+          "role": "caption"
+        },
+        {
+          "text": "N",
+          "baseline": [
+            1320,
+            310
+          ],
+          "box": [
+            1320,
+            299,
+            1332,
+            310
+          ],
+          "role": "caption"
+        },
+        {
+          "text": "Copernicus DEM GLO-90 \u00b7 WorldPop 2025 R2025A v1 \u00b7 Natural Earth 1:10m",
+          "baseline": [
+            84,
+            1123
+          ],
+          "box": [
+            84,
+            1113,
+            555,
+            1126
+          ],
+          "role": "source"
+        },
+        {
+          "text": "Ming Cao",
+          "baseline": [
+            84,
+            1157
+          ],
+          "box": [
+            84,
+            1144,
+            158,
+            1161
+          ],
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "canvas": [
+    1600,
+    1200
+  ]
+}

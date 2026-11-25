@@ -1,0 +1,96 @@
+[
+  {
+    "file": "worldpop.tif",
+    "url": "https://data.worldpop.org/GIS/Population/Global_2015_2030/R2025A/2025/TWN/v1/100m/constrained/twn_pop_2025_CN_100m_R2025A_v1.tif",
+    "bytes": 9795141,
+    "sha256": "e963266859c6aa03c4e015e79bd62cceb1800a894a1d84e6bfe4748eb2cd7e75"
+  },
+  {
+    "file": "land.zip",
+    "url": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+    "bytes": 3269070,
+    "sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N21_00_E120_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N21_00_E120_00_DEM/Copernicus_DSM_COG_30_N21_00_E120_00_DEM.tif",
+    "bytes": 114815,
+    "sha256": "6151088004fe281700a62989bf5d11a6780785ac1d4911600556f960f5245d3a"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N21_00_E121_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N21_00_E121_00_DEM/Copernicus_DSM_COG_30_N21_00_E121_00_DEM.tif",
+    "bytes": 53597,
+    "sha256": "fced14450217cdb6d347b8890994f6ab70748c628f6e50f469f4ef77e20c90c4"
+  },
+  {
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N21_00_E122_00_DEM/Copernicus_DSM_COG_30_N21_00_E122_00_DEM.tif",
+    "status": "ocean tile absent"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N22_00_E120_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N22_00_E120_00_DEM/Copernicus_DSM_COG_30_N22_00_E120_00_DEM.tif",
+    "bytes": 3108049,
+    "sha256": "a4b7746ca97304382e2b31498e344a873104b19edbbc0e2d0feb39647e5ba386"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N22_00_E121_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N22_00_E121_00_DEM/Copernicus_DSM_COG_30_N22_00_E121_00_DEM.tif",
+    "bytes": 521894,
+    "sha256": "330ea3fbe6864c8c23dde4ab565783b86df0d51ad89460a08efe178d650de344"
+  },
+  {
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N22_00_E122_00_DEM/Copernicus_DSM_COG_30_N22_00_E122_00_DEM.tif",
+    "status": "ocean tile absent"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N23_00_E120_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N23_00_E120_00_DEM/Copernicus_DSM_COG_30_N23_00_E120_00_DEM.tif",
+    "bytes": 4874239,
+    "sha256": "ce7758a10637e24f9da5dc1292811fb3eafcc63b680b31fc06d7869eaf063161"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N23_00_E121_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N23_00_E121_00_DEM/Copernicus_DSM_COG_30_N23_00_E121_00_DEM.tif",
+    "bytes": 2889228,
+    "sha256": "22c6fd971e6a9a4f9ab1be575eef811b906421bc8d19f6e64c59ff38bcb9b6bf"
+  },
+  {
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N23_00_E122_00_DEM/Copernicus_DSM_COG_30_N23_00_E122_00_DEM.tif",
+    "status": "ocean tile absent"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N24_00_E120_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N24_00_E120_00_DEM/Copernicus_DSM_COG_30_N24_00_E120_00_DEM.tif",
+    "bytes": 1960522,
+    "sha256": "6d7a4640f4ef90315772bef3a3ef85856cc63d00af1041c7440be745b95c85e2"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N24_00_E121_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N24_00_E121_00_DEM/Copernicus_DSM_COG_30_N24_00_E121_00_DEM.tif",
+    "bytes": 4531670,
+    "sha256": "8c068e707cf10df1462faa5c3eed1c3be7a1de409ee4c0b8c08f6c43d9205697"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N24_00_E122_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N24_00_E122_00_DEM/Copernicus_DSM_COG_30_N24_00_E122_00_DEM.tif",
+    "bytes": 63322,
+    "sha256": "bd27f2bc0fb53626b0242a611a2d2c3aae8624e94bc9bd2ef45250e29fb7df44"
+  },
+  {
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N25_00_E120_00_DEM/Copernicus_DSM_COG_30_N25_00_E120_00_DEM.tif",
+    "status": "ocean tile absent"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N25_00_E121_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N25_00_E121_00_DEM/Copernicus_DSM_COG_30_N25_00_E121_00_DEM.tif",
+    "bytes": 928995,
+    "sha256": "7ee555d48f7eb20fbd5474aed57f56e81f27d0040a1331084dbff50f8acefb18"
+  },
+  {
+    "file": "Copernicus_DSM_COG_30_N25_00_E122_00_DEM.tif",
+    "url": "https://copernicus-dem-90m.s3.eu-central-1.amazonaws.com/Copernicus_DSM_COG_30_N25_00_E122_00_DEM/Copernicus_DSM_COG_30_N25_00_E122_00_DEM.tif",
+    "bytes": 52761,
+    "sha256": "42b7702382316f8aeb2645d2fd8767a49835abea054ffa659e5f1515829faac9"
+  }
+]
