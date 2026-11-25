@@ -114,6 +114,11 @@
       "day": "25",
       "interactive": null,
       "status": "local-assets-ready"
+    },
+    {
+      "day": "26",
+      "interactive": null,
+      "status": "local-assets-ready"
     }
   ],
   "managedAssets": [
@@ -180,7 +185,9 @@
     "assets/24/getting_home_to_summit.png",
     "assets/25/day25_taiwan_two_landscapes.gif",
     "assets/25/day25_elevation.png",
-    "assets/25/day25_population.png"
+    "assets/25/day25_population.png",
+    "assets/26/where_the_river_drops_enfield.gif",
+    "assets/26/where_the_river_drops_enfield_overview.png"
   ],
   "restrictedSourcesExcluded": [
     "13"

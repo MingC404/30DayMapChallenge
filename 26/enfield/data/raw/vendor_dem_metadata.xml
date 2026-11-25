@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "http://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+ <idinfo>
+  <citation>
+   <citeinfo>
+    <origin>New York Office of Information Technology Services</origin>
+    <pubdate>20210326</pubdate>
+    <title>Lidar Collection (QL2) of all or part of Schuyler, Seneca, Steuben, Tompkins, Wayne and Yates Counties, NY Lidar; Hydro-Flattened Bare-Earth DEM</title>
+    <geoform>raster digital data</geoform>
+   </citeinfo>
+  </citation>
+  <descript>
+   <abstract>Product: These are Digital Elevation Model (DEM) data as part of the required deliverables for the lidar project. Class 2 (Ground) lidar points in conjunction with the hydro breaklines were used to create a 1 meter hydro-flattened Raster DEM.
+   	Geographic Extent: Schuyler, Seneca, Steuben, Tompkins, Wayne and Yates counties, New York, covering approximately 1945 square miles. Dataset Description: The lidar project called for the Planning, Acquisition, processing and derivative products of lidar data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base Lidar Specification, Version 2.1.
+   	The data was developed based on a horizontal projection/datum of NAD83 (2011), Universal Transverse Mercator, meters and vertical datum of NAVD88 (GEOID12B), meters. Lidar data was delivered as flightline-extent unclassified LAS swaths, as processed Classified LAS 1.4 files, formatted to 2239 individual 1500 m x 1500 m tiles, as tiled Intensity Rasters, and as tiled bare-earth DEMs; all tiled to the same 1500 m x 1500 m schema.
+   	Ground Conditions: Lidar was collected in early 2020, while no snow was on the ground and rivers were at or below normal levels. In order to post process the lidar data to meet task order specifications and meet ASPRS vertical accuracy guidelines, Sanborn Map Company, Inc., established a total of 25 ground control points that were used to calibrate the lidar to known ground locations established throughout the project area.
+   	An additional 131 independent accuracy checkpoints, 73 in Bare Earth and Urban landcovers (73 NVA points), 58 in Tall Grass and Brushland/Low Trees categories (58 VVA points), were used to assess the vertical accuracy of the data. These checkpoints were not used to calibrate or post process the data.</abstract>
+   <purpose>To acquire detailed surface elevation data for use in conservation planning, design, research, floodplain mapping, dam safety assessments and elevation modeling, etc. Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create Intensity Images, Breaklines and Raster DEM. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened Digital Elevation Model (DEM) with a 1 meter cell size.
+    These lidar point cloud data were used to create intensity images, 3D breaklines, and hydro-flattened DEMs as necessary.</purpose>
+   <supplinf>
+    	Raster File Type = TIFF 
+    	Bit Depth/Pixel Type = 32-bit float
+    	Raster Cell Size = 1 Meter
+    	Interpolation or Resampling Technique = Triangulated Irregular Network
+    	Required Vertical Accuracy = 19.6 cm NVA
+   </supplinf>
+  </descript>
+  <timeperd>
+   <timeinfo>
+    <rngdates>
+     <begdate>20200502</begdate>
+     <enddate>20200513</enddate>
+    </rngdates>
+   </timeinfo>
+   <current>ground condition</current>
+  </timeperd>
+  <status>
+   <progress>Complete</progress>
+   <update>None planned</update>
+  </status>
+  <spdom>
+   <bounding>
+    <westbc>-77.38861431</westbc>
+    <eastbc>-76.24229876</eastbc>
+    <northbc>43.23783390</northbc>
+    <southbc>42.22109866</southbc>
+   </bounding>
+   <lboundng>
+   	<leftbc>306000</leftbc>
+   	<rightbc>397500</rightbc>
+   	<topbc>4788000</topbc>
+   	<bottombc>4677000</bottombc>
+   </lboundng>
+  </spdom>
+  <keywords>
+   <theme>
+    <themekt>None</themekt>
+    <themekey>Model</themekey>
+    <themekey>Raster</themekey>
+    <themekey>DEM</themekey>
+    <themekey>Remote Sensing</themekey>
+    <themekey>Elevation Data</themekey>
+    <themekey>Lidar</themekey>
+   </theme>
+   <place>
+    <placekt>None</placekt>
+    <placekey>New York</placekey>
+    <placekey>Schuyler County</placekey>
+    <placekey>Seneca County</placekey>
+    <placekey>Steuben County</placekey>
+    <placekey>Tompkins County</placekey>
+    <placekey>Wayne County</placekey>
+    <placekey>Yates County</placekey>
+   </place>
+  </keywords>
+  <accconst>No restrictions apply to these data.</accconst>
+  <useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of the limitations of the data. Acknowledgement of New York Office of Information Technology Services would be appreciated for products derived from these data.
+   The data represented is the result of data collection and processing per contract specifications and indicates the general existing conditions at the time of the data collection. As such, it is only valid for its intended use, content, time, and accuracy specifications. The user is responsible for the results of any application of the data for other than its intended purpose.</useconst>
+ </idinfo>
+ <dataqual>
+  <logic>Data covers the entire area specified for this project.</logic>
+  <complete>Datasets contain complete coverage of tiles. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. There are no void areas or missing data. The raw point cloud is of good quality and data passes Non-Vegetated Vertical Accuracy specifications.</complete>
+ <posacc> 
+
+   <!-- Positional Accuracy - an assessment of the accuracy of the positions of spatial objects. Type: compound. --> 
+
+   <vertacc> 
+
+    <!-- Vertical Positional Accuracy - an estimate of accuracy of the vertical positions in the data set. Type: compound. --> 
+
+    <vertaccr>This data set was produced to meet ASPRS Positional Accuracy Standard for Digital Geospatial Data (2014) for a 10-cm RMSEz Vertical Accuracy Class.</vertaccr> 
+
+    <!-- Vertical Positional Accuracy Report - Please see ground survey report. Type: text. Domain: free text. --> 
+
+   </vertacc> 
+
+  </posacc> 
+  <lineage>
+      <procstep>
+        <procdesc>Hydro-Flattened Bare-Earth DEM Process:  Class 2 (Ground) lidar points in conjunction with the hydro breaklines were used to create a 1 meter hydro-flattened Raster DEM. Using automated scripting routines within LP360, a GeoTIFF file was created for each tile. Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface.</procdesc>
+        <procdate>20210324</procdate>
+      </procstep>
+  </lineage>
+ </dataqual>
+ <spdoinfo>
+  <direct>Raster</direct>
+  <rastinfo>
+   <rasttype>Pixel</rasttype>
+   <rowcount>1500</rowcount>
+   <colcount>1500</colcount>
+  </rastinfo>
+ </spdoinfo>
+ <spref>
+  <horizsys>
+   <planar>
+    <gridsys>
+     <gridsysn>Universal Transverse Mercator</gridsysn>
+     <utm>
+      <utmzone>18</utmzone>
+      <transmer>
+       <sfctrmer>0.9996</sfctrmer>
+       <longcm>-75.0</longcm>
+       <latprjo>0.0</latprjo>
+       <feast>500000</feast>
+       <fnorth>0.0</fnorth>
+      </transmer>
+     </utm>
+    </gridsys>
+    <planci>
+     <plance>coordinate pair</plance>
+     <coordrep>
+      <absres>0.001</absres>
+      <ordres>0.001</ordres>
+     </coordrep>
+     <plandu>meters</plandu>
+    </planci>
+   </planar>
+   <geodetic>
+    <horizdn>North American Datum of 1983 (2011)</horizdn>
+    <ellips>Geodetic Reference System 80</ellips>
+    <semiaxis>6378137</semiaxis>
+    <denflat>298.257222101</denflat>
+   </geodetic>
+  </horizsys>
+  <vertdef>
+   <altsys>
+    <altdatum>North American Vertical Datum of 1988, Geoid 12B</altdatum>
+    <altres>0.001</altres>
+    <altunits>meters</altunits>
+    <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+   </altsys>
+  </vertdef>
+ </spref>
+ <metainfo>
+  <metd>20210326</metd>
+  <metrd>20210326</metrd>
+  <metc>
+   <cntinfo>
+    <cntorgp>
+     <cntorg>New York Office of Information Technology Services</cntorg>
+    </cntorgp>
+    <cntaddr>
+     <addrtype>mailing and physical</addrtype>
+     <address>W. Averell Harriman State Office Campus</address>
+     <address>1220 Washington Avenue, Bldg. 5 - Floor 1</address>
+     <city>Albany</city>
+     <state>NY</state>
+     <postal>12226</postal>
+     <country>USA</country>
+    </cntaddr>
+    <cntvoice>(518) 242-5037</cntvoice>
+   </cntinfo>
+  </metc>
+  <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+  <metstdv>FGDC-STD-001-1998</metstdv>
+  <metac>None.</metac>
+  <metuc>None.</metuc>
+  <metsi>
+  	<metscs>None.</metscs>
+  	<metsc>Unclassified.</metsc>
+  	<metshd>None.</metshd>
+  </metsi>
+  <metextns>
+   <onlink>None.</onlink>
+   <metprof>None.</metprof>
+  </metextns>
+ </metainfo>
+</metadata>

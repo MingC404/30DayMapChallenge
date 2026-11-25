@@ -1,0 +1,100 @@
+{
+  "viewports": [
+    {
+      "viewport_width": 1440,
+      "width": 862.25,
+      "height": 646.6875,
+      "natural": [
+        1600,
+        1200
+      ],
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport_width": 1280,
+      "width": 780.640625,
+      "height": 585.46875,
+      "natural": [
+        1600,
+        1200
+      ],
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport_width": 390,
+      "width": 350,
+      "height": 262.5,
+      "natural": [
+        1600,
+        1200
+      ],
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport_width": 320,
+      "width": 292,
+      "height": 219,
+      "natural": [
+        1600,
+        1200
+      ],
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    }
+  ],
+  "local_links": [
+    {
+      "path": "/30DayMapChallenge/assets/26/where_the_river_drops_enfield.gif",
+      "status": 200,
+      "content_type": "image/gif"
+    },
+    {
+      "path": "/30DayMapChallenge/assets/26/where_the_river_drops_enfield_overview.png",
+      "status": 200,
+      "content_type": "image/png"
+    }
+  ],
+  "errors": [],
+  "status": "Local preview only; no commit, push or deployment.",
+  "day_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "browser_distinct_animation_states": 23,
+  "playback_observed_ms": 37800,
+  "animation": {
+    "frames": 279,
+    "cycle_ms": 33750,
+    "loop": 0
+  },
+  "other_cards_styles_and_entries_unchanged": true,
+  "title_description_alt_author_match": true,
+  "assets_byte_identical": true,
+  "static_download_loaded": true,
+  "passed": true
+}

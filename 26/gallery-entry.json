@@ -1,0 +1,25 @@
+{
+  "day": "26",
+  "theme": "Water",
+  "title": "Where the River Drops",
+  "author": "Ming Cao",
+  "description": "I followed Enfield Creek downstream through Enfield Glen, New York, to see how a series of waterfalls appears in a river’s elevation profile. The animation links each highlighted drop in the profile to the same reach on the map, showing where the creek descends in steps.",
+  "tools": ["Python", "USGS 3DHP", "USGS 3DEP 1 m DEM", "Rasterio", "Pillow"],
+  "evidence": ["26/README.md", "26/enfield/README.md", "26/enfield/data/dem_sources.json", "26/enfield/data/event_review.json"],
+  "media": [{
+    "source": "26/enfield/outputs/where_the_river_drops_enfield_preview.gif",
+    "path": "assets/26/where_the_river_drops_enfield.gif",
+    "label": "View animation",
+    "alt": "Animation linking the Enfield Creek channel map with its longitudinal elevation profile, highlighting successive elevation drops while moving downstream."
+  }],
+  "downloads": [{
+    "source": "26/enfield/outputs/where_the_river_drops_enfield_overview.png",
+    "path": "assets/26/where_the_river_drops_enfield_overview.png",
+    "label": "Static overview PNG"
+  }],
+  "sourceLinks": [
+    {"label": "USGS river network", "url": "https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/MapServer"},
+    {"label": "USGS DEM metadata", "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/NY_FingerLakes_2020_A20/NY_FingerLakes_1_2020/reports/vendor_provided_xml/312020317_NYSDOP_2020_Ortho_Lidar_DEM.xml"},
+    {"label": "Official park map", "url": "https://parks.ny.gov/sites/default/files/RobertHTremanParkMap.pdf"}
+  ]
+}

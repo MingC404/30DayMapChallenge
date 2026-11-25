@@ -1,0 +1,13 @@
+{
+  "other_cards_and_css_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "artwork_sha256": {
+    "26/enfield/outputs/where_the_river_drops_enfield_preview.gif": "824bd9863a8de059522efc4a5c7d769329a17b30c6f1ef9fb1e643196aacefd6",
+    "26/enfield/outputs/where_the_river_drops_enfield_overview.png": "280d449aed1cf3f562afe1ea72ed390f9cf15aa2af59102f92e3d3c8ff23d546"
+  },
+  "assets": [
+    "assets/26/where_the_river_drops_enfield.gif",
+    "assets/26/where_the_river_drops_enfield_overview.png"
+  ],
+  "status": "Local update only; no commit, push or deployment."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "D01",
+    "chainage_m": 45,
+    "longitude": -76.59166141654377,
+    "latitude": 42.402678876514024,
+    "raw_drop_m": 4.158538818359375,
+    "smoothed_drop_m": 4.1135676154235625,
+    "window_m": 24,
+    "start_m": 33,
+    "end_m": 57,
+    "lateral_estimates_m": [
+      4.29327392578125,
+      4.51641845703125,
+      4.333251953125,
+      3.831634521484375
+    ],
+    "lateral_spread_m": 0.684783935546875,
+    "stable": true,
+    "peak_8m_descent_m": 2.998235997119707
+  },
+  {
+    "id": "D02",
+    "chainage_m": 607,
+    "longitude": -76.58591991179335,
+    "latitude": 42.40173669026426,
+    "raw_drop_m": 4.39434814453125,
+    "smoothed_drop_m": 4.31588644556706,
+    "window_m": 24,
+    "start_m": 595,
+    "end_m": 619,
+    "lateral_estimates_m": [
+      4.928955078125,
+      4.883209228515625,
+      4.38897705078125,
+      4.9378662109375
+    ],
+    "lateral_spread_m": 0.54888916015625,
+    "stable": true,
+    "peak_8m_descent_m": 4.738107596092732
+  },
+  {
+    "id": "D03",
+    "chainage_m": 651,
+    "longitude": -76.58572911258953,
+    "latitude": 42.401371077492236,
+    "raw_drop_m": 5.68695068359375,
+    "smoothed_drop_m": 5.777831534049085,
+    "window_m": 24,
+    "start_m": 639,
+    "end_m": 663,
+    "lateral_estimates_m": [
+      5.471405029296875,
+      5.0357666015625,
+      5.535491943359375,
+      5.485137939453125
+    ],
+    "lateral_spread_m": 0.499725341796875,
+    "stable": true,
+    "peak_8m_descent_m": 3.603797882704839
+  },
+  {
+    "id": "D04",
+    "chainage_m": 764,
+    "longitude": -76.58461790912307,
+    "latitude": 42.40090589664201,
+    "raw_drop_m": 5.97076416015625,
+    "smoothed_drop_m": 5.709350694321614,
+    "window_m": 24,
+    "start_m": 752,
+    "end_m": 776,
+    "lateral_estimates_m": [
+      8.13677978515625,
+      6.989410400390625,
+      5.2093353271484375,
+      4.859222412109375
+    ],
+    "lateral_spread_m": 3.277557373046875,
+    "stable": false,
+    "peak_8m_descent_m": 4.011386167793148
+  },
+  {
+    "id": "D05",
+    "chainage_m": 824,
+    "longitude": -76.58423047073043,
+    "latitude": 42.40049238051766,
+    "raw_drop_m": 16.581817626953125,
+    "smoothed_drop_m": 16.50039746429229,
+    "window_m": 24,
+    "start_m": 812,
+    "end_m": 836,
+    "lateral_estimates_m": [
+      18.212448120117188,
+      17.33697509765625,
+      15.625564575195312,
+      15.326095581054688
+    ],
+    "lateral_spread_m": 2.8863525390625,
+    "stable": true,
+    "peak_8m_descent_m": 12.195421422247506
+  },
+  {
+    "id": "D06",
+    "chainage_m": 856,
+    "longitude": -76.58390529001812,
+    "latitude": 42.40034531804268,
+    "raw_drop_m": 15.973953247070312,
+    "smoothed_drop_m": 15.807181075889275,
+    "window_m": 24,
+    "start_m": 844,
+    "end_m": 868,
+    "lateral_estimates_m": [
+      15.6595458984375,
+      15.644073486328125,
+      16.220993041992188,
+      16.785797119140625
+    ],
+    "lateral_spread_m": 1.1417236328125,
+    "stable": true,
+    "peak_8m_descent_m": 10.32363847032201
+  },
+  {
+    "id": "D07",
+    "chainage_m": 1208,
+    "longitude": -76.58044089814992,
+    "latitude": 42.4000400210616,
+    "raw_drop_m": 2.345367431640625,
+    "smoothed_drop_m": 2.3197953782921275,
+    "window_m": 24,
+    "start_m": 1196,
+    "end_m": 1220,
+    "lateral_estimates_m": [
+      2.657196044921875,
+      2.5471954345703125,
+      2.15460205078125,
+      1.77349853515625
+    ],
+    "lateral_spread_m": 0.883697509765625,
+    "stable": true,
+    "peak_8m_descent_m": 2.36527318374317
+  },
+  {
+    "id": "D08",
+    "chainage_m": 1722,
+    "longitude": -76.57491449221926,
+    "latitude": 42.400064940328704,
+    "raw_drop_m": 3.4107666015625,
+    "smoothed_drop_m": 3.3940901336236777,
+    "window_m": 24,
+    "start_m": 1710,
+    "end_m": 1734,
+    "lateral_estimates_m": [
+      3.35198974609375,
+      3.411376953125,
+      3.45037841796875,
+      3.488800048828125
+    ],
+    "lateral_spread_m": 0.136810302734375,
+    "stable": true,
+    "peak_8m_descent_m": 2.964416232318456
+  },
+  {
+    "id": "D09",
+    "chainage_m": 2159,
+    "longitude": -76.56999835951852,
+    "latitude": 42.39997810310053,
+    "raw_drop_m": 5.2733917236328125,
+    "smoothed_drop_m": 5.296223732290798,
+    "window_m": 24,
+    "start_m": 2147,
+    "end_m": 2171,
+    "lateral_estimates_m": [
+      5.780517578125,
+      5.4663238525390625,
+      5.210418701171875,
+      5.1673583984375
+    ],
+    "lateral_spread_m": 0.6131591796875,
+    "stable": true,
+    "peak_8m_descent_m": 4.768947684164829
+  },
+  {
+    "id": "D10",
+    "chainage_m": 2535,
+    "longitude": -76.5666860785619,
+    "latitude": 42.398836802027,
+    "raw_drop_m": 3.1681060791015625,
+    "smoothed_drop_m": 3.157097479420713,
+    "window_m": 24,
+    "start_m": 2523,
+    "end_m": 2547,
+    "lateral_estimates_m": [
+      2.9967498779296875,
+      3.1219482421875,
+      3.240875244140625,
+      3.1962738037109375
+    ],
+    "lateral_spread_m": 0.2441253662109375,
+    "stable": true,
+    "peak_8m_descent_m": 2.026127514897894
+  },
+  {
+    "id": "D11",
+    "chainage_m": 3014,
+    "longitude": -76.56195855994362,
+    "latitude": 42.39775055030955,
+    "raw_drop_m": 3.5986480712890625,
+    "smoothed_drop_m": 3.58617357063099,
+    "window_m": 24,
+    "start_m": 3002,
+    "end_m": 3026,
+    "lateral_estimates_m": [
+      3.642242431640625,
+      3.599212646484375,
+      3.5728302001953125,
+      3.535064697265625
+    ],
+    "lateral_spread_m": 0.107177734375,
+    "stable": true,
+    "peak_8m_descent_m": 2.6039288557201417
+  },
+  {
+    "id": "D12",
+    "chainage_m": 3114,
+    "longitude": -76.56110523552812,
+    "latitude": 42.397380441693024,
+    "raw_drop_m": 13.38360595703125,
+    "smoothed_drop_m": 13.040880544004267,
+    "window_m": 24,
+    "start_m": 3102,
+    "end_m": 3126,
+    "lateral_estimates_m": [
+      11.430206298828125,
+      12.353546142578125,
+      14.1932373046875,
+      15.012664794921875
+    ],
+    "lateral_spread_m": 3.58245849609375,
+    "stable": true,
+    "peak_8m_descent_m": 9.026598132002789
+  }
+]

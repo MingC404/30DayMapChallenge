@@ -1,0 +1,38 @@
+{
+  "review_date": "2026-11-25",
+  "decision": "Use Enfield Creek for the formal preview. Keep Watkins Glen raw/smoothed comparison and the prior D26 studies unchanged.",
+  "E1": {
+    "classification": "record-confirmed Lucifer Falls",
+    "evidence": [
+      "raw/official_park_map.pdf",
+      "raw/official_park.html",
+      "raw/gnis_features.json",
+      "../review/E1_audit.jpg"
+    ],
+    "finding": "The cliff is clear in the DEM and raw/smoothed profiles. Two short-window detections are tiers of the same named waterfall and are merged into one 80 m event. The larger measurement window brackets both tiers, rather than claiming two independent falls. Lateral tests preserve the full descent.",
+    "published_context": "NYS park description identifies 115-foot Lucifer Falls. That value validates context; the plot uses the measured 35.583786 m, not 115 feet converted and imposed on the curve."
+  },
+  "E2": {
+    "classification": "unverified DEM candidate A",
+    "evidence": [
+      "../review/E2_audit.jpg"
+    ],
+    "finding": "A sharp 3.4 m descent in the main stream bed, persistent in raw and lightly smoothed samples and all four lateral checks. No bridge crossing or off-channel bank detour is apparent at the event in hillshade or imagery. No public name or documented feature identity has been established, so it is not labelled a known waterfall."
+  },
+  "E3": {
+    "classification": "unverified DEM candidate B",
+    "evidence": [
+      "../review/E3_audit.jpg"
+    ],
+    "finding": "A separate 5.3 m descent around the main-channel bend, more than 300 m from the neighboring selected measurement windows. The step survives smoothing and lateral sampling. No bridge or canal alignment explains it in the inspection images. Physical identity and name remain unverified."
+  },
+  "E4": {
+    "classification": "record-confirmed Lower Falls reach",
+    "evidence": [
+      "raw/official_park_map.pdf",
+      "../review/E4_audit.jpg"
+    ],
+    "finding": "The official map identifies Lower Falls beside the swimming area; the retained orthophoto shows the main channel falling into that pool at this reach. The 13.4 m estimate is a local 24 m DEM difference, not a surveyed height of every part of the named falls. Lateral sensitivity is greater than at the middle candidates and is reported explicitly. Pool works do not justify calling the whole drop artificial."
+  },
+  "limits": "This is a native-resolution DEM screening and image check, not a field survey. The source is hydro-flattened bare-earth terrain, not riverbed bathymetry or a synchronized water-level measurement. A stable DEM candidate is not automatically a natural waterfall."
+}

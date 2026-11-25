@@ -1,0 +1,13 @@
+{
+  "selected_site": "Enfield Creek, Robert H. Treman State Park",
+  "selected_events": 4,
+  "selected_chainages_m": [
+    840,
+    1722,
+    2159,
+    3114
+  ],
+  "final_curve": "Original unsmoothed native DEM samples; smoothing is only a comparison and screening aid.",
+  "candidate_caveat": "Two selected middle reaches remain DEM candidates; records validate the known falls, never set plotted drop heights.",
+  "finalization": "Approved Enfield Creek version; superseded site trials removed after dependency audit."
+}

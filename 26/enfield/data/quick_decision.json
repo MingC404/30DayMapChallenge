@@ -1,0 +1,24 @@
+{
+  "site": "Enfield Creek, Robert H. Treman",
+  "length_m": 3584,
+  "samples": 3585,
+  "dem_resolution_m": 1,
+  "raw_3dhp_length_m": 3585,
+  "min_m": 139.70953369140625,
+  "max_m": 279.33941650390625,
+  "smoothing": "3-sample running median then Gaussian sigma 1.5m; comparison only, raw curve retained",
+  "screen": "smoothed 8m difference peak >=2m, prominence>=1.1m, min separation28m; estimate by endpoint medians over24m",
+  "candidates": 12,
+  "stable_candidates": 11,
+  "meets_three_drop_gate": true,
+  "alignment": {
+    "source": "USGS 3DHP GA50N / 5SSOR / 9G3IV / 75EPE / CF25T / G2HV8; Enfield Creek only",
+    "projection": "EPSG:6347",
+    "length_m": 3584,
+    "spacing_m": 1,
+    "alignment": "DEM valley path within \u00b124m of source 3DHP; 2m transects, 1m candidate spacing; terrain floor + displacement + continuity cost; no named locations or target heights used",
+    "max_lateral_correction_m": 6.0,
+    "median_lateral_correction_m": 1.0,
+    "caveat": "DEM-aligned route, not surveyed channel centerline; original NHD geometry and side profiles retained."
+  }
+}

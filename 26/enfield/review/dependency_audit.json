@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "retained_local_import_edges": [
+    [
+      "enfield_trial.py",
+      "gorge_acquire.py"
+    ],
+    [
+      "enfield_dem.py",
+      "gorge_dem.py"
+    ],
+    [
+      "enfield_dem.py",
+      "enfield_trial.py"
+    ],
+    [
+      "enfield_quick.py",
+      "gorge_quick.py"
+    ],
+    [
+      "enfield_quick.py",
+      "enfield_trial.py"
+    ],
+    [
+      "gorge_dem.py",
+      "gorge_acquire.py"
+    ],
+    [
+      "gorge_quick.py",
+      "gorge_acquire.py"
+    ],
+    [
+      "gorge_select.py",
+      "gorge_quick.py"
+    ],
+    [
+      "gorge_review.py",
+      "gorge_acquire.py"
+    ],
+    [
+      "gorge_review.py",
+      "enfield_trial.py"
+    ],
+    [
+      "gorge_render.py",
+      "enfield_style.py"
+    ]
+  ],
+  "no_legacy_imports": true,
+  "retained_inputs": "26/enfield/data",
+  "unused_legacy_roots": [
+    "26/data",
+    "26/outputs",
+    "26/review",
+    "26/ganoga",
+    "26/watkins",
+    "26/.deps"
+  ],
+  "authorization": "User explicitly requested cleanup of unreferenced Passaic, Kitchen Creek and Watkins trials, temporary frames and caches. 26/ganoga/README.md identifies that study as Kitchen Creek through Ganoga Glen.",
+  "new_style": "enfield_style.py contains only copied drawing primitives; no old-study data paths."
+}

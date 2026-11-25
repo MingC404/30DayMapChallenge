@@ -1,5 +1,19 @@
 # Gallery maintenance
 
+## Day 26 / Water — Where the River Drops
+
+By Ming Cao. Enfield Creek through Enfield Glen, Robert H. Treman State Park, New York. Main media is the confirmed 1600 × 1200, 33.75-second GIF; the static overview PNG is a separate download, following Day 25. Both published assets are byte-identical copies of the final artwork.
+
+I followed Enfield Creek downstream through Enfield Glen, New York, to see how a series of waterfalls appears in a river’s elevation profile. The animation links each highlighted drop in the profile to the same reach on the map, showing where the creek descends in steps.
+
+Alt text: Animation linking the Enfield Creek channel map with its longitudinal elevation profile, highlighting successive elevation drops while moving downstream.
+
+Method: 3,584 m of one downstream creek path; USGS 3DHP geometry checked against the DEM valley floor; native 1 m USGS 3DEP NY_FingerLakes_2020_A20 OPR, EPSG:6347, meters NAVD88 / GEOID12B. Original samples are drawn; light smoothing and lateral samples only aid screening. Four raw endpoint-median descent estimates are 35.6, 3.4, 5.3 and 13.4 m. Two are recorded waterfall reaches, two remain DEM candidates. Local windows are 400 m wide with a 70 m vertical span and 10 m ticks. Public records validate locations rather than set plotted heights.
+
+Sources: [USGS river network](https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/MapServer); [USGS DEM metadata](https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/metadata/NY_FingerLakes_2020_A20/NY_FingerLakes_1_2020/reports/vendor_provided_xml/312020317_NYSDOP_2020_Ortho_Lidar_DEM.xml); [Official park map](https://parks.ny.gov/sites/default/files/RobertHTremanParkMap.pdf). Full tile URLs, sampling data, caveats and reproduction steps are in `26/enfield/README.md` and `26/enfield/data/`.
+
+Run `python 26/scripts/update_gallery.py` and `node 26/scripts/check_gallery.cjs` for the scoped update and desktop/mobile preview at `/30DayMapChallenge/`. Other cards, styles and assets are preserved. Commit, push and deployment remain with the owner.
+
 ## Day 25 / Is This a Map? — Taiwan: Two Landscapes
 
 By Ming Cao. Main gallery media is the confirmed 1600 × 1200, 10-second infinite crossfade GIF, copied byte for byte to `assets/25/day25_taiwan_two_landscapes.gif`. The approved elevation and population-density PNGs are linked as separate static downloads, following D22; the elevation PNG is the static cover. Source filenames and paths are unchanged.

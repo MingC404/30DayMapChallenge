@@ -1,0 +1,21 @@
+{
+  "file": "dem_u_3705069350.tif",
+  "title": "USGS Original Project Resolution NY_FingerLakes_2020_A20 u_3705069350",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/NY_FingerLakes_2020_A20/NY_FingerLakes_1_2020/TIFF/USGS_OPR_NY_FingerLakes_2020_A20_u_3705069350.tif",
+  "resolution_m": [
+    1.0,
+    1.0
+  ],
+  "horizontal_crs": "PROJCS[\"NAD83(2011) / UTM zone 18N\",GEOGCS[\"NAD83(2011)\",DATUM[\"NAD83_National_Spatial_Reference_System_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1116\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6318\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-75],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"6347\"]]",
+  "height_units": [
+    "metre"
+  ],
+  "native_window": [
+    952,
+    0,
+    533,
+    59
+  ],
+  "sha256": "e949abc478d163358093effdef783d6221383b6bb9738561a70ef60a2341643d",
+  "resampling": "none"
+}
