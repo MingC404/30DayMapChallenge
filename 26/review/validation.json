@@ -1,0 +1,28 @@
+{
+  "raster_readback_exact": true,
+  "sample_count": 1001,
+  "spacing_m": 1,
+  "all_samples_valid": true,
+  "canvas": [
+    1600,
+    1200
+  ],
+  "offset_drop_estimates_m": {
+    "offset_minus5m_elevation_m": 16.600811769128416,
+    "offset_plus5m_elevation_m": 16.509982247869768
+  },
+  "upstream_endpoint_m": 34.63510402362601,
+  "downstream_endpoint_m": 12.787604338026059,
+  "complete_reach_elevation_difference_m": 21.847499685599956,
+  "local_falls_dem_estimate_m": 16.56088273114046,
+  "png_sha256": "c009a598025e3b6299c7adb10bc4c57836c0dddb8c3941df04cca83403963c4a",
+  "visual_review": "See falls_alignment_audit.png and gallery width previews. Raw and selected routes retained. No ordinate corrections.",
+  "standard_1m_comparison_drop_m": 16.561119079589844,
+  "raw_ftUS_readback_exact": true,
+  "metric_conversion_exact": true,
+  "native_pixel_resolution_m": [
+    0.6096012192024384,
+    0.6096012192024384
+  ],
+  "route_positions_verified": true
+}

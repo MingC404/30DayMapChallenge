@@ -1,0 +1,157 @@
+{
+  "review_date": "2026-11-25",
+  "reviewer": "Codex image inspection; manual interpretation, not field survey",
+  "elevation_note": "Every drop is a DEM net difference, not a surveyed structure height. Screening uses end medians; Great Falls retains its earlier adjacent-window estimate.",
+  "records": [
+    {
+      "id": "C01",
+      "chainage_m": 351,
+      "classification": "identifiable artificial spillway / Great Falls upper approach",
+      "event_group": "E01",
+      "screened_drop_m": 3.162306324612647,
+      "window_m": 100,
+      "window_chainage_m": [
+        335,
+        435
+      ],
+      "longitude": -74.18146668297516,
+      "latitude": 40.915452910117054,
+      "evidence": [
+        "review/extended/C01_inspection.png",
+        "review/extended/corridor_0_alignment.png"
+      ],
+      "finding": "The line crosses the upper curved spillway/forebay outlet visible just north of the road bridge, then follows the wetted approach toward the natural falls. No upward bridge-deck spike. The 100 m screening drop includes both the outlet and sloping approach, so it is not a dam-height measurement.",
+      "animation": "Already inside the opening Great Falls window; no separate stop."
+    },
+    {
+      "id": "C02",
+      "chainage_m": 422,
+      "classification": "same upper approach; no independent waterfall identified",
+      "event_group": "E01",
+      "manual_merge_with": "C01",
+      "screened_drop_m": 1.2411476544144513,
+      "window_m": 100,
+      "window_chainage_m": [
+        375,
+        475
+      ],
+      "longitude": -74.18189773757283,
+      "latitude": 40.91595630755466,
+      "evidence": [
+        "review/extended/C02_inspection.png"
+      ],
+      "finding": "Window lies on the sloping rocky/wetted approach between the upper outlet and Great Falls crest. It overlaps the approach signal of C01; manually grouped with that approach, rather than counted as another waterfall.",
+      "animation": "No separate event or stop."
+    },
+    {
+      "id": "C03",
+      "chainage_m": 499,
+      "classification": "known natural waterfall: Paterson Great Falls",
+      "event_group": "E02",
+      "screened_drop_m": 17.177342847727687,
+      "window_m": 100,
+      "window_chainage_m": [
+        410,
+        510
+      ],
+      "longitude": -74.181413232091,
+      "latitude": 40.916244543927434,
+      "retained_estimate_m": 16.56088273114046,
+      "retained_estimate_method": "Median of samples 440\u2013485 m minus median of 525\u2013570 m; 46 samples each. The automatic 100 m result uses different endpoints and is not substituted for it.",
+      "evidence": [
+        "review/extended/C03_inspection.png",
+        "data/raw/nps_geology.html",
+        "https://www.nps.gov/pagr/learn/nature/paterson-geology.htm"
+      ],
+      "finding": "Screening rediscovers the original falls within 1 m of the 500 m reference. Route follows 6DM6E over the falls; the eastern power-channel branch remains rejected. Original first 1,001 values are identical. NPS 77 ft remains distinct from this local DEM estimate.",
+      "animation": "Opening 0\u20131,000 m view holds for 6 seconds."
+    },
+    {
+      "id": "C04",
+      "chainage_m": 650,
+      "classification": "broad downstream DEM gradient; independent waterfall unconfirmed",
+      "event_group": "E03",
+      "screened_drop_m": 0.662941093338242,
+      "window_m": 100,
+      "window_chainage_m": [
+        625,
+        725
+      ],
+      "longitude": -74.18025546034809,
+      "latitude": 40.916107803030336,
+      "evidence": [
+        "review/extended/C04_inspection.png"
+      ],
+      "finding": "A low gradient below the chasm, next to the eastern riverside building. Centerline remains in the river. Lateral checks closely agree. No discrete cross-channel barrier or separate falling ledge is established by the image. Water-surface interpolation in the DEM remains a possible influence.",
+      "animation": "Visible inside the opening window; not labelled as a waterfall."
+    },
+    {
+      "id": "C05",
+      "chainage_m": 1351,
+      "classification": "broad DEM decline near a bridge; waterfall unconfirmed",
+      "event_group": "E04",
+      "screened_drop_m": 0.8061977519218697,
+      "window_m": 100,
+      "window_chainage_m": [
+        1315,
+        1415
+      ],
+      "longitude": -74.17500221682253,
+      "latitude": 40.92073094556874,
+      "evidence": [
+        "review/extended/C05_inspection.png"
+      ],
+      "finding": "The screened window spans the river around a road crossing. The curve is a broad decline over roughly 80 m, not a sharp vertical ledge. There is no positive bridge-height spike, and \u00b15 m profiles agree. No separate waterfall or dam is identifiable; do not interpret 0.806 m as a waterfall height.",
+      "animation": "3.5 second inspection stop, explicitly labelled A gentler descent / 0.8 m across 100 m / No discrete waterfall confirmed here. The displayed window is 851\u20131,851 m."
+    },
+    {
+      "id": "R06",
+      "chainage_m": 5865,
+      "classification": "subthreshold context check; smooth river DEM gradient",
+      "screened_drop_m": 0.10759481052653541,
+      "window_m": 100,
+      "window_chainage_m": [
+        5815,
+        5915
+      ],
+      "longitude": -74.14239584583801,
+      "latitude": 40.93841601225696,
+      "evidence": [
+        "review/extended/R06_inspection.png"
+      ],
+      "finding": "Strongest 100 m decline beyond 2,000 m, but only about 0.11 m. Image shows the route in the main river away from the adjacent street and banks. No discrete fall or dam established; no animation stop."
+    },
+    {
+      "id": "R07",
+      "chainage_m": 2050,
+      "classification": "subthreshold context check; smooth river DEM gradient",
+      "screened_drop_m": 0.09814536840987742,
+      "window_m": 100,
+      "window_chainage_m": [
+        2000,
+        2100
+      ],
+      "evidence": [
+        "review/extended/R07_inspection.png"
+      ],
+      "finding": "Second separated downstream context check selected beyond 2,000 m. River centerline remains in the wetted channel, clear of the nearby bridge in this 100 m window. Smooth decline, no discrete waterfall established; no animation stop.",
+      "longitude": -74.16862152279842,
+      "latitude": 40.92441956682665
+    }
+  ],
+  "external_context": [
+    {
+      "feature": "Historic fishing weir near Fair Lawn Avenue Bridge",
+      "url": "https://www.nj.gov/pvsc/news/photos/20120815c.html",
+      "saved_source": "data/extended/raw/pvsc_weir.html",
+      "use": "PVSC documents a low historic artificial feature along the river. This record is not evidence for an additional measured waterfall and is not assigned to one of the screened points without a confirmed match."
+    },
+    {
+      "feature": "Dundee Dam",
+      "url": "https://www.nan.usace.army.mil/Portals/37/docs/civilworks/projects/nj/frm/Peckman/2019/Peckman%20Draft%20Revised%20Feasibility%20Report%20-%20Main%20Report%202019-10-09.pdf?ver=2019-10-09-175446-843",
+      "use": "USACE describes Great Falls as approximately 7.5 river miles upstream of Dundee Dam, placing that known artificial drop beyond this 10 km downstream trial. This animation does not claim to reach or measure Dundee Dam."
+    }
+  ],
+  "corridor_review": "The three corridor alignment sheets cover the entire 0\u201310,500 m route. The stored line follows the Passaic River through the northward bend, then east and south, crossing bridges transversely rather than following their decks. No obvious bank or diversion-channel detour beyond the already handled Great Falls branch was identified at image-review scale.",
+  "conclusion": "Great Falls recovered. Upper artificial outlet distinguished from the natural falls. No reliable second waterfall confirmed within 10 km downstream. This is a DEM screening result, not an exhaustive inventory of shallow structures or submerged riverbed features."
+}

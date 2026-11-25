@@ -1,0 +1,25 @@
+{
+  "file": "opr_K5A9.tif",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/OPR/Projects/NJ_NW_New_Jersey_6_County_Lidar_2017_B17/NJ_NW6Co_2017/TIFF/USGS_OPR_NJ_NW_New_Jersey_6_County_Lidar_2017_B17_K5A9.tif",
+  "title": "USGS Original Product Resolution NJ_NW_New_Jersey_6_County_Lidar_2017_B17 K5A9",
+  "native_crs_wkt": "COMPD_CS[\"NAD83(2011) / New Jersey (ftUS) + NAVD88 height (ftUS)\",PROJCS[\"NAD83(2011) / New Jersey (ftUS)\",GEOGCS[\"NAD83(2011)\",DATUM[\"NAD83_National_Spatial_Reference_System_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1116\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"6318\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",38.8333333333333],PARAMETER[\"central_meridian\",-74.5],PARAMETER[\"scale_factor\",0.9999],PARAMETER[\"false_easting\",492125],PARAMETER[\"false_northing\",0],UNIT[\"US survey foot\",0.304800609601219,AUTHORITY[\"EPSG\",\"9003\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"6527\"]],VERT_CS[\"NAVD88 height (ftUS)\",VERT_DATUM[\"North American Vertical Datum 1988\",2005,AUTHORITY[\"EPSG\",\"5103\"]],UNIT[\"US survey foot\",0.304800609601219,AUTHORITY[\"EPSG\",\"9003\"]],AXIS[\"Gravity-related height\",UP],AUTHORITY[\"EPSG\",\"6360\"]]]",
+  "native_resolution_ftUS": [
+    2.0,
+    2.0
+  ],
+  "native_resolution_m": [
+    0.6096012192024384,
+    0.6096012192024384
+  ],
+  "vertical_units": "ftUS",
+  "vertical_datum": "NAVD88",
+  "window": [
+    1892,
+    0,
+    130,
+    151
+  ],
+  "valid_pixels": 19630,
+  "sha256": "fea4e7ddf287ace910d5445e0828f855e1c3c9707680c3250562671b668823c3",
+  "resampling": "none"
+}
