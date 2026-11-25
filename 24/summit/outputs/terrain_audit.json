@@ -1,0 +1,54 @@
+{
+  "source": "USGS 3DEP numeric bare-earth DEM",
+  "dem_file": "usgs_3dep_full_canvas_utm18.tif",
+  "dem_sha256": "a10a6ce46be79f6fb6bac7b85909623d7f856ea3d1100184f3277c92859095a3",
+  "dem_total_pixels": 1965056,
+  "dem_valid_pixels": 1965056,
+  "dem_valid_rows_inclusive": [
+    0,
+    1215
+  ],
+  "dem_valid_columns_inclusive": [
+    0,
+    1615
+  ],
+  "dem_utm_bounds": [
+    567563.908940991,
+    4502871.55342642,
+    589110.575607657,
+    4519084.886759754
+  ],
+  "canvas_utm_bounds": [
+    567670.5756076573,
+    4502978.220093087,
+    589003.9089409907,
+    4518978.220093087
+  ],
+  "canvas_lonlat_bounds": [
+    -74.19929565372257,
+    40.67288387153883,
+    -73.94463125981902,
+    40.81903417669063
+  ],
+  "dem_screen_bounds_xyxy": [
+    -7.999999999970896,
+    -8.000000000023283,
+    1607.9999999999736,
+    1208.0000000000232
+  ],
+  "canvas_size": [
+    1600,
+    1200
+  ],
+  "land_coverage_fraction": 1.0,
+  "land_pixels_on_edges": {
+    "left": 1199,
+    "right": 1126,
+    "top": 1456,
+    "bottom": 1038
+  },
+  "state_clip": null,
+  "layout_clip": null,
+  "schematic_clip": null,
+  "decision": "Full-canvas real-geographic DEM with padded source extent. All land receives elevation; Census water remains blue. Simplified rail overlay has independent schematic station placement."
+}

@@ -1,0 +1,170 @@
+{
+  "canvas": [
+    1600,
+    1200
+  ],
+  "frames": [
+    {
+      "title": "Umami & brisk",
+      "duration_ms": 2000,
+      "active_ids": [
+        "cn-2662",
+        "uji-matcha",
+        "yame"
+      ],
+      "region_opacities": {
+        "zhejiang": 1.0,
+        "fujian": 1.0,
+        "anhui": 0.22,
+        "yunnan": 0.22,
+        "guangxi": 0.22,
+        "guangdong": 0.22,
+        "northern_taiwan": 0.22,
+        "assam": 0.22,
+        "west_bengal": 0.22,
+        "kyushu": 1.0,
+        "tamil_nadu": 0.22,
+        "kansai": 1.0,
+        "central_province": 0.22,
+        "ha_giang_(source-era)": 0.22
+      }
+    },
+    {
+      "title": "Floral & fruity",
+      "duration_ms": 2000,
+      "active_ids": [
+        "cn-2663",
+        "cn-2705",
+        "cn-2710",
+        "darjeeling",
+        "nilgiri",
+        "nuwara-eliya"
+      ],
+      "region_opacities": {
+        "zhejiang": 0.22,
+        "fujian": 1.0,
+        "anhui": 0.22,
+        "yunnan": 0.22,
+        "guangxi": 1.0,
+        "guangdong": 0.22,
+        "northern_taiwan": 0.22,
+        "assam": 0.22,
+        "west_bengal": 1.0,
+        "kyushu": 0.22,
+        "tamil_nadu": 1.0,
+        "kansai": 0.22,
+        "central_province": 1.0,
+        "ha_giang_(source-era)": 0.22
+      }
+    },
+    {
+      "title": "Malty, mellow & sweet",
+      "duration_ms": 2000,
+      "active_ids": [
+        "assam",
+        "cn-2666",
+        "cn-2668",
+        "cn-2721",
+        "tw-beauty"
+      ],
+      "region_opacities": {
+        "zhejiang": 0.22,
+        "fujian": 1.0,
+        "anhui": 1.0,
+        "yunnan": 1.0,
+        "guangxi": 0.22,
+        "guangdong": 1.0,
+        "northern_taiwan": 1.0,
+        "assam": 1.0,
+        "west_bengal": 0.22,
+        "kyushu": 0.22,
+        "tamil_nadu": 0.22,
+        "kansai": 0.22,
+        "central_province": 0.22,
+        "ha_giang_(source-era)": 0.22
+      }
+    },
+    {
+      "title": "Milk & spice",
+      "duration_ms": 2000,
+      "active_ids": [
+        "masala-chiya",
+        "thai-iced-tea"
+      ],
+      "region_opacities": {
+        "zhejiang": 1.0,
+        "fujian": 1.0,
+        "anhui": 1.0,
+        "yunnan": 1.0,
+        "guangxi": 1.0,
+        "guangdong": 1.0,
+        "northern_taiwan": 1.0,
+        "assam": 1.0,
+        "west_bengal": 1.0,
+        "kyushu": 1.0,
+        "tamil_nadu": 1.0,
+        "kansai": 1.0,
+        "central_province": 1.0,
+        "ha_giang_(source-era)": 1.0
+      }
+    },
+    {
+      "title": "All teas & drinks",
+      "duration_ms": 3000,
+      "active_ids": [
+        "assam",
+        "cn-2662",
+        "cn-2663",
+        "cn-2666",
+        "cn-2668",
+        "cn-2705",
+        "cn-2710",
+        "cn-2721",
+        "darjeeling",
+        "masala-chiya",
+        "nilgiri",
+        "nuwara-eliya",
+        "shan-tuyet",
+        "thai-iced-tea",
+        "tw-beauty",
+        "uji-matcha",
+        "yame"
+      ],
+      "region_opacities": {
+        "zhejiang": 1.0,
+        "fujian": 1.0,
+        "anhui": 1.0,
+        "yunnan": 1.0,
+        "guangxi": 1.0,
+        "guangdong": 1.0,
+        "northern_taiwan": 1.0,
+        "assam": 1.0,
+        "west_bengal": 1.0,
+        "kyushu": 1.0,
+        "tamil_nadu": 1.0,
+        "kansai": 1.0,
+        "central_province": 1.0,
+        "ha_giang_(source-era)": 1.0
+      }
+    }
+  ],
+  "total_duration_ms": 11000,
+  "loop": 0,
+  "theme_position": {
+    "position": [
+      84,
+      230
+    ],
+    "role": "subtitle"
+  },
+  "global_palette": true,
+  "dither": false,
+  "static_png_sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93",
+  "gif_sha256": "3bb76c36d77d40d5474c07885401375d4ae037f90d3cee7b44e6d502b8ac964c",
+  "config_sha256": "a4a326d846a52d007221cdb502cf6e8b68678470e49109c1983c7b82ca838ab9",
+  "inactive_label_opacity": 0.3,
+  "inactive_region_opacity": 0.22,
+  "overview_only": {
+    "shan-tuyet": "The same-product tourism source gives tea and origin but no verified sensory note. Visible, muted, in theme frames; fully visible in overview."
+  }
+}

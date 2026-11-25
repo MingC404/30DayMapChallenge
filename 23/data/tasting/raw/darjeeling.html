@@ -1,0 +1,1456 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="referrer" content="no-referrer" /><meta http-equiv="Content-Language" content="en" /><link rel="shortcut icon" href="../images/favicon.ico" />
+    
+<style>
+        
+
+        .text-container {
+            width: 500px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #1a237e;
+            padding: 5px;
+            border: 1px solid #ccc;
+
+            /* single line */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Appear animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .text-container:hover {
+            color: #d32f2f;
+        }
+		
+		
+
+.top-leaders {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+/* LEFT & RIGHT LEADERS */
+.leader {
+    text-align: center;
+}
+
+.leader img {
+    height: 125px;
+}
+
+.leader-name {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.leader-title {
+    font-size: 11px;
+    color: #666;
+}
+
+/* CENTER HEADER */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.divmastertopright .link img {
+    height: 55px;
+    margin-left: 8px;
+}
+
+/* NAV */
+.navPart {
+    margin-top: 5px;
+}
+
+    </style>
+
+    <title>
+	Country Regulations
+</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/accessibilityCss.css" />
+    <link rel="stylesheet" type="text/css" href="/css/AllInlineCss.css" />
+    <link rel="stylesheet" type="text/css" href="/css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/css/new-slider.css" />
+    
+
+    
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.roundabout.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+    
+ <!--<div id="overlay">
+        <div id="popup" style="padding: 20px;
+  background-color: rgba(48, 93, 140, 0.5);
+  color: #fff;">
+            <span class="close-btn">&times;</span>
+			<h4>
+			टी बोर्ड भारत में आपका स्वागत है<br>
+			Welcome to Tea Board India<br>
+
+			वेबसाइट में प्रवेश करने के लिए अपनी पसंदीदा भाषा का चयन करें<br>
+			Select your Preferred Language to Enter the Website
+			</h4>
+			
+           <button type="button" class="btn-view" onclick="confirmLanguageChange1('0', 'English')">
+    English
+</button>
+
+<button type="button" class="btn-view" onclick="confirmLanguageChange1('1', 'हिंदी')">
+    हिंदी
+</button>
+               
+     </div>
+      </div> -->
+<!-----------------------------JAVASCRIPT--------------------------------------------->
+     <script>
+         // Function to close the pop-up
+         document.querySelector('.close-btn').onclick = function () {
+             document.getElementById('overlay').style.display = 'none';
+         };
+
+         // Optionally, automatically close the pop-up after a few seconds (e.g., 5 seconds)
+         setTimeout(function () {
+             document.getElementById('overlay').style.display = 'none';
+         }, 100000);
+    </script> 
+    <script>
+        function confirmLanguageChange1(langValue, langText) {
+            var confirmationMessage = "The language of the website will be translated into " + langText;
+
+            if (confirm(confirmationMessage)) {
+                // Close overlay before postback
+                closeOverlay();
+
+                // Small delay to allow UI update (optional but smoother)
+                setTimeout(function () {
+                    __doPostBack('ln_ChangeLang', langValue);
+                }, 200);
+            }
+        }
+
+        function closeOverlay() {
+            var overlay = document.getElementById("overlay");
+            if (overlay) {
+                overlay.style.display = "none";
+            }
+        }
+</script>
+    
+    
+            <script type="text/javascript">
+                function confirmLanguageChange(dropdown) {
+                    var selectedLanguage = dropdown.options[dropdown.selectedIndex].text;
+                    var confirmationMessage = "The language of the website will be translated into " + selectedLanguage;
+                    if (confirm(confirmationMessage)) {
+                        __doPostBack(dropdown.id, '');
+                    } else {
+                        // If the user cancels, reset the dropdown to its previous value
+                        dropdown.selectedIndex = dropdown.initialIndex;
+                    }
+                }
+
+                function storeInitialIndex(dropdown) {
+                    dropdown.initialIndex = dropdown.selectedIndex;
+                }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/jquery.quicksand.js" type="text/javascript"></script>
+    <script src="/js/jquery.easing.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+    <script src="/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+
+    <script src="/js/MasterPageJquiry.js?version=2" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/SetValueLocalStorage.js"></script>
+    <script src="/js/MasterPage.js?version=4" type="text/javascript"></script>
+
+    
+
+    <link href="/css/prettyPhoto.css" rel="stylesheet" type="text/css" media="all" />
+    
+    
+ 
+<script async data-id="101437888" src="//static.getclicky.com/js"></script>
+
+<meta http-equiv="keywords" name="keywords" content="Country Regulations" /><meta http-equiv="description" name="description" content="Country Regulations" /><meta http-equiv="title" name="title" content="Country Regulations" /></head>
+
+<body id="MasterBody" style="background-color:#f5f5f5">
+
+    <noscript>
+        <div id="noscriptContainer">
+            Java Script is not enabled in your browser. Please enable Java Script to ensure proper functionality of the website.</div>
+    </noscript>
+    <div id="text-resize">
+
+    
+
+
+
+
+        <form method="post" action="./NzI=" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="95BE0DC9" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="dWoQ7uPkznIia8z0WmAMLydLsO592wRIhXb2xjfKmAWYl789XV7hEKpYy8zA84IpkoKM2YelxqZaHRh18oP/7qxCho0POI+ge3H5RZ4CVjaaFq8DRmAhL5gXnrhw4+23b3J6PJokQkPlVZzEvErdPVYLCcUVG/Qndq4t7SjFKK1nvrQFF1R4bdjW0dHdNTHrP4ZOxjbcKld1o2fHh3yZ0A==" />
+        <div id="wrapper">
+        <div class="header-fixed">
+        <div class="toppart">
+            <div class="mainWidth clearfix"> 
+            <div class="divmastersocial grid-align-center">
+                <a id="welcomeENG" class="leader-name">टी बोर्ड इंडिया में आपका स्वागत है</a>
+                    <a title="Twitter" target="_blank" onclick="confirmExternalLink('https://twitter.com/teaboardofindia');" rel="noopener noreferrer">
+                        <img src="/images/twitter_x.png" alt="Twitter" /></a>&nbsp;
+                    <a target="_blank"  onclick="confirmExternalLink('https://www.facebook.com/TeaBoardIndia');" title="Facebook" rel="noopener noreferrer">
+                        <img src="/images/facebook.png" alt="Facebook" /></a>&nbsp;
+                    
+
+                </div>
+            <div class="up-menu">                          
+                <a title="Site Map" class="skipfont" href="/screenreaderaccess"><span id="ScreenReaderAccessID" class="leader-name skipfont">स्क्रीन रीडर एक्सेस</span></a>
+                <a href="../#" id="incfont" class="button buttonfont">अ+</a> 
+                <a href="../#" id="norfont" class="button buttonfont">अ</a> 
+                <a href="../#" id="decfont" class="button buttonfont">अ-</a> 
+                <a href="../#maincontent" id="skipfont" title="Skip to main content" class="skipfont">मुख्य सामग्री पर जाएँ</a>
+                <a title="Accessibility Options" class="skipfont" href="/accessibilityoption"><span id="accessibilityOptionsID">अभिगम्यता के विकल्प</span>
+                </a>
+                
+                <a>
+                
+                    
+                <select name="ctl00$ln_ChangeLang" id="ln_ChangeLang" class="lang" onchange="confirmLanguageChange(this)" onfocus="storeInitialIndex(this)">
+	<option value="0">English</option>
+	<option selected="selected" value="1">हिंदी</option>
+
+</select>
+                    
+                
+                    
+                 
+                </select>
+                </a>
+                
+                
+                
+                </div>                  
+        </div>
+        </div>
+                    <div class="top-leaders">
+
+    <!-- LEFT: President -->
+    <div class="leader">
+        <img src="/image/president_of_india1.jpg" 
+             alt="" />
+    <div id="lblPresidentName" class="leader-name">श्रीमती द्रौपदी मुर्मु</div>
+    <div id="lblPresidentTitle" class="leader-title">भारत की माननीय राष्ट्रपति</div>
+    </div>
+
+    <!-- CENTER: LOGO + ICONS -->
+    <div class="main-header">
+
+        <div class="logo">
+            <a href="/home">
+                <img src="/images/logo.png" 
+                     alt="Tea Board India" />
+            </a>
+        </div>
+
+        <div class="divmastertopright">
+            <div class="link">
+<!--<marquee behavior="scroll" direction="left" scrollamount="5" style="width: 475px;">
+    <a title="" target="_blank"  href="https://dtdrc.teamarketplace.in/"  rel="noopener noreferrer">Click here to submit online application for the Tea Sommelier Course</a></marquee>-->
+  
+              
+
+                  <a title="Swach Bharat"  target="_blank" onclick="confirmExternalLink('https://swachhbharatmission.ddws.gov.in/');" rel="noopener noreferrer"><img id="" alt="Swach Bharat" src="/images/swach-bharat.png" title="" width="auto" /></a>
+
+					<a title="Azadi Ka Amrit Mahotsav"  target="_blank" onclick="confirmExternalLink('https://amritkaal.nic.in/');" rel="noopener noreferrer"><img id="" alt="Azadi Ka Amrit Mahotsav" src="/images/Azadi-Ka-Amrit-Mahotsav.png" title="" width="auto"  /></a>
+            
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT: Prime Minister -->
+    <div class="leader">
+        <img src="/image/PM1.jpg" 
+             alt="" />
+    <div id="lblPMName" class="leader-name">श्री नरेन्द्र दामोदरदास मोदी</div>
+    <div id="lblPMTitle" class="leader-title">भारत के माननीय प्रधानमंत्री</div>
+    </div>
+
+</div>
+
+<!-- NAVIGATION -->
+<div class="main header">
+<div class="navPart clearfix">
+            <div class="mainWidth marauto floatNone">
+                <!-- search part start here -->
+
+                <!-- search part end here -->
+                <!-- nav part start here -->
+                
+                <ul class="mainNav"><li><a class="home" href="/home">Home</a></li><li><a title="चाय विकास" tabindex="0">चाय विकास</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDCSM/MjIyMw==">लघु चाय उत्पादकों की सूची</a></li><li><a href="/TEABOARDPAGE/MjIyNA==">गतिविधियाँ</a></li></ul></div></div></li><li><a title="योजनाएं" tabindex="0">योजनाएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjIyNQ==">विविरणात्मक योजनाएं</a></li></ul></div></div></li><li><a title="अनुसंधान" tabindex="0">अनुसंधान</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MTQz">प्राथमिकता वाले क्षेत्रों</a></li><li><a href="/TEABOARDPAGE/MjIyNw==">समाचार/ घटनाएं</a></li><li><a href="/TEABOARDPAGE/MjIyOA==">स्वस्थ जीवन हेतु चाय</a></li><li><a href="/TEABOARDPAGE/MjIzNQ==">डीटीआर डीसी का प्रकाशन</a></li><li><a href="/TEABOARDPAGE/MjIyOQ==">डीटीआरडीसी</a></li><li><a href="/TEABOARDPAGE/MjIzMA==">गुणवत्ता नियंत्रण प्रयोगशाला</a></li><li><a href="/TEABOARDPAGE/MjIzNA==">उपासी टीआरएफ का प्रकाशन</a></li><li><a href="/TEABOARDPAGE/MjIzMw==">टीआरए का प्रकाशन</a></li></ul></div></div></li><li><a title="संर्वधन" tabindex="0">संर्वधन</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjIzNg==">अंतर्राष्ट्रीय कार्यक्रम</a></li><li><a href="/TEABOARDPAGE/MjIzNw==">घरेलू कार्यक्रम</a></li><li><a href="/TEABOARDCSM/MjIzOQ==">चाय के बारे में</a></li><li><a href="/TEABOARDPAGE/MzM1Mw==">मानक संचालन प्रक्रियाएं (एसओपी)</a></li></ul></div></div></li><li><a title="विविधताएं" tabindex="0">विविधताएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDCSM/MjI0MA==">दार्जिलिंग</a></li><li><a href="/TEABOARDCSM/MjI0MQ==">असम</a></li><li><a href="/TEABOARDCSM/MjI0Mg==">नीलगिरी</a></li><li><a href="/TEABOARDCSM/MjI0Mw==">कांगड़ा</a></li><li><a href="/TEABOARDCSM/MjI0NQ==">डुअर्स-तराई</a></li><li><a href="/TEABOARDCSM/MjI0Ng==">मसाला चाय</a></li><li><a href="/TEABOARDCSM/MjI0Nw==">सिक्किम चाय</a></li><li><a href="/TEABOARDCSM/MjI4MA==">त्रिपुरा चाय</a></li></ul></div></div></li><li><a title="सांख्यिकी" tabindex="0">सांख्यिकी</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjI3Mg==">उत्पादन</a></li><li><a href="/TEABOARDPAGE/MjI3MQ==">निर्यात</a></li><li><a href="/TEABOARDCSM/MzM1NA==">आयात</a></li><li><a href="/TEABOARDCSM/MzM1NQ==">मूल्य</a></li><li><a href="/TEABOARDCSM/MzM1Ng==">उपभोग (खपत)</a></li><li><a href="/TEABOARDCSM/MzM1Nw==">क्षेत्र</a></li><li><a href="/TEABOARDPAGE/MTM5">वैश्विक चाय</a></li><li><a href="/TEABOARDPAGE/MjI1Mg==">मासिक औसत नीलामी मूल्य</a></li></ul></div></div></li><li><a title="विनियामक गतिविधियां" tabindex="0">विनियामक गतिविधियां</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="http://www.teaboard.org/">फार्म-ई मासिक विवरणी</a></li><li><a href="/TEABOARDPAGE/MjI1NQ==">नीलगिरि अर्थोडॉक्स के प्रयोग हेतु लाईसेंस</a></li><li><a href="/TEABOARDPAGE/MjI1Ng==">असम अर्थोडॉक्स के प्रयोग हेतु लाईसेंस</a></li><li><a href="/TEABOARDCSM/MjI1Nw==">दार्जिलिंग जीआई संरक्षण</a></li><li><a href="/TEABOARDPAGE/MjI1OA==">सूचीबद्ध परिक्षण एजेंसियाँ/प्रयोगशालाएं</a></li><li><a href="/TEABOARDPAGE/MjI1OQ==">असम लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2MA==">डुअर्स-तराई लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2MQ==">नीलगिरि लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2Mg==">इंडिया लोगो लोगो के प्रयोग हेतु अनुमति</a></li></ul></div></div></li><li><a title="घोषणा" tabindex="0">घोषणा</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjI2NA==">सूचनाएं एवं परिपत्र</a></li><li><a href="/TEABOARDPAGE/MjI2NQ==">रिक्तियाँ</a></li><li><a href="/TEABOARDPAGE/MjI2Ng==">निविदाएं</a></li><li><a href="/TEABOARDPAGE/MjI2Nw==">इंडिया टी समाचार</a></li><li><a href="/TEABOARDPAGE/MjI2OA==">प्रेस विज्ञप्ति</a></li><li><a href="/TEABOARDPAGE/MjI2OQ==">टी फाईल</a></li></ul></div></div></li><li><a title="ई-सेवाएं" tabindex="0">ई-सेवाएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="https://onlineapps.teaboard.gov.in/">लाइसेंस के लिए ऑनलाइन आवेदन</a></li><li><a href="https://onlineapps.teaboard.gov.in/">ई-रिटर्न जमा करना</a></li><li><a href="https://darjeelingtea.teaboard.gov.in/DarjeelingTea/Index.html?id=45370523">उदगम प्रमाण पत्र</a></li><li><a href="https://www.teaauction.gov.in/">ई-नीलामी पोर्टल</a></li><li><a href="https://emarketplace.teaboard.gov.in/">जोरहाट नीलामी पोर्टल</a></li><li><a href="https://teawaste.teaauction.gov.in/">चाय अपशिष्ट पोर्टल</a></li><li><a href="https://teacouncil.teaauction.gov.in/">चाय परिषद पोर्टल</a></li><li><a href="https://teacouncil.teaauction.gov.in/" title="External website that opens in a new window" onclick="return confirmExternalLink()" target="_blank" rel="noopener noreferrer">सर्विस प्लस पोर्टल</a></li><li><a href="https://www.teaboard.gov.in/TEABOARDCSM/NDM=#centralized-video">केंद्रीकृत वीडियो कॉन्फ्रेंस सुविधा</a></li></ul></div></div></li><li><a title="ई-पत्रिका" tabindex="0">ई-पत्रिका</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="https://heyzine.com/flip-book/c7cad3bd93.html">चायनामा - प्रथम संस्करण</a></li></ul></div></div></li></ul>
+                <!-- nav part end here -->
+                <div class="search-toggle">
+                <button class="search-icon icon-search" type="button"><img id="Img2" alt="search" src="/images/search.png"
+                        width="18" height="18" /></button>
+                <button class="search-icon icon-close" type="button"><img id="Img3" alt="Close" src="/images/close.png"
+                        width="18" height="18" /></button>
+              </div>
+                <div class="search-container">
+    <input name="ctl00$search_content" type="text" id="search_content" class="" value="Search keyword" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Search keyword&#39;;}" onfocus="if(this.value == &#39;Search keyword&#39;) {this.value = &#39;&#39;;}" placeholder="Search terms..." />
+                         <a id="sub" title="Search" class="search-icon" style="cursor: pointer" href="javascript:__doPostBack(&#39;ctl00$sub&#39;,&#39;&#39;)">
+                        <img src="/images/search.png" width="19" height="19" alt="Search" /></a>
+
+  </div>
+            </div>
+            </div>
+			
+			</div>
+            <div>
+                
+<div class="mainWidth innerBanner">
+    	<div class="innerBannerImg">
+   	    	<img src="/images/about-banner.png" alt="About Banner" width="726" height="178" alt="About Banner Image" />
+        </div>
+        <div class="headBanner">
+        	<h2 id="contn_head_text_top">Country Regulations</h2>
+            <p id="contn_sub_text_top"></p>
+        </div>
+  	</div>
+    <div class="bredcum mainWidth">
+    	<p><a href="/home">Home</a> <b>&raquo;</b><span id="contn_page_title_bn">Country Regulations</span></p></p>
+    </div>
+    <div class="mainWidth marTop20" id="maincontent">
+    	<!-- left part start here -->
+    	<div class="innerLeft" style=" display:none">
+        	
+            <div class="box224 noMarL marTop25"><h3 class="textHead">Tea Board</h3><ul class="leftNav"></ul></div><div class="box224 noMarL marTop25"><h3 class="textHead">ताज़ा खबरें<a class="more" href="/LATEST-NEWS">आगे</a></h3><p class="newsDate marTop20">अंतिम अपडेटः 11/6/2026 12:39:07 PM</p><ul class="news"><li><a href="/pdf/NABL_Hindi_pdf3489.pdf" target="_blank" rel="noopener noreferrer">एकीकृत मूल्यांकन योजना के अंतर्गत ट....[सूचीबद्ध परिक्षण एजेंसिया...]</a></li><li><a href="/pdf/79_2026_dt_14_07_0001_pdf1774.pdf" target="_blank" rel="noopener noreferrer">टी बोर्ड, क्षेत्रीय कार्यालय, कून्न....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/80_2026_dt_14_07_0001_pdf5618.pdf" target="_blank" rel="noopener noreferrer">टी बोर्ड, क्षेत्रीय कार्यालय, कून्न....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/81_2026_dt_15_07_0001_pdf61.pdf" target="_blank" rel="noopener noreferrer">बोर्ड के अधिकारियों के स्थानांतरण क....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/82_2026_dt_17_07_0001_pdf5147.pdf" target="_blank" rel="noopener noreferrer">बंदरगाहों पर चाय के नमूने लेने के क....[कार्यालय ज्ञापन...]</a></li></ul></div><div class="box224 noMarL"><h3 class="textHead">उत्पाद<a class="more"></a></h3><div id="slides2"><div class="slides_container"><div><div class="bannerImg"><img alt="World Gold Standard" src="/images/product0.jpg" style="width:176px;height:123px" title="World Gold Standard"></img><p>World Gold Standard<span>World Gold Standard</span></p></div></div><div><div class="bannerImg"><img alt="Darjeeling" src="/images/product1.jpg" style="width:176px;height:123px" title="Darjeeling"></img><p>Darjeeling<span>Darjeeling</span></p></div></div><div><div class="bannerImg"><img alt="Assam" src="/images/product2.jpg" style="width:176px;height:123px" title="Assam"></img><p>Assam<span>Assam</span></p></div></div><div><div class="bannerImg"><img alt="License to Use Assam Orthodox" src="/images/product3.jpg" style="width:176px;height:123px" title="License to Use Assam Orthodox"></img><p>License to Use Assam Orthodox<span>License to Use Assam Orthodox</span></p></div></div><div><div class="bannerImg"><img alt="Nilgiri" src="/images/product4.jpg" style="width:176px;height:123px" title="Nilgiri"></img><p>Nilgiri<span>Nilgiri</span></p></div></div><div><div class="bannerImg"><img alt="License to Use Nilgiri Orthodox" src="/images/product5.jpg" style="width:176px;height:123px" title="License to Use Nilgiri Orthodox"></img><p>License to Use Nilgiri Orthodox<span>License to Use Nilgiri Orthodox</span></p></div></div><div><div class="bannerImg"><img alt="Kangra" src="/images/product6.jpg" style="width:176px;height:123px" title="Kangra"></img><p>Kangra<span>Kangra</span></p></div></div><div><div class="bannerImg"><img alt="Dooars-Terai" src="/images/product7.jpg" style="width:176px;height:123px" title="Dooars-Terai"></img><p>Dooars-Terai<span>Dooars-Terai</span></p></div></div><div><div class="bannerImg"><img alt="Sikkim" src="/images/product8.jpg" style="width:176px;height:123px" title="Sikkim"></img><p>Sikkim<span>Sikkim</span></p></div></div><div><div class="bannerImg"><img alt="Tripura" src="/images/product9.jpg" style="width:176px;height:123px" title="Tripura"></img><p>Tripura<span>Tripura</span></p></div></div><div><div class="bannerImg"><img alt="200 years of Assam Tea" src="/images/product10.jpg" style="width:176px;height:123px" title="200 years of Assam Tea"></img><p>200 years of Assam Tea<span>200 years of Assam Tea</span></p></div></div><div><div class="bannerImg"><img alt="200 years of Assam Tea." src="/images/product11.jpg" style="width:176px;height:123px" title="200 years of Assam Tea."></img><p>200 years of Assam Tea.<span>200 years of Assam Tea.</span></p></div></div></div></div></div>
+            
+            
+
+           
+            
+        </div>
+        <!-- left part end here -->
+        
+        <!-- right part start here -->
+        <div class="clearfix paddBottom10">
+        	<h1 id="contn_head_text">Country Regulations</h1>
+             <div id="contn_contnabout" class="text"><div style="text-align: center">
+	<div>
+		<h3>
+			Darjeeling Tea - The Best :</h3>
+		<br />
+		(A quest for intellectual property rights)</div>
+	<p>
+		<em>10 million kgs of tea grown every year<br />
+		87 Tea gardens grow this fabled tea<br />
+		at over 5,000 mts. above sea level<br />
+		spread over 17,500 hectares of land<br />
+		4 flushes<br />
+		Better to be deprived of food for three days, than tea for one&quot;</em></p>
+</div>
+<p>
+	The quality, reputation and characteristics of Darjeeling tea are essentially attributable to its geographical origin It possesses a flavour and quality which sets it apart from other teas, giving it the stature of a fine vintage wine. As a result it has won the patronage and recognition of discerning consumers worldwide for more than a century. Any member of the trade or public in ordering or purchasing Darjeeling tea will expect the tea to be the tea cultivated, grown and produced in the defined region of the District of Darjeeling and to have the special characteristics associated with such tea.&nbsp; Consequently, Darjeeling tea that is worthy of its name cannot be grown or manufactured anywhere else in the world. Darjeeling tea cannot be replicated anywhere. It is this equity that is sought to be protected by the Tea Board and the Ministry of Commerce under the norms of the TRIPS Agreement of the WTO.As champagne cannot be manufactured in any place other than the Champagne District of France (even though the grapes used are the same kind) but has to be referred to as sparkling wine, in the same manner only tea grown and produced in the defined area of the Darjeeling District in&nbsp; State of West Bengal, India can be called DARJEELING tea. Any tea grown in any other region from the same sort of tea plants cannot be called Darjeeling tea. Darjeeling tea, a rare coveted brew which is desired globally, but is only grown in INDIA.</p>
+<p>
+	<u><strong>Darjeeling- A Paradise</strong></u> :</p>
+<p>
+	In the northeast Indian region of Darjeeling, women tea pluckers make their way up the steep mountain paths every day at dawn towards the 87 fabled gardens that have been producing the highly prized black teas for over 150 years. Located on grand estates some perched at altitudes of over 5,000 mts. the gardens are in fact plantations that, at times, stretch over hundreds of acres. But, they are still &#39;gardens&#39;, because all tea grown here bears the individual name of the garden in which it is grown.<br />
+	<br />
+	First planted in early 19th century, the incomparable quality of Darjeeling teas is the result of unique and complex combination of agro-climatic conditions prevailing in the region, altitude, meticulous manufacture and disdain for quantity. The climate of Darjeeling is perfect for tea cultivation. Tea requires at least 50 inches of rainfall annually. Alternate spells of rain and sunshine are considered good for the crop. Also, the fog helps in maintaining the required level of moisture. The tea bush grows at a height of 700 to 7000 metres above sea level, so it has all the space that it needs to grow.</p>
+<p>
+	<u><strong>Why is the location such a hallmark?</strong></u></p>
+<p align="justify">
+	There are both scientific as well as popular religious beliefs behind why Darjeeling is the most suitable place to grow tea. The local people believe that the Himalayan range is the abode of Shanker Mahadeva and the breath of God brings winds that cool the brow of the sun filled valley, and the mist and fog which provide the moisture. The fountain that flows from the piled hair of Shiva provides water for the crop and it thrives. The diversity of Darjeeling tea is further accentuated by differences in wind and rainfall that depend on the altitude and exposure of the slopes under cultivation.</p>
+<p align="justify">
+	The quality, reputation and characteristics of Darjeeling tea are essentially attributable to its geographical origin. &nbsp;It possesses a flavour and quality which sets it apart from other teas, giving it the stature of a fine vintage wine. As a result it has won the patronage and recognition of discerning consumers worldwide for more than a century. Any member of the trade or public when ordering or purchasing Darjeeling tea will expect the tea to be the tea cultivated, grown and produced in the defined region of the District of Darjeeling and to have the special characteristics associated with such tea.&nbsp;</p>
+<p>
+	Consequently, Darjeeling tea that is worthy of its name cannot be grown or manufactured anywhere else in the world.</p>
+<p>
+	Darjeeling tea cannot be replicated anywhere.</p>
+<p>
+	<u><strong>DARJEELING TEA &ndash; a Geographical Indication</strong></u></p>
+<p align="justify">
+	Under international law, geographical indications mean indications which identify a product as originating in the territory of a member, or a region or locality in that territory, where a given quality, reputation or other characteristic of the product is essentially attributable to its geographical origin.<br />
+	&nbsp;<br />
+	Darjeeling tea is India&rsquo;s treasured Geographical Indication and forms a very important part of India&rsquo;s cultural and collective intellectual heritage.&nbsp; It is of considerable importance to the economy of India because of the international reputation and consumer recognition enjoyed by it.&nbsp;</p>
+<p align="justify">
+	In the legal sphere, countries are seeking to protect Geographical Indications as geographical indications, collective marks or certification marks.</p>
+<p>
+	<u><strong>Tea Board, India</strong></u></p>
+<p align="justify">
+	All teas produced in the tea growing areas of India, including Darjeeling, are administered by the Tea Board, India under the Tea Act, 1953.&nbsp; Since its establishment, the Tea Board has had sole control over the growing and exporting of Darjeeling tea and it is this control which has given rise to the reputation enjoyed by Darjeeling tea. The Tea Board has been engaged on a world-wide basis in the protection and preservation of this treasured icon of India&rsquo;s cultural heritage as a geographical indication.</p>
+<p align="justify">
+	To assist the Tea Board in its role of authenticating regional origin of Darjeeling tea, it has developed the following logo &ndash; known as the DARJEELING logo:<img src="../images/d11.jpg" style="margin-left: 12px; margin-right: 12px; float: left; width: 120px; height: 114px;" /></p>
+<p>
+	At a legal level, Tea Board is the owner of all intellectual property rights in the DARJEELING word and logo both in common law and under the provisions of the following statutes in India:</p>
+<p>
+	(i) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong class="style5"><em>The Trade Marks Act 1999: </em></strong>DARJEELING word and logo are registered certification marks of Tea Board;</p>
+<p>
+	(ii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong class="style5"><em>The Geographical Indications of Goods (Registration and Protection) Act, 1999: </em></strong>DARJEELING word and logo were the first Geographical Indications to be registered in India in the name of the Tea Board:</p>
+<p>
+	(iii)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="style5"><strong><em>The Copyright Act, 1957</em></strong>:</span> The DARJEELING logo is copyright protected and registered as an artistic work with the Copyright Office.</p>
+<p align="justify">
+	Use of the DARJEELING word and logo are protected as Geographical Indications in India and as Certification Trade Marks in UK, USA and India. A major development in this area is the registration of the Darjeeling word as a community collective mark in the European Union.</p>
+<p align="justify">
+	The DARJEELING logo is registered in Belgium, Netherlands, Luxembourg, Germany, Austria, Spain, France, Portugal, Italy, Switzerland, former Yugoslavia, Egypt and Lebanon as a collective mark, in Canada as an official mark, as a trademark in Japan and Russia. The DARJEELING word is also registered as a trademark in Russia. Tea Board has pending applications for registration of the Darjeeling word as a certification mark in Australia, as a community collective mark in the EU and as a collective mark in Germany and Japan.&nbsp;</p>
+<p align="justify">
+	As a pre-requisite for domestic and international protection of Darjeeling as a certification trademark and a geographical indication, the Tea Board has formulated and put in place a comprehensive certification scheme wherein the definition of Darjeeling tea has been formulated to mean tea that:</p>
+<p>
+	(a) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; is cultivated, grown or produced in the 87 tea gardens in the defined geographic areas and which have been registered with the Tea Board;<br />
+	(b) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; has been cultivated, grown or produced in one of the said 87 tea gardens;<br />
+	(c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; has been processed and manufactured in a factory located in the defined geographic area; and<br />
+	(d) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; when tested by expert tea tasters, is determined to have the distinctive and naturally occurring organoleptic characteristics of taste, aroma and mouth feel typical of tea cultivated, grown and produced in the region of Darjeeling, India.&nbsp;</p>
+<p align="justify">
+	The certification scheme put in place by the Tea Board covers all stages from the production level to the export stage and meets the dual objective of ensuring that (a) tea sold as Darjeeling tea in India and worldwide is genuine Darjeeling tea produced in the defined regions of the District of Darjeeling and meets the criteria laid down by the Tea Board and (b) all sellers of genuine Darjeeling tea are duly licensed.&nbsp; This licensing program affords the Tea Board the necessary information and control over the Darjeeling tea industry to ensure that tea sold under the certification marks adheres to the standards for DARJEELING tea as set forth by the Tea Board.</p>
+<p align="justify">
+	Thus, only 100% Darjeeling tea is entitled carry the DARJEELING logo.&nbsp; While purchasing Darjeeling tea, you need to look for Tea Board&rsquo;s certification and license number otherwise you will not get the taste and character that you should expect from Darjeeling tea.</p>
+<p>
+	At the administrative level, Tea Board has taken the flowing steps to ensure the supply chain integrity of Darjeeling tea</p>
+<ol type="1">
+	<li>
+		The use of Darjeeling tea in multi-origin mixtures made subject to correct labeling requirements to protect the customer against any deception or confusion;</li>
+	<li>
+		The use of the expression &ldquo;blended Darjeeling tea&rdquo; or its variants restricted to a blend of Darjeeling teas only drawn from more than one tea garden within the definition of Darjeeling tea;</li>
+	<li>
+		Labeling guidelines formulated and issued to govern and regulate use of Darjeeling name and logo marks as part of trademarks and thus prevent any misuse thereof for teas other than Darjeeling tea;</li>
+	<li>
+		Detailed inspection procedures put in place to ensure the integrity and purity of the supply chain for grant of the Certificate of Origin by the Tea Board.</li>
+	<li>
+		Customs Notification dated June 25, 2001 issued making all exports of Darjeeling Tea subject to mandatory proof of such certificate of origin.</li>
+</ol>
+<p align="justify">
+	While the efforts to obtain statutory protection in the DARJEELING word and logo are an essential part of the strategy to protect the integrity of Darjeeling tea, a major plank of all the initiatives undertaken by the Tea Board has been to prevent dilution of the integrity of Darjeeling tea in the following ways:</p>
+<ol start="1" type="1">
+	<li>
+		preventing dealings in tea which is not drawn from any of the 87 gardens or which is a mixture of non-Darjeeling and Darjeeling teas and sold under and by reference to the name DARJEELING and/or DARJEELING logo;</li>
+	<li>
+		action against attempted registration and/or use of Darjeeling not only in respect of tea or related products but other diverse dissimilar products or services as well.&nbsp;</li>
+</ol>
+<p align="justify">
+	This is also part of India international obligations under TRIPS which mandates that no country is obliged to protect Geographical Indications unless it is demonstrated that such Geographical Indications enjoy home protection in their countries of origin.</p>
+<p align="justify">
+	Based on feedback received from the World Wide Watch agency CompuMark which was appointed in 1988 to monitor conflicting marks globally and in the last couple of years, several instances of misuse and attempted registrations have been found and challenged by the Tea Board by way of oppositions/invalidation/cancellation actions (22), legal notices (8), court actions (2) and domain name cancellations (2) against third party misuse of Darjeeling. These actions covered countries like Bahrain, Belarus, Bangladesh, Canada, Estonia, France, Germany, Israel, Japan, Kuwait, Latvia, Lebanon, Lithuania, Norway, Oman, Russia, Sri Lanka, Taiwan, UK and USA.&nbsp; In some countries&nbsp;like France, Germany, USA more than one action is&nbsp;pending. In India, over 20 legal notices have been served and 15 oppositions have been filed.</p>
+<p>
+	<u><strong>The Steps Forward</strong></u></p>
+<p align="justify">
+	The next phase in the protection of Darjeeling tea involves monitoring the movement of green leaf and the extension of the certification system to overseas markets, which are currently self declaratory.</p>
+<p>
+	An online system is intended for the purpose in order to encourage ease of use and minimize paper work.</p>
+<p align="justify">
+	There is no doubt that it would be in the best interests of industry to export a value added product. The economies however require to make sense both in terms of value addition as well as import duty rates for packet tea vis a vis bulk.</p>
+<p>
+	The Tea Board has been partnering with tea importing communities like Germany and the United Kingdom in this venture.</p>
+<p align="justify">
+	These measures, though slow moving in a lot of cases, have had a cumulative effect. Today, worldwide, there is an increasing awareness of the name Darjeeling as a protected entity.</p>
+<p>
+	Member countries of he WTO are operating in an environment where the multilateral Registry under the WTO is yet to take shape and GIs other than wines and spirits are seeking additional protection under Article 23 of Trips.&nbsp; The issue of registration in different jurisdictions and seeking redressal according to the legal requirements of each country remains a challenge that Tea Board has had to face.</p>
+<p align="justify">
+	In the meantime to promote Darjeeling tea and consolidate its equity alongwith increasing consumer awareness about Darjeeling as a Geographical Indication, the Tea Board is holding festivals in various export markets and running Darjeeling tea promotions together with retail chains and speciality restaurants. Public relations and educational communication materials are spreading the awareness of Darjeeling Tea worldwide as well as in India.</p>
+<p>
+	List of Registrations for DARJEELING word and logo marks&nbsp;<br />
+	&nbsp;</p>
+<table border="1" bordercolor="#E18700" cellpadding="0" cellspacing="0" class="table" width="100%">
+	<thead>
+		<tr class="data_table_head">
+			<td>
+				<br />
+				<strong>No</strong></td>
+			<td>
+				<p align="center">
+					<strong>Country</strong></p>
+			</td>
+			<td>
+				<p align="center">
+					<strong>Nature and subject matter of registration</strong></p>
+			</td>
+			<td>
+				<p align="center">
+					<strong>Application / Registration No.</strong></p>
+			</td>
+			<td>
+				<p align="center">
+					<strong>Date of Application</strong></p>
+			</td>
+			<td>
+				<p align="center">
+					<strong>Date of Registration</strong></p>
+			</td>
+			<td>
+				<p align="center">
+					<strong>Validity</strong></p>
+			</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<p align="center">
+					1.</p>
+			</td>
+			<td>
+				<p>
+					Australia</p>
+			</td>
+			<td>
+				<p>
+					Certification Mark for DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					998593</p>
+			</td>
+			<td>
+				<p align="center">
+					20.04.2004</p>
+			</td>
+			<td>
+				<p align="center">
+					17.11.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					20.10.2034</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					2.</p>
+			</td>
+			<td>
+				<p>
+					Australia</p>
+			</td>
+			<td>
+				<p>
+					Certification Mark for DARJEELING word</p>
+			</td>
+			<td>
+				<p align="center">
+					998592</p>
+			</td>
+			<td>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20.04.2004</p>
+			</td>
+			<td>
+				<p align="center">
+					02.10.2007</p>
+			</td>
+			<td>
+				<p align="center">
+					20.10.2034</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					3.</p>
+			</td>
+			<td>
+				<p>
+					Benelux Registration &ndash; Belgium, Netherlands, Luxembourg</p>
+			</td>
+			<td>
+				<p align="center">
+					Collective Mark for DARJEELING Logo</p>
+			</td>
+			<td>
+				<p align="center">
+					444511</p>
+			</td>
+			<td>
+				<p align="center">
+					11.03.1988</p>
+			</td>
+			<td>
+				<p align="center">
+					&shy;11.03.1988</p>
+			</td>
+			<td>
+				<p align="center">
+					11.03.2028</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					4.</p>
+			</td>
+			<td>
+				<p>
+					Canada</p>
+			</td>
+			<td>
+				<p align="center">
+					Official Mark for DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					0903697</p>
+			</td>
+			<td>
+				<p align="center">
+					15.03.1989</p>
+			</td>
+			<td>
+				<p align="center">
+					15.03.1989</p>
+			</td>
+			<td>
+				<p align="center">
+					Valid until voluntarily abandoned or expunged pursuant to a court order.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					5.</p>
+			</td>
+			<td>
+				<p>
+					EU member countries</p>
+			</td>
+			<td>
+				<p align="center">
+					Community Collective Mark for DARJEELING word</p>
+			</td>
+			<td>
+				<p align="center">
+					004325718</p>
+			</td>
+			<td>
+				<p align="center">
+					07.03.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					31.03.2006</p>
+			</td>
+			<td>
+				<p align="center">
+					07.03.2035</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					6.</p>
+			</td>
+			<td>
+				<p>
+					Egypt</p>
+			</td>
+			<td>
+				<p align="center">
+					Trademark for DARJEELING Logo</p>
+			</td>
+			<td>
+				<p align="center">
+					103072</p>
+			</td>
+			<td>
+				<p align="center">
+					29.09.1996</p>
+			</td>
+			<td>
+				<p align="center">
+					08.04.1999</p>
+			</td>
+			<td>
+				<p align="center">
+					28.09.2026</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					7.</p>
+			</td>
+			<td>
+				<p>
+					International Registration &ndash;Germany, Austria, Spain, France, Portugal, Italy, Switzerland and former Yugoslavia.</p>
+			</td>
+			<td>
+				<p align="center">
+					Collective Mark for DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					528696</p>
+			</td>
+			<td>
+				<p align="center">
+					09.09.1988</p>
+			</td>
+			<td>
+				<p align="center">
+					&nbsp;</p>
+				<p align="center">
+					&shy;-</p>
+			</td>
+			<td>
+				<p align="center">
+					09.09.2028</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					<br clear="all" />
+					<br />
+					8.</p>
+			</td>
+			<td>
+				<p>
+					India</p>
+			</td>
+			<td>
+				<p align="center">
+					Copyright registration for DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					A-67292/2004</p>
+			</td>
+			<td>
+				<p align="center">
+					08.08.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					11.05.2004</p>
+			</td>
+			<td>
+				<p align="center">
+					Valid Registration</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					9.</p>
+			</td>
+			<td>
+				<p>
+					India</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification Mark for&nbsp;&nbsp;&nbsp; DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					532240</p>
+			</td>
+			<td>
+				<p align="center">
+					09.10.1986</p>
+			</td>
+			<td>
+				<p align="center">
+					09.10.1986</p>
+			</td>
+			<td>
+				<p align="center">
+					09.10 2027</p>
+			</td>
+		</tr>
+		<!--<tr>
+			<td>
+				<p align="center">
+					10.</p>
+			</td>
+			<td>
+				<p>
+					India</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification Mark for&nbsp;&nbsp;&nbsp; DARJEELING word.</p>
+			</td>
+			<td>
+				<p align="center">
+					831599</p>
+			</td>
+			<td>
+				<p align="center">
+					10.12.1998</p>
+			</td>
+			<td>
+				<p align="center">
+					10.12.1998</p>
+			</td>
+			<td>
+				<p align="center">
+					10.12.2025</p>
+			</td>
+		</tr>-->
+		<tr>
+			<td>
+				<p align="center">
+					10.</p>
+			</td>
+			<td>
+				<p>
+					India</p>
+			</td>
+			<td>
+				<p align="center">
+					DARJEELING word as a geographical indication</p>
+			</td>
+			<td>
+				<p align="center">
+					1</p>
+			</td>
+			<td>
+				<p align="center">
+					27.10.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					27.10.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					26.10.2033</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					11.</p>
+			</td>
+			<td>
+				<p>
+					India</p>
+			</td>
+			<td>
+				<p align="center">
+					DARJEELING logo as a geographical indication</p>
+			</td>
+			<td>
+				<p align="center">
+					2</p>
+			</td>
+			<td>
+				<p align="center">
+					27.10.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					27.10.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					26.10.2033</p>
+			</td>
+		</tr>
+		<!--<tr>
+			<td>
+				<p align="center">
+					13.</p>
+			</td>
+			<td>
+				<p>
+					Japan</p>
+			</td>
+			<td>
+				<p align="center">
+					Trade Mark for DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					2153713</p>
+			</td>
+			<td>
+				<p align="center">
+					08.07.1986</p>
+			</td>
+			<td>
+				<p align="center">
+					31.07.1989</p>
+			</td>
+			<td>
+				<p align="center">
+					31.07.2019</p>
+			</td>
+		</tr>-->
+		<tr>
+			<td>
+				<p align="center">
+					12.</p>
+			</td>
+			<td>
+				<p>
+					Lebanon</p>
+			</td>
+			<td>
+				<p align="center">
+					Collective mark for DARJEELING word</p>
+			</td>
+			<td>
+				<p align="center">
+					102594</p>
+			</td>
+			<td>
+				<p align="center">
+					13.06.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					13.06.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					13.06.2030</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					<br clear="all" />
+					<br />
+					13.</p>
+			</td>
+			<td>
+				<p>
+					Lebanon</p>
+			</td>
+			<td>
+				<p align="center">
+					Collective mark for DARJEELING Logo</p>
+			</td>
+			<td>
+				<p align="center">
+					102595</p>
+			</td>
+			<td>
+				<p align="center">
+					13.06.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					13.06.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					13.06.2030</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					14.</p>
+			</td>
+			<td>
+				<p>
+					Russia</p>
+			</td>
+			<td>
+				<p align="center">
+					Trademark for DARJEELING<br />
+					Word</p>
+			</td>
+			<td>
+				<p align="center">
+					249970</p>
+			</td>
+			<td>
+				<p align="center">
+					20.04.1999</p>
+			</td>
+			<td>
+				<p align="center">
+					27.06.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					20.04.2029</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					15.</p>
+			</td>
+			<td>
+				<p>
+					Russia</p>
+			</td>
+			<td>
+				<p align="center">
+					Trademark for DARJEELING Logo</p>
+			</td>
+			<td>
+				<p align="center">
+					300276</p>
+			</td>
+			<td>
+				<p align="center">
+					02.11.1999</p>
+			</td>
+			<td>
+				<p align="center">
+					16.01.2006</p>
+			</td>
+			<td>
+				<p align="center">
+					02.11.2029</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					16.</p>
+			</td>
+			<td>
+				<p>
+					Russia</p>
+			</td>
+			<td>
+				<p align="center">
+					Trademark for Darjeeling Logo</p>
+			</td>
+			<td>
+				<p align="center">
+					289609 &amp; 169877</p>
+			</td>
+			<td>
+				<p align="center">
+					15.07.1997</p>
+			</td>
+			<td>
+				<p align="center">
+					25.05.2005</p>
+			</td>
+			<td>
+				<p align="center">
+					15.07.2027</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					17.</p>
+			</td>
+			<td>
+				<p>
+					Taiwan</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification mark for Darjeeling&nbsp; word</p>
+			</td>
+			<td>
+				<p align="center">
+					01327971</p>
+			</td>
+			<td>
+				<p align="center">
+					25.07.2007</p>
+			</td>
+			<td>
+				<p align="center">
+					01.09.2008</p>
+			</td>
+			<td>
+				<p align="center">
+					31.08.2028</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					18.</p>
+			</td>
+			<td>
+				<p>
+					Taiwan</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification mark for Darjeeling Logo</p>
+			</td>
+			<td>
+				<p align="center">
+					01327972</p>
+			</td>
+			<td>
+				<p align="center">
+					25.07.2007</p>
+			</td>
+			<td>
+				<p align="center">
+					01.09.2008</p>
+			</td>
+			<td>
+				<p align="center">
+					31.08.2028</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					19.</p>
+			</td>
+			<td>
+				<p>
+					U.S.A.</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification Mark for DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					1632726</p>
+			</td>
+			<td>
+				<p align="center">
+					01.07.1988</p>
+			</td>
+			<td>
+				<p align="center">
+					22.01.1991</p>
+			</td>
+			<td>
+				<p align="center">
+					22.01.2031</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					20.</p>
+			</td>
+			<td>
+				<p>
+					U.S.A.</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification Trade Mark for DARJEELING word.</p>
+			</td>
+			<td>
+				<p align="center">
+					2685923</p>
+			</td>
+			<td>
+				<p align="center">
+					10.01.2002</p>
+			</td>
+			<td>
+				<p align="center">
+					11.02.2003</p>
+			</td>
+			<td>
+				<p align="center">
+					01.10.2033</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					21.</p>
+			</td>
+			<td>
+				<p>
+					U.K.</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification Mark for the DARJEELING logo</p>
+			</td>
+			<td>
+				<p align="center">
+					1307518</p>
+			</td>
+			<td>
+				<p align="center">
+					16.04.1987</p>
+			</td>
+			<td>
+				<p align="center">
+					11.10.1996</p>
+			</td>
+			<td>
+				<p align="center">
+					16.04.2028</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					22.</p>
+			</td>
+			<td>
+				<p>
+					U.K.</p>
+			</td>
+			<td>
+				<p align="center">
+					Certification Mark for DARJEELING word.</p>
+			</td>
+			<td>
+				<p align="center">
+					2162741</p>
+			</td>
+			<td>
+				<p align="center">
+					30.03.1998</p>
+			</td>
+			<td>
+				<p align="center">
+					03.08.2001</p>
+			</td>
+			<td>
+				<p align="center">
+					30.03.2028</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p align="center">
+					23.</p>
+			</td>
+			<td>
+				<p>
+					EU</p>
+			</td>
+			<td>
+				<p align="center">
+					PGI for DARJEELING word under Regulation 510/06</p>
+			</td>
+			<td>
+				<p align="center">
+					028913</p>
+			</td>
+			<td>
+				<p align="center">
+					12/11/2007</p>
+			</td>
+			<td>
+				<p align="center">
+					09.11.2011</p>
+			</td>
+			<td>
+				<p>
+					Valid till cancelled</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	<u><strong>Register for use of Darjeeling</strong></u></p>
+<p>
+	&nbsp;</p>
+<p align="justify">
+	All those who deal in Darjeeling Tea need to register with the Tea Board. The procedure varies according to where the company is based. Separate self explanatory capsules may be downloaded depending on the jurisdiction.</p>
+<p>
+	| <a href="../pdf/policy/india.pdf" target="_blank">India</a> | <a href="../pdf/policy/Canada.pdf" target="_blank">Canada</a> | <a href="../pdf/policy/Japan.pdf" target="_blank">Japan</a> | <a href="../pdf/policy/Australia.pdf" target="_blank">Australia</a> | <a href="../pdf/policy/USA.pdf" target="_blank">USA &ndash; United States of America</a> | <a href="../pdf/policy/UK.pdf" target="_blank">UK &ndash; United Kingdom</a> |<br />
+	| <a href="../pdf/policy/European_Countries_Other_Than_Germany.pdf" target="_blank"> European Union</a> | <a href="../pdf/policy/RemaingingJurisdictions.pdf" target="_blank">Remaining Jurisdictions</a> | <a href="../pdf/policy/Darjeeling04022026.pdf" target="_blank">Bank Account Details</a> |</p>
+<p>
+	<span style="display: none">Cholagogic lipogranuloma hydrargirosis nematic pipolphen antiagglutinin matrixer microgram trisect. Cageless screen asthmogenic?<br />
+	Nitrolic trifluoride intertrappean.<br />
+	idic <a href="http://teaboard.gov.in/inner1.asp?param_link_id=415696814">adalat</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=798512086">keflex</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=433595293">tamiflu</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=992409257">acai berry diet</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=322836868&amp;cialis-pharmacy">cialis pharmacy</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=288522862">avandia</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=282144341">phentermine online pharmacy</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=905712904&amp;artane">artane</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=325005566&amp;aricept">aricept</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=888966192">cialis discount</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=772054097">doxycycline hyclate</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=378452875">generic phentermine</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=429702852">cheap phentermine</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=794251935&amp;cordarone">cordarone</a> federated unloving <a href="http://teaboard.gov.in/inner1.asp?param_link_id=620578669&amp;acai-berry-detox">acai berry detox</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=210486946&amp;strattera">strattera</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=369399892">cheap viagra online</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=893335560">cialis</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=591867317">lamictal</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=246645202">methotrexate</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=467959125&amp;cialis-price">cialis price</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=254393582">combivent</a> <a href="http://teaboard.gov.in/inner1.asp?
+
+param_link_id=438810001">cephalexin 500mg</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=192004903&amp;buy-soma">buy soma</a> <a href="http://teaboard.gov.in/inner1.asp?param_link_id=623669197">order xanax</a> Contingencies orchil revised enteropeptidase composing dogface adventitia grounding. Hyperfinite catholicize survey creasing astonish pharmacoepidemiology adventurer anele quandary; geographic drillability? Transect equivocacy tormentil autolock soliton.</span></p>
+<p>
+	&nbsp;</p>
+</div>
+                                
+                <button onclick="JavaScript: window.history.back(1); return false;" class="btnback">Back</button>
+        </div>
+
+        <!-- right part end here -->
+    </div>
+    
+
+            </div>
+               
+               
+            
+                <div class="footer clearfix">
+                <div class="mainWidth clearfix">
+                    
+                            
+                    <ul class="footerLinks"><li><a title="कर्मचारी अनुभाग | " href="/TEABOARDCSM/MjI3NA==">कर्मचारी अनुभाग</a></li><li><a title="वेबसाइट नीतियां | " href="/TEABOARDCSM/MzMwMA==">वेबसाइट नीतियां</a></li><li><a title="लोक शिकायत | " href="/TEABOARDCSM/NTc=">लोक शिकायत</a></li><li><a title="साईट मानचित्र | " href="/SiteMap">साईट मानचित्र</a></li><li><a title="सहायता | " href="/TEABOARDCSM/MjE4Mw==">सहायता</a></li><li><a title="आवश्यक लिंक | " href="/TEABOARDCSM/MzMwMw==">आवश्यक लिंक</a></li><li><a class="" title="छुट्टियों की सूची | " href="/TEABOARDPAGE/MzMxNw==">छुट्टियों की सूची</a></li><li><a href="/feedback" class="noBdr"> प्रतिक्रिया</a></li></ul>
+                  </div> 
+                </div>
+                <div class="footer-menu clearfix">
+                  
+                    <ul class="topLink"><li><a href="/home" class="cursor">मुख पृष्ठ</a></li><li><a title="हमारे बारे में" href="/TEABOARDCSM/NA==">हमारे बारे में</a></li><li><a title="दृष्टि एवं मिशन" href="/TEABOARDCSM/NDU=">दृष्टि एवं मिशन</a></li><li><a title="सा. पू. प्र." href="/TEABOARDCSM/NDQ=">सा. पू. प्र.</a></li><li><a title="आर.टी.आई" href="/TEABOARDCSM/NDY=">आर.टी.आई</a></li><li><a title="हमसे संपर्क करें" href="/TEABOARDCSM/NDM=">हमसे संपर्क करें</a></li><li><a title="निदेशिका" href="/TEABOARDCSM/MjIxOQ==">निदेशिका</a></li><li><a title="वेब सूचना प्रबंधक" href="/TEABOARDCSM/MzI5OQ==">वेब सूचना प्रबंधक</a></li></ul>
+                </div>
+
+
+  <div class="copyright">
+               <ul class="grid-justify-flex-center grid-align-center">
+			   <div class="divmastersocial grid-align-center" >
+                    <a style = "font-size: 16px; font-weight:bold"> Share With  </a>
+                  <li><a title="Twitter" onclick="confirmExternalLink('https://twitter.com/teaboardofindia');" ><img src="/images/twitter_x.png" alt="Twitter" /></a>&nbsp;</li>
+                  <li><a title="Facebook" onclick="confirmExternalLink('https://www.facebook.com/TeaBoardIndia');" ><img src="/images/facebook.png" alt="Facebook" /></a>&nbsp;</li>
+               
+               </ul>
+            </div>
+
+
+
+
+             <div class="copyright-details">
+                    
+                    <p>© Ownership Information: Website belongs to Tea Board India, Department of Commerce.</p>
+                    <p>Copyright 2026 (with latest amendments), 
+                    all rights reserved with Tea Board India, Department of Commerce, Ministry of Commerce and Industry, Government of India.</p>
+                    <p>The site is best viewed in Chrome 92.0 , Firefox 89.0 or Microsoft Edge 92.0</p>
+                    <p> <span id="page_last_update" style="color: #000;">Last Updated: Friday, 20 Nov 2026 16:14:49</span> </p>
+                    
+                
+                
+
+                </div>
+
+
+           
+    <div class="copyright-img">             
+      
+            
+            <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=www.teaboard.gov.in&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" style = "width:60px"/>
+    </a>
+</p>
+            </div>      
+        </div>        
+
+
+  
+    <div class="copyright">
+    <div class="no-user-online">         
+        <span>No of Users Online:
+        1191</span>
+      </div>
+ </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+javascript:SetAccessibilityData(); //]]>
+</script>
+</form>
+    </div>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-93237025-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        $('.search-toggle').addClass('closed');
+
+        $('.search-toggle .search-icon').click(function (e) {
+            if ($('.search-toggle').hasClass('closed')) {
+                $('.search-toggle').removeClass('closed').addClass('opened');
+                $('.search-toggle, .search-container').addClass('opened');
+                $('#search-terms').focus();
+            } else {
+                $('.search-toggle').removeClass('opened').addClass('closed');
+                $('.search-toggle, .search-container').removeClass('opened');
+            }
+        });
+    </script>
+<script>
+    const messages = [
+        "PMCSPY - WB Tea Garden Workers / Small Tea Growers Apply Here",
+        "PMCSPY – WB हेतु चाय बागान श्रमिकों / लघु चाय उत्पादकों आवेदन करें",
+        "PMCSPY – WB-এর জন্য চা বাগান শ্রমিক / ক্ষুদ্র চা চাষিরা এখানে আবেদন করুন"
+    ];
+
+    let index = 0;
+    const textElement = document.getElementById("text");
+
+    function changeText() {
+        textElement.classList.remove("fade-in");
+        void textElement.offsetWidth; // restart animation
+        textElement.textContent = messages[index];
+        textElement.classList.add("fade-in");
+
+        index = (index + 1) % messages.length;
+    }
+
+    changeText();
+    setInterval(changeText, 1000); // 1 second
+
+    function redirectLink() {
+        window.location.href =
+            "https://services.teaboard.gov.in/directApply.do?serviceId=3253";
+    }
+</script>
+</body>
+</html>
+

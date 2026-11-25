@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="{{ this.lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <title>eAmbrosia</title>
+    <base href="/agriculture/eambrosia/geographical-indications-register/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script defer="defer" src="https://webtools.europa.eu/load.js"></script>
+    <script>
+        window.addEventListener('wtReady', function () {
+            // Start using $wt API.
+        });
+    </script>
+<link rel="stylesheet" href="styles-EN7DZYVA.css"></head>
+
+<body>
+  <app-root>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+    </div>
+  </app-root>
+  <div id="cookieKit"></div>
+  <script type="application/json">
+    {
+        "utility":"analytics",
+        "siteID":"323",
+        "sitePath":["ec.europa.eu/agriculture"],
+        "instance":"ec.europa.eu",
+        "mode":"manual",
+        "siteSection":"eAmbrosia"
+    }
+</script>
+  <script>
+    let isFirstLoading = true;
+
+    window.addEventListener('wtReady', function () {
+        $wt.render( "cookieKit", {
+            "service" : "cck",
+            "url": "https://ec.europa.eu/agriculture/cookies_" + this.lang
+        });
+
+        $wt.render( "globanBanner", {
+            "service" : "globan",
+            'theme': 'dark',
+            "lang" : this.lang
+        });
+
+    }, false);
+
+    const trackPage = () => {
+        if ($wt.analytics.isTrackable()) {
+            $wt.trackPageView();
+        }
+    }
+</script>
+<link rel="modulepreload" href="chunk-SXFMROGC.js"><link rel="modulepreload" href="chunk-J7VLXZ6K.js"><link rel="modulepreload" href="chunk-JXSG4EEI.js"><link rel="modulepreload" href="chunk-CIJWA5QP.js"><link rel="modulepreload" href="chunk-VQ2XQK5F.js"><script src="polyfills-5VHHWD25.js" type="module"></script><script src="main-MQBMYUJW.js" type="module"></script></body>
+</html>

@@ -1,0 +1,1945 @@
+[
+  {
+    "id": "cn-2662",
+    "tea": "Anji Bai Cha",
+    "tea_class": "Green",
+    "flavor": "Brisk, mellow",
+    "listed_region": "浙江省湖州市安吉县",
+    "original_origin": "浙江省湖州市安吉县",
+    "original_place": "Anji",
+    "coordinate": [
+      119.68667,
+      30.63528
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65573",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65573",
+    "display_region": "Zhejiang",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Zhejiang Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B73528730180553",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1818043/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "display_fill_class": "Green"
+  },
+  {
+    "id": "cn-2663",
+    "tea": "Anxi Tie Guan Yin",
+    "tea_class": "Oolong",
+    "flavor": "Fruity",
+    "listed_region": "福建省泉州市安溪县",
+    "original_origin": "福建省泉州市安溪县",
+    "original_place": "Anxi",
+    "coordinate": [
+      118.18203,
+      25.05706
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65574",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65574",
+    "display_region": "Fujian",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1811417/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "display_fill_class": "Mixed"
+  },
+  {
+    "id": "cn-2666",
+    "tea": "Huoshan Huang Ya",
+    "tea_class": "Yellow",
+    "flavor": "Sweet, mellow",
+    "listed_region": "安徽省六安市霍山县",
+    "original_origin": "安徽省六安市霍山县",
+    "original_place": "Huoshan",
+    "coordinate": [
+      116.27459,
+      31.28649
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65577",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65577",
+    "display_region": "Anhui",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Anhui Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B75549295130005",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1806644/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "display_fill_class": "Yellow"
+  },
+  {
+    "id": "cn-2668",
+    "tea": "Pu'er (ripe)",
+    "tea_class": "Dark",
+    "flavor": "Mellow, sweet",
+    "listed_region": "云南省昆明市、楚雄州、玉溪市、红河州、文山州、普洱市、西双版纳州、大理州、保山市、德宏州、临沧市",
+    "original_origin": "云南省昆明市、楚雄州、玉溪市、红河州、文山州、普洱市、西双版纳州、大理州、保山市、德宏州、临沧市",
+    "original_place": "Pu'er",
+    "coordinate": [
+      100.97481,
+      22.78863
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65579",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65579",
+    "display_region": "Yunnan",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Yunnan Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B84540832148656",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1794209/",
+    "scope_note": "Single GI record; map explicitly selects its cooked/ripe variant. Raw Pu’er remains outside the dark-tea encoding.",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "display_fill_class": "Dark"
+  },
+  {
+    "id": "cn-2671",
+    "tea": "Tanyang Gong Fu",
+    "tea_class": "Black",
+    "flavor": "Rich, mellow",
+    "listed_region": "福建省宁德市福安市",
+    "original_origin": "福建省宁德市福安市",
+    "original_place": "Fu’an",
+    "coordinate": [
+      119.64446,
+      27.09131
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65582",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65582",
+    "display_region": "Fujian",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1808872/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2674",
+    "tea": "Wuyuan Lü Cha",
+    "tea_class": "Green",
+    "flavor": "Fresh",
+    "listed_region": "江西省上饶市婺源县",
+    "original_origin": "江西省上饶市婺源县",
+    "original_place": "Wuyuan Xian",
+    "coordinate": [
+      117.75427,
+      29.32338
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65585",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65585",
+    "display_region": "Jiangxi",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Jiangxi Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B87813050901813",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1790859/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2675",
+    "tea": "Fuzhou Mo Li Hua Cha",
+    "tea_class": "Scented green",
+    "flavor": "Jasmine",
+    "listed_region": "福建省福州市",
+    "original_origin": "福建省福州市",
+    "original_place": "Fuzhou",
+    "coordinate": [
+      119.29153,
+      26.07711
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65586",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65586",
+    "display_region": "Fujian",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/8309983/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2680",
+    "tea": "Fenggang Xin Xi Cha",
+    "tea_class": "Green",
+    "flavor": "Fresh, mellow",
+    "listed_region": "贵州省遵义市风冈县",
+    "original_origin": "贵州省遵义市风冈县",
+    "original_place": "Fenggang Xian",
+    "coordinate": [
+      107.77976,
+      27.9328
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65591",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65591",
+    "display_region": "Guizhou",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Guizhou Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B78583622565599",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1811375/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2684",
+    "tea": "Zhengshan Xiaozhong",
+    "tea_class": "Black",
+    "flavor": "Pine smoke",
+    "listed_region": "福建省南平市武夷山市",
+    "original_origin": "福建省南平市武夷山市",
+    "original_place": "Xingcun",
+    "coordinate": [
+      117.92495,
+      27.63707
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65595",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65595",
+    "display_region": "Fujian",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1789047/",
+    "scope_note": "Smoked variant selected; flavor is not generalized to unsmoked tea.",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2686",
+    "tea": "Lu'an Guapian",
+    "tea_class": "Green",
+    "flavor": "Fresh, sweet",
+    "listed_region": "安徽省六安市",
+    "original_origin": "安徽省六安市",
+    "original_place": "Lu’an",
+    "coordinate": [
+      116.51688,
+      31.73561
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65597",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65597",
+    "display_region": "Anhui",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Anhui Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B75549295130005",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1802206/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2691",
+    "tea": "Songxi Lü Cha",
+    "tea_class": "Green",
+    "flavor": "Fresh, sweet",
+    "listed_region": "福建省南平市松溪县",
+    "original_origin": "福建省南平市松溪县",
+    "original_place": "Songxi Xian",
+    "coordinate": [
+      118.76596,
+      27.62243
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65602",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65602",
+    "display_region": "Fujian",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1793964/",
+    "scope_note": "Bud-shaped subtype selected for the short flavor description.",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2696",
+    "tea": "Fenghuang Dan Cong",
+    "tea_class": "Oolong",
+    "flavor": "Floral",
+    "listed_region": "广东省潮州市潮安县、饶平县、湘桥区、枫溪区",
+    "original_origin": "广东省潮州市潮安县、饶平县、湘桥区、枫溪区",
+    "original_place": "Fenghuang",
+    "coordinate": [
+      116.69972,
+      23.90844
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65607",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65607",
+    "display_region": "Guangdong",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Guangzhou Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B38891657012300",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1811362/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "boundary_name_note": "The source shapeName Guangzhou Province is normalized to Guangdong; the original Yingde location and jurisdiction verify the match."
+  },
+  {
+    "id": "cn-2698",
+    "tea": "Gou Gu Nao",
+    "tea_class": "Green",
+    "flavor": "Mellow, sweet",
+    "listed_region": "江西省吉安市遂川县",
+    "original_origin": "江西省吉安市遂川县",
+    "original_place": "Suichuan Xian",
+    "coordinate": [
+      114.39818,
+      26.34812
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65609",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65609",
+    "display_region": "Jiangxi",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Jiangxi Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B87813050901813",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1793905/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2699",
+    "tea": "Wuyishan Da Hong Pao",
+    "tea_class": "Oolong",
+    "flavor": "Mellow",
+    "listed_region": "福建省南平市武夷山市",
+    "original_origin": "福建省南平市武夷山市",
+    "original_place": "Wuyishan",
+    "coordinate": [
+      118.03066,
+      27.75995
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65610",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65610",
+    "display_region": "Fujian",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1922014/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2702",
+    "tea": "Anhua Hei Cha",
+    "tea_class": "Dark",
+    "flavor": "Smooth",
+    "listed_region": "湖南省益阳市安化县、桃江县、赫山区、资阳区",
+    "original_origin": "湖南省益阳市安化县、桃江县、赫山区、资阳区",
+    "original_place": "Anhua Xian",
+    "coordinate": [
+      111.46097,
+      28.35737
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65613",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65613",
+    "display_region": "Hunan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Hunan Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B64987462919315",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1818059/",
+    "scope_note": "General-grade Fuzhuan subtype selected for the short flavor description.",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2705",
+    "tea": "Hengxian Mo Li Hua Cha",
+    "tea_class": "Scented green",
+    "flavor": "Jasmine",
+    "listed_region": "广西壮族自治区南宁市横州市",
+    "original_origin": "广西壮族自治区南宁市横州市",
+    "original_place": "Hengzhou",
+    "coordinate": [
+      109.25713,
+      22.68314
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65616",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65616",
+    "display_region": "Guangxi",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Guangxi Zhuang Autonomous Region",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B59914390554750",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1808361/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "display_fill_class": "Scented green"
+  },
+  {
+    "id": "cn-2706",
+    "tea": "Pujiang Que She",
+    "tea_class": "Green",
+    "flavor": "Refreshing",
+    "listed_region": "四川省成都市蒲江县",
+    "original_origin": "四川省成都市蒲江县",
+    "original_place": "Pujiang Xian",
+    "coordinate": [
+      103.48693,
+      30.24249
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65617",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65617",
+    "display_region": "Sichuan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Sichuan Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B14397599951889",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1798496/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2707",
+    "tea": "Emeishan Cha",
+    "tea_class": "Green",
+    "flavor": "Fresh, mellow",
+    "listed_region": "四川省乐山市市中区、五通桥区、沙湾区、金口河区、峨眉山市、犍为县、井研县、夹江县、沐川县、峨边彝族自治县、马边彝族自治县",
+    "original_origin": "四川省乐山市市中区、五通桥区、沙湾区、金口河区、峨眉山市、犍为县、井研县、夹江县、沐川县、峨边彝族自治县、马边彝族自治县",
+    "original_place": "Emeishan Shi",
+    "coordinate": [
+      103.38755,
+      29.53267
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65618",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65618",
+    "display_region": "Sichuan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Sichuan Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B14397599951889",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1811732/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2708",
+    "tea": "Duobei Cha",
+    "tea_class": "Green",
+    "flavor": "Rich, mellow",
+    "listed_region": "贵州省安顺市普定县",
+    "original_origin": "贵州省安顺市普定县",
+    "original_place": "Puding Xian",
+    "coordinate": [
+      105.73086,
+      26.37786
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65619",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65619",
+    "display_region": "Guizhou",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Guizhou Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B78583622565599",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1798525/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2710",
+    "tea": "Fuding Bai Cha",
+    "tea_class": "White",
+    "flavor": "Floral",
+    "listed_region": "福建省宁德市福鼎市",
+    "original_origin": "福建省宁德市福鼎市",
+    "original_place": "Fuding",
+    "coordinate": [
+      120.21399,
+      27.32734
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65621",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65621",
+    "display_region": "Fujian",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1792585/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "display_fill_class": "Mixed"
+  },
+  {
+    "id": "cn-2720",
+    "tea": "Wuyi Yan Cha",
+    "tea_class": "Oolong",
+    "flavor": "Floral",
+    "listed_region": "福建省南平市武夷山市",
+    "original_origin": "福建省南平市武夷山市",
+    "original_place": "Wuyishan",
+    "coordinate": [
+      118.03066,
+      27.75995
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65631",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65631",
+    "display_region": "Fujian",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Fujian Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B30737817496648",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1922014/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2721",
+    "tea": "Yingde Hong Cha",
+    "tea_class": "Black",
+    "flavor": "Sweet",
+    "listed_region": "广东省英德市",
+    "original_origin": "广东省英德市",
+    "original_place": "Yingde",
+    "coordinate": [
+      113.41267,
+      24.16588
+    ],
+    "shown": true,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65632",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65632",
+    "display_region": "Guangdong",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Guangzhou Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B38891657012300",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1786634/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province",
+    "boundary_name_note": "The source shapeName Guangzhou Province is normalized to Guangdong; the original Yingde location and jurisdiction verify the match.",
+    "display_fill_class": "Black"
+  },
+  {
+    "id": "cn-2736",
+    "tea": "Qiandao Yin Zhen",
+    "tea_class": "Green",
+    "flavor": "Sweet, mellow",
+    "listed_region": "浙江省杭州市建德市",
+    "original_origin": "浙江省杭州市建德市",
+    "original_place": "Jiande Shi",
+    "coordinate": [
+      119.28767,
+      29.43434
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65647",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65647",
+    "display_region": "Zhejiang",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Zhejiang Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B73528730180553",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1806431/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2737",
+    "tea": "Taishun San Bei Xiang Cha",
+    "tea_class": "Green",
+    "flavor": "Mellow",
+    "listed_region": "浙江省温州市泰顺县",
+    "original_origin": "浙江省温州市泰顺县",
+    "original_place": "Taishun Xian",
+    "coordinate": [
+      119.86109,
+      27.51992
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65648",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65648",
+    "display_region": "Zhejiang",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Zhejiang Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B73528730180553",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1793543/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2746",
+    "tea": "Macheng Fu Bai Ju",
+    "tea_class": "Herbal infusion",
+    "flavor": "Sweet, mellow",
+    "listed_region": "湖北省黄冈市麻城市",
+    "original_origin": "湖北省黄冈市麻城市",
+    "original_place": "Futianhe",
+    "coordinate": [
+      115.09361,
+      31.47748
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65657",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65657",
+    "display_region": "Hubei",
+    "treatment": "not displayed",
+    "selection_reason": "Not Camellia sinensis tea.",
+    "boundary_features": [
+      {
+        "shapeName": "Hubei Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B41908353419915",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1810892/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2748",
+    "tea": "Yidu Yi Hong Cha",
+    "tea_class": "Black",
+    "flavor": "Sweet finish",
+    "listed_region": "湖北省宜昌市宜都市",
+    "original_origin": "湖北省宜昌市宜都市",
+    "original_place": "Yidu",
+    "coordinate": [
+      111.45,
+      30.3925
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65659",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65659",
+    "display_region": "Hubei",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Hubei Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B41908353419915",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1802170/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2750",
+    "tea": "Guiping Xi Shan Cha",
+    "tea_class": "Green",
+    "flavor": "Sweet, fresh",
+    "listed_region": "广西壮族自治区贵港市桂平市",
+    "original_origin": "广西壮族自治区贵港市桂平市",
+    "original_place": "Guiping",
+    "coordinate": [
+      110.07434,
+      23.39483
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65561",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65561",
+    "display_region": "Guangxi",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Guangxi Zhuang Autonomous Region",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B59914390554750",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1809486/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "cn-2754",
+    "tea": "Naxi Te Zao Cha",
+    "tea_class": "Green",
+    "flavor": "Refreshing",
+    "listed_region": "四川省泸州市纳溪区",
+    "original_origin": "四川省泸州市纳溪区",
+    "original_place": "Naxi",
+    "coordinate": [
+      105.36488,
+      28.77422
+    ],
+    "shown": false,
+    "source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65565",
+    "flavor_source": "https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/65565",
+    "display_region": "Sichuan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Sichuan Province",
+        "shapeISO": "CHN",
+        "shapeID": "43563684B14397599951889",
+        "shapeGroup": "CHN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1818086/",
+    "scope_note": "",
+    "boundary_dataset": "CHN-ADM1-43563684",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1_simplified.geojson",
+    "boundary_year": "2019",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Original source place matched to its parent province"
+  },
+  {
+    "id": "tw-wenshan",
+    "tea": "Wenshan Baozhong",
+    "tea_class": "Oolong",
+    "flavor": "Floral",
+    "listed_region": "Pinglin and other northern tea districts",
+    "original_origin": "Pinglin and other northern tea districts",
+    "original_place": "Pinglin",
+    "coordinate": [
+      121.7103,
+      24.9352
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3781",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3781",
+    "display_region": "Northern Taiwan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Taipei",
+        "shapeISO": "TW-TPE",
+        "shapeID": "90331920B22703176907123",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "New Taipei",
+        "shapeISO": "TW-NWT",
+        "shapeID": "90331920B2879670148147",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Keelung",
+        "shapeISO": "TW-KEE",
+        "shapeID": "90331920B1111134318549",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Yilan County",
+        "shapeISO": "TW-ILA",
+        "shapeID": "90331920B81947240122251",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Taoyuan",
+        "shapeISO": "TW-TAO",
+        "shapeID": "90331920B8812801353421",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu County",
+        "shapeISO": "TW-HSQ",
+        "shapeID": "90331920B72000317509667",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu",
+        "shapeISO": "TW-HSZ",
+        "shapeID": "90331920B33809065648062",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1670516/",
+    "scope_note": "",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "https://eng.taiwan.net.tw/m1.aspx?sNo=0029001"
+  },
+  {
+    "id": "tw-dongding",
+    "tea": "Dong Ding oolong",
+    "tea_class": "Oolong",
+    "flavor": "Roasted",
+    "listed_region": "Lugu, Nantou; now also produced in other tea districts",
+    "original_origin": "Lugu, Nantou; now also produced in other tea districts",
+    "original_place": "Lugu",
+    "coordinate": [
+      120.7525,
+      23.74639
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3784",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3784",
+    "display_region": "Nantou",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Nantou County",
+        "shapeISO": "TW-NAN",
+        "shapeID": "90331920B80042697765976",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1672551/",
+    "scope_note": "",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "Original source place matched to its parent county"
+  },
+  {
+    "id": "tw-tieguanyin",
+    "tea": "Muzha Tieguanyin",
+    "tea_class": "Oolong",
+    "flavor": "Roasted, mellow",
+    "listed_region": "Muzha and Shimen tea districts",
+    "original_origin": "Muzha and Shimen tea districts",
+    "original_place": "Muzha",
+    "coordinate": [
+      121.56888,
+      24.98644
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3785",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3785",
+    "display_region": "Northern Taiwan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Taipei",
+        "shapeISO": "TW-TPE",
+        "shapeID": "90331920B22703176907123",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "New Taipei",
+        "shapeISO": "TW-NWT",
+        "shapeID": "90331920B2879670148147",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Keelung",
+        "shapeISO": "TW-KEE",
+        "shapeID": "90331920B1111134318549",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Yilan County",
+        "shapeISO": "TW-ILA",
+        "shapeID": "90331920B81947240122251",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Taoyuan",
+        "shapeISO": "TW-TAO",
+        "shapeID": "90331920B8812801353421",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu County",
+        "shapeISO": "TW-HSQ",
+        "shapeID": "90331920B72000317509667",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu",
+        "shapeISO": "TW-HSZ",
+        "shapeID": "90331920B33809065648062",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1671883/",
+    "scope_note": "Regional Taiwan product, distinct from Anxi Tie Guan Yin.",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "https://eng.taiwan.net.tw/m1.aspx?sNo=0029001"
+  },
+  {
+    "id": "tw-beauty",
+    "tea": "Oriental Beauty",
+    "tea_class": "Oolong",
+    "flavor": "Honeyed",
+    "listed_region": "Beipu, Emei and other northern tea districts",
+    "original_origin": "Beipu, Emei and other northern tea districts",
+    "original_place": "Emei",
+    "coordinate": [
+      121.02,
+      24.68917
+    ],
+    "shown": true,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3787",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3787",
+    "display_region": "Northern Taiwan",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Taipei",
+        "shapeISO": "TW-TPE",
+        "shapeID": "90331920B22703176907123",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "New Taipei",
+        "shapeISO": "TW-NWT",
+        "shapeID": "90331920B2879670148147",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Keelung",
+        "shapeISO": "TW-KEE",
+        "shapeID": "90331920B1111134318549",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Yilan County",
+        "shapeISO": "TW-ILA",
+        "shapeID": "90331920B81947240122251",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Taoyuan",
+        "shapeISO": "TW-TAO",
+        "shapeID": "90331920B8812801353421",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu County",
+        "shapeISO": "TW-HSQ",
+        "shapeID": "90331920B72000317509667",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu",
+        "shapeISO": "TW-HSZ",
+        "shapeID": "90331920B33809065648062",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1671231/",
+    "scope_note": "",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "https://eng.taiwan.net.tw/m1.aspx?sNo=0029001",
+    "display_fill_class": "Oolong"
+  },
+  {
+    "id": "tw-red-oolong",
+    "tea": "Luye red oolong",
+    "tea_class": "Oolong",
+    "flavor": "Ripe fruit",
+    "listed_region": "Luye, Taitung",
+    "original_origin": "Luye, Taitung",
+    "original_place": "Luye",
+    "coordinate": [
+      121.13642,
+      22.91296
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3786",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3786",
+    "display_region": "Taitung",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Taitung County",
+        "shapeISO": "TW-TTT",
+        "shapeID": "90331920B10925530381331",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1672292/",
+    "scope_note": "",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "Original source place matched to its parent county"
+  },
+  {
+    "id": "tw-high-mountain",
+    "tea": "High-mountain oolong",
+    "tea_class": "Oolong",
+    "flavor": "Mellow",
+    "listed_region": "Multiple high-altitude districts in Nantou, Taichung and Chiayi",
+    "original_origin": "Multiple high-altitude districts in Nantou, Taichung and Chiayi",
+    "original_place": "Alishan",
+    "coordinate": [
+      120.81028,
+      23.51528
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3783",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3783",
+    "display_region": "Unresolved / multiple source regions",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1679029/",
+    "scope_note": "Alishan is selected as one source-listed regional reference; the point does not represent every high-mountain tea district."
+  },
+  {
+    "id": "tw-biluochun",
+    "tea": "Sanxia Biluochun",
+    "tea_class": "Green",
+    "flavor": "Fresh",
+    "listed_region": "Sanxia, New Taipei",
+    "original_origin": "Sanxia, New Taipei",
+    "original_place": "Sanxia",
+    "coordinate": [
+      121.37139,
+      24.93448
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3782",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3782",
+    "display_region": "Northern Taiwan",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Taipei",
+        "shapeISO": "TW-TPE",
+        "shapeID": "90331920B22703176907123",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "New Taipei",
+        "shapeISO": "TW-NWT",
+        "shapeID": "90331920B2879670148147",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Keelung",
+        "shapeISO": "TW-KEE",
+        "shapeID": "90331920B1111134318549",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Yilan County",
+        "shapeISO": "TW-ILA",
+        "shapeID": "90331920B81947240122251",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Taoyuan",
+        "shapeISO": "TW-TAO",
+        "shapeID": "90331920B8812801353421",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu County",
+        "shapeISO": "TW-HSQ",
+        "shapeID": "90331920B72000317509667",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hsinchu",
+        "shapeISO": "TW-HSZ",
+        "shapeID": "90331920B33809065648062",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1670106/",
+    "scope_note": "",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "https://eng.taiwan.net.tw/m1.aspx?sNo=0029001"
+  },
+  {
+    "id": "tw-sunmoon",
+    "tea": "Sun Moon Lake black tea",
+    "tea_class": "Black",
+    "flavor": "Cinnamon, mint",
+    "listed_region": "Yuchi, Nantou",
+    "original_origin": "Yuchi, Nantou",
+    "original_place": "Yuchi",
+    "coordinate": [
+      120.93897,
+      23.89661
+    ],
+    "shown": false,
+    "source": "https://www.moa.gov.tw/ws.php?id=2444794",
+    "flavor_source": "https://www.moa.gov.tw/ws.php?id=2444794",
+    "display_region": "Nantou",
+    "treatment": "not displayed",
+    "selection_reason": "Dense regional cluster: omitted to keep leaf markers, labels and leaders separable at the unchanged template font sizes.",
+    "boundary_features": [
+      {
+        "shapeName": "Nantou County",
+        "shapeISO": "TW-NAN",
+        "shapeID": "90331920B80042697765976",
+        "shapeGroup": "TWN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1665360/",
+    "scope_note": "Notes apply to the featured local product; not all cultivars or batches.",
+    "boundary_dataset": "TWN-ADM1-90331920",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TWN/ADM1/geoBoundaries-TWN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "Original source place matched to its parent county"
+  },
+  {
+    "id": "tw-small-leaf",
+    "tea": "Small-leaf black tea",
+    "tea_class": "Black",
+    "flavor": "",
+    "listed_region": "Multiple tea districts",
+    "original_origin": "Multiple tea districts",
+    "original_place": "",
+    "coordinate": [
+      null,
+      null
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3788",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3788",
+    "display_region": "Unresolved / multiple source regions",
+    "treatment": "not displayed",
+    "selection_reason": "Specific flavor evidence missing.",
+    "boundary_features": [],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "",
+    "scope_note": ""
+  },
+  {
+    "id": "tw-honey-black",
+    "tea": "Honey-scented black tea",
+    "tea_class": "Black",
+    "flavor": "Honeyed",
+    "listed_region": "Multiple tea districts",
+    "original_origin": "Multiple tea districts",
+    "original_place": "",
+    "coordinate": [
+      null,
+      null
+    ],
+    "shown": false,
+    "source": "https://www.tbrs.gov.tw/ws.php?id=3788",
+    "flavor_source": "https://www.tbrs.gov.tw/ws.php?id=3788",
+    "display_region": "Unresolved / multiple source regions",
+    "treatment": "not displayed",
+    "selection_reason": "Representative production-region coordinate not established.",
+    "boundary_features": [],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "",
+    "scope_note": "Style-level record; retained without coordinates."
+  },
+  {
+    "id": "assam",
+    "tea": "Assam black tea",
+    "tea_class": "Black",
+    "flavor": "Malty aroma",
+    "listed_region": "Upper Brahmaputra Valley, Assam, India",
+    "original_origin": "Upper Brahmaputra Valley, Assam, India",
+    "original_place": "Dibrugarh",
+    "coordinate": [
+      94.90837,
+      27.47989
+    ],
+    "shown": true,
+    "source": "https://www.teaboard.gov.in/TEABOARDCSM/Ng==",
+    "flavor_source": "https://www.teaboard.gov.in/pdf/Letter_to_stakeholders_03_10_2024_combined_pdf2925.pdf",
+    "display_region": "Assam",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Assam",
+        "shapeISO": "IN-AS",
+        "shapeID": "1811400B78322693766699",
+        "shapeGroup": "IND",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1272648/",
+    "scope_note": "",
+    "boundary_dataset": "IND-ADM1-1811400",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1_simplified.geojson",
+    "boundary_year": "2011",
+    "boundary_license": "Creative Commons Attribution 2.5 India (CC BY 2.5 IN)",
+    "region_definition_source": "Original source district matched to its parent state",
+    "display_fill_class": "Black"
+  },
+  {
+    "id": "darjeeling",
+    "tea": "Darjeeling tea",
+    "tea_class": "Black",
+    "flavor": "Muscat grape aroma",
+    "listed_region": "Darjeeling hills, West Bengal, India",
+    "original_origin": "Darjeeling hills, West Bengal, India",
+    "original_place": "Darjeeling",
+    "coordinate": [
+      88.26667,
+      27.03333
+    ],
+    "shown": true,
+    "source": "https://teaboard.gov.in/TEABOARDCSM/NzI=",
+    "flavor_source": "https://www.teaboard.gov.in/pdf/Letter_to_stakeholders_03_10_2024_combined_pdf2925.pdf",
+    "display_region": "West Bengal",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "West Bengal",
+        "shapeISO": "IN-WB",
+        "shapeID": "1811400B32673734874058",
+        "shapeGroup": "IND",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1273467/",
+    "scope_note": "",
+    "boundary_dataset": "IND-ADM1-1811400",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1_simplified.geojson",
+    "boundary_year": "2011",
+    "boundary_license": "Creative Commons Attribution 2.5 India (CC BY 2.5 IN)",
+    "region_definition_source": "Original source district matched to its parent state",
+    "display_fill_class": "Black"
+  },
+  {
+    "id": "yame",
+    "tea": "Yame Gyokuro",
+    "tea_class": "Green",
+    "flavor": "Umami",
+    "listed_region": "Hoshino, Yame, Fukuoka, Japan",
+    "original_origin": "Hoshino, Yame, Fukuoka, Japan",
+    "original_place": "Fukuoka / Yame",
+    "coordinate": [
+      130.78673,
+      33.24831
+    ],
+    "shown": true,
+    "source": "https://pd.jgic.jp/en/register/entry/5.html",
+    "flavor_source": "https://www.maff.go.jp/e/policies/intel/gi_act/register/s5.html",
+    "display_region": "Kyushu",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Fukuoka Prefecture",
+        "shapeISO": "JP-40",
+        "shapeID": "47310658B84955483384411",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Saga Prefecture",
+        "shapeISO": "JP-41",
+        "shapeID": "47310658B53717877461658",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Nagasaki Prefecture",
+        "shapeISO": "JP-42",
+        "shapeID": "47310658B82893106270036",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Kumamoto",
+        "shapeISO": "JP-43",
+        "shapeID": "47310658B50146545060878",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Oita",
+        "shapeISO": "JP-44",
+        "shapeID": "47310658B53666900505284",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Miyazaki Prefecture",
+        "shapeISO": "JP-45",
+        "shapeID": "47310658B9011809709100",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Kagoshima Prefecture",
+        "shapeISO": "JP-46",
+        "shapeID": "47310658B56795339529760",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/12509204/",
+    "scope_note": "",
+    "boundary_dataset": "JPN-ADM1-47310658",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/JPN/ADM1/geoBoundaries-JPN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "https://www.visit-kyushu.com/en/destinations/",
+    "display_fill_class": "Green"
+  },
+  {
+    "id": "nilgiri",
+    "tea": "Nilgiri Orthodox",
+    "tea_class": "Black",
+    "flavor": "Floral, brisk",
+    "listed_region": "Nilgiri hills / Nilgiris district",
+    "original_origin": "Nilgiri hills / Nilgiris district",
+    "original_place": "Nilgiris",
+    "coordinate": [
+      76.69521,
+      11.4134
+    ],
+    "shown": true,
+    "source": "https://www.teaboard.gov.in/pdf/Nilgiri_Orthodox_Regulation_nilgiri_pdf972.pdf",
+    "flavor_source": "https://www.teaboard.gov.in/pdf/Nilgiri_Orthodox_Regulation_nilgiri_pdf972.pdf",
+    "display_region": "Tamil Nadu",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Tamil Nādu",
+        "shapeISO": "IN-TN",
+        "shapeID": "1811400B21167269026319",
+        "shapeGroup": "IND",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1253993/",
+    "scope_note": "",
+    "boundary_dataset": "IND-ADM1-1811400",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1_simplified.geojson",
+    "boundary_year": "2011",
+    "boundary_license": "Creative Commons Attribution 2.5 India (CC BY 2.5 IN)",
+    "region_definition_source": "Original source district matched to its parent state",
+    "display_fill_class": "Black"
+  },
+  {
+    "id": "uji-matcha",
+    "tea": "Uji matcha",
+    "tea_class": "Green",
+    "flavor": "Umami",
+    "listed_region": "Southern Kyoto tea region; Uji used as a representative reference",
+    "original_origin": "Southern Kyoto tea region; Uji used as a representative reference",
+    "original_place": "Kyoto / Uji",
+    "coordinate": [
+      135.80325,
+      34.89044
+    ],
+    "shown": true,
+    "source": "https://www.maff.go.jp/e/policies/market/dento_syoku/menu/uzi_tea.html",
+    "flavor_source": "https://www.maff.go.jp/e/policies/market/dento_syoku/menu/uzi_tea.html",
+    "display_region": "Kansai",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Fukui Prefecture",
+        "shapeISO": "JP-18",
+        "shapeID": "47310658B56113460554138",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Shiga",
+        "shapeISO": "JP-25",
+        "shapeID": "47310658B66619598690773",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Kyoto Prefecture",
+        "shapeISO": "JP-26",
+        "shapeID": "47310658B94014236912993",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Osaka Prefecture",
+        "shapeISO": "JP-27",
+        "shapeID": "47310658B55038426470858",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Hyogo Prefecture",
+        "shapeISO": "JP-28",
+        "shapeID": "47310658B99690886618857",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Nara Prefecture",
+        "shapeISO": "JP-29",
+        "shapeID": "47310658B6129583352403",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      },
+      {
+        "shapeName": "Wakayama Prefecture",
+        "shapeISO": "JP-30",
+        "shapeID": "47310658B18585040133157",
+        "shapeGroup": "JPN",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1849372/",
+    "scope_note": "Official traditional-food listing, not asserted to be a GI registration. Matcha is classified as green tea.",
+    "boundary_dataset": "JPN-ADM1-47310658",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/JPN/ADM1/geoBoundaries-JPN-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "https://www.kansai.meti.go.jp/english/what_is_metikansai.html",
+    "display_fill_class": "Green"
+  },
+  {
+    "id": "nuwara-eliya",
+    "tea": "Nuwara Eliya tea",
+    "tea_class": "Black",
+    "flavor": "Delicate, fragrant",
+    "listed_region": "Nuwara Eliya agro-climatic region, Central Province",
+    "original_origin": "Nuwara Eliya agro-climatic region, Central Province",
+    "original_place": "Nuwara Eliya",
+    "coordinate": [
+      80.78286,
+      6.97078
+    ],
+    "shown": true,
+    "source": "https://www.srilankateaboard.lk/wp-content/uploads/2023/08/Nuwala_Eliya.pdf",
+    "flavor_source": "https://www.srilankateaboard.lk/wp-content/uploads/2023/08/Nuwala_Eliya.pdf",
+    "display_region": "Central Province",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Central Province",
+        "shapeISO": "LK-2",
+        "shapeID": "99731895B28050807675820",
+        "shapeGroup": "LKA",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1232783/",
+    "scope_note": "Black-tea interpretation corroborated by the producer's Nuwara Eliya BOP regional collection; tasting words remain from the Tea Board regional specification. Central Province is a geographic display grouping, not the certification extent.",
+    "boundary_dataset": "LKA-ADM1-99731895",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1_simplified.geojson",
+    "boundary_year": "2017",
+    "boundary_license": "Open Data Commons Open Database License 1.0",
+    "region_definition_source": "Source-named Nuwara Eliya location matched to its parent province; not the certification boundary",
+    "display_fill_class": "Black"
+  },
+  {
+    "id": "shan-tuyet",
+    "tea": "Shan Tuyet green tea",
+    "tea_class": "Green",
+    "flavor": "",
+    "listed_region": "Hoàng Su Phì, source-era Hà Giang Province, northern Vietnam",
+    "original_origin": "Hoàng Su Phì, source-era Hà Giang Province, northern Vietnam",
+    "original_place": "Hoang Su Phi",
+    "coordinate": [
+      104.66667,
+      22.75
+    ],
+    "shown": true,
+    "source": "https://dantoc.vietnamtourism.gov.vn/en/green-tea-in-hoang-su-phi-ha-giang/",
+    "flavor_source": "",
+    "display_region": "Ha Giang (source-era)",
+    "treatment": "broader display region",
+    "selection_reason": "Larger named parent region used for readable grouping at gallery scale; original origin remains in this table. This does not expand the production or GI boundary.",
+    "boundary_features": [
+      {
+        "shapeName": "Hà Giang",
+        "shapeISO": "VN-03",
+        "shapeID": "63759600B80209413202681",
+        "shapeGroup": "VNM",
+        "shapeType": "ADM1"
+      }
+    ],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "regional_tea",
+    "coordinate_source": "https://www.geonames.org/1580678/",
+    "scope_note": "GeoNames Hoang Su Phi is used only as a named regional reference. Display uses the archived Ha Giang province outline from the source period, not present-day administrative claims or the full Shan Tuyet GI.",
+    "boundary_dataset": "VNM-ADM1-63759600",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1_simplified.geojson",
+    "boundary_year": "2008",
+    "boundary_license": "Public Domain",
+    "region_definition_source": "Archived province associated with Hoang Su Phi in the tourism source; source-era display grouping, not present-day administrative boundaries",
+    "display_fill_class": "Green"
+  },
+  {
+    "id": "thai-iced-tea",
+    "tea": "Thai iced tea",
+    "tea_class": "Tea drink",
+    "flavor": "Milk, sugar, ice",
+    "listed_region": "Bangkok, Thailand (illustrative drinking location)",
+    "original_origin": "Bangkok, Thailand (illustrative drinking location)",
+    "original_place": "Bangkok",
+    "coordinate": [
+      100.50144,
+      13.75398
+    ],
+    "shown": true,
+    "source": "https://guide.michelin.com/jp/en/article/features/iconic-dishes-thai-milk-tea-explained",
+    "flavor_source": "https://guide.michelin.com/jp/en/article/features/iconic-dishes-thai-milk-tea-explained",
+    "display_region": "No shading: drinking location",
+    "treatment": "cup",
+    "selection_reason": "Illustrative drinking location; no tea-growing area or country-wide coverage is encoded.",
+    "boundary_features": [],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "tea_drink",
+    "coordinate_source": "https://www.geonames.org/1609350/",
+    "scope_note": "Cup near Bangkok is an example drinking location, not the drink's birthplace, an exclusive distribution or a tea-growing region. Recipes vary; no spice or artificial color is asserted for every cup."
+  },
+  {
+    "id": "masala-chiya",
+    "tea": "Masala chiya",
+    "tea_class": "Tea drink",
+    "flavor": "Milk, sugar, spices",
+    "listed_region": "Kathmandu, Nepal (illustrative drinking location)",
+    "original_origin": "Kathmandu, Nepal (illustrative drinking location)",
+    "original_place": "Kathmandu",
+    "coordinate": [
+      85.3206,
+      27.70169
+    ],
+    "shown": true,
+    "source": "https://www.ecs.com.np/food/sauni-euta-chiya",
+    "flavor_source": "https://enhancedif.org/system/files/uploads/nepal-trade-issue-3-english.pdf",
+    "display_region": "No shading: drinking location",
+    "treatment": "cup",
+    "selection_reason": "Illustrative drinking location; no tea-growing area or country-wide coverage is encoded.",
+    "boundary_features": [],
+    "display_scope_kind": "Cartographic parent-region grouping; not GI extent or planted tea area",
+    "kind": "tea_drink",
+    "coordinate_source": "https://www.geonames.org/1283240/",
+    "scope_note": "Cup near Kathmandu is an example urban drinking location, not a growing region or a birthplace claim. The English label uses the publication's spelling masala chiya; native name is a transliteration, not a quoted official registration."
+  }
+]

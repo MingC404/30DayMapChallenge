@@ -1,0 +1,130 @@
+{
+  "scenario": {
+    "date": "2026-10-20",
+    "weekday": "Tuesday",
+    "window": "17:00-19:00",
+    "timezone": "America/New_York"
+  },
+  "regular_reference": {
+    "date": "2026-11-17",
+    "document": "sources/mne_regular.pdf",
+    "effective_date": "2026-11-15",
+    "pdf_page_1_based": 9,
+    "train": "6351",
+    "new_york_departure": "17:36",
+    "summit_arrival": "18:27",
+    "same_train_column": true,
+    "use": "Ordinary Midtown Direct service pattern only; not the October scenario timetable"
+  },
+  "findings": [
+    {
+      "claim": "Weekday Midtown Direct M&E service is diverted to Hoboken during the October-November cutover.",
+      "source_ids": [
+        "portalcut",
+        "njt_release"
+      ],
+      "level": "dated service plan"
+    },
+    {
+      "claim": "Hoboken-33 Street PATH operates in the evening peak during the diversion.",
+      "source_ids": [
+        "path_advisory"
+      ],
+      "reading": "Official article's indexed readable content; direct-download HTML is a JavaScript shell, not an archived article body",
+      "level": "dated line/service plan; no reconstructed timed itinerary"
+    },
+    {
+      "claim": "NY Waterway serves West 39th Street and Hoboken NJ Transit Terminal with enhanced weekday cutover peaks.",
+      "source_ids": [
+        "nyw_advisory"
+      ],
+      "document_pages_1_based": [
+        1
+      ],
+      "level": "dated terminal-pair service plan; no historical sailings verified"
+    },
+    {
+      "claim": "NEC remains in operation with fewer trains while Midtown Direct is diverted.",
+      "source_ids": [
+        "cutover_briefing",
+        "newark_station"
+      ],
+      "document_pages_1_based": [
+        2,
+        15
+      ],
+      "level": "dated reduced-service plan plus station-line topology"
+    },
+    {
+      "claim": "Newark Light Rail links Newark Penn with separate Newark Broad Street, where M&E heads west toward Summit.",
+      "source_ids": [
+        "newark_connection",
+        "nlr_map",
+        "mne_regular"
+      ],
+      "level": "network topology plus continuing M&E service plan; historical interchange times unverified"
+    }
+  ],
+  "historical_timetables": {
+    "october_mne": "Not recovered; three candidate URLs returned 404. Not an exhaustive archive search.",
+    "february_mne": "Previously retrieved but never used for October. Removed at finalization as wrong-phase reference; URL, status and hash retained in source manifest.",
+    "november_mne": "Retrieved and dated; used only for regular comparison and topology.",
+    "october_nec": "Not recovered",
+    "october_ferry": "Not recovered",
+    "october_path_and_nlr": "No complete dated departure schedule established",
+    "total_trip_durations": "None claimed"
+  },
+  "interpretation": "All three alternatives are validated as service patterns, not as guaranteed historical departure-to-arrival journeys. Generalized access geometry does not establish walk or terminal transfer time.",
+  "current_origin": {
+    "label": "SoHo / Work",
+    "coordinates": [
+      -73.9996,
+      40.7233
+    ],
+    "basis": "Illustrative origin at Broadway / Spring Street, not a claimed personal office address."
+  },
+  "soho_access": [
+    {
+      "route": "usual",
+      "direction": "Canal St Q platform, uptown / 96 St to 34 St\u2013Herald Sq; walk to New York Penn",
+      "sources": [
+        "q_timetable",
+        "q_line_map"
+      ],
+      "scope": "Q timetable effective 2026-05-17 and weekday station map updated 2026-02-26; ordinary service pattern, no historical day-of incident reconstruction"
+    },
+    {
+      "route": "path",
+      "direction": "Walk to Christopher Street, select Hoboken-bound HOB\u201333 service",
+      "sources": [
+        "path_line_map",
+        "path_advisory",
+        "path_scenario_week"
+      ],
+      "scope": "Weekday station/line topology plus dated cutover service plan; indexed official pages readable, retained direct PATH HTML is a small shell"
+    },
+    {
+      "route": "ferry",
+      "direction": "Q uptown to Herald Square, walk to W 39th Street, NY Waterway to Hoboken NJ Transit Terminal",
+      "sources": [
+        "q_timetable",
+        "q_line_map",
+        "nyw_advisory"
+      ],
+      "scope": "Retains the terminal pair specifically supported by the October cutover advisory; no alternate downtown ferry or fare eligibility assumed"
+    },
+    {
+      "route": "newark",
+      "direction": "Walk to WTC, Newark-bound PATH to Newark Penn, NLR Broad Street branch, westbound M&E to Summit",
+      "sources": [
+        "path_line_map",
+        "path_scenario_week",
+        "nlr_map",
+        "newark_connection",
+        "mne_regular"
+      ],
+      "scope": "Weekday network/service-plan level; no historical through-journey departure/transfer times established"
+    }
+  ],
+  "fare_scope": "No cross-honoring assumed at Christopher Street or World Trade Center. Existing announcement restricts PATH acceptance to designated Hoboken/33rd Street arrangements."
+}

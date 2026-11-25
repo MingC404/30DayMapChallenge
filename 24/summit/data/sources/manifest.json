@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q_timetable",
+    "url": "https://www.mta.info/schedules/subway/q-train",
+    "resolved_url": "https://www.mta.info/schedules/subway/q-train",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:26:31.171545+00:00",
+    "file": "q_timetable.pdf",
+    "sha256": "c892375c54a7cd151a680d63e9d5b0f59223668c0ac70c5ee25abec4d73164ee",
+    "bytes": 433437
+  },
+  {
+    "id": "q_line_map",
+    "url": "https://www.mta.info/maps/subway-line-maps/q-line",
+    "resolved_url": "https://www.mta.info/maps/subway-line-maps/q-line",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:26:31.092843+00:00",
+    "file": "q_line_map.html",
+    "sha256": "8c9e0ede732ceb84d00040f5b8299ada6a4ee9161d8c5609f83bc1ead2d8a9ca",
+    "bytes": 74669
+  },
+  {
+    "id": "path_line_map",
+    "url": "https://www.panynj.gov/path/en/index.html?os=___",
+    "resolved_url": "https://www.panynj.gov/path/en/index.html?os=___",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:26:31.130260+00:00",
+    "file": "path_line_map.html",
+    "sha256": "30ac9022057fc5138a1a167d612fc0f345caa44743c6f1f47be023a854fb66c1",
+    "bytes": 3404
+  },
+  {
+    "id": "path_scenario_week",
+    "url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2026-press-releases/weekly-travel-advisory-for-oct--16-to-22----airtrain-newark-serv.html",
+    "resolved_url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2026-press-releases/weekly-travel-advisory-for-oct--16-to-22----airtrain-newark-serv.html",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:26:31.135189+00:00",
+    "file": "path_scenario_week.html",
+    "sha256": "fcb17106cac932c175bb312cd10137b6fc5a6eb56cdad7d0b33721e34d3529e3",
+    "bytes": 3216
+  },
+  {
+    "id": "portalcut",
+    "url": "https://www.njtransit.com/portalcut",
+    "resolved_url": "https://www.njtransit.com/portalcut",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:42.066577+00:00",
+    "file": "portalcut.html",
+    "sha256": "e658050774352e0fedea35953d4e44ab1c38f4a78400ee826990e694f97c5436",
+    "bytes": 912983
+  },
+  {
+    "id": "njt_release",
+    "url": "https://www.njtransit.com/press-releases/portal-north-bridge-enters-final-phase-construction-work-begins-put-final-track",
+    "resolved_url": "https://www.njtransit.com/press-releases/portal-north-bridge-enters-final-phase-construction-work-begins-put-final-track",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:41.999761+00:00",
+    "file": "njt_release.html",
+    "sha256": "773b4cbc75f40e23980e1f22b158d60f9a977cd7fee4f39a33b2e6948a29a6e2",
+    "bytes": 1774316
+  },
+  {
+    "id": "path_advisory",
+    "url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2026-press-releases/path-travel-advisory2.html",
+    "resolved_url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2026-press-releases/path-travel-advisory2.html",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:41.555770+00:00",
+    "file": "path_advisory.html",
+    "sha256": "b6c3c6921df455c1f8e61b8835dc97f17ca97f126fa296e94cf52ffc5aaabcca",
+    "bytes": 3556
+  },
+  {
+    "id": "nyw_advisory",
+    "url": "https://nywaterway.com/UserFiles/Files/DRAFT%20Phase%202%20NY%20Waterway%20Cross%20Honoring%20NJT%20Media%20Advisory.pdf",
+    "resolved_url": "https://nywaterway.com/UserFiles/Files/DRAFT%20Phase%202%20NY%20Waterway%20Cross%20Honoring%20NJT%20Media%20Advisory.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:41.854447+00:00",
+    "file": "nyw_advisory.pdf",
+    "sha256": "fd65333a3d9e46d6df99b95400fd92dd8aa242ad731f35b7b0d29ee4a0d8cab8",
+    "bytes": 170292
+  },
+  {
+    "id": "mne_regular",
+    "url": "https://content.njtransit.com/pdf/schedules/rail/MNE",
+    "resolved_url": "https://content.njtransit.com/sites/default/files/pdfs/rail/2026/11/150002/mne.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:41.668560+00:00",
+    "file": "mne_regular.pdf",
+    "sha256": "059cf972868c7c8ec9558688c2da57a3c416f81d914641f11fd4711fa162e984",
+    "bytes": 504929
+  },
+  {
+    "id": "newark_connection",
+    "url": "https://www.njtransit.com/starting-your-trip-new-york-light-rail",
+    "resolved_url": "https://www.njtransit.com/starting-your-trip-new-york-light-rail",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:42.096538+00:00",
+    "file": "newark_connection.html",
+    "sha256": "9bd87e1aee5415321cfaf17531584099b97e197696f56a019bbfafbed400adc8",
+    "bytes": 908349
+  },
+  {
+    "id": "path_weekday",
+    "url": "https://www.panynj.gov/path/en/schedules-maps/weekday-schedules.html",
+    "resolved_url": "https://www.panynj.gov/path/en/schedules-maps/weekday-schedules.html",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:41.804636+00:00",
+    "sha256": "cf7d1dcaf63a31948d504c55a73a7687e5db8d16384b2cea88cc518fbbc1c186",
+    "bytes": 2951,
+    "former_archive_filename": "path_weekday.html",
+    "archive_retained": false,
+    "cleanup_reason": "Unused earlier PATH shell, superseded by retained current line-map and scenario-week evidence."
+  },
+  {
+    "id": "mne_oct_candidate",
+    "url": "https://content.njtransit.com/sites/default/files/pdfs/rail/2026/10/110002/mne.pdf",
+    "resolved_url": "https://content.njtransit.com/sites/default/files/pdfs/rail/2026/10/110002/mne.pdf",
+    "status": 404,
+    "retrieved_utc": "2026-11-25T04:26:31.220511+00:00"
+  },
+  {
+    "id": "mne_oct_candidate2",
+    "url": "https://content.njtransit.com/sites/default/files/pdfs/rail/2026/10/110026/mne.pdf",
+    "resolved_url": "https://content.njtransit.com/sites/default/files/pdfs/rail/2026/10/110026/mne.pdf",
+    "status": 404,
+    "retrieved_utc": "2026-11-25T04:26:31.293090+00:00"
+  },
+  {
+    "id": "mne_oct_candidate3",
+    "url": "https://content.njtransit.com/sites/default/files/2026-10/mne.pdf",
+    "resolved_url": "https://content.njtransit.com/sites/default/files/2026-10/mne.pdf",
+    "status": 404,
+    "retrieved_utc": "2026-11-25T04:26:31.373203+00:00"
+  },
+  {
+    "id": "mne_feb",
+    "url": "https://content.njtransit.com/sites/default/files/2026-02/mne.pdf",
+    "resolved_url": "https://content.njtransit.com/sites/default/files/2026-02/mne.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:10:42.394334+00:00",
+    "sha256": "d7d265411646ea1bfdbaf2251d8ea5fb66d8188feb51e55c93756b6ed53e1d5c",
+    "bytes": 226792,
+    "former_archive_filename": "mne_feb.pdf",
+    "archive_retained": false,
+    "cleanup_reason": "Wrong cutover phase; no October route or time depends on this PDF."
+  },
+  {
+    "id": "cutover_briefing",
+    "url": "https://media.amtrak.com/wp-content/uploads/2026/09/Portal-North-Bridge-Cutover-Briefing-Document-091726.pdf",
+    "resolved_url": "https://media.amtrak.com/wp-content/uploads/2026/09/Portal-North-Bridge-Cutover-Briefing-Document-091726.pdf",
+    "status": 403,
+    "retrieved_utc": "2026-11-25T04:26:31.643061+00:00"
+  },
+  {
+    "id": "nlr_map",
+    "url": "https://content.njtransit.com/sites/default/files/pdfs/light-rail/NLR_052825.pdf",
+    "resolved_url": "https://content.njtransit.com/sites/default/files/pdfs/light-rail/NLR_052825.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:13:04.080886+00:00",
+    "file": "nlr_map.pdf",
+    "sha256": "6e77888b8d335ce403e616a9064b8f60d15ddc183442af1cfb3242e45a2e25e1",
+    "bytes": 2044401
+  },
+  {
+    "id": "newark_station",
+    "url": "https://www.njtransit.com/station/newark-penn-station",
+    "resolved_url": "https://www.njtransit.com/station/newark-penn-station",
+    "status": 200,
+    "retrieved_utc": "2026-11-25T04:13:04.399391+00:00",
+    "file": "newark_station.html",
+    "sha256": "6375afd7fd2f58cfe850536c1854a6ad54097b64ab9cabd86201ace39f8afbbc",
+    "bytes": 1066796
+  }
+]

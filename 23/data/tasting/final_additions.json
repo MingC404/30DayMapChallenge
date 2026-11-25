@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nuwara-eliya", "name": "Nuwara Eliya tea", "native_name": "Nuwara Eliya tea", "area": "Sri Lanka", "tea_class": "Black", "taste": "Delicate, fragrant", "region": "Nuwara Eliya agro-climatic region, Central Province", "place_query": "Nuwara Eliya", "country_code": "LK", "kind": "regional_tea",
+    "list_source": "https://www.srilankateaboard.lk/wp-content/uploads/2023/08/Nuwala_Eliya.pdf",
+    "flavor_source": "https://www.srilankateaboard.lk/wp-content/uploads/2023/08/Nuwala_Eliya.pdf", "geography_source": "https://www.srilankateaboard.lk/wp-content/uploads/2023/08/Nuwala_Eliya.pdf",
+    "flavor_summary": "Sri Lanka Tea Board regulations, section 1(d), describe the regional brewed tea as fragrant and delicate. Section 2 and the annexes define the product by its listed regional gardens and factories.",
+    "class_source": "https://gsteas.lk/assets/doc/GS-Tea-Products-Booklet-V3.pdf",
+    "scope_note": "Black-tea interpretation corroborated by the producer's Nuwara Eliya BOP regional collection; tasting words remain from the Tea Board regional specification. Central Province is a geographic display grouping, not the certification extent."
+  },
+  {
+    "id": "shan-tuyet", "name": "Shan Tuyet green tea", "native_name": "Trà xanh Shan Tuyết", "area": "Vietnam", "tea_class": "Green", "taste": "", "region": "Hoàng Su Phì, source-era Hà Giang Province, northern Vietnam", "place_query": "Hoang Su Phi", "country_code": "VN", "kind": "regional_tea", "origin_only": true,
+    "list_source": "https://dantoc.vietnamtourism.gov.vn/en/green-tea-in-hoang-su-phi-ha-giang/",
+    "flavor_source": "", "geography_source": "https://dantoc.vietnamtourism.gov.vn/en/green-tea-in-hoang-su-phi-ha-giang/",
+    "flavor_summary": "The Vietnam National Authority of Tourism page identifies green tea and Shan Tuyet in Hoang Su Phi and names producing communes. It does not establish a specific tasting note for this green product; no sensory word is assigned.",
+    "scope_note": "GeoNames Hoang Su Phi is used only as a named regional reference. Display uses the archived Ha Giang province outline from the source period, not present-day administrative claims or the full Shan Tuyet GI."
+  },
+  {
+    "id": "thai-iced-tea", "name": "Thai iced tea", "native_name": "ชาเย็น (cha yen)", "area": "Thailand", "tea_class": "Tea drink", "taste": "Milk, sugar, ice", "region": "Bangkok, Thailand (illustrative drinking location)", "place_query": "Bangkok", "country_code": "TH", "kind": "tea_drink",
+    "list_source": "https://guide.michelin.com/jp/en/article/features/iconic-dishes-thai-milk-tea-explained",
+    "flavor_source": "https://guide.michelin.com/jp/en/article/features/iconic-dishes-thai-milk-tea-explained", "geography_source": "https://guide.michelin.com/jp/en/article/features/iconic-dishes-thai-milk-tea-explained",
+    "flavor_summary": "MICHELIN Guide's Bangkok barista interviews describe cha yen, sweetened condensed milk and ice; the article also lists Bangkok venues. The label summarizes the drink's ingredients and service, not a cultivar tasting note.",
+    "corroborating_source": "https://www.prd.go.th/th/content/category/detail/id/31/iid/261059",
+    "scope_note": "Cup near Bangkok is an example drinking location, not the drink's birthplace, an exclusive distribution or a tea-growing region. Recipes vary; no spice or artificial color is asserted for every cup."
+  },
+  {
+    "id": "masala-chiya", "name": "Masala chiya", "native_name": "मसला चिया", "area": "Nepal", "tea_class": "Tea drink", "taste": "Milk, sugar, spices", "region": "Kathmandu, Nepal (illustrative drinking location)", "place_query": "Kathmandu", "country_code": "NP", "kind": "tea_drink",
+    "list_source": "https://enhancedif.org/system/files/uploads/nepal-trade-issue-3-english.pdf",
+    "flavor_source": "https://enhancedif.org/system/files/uploads/nepal-trade-issue-3-english.pdf", "geography_source": "https://www.ecs.com.np/food/sauni-euta-chiya",
+    "flavor_summary": "GIZ NepalTrade issue 3 (May 2012), PDF page 12, describes Nepali-style masala chiya made by simmering milk, water, CTC tea, sugar and spices, then straining; it states that recipes vary. ECS Nepal's on-location account documents chiya shops in Kathmandu, not a unique city recipe.",
+    "scope_note": "Cup near Kathmandu is an example urban drinking location, not a growing region or a birthplace claim. The English label uses the publication's spelling masala chiya; native name is a transliteration, not a quoted official registration."
+  }
+]

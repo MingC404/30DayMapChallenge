@@ -1,0 +1,136 @@
+{
+  "source": "USGS National Map 3DEP bare-earth DEM dynamic service",
+  "service_url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "file": "usgs_3dep_full_canvas_utm18.tif",
+  "retrieved_utc": "2026-11-25T05:11:48.904067+00:00",
+  "request": {
+    "bbox": "567563.908940991,4502871.553426420,589110.575607657,4519084.886759754",
+    "bboxSR": 32618,
+    "imageSR": 32618,
+    "size": "1616,1216",
+    "format": "tiff",
+    "pixelType": "F32",
+    "renderingRule": "{\"rasterFunction\": \"None\"}",
+    "interpolation": "RSP_BilinearInterpolation",
+    "adjustAspectRatio": "false",
+    "f": "json"
+  },
+  "sha256": "a10a6ce46be79f6fb6bac7b85909623d7f856ea3d1100184f3277c92859095a3",
+  "raster": {
+    "crs": "EPSG:32618",
+    "bounds": [
+      567563.908940991,
+      4502871.55342642,
+      589110.575607657,
+      4519084.886759754
+    ],
+    "width": 1616,
+    "height": 1216,
+    "pixel_size_m": [
+      13.333333333332877,
+      13.333333333333844
+    ],
+    "dtype": "float32",
+    "valid_cells": 1965056,
+    "total_cells": 1965056,
+    "minimum_m": -17.771076202392578,
+    "maximum_m": 87.96894073486328
+  },
+  "canvas_bounds_utm": [
+    567670.5756076573,
+    4502978.220093087,
+    589003.9089409907,
+    4518978.220093087
+  ],
+  "canvas_size_px": [
+    1600,
+    1200
+  ],
+  "padding_px": 8,
+  "geographic_transform": {
+    "anchor": "Hoboken Terminal",
+    "anchor_px": [
+      1080,
+      690
+    ],
+    "px_per_m": 0.075
+  },
+  "water_sources": [
+    {
+      "county_fips": "34003",
+      "county": "Bergen NJ",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_34003_areawater.zip",
+      "file": "water_sources/tl_2025_34003_areawater.zip",
+      "sha256": "6a763a1609d3c59b9513eaa114c978388edb10ecf023177d24e22192229c2a2a",
+      "bytes": 412266
+    },
+    {
+      "county_fips": "34013",
+      "county": "Essex NJ",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_34013_areawater.zip",
+      "file": "water_sources/tl_2025_34013_areawater.zip",
+      "sha256": "90c033b2556dbc0cd421bd005f0a19d4185d052a776c440b2be6571fcda0252f",
+      "bytes": 116602
+    },
+    {
+      "county_fips": "34017",
+      "county": "Hudson NJ",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_34017_areawater.zip",
+      "file": "water_sources/tl_2025_34017_areawater.zip",
+      "sha256": "58e3a89b8be16f3c2598f1839774e5661bb4ac405cb2595663ba597e917982ce",
+      "bytes": 143442
+    },
+    {
+      "county_fips": "34039",
+      "county": "Union NJ",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_34039_areawater.zip",
+      "file": "water_sources/tl_2025_34039_areawater.zip",
+      "sha256": "6fa87fdf278ec6d7aae68959e91fd26e6f117ec2ebd78f25c4865b23a86f678d",
+      "bytes": 104939
+    },
+    {
+      "county_fips": "36005",
+      "county": "Bronx NY",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_36005_areawater.zip",
+      "file": "water_sources/tl_2025_36005_areawater.zip",
+      "sha256": "d75cf18daf9eb86e72641ed4f40f067e6757cd40d696028b9dc006dd5cc7a99e",
+      "bytes": 30794
+    },
+    {
+      "county_fips": "36047",
+      "county": "Kings NY",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_36047_areawater.zip",
+      "file": "water_sources/tl_2025_36047_areawater.zip",
+      "sha256": "084b7538bbd196b86d6638790eaad18e14e541503a968b7736c9c3ecad4bd015",
+      "bytes": 67077
+    },
+    {
+      "county_fips": "36061",
+      "county": "New York NY",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_36061_areawater.zip",
+      "file": "water_sources/tl_2025_36061_areawater.zip",
+      "sha256": "84f6cc65a48aac2363b8a5a971bf06044dc866a84a89ce94f09ae466eca12cd8",
+      "bytes": 37207
+    },
+    {
+      "county_fips": "36081",
+      "county": "Queens NY",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_36081_areawater.zip",
+      "file": "water_sources/tl_2025_36081_areawater.zip",
+      "sha256": "c368ff58f4b1846ecb84d8f2724b5a1c02afe18efdf36a5a72db9b76f3a59978",
+      "bytes": 140099
+    },
+    {
+      "county_fips": "36085",
+      "county": "Richmond NY",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2025/AREAWATER/tl_2025_36085_areawater.zip",
+      "file": "water_sources/tl_2025_36085_areawater.zip",
+      "sha256": "3ce61f7f7d9eb5d9ce74d63b94902b806796bef6ae8512eee3e87b42434dd2be",
+      "bytes": 81530
+    }
+  ],
+  "water_mask_sha256": "ce69e29a0a6d8c44207c418c247dc4038b13677fee94e9d2eb368410d0dc9fb4",
+  "water_mask_file": "water_canvas.geojson",
+  "display_scope": "All finite elevations over all visible land, NJ and NY; no state, label-region or schematic-west clipping. Water uses complete Census area-water polygons.",
+  "terrain_date_note": "Contemporary geographic terrain reference; compressed rail overlay is deliberately schematic."
+}

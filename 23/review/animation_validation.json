@@ -1,0 +1,27 @@
+{
+  "frames": 5,
+  "durations_ms": [
+    2000,
+    2000,
+    2000,
+    2000,
+    3000
+  ],
+  "total_duration_ms": 11000,
+  "loop": 0,
+  "canvas": [
+    1600,
+    1200
+  ],
+  "decoded_frames_match_expected": true,
+  "fixed_title_legend_basemap_pixels": true,
+  "each_assigned_item_appears_in_one_theme": true,
+  "shan_tuyet_overview_only": true,
+  "shared_fujian_always_neutral": true,
+  "milk_spice_retains_static_region_fills": true,
+  "theme_position_fixed": true,
+  "approved_static_png_unchanged": true,
+  "gif_sha256": "3bb76c36d77d40d5474c07885401375d4ae037f90d3cee7b44e6d502b8ac964c",
+  "gif_bytes": 510487,
+  "deterministic_repeat_gif_identical": true
+}

@@ -1,0 +1,17 @@
+{
+  "entry": "https://www.ferry.nyc/developer-tools/",
+  "download_url": "https://nycferry.connexionz.net/rtt/public/resource/gtfs.zip",
+  "retrieved_local_date": "2026-11-24",
+  "timezone": "America/New_York",
+  "feed_info": {
+    "feed_publisher_name": "Connexionz Ltd",
+    "feed_publisher_url": "https://www.connexionz.com",
+    "feed_lang": "en",
+    "feed_start_date": "20261102",
+    "feed_end_date": "20271231",
+    "feed_version": "20261112"
+  },
+  "sha256": "4f917b925de3c1f018d8e9a53bb5f5fd041b034e91f430232e22ca3603149e87",
+  "shoreline_source": "NYC DCP Borough Boundaries 26b, water areas excluded",
+  "shoreline_sha256": "7aa44d9fb611f2f518a226ff994a6516a261a8ce982ccf1e7b37d663687f443c"
+}

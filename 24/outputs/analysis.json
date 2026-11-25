@@ -1,0 +1,831 @@
+{
+  "date": "20261117",
+  "weekday": "tuesday",
+  "feed": {
+    "feed_publisher_name": "Connexionz Ltd",
+    "feed_publisher_url": "https://www.connexionz.com",
+    "feed_lang": "en",
+    "feed_start_date": "20261102",
+    "feed_end_date": "20271231",
+    "feed_version": "20261112"
+  },
+  "sha256": "4f917b925de3c1f018d8e9a53bb5f5fd041b034e91f430232e22ca3603149e87",
+  "service_ids": [
+    "1"
+  ],
+  "trip_count": 259,
+  "stop_time_count": 1580,
+  "routes": {
+    "AS": {
+      "route_id": "AS",
+      "agency_id": "1",
+      "route_short_name": "AS",
+      "route_long_name": "Astoria",
+      "route_type": "4",
+      "route_color": "FF6B00",
+      "route_text_color": "FFFFFF"
+    },
+    "ER": {
+      "route_id": "ER",
+      "agency_id": "1",
+      "route_short_name": "ER",
+      "route_long_name": "East River",
+      "route_type": "4",
+      "route_color": "00839C",
+      "route_text_color": "FFFFFF"
+    },
+    "RS": {
+      "route_id": "RS",
+      "agency_id": "1",
+      "route_short_name": "RS",
+      "route_long_name": "Rockaway-Soundview",
+      "route_type": "4",
+      "route_color": "4E008E",
+      "route_text_color": "FFFFFF"
+    },
+    "SB": {
+      "route_id": "SB",
+      "agency_id": "1",
+      "route_short_name": "SB",
+      "route_long_name": "South Brooklyn",
+      "route_type": "4",
+      "route_color": "FFD100",
+      "route_text_color": "FFFFFF"
+    },
+    "SG": {
+      "route_id": "SG",
+      "agency_id": "1",
+      "route_short_name": "SG",
+      "route_long_name": "St. George",
+      "route_type": "4",
+      "route_color": "D0006F",
+      "route_text_color": "FFFFFF"
+    }
+  },
+  "landings": {
+    "4": {
+      "name": "Hunters Point South",
+      "lon": -73.961322,
+      "lat": 40.741838,
+      "stop_ids": [
+        "4"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "ER": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "8": {
+      "name": "South Williamsburg",
+      "lon": -73.970224,
+      "lat": 40.708743,
+      "stop_ids": [
+        "8"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "ER": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "11": {
+      "name": "Atlantic Ave/BBP Pier 6",
+      "lon": -74.002073,
+      "lat": 40.692315,
+      "stop_ids": [
+        "11"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SG": {
+          "board": true,
+          "alight": true
+        },
+        "SB": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "17": {
+      "name": "East 34th Street",
+      "lon": -73.970731,
+      "lat": 40.743912,
+      "stop_ids": [
+        "17"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "ER": {
+          "board": true,
+          "alight": true
+        },
+        "RS": {
+          "board": true,
+          "alight": true
+        },
+        "AS": {
+          "board": true,
+          "alight": true
+        },
+        "SB": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "18": {
+      "name": "Greenpoint",
+      "lon": -73.963617,
+      "lat": 40.731365,
+      "stop_ids": [
+        "18"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "ER": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "19": {
+      "name": "North Williamsburg",
+      "lon": -73.964902,
+      "lat": 40.720838,
+      "stop_ids": [
+        "19"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "ER": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "20": {
+      "name": "Dumbo/Fulton Ferry",
+      "lon": -73.995671,
+      "lat": 40.703652,
+      "stop_ids": [
+        "20"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "ER": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "23": {
+      "name": "Bay Ridge",
+      "lon": -74.03813,
+      "lat": 40.639858,
+      "stop_ids": [
+        "23"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SG": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "24": {
+      "name": "Red Hook/Atlantic Basin",
+      "lon": -74.013358,
+      "lat": 40.680957,
+      "stop_ids": [
+        "24"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SB": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "25": {
+      "name": "Roosevelt Island",
+      "lon": -73.952482,
+      "lat": 40.756811,
+      "stop_ids": [
+        "25"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "AS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "65": {
+      "name": "Governors Island",
+      "lon": -74.012327,
+      "lat": 40.691412,
+      "stop_ids": [
+        "65"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SB": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "87": {
+      "name": "Wall St/Pier 11",
+      "lon": -74.006144,
+      "lat": 40.703161,
+      "stop_ids": [
+        "87"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        },
+        "SG": {
+          "board": true,
+          "alight": true
+        },
+        "AS": {
+          "board": true,
+          "alight": true
+        },
+        "ER": {
+          "board": true,
+          "alight": true
+        },
+        "SB": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "88": {
+      "name": "Rockaway",
+      "lon": -73.831596,
+      "lat": 40.584228,
+      "stop_ids": [
+        "88"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "89": {
+      "name": "Astoria",
+      "lon": -73.935714,
+      "lat": 40.77172,
+      "stop_ids": [
+        "89"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "AS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "90": {
+      "name": "Long Island City",
+      "lon": -73.957725,
+      "lat": 40.74842,
+      "stop_ids": [
+        "90"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "AS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "112": {
+      "name": "Soundview",
+      "lon": -73.848703,
+      "lat": 40.804202,
+      "stop_ids": [
+        "112"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "113": {
+      "name": "East 90th St",
+      "lon": -73.942172,
+      "lat": 40.777475,
+      "stop_ids": [
+        "113"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        },
+        "AS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "114": {
+      "name": "Stuyvesant Cove",
+      "lon": -73.972922,
+      "lat": 40.731979,
+      "stop_ids": [
+        "114"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "115": {
+      "name": "Corlears Hook",
+      "lon": -73.979244,
+      "lat": 40.710159,
+      "stop_ids": [
+        "115"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SB": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "118": {
+      "name": "Sunset Park/BAT",
+      "lon": -74.026436,
+      "lat": 40.646276,
+      "stop_ids": [
+        "118"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "120": {
+      "name": "Brooklyn Navy Yard",
+      "lon": -73.973576,
+      "lat": 40.701792,
+      "stop_ids": [
+        "120"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "AS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "136": {
+      "name": "Battery Park City/Vesey St.",
+      "lon": -74.017775,
+      "lat": 40.715029,
+      "stop_ids": [
+        "136"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SG": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "137": {
+      "name": "St. George",
+      "lon": -74.074231,
+      "lat": 40.646072,
+      "stop_ids": [
+        "137"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SG": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "138": {
+      "name": "Midtown West 39th St-Pier 79",
+      "lon": -74.004075,
+      "lat": 40.760323,
+      "stop_ids": [
+        "138"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "SG": {
+          "board": true,
+          "alight": true
+        }
+      }
+    },
+    "141": {
+      "name": "Ferry Point Park",
+      "lon": -73.837305,
+      "lat": 40.805455,
+      "stop_ids": [
+        "141"
+      ],
+      "basis": "Single active ferry stop_id; all feed stops audited separately",
+      "routes": {
+        "RS": {
+          "board": true,
+          "alight": true
+        }
+      }
+    }
+  },
+  "baseline_components": [
+    [
+      "AS",
+      "ER",
+      "RS",
+      "SB",
+      "SG"
+    ]
+  ],
+  "connections": [
+    {
+      "from": "AS",
+      "to": "ER",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "AS",
+      "to": "RS",
+      "landing_ids": [
+        "17",
+        "87",
+        "113"
+      ]
+    },
+    {
+      "from": "AS",
+      "to": "SB",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "AS",
+      "to": "SG",
+      "landing_ids": [
+        "87"
+      ]
+    },
+    {
+      "from": "ER",
+      "to": "AS",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "ER",
+      "to": "RS",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "ER",
+      "to": "SB",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "ER",
+      "to": "SG",
+      "landing_ids": [
+        "87"
+      ]
+    },
+    {
+      "from": "RS",
+      "to": "AS",
+      "landing_ids": [
+        "17",
+        "87",
+        "113"
+      ]
+    },
+    {
+      "from": "RS",
+      "to": "ER",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "RS",
+      "to": "SB",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "RS",
+      "to": "SG",
+      "landing_ids": [
+        "87"
+      ]
+    },
+    {
+      "from": "SB",
+      "to": "AS",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "SB",
+      "to": "ER",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "SB",
+      "to": "RS",
+      "landing_ids": [
+        "17",
+        "87"
+      ]
+    },
+    {
+      "from": "SB",
+      "to": "SG",
+      "landing_ids": [
+        "11",
+        "87"
+      ]
+    },
+    {
+      "from": "SG",
+      "to": "AS",
+      "landing_ids": [
+        "87"
+      ]
+    },
+    {
+      "from": "SG",
+      "to": "ER",
+      "landing_ids": [
+        "87"
+      ]
+    },
+    {
+      "from": "SG",
+      "to": "RS",
+      "landing_ids": [
+        "87"
+      ]
+    },
+    {
+      "from": "SG",
+      "to": "SB",
+      "landing_ids": [
+        "11",
+        "87"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "landing_id": "87",
+      "landing": "Wall St/Pier 11",
+      "routes": [
+        "AS",
+        "ER",
+        "RS",
+        "SB",
+        "SG"
+      ],
+      "lost_directed_connections": [
+        [
+          "AS",
+          "SG"
+        ],
+        [
+          "ER",
+          "SG"
+        ],
+        [
+          "RS",
+          "SG"
+        ],
+        [
+          "SG",
+          "AS"
+        ],
+        [
+          "SG",
+          "ER"
+        ],
+        [
+          "SG",
+          "RS"
+        ]
+      ],
+      "lost_undirected_pairs": [
+        [
+          "AS",
+          "SG"
+        ],
+        [
+          "ER",
+          "SG"
+        ],
+        [
+          "RS",
+          "SG"
+        ]
+      ],
+      "components": [
+        [
+          "AS",
+          "ER",
+          "RS",
+          "SB",
+          "SG"
+        ]
+      ],
+      "components_count": 1
+    },
+    {
+      "landing_id": "11",
+      "landing": "Atlantic Ave/BBP Pier 6",
+      "routes": [
+        "SB",
+        "SG"
+      ],
+      "lost_directed_connections": [],
+      "lost_undirected_pairs": [],
+      "components": [
+        [
+          "AS",
+          "ER",
+          "RS",
+          "SB",
+          "SG"
+        ]
+      ],
+      "components_count": 1
+    },
+    {
+      "landing_id": "17",
+      "landing": "East 34th Street",
+      "routes": [
+        "AS",
+        "ER",
+        "RS",
+        "SB"
+      ],
+      "lost_directed_connections": [],
+      "lost_undirected_pairs": [],
+      "components": [
+        [
+          "AS",
+          "ER",
+          "RS",
+          "SB",
+          "SG"
+        ]
+      ],
+      "components_count": 1
+    },
+    {
+      "landing_id": "113",
+      "landing": "East 90th St",
+      "routes": [
+        "AS",
+        "RS"
+      ],
+      "lost_directed_connections": [],
+      "lost_undirected_pairs": [],
+      "components": [
+        [
+          "AS",
+          "ER",
+          "RS",
+          "SB",
+          "SG"
+        ]
+      ],
+      "components_count": 1
+    }
+  ],
+  "selected": {
+    "landing_id": "87",
+    "landing": "Wall St/Pier 11",
+    "routes": [
+      "AS",
+      "ER",
+      "RS",
+      "SB",
+      "SG"
+    ],
+    "lost_directed_connections": [
+      [
+        "AS",
+        "SG"
+      ],
+      [
+        "ER",
+        "SG"
+      ],
+      [
+        "RS",
+        "SG"
+      ],
+      [
+        "SG",
+        "AS"
+      ],
+      [
+        "SG",
+        "ER"
+      ],
+      [
+        "SG",
+        "RS"
+      ]
+    ],
+    "lost_undirected_pairs": [
+      [
+        "AS",
+        "SG"
+      ],
+      [
+        "ER",
+        "SG"
+      ],
+      [
+        "RS",
+        "SG"
+      ]
+    ],
+    "components": [
+      [
+        "AS",
+        "ER",
+        "RS",
+        "SB",
+        "SG"
+      ]
+    ],
+    "components_count": 1
+  }
+}

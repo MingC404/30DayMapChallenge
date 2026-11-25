@@ -1,0 +1,39 @@
+[
+  {
+    "id": "assam",
+    "name": "Assam black tea",
+    "taste": "Malty",
+    "lon": 94.9,
+    "lat": 27.3,
+    "place": "Upper Brahmaputra Valley, Assam, India",
+    "position_note": "Rounded representative location in the Dibrugarh tea-growing belt; editorial regional anchor, not an estate coordinate.",
+    "geography_source": "https://www.teaboard.gov.in/TEABOARDCSM/Ng==",
+    "flavor_source": "https://www.teaboard.gov.in/pdf/Letter_to_stakeholders_03_10_2024_combined_pdf2925.pdf",
+    "flavor_locator": "PDF page 65 / printed page 61"
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling tea",
+    "taste": "Muscatel",
+    "lon": 88.25,
+    "lat": 27.0,
+    "place": "Darjeeling hills, West Bengal, India",
+    "position_note": "Rounded representative location in the Darjeeling hill tea belt, within the district geographic extent; not an estate coordinate.",
+    "geography_source": "https://teaboard.gov.in/TEABOARDCSM/NzI=",
+    "coordinate_context": "https://darjeeling.gov.in/demography/",
+    "flavor_source": "https://www.teaboard.gov.in/pdf/Letter_to_stakeholders_03_10_2024_combined_pdf2925.pdf",
+    "flavor_locator": "PDF page 65 / printed page 61"
+  },
+  {
+    "id": "yame",
+    "name": "Yame Gyokuro",
+    "taste": "Umami",
+    "lon": 130.76,
+    "lat": 33.25,
+    "place": "Hoshino, Yame, Fukuoka, Japan",
+    "position_note": "Rounded representative location in Hoshino, a documented Yame Gyokuro growing area; not an estate coordinate.",
+    "geography_source": "https://pd.jgic.jp/en/register/entry/5.html",
+    "flavor_source": "https://www.maff.go.jp/e/policies/intel/gi_act/register/s5.html",
+    "flavor_locator": "Link with the Production Area: explicitly mentions umami"
+  }
+]

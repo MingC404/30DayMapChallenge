@@ -1,0 +1,53 @@
+{
+  "source": "USGS 3DEP numeric bare-earth DEM",
+  "dem_file": "usgs_3dep_full_canvas_utm18.tif",
+  "dem_sha256": "a10a6ce46be79f6fb6bac7b85909623d7f856ea3d1100184f3277c92859095a3",
+  "display_layer_sha256": "8b33758e5de1d958a2f3de5c88861c2ef2d7e7a4066f1854c99ad03ecb6a87da",
+  "water_mask_file": "water_canvas.geojson",
+  "water_mask_sha256": "ce69e29a0a6d8c44207c418c247dc4038b13677fee94e9d2eb368410d0dc9fb4",
+  "target_affine": [
+    13.333333333333334,
+    0.0,
+    567670.5756076573,
+    0.0,
+    -13.333333333333334,
+    4518978.220093087
+  ],
+  "target_crs": "EPSG:32618",
+  "class_breaks_m": [
+    5,
+    15,
+    35
+  ],
+  "class_colors": [
+    "#eaf0ec",
+    "#dde6df",
+    "#cddbd0",
+    "#bacdbf"
+  ],
+  "class_pixel_counts": [
+    734584,
+    335685,
+    309587,
+    202352
+  ],
+  "layout_row_clip": null,
+  "schematic_west_clip": null,
+  "state_clip": null,
+  "canvas_land_pixels": 1582208,
+  "land_pixels_with_valid_elevation": 1582208,
+  "land_coverage_fraction": 1.0,
+  "land_pixels_on_edges": {
+    "left": 1199,
+    "right": 1126,
+    "top": 1456,
+    "bottom": 1038
+  },
+  "valid_display_bbox_xyxy": [
+    0,
+    0,
+    1600,
+    1200
+  ],
+  "scope": "All visible NJ/NY land across the full geographic canvas; no layout, state or schematic-overlay clipping. Water masked from Census 2025 area-water polygons."
+}

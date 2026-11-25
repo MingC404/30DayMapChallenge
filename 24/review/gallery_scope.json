@@ -1,0 +1,26 @@
+{
+  "other_rows_and_css_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "other_manifest_entries_unchanged": true,
+  "confirmed_artwork_unchanged": {
+    "24/summit/outputs/getting_home_to_summit.gif": "142f3f99a6c93bb5fc562c3e60c029385955be64f4e334f61ff2fafbc72d29e6",
+    "24/summit/outputs/getting_home_to_summit.png": "f285181345668361b8aba5d1378a671a4e042b8f92be88373a5c70af0e2006e9"
+  },
+  "description": [
+    "My husband works in SoHo and lives in Summit, New Jersey. Sometimes his journey home takes more than three hours, and I find myself wondering what happened along the way. I made this map to understand his route home and the connections it depends on, hoping for a more reliable and comfortable public transit journey.",
+    "The animation compares his usual commute with alternatives during the Portal North Bridge cutover. I used published transit schedules and service advisories to check route patterns and transfer points, then drew each option as a schematic over a geographic basemap with Census TIGER/Line water polygons and USGS 3DEP elevation data. The maps show how the connections change during the reroute. Historical door-to-door travel times were not verified."
+  ],
+  "alt": "Animated schematic map of the commute from SoHo to Summit, New Jersey, showing the usual route and alternatives during a rail reroute.",
+  "basemap_wording_correction": "OpenStreetMap → geographic basemap with Census TIGER/Line water polygons; USGS 3DEP retained.",
+  "assets": [
+    {
+      "path": "assets/24/getting_home_to_summit.gif",
+      "sha256": "142f3f99a6c93bb5fc562c3e60c029385955be64f4e334f61ff2fafbc72d29e6"
+    },
+    {
+      "path": "assets/24/getting_home_to_summit.png",
+      "sha256": "f285181345668361b8aba5d1378a671a4e042b8f92be88373a5c70af0e2006e9"
+    }
+  ],
+  "status": "Local workspace only; no commit, push or remote deployment."
+}

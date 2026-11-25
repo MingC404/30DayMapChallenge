@@ -1,0 +1,531 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="referrer" content="no-referrer" /><meta http-equiv="Content-Language" content="en" /><link rel="shortcut icon" href="../images/favicon.ico" />
+    
+<style>
+        
+
+        .text-container {
+            width: 500px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #1a237e;
+            padding: 5px;
+            border: 1px solid #ccc;
+
+            /* single line */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Appear animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .text-container:hover {
+            color: #d32f2f;
+        }
+		
+		
+
+.top-leaders {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+/* LEFT & RIGHT LEADERS */
+.leader {
+    text-align: center;
+}
+
+.leader img {
+    height: 125px;
+}
+
+.leader-name {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.leader-title {
+    font-size: 11px;
+    color: #666;
+}
+
+/* CENTER HEADER */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.divmastertopright .link img {
+    height: 55px;
+    margin-left: 8px;
+}
+
+/* NAV */
+.navPart {
+    margin-top: 5px;
+}
+
+    </style>
+
+    <title>
+	Nilgiri
+</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/accessibilityCss.css" />
+    <link rel="stylesheet" type="text/css" href="/css/AllInlineCss.css" />
+    <link rel="stylesheet" type="text/css" href="/css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/css/new-slider.css" />
+    
+
+    
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.roundabout.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+    
+ <!--<div id="overlay">
+        <div id="popup" style="padding: 20px;
+  background-color: rgba(48, 93, 140, 0.5);
+  color: #fff;">
+            <span class="close-btn">&times;</span>
+			<h4>
+			टी बोर्ड भारत में आपका स्वागत है<br>
+			Welcome to Tea Board India<br>
+
+			वेबसाइट में प्रवेश करने के लिए अपनी पसंदीदा भाषा का चयन करें<br>
+			Select your Preferred Language to Enter the Website
+			</h4>
+			
+           <button type="button" class="btn-view" onclick="confirmLanguageChange1('0', 'English')">
+    English
+</button>
+
+<button type="button" class="btn-view" onclick="confirmLanguageChange1('1', 'हिंदी')">
+    हिंदी
+</button>
+               
+     </div>
+      </div> -->
+<!-----------------------------JAVASCRIPT--------------------------------------------->
+     <script>
+         // Function to close the pop-up
+         document.querySelector('.close-btn').onclick = function () {
+             document.getElementById('overlay').style.display = 'none';
+         };
+
+         // Optionally, automatically close the pop-up after a few seconds (e.g., 5 seconds)
+         setTimeout(function () {
+             document.getElementById('overlay').style.display = 'none';
+         }, 100000);
+    </script> 
+    <script>
+        function confirmLanguageChange1(langValue, langText) {
+            var confirmationMessage = "The language of the website will be translated into " + langText;
+
+            if (confirm(confirmationMessage)) {
+                // Close overlay before postback
+                closeOverlay();
+
+                // Small delay to allow UI update (optional but smoother)
+                setTimeout(function () {
+                    __doPostBack('ln_ChangeLang', langValue);
+                }, 200);
+            }
+        }
+
+        function closeOverlay() {
+            var overlay = document.getElementById("overlay");
+            if (overlay) {
+                overlay.style.display = "none";
+            }
+        }
+</script>
+    
+    
+            <script type="text/javascript">
+                function confirmLanguageChange(dropdown) {
+                    var selectedLanguage = dropdown.options[dropdown.selectedIndex].text;
+                    var confirmationMessage = "The language of the website will be translated into " + selectedLanguage;
+                    if (confirm(confirmationMessage)) {
+                        __doPostBack(dropdown.id, '');
+                    } else {
+                        // If the user cancels, reset the dropdown to its previous value
+                        dropdown.selectedIndex = dropdown.initialIndex;
+                    }
+                }
+
+                function storeInitialIndex(dropdown) {
+                    dropdown.initialIndex = dropdown.selectedIndex;
+                }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/jquery.quicksand.js" type="text/javascript"></script>
+    <script src="/js/jquery.easing.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+    <script src="/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+
+    <script src="/js/MasterPageJquiry.js?version=2" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/SetValueLocalStorage.js"></script>
+    <script src="/js/MasterPage.js?version=4" type="text/javascript"></script>
+
+    
+
+    <link href="/css/prettyPhoto.css" rel="stylesheet" type="text/css" media="all" />
+    
+    
+ 
+<script async data-id="101437888" src="//static.getclicky.com/js"></script>
+
+<meta http-equiv="keywords" name="keywords" content="Nilgiri" /><meta http-equiv="description" name="description" content="Nilgiri" /><meta http-equiv="title" name="title" content="Nilgiri" /></head>
+
+<body id="MasterBody" style="background-color:#f5f5f5">
+
+    <noscript>
+        <div id="noscriptContainer">
+            Java Script is not enabled in your browser. Please enable Java Script to ensure proper functionality of the website.</div>
+    </noscript>
+    <div id="text-resize">
+
+    
+
+
+
+
+        <form method="post" action="./Nw==" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="08Ov+koseXSTSfKRqEX10AGd8uyb8zZFw/OmWbhFk99RzemMZx6nGQUd3wTX6sJJl55Iduvv7nWji1MS6Q6eq6a2RggUaTWApf4GmC9ON3tBSTkOuJ3ykVWV6tzSCGnUXho3G2Ed6tnrVsZXJBD70r0gXZdTLoRkNOXzF/Xv1c7ZFzxnERJnDSj2cy3PgRnYQ4OM1LpWDZu7//JNUlTm/M14IMHFVVWS+UVOHIb1bCOeguGIwyhca7agnTuI6LbUR4EVD5dQrJPRYU43vS56RRuhxnjTXJFwC1EptbU98cpZOW9mwb4RAzPPOi/RQg3Aq98YHwvGIRha8IVxV4awdJvlj+KpNs6elw0OIr8ANldu1sit70hx6u98s+0kW+o5VzNKEe/vqv0NtZ7dnd+J7GB8OcQPXmvl8fid4J7SxZ8++fqaLEmdoYDY5hEPS8jKWpF/dS4fvCnTLWpUqdlMEBdg/ixmVR5fHqGB3Xr3a4qQckXHdjq3ptgeSvj3LycVijlhe0Rh7Uc1h5KaA0bwSfwHYklXu8jh4cqhQnMhg/cH9HnKuNjWLo8eMaS3/5yCefpxDZZpa85SNEc95LsuBvynT5W2XUmsA1pXnNiCsGCthzHFnrJH6VtprFUlYrZW68rFwDjoPE/Onhx5qe9rMyQDqRh0JCpe7EegINGarn7NMnxHOZKbuHi0WYsifr4fctUczvprnOO/nP1mpMzfyw4cEX7+iWvLNh54BOClcvPQ9Py9yT8acuXoj2/4ynVXfa9gjsnt964JrQZcOiVPj+9jJQicII+ExyT26n7xznFD9VE8MrpjBDi+0HqLDEzGWXNXxM47vUWGKsvggf+XX+3dplrd+cPd2Sq8a3Xbehc2NbJlC2UIA7QAVfEY9UmoSYP1sUNQbcmak+obu0HcPz3zpbNXD3zURhe/6PgICZ1jlo+99fe5igKAGQvrwHEPjINIDdUwmb8Hka7ip5qnXNwpPvTsAmJh0ztVfspbeJU6jWbEhPP72fnoI+2mOXSQmq42mOSaLW+w1ACugdgmKFgQq3RdKugPyfEDPM6K4UDyFQmusvABAhpkAF1DrOr7OVkSzEgSITP4JSpMmdAceMb6van3dbZvCvB4b9yxH5ShZUyOiNiIZFeLzMSEmN5Oti8dW+hMKKPF3OAIRb0w1iFjjL+nD6Jtj8iICIg3qxkgANZIfGEPhxA6wQfRQ64/JglHM+1B8f71xbiE+eiBjGjo4/ITprW8z1DVuuQoB+Cr6R583TT6T261K4vryUZluT8RUSf+bhLUsn0fTVSwdWsHGyhmZ36f5DQ+nP/ph8wpGy1rxj9+fbqpEeMGfx5der3v0jjFijw/mDSa12WI36JAMzkG38Ccf2mJ8QjQAYj2jsWKSEXqs+d3CnCXeqKwgCaPo1KfBBIN3PYQPORgF6NxNxWtanXow65iOxQ6Xu38jltU31+JJzodIGlfr1UHW4RJ39t8QZXhUdmPYr/A9YEUrxufBL3B1+hFPZ6Aq6WavNiaCtcdc6SDHEDQgSALJ9HLEVeCmjs7MaiGuzcb8b6NQBCDnWaenP+RbPdClsv0EVVAr47RAhYn8HXG+14s3l/R88DH9oZE05ptaIltPj9iRWcRfNPna6lr++xeTdb0dkRLyjOBbcEXY4BPzYwOB6NiKzwOZkfId1JNEuF9mGsCh28nFeGHRh60TlPO6APnf5a+OvRR7xp0K3dXcT4YbnnRduMucOPU7ePGS9XcbIzxxGehjDY8fei7/QkYjypRqYAdTaP3QEvfTgO2ZYrvIMUGOoAXp1WJHFkByHi1IJceXOs++cPPUl7iM+pjQi2hsqWyYZWQ+W0ljJtB4tKlQMgM1J+A4Y32/JAFf32krUXX5Lb4gwrlkOqEn2XDxQ6hzH3B0hsGa9u2fUf94poanhNlpJrrrIZrdczCdSjedX/GTlwzhTK0gxkWIS5ZGFUAucEFNPDpRTJaCUVTDWAz9EbpAIBz/S4t2O2Mo4CCgSxMh11A+auEu25LYEWqmnaS6/lxeG+UzyAqPD8Qq3MMX2bT1sjfBpBkC5uQEywxt1P2/inInXW1rp6jD31zP8gnqrowbza0MQdOcdH3c75/NPOGOKA8+NyRibuGVcFilsriNMts0FKn+hXdFm3Aa8ZVzhqvf0d9HLuv1R1Ph4IfpsjerFqDaYIhCJxxsFtLG4oXlXgO+jaxA6QArmLZ2xewRjOM2PeV+pHX5B+mI3ZRVHdQYo3Knd2qBMwA0ucKWoNmU2prl0xxGwTt4Ng7KYqP8KsJl7qHBFOwzeMvlylMiIZWoT8LE3X1K3ZjeVbbrjU0C2rk7SFVXrUx0DVuPcTobfdFkuOlG6ASvLgw/MYDG9zXnPi5v7nr6PBJvuMI0KDpvl8oXVTxm7ytjmr8vzbR+VviI+gIrasTEq9qJG65LHcG56TXk7gJHFVgf1HIRH+G40n395YGaqkOI7fSyFdj7Byw3aBuPO5JRtnw2Z530sUIHq/BbZNOKSC+DffYyXQSrmiPiydm8G3+/eccSr/t8w2OcFLkwOfvtA+T7BXKtoZse3wY8T5BBitdC3WEPfxPsrguRkw+lgBIbDJjueAChpGKD4NCukcP3saMKl1BLDehnDvo2vQcVyCTiSHl7D6/o1pAbVwTmWM/AS6Uh7wJIqTZcM6hRDfLG2otHgZjf6+VllX8G0F45SJempNf3BuKv6Gwv0yFEDx22MPfZ72NClG1Yqvqw6lpnW73RHsKFocsH27VeIDBLbjFLBhkMB8b+gL8MVfqs+NtXMZ3aeAFZT4CYtewC0E9PUgOHlAhGIF/1nA8uLIrofr9Ffp51U4rsvGXiQpfUVAYtGpOj0FiqDCzjTgvnw1rqanrlc6AAYt0XxlIXV/up9Kno2vBetCCWR6iIzflrTKmKKqbSsNAvocZi+v+y/Ep3KOvEN0USa20K1NfGQGxkwa0CzbZvVGmyu3dObOJDKtrq4wvnj9N8lUddN3Un2daou+OY+zf4MHMj2GvL5z6dKV9EJI8OLE22AQVm5+Kt3QSOGDyqAMrRTuQVN3Quws1RrKNHXyJhbkSLHkN6SRBh77Qmg8Ltb5kHatWRpz0OHLGJm/yaclma9bpkmFXj06lnViaiDti77FwzpnS2wuedq1FO8cYB1eV+CPm7V9qWbE5JPQiG4hzS+8k27UMzE7KP2+3Smw9IutNYonuYym37GV0l+MqP/CuruZWKd6yfk+vm/TK+RUs1XscQROSdXj1Xoso1qf9KbDd62NXNK11i6AjfX+adiLBLtYWQ7ObrRMpJ8/8jNcNw3S1H/6S+8LAhuNLRykMe04j9T+RAQHew157AtOSlwaQKmGVWzxx6/ZxxXyP/Zn+0HIfACmc9Dl5dB2d3qVVL7Po4gDyuda5edm+OlJHCtoFsNYw70rS+zIVRivYsUdFLikCMc1QjxCvY3LatPm0gFDtjgaWf+1bjVlmVGEag5KzPdZGeA5dvtswH/GYj1229gWBfrBBHAkSQx1RqXgdSzqtVoqo+QTZ7fLlWaoE5EP28bcnJdFgYjJJDRR7FrUwMzKid1NUomRfVyz2wlWiASFThu2J4DNhGHoWC8OczFCDDuF3XdVlEGTzofPwlDpLJBKekWpkTn1aKEtPCYWebGgTyIVExc2b1zJLJZO0L2OXbnpJ72uNofIt48nmNh7HPQREZf5UBBflm+dVet0gv6h3GR3Q/b+hZz/hv8IrbpyTehVpyH/G1u5d6a8uyMW1GzgZfW2eg+rYH3ZUfUYRpKK8cNYNn7tNkdLUkv3PDPjQ7yFHr2HuZlPQCyXuGCxtUc68wHFL9URglAvHNTL2MZIcCwPjQElriCh688AbL8pvCvw+4jyvosJgkopH/cT4Ts8InhbC6fmfzOv6ghiJ/obS5NLUkCW1tBnr67j+X/ddDZMzFLUj0CHs+rMf/I9pHwZbdebIJhA+y7AFsfHSnC4FD0nuy0cNhjIzhNmaxawOfcPv19z17ES5FODU9rs26Pv6jN15Q3mv6ZNK7GS49crog/DnE/CTivUZf2GgzLsP9WpUqylaWpvHh8iOkheCAOHwcF3LZZh3liAfTbVIxc1NvsODsM0Y5czAKqIcrwC+dR0lCwk6sCjAnQllkI+sCV8ATU0TqcZqM99N4xGnWT8aFiC5xqlM1odqqYVS17FOAPiY51qHdPEcaWhYyVXW+f7C24SVj+JSxBNzK8kzhBS2lF0iYhYjV73vwsiB6+kxtP6GEOKfROubQqE3Ep2xYClHhmVvZOyCydLqg3jHAx+2e+VaZQAV36QLHDboMBij9WHvCBPDN9o2wvFcP0LHoKUtfxIvxlIJxRmaXLF7f1rUXIGlTi6C4/KDtjvXCgPxn92AWgeg13b7OboDP6UiXD9wqA1EaIl1uwhyU7SC6NMGXZZieLhgwKu3GMrB2kHennh8M+fLW8Yj5QIwKTA1adCyYjrec5QHHwqUzolAeogj+sjAjBKHSY/GIxM0vEK091ugSLknPX9IRs/2LxbHSV/sXR+Z1tMnwhzJh9E6vsQZ5ThFOCSrIV3EEk8It+o1JhZrW47LTGWyep0Cm4bHcDRosv9CTslXgtRrF4BzFG54i7l+/adRT5TCrNt1Hq465eREkdyHY609qqbC8Ocm/nZrWPIlXJjUMmUW178cpv3YJ77XRMP5NoE6+EgfzHLwpzA1J0ujOA585BPWuCZtgf3HSYJhZbeHj5gTIkj8rnTAygsoxhMJpWPY+tAYICDi42rtnsJSHVamLvM4U+kbnZEo2HyMtj4ZynkI71hBBoVIqy8gYzAPyDOsTFYH+6OzFjgtdItNPh7IJKuq6iwOvIo0bqMEGYSc8sWEy4Dvw7Y3pF/6gesvd9G70Y6UAG28a8Ztuo9eSQYgLaNP51X+/2K9+whVyZ7k7aAmJnUtv5tKVtS3rk2WeZoIVjv/Av3W6Lw1Lci88Yjb6w6xJM78B/eUyNWkPugIGevnS+Z1SVeKo4jHKXwnHGiV/5CzU2V0WypcFawKdQazuLRpJlnRXtxEi1aA1BWTaCz/JB0yHjsB4LI7/uYkUw9zxY6RLdn+3rP2VqTwjUptZG2jta/Y+guLXXm9NkFaCy0L3R6s" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="95BE0DC9" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2QuqA5kEHc01dXZnUt2ba/8tWQQQGtciNrqjLmepaM8xpRdkq0Gzr5knwXNKGiaPgCohXYpjHG6d0LTEn0zJRDQ0nG5hAS6AzYn5tmZIj5ocqZrWnpPwarmptD+8/0yrC2DUSfHJ9Hkno5XHZF9YAIY+hr+oa66WX6fW0Ez9QxYHpGP4azrHNo4P1yTewwW9AbK5U1FEFsaqWSorWA2e4w==" />
+        <div id="wrapper">
+        <div class="header-fixed">
+        <div class="toppart">
+            <div class="mainWidth clearfix"> 
+            <div class="divmastersocial grid-align-center">
+                <a id="welcomeENG" class="leader-name">टी बोर्ड इंडिया में आपका स्वागत है</a>
+                    <a title="Twitter" target="_blank" onclick="confirmExternalLink('https://twitter.com/teaboardofindia');" rel="noopener noreferrer">
+                        <img src="/images/twitter_x.png" alt="Twitter" /></a>&nbsp;
+                    <a target="_blank"  onclick="confirmExternalLink('https://www.facebook.com/TeaBoardIndia');" title="Facebook" rel="noopener noreferrer">
+                        <img src="/images/facebook.png" alt="Facebook" /></a>&nbsp;
+                    
+
+                </div>
+            <div class="up-menu">                          
+                <a title="Site Map" class="skipfont" href="/screenreaderaccess"><span id="ScreenReaderAccessID" class="leader-name skipfont">स्क्रीन रीडर एक्सेस</span></a>
+                <a href="../#" id="incfont" class="button buttonfont">अ+</a> 
+                <a href="../#" id="norfont" class="button buttonfont">अ</a> 
+                <a href="../#" id="decfont" class="button buttonfont">अ-</a> 
+                <a href="../#maincontent" id="skipfont" title="Skip to main content" class="skipfont">मुख्य सामग्री पर जाएँ</a>
+                <a title="Accessibility Options" class="skipfont" href="/accessibilityoption"><span id="accessibilityOptionsID">अभिगम्यता के विकल्प</span>
+                </a>
+                
+                <a>
+                
+                    
+                <select name="ctl00$ln_ChangeLang" id="ln_ChangeLang" class="lang" onchange="confirmLanguageChange(this)" onfocus="storeInitialIndex(this)">
+	<option value="0">English</option>
+	<option selected="selected" value="1">हिंदी</option>
+
+</select>
+                    
+                
+                    
+                 
+                </select>
+                </a>
+                
+                
+                
+                </div>                  
+        </div>
+        </div>
+                    <div class="top-leaders">
+
+    <!-- LEFT: President -->
+    <div class="leader">
+        <img src="/image/president_of_india1.jpg" 
+             alt="" />
+    <div id="lblPresidentName" class="leader-name">श्रीमती द्रौपदी मुर्मु</div>
+    <div id="lblPresidentTitle" class="leader-title">भारत की माननीय राष्ट्रपति</div>
+    </div>
+
+    <!-- CENTER: LOGO + ICONS -->
+    <div class="main-header">
+
+        <div class="logo">
+            <a href="/home">
+                <img src="/images/logo.png" 
+                     alt="Tea Board India" />
+            </a>
+        </div>
+
+        <div class="divmastertopright">
+            <div class="link">
+<!--<marquee behavior="scroll" direction="left" scrollamount="5" style="width: 475px;">
+    <a title="" target="_blank"  href="https://dtdrc.teamarketplace.in/"  rel="noopener noreferrer">Click here to submit online application for the Tea Sommelier Course</a></marquee>-->
+  
+              
+
+                  <a title="Swach Bharat"  target="_blank" onclick="confirmExternalLink('https://swachhbharatmission.ddws.gov.in/');" rel="noopener noreferrer"><img id="" alt="Swach Bharat" src="/images/swach-bharat.png" title="" width="auto" /></a>
+
+					<a title="Azadi Ka Amrit Mahotsav"  target="_blank" onclick="confirmExternalLink('https://amritkaal.nic.in/');" rel="noopener noreferrer"><img id="" alt="Azadi Ka Amrit Mahotsav" src="/images/Azadi-Ka-Amrit-Mahotsav.png" title="" width="auto"  /></a>
+            
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT: Prime Minister -->
+    <div class="leader">
+        <img src="/image/PM1.jpg" 
+             alt="" />
+    <div id="lblPMName" class="leader-name">श्री नरेन्द्र दामोदरदास मोदी</div>
+    <div id="lblPMTitle" class="leader-title">भारत के माननीय प्रधानमंत्री</div>
+    </div>
+
+</div>
+
+<!-- NAVIGATION -->
+<div class="main header">
+<div class="navPart clearfix">
+            <div class="mainWidth marauto floatNone">
+                <!-- search part start here -->
+
+                <!-- search part end here -->
+                <!-- nav part start here -->
+                
+                <ul class="mainNav"><li><a class="home" href="/home">Home</a></li><li><a title="चाय विकास" tabindex="0">चाय विकास</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDCSM/MjIyMw==">लघु चाय उत्पादकों की सूची</a></li><li><a href="/TEABOARDPAGE/MjIyNA==">गतिविधियाँ</a></li></ul></div></div></li><li><a title="योजनाएं" tabindex="0">योजनाएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjIyNQ==">विविरणात्मक योजनाएं</a></li></ul></div></div></li><li><a title="अनुसंधान" tabindex="0">अनुसंधान</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MTQz">प्राथमिकता वाले क्षेत्रों</a></li><li><a href="/TEABOARDPAGE/MjIyNw==">समाचार/ घटनाएं</a></li><li><a href="/TEABOARDPAGE/MjIyOA==">स्वस्थ जीवन हेतु चाय</a></li><li><a href="/TEABOARDPAGE/MjIzNQ==">डीटीआर डीसी का प्रकाशन</a></li><li><a href="/TEABOARDPAGE/MjIyOQ==">डीटीआरडीसी</a></li><li><a href="/TEABOARDPAGE/MjIzMA==">गुणवत्ता नियंत्रण प्रयोगशाला</a></li><li><a href="/TEABOARDPAGE/MjIzNA==">उपासी टीआरएफ का प्रकाशन</a></li><li><a href="/TEABOARDPAGE/MjIzMw==">टीआरए का प्रकाशन</a></li></ul></div></div></li><li><a title="संर्वधन" tabindex="0">संर्वधन</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjIzNg==">अंतर्राष्ट्रीय कार्यक्रम</a></li><li><a href="/TEABOARDPAGE/MjIzNw==">घरेलू कार्यक्रम</a></li><li><a href="/TEABOARDCSM/MjIzOQ==">चाय के बारे में</a></li><li><a href="/TEABOARDPAGE/MzM1Mw==">मानक संचालन प्रक्रियाएं (एसओपी)</a></li></ul></div></div></li><li><a title="विविधताएं" tabindex="0">विविधताएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDCSM/MjI0MA==">दार्जिलिंग</a></li><li><a href="/TEABOARDCSM/MjI0MQ==">असम</a></li><li><a href="/TEABOARDCSM/MjI0Mg==">नीलगिरी</a></li><li><a href="/TEABOARDCSM/MjI0Mw==">कांगड़ा</a></li><li><a href="/TEABOARDCSM/MjI0NQ==">डुअर्स-तराई</a></li><li><a href="/TEABOARDCSM/MjI0Ng==">मसाला चाय</a></li><li><a href="/TEABOARDCSM/MjI0Nw==">सिक्किम चाय</a></li><li><a href="/TEABOARDCSM/MjI4MA==">त्रिपुरा चाय</a></li></ul></div></div></li><li><a title="सांख्यिकी" tabindex="0">सांख्यिकी</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjI3Mg==">उत्पादन</a></li><li><a href="/TEABOARDPAGE/MjI3MQ==">निर्यात</a></li><li><a href="/TEABOARDCSM/MzM1NA==">आयात</a></li><li><a href="/TEABOARDCSM/MzM1NQ==">मूल्य</a></li><li><a href="/TEABOARDCSM/MzM1Ng==">उपभोग (खपत)</a></li><li><a href="/TEABOARDCSM/MzM1Nw==">क्षेत्र</a></li><li><a href="/TEABOARDPAGE/MTM5">वैश्विक चाय</a></li><li><a href="/TEABOARDPAGE/MjI1Mg==">मासिक औसत नीलामी मूल्य</a></li></ul></div></div></li><li><a title="विनियामक गतिविधियां" tabindex="0">विनियामक गतिविधियां</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="http://www.teaboard.org/">फार्म-ई मासिक विवरणी</a></li><li><a href="/TEABOARDPAGE/MjI1NQ==">नीलगिरि अर्थोडॉक्स के प्रयोग हेतु लाईसेंस</a></li><li><a href="/TEABOARDPAGE/MjI1Ng==">असम अर्थोडॉक्स के प्रयोग हेतु लाईसेंस</a></li><li><a href="/TEABOARDCSM/MjI1Nw==">दार्जिलिंग जीआई संरक्षण</a></li><li><a href="/TEABOARDPAGE/MjI1OA==">सूचीबद्ध परिक्षण एजेंसियाँ/प्रयोगशालाएं</a></li><li><a href="/TEABOARDPAGE/MjI1OQ==">असम लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2MA==">डुअर्स-तराई लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2MQ==">नीलगिरि लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2Mg==">इंडिया लोगो लोगो के प्रयोग हेतु अनुमति</a></li></ul></div></div></li><li><a title="घोषणा" tabindex="0">घोषणा</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjI2NA==">सूचनाएं एवं परिपत्र</a></li><li><a href="/TEABOARDPAGE/MjI2NQ==">रिक्तियाँ</a></li><li><a href="/TEABOARDPAGE/MjI2Ng==">निविदाएं</a></li><li><a href="/TEABOARDPAGE/MjI2Nw==">इंडिया टी समाचार</a></li><li><a href="/TEABOARDPAGE/MjI2OA==">प्रेस विज्ञप्ति</a></li><li><a href="/TEABOARDPAGE/MjI2OQ==">टी फाईल</a></li></ul></div></div></li><li><a title="ई-सेवाएं" tabindex="0">ई-सेवाएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="https://onlineapps.teaboard.gov.in/">लाइसेंस के लिए ऑनलाइन आवेदन</a></li><li><a href="https://onlineapps.teaboard.gov.in/">ई-रिटर्न जमा करना</a></li><li><a href="https://darjeelingtea.teaboard.gov.in/DarjeelingTea/Index.html?id=45370523">उदगम प्रमाण पत्र</a></li><li><a href="https://www.teaauction.gov.in/">ई-नीलामी पोर्टल</a></li><li><a href="https://emarketplace.teaboard.gov.in/">जोरहाट नीलामी पोर्टल</a></li><li><a href="https://teawaste.teaauction.gov.in/">चाय अपशिष्ट पोर्टल</a></li><li><a href="https://teacouncil.teaauction.gov.in/">चाय परिषद पोर्टल</a></li><li><a href="https://teacouncil.teaauction.gov.in/" title="External website that opens in a new window" onclick="return confirmExternalLink()" target="_blank" rel="noopener noreferrer">सर्विस प्लस पोर्टल</a></li><li><a href="https://www.teaboard.gov.in/TEABOARDCSM/NDM=#centralized-video">केंद्रीकृत वीडियो कॉन्फ्रेंस सुविधा</a></li></ul></div></div></li><li><a title="ई-पत्रिका" tabindex="0">ई-पत्रिका</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="https://heyzine.com/flip-book/c7cad3bd93.html">चायनामा - प्रथम संस्करण</a></li></ul></div></div></li></ul>
+                <!-- nav part end here -->
+                <div class="search-toggle">
+                <button class="search-icon icon-search" type="button"><img id="Img2" alt="search" src="/images/search.png"
+                        width="18" height="18" /></button>
+                <button class="search-icon icon-close" type="button"><img id="Img3" alt="Close" src="/images/close.png"
+                        width="18" height="18" /></button>
+              </div>
+                <div class="search-container">
+    <input name="ctl00$search_content" type="text" id="search_content" class="" value="Search keyword" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Search keyword&#39;;}" onfocus="if(this.value == &#39;Search keyword&#39;) {this.value = &#39;&#39;;}" placeholder="Search terms..." />
+                         <a id="sub" title="Search" class="search-icon" style="cursor: pointer" href="javascript:__doPostBack(&#39;ctl00$sub&#39;,&#39;&#39;)">
+                        <img src="/images/search.png" width="19" height="19" alt="Search" /></a>
+
+  </div>
+            </div>
+            </div>
+			
+			</div>
+            <div>
+                
+<div class="mainWidth innerBanner">
+    	<div class="innerBannerImg">
+   	    	<img src="/images/about-banner.png" alt="About Banner" width="726" height="178" alt="About Banner Image" />
+        </div>
+        <div class="headBanner">
+        	<h2 id="contn_head_text_top">Nilgiri</h2>
+            <p id="contn_sub_text_top"></p>
+        </div>
+  	</div>
+    <div class="bredcum mainWidth">
+    	<p><a href="/home">Home</a> <b>&raquo;</b><span id="contn_page_title_bn">Nilgiri</span></p></p>
+    </div>
+    <div class="mainWidth marTop20" id="maincontent">
+    	<!-- left part start here -->
+    	<div class="innerLeft" style=" display:none">
+        	
+            <div class="box224 noMarL marTop25"><h3 class="textHead">Tea Board</h3><ul class="leftNav"></ul></div><div class="box224 noMarL marTop25"><h3 class="textHead">ताज़ा खबरें<a class="more" href="/LATEST-NEWS">आगे</a></h3><p class="newsDate marTop20">अंतिम अपडेटः 11/6/2026 12:39:07 PM</p><ul class="news"><li><a href="/pdf/NABL_Hindi_pdf3489.pdf" target="_blank" rel="noopener noreferrer">एकीकृत मूल्यांकन योजना के अंतर्गत ट....[सूचीबद्ध परिक्षण एजेंसिया...]</a></li><li><a href="/pdf/79_2026_dt_14_07_0001_pdf1774.pdf" target="_blank" rel="noopener noreferrer">टी बोर्ड, क्षेत्रीय कार्यालय, कून्न....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/80_2026_dt_14_07_0001_pdf5618.pdf" target="_blank" rel="noopener noreferrer">टी बोर्ड, क्षेत्रीय कार्यालय, कून्न....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/81_2026_dt_15_07_0001_pdf61.pdf" target="_blank" rel="noopener noreferrer">बोर्ड के अधिकारियों के स्थानांतरण क....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/82_2026_dt_17_07_0001_pdf5147.pdf" target="_blank" rel="noopener noreferrer">बंदरगाहों पर चाय के नमूने लेने के क....[कार्यालय ज्ञापन...]</a></li></ul></div><div class="box224 noMarL"><h3 class="textHead">उत्पाद<a class="more"></a></h3><div id="slides2"><div class="slides_container"><div><div class="bannerImg"><img alt="World Gold Standard" src="/images/product0.jpg" style="width:176px;height:123px" title="World Gold Standard"></img><p>World Gold Standard<span>World Gold Standard</span></p></div></div><div><div class="bannerImg"><img alt="Darjeeling" src="/images/product1.jpg" style="width:176px;height:123px" title="Darjeeling"></img><p>Darjeeling<span>Darjeeling</span></p></div></div><div><div class="bannerImg"><img alt="Assam" src="/images/product2.jpg" style="width:176px;height:123px" title="Assam"></img><p>Assam<span>Assam</span></p></div></div><div><div class="bannerImg"><img alt="License to Use Assam Orthodox" src="/images/product3.jpg" style="width:176px;height:123px" title="License to Use Assam Orthodox"></img><p>License to Use Assam Orthodox<span>License to Use Assam Orthodox</span></p></div></div><div><div class="bannerImg"><img alt="Nilgiri" src="/images/product4.jpg" style="width:176px;height:123px" title="Nilgiri"></img><p>Nilgiri<span>Nilgiri</span></p></div></div><div><div class="bannerImg"><img alt="License to Use Nilgiri Orthodox" src="/images/product5.jpg" style="width:176px;height:123px" title="License to Use Nilgiri Orthodox"></img><p>License to Use Nilgiri Orthodox<span>License to Use Nilgiri Orthodox</span></p></div></div><div><div class="bannerImg"><img alt="Kangra" src="/images/product6.jpg" style="width:176px;height:123px" title="Kangra"></img><p>Kangra<span>Kangra</span></p></div></div><div><div class="bannerImg"><img alt="Dooars-Terai" src="/images/product7.jpg" style="width:176px;height:123px" title="Dooars-Terai"></img><p>Dooars-Terai<span>Dooars-Terai</span></p></div></div><div><div class="bannerImg"><img alt="Sikkim" src="/images/product8.jpg" style="width:176px;height:123px" title="Sikkim"></img><p>Sikkim<span>Sikkim</span></p></div></div><div><div class="bannerImg"><img alt="Tripura" src="/images/product9.jpg" style="width:176px;height:123px" title="Tripura"></img><p>Tripura<span>Tripura</span></p></div></div><div><div class="bannerImg"><img alt="200 years of Assam Tea" src="/images/product10.jpg" style="width:176px;height:123px" title="200 years of Assam Tea"></img><p>200 years of Assam Tea<span>200 years of Assam Tea</span></p></div></div><div><div class="bannerImg"><img alt="200 years of Assam Tea." src="/images/product11.jpg" style="width:176px;height:123px" title="200 years of Assam Tea."></img><p>200 years of Assam Tea.<span>200 years of Assam Tea.</span></p></div></div></div></div></div>
+            
+            
+
+           
+            
+        </div>
+        <!-- left part end here -->
+        
+        <!-- right part start here -->
+        <div class="clearfix paddBottom10">
+        	<h1 id="contn_head_text">Nilgiri</h1>
+             <div id="contn_contnabout" class="text"><p align="center">
+	<strong>Nilgiri tea</strong></p>
+<p align="center">
+	<strong><img alt="Description: The beautiful Nilgiri Hills, sprawling through the states of Tamil Nadu, Karnataka and Kerala, are home to the pastoral Toda tribe and tea gardens that create the fragrant cup of tea. Nilgiri tea has a slightly fruity, minty flavor, probably because trees like the Blue Gum and Eucalyptus dot the region. And perhaps the spices produced in close proximity to the tea gardens lend the light brew its briskness.&nbsp; The balanced blend of flavor and body makes Nilgiri tea a ‘blender’s dream’. The Nilgiri Hills aka the ‘Blue Mountains’ come under the influence of both south-west and north-east monsoons; a reason why the tea leaves grown here are plucked around the year. Nilgiri Orthodox tea is a registered Geographical Indication (GI). Both Orthodox and CTC varieties of tea are manufactured in this region." height="402" src="../imagegallery/nilgiri_tea.jpg" width="602" /></strong></p>
+<p style="text-align: justify;">
+	<strong>Elevation: </strong>Teas are grown at elevations ranging from 1000 to 2500 metre above sea level.</p>
+<p>
+	<strong>Annual Rainfall: </strong>150 to 230cm.</p>
+<p align="justify">
+	The beautiful Nilgiri Hills, sprawling through the states of Tamil Nadu, Karnataka and Kerala, are home to the pastoral Toda tribe and tea gardens that create the fragrant cup of tea. Nilgiri tea has a slightly fruity, minty flavor, probably because trees like the Blue Gum and Eucalyptus dot the region. And perhaps the spices produced in close proximity to the tea gardens lend the light brew its briskness.&nbsp; The balanced blend of flavor and body makes Nilgiri tea a &lsquo;blender&rsquo;s dream&rsquo;. The Nilgiri Hills aka the &lsquo;Blue Mountains&rsquo; come under the influence of both south-west and north-east monsoons; a reason why the tea leaves grown here are plucked around the year. Nilgiri Orthodox tea is a registered Geographical Indication (GI). Both Orthodox and CTC varieties of tea are manufactured in this region.</p>
+<p align="justify">
+	<strong>Tea Attributes: </strong>A deliciously fragrant and exquisitely aromatic tea, with high tones of delicate floral notes and a golden yellow liquor.&nbsp; Crisply brisk and bright.&nbsp; Lingering notes of dusk flowers with an undercurrent of briskness.&nbsp; Creamy mouth feel.&nbsp; A truly flavored tea for a stressful day.</p>
+</div>
+                                
+                <button onclick="JavaScript: window.history.back(1); return false;" class="btnback">Back</button>
+        </div>
+
+        <!-- right part end here -->
+    </div>
+    
+
+            </div>
+               
+               
+            
+                <div class="footer clearfix">
+                <div class="mainWidth clearfix">
+                    
+                            
+                    <ul class="footerLinks"><li><a title="कर्मचारी अनुभाग | " href="/TEABOARDCSM/MjI3NA==">कर्मचारी अनुभाग</a></li><li><a title="वेबसाइट नीतियां | " href="/TEABOARDCSM/MzMwMA==">वेबसाइट नीतियां</a></li><li><a title="लोक शिकायत | " href="/TEABOARDCSM/NTc=">लोक शिकायत</a></li><li><a title="साईट मानचित्र | " href="/SiteMap">साईट मानचित्र</a></li><li><a title="सहायता | " href="/TEABOARDCSM/MjE4Mw==">सहायता</a></li><li><a title="आवश्यक लिंक | " href="/TEABOARDCSM/MzMwMw==">आवश्यक लिंक</a></li><li><a class="" title="छुट्टियों की सूची | " href="/TEABOARDPAGE/MzMxNw==">छुट्टियों की सूची</a></li><li><a href="/feedback" class="noBdr"> प्रतिक्रिया</a></li></ul>
+                  </div> 
+                </div>
+                <div class="footer-menu clearfix">
+                  
+                    <ul class="topLink"><li><a href="/home" class="cursor">मुख पृष्ठ</a></li><li><a title="हमारे बारे में" href="/TEABOARDCSM/NA==">हमारे बारे में</a></li><li><a title="दृष्टि एवं मिशन" href="/TEABOARDCSM/NDU=">दृष्टि एवं मिशन</a></li><li><a title="सा. पू. प्र." href="/TEABOARDCSM/NDQ=">सा. पू. प्र.</a></li><li><a title="आर.टी.आई" href="/TEABOARDCSM/NDY=">आर.टी.आई</a></li><li><a title="हमसे संपर्क करें" href="/TEABOARDCSM/NDM=">हमसे संपर्क करें</a></li><li><a title="निदेशिका" href="/TEABOARDCSM/MjIxOQ==">निदेशिका</a></li><li><a title="वेब सूचना प्रबंधक" href="/TEABOARDCSM/MzI5OQ==">वेब सूचना प्रबंधक</a></li></ul>
+                </div>
+
+
+  <div class="copyright">
+               <ul class="grid-justify-flex-center grid-align-center">
+			   <div class="divmastersocial grid-align-center" >
+                    <a style = "font-size: 16px; font-weight:bold"> Share With  </a>
+                  <li><a title="Twitter" onclick="confirmExternalLink('https://twitter.com/teaboardofindia');" ><img src="/images/twitter_x.png" alt="Twitter" /></a>&nbsp;</li>
+                  <li><a title="Facebook" onclick="confirmExternalLink('https://www.facebook.com/TeaBoardIndia');" ><img src="/images/facebook.png" alt="Facebook" /></a>&nbsp;</li>
+               
+               </ul>
+            </div>
+
+
+
+
+             <div class="copyright-details">
+                    
+                    <p>© Ownership Information: Website belongs to Tea Board India, Department of Commerce.</p>
+                    <p>Copyright 2026 (with latest amendments), 
+                    all rights reserved with Tea Board India, Department of Commerce, Ministry of Commerce and Industry, Government of India.</p>
+                    <p>The site is best viewed in Chrome 92.0 , Firefox 89.0 or Microsoft Edge 92.0</p>
+                    <p> <span id="page_last_update" style="color: #000;">Last Updated: Friday, 20 Nov 2026 16:14:49</span> </p>
+                    
+                
+                
+
+                </div>
+
+
+           
+    <div class="copyright-img">             
+      
+            
+            <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=www.teaboard.gov.in&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" style = "width:60px"/>
+    </a>
+</p>
+            </div>      
+        </div>        
+
+
+  
+    <div class="copyright">
+    <div class="no-user-online">         
+        <span>No of Users Online:
+        1173</span>
+      </div>
+ </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+javascript:SetAccessibilityData(); //]]>
+</script>
+</form>
+    </div>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-93237025-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        $('.search-toggle').addClass('closed');
+
+        $('.search-toggle .search-icon').click(function (e) {
+            if ($('.search-toggle').hasClass('closed')) {
+                $('.search-toggle').removeClass('closed').addClass('opened');
+                $('.search-toggle, .search-container').addClass('opened');
+                $('#search-terms').focus();
+            } else {
+                $('.search-toggle').removeClass('opened').addClass('closed');
+                $('.search-toggle, .search-container').removeClass('opened');
+            }
+        });
+    </script>
+<script>
+    const messages = [
+        "PMCSPY - WB Tea Garden Workers / Small Tea Growers Apply Here",
+        "PMCSPY – WB हेतु चाय बागान श्रमिकों / लघु चाय उत्पादकों आवेदन करें",
+        "PMCSPY – WB-এর জন্য চা বাগান শ্রমিক / ক্ষুদ্র চা চাষিরা এখানে আবেদন করুন"
+    ];
+
+    let index = 0;
+    const textElement = document.getElementById("text");
+
+    function changeText() {
+        textElement.classList.remove("fade-in");
+        void textElement.offsetWidth; // restart animation
+        textElement.textContent = messages[index];
+        textElement.classList.add("fade-in");
+
+        index = (index + 1) % messages.length;
+    }
+
+    changeText();
+    setInterval(changeText, 1000); // 1 second
+
+    function redirectLink() {
+        window.location.href =
+            "https://services.teaboard.gov.in/directApply.do?serviceId=3253";
+    }
+</script>
+</body>
+</html>
+

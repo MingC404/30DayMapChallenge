@@ -1,0 +1,41 @@
+{
+  "Kyushu": {
+    "source": "https://www.visit-kyushu.com/en/destinations/",
+    "members": [
+      "Fukuoka",
+      "Saga",
+      "Nagasaki",
+      "Kumamoto",
+      "Oita",
+      "Miyazaki",
+      "Kagoshima"
+    ]
+  },
+  "Kansai": {
+    "source": "https://www.kansai.meti.go.jp/english/what_is_metikansai.html",
+    "definition": "METI Kansai Bureau seven-prefecture economic region",
+    "members": [
+      "Fukui",
+      "Shiga",
+      "Kyoto",
+      "Osaka",
+      "Hyogo",
+      "Nara",
+      "Wakayama"
+    ],
+    "retrieval": "Official page retrieved and archived as display_kansai.html; seven-prefecture METI definition retained.",
+    "source_excerpt": "Kansai region, which includes 7 prefectures: Fukui, Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama."
+  },
+  "Northern Taiwan": {
+    "source": "https://eng.taiwan.net.tw/m1.aspx?sNo=0029001",
+    "members": [
+      "Taipei",
+      "New Taipei",
+      "Keelung",
+      "Yilan",
+      "Taoyuan",
+      "Hsinchu County",
+      "Hsinchu City"
+    ]
+  }
+}

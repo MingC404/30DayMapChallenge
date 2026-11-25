@@ -1,0 +1,100 @@
+{
+  "canvas": [
+    1600,
+    1200
+  ],
+  "reviewed": 47,
+  "teas": 15,
+  "tea_drinks": 2,
+  "display_regions": 14,
+  "neutral_shared_region": "Fujian",
+  "no_non_land_shading": true,
+  "composite_exact": true,
+  "no_text_collisions": true,
+  "no_leader_text_or_leader_collisions": true,
+  "basemap_unchanged": true,
+  "direct_labels": 9,
+  "fully_contained_direct_labels": 2,
+  "requested_six_leader_free": true,
+  "direct_label_distance_from_region_px": {
+    "cn-2662": 0.0,
+    "assam": 0.0,
+    "darjeeling": 0.0,
+    "cn-2663": 0.0,
+    "tw-beauty": 67.04558979613131,
+    "cn-2710": 0.0
+  },
+  "leaf_cup_layers_separate": true,
+  "direct_label_coverage": {
+    "cn-2662": 0.1418779986291981,
+    "cn-2721": 0.9313850063532402,
+    "assam": 0.08534850640113797,
+    "darjeeling": 0.04880294659300184,
+    "cn-2663": 0.01355421686746988,
+    "tw-beauty": 0.0,
+    "cn-2710": 0.012509197939661517,
+    "cn-2668": 1.0,
+    "cn-2705": 1.0
+  },
+  "gallery_visibility": [
+    {
+      "region": "Zhejiang",
+      "gallery_pixels": 1074
+    },
+    {
+      "region": "Fujian",
+      "gallery_pixels": 1255
+    },
+    {
+      "region": "Anhui",
+      "gallery_pixels": 1638
+    },
+    {
+      "region": "Yunnan",
+      "gallery_pixels": 4036
+    },
+    {
+      "region": "Guangxi",
+      "gallery_pixels": 2443
+    },
+    {
+      "region": "Guangdong",
+      "gallery_pixels": 1784
+    },
+    {
+      "region": "Northern Taiwan",
+      "gallery_pixels": 76
+    },
+    {
+      "region": "Assam",
+      "gallery_pixels": 860
+    },
+    {
+      "region": "West Bengal",
+      "gallery_pixels": 895
+    },
+    {
+      "region": "Kyushu",
+      "gallery_pixels": 485
+    },
+    {
+      "region": "Tamil Nadu",
+      "gallery_pixels": 1152
+    },
+    {
+      "region": "Kansai",
+      "gallery_pixels": 404
+    },
+    {
+      "region": "Central Province",
+      "gallery_pixels": 54
+    },
+    {
+      "region": "Ha Giang (source-era)",
+      "gallery_pixels": 84
+    }
+  ],
+  "png_sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93",
+  "gallery_entry_prepared": true,
+  "deterministic_repeat_png_identical": true
+}

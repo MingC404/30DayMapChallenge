@@ -1,0 +1,23 @@
+{
+  "gallery_source": "docs/index.html",
+  "gallery_source_sha256": "18c94453c4f42d55b9060bb3b11baf7b57794cd5b41918521991155c504ef5df",
+  "desktop_max_media_width_px": 862.24,
+  "inspection_width": 862,
+  "mobile_viewport": 390,
+  "mobile_media_width": 350,
+  "visual_review": "Inspected at 862 px: six requested labels have no leaders, Assam is northeast of Darjeeling and each names its region, Fuding is north of Anxi beside one neutral Fujian, regional leaves and open handled cups are visually distinct. All 14 regions are visible, including small Central Province and source-era Ha Giang. Nine labels are direct/adjacent; two fully inside their region. At 350 px fine text requires opening the PNG.",
+  "long_oversea_leaders_removed": true,
+  "geographic_endpoints_have_small_anchors": true,
+  "final_png_sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93",
+  "anchor_style": "Six remaining regional callouts have small geographic anchors. Two drinking examples have cups at named city coordinates, no leader or area fill.",
+  "direct_labels": 9,
+  "fully_contained_direct_labels": 2,
+  "display_regions": 14,
+  "teas": 15,
+  "gallery_entry_schema_source": "scripts/gallery_entries.json",
+  "gallery_entry_schema_sha256": "1d79470ef721feb92550c56acdaf161e4070ceb279f6d082784bc761b99f6893",
+  "tea_drinks": 2,
+  "requested_six_leader_free": true,
+  "phone_review": "Region patterns and cup/leaf silhouettes survive; detailed annotation needs full image.",
+  "publication_status": "D23 integrated into personal gallery in local workspace; approved artwork unchanged; no commit, push or remote deployment."
+}

@@ -1,0 +1,23 @@
+﻿{
+    "scope":  "D24 gallery finalization only",
+    "removed":  [
+                    {
+                        "path":  "24/outputs/where_ferry_routes_meet.png",
+                        "bytes":  300958,
+                        "reason":  "Superseded NYC Ferry artwork or regenerable render-only intermediate; unique research data/scripts retained."
+                    },
+                    {
+                        "path":  "24/outputs/render_manifest.json",
+                        "bytes":  7072,
+                        "reason":  "Superseded NYC Ferry artwork or regenerable render-only intermediate; unique research data/scripts retained."
+                    },
+                    {
+                        "path":  "24/outputs/render_data.json",
+                        "bytes":  205517,
+                        "reason":  "Superseded NYC Ferry artwork or regenerable render-only intermediate; unique research data/scripts retained."
+                    }
+                ],
+    "removed_files":  3,
+    "artwork":  "Confirmed Getting Home to Summit GIF/PNG are copied without re-rendering or encoding.",
+    "retained":  "GTFS ZIP and source/land snapshots, network results and CSVs, all unique Ferry scripts; final Summit media and full reproduction/source data."
+}

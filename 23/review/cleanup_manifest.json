@@ -1,0 +1,21 @@
+{
+  "scope": "E:\\MUSA\\30DayMapChallenge\\23",
+  "reference_check": "No external repository references; no retained renderer or Markdown dependency on removed paths.",
+  "final_png_sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93",
+  "removed_files": [
+    {
+      "path": "review/animation_350.png",
+      "bytes": 207746,
+      "sha256": "88aaa658405f9d22dd6683552d5ca2bab453e16ed44e6b7c9a621613147fdbfb",
+      "reason": "Superseded review / temporary inspection artifact"
+    },
+    {
+      "path": "review/animation_862.png",
+      "bytes": 826408,
+      "sha256": "011d47fbab0bb13d4fb77d7a9d45b81f455f328a7d558f35ab4c973692533ecf",
+      "reason": "Superseded review / temporary inspection artifact"
+    }
+  ],
+  "total_files": 2,
+  "total_bytes": 1034154
+}

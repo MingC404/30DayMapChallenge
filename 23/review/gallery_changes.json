@@ -1,0 +1,101 @@
+{
+  "scope": "Personal gallery and D23 only; pre-existing Day 24 work untouched.",
+  "updated_files": [
+    {
+      "path": "README.md",
+      "change": "updated",
+      "sha256": "2804cae015b281692f3b3d4cc3729a05cf031eff8d931f11c6c7489af251993e"
+    },
+    {
+      "path": "scripts/gallery_entries.json",
+      "change": "updated",
+      "sha256": "1d79470ef721feb92550c56acdaf161e4070ceb279f6d082784bc761b99f6893"
+    },
+    {
+      "path": "docs/index.html",
+      "change": "updated",
+      "sha256": "18c94453c4f42d55b9060bb3b11baf7b57794cd5b41918521991155c504ef5df"
+    },
+    {
+      "path": "docs/gallery-manifest.json",
+      "change": "updated",
+      "sha256": "36db0060a88b4adb83164f8ed55160f78916dfc20f587ba4bb7093a6c73914ed"
+    },
+    {
+      "path": "docs/GALLERY.md",
+      "change": "updated",
+      "sha256": "e58488d9d1ec0e8ddcf85c28b3f66f3d8d6c848841b2d453236c19544b5704f3"
+    },
+    {
+      "path": "docs/assets/23/day23_a_tasting_map_of_tea.gif",
+      "change": "added",
+      "sha256": "3bb76c36d77d40d5474c07885401375d4ae037f90d3cee7b44e6d502b8ac964c"
+    },
+    {
+      "path": "docs/assets/23/day23_a_tasting_map_of_tea.png",
+      "change": "added",
+      "sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93"
+    },
+    {
+      "path": "23/gallery-entry.json",
+      "change": "updated",
+      "sha256": "a7ce7fc41662a42d7c799bb4a9d664367052ce77d7c0611accac39f189086785"
+    },
+    {
+      "path": "23/GALLERY_BLURB.md",
+      "change": "updated",
+      "sha256": "f597bf3cfe636632658dc7a8b2d22c37c23e3651298526d7e9766bf59ec91272"
+    },
+    {
+      "path": "23/README.md",
+      "change": "updated",
+      "sha256": "93351191fbf0bbccf89917a59da29d3ea4d171eede013bcc1e4ff646fde34093"
+    },
+    {
+      "path": "23/CLEANUP.md",
+      "change": "updated",
+      "sha256": "c4750c0edb83e324fccdf169f8e0054d6488d1c583d356a680014524234e00bd"
+    },
+    {
+      "path": "23/scripts/update_gallery.cjs",
+      "change": "added",
+      "sha256": "2907413d6c9b058cd45a4b99894acefdd40fb55eaf59e3559781256a8c6e284e"
+    },
+    {
+      "path": "23/scripts/check_gallery.cjs",
+      "change": "added",
+      "sha256": "3a7adcf2c00c468bcf8199c25c5067016583f13a5b434212a5c88311a62160b0"
+    },
+    {
+      "path": "23/scripts/cleanup_final.py",
+      "change": "updated",
+      "sha256": "eebaa91be6bd35304a9e01c7b9477aa905e1ebbabc093ddb87736fec2db12fb7"
+    },
+    {
+      "path": "23/review/gallery_scope.json",
+      "change": "added",
+      "sha256": "d7efeaa2ab0e7b35ddf639119689b84e17d2e664796d76b61805200598f05c48"
+    },
+    {
+      "path": "23/review/gallery_validation.json",
+      "change": "added",
+      "sha256": "adbbe38d4fe977b135e61ce881689e931d1decff0cc8ab628e70e20508562669"
+    },
+    {
+      "path": "23/review/final_display_review.json",
+      "change": "updated",
+      "sha256": "85fc823e34c98d8a541b2a259698074bb61b6e101b3652e0497449ee9506e672"
+    },
+    {
+      "path": "23/review/animation_display_review.json",
+      "change": "updated",
+      "sha256": "7a3297c495bd719f58dd0d7c4e7f56beb3eb93117612a740d7ec150ced0a08d6"
+    }
+  ],
+  "additional_record": "23/review/gallery_changes.json",
+  "deleted_files": [],
+  "cleanup": "No superseded exports, duplicate previews or loose temporary frames remain. Prior deletion history preserved in 23/CLEANUP.md and 23/review/cleanup_history.json.",
+  "approved_artwork_unchanged": true,
+  "browser_validation": "23/review/gallery_validation.json",
+  "commit_push_deployment": "Not performed"
+}

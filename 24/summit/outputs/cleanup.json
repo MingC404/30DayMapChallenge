@@ -1,0 +1,96 @@
+﻿{
+    "scope":  "24 only; all resolved targets verified inside day 24",
+    "removed":  [
+                    {
+                        "path":  "24/summit/outputs/frames",
+                        "files":  4,
+                        "bytes":  1726350
+                    },
+                    {
+                        "path":  "24/summit/outputs/review_350",
+                        "files":  5,
+                        "bytes":  305409
+                    },
+                    {
+                        "path":  "24/summit/outputs/review_862",
+                        "files":  5,
+                        "bytes":  1183710
+                    },
+                    {
+                        "path":  "24/summit/outputs/review_gif_ferry_862.png",
+                        "files":  1,
+                        "bytes":  236245
+                    },
+                    {
+                        "path":  "24/summit/outputs/soho_overview_layout.json",
+                        "files":  1,
+                        "bytes":  10945
+                    },
+                    {
+                        "path":  "24/summit/data/terrain/terrain_aligned.png",
+                        "files":  1,
+                        "bytes":  34917
+                    },
+                    {
+                        "path":  "24/summit/data/sources/mne_feb.pdf",
+                        "files":  1,
+                        "bytes":  226792
+                    },
+                    {
+                        "path":  "24/summit/data/sources/path_weekday.html",
+                        "files":  1,
+                        "bytes":  2951
+                    },
+                    {
+                        "path":  "24/summit/.deps",
+                        "files":  120,
+                        "bytes":  4112790
+                    },
+                    {
+                        "path":  "24/summit/.uv-cache",
+                        "files":  76,
+                        "bytes":  1953031
+                    },
+                    {
+                        "path":  "24/.gitkeep",
+                        "files":  1,
+                        "bytes":  0
+                    }
+                ],
+    "removed_files":  216,
+    "removed_bytes":  9793140,
+    "preserved":  "Formal Summit PNG/GIF, generation and verification scripts, reproducible source data and README; NYC Ferry prototype retained.",
+    "full_canvas_update_cleanup":  {
+                                       "scope":  "24 only, resolved paths checked",
+                                       "removed":  [
+                                                       {
+                                                           "path":  "24/summit/data/terrain/usgs_3dep_utm18.tif",
+                                                           "files":  1,
+                                                           "bytes":  2950600
+                                                       },
+                                                       {
+                                                           "path":  "24/summit/data/terrain/new_jersey.geojson",
+                                                           "files":  1,
+                                                           "bytes":  54180
+                                                       },
+                                                       {
+                                                           "path":  "24/summit/data/water.geojson",
+                                                           "files":  1,
+                                                           "bytes":  80948
+                                                       },
+                                                       {
+                                                           "path":  "24/summit/outputs/review_862",
+                                                           "files":  5,
+                                                           "bytes":  2039024
+                                                       },
+                                                       {
+                                                           "path":  "24/summit/outputs/review_350",
+                                                           "files":  5,
+                                                           "bytes":  502835
+                                                       }
+                                                   ],
+                                       "removed_files":  13,
+                                       "removed_bytes":  5627587,
+                                       "preserved":  "Formal PNG/GIF, full-canvas 3DEP raster, complete water sources/mask, reproducible scripts and README; NYC Ferry prototype retained."
+                                   }
+}

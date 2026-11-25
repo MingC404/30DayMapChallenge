@@ -1,0 +1,14 @@
+{
+  "gallery_source": "docs/index.html",
+  "gallery_source_sha256": "18c94453c4f42d55b9060bb3b11baf7b57794cd5b41918521991155c504ef5df",
+  "gallery_entry_source_sha256": "1d79470ef721feb92550c56acdaf161e4070ceb279f6d082784bc761b99f6893",
+  "desktop_max_media_width_px": 862.24,
+  "inspected_widths": [
+    862,
+    350
+  ],
+  "gif_sha256": "3bb76c36d77d40d5474c07885401375d4ae037f90d3cee7b44e6d502b8ac964c",
+  "visual_review": "All five decoded frames inspected at 862 px. Active group names, specific notes, leaves and cups stand out; inactive entries stay locatable. Assam/Darjeeling and north/south Fujian positions remain unchanged. Fujian remains neutral. Two dark cups and ingredient labels stand out in Milk & spice. At 350 px active clusters and cup/leaf silhouettes are discernible, but detailed small text needs the full image.",
+  "palette_review": "Global non-dithered palette; unchanged basemap, title and legend pixels validated identical across frames.",
+  "publication_status": "D23 integrated into personal gallery in local workspace; approved artwork unchanged; no commit, push or remote deployment."
+}

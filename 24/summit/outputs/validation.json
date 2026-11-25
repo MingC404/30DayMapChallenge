@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "routes": {
+    "usual": {
+      "continuous_from_soho_to_summit": true,
+      "legs": 6,
+      "historical_total_minutes": null
+    },
+    "path": {
+      "continuous_from_soho_to_summit": true,
+      "legs": 6,
+      "historical_total_minutes": null
+    },
+    "ferry": {
+      "continuous_from_soho_to_summit": true,
+      "legs": 8,
+      "historical_total_minutes": null
+    },
+    "newark": {
+      "continuous_from_soho_to_summit": true,
+      "legs": 4,
+      "historical_total_minutes": null
+    }
+  },
+  "newark_stations_separation_m": 1608,
+  "canvas": [
+    1600,
+    1200
+  ],
+  "gif_frames": 4,
+  "gif_durations_ms": [
+    3000,
+    3000,
+    3000,
+    3000
+  ],
+  "loop": 0,
+  "fixed_station_anchors": true,
+  "same_projection_and_view": true,
+  "fixed_common_station_order": [
+    "Newark Broad Street",
+    "Summit Station"
+  ],
+  "simplified_rail_long_dashed_without_sleepers": true,
+  "schematic_scale_label_all_frames": true,
+  "all_traffic_strokes_at_least_doubled": true,
+  "candidate_network_background_opacity": 0.18,
+  "network_active_background_disjoint_and_complete": true,
+  "terrain_classes_m": [
+    5,
+    15,
+    35
+  ],
+  "terrain_registration_tolerance_px": 1e-06,
+  "full_canvas_land_coverage": 1.0,
+  "land_pixels_on_edges": {
+    "left": 1199,
+    "right": 1126,
+    "top": 1456,
+    "bottom": 1038
+  },
+  "no_state_layout_or_schematic_clipping": true,
+  "terrain_pixels_identical_including_changing_foreground_fraction": 0.9556316236550441,
+  "background_terrain_pixels_checked": 1102238,
+  "background_terrain_identical_across_decoded_gif_frames_fraction": 0.9998775219145049,
+  "gallery_review": {
+    "desktop_width": 862,
+    "mobile_width": 350,
+    "finding": "Full-bleed terrain, water, light text halos and simplified-rail distinction reviewed; previews optional and removed after finalization."
+  },
+  "source_hashes_verified": true,
+  "ferry_prototype": "Unique GTFS data, network results and regeneration scripts retained; superseded artwork retired. See 24/FERRY_RESEARCH.md."
+}

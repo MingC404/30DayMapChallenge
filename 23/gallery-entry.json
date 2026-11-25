@@ -1,0 +1,37 @@
+{
+  "day": "23",
+  "theme": "Senses: Taste",
+  "title": "A Tasting Map of Tea",
+  "author": "Ming Cao",
+  "description": "This tasting map brings together selected regional teas and tea drinks across Asia. The animation highlights groups of tasting notes and ends with the full map, where shaded regions locate the teas and cup icons mark examples of how tea is served.",
+  "tools": [
+    "Python",
+    "NumPy",
+    "Shapely",
+    "pyproj",
+    "Matplotlib",
+    "Pillow"
+  ],
+  "evidence": [
+    "23/README.md",
+    "23/GALLERY_BLURB.md",
+    "23/TEA_CATALOGUE.md",
+    "23/scripts/render_final.py",
+    "23/scripts/encode_gif.py"
+  ],
+  "media": [
+    {
+      "source": "23/outputs/day23_a_tasting_map_of_tea.gif",
+      "path": "assets/23/day23_a_tasting_map_of_tea.gif",
+      "label": "A Tasting Map of Tea - tasting themes",
+      "alt": "Animated map of selected Asian teas and tea drinks, highlighting groups of tasting notes before showing all entries together."
+    }
+  ],
+  "downloads": [
+    {
+      "source": "23/outputs/day23_a_tasting_map_of_tea.png",
+      "path": "assets/23/day23_a_tasting_map_of_tea.png",
+      "label": "Static overview PNG"
+    }
+  ]
+}

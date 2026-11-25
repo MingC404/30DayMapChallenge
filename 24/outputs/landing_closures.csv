@@ -1,0 +1,5 @@
+﻿landing_id,landing,routes,lost_directed_connections,lost_undirected_pairs,components,components_count
+87,Wall St/Pier 11,"[""AS"", ""ER"", ""RS"", ""SB"", ""SG""]","[[""AS"", ""SG""], [""ER"", ""SG""], [""RS"", ""SG""], [""SG"", ""AS""], [""SG"", ""ER""], [""SG"", ""RS""]]","[[""AS"", ""SG""], [""ER"", ""SG""], [""RS"", ""SG""]]","[[""AS"", ""ER"", ""RS"", ""SB"", ""SG""]]",1
+11,Atlantic Ave/BBP Pier 6,"[""SB"", ""SG""]",[],[],"[[""AS"", ""ER"", ""RS"", ""SB"", ""SG""]]",1
+17,East 34th Street,"[""AS"", ""ER"", ""RS"", ""SB""]",[],[],"[[""AS"", ""ER"", ""RS"", ""SB"", ""SG""]]",1
+113,East 90th St,"[""AS"", ""RS""]",[],[],"[[""AS"", ""ER"", ""RS"", ""SB"", ""SG""]]",1

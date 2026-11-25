@@ -1,0 +1,3287 @@
+{
+  "template": {
+    "canvas": [
+      1600,
+      1200
+    ],
+    "anchors": {
+      "day": [
+        84.0,
+        82.0
+      ],
+      "title": [
+        84.0,
+        138.0
+      ],
+      "subtitle": [
+        84.0,
+        175.0
+      ]
+    },
+    "sizes": {
+      "day": 17.599999999999998,
+      "title": 44.800000000000004,
+      "subtitle": 19.2,
+      "caption": 16,
+      "source": 14,
+      "author": 17
+    },
+    "fonts": {
+      "day": "seguisb.ttf",
+      "title": "georgia.ttf",
+      "subtitle": "segoeui.ttf",
+      "caption": "segoeui.ttf",
+      "source": "segoeui.ttf",
+      "author": "segoeui.ttf"
+    },
+    "attribution_baseline": 1123,
+    "author_baseline": 1157,
+    "left": 84,
+    "right": 1535,
+    "dpi": 300,
+    "source": "19/artwork.mjs",
+    "reference_png": "19/day19.png",
+    "source_sha256": "5aac3924b24dd363c77b507c79189ad8580ae080215634199445f17c6eaab820"
+  },
+  "projection": "EPSG:32618 geographic reference with explicitly schematic Broad\u2013Summit section",
+  "basemap_sha256": "f64c5f9761b34da8604479165282a9f9cbb4d1ff985abbb839541d82b520815f",
+  "frames": [
+    {
+      "route": "usual",
+      "text": [
+        {
+          "text": "Summit Station",
+          "role": "day",
+          "baseline": [
+            84,
+            772
+          ],
+          "box": [
+            84.0,
+            758.6666666666666,
+            208.66666666666666,
+            772.3333333333334
+          ]
+        },
+        {
+          "text": "HOME",
+          "role": "source",
+          "baseline": [
+            84,
+            797
+          ],
+          "box": [
+            84.0,
+            787.0,
+            124.33333333333333,
+            797.0
+          ]
+        },
+        {
+          "text": "Newark Broad Street",
+          "role": "day",
+          "baseline": [
+            230,
+            537
+          ],
+          "box": [
+            230.0,
+            524.0,
+            397.3333333333333,
+            537.3333333333334
+          ]
+        },
+        {
+          "text": "Newark Penn",
+          "role": "day",
+          "baseline": [
+            275,
+            775
+          ],
+          "box": [
+            275.0,
+            762.0,
+            382.0,
+            775.3333333333334
+          ]
+        },
+        {
+          "text": "Hoboken Terminal",
+          "role": "day",
+          "baseline": [
+            820,
+            640
+          ],
+          "box": [
+            820.0,
+            626.6666666666666,
+            969.3333333333334,
+            640.3333333333334
+          ]
+        },
+        {
+          "text": "New York Penn",
+          "role": "day",
+          "baseline": [
+            1350,
+            470
+          ],
+          "box": [
+            1350.0,
+            457.0,
+            1473.6666666666667,
+            470.3333333333333
+          ]
+        },
+        {
+          "text": "34 St\u2013Herald Sq",
+          "role": "day",
+          "baseline": [
+            1380,
+            550
+          ],
+          "box": [
+            1380.0,
+            537.0,
+            1509.0,
+            554.0
+          ]
+        },
+        {
+          "text": "W 39th St / Pier 79",
+          "role": "day",
+          "baseline": [
+            1040,
+            440
+          ],
+          "box": [
+            1040.0,
+            426.6666666666667,
+            1192.0,
+            442.0
+          ]
+        },
+        {
+          "text": "Christopher St PATH",
+          "role": "day",
+          "baseline": [
+            1280,
+            670
+          ],
+          "box": [
+            1280.0,
+            656.6666666666666,
+            1445.3333333333333,
+            674.0
+          ]
+        },
+        {
+          "text": "SoHo / Work",
+          "role": "day",
+          "baseline": [
+            1380,
+            800
+          ],
+          "box": [
+            1380.0,
+            787.0,
+            1485.0,
+            802.0
+          ]
+        },
+        {
+          "text": "Canal St",
+          "role": "day",
+          "baseline": [
+            1380,
+            875
+          ],
+          "box": [
+            1380.0,
+            862.0,
+            1445.6666666666667,
+            875.3333333333334
+          ]
+        },
+        {
+          "text": "World Trade Center",
+          "role": "day",
+          "baseline": [
+            1265,
+            930
+          ],
+          "box": [
+            1265.0,
+            917.0,
+            1423.3333333333333,
+            930.3333333333334
+          ]
+        },
+        {
+          "text": "JERSEY CITY",
+          "role": "source",
+          "baseline": [
+            760,
+            835
+          ],
+          "box": [
+            760.0,
+            825.0,
+            833.6666666666666,
+            835.0
+          ]
+        },
+        {
+          "text": "MANHATTAN",
+          "role": "source",
+          "baseline": [
+            1380,
+            710
+          ],
+          "box": [
+            1380.0,
+            700.0,
+            1465.0,
+            710.0
+          ]
+        },
+        {
+          "text": "HUDSON RIVER",
+          "role": "source",
+          "baseline": [
+            960,
+            925
+          ],
+          "box": [
+            960.0,
+            915.0,
+            1057.6666666666667,
+            925.0
+          ]
+        },
+        {
+          "text": "NEWARK",
+          "role": "source",
+          "baseline": [
+            285,
+            495
+          ],
+          "box": [
+            285.0,
+            485.0,
+            341.0,
+            495.0
+          ]
+        },
+        {
+          "text": "Morris & Essex Line",
+          "role": "caption",
+          "baseline": [
+            84,
+            847
+          ],
+          "box": [
+            84.0,
+            835.0,
+            221.33333333333334,
+            847.0
+          ]
+        },
+        {
+          "text": "Rail segment simplified",
+          "role": "caption",
+          "baseline": [
+            225,
+            582
+          ],
+          "box": [
+            225.0,
+            570.0,
+            388.3333333333333,
+            585.6666666666666
+          ]
+        },
+        {
+          "text": "Getting Home to Summit",
+          "role": "title",
+          "baseline": [
+            84.0,
+            138.0
+          ],
+          "box": [
+            84.0,
+            104.66666666666667,
+            581.0,
+            147.66666666666666
+          ]
+        },
+        {
+          "text": "SoHo / Work \u2192 Summit Station",
+          "role": "subtitle",
+          "baseline": [
+            84.0,
+            175.0
+          ],
+          "box": [
+            84.0,
+            160.66666666666666,
+            354.0,
+            177.33333333333334
+          ]
+        },
+        {
+          "text": "TUE 20 OCT 2026 \u00b7 17:00\u201319:00 \u00b7 PORTAL NORTH BRIDGE CUTOVER",
+          "role": "day",
+          "baseline": [
+            84,
+            247
+          ],
+          "box": [
+            84.0,
+            234.33333333333334,
+            620.0,
+            247.33333333333334
+          ]
+        },
+        {
+          "text": "01  USUAL: Q + MIDTOWN DIRECT",
+          "role": "day",
+          "baseline": [
+            84,
+            292
+          ],
+          "box": [
+            84.0,
+            279.3333333333333,
+            361.6666666666667,
+            293.6666666666667
+          ]
+        },
+        {
+          "text": "Walk \u2192 Canal St \u2192 uptown Q \u2192 Herald Sq \u2192 walk \u2192 Penn \u2192 NJ Transit \u2192 Summit",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            327
+          ],
+          "box": [
+            84.0,
+            312.6666666666667,
+            787.3333333333334,
+            331.3333333333333
+          ]
+        },
+        {
+          "text": "Usual service reference: 17 Nov 2026; Midtown Direct is rerouted on the scenario date.",
+          "role": "caption",
+          "baseline": [
+            84,
+            355
+          ],
+          "box": [
+            84.0,
+            343.0,
+            691.0,
+            357.3333333333333
+          ]
+        },
+        {
+          "text": "Schematic map \u00b7 Not to scale",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            968
+          ],
+          "box": [
+            84.0,
+            953.6666666666666,
+            332.6666666666667,
+            972.3333333333334
+          ]
+        },
+        {
+          "text": "Common rail segment shortened.",
+          "role": "source",
+          "baseline": [
+            84,
+            995
+          ],
+          "box": [
+            84.0,
+            984.3333333333334,
+            291.6666666666667,
+            998.3333333333334
+          ]
+        },
+        {
+          "text": "NJ Transit",
+          "role": "caption",
+          "baseline": [
+            582,
+            965
+          ],
+          "box": [
+            582.0,
+            953.0,
+            651.0,
+            965.0
+          ]
+        },
+        {
+          "text": "Subway Q",
+          "role": "caption",
+          "baseline": [
+            867,
+            965
+          ],
+          "box": [
+            867.0,
+            953.0,
+            938.0,
+            968.6666666666666
+          ]
+        },
+        {
+          "text": "PATH",
+          "role": "caption",
+          "baseline": [
+            1182,
+            965
+          ],
+          "box": [
+            1182.0,
+            953.6666666666666,
+            1221.0,
+            965.0
+          ]
+        },
+        {
+          "text": "NY Waterway",
+          "role": "caption",
+          "baseline": [
+            582,
+            1011
+          ],
+          "box": [
+            582.0,
+            999.6666666666666,
+            677.0,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Walk",
+          "role": "caption",
+          "baseline": [
+            867,
+            1011
+          ],
+          "box": [
+            867.0,
+            999.0,
+            902.0,
+            1011.0
+          ]
+        },
+        {
+          "text": "Newark Light Rail",
+          "role": "caption",
+          "baseline": [
+            1182,
+            1011
+          ],
+          "box": [
+            1182.0,
+            999.0,
+            1305.3333333333333,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Rail simplified",
+          "role": "caption",
+          "baseline": [
+            614,
+            1055
+          ],
+          "box": [
+            614.0,
+            1043.0,
+            712.3333333333334,
+            1058.6666666666667
+          ]
+        },
+        {
+          "text": "Service patterns checked \u00b7 Historical end-to-end transfer times not established",
+          "role": "source",
+          "baseline": [
+            84,
+            1090
+          ],
+          "box": [
+            84.0,
+            1079.3333333333333,
+            568.3333333333334,
+            1093.3333333333333
+          ]
+        },
+        {
+          "text": "Elevation \u00b7 USGS 3DEP",
+          "role": "source",
+          "baseline": [
+            1120,
+            1058
+          ],
+          "box": [
+            1120.0,
+            1047.3333333333333,
+            1257.0,
+            1058.0
+          ]
+        },
+        {
+          "text": "<5 / 5\u201315 / 15\u201335 / \u226535 m",
+          "role": "source",
+          "baseline": [
+            1000,
+            1080
+          ],
+          "box": [
+            1000.0,
+            1070.0,
+            1166.0,
+            1081.6666666666667
+          ]
+        },
+        {
+          "text": "Sources: MTA \u00b7 NJ Transit / Amtrak \u00b7 PATH \u00b7 NY Waterway \u00b7 USGS 3DEP \u00b7 Census TIGER/Line 2025 water",
+          "role": "source",
+          "baseline": [
+            84,
+            1123
+          ],
+          "box": [
+            84.0,
+            1112.3333333333333,
+            716.6666666666666,
+            1126.3333333333333
+          ]
+        },
+        {
+          "text": "Ming Cao",
+          "role": "author",
+          "baseline": [
+            84,
+            1157
+          ],
+          "box": [
+            84.0,
+            1144.6666666666667,
+            157.0,
+            1161.3333333333333
+          ]
+        },
+        {
+          "text": "N \u2191",
+          "role": "source",
+          "baseline": [
+            1535,
+            82
+          ],
+          "box": [
+            1535.0,
+            72.0,
+            1556.0,
+            82.0
+          ]
+        }
+      ],
+      "actions": [
+        "Canal St: board uptown Q / 96 St",
+        "SoHo: leave work on foot",
+        "New York Penn: board NJ Transit"
+      ],
+      "basemap_sha256": "f64c5f9761b34da8604479165282a9f9cbb4d1ff985abbb839541d82b520815f",
+      "common_station_positions": [
+        [
+          "Newark Broad Street",
+          [
+            167.94060835478308,
+            592.9887010066537
+          ]
+        ],
+        [
+          "Summit Station",
+          [
+            85,
+            735
+          ]
+        ]
+      ],
+      "reroute_cross": null,
+      "active_segments": [
+        "work_canal",
+        "q",
+        "herald_penn",
+        "usual_east",
+        "joint_broad",
+        "common"
+      ],
+      "background_segments": [
+        "work_christopher",
+        "path_christopher",
+        "walk_hobpath",
+        "hoboken_east",
+        "herald_ferry",
+        "ferry",
+        "walk_hobferry",
+        "work_wtc",
+        "path_newark",
+        "nlr"
+      ],
+      "background_opacity": 0.18,
+      "network_segments_drawn_once": true,
+      "gif_frame_index": 0,
+      "duration_ms": 3000,
+      "simplified_rail_style": {
+        "segment": "common",
+        "dash_px": [
+          36,
+          16
+        ],
+        "sleepers": false,
+        "color": "#a46039"
+      }
+    },
+    {
+      "route": "path",
+      "text": [
+        {
+          "text": "Summit Station",
+          "role": "day",
+          "baseline": [
+            84,
+            772
+          ],
+          "box": [
+            84.0,
+            758.6666666666666,
+            208.66666666666666,
+            772.3333333333334
+          ]
+        },
+        {
+          "text": "HOME",
+          "role": "source",
+          "baseline": [
+            84,
+            797
+          ],
+          "box": [
+            84.0,
+            787.0,
+            124.33333333333333,
+            797.0
+          ]
+        },
+        {
+          "text": "Newark Broad Street",
+          "role": "day",
+          "baseline": [
+            230,
+            537
+          ],
+          "box": [
+            230.0,
+            524.0,
+            397.3333333333333,
+            537.3333333333334
+          ]
+        },
+        {
+          "text": "Newark Penn",
+          "role": "day",
+          "baseline": [
+            275,
+            775
+          ],
+          "box": [
+            275.0,
+            762.0,
+            382.0,
+            775.3333333333334
+          ]
+        },
+        {
+          "text": "Hoboken Terminal",
+          "role": "day",
+          "baseline": [
+            820,
+            640
+          ],
+          "box": [
+            820.0,
+            626.6666666666666,
+            969.3333333333334,
+            640.3333333333334
+          ]
+        },
+        {
+          "text": "New York Penn",
+          "role": "day",
+          "baseline": [
+            1350,
+            470
+          ],
+          "box": [
+            1350.0,
+            457.0,
+            1473.6666666666667,
+            470.3333333333333
+          ]
+        },
+        {
+          "text": "34 St\u2013Herald Sq",
+          "role": "day",
+          "baseline": [
+            1380,
+            550
+          ],
+          "box": [
+            1380.0,
+            537.0,
+            1509.0,
+            554.0
+          ]
+        },
+        {
+          "text": "W 39th St / Pier 79",
+          "role": "day",
+          "baseline": [
+            1040,
+            440
+          ],
+          "box": [
+            1040.0,
+            426.6666666666667,
+            1192.0,
+            442.0
+          ]
+        },
+        {
+          "text": "Christopher St PATH",
+          "role": "day",
+          "baseline": [
+            1280,
+            670
+          ],
+          "box": [
+            1280.0,
+            656.6666666666666,
+            1445.3333333333333,
+            674.0
+          ]
+        },
+        {
+          "text": "SoHo / Work",
+          "role": "day",
+          "baseline": [
+            1380,
+            800
+          ],
+          "box": [
+            1380.0,
+            787.0,
+            1485.0,
+            802.0
+          ]
+        },
+        {
+          "text": "Canal St",
+          "role": "day",
+          "baseline": [
+            1380,
+            875
+          ],
+          "box": [
+            1380.0,
+            862.0,
+            1445.6666666666667,
+            875.3333333333334
+          ]
+        },
+        {
+          "text": "World Trade Center",
+          "role": "day",
+          "baseline": [
+            1265,
+            930
+          ],
+          "box": [
+            1265.0,
+            917.0,
+            1423.3333333333333,
+            930.3333333333334
+          ]
+        },
+        {
+          "text": "JERSEY CITY",
+          "role": "source",
+          "baseline": [
+            760,
+            835
+          ],
+          "box": [
+            760.0,
+            825.0,
+            833.6666666666666,
+            835.0
+          ]
+        },
+        {
+          "text": "MANHATTAN",
+          "role": "source",
+          "baseline": [
+            1380,
+            710
+          ],
+          "box": [
+            1380.0,
+            700.0,
+            1465.0,
+            710.0
+          ]
+        },
+        {
+          "text": "HUDSON RIVER",
+          "role": "source",
+          "baseline": [
+            960,
+            925
+          ],
+          "box": [
+            960.0,
+            915.0,
+            1057.6666666666667,
+            925.0
+          ]
+        },
+        {
+          "text": "NEWARK",
+          "role": "source",
+          "baseline": [
+            285,
+            495
+          ],
+          "box": [
+            285.0,
+            485.0,
+            341.0,
+            495.0
+          ]
+        },
+        {
+          "text": "Morris & Essex Line",
+          "role": "caption",
+          "baseline": [
+            84,
+            847
+          ],
+          "box": [
+            84.0,
+            835.0,
+            221.33333333333334,
+            847.0
+          ]
+        },
+        {
+          "text": "Rail segment simplified",
+          "role": "caption",
+          "baseline": [
+            225,
+            582
+          ],
+          "box": [
+            225.0,
+            570.0,
+            388.3333333333333,
+            585.6666666666666
+          ]
+        },
+        {
+          "text": "Getting Home to Summit",
+          "role": "title",
+          "baseline": [
+            84.0,
+            138.0
+          ],
+          "box": [
+            84.0,
+            104.66666666666667,
+            581.0,
+            147.66666666666666
+          ]
+        },
+        {
+          "text": "SoHo / Work \u2192 Summit Station",
+          "role": "subtitle",
+          "baseline": [
+            84.0,
+            175.0
+          ],
+          "box": [
+            84.0,
+            160.66666666666666,
+            354.0,
+            177.33333333333334
+          ]
+        },
+        {
+          "text": "TUE 20 OCT 2026 \u00b7 17:00\u201319:00 \u00b7 PORTAL NORTH BRIDGE CUTOVER",
+          "role": "day",
+          "baseline": [
+            84,
+            247
+          ],
+          "box": [
+            84.0,
+            234.33333333333334,
+            620.0,
+            247.33333333333334
+          ]
+        },
+        {
+          "text": "02  WALK + PATH VIA HOBOKEN",
+          "role": "day",
+          "baseline": [
+            84,
+            292
+          ],
+          "box": [
+            84.0,
+            279.3333333333333,
+            351.0,
+            292.3333333333333
+          ]
+        },
+        {
+          "text": "Walk \u2192 Christopher St \u2192 Hoboken-bound PATH \u2192 Hoboken \u2192 NJ Transit \u2192 Summit",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            327
+          ],
+          "box": [
+            84.0,
+            312.6666666666667,
+            807.3333333333334,
+            331.3333333333333
+          ]
+        },
+        {
+          "text": "At Christopher St, board Hoboken service, not Journal Square service.",
+          "role": "caption",
+          "baseline": [
+            84,
+            355
+          ],
+          "box": [
+            84.0,
+            343.0,
+            570.6666666666666,
+            358.6666666666667
+          ]
+        },
+        {
+          "text": "Midtown Direct rerouted",
+          "role": "day",
+          "baseline": [
+            780,
+            435
+          ],
+          "box": [
+            780.0,
+            421.6666666666667,
+            980.3333333333334,
+            435.3333333333333
+          ]
+        },
+        {
+          "text": "Schematic map \u00b7 Not to scale",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            968
+          ],
+          "box": [
+            84.0,
+            953.6666666666666,
+            332.6666666666667,
+            972.3333333333334
+          ]
+        },
+        {
+          "text": "Common rail segment shortened.",
+          "role": "source",
+          "baseline": [
+            84,
+            995
+          ],
+          "box": [
+            84.0,
+            984.3333333333334,
+            291.6666666666667,
+            998.3333333333334
+          ]
+        },
+        {
+          "text": "NJ Transit",
+          "role": "caption",
+          "baseline": [
+            582,
+            965
+          ],
+          "box": [
+            582.0,
+            953.0,
+            651.0,
+            965.0
+          ]
+        },
+        {
+          "text": "Subway Q",
+          "role": "caption",
+          "baseline": [
+            867,
+            965
+          ],
+          "box": [
+            867.0,
+            953.0,
+            938.0,
+            968.6666666666666
+          ]
+        },
+        {
+          "text": "PATH",
+          "role": "caption",
+          "baseline": [
+            1182,
+            965
+          ],
+          "box": [
+            1182.0,
+            953.6666666666666,
+            1221.0,
+            965.0
+          ]
+        },
+        {
+          "text": "NY Waterway",
+          "role": "caption",
+          "baseline": [
+            582,
+            1011
+          ],
+          "box": [
+            582.0,
+            999.6666666666666,
+            677.0,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Walk",
+          "role": "caption",
+          "baseline": [
+            867,
+            1011
+          ],
+          "box": [
+            867.0,
+            999.0,
+            902.0,
+            1011.0
+          ]
+        },
+        {
+          "text": "Newark Light Rail",
+          "role": "caption",
+          "baseline": [
+            1182,
+            1011
+          ],
+          "box": [
+            1182.0,
+            999.0,
+            1305.3333333333333,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Rail simplified",
+          "role": "caption",
+          "baseline": [
+            614,
+            1055
+          ],
+          "box": [
+            614.0,
+            1043.0,
+            712.3333333333334,
+            1058.6666666666667
+          ]
+        },
+        {
+          "text": "Service patterns checked \u00b7 Historical end-to-end transfer times not established",
+          "role": "source",
+          "baseline": [
+            84,
+            1090
+          ],
+          "box": [
+            84.0,
+            1079.3333333333333,
+            568.3333333333334,
+            1093.3333333333333
+          ]
+        },
+        {
+          "text": "Elevation \u00b7 USGS 3DEP",
+          "role": "source",
+          "baseline": [
+            1120,
+            1058
+          ],
+          "box": [
+            1120.0,
+            1047.3333333333333,
+            1257.0,
+            1058.0
+          ]
+        },
+        {
+          "text": "<5 / 5\u201315 / 15\u201335 / \u226535 m",
+          "role": "source",
+          "baseline": [
+            1000,
+            1080
+          ],
+          "box": [
+            1000.0,
+            1070.0,
+            1166.0,
+            1081.6666666666667
+          ]
+        },
+        {
+          "text": "Sources: MTA \u00b7 NJ Transit / Amtrak \u00b7 PATH \u00b7 NY Waterway \u00b7 USGS 3DEP \u00b7 Census TIGER/Line 2025 water",
+          "role": "source",
+          "baseline": [
+            84,
+            1123
+          ],
+          "box": [
+            84.0,
+            1112.3333333333333,
+            716.6666666666666,
+            1126.3333333333333
+          ]
+        },
+        {
+          "text": "Ming Cao",
+          "role": "author",
+          "baseline": [
+            84,
+            1157
+          ],
+          "box": [
+            84.0,
+            1144.6666666666667,
+            157.0,
+            1161.3333333333333
+          ]
+        },
+        {
+          "text": "N \u2191",
+          "role": "source",
+          "baseline": [
+            1535,
+            82
+          ],
+          "box": [
+            1535.0,
+            72.0,
+            1556.0,
+            82.0
+          ]
+        }
+      ],
+      "actions": [
+        "SoHo: leave work on foot",
+        "Christopher St: board Hoboken-bound PATH",
+        "Hoboken: change to westbound M&E"
+      ],
+      "basemap_sha256": "f64c5f9761b34da8604479165282a9f9cbb4d1ff985abbb839541d82b520815f",
+      "common_station_positions": [
+        [
+          "Newark Broad Street",
+          [
+            167.94060835478308,
+            592.9887010066537
+          ]
+        ],
+        [
+          "Summit Station",
+          [
+            85,
+            735
+          ]
+        ]
+      ],
+      "reroute_cross": {
+        "service": "Midtown Direct",
+        "geographic_point": [
+          -74.01329614129169,
+          40.75894940673966
+        ],
+        "display_px": [
+          1171.1199683275481,
+          476.34524405775596
+        ]
+      },
+      "active_segments": [
+        "work_christopher",
+        "path_christopher",
+        "walk_hobpath",
+        "hoboken_east",
+        "joint_broad",
+        "common"
+      ],
+      "background_segments": [
+        "work_canal",
+        "q",
+        "herald_penn",
+        "usual_east",
+        "herald_ferry",
+        "ferry",
+        "walk_hobferry",
+        "work_wtc",
+        "path_newark",
+        "nlr"
+      ],
+      "background_opacity": 0.18,
+      "network_segments_drawn_once": true,
+      "gif_frame_index": 1,
+      "duration_ms": 3000,
+      "simplified_rail_style": {
+        "segment": "common",
+        "dash_px": [
+          36,
+          16
+        ],
+        "sleepers": false,
+        "color": "#a46039"
+      }
+    },
+    {
+      "route": "ferry",
+      "text": [
+        {
+          "text": "Summit Station",
+          "role": "day",
+          "baseline": [
+            84,
+            772
+          ],
+          "box": [
+            84.0,
+            758.6666666666666,
+            208.66666666666666,
+            772.3333333333334
+          ]
+        },
+        {
+          "text": "HOME",
+          "role": "source",
+          "baseline": [
+            84,
+            797
+          ],
+          "box": [
+            84.0,
+            787.0,
+            124.33333333333333,
+            797.0
+          ]
+        },
+        {
+          "text": "Newark Broad Street",
+          "role": "day",
+          "baseline": [
+            230,
+            537
+          ],
+          "box": [
+            230.0,
+            524.0,
+            397.3333333333333,
+            537.3333333333334
+          ]
+        },
+        {
+          "text": "Newark Penn",
+          "role": "day",
+          "baseline": [
+            275,
+            775
+          ],
+          "box": [
+            275.0,
+            762.0,
+            382.0,
+            775.3333333333334
+          ]
+        },
+        {
+          "text": "Hoboken Terminal",
+          "role": "day",
+          "baseline": [
+            820,
+            640
+          ],
+          "box": [
+            820.0,
+            626.6666666666666,
+            969.3333333333334,
+            640.3333333333334
+          ]
+        },
+        {
+          "text": "New York Penn",
+          "role": "day",
+          "baseline": [
+            1350,
+            470
+          ],
+          "box": [
+            1350.0,
+            457.0,
+            1473.6666666666667,
+            470.3333333333333
+          ]
+        },
+        {
+          "text": "34 St\u2013Herald Sq",
+          "role": "day",
+          "baseline": [
+            1380,
+            550
+          ],
+          "box": [
+            1380.0,
+            537.0,
+            1509.0,
+            554.0
+          ]
+        },
+        {
+          "text": "W 39th St / Pier 79",
+          "role": "day",
+          "baseline": [
+            1040,
+            440
+          ],
+          "box": [
+            1040.0,
+            426.6666666666667,
+            1192.0,
+            442.0
+          ]
+        },
+        {
+          "text": "Christopher St PATH",
+          "role": "day",
+          "baseline": [
+            1280,
+            670
+          ],
+          "box": [
+            1280.0,
+            656.6666666666666,
+            1445.3333333333333,
+            674.0
+          ]
+        },
+        {
+          "text": "SoHo / Work",
+          "role": "day",
+          "baseline": [
+            1380,
+            800
+          ],
+          "box": [
+            1380.0,
+            787.0,
+            1485.0,
+            802.0
+          ]
+        },
+        {
+          "text": "Canal St",
+          "role": "day",
+          "baseline": [
+            1380,
+            875
+          ],
+          "box": [
+            1380.0,
+            862.0,
+            1445.6666666666667,
+            875.3333333333334
+          ]
+        },
+        {
+          "text": "World Trade Center",
+          "role": "day",
+          "baseline": [
+            1265,
+            930
+          ],
+          "box": [
+            1265.0,
+            917.0,
+            1423.3333333333333,
+            930.3333333333334
+          ]
+        },
+        {
+          "text": "JERSEY CITY",
+          "role": "source",
+          "baseline": [
+            760,
+            835
+          ],
+          "box": [
+            760.0,
+            825.0,
+            833.6666666666666,
+            835.0
+          ]
+        },
+        {
+          "text": "MANHATTAN",
+          "role": "source",
+          "baseline": [
+            1380,
+            710
+          ],
+          "box": [
+            1380.0,
+            700.0,
+            1465.0,
+            710.0
+          ]
+        },
+        {
+          "text": "HUDSON RIVER",
+          "role": "source",
+          "baseline": [
+            960,
+            925
+          ],
+          "box": [
+            960.0,
+            915.0,
+            1057.6666666666667,
+            925.0
+          ]
+        },
+        {
+          "text": "NEWARK",
+          "role": "source",
+          "baseline": [
+            285,
+            495
+          ],
+          "box": [
+            285.0,
+            485.0,
+            341.0,
+            495.0
+          ]
+        },
+        {
+          "text": "Morris & Essex Line",
+          "role": "caption",
+          "baseline": [
+            84,
+            847
+          ],
+          "box": [
+            84.0,
+            835.0,
+            221.33333333333334,
+            847.0
+          ]
+        },
+        {
+          "text": "Rail segment simplified",
+          "role": "caption",
+          "baseline": [
+            225,
+            582
+          ],
+          "box": [
+            225.0,
+            570.0,
+            388.3333333333333,
+            585.6666666666666
+          ]
+        },
+        {
+          "text": "Getting Home to Summit",
+          "role": "title",
+          "baseline": [
+            84.0,
+            138.0
+          ],
+          "box": [
+            84.0,
+            104.66666666666667,
+            581.0,
+            147.66666666666666
+          ]
+        },
+        {
+          "text": "SoHo / Work \u2192 Summit Station",
+          "role": "subtitle",
+          "baseline": [
+            84.0,
+            175.0
+          ],
+          "box": [
+            84.0,
+            160.66666666666666,
+            354.0,
+            177.33333333333334
+          ]
+        },
+        {
+          "text": "TUE 20 OCT 2026 \u00b7 17:00\u201319:00 \u00b7 PORTAL NORTH BRIDGE CUTOVER",
+          "role": "day",
+          "baseline": [
+            84,
+            247
+          ],
+          "box": [
+            84.0,
+            234.33333333333334,
+            620.0,
+            247.33333333333334
+          ]
+        },
+        {
+          "text": "03  Q + FERRY VIA HOBOKEN",
+          "role": "day",
+          "baseline": [
+            84,
+            292
+          ],
+          "box": [
+            84.0,
+            279.3333333333333,
+            321.3333333333333,
+            293.6666666666667
+          ]
+        },
+        {
+          "text": "Walk \u2192 Canal St \u2192 uptown Q \u2192 Herald Sq \u2192 walk \u2192 W 39th St \u2192 ferry \u2192 Hoboken \u2192 Summit",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            327
+          ],
+          "box": [
+            84.0,
+            312.3333333333333,
+            889.0,
+            331.6666666666667
+          ]
+        },
+        {
+          "text": "At Hoboken Terminal, change from NY Waterway to westbound Morris & Essex.",
+          "role": "caption",
+          "baseline": [
+            84,
+            355
+          ],
+          "box": [
+            84.0,
+            343.0,
+            643.0,
+            358.6666666666667
+          ]
+        },
+        {
+          "text": "Midtown Direct rerouted",
+          "role": "day",
+          "baseline": [
+            780,
+            435
+          ],
+          "box": [
+            780.0,
+            421.6666666666667,
+            980.3333333333334,
+            435.3333333333333
+          ]
+        },
+        {
+          "text": "Schematic map \u00b7 Not to scale",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            968
+          ],
+          "box": [
+            84.0,
+            953.6666666666666,
+            332.6666666666667,
+            972.3333333333334
+          ]
+        },
+        {
+          "text": "Common rail segment shortened.",
+          "role": "source",
+          "baseline": [
+            84,
+            995
+          ],
+          "box": [
+            84.0,
+            984.3333333333334,
+            291.6666666666667,
+            998.3333333333334
+          ]
+        },
+        {
+          "text": "NJ Transit",
+          "role": "caption",
+          "baseline": [
+            582,
+            965
+          ],
+          "box": [
+            582.0,
+            953.0,
+            651.0,
+            965.0
+          ]
+        },
+        {
+          "text": "Subway Q",
+          "role": "caption",
+          "baseline": [
+            867,
+            965
+          ],
+          "box": [
+            867.0,
+            953.0,
+            938.0,
+            968.6666666666666
+          ]
+        },
+        {
+          "text": "PATH",
+          "role": "caption",
+          "baseline": [
+            1182,
+            965
+          ],
+          "box": [
+            1182.0,
+            953.6666666666666,
+            1221.0,
+            965.0
+          ]
+        },
+        {
+          "text": "NY Waterway",
+          "role": "caption",
+          "baseline": [
+            582,
+            1011
+          ],
+          "box": [
+            582.0,
+            999.6666666666666,
+            677.0,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Walk",
+          "role": "caption",
+          "baseline": [
+            867,
+            1011
+          ],
+          "box": [
+            867.0,
+            999.0,
+            902.0,
+            1011.0
+          ]
+        },
+        {
+          "text": "Newark Light Rail",
+          "role": "caption",
+          "baseline": [
+            1182,
+            1011
+          ],
+          "box": [
+            1182.0,
+            999.0,
+            1305.3333333333333,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Rail simplified",
+          "role": "caption",
+          "baseline": [
+            614,
+            1055
+          ],
+          "box": [
+            614.0,
+            1043.0,
+            712.3333333333334,
+            1058.6666666666667
+          ]
+        },
+        {
+          "text": "Service patterns checked \u00b7 Historical end-to-end transfer times not established",
+          "role": "source",
+          "baseline": [
+            84,
+            1090
+          ],
+          "box": [
+            84.0,
+            1079.3333333333333,
+            568.3333333333334,
+            1093.3333333333333
+          ]
+        },
+        {
+          "text": "Elevation \u00b7 USGS 3DEP",
+          "role": "source",
+          "baseline": [
+            1120,
+            1058
+          ],
+          "box": [
+            1120.0,
+            1047.3333333333333,
+            1257.0,
+            1058.0
+          ]
+        },
+        {
+          "text": "<5 / 5\u201315 / 15\u201335 / \u226535 m",
+          "role": "source",
+          "baseline": [
+            1000,
+            1080
+          ],
+          "box": [
+            1000.0,
+            1070.0,
+            1166.0,
+            1081.6666666666667
+          ]
+        },
+        {
+          "text": "Sources: MTA \u00b7 NJ Transit / Amtrak \u00b7 PATH \u00b7 NY Waterway \u00b7 USGS 3DEP \u00b7 Census TIGER/Line 2025 water",
+          "role": "source",
+          "baseline": [
+            84,
+            1123
+          ],
+          "box": [
+            84.0,
+            1112.3333333333333,
+            716.6666666666666,
+            1126.3333333333333
+          ]
+        },
+        {
+          "text": "Ming Cao",
+          "role": "author",
+          "baseline": [
+            84,
+            1157
+          ],
+          "box": [
+            84.0,
+            1144.6666666666667,
+            157.0,
+            1161.3333333333333
+          ]
+        },
+        {
+          "text": "N \u2191",
+          "role": "source",
+          "baseline": [
+            1535,
+            82
+          ],
+          "box": [
+            1535.0,
+            72.0,
+            1556.0,
+            82.0
+          ]
+        }
+      ],
+      "actions": [
+        "Canal St: board uptown Q / 96 St",
+        "SoHo: leave work on foot",
+        "W 39th St: board NY Waterway",
+        "Hoboken: change to westbound M&E"
+      ],
+      "basemap_sha256": "f64c5f9761b34da8604479165282a9f9cbb4d1ff985abbb839541d82b520815f",
+      "common_station_positions": [
+        [
+          "Newark Broad Street",
+          [
+            167.94060835478308,
+            592.9887010066537
+          ]
+        ],
+        [
+          "Summit Station",
+          [
+            85,
+            735
+          ]
+        ]
+      ],
+      "reroute_cross": {
+        "service": "Midtown Direct",
+        "geographic_point": [
+          -74.01329614129169,
+          40.75894940673966
+        ],
+        "display_px": [
+          1171.1199683275481,
+          476.34524405775596
+        ]
+      },
+      "active_segments": [
+        "work_canal",
+        "q",
+        "herald_ferry",
+        "ferry",
+        "walk_hobferry",
+        "hoboken_east",
+        "joint_broad",
+        "common"
+      ],
+      "background_segments": [
+        "herald_penn",
+        "usual_east",
+        "work_christopher",
+        "path_christopher",
+        "walk_hobpath",
+        "work_wtc",
+        "path_newark",
+        "nlr"
+      ],
+      "background_opacity": 0.18,
+      "network_segments_drawn_once": true,
+      "gif_frame_index": 2,
+      "duration_ms": 3000,
+      "simplified_rail_style": {
+        "segment": "common",
+        "dash_px": [
+          36,
+          16
+        ],
+        "sleepers": false,
+        "color": "#a46039"
+      }
+    },
+    {
+      "route": "newark",
+      "text": [
+        {
+          "text": "Summit Station",
+          "role": "day",
+          "baseline": [
+            84,
+            772
+          ],
+          "box": [
+            84.0,
+            758.6666666666666,
+            208.66666666666666,
+            772.3333333333334
+          ]
+        },
+        {
+          "text": "HOME",
+          "role": "source",
+          "baseline": [
+            84,
+            797
+          ],
+          "box": [
+            84.0,
+            787.0,
+            124.33333333333333,
+            797.0
+          ]
+        },
+        {
+          "text": "Newark Broad Street",
+          "role": "day",
+          "baseline": [
+            230,
+            537
+          ],
+          "box": [
+            230.0,
+            524.0,
+            397.3333333333333,
+            537.3333333333334
+          ]
+        },
+        {
+          "text": "Newark Penn",
+          "role": "day",
+          "baseline": [
+            275,
+            775
+          ],
+          "box": [
+            275.0,
+            762.0,
+            382.0,
+            775.3333333333334
+          ]
+        },
+        {
+          "text": "Hoboken Terminal",
+          "role": "day",
+          "baseline": [
+            820,
+            640
+          ],
+          "box": [
+            820.0,
+            626.6666666666666,
+            969.3333333333334,
+            640.3333333333334
+          ]
+        },
+        {
+          "text": "New York Penn",
+          "role": "day",
+          "baseline": [
+            1350,
+            470
+          ],
+          "box": [
+            1350.0,
+            457.0,
+            1473.6666666666667,
+            470.3333333333333
+          ]
+        },
+        {
+          "text": "34 St\u2013Herald Sq",
+          "role": "day",
+          "baseline": [
+            1380,
+            550
+          ],
+          "box": [
+            1380.0,
+            537.0,
+            1509.0,
+            554.0
+          ]
+        },
+        {
+          "text": "W 39th St / Pier 79",
+          "role": "day",
+          "baseline": [
+            1040,
+            440
+          ],
+          "box": [
+            1040.0,
+            426.6666666666667,
+            1192.0,
+            442.0
+          ]
+        },
+        {
+          "text": "Christopher St PATH",
+          "role": "day",
+          "baseline": [
+            1280,
+            670
+          ],
+          "box": [
+            1280.0,
+            656.6666666666666,
+            1445.3333333333333,
+            674.0
+          ]
+        },
+        {
+          "text": "SoHo / Work",
+          "role": "day",
+          "baseline": [
+            1380,
+            800
+          ],
+          "box": [
+            1380.0,
+            787.0,
+            1485.0,
+            802.0
+          ]
+        },
+        {
+          "text": "Canal St",
+          "role": "day",
+          "baseline": [
+            1380,
+            875
+          ],
+          "box": [
+            1380.0,
+            862.0,
+            1445.6666666666667,
+            875.3333333333334
+          ]
+        },
+        {
+          "text": "World Trade Center",
+          "role": "day",
+          "baseline": [
+            1265,
+            930
+          ],
+          "box": [
+            1265.0,
+            917.0,
+            1423.3333333333333,
+            930.3333333333334
+          ]
+        },
+        {
+          "text": "JERSEY CITY",
+          "role": "source",
+          "baseline": [
+            760,
+            835
+          ],
+          "box": [
+            760.0,
+            825.0,
+            833.6666666666666,
+            835.0
+          ]
+        },
+        {
+          "text": "MANHATTAN",
+          "role": "source",
+          "baseline": [
+            1380,
+            710
+          ],
+          "box": [
+            1380.0,
+            700.0,
+            1465.0,
+            710.0
+          ]
+        },
+        {
+          "text": "HUDSON RIVER",
+          "role": "source",
+          "baseline": [
+            960,
+            925
+          ],
+          "box": [
+            960.0,
+            915.0,
+            1057.6666666666667,
+            925.0
+          ]
+        },
+        {
+          "text": "NEWARK",
+          "role": "source",
+          "baseline": [
+            285,
+            495
+          ],
+          "box": [
+            285.0,
+            485.0,
+            341.0,
+            495.0
+          ]
+        },
+        {
+          "text": "Morris & Essex Line",
+          "role": "caption",
+          "baseline": [
+            84,
+            847
+          ],
+          "box": [
+            84.0,
+            835.0,
+            221.33333333333334,
+            847.0
+          ]
+        },
+        {
+          "text": "Rail segment simplified",
+          "role": "caption",
+          "baseline": [
+            225,
+            582
+          ],
+          "box": [
+            225.0,
+            570.0,
+            388.3333333333333,
+            585.6666666666666
+          ]
+        },
+        {
+          "text": "Getting Home to Summit",
+          "role": "title",
+          "baseline": [
+            84.0,
+            138.0
+          ],
+          "box": [
+            84.0,
+            104.66666666666667,
+            581.0,
+            147.66666666666666
+          ]
+        },
+        {
+          "text": "SoHo / Work \u2192 Summit Station",
+          "role": "subtitle",
+          "baseline": [
+            84.0,
+            175.0
+          ],
+          "box": [
+            84.0,
+            160.66666666666666,
+            354.0,
+            177.33333333333334
+          ]
+        },
+        {
+          "text": "TUE 20 OCT 2026 \u00b7 17:00\u201319:00 \u00b7 PORTAL NORTH BRIDGE CUTOVER",
+          "role": "day",
+          "baseline": [
+            84,
+            247
+          ],
+          "box": [
+            84.0,
+            234.33333333333334,
+            620.0,
+            247.33333333333334
+          ]
+        },
+        {
+          "text": "04  PATH + LIGHT RAIL VIA NEWARK",
+          "role": "day",
+          "baseline": [
+            84,
+            292
+          ],
+          "box": [
+            84.0,
+            279.3333333333333,
+            383.6666666666667,
+            292.3333333333333
+          ]
+        },
+        {
+          "text": "Walk \u2192 World Trade Center \u2192 Newark-bound PATH \u2192 Newark Penn \u2192 light rail \u2192 Broad St \u2192 Summit",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            327
+          ],
+          "box": [
+            84.0,
+            312.6666666666667,
+            958.6666666666666,
+            331.6666666666667
+          ]
+        },
+        {
+          "text": "At Newark Broad Street, change to westbound Morris & Essex.",
+          "role": "caption",
+          "baseline": [
+            84,
+            355
+          ],
+          "box": [
+            84.0,
+            343.0,
+            521.3333333333334,
+            358.6666666666667
+          ]
+        },
+        {
+          "text": "Midtown Direct rerouted",
+          "role": "day",
+          "baseline": [
+            780,
+            435
+          ],
+          "box": [
+            780.0,
+            421.6666666666667,
+            980.3333333333334,
+            435.3333333333333
+          ]
+        },
+        {
+          "text": "Schematic map \u00b7 Not to scale",
+          "role": "subtitle",
+          "baseline": [
+            84,
+            968
+          ],
+          "box": [
+            84.0,
+            953.6666666666666,
+            332.6666666666667,
+            972.3333333333334
+          ]
+        },
+        {
+          "text": "Common rail segment shortened.",
+          "role": "source",
+          "baseline": [
+            84,
+            995
+          ],
+          "box": [
+            84.0,
+            984.3333333333334,
+            291.6666666666667,
+            998.3333333333334
+          ]
+        },
+        {
+          "text": "NJ Transit",
+          "role": "caption",
+          "baseline": [
+            582,
+            965
+          ],
+          "box": [
+            582.0,
+            953.0,
+            651.0,
+            965.0
+          ]
+        },
+        {
+          "text": "Subway Q",
+          "role": "caption",
+          "baseline": [
+            867,
+            965
+          ],
+          "box": [
+            867.0,
+            953.0,
+            938.0,
+            968.6666666666666
+          ]
+        },
+        {
+          "text": "PATH",
+          "role": "caption",
+          "baseline": [
+            1182,
+            965
+          ],
+          "box": [
+            1182.0,
+            953.6666666666666,
+            1221.0,
+            965.0
+          ]
+        },
+        {
+          "text": "NY Waterway",
+          "role": "caption",
+          "baseline": [
+            582,
+            1011
+          ],
+          "box": [
+            582.0,
+            999.6666666666666,
+            677.0,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Walk",
+          "role": "caption",
+          "baseline": [
+            867,
+            1011
+          ],
+          "box": [
+            867.0,
+            999.0,
+            902.0,
+            1011.0
+          ]
+        },
+        {
+          "text": "Newark Light Rail",
+          "role": "caption",
+          "baseline": [
+            1182,
+            1011
+          ],
+          "box": [
+            1182.0,
+            999.0,
+            1305.3333333333333,
+            1014.6666666666666
+          ]
+        },
+        {
+          "text": "Rail simplified",
+          "role": "caption",
+          "baseline": [
+            614,
+            1055
+          ],
+          "box": [
+            614.0,
+            1043.0,
+            712.3333333333334,
+            1058.6666666666667
+          ]
+        },
+        {
+          "text": "Service patterns checked \u00b7 Historical end-to-end transfer times not established",
+          "role": "source",
+          "baseline": [
+            84,
+            1090
+          ],
+          "box": [
+            84.0,
+            1079.3333333333333,
+            568.3333333333334,
+            1093.3333333333333
+          ]
+        },
+        {
+          "text": "Elevation \u00b7 USGS 3DEP",
+          "role": "source",
+          "baseline": [
+            1120,
+            1058
+          ],
+          "box": [
+            1120.0,
+            1047.3333333333333,
+            1257.0,
+            1058.0
+          ]
+        },
+        {
+          "text": "<5 / 5\u201315 / 15\u201335 / \u226535 m",
+          "role": "source",
+          "baseline": [
+            1000,
+            1080
+          ],
+          "box": [
+            1000.0,
+            1070.0,
+            1166.0,
+            1081.6666666666667
+          ]
+        },
+        {
+          "text": "Sources: MTA \u00b7 NJ Transit / Amtrak \u00b7 PATH \u00b7 NY Waterway \u00b7 USGS 3DEP \u00b7 Census TIGER/Line 2025 water",
+          "role": "source",
+          "baseline": [
+            84,
+            1123
+          ],
+          "box": [
+            84.0,
+            1112.3333333333333,
+            716.6666666666666,
+            1126.3333333333333
+          ]
+        },
+        {
+          "text": "Ming Cao",
+          "role": "author",
+          "baseline": [
+            84,
+            1157
+          ],
+          "box": [
+            84.0,
+            1144.6666666666667,
+            157.0,
+            1161.3333333333333
+          ]
+        },
+        {
+          "text": "N \u2191",
+          "role": "source",
+          "baseline": [
+            1535,
+            82
+          ],
+          "box": [
+            1535.0,
+            72.0,
+            1556.0,
+            82.0
+          ]
+        }
+      ],
+      "actions": [
+        "SoHo: leave work on foot",
+        "WTC: board Newark-bound PATH",
+        "Newark Penn: change to Broad Street light rail",
+        "Newark Broad Street: board westbound M&E"
+      ],
+      "basemap_sha256": "f64c5f9761b34da8604479165282a9f9cbb4d1ff985abbb839541d82b520815f",
+      "common_station_positions": [
+        [
+          "Newark Broad Street",
+          [
+            167.94060835478308,
+            592.9887010066537
+          ]
+        ],
+        [
+          "Summit Station",
+          [
+            85,
+            735
+          ]
+        ]
+      ],
+      "reroute_cross": {
+        "service": "Midtown Direct",
+        "geographic_point": [
+          -74.01329614129169,
+          40.75894940673966
+        ],
+        "display_px": [
+          1171.1199683275481,
+          476.34524405775596
+        ]
+      },
+      "active_segments": [
+        "work_wtc",
+        "path_newark",
+        "nlr",
+        "common"
+      ],
+      "background_segments": [
+        "work_canal",
+        "q",
+        "herald_penn",
+        "usual_east",
+        "joint_broad",
+        "work_christopher",
+        "path_christopher",
+        "walk_hobpath",
+        "hoboken_east",
+        "herald_ferry",
+        "ferry",
+        "walk_hobferry"
+      ],
+      "background_opacity": 0.18,
+      "network_segments_drawn_once": true,
+      "gif_frame_index": 3,
+      "duration_ms": 3000,
+      "simplified_rail_style": {
+        "segment": "common",
+        "dash_px": [
+          36,
+          16
+        ],
+        "sleepers": false,
+        "color": "#a46039"
+      }
+    }
+  ],
+  "overview": {
+    "route": "overview",
+    "text": [
+      {
+        "text": "Summit Station",
+        "role": "day",
+        "baseline": [
+          84,
+          772
+        ],
+        "box": [
+          84.0,
+          758.6666666666666,
+          208.66666666666666,
+          772.3333333333334
+        ]
+      },
+      {
+        "text": "HOME",
+        "role": "source",
+        "baseline": [
+          84,
+          797
+        ],
+        "box": [
+          84.0,
+          787.0,
+          124.33333333333333,
+          797.0
+        ]
+      },
+      {
+        "text": "Newark Broad Street",
+        "role": "day",
+        "baseline": [
+          230,
+          537
+        ],
+        "box": [
+          230.0,
+          524.0,
+          397.3333333333333,
+          537.3333333333334
+        ]
+      },
+      {
+        "text": "Newark Penn",
+        "role": "day",
+        "baseline": [
+          275,
+          775
+        ],
+        "box": [
+          275.0,
+          762.0,
+          382.0,
+          775.3333333333334
+        ]
+      },
+      {
+        "text": "Hoboken Terminal",
+        "role": "day",
+        "baseline": [
+          820,
+          640
+        ],
+        "box": [
+          820.0,
+          626.6666666666666,
+          969.3333333333334,
+          640.3333333333334
+        ]
+      },
+      {
+        "text": "New York Penn",
+        "role": "day",
+        "baseline": [
+          1350,
+          470
+        ],
+        "box": [
+          1350.0,
+          457.0,
+          1473.6666666666667,
+          470.3333333333333
+        ]
+      },
+      {
+        "text": "34 St\u2013Herald Sq",
+        "role": "day",
+        "baseline": [
+          1380,
+          550
+        ],
+        "box": [
+          1380.0,
+          537.0,
+          1509.0,
+          554.0
+        ]
+      },
+      {
+        "text": "W 39th St / Pier 79",
+        "role": "day",
+        "baseline": [
+          1040,
+          440
+        ],
+        "box": [
+          1040.0,
+          426.6666666666667,
+          1192.0,
+          442.0
+        ]
+      },
+      {
+        "text": "Christopher St PATH",
+        "role": "day",
+        "baseline": [
+          1280,
+          670
+        ],
+        "box": [
+          1280.0,
+          656.6666666666666,
+          1445.3333333333333,
+          674.0
+        ]
+      },
+      {
+        "text": "SoHo / Work",
+        "role": "day",
+        "baseline": [
+          1380,
+          800
+        ],
+        "box": [
+          1380.0,
+          787.0,
+          1485.0,
+          802.0
+        ]
+      },
+      {
+        "text": "Canal St",
+        "role": "day",
+        "baseline": [
+          1380,
+          875
+        ],
+        "box": [
+          1380.0,
+          862.0,
+          1445.6666666666667,
+          875.3333333333334
+        ]
+      },
+      {
+        "text": "World Trade Center",
+        "role": "day",
+        "baseline": [
+          1265,
+          930
+        ],
+        "box": [
+          1265.0,
+          917.0,
+          1423.3333333333333,
+          930.3333333333334
+        ]
+      },
+      {
+        "text": "JERSEY CITY",
+        "role": "source",
+        "baseline": [
+          760,
+          835
+        ],
+        "box": [
+          760.0,
+          825.0,
+          833.6666666666666,
+          835.0
+        ]
+      },
+      {
+        "text": "MANHATTAN",
+        "role": "source",
+        "baseline": [
+          1380,
+          710
+        ],
+        "box": [
+          1380.0,
+          700.0,
+          1465.0,
+          710.0
+        ]
+      },
+      {
+        "text": "HUDSON RIVER",
+        "role": "source",
+        "baseline": [
+          960,
+          925
+        ],
+        "box": [
+          960.0,
+          915.0,
+          1057.6666666666667,
+          925.0
+        ]
+      },
+      {
+        "text": "NEWARK",
+        "role": "source",
+        "baseline": [
+          285,
+          495
+        ],
+        "box": [
+          285.0,
+          485.0,
+          341.0,
+          495.0
+        ]
+      },
+      {
+        "text": "Morris & Essex Line",
+        "role": "caption",
+        "baseline": [
+          84,
+          847
+        ],
+        "box": [
+          84.0,
+          835.0,
+          221.33333333333334,
+          847.0
+        ]
+      },
+      {
+        "text": "Rail segment simplified",
+        "role": "caption",
+        "baseline": [
+          225,
+          582
+        ],
+        "box": [
+          225.0,
+          570.0,
+          388.3333333333333,
+          585.6666666666666
+        ]
+      },
+      {
+        "text": "Getting Home to Summit",
+        "role": "title",
+        "baseline": [
+          84.0,
+          138.0
+        ],
+        "box": [
+          84.0,
+          104.66666666666667,
+          581.0,
+          147.66666666666666
+        ]
+      },
+      {
+        "text": "SoHo / Work \u2192 Summit Station",
+        "role": "subtitle",
+        "baseline": [
+          84.0,
+          175.0
+        ],
+        "box": [
+          84.0,
+          160.66666666666666,
+          354.0,
+          177.33333333333334
+        ]
+      },
+      {
+        "text": "TUE 20 OCT 2026 \u00b7 17:00\u201319:00 \u00b7 PORTAL NORTH BRIDGE CUTOVER",
+        "role": "day",
+        "baseline": [
+          84,
+          247
+        ],
+        "box": [
+          84.0,
+          234.33333333333334,
+          620.0,
+          247.33333333333334
+        ]
+      },
+      {
+        "text": "THREE ALTERNATIVES FROM THE SAME SOHO WORKPLACE",
+        "role": "day",
+        "baseline": [
+          84,
+          292
+        ],
+        "box": [
+          84.0,
+          279.3333333333333,
+          567.0,
+          292.3333333333333
+        ]
+      },
+      {
+        "text": "Walk to PATH, or take Q to the ferry. Rejoin NJ Transit at Hoboken or Newark Broad Street.",
+        "role": "subtitle",
+        "baseline": [
+          84,
+          327
+        ],
+        "box": [
+          84.0,
+          312.3333333333333,
+          858.3333333333334,
+          331.6666666666667
+        ]
+      },
+      {
+        "text": "One fixed diagram \u00b7 Shared rail segment compressed west of Newark Broad Street",
+        "role": "caption",
+        "baseline": [
+          84,
+          355
+        ],
+        "box": [
+          84.0,
+          343.0,
+          660.0,
+          358.6666666666667
+        ]
+      },
+      {
+        "text": "Midtown Direct rerouted",
+        "role": "day",
+        "baseline": [
+          780,
+          435
+        ],
+        "box": [
+          780.0,
+          421.6666666666667,
+          980.3333333333334,
+          435.3333333333333
+        ]
+      },
+      {
+        "text": "Schematic map \u00b7 Not to scale",
+        "role": "subtitle",
+        "baseline": [
+          84,
+          968
+        ],
+        "box": [
+          84.0,
+          953.6666666666666,
+          332.6666666666667,
+          972.3333333333334
+        ]
+      },
+      {
+        "text": "Common rail segment shortened.",
+        "role": "source",
+        "baseline": [
+          84,
+          995
+        ],
+        "box": [
+          84.0,
+          984.3333333333334,
+          291.6666666666667,
+          998.3333333333334
+        ]
+      },
+      {
+        "text": "NJ Transit",
+        "role": "caption",
+        "baseline": [
+          582,
+          965
+        ],
+        "box": [
+          582.0,
+          953.0,
+          651.0,
+          965.0
+        ]
+      },
+      {
+        "text": "Subway Q",
+        "role": "caption",
+        "baseline": [
+          867,
+          965
+        ],
+        "box": [
+          867.0,
+          953.0,
+          938.0,
+          968.6666666666666
+        ]
+      },
+      {
+        "text": "PATH",
+        "role": "caption",
+        "baseline": [
+          1182,
+          965
+        ],
+        "box": [
+          1182.0,
+          953.6666666666666,
+          1221.0,
+          965.0
+        ]
+      },
+      {
+        "text": "NY Waterway",
+        "role": "caption",
+        "baseline": [
+          582,
+          1011
+        ],
+        "box": [
+          582.0,
+          999.6666666666666,
+          677.0,
+          1014.6666666666666
+        ]
+      },
+      {
+        "text": "Walk",
+        "role": "caption",
+        "baseline": [
+          867,
+          1011
+        ],
+        "box": [
+          867.0,
+          999.0,
+          902.0,
+          1011.0
+        ]
+      },
+      {
+        "text": "Newark Light Rail",
+        "role": "caption",
+        "baseline": [
+          1182,
+          1011
+        ],
+        "box": [
+          1182.0,
+          999.0,
+          1305.3333333333333,
+          1014.6666666666666
+        ]
+      },
+      {
+        "text": "Rail simplified",
+        "role": "caption",
+        "baseline": [
+          614,
+          1055
+        ],
+        "box": [
+          614.0,
+          1043.0,
+          712.3333333333334,
+          1058.6666666666667
+        ]
+      },
+      {
+        "text": "Service patterns checked \u00b7 Historical end-to-end transfer times not established",
+        "role": "source",
+        "baseline": [
+          84,
+          1090
+        ],
+        "box": [
+          84.0,
+          1079.3333333333333,
+          568.3333333333334,
+          1093.3333333333333
+        ]
+      },
+      {
+        "text": "Elevation \u00b7 USGS 3DEP",
+        "role": "source",
+        "baseline": [
+          1120,
+          1058
+        ],
+        "box": [
+          1120.0,
+          1047.3333333333333,
+          1257.0,
+          1058.0
+        ]
+      },
+      {
+        "text": "<5 / 5\u201315 / 15\u201335 / \u226535 m",
+        "role": "source",
+        "baseline": [
+          1000,
+          1080
+        ],
+        "box": [
+          1000.0,
+          1070.0,
+          1166.0,
+          1081.6666666666667
+        ]
+      },
+      {
+        "text": "Sources: MTA \u00b7 NJ Transit / Amtrak \u00b7 PATH \u00b7 NY Waterway \u00b7 USGS 3DEP \u00b7 Census TIGER/Line 2025 water",
+        "role": "source",
+        "baseline": [
+          84,
+          1123
+        ],
+        "box": [
+          84.0,
+          1112.3333333333333,
+          716.6666666666666,
+          1126.3333333333333
+        ]
+      },
+      {
+        "text": "Ming Cao",
+        "role": "author",
+        "baseline": [
+          84,
+          1157
+        ],
+        "box": [
+          84.0,
+          1144.6666666666667,
+          157.0,
+          1161.3333333333333
+        ]
+      },
+      {
+        "text": "N \u2191",
+        "role": "source",
+        "baseline": [
+          1535,
+          82
+        ],
+        "box": [
+          1535.0,
+          72.0,
+          1556.0,
+          82.0
+        ]
+      }
+    ],
+    "actions": [
+      "Canal St: board uptown Q / 96 St",
+      "SoHo: leave work on foot",
+      "Christopher St: board Hoboken-bound PATH",
+      "W 39th St: board NY Waterway",
+      "Hoboken: change to westbound M&E",
+      "WTC: board Newark-bound PATH",
+      "Newark Penn: change to Broad Street light rail",
+      "Newark Broad Street: board westbound M&E"
+    ],
+    "basemap_sha256": "f64c5f9761b34da8604479165282a9f9cbb4d1ff985abbb839541d82b520815f",
+    "common_station_positions": [
+      [
+        "Newark Broad Street",
+        [
+          167.94060835478308,
+          592.9887010066537
+        ]
+      ],
+      [
+        "Summit Station",
+        [
+          85,
+          735
+        ]
+      ]
+    ],
+    "reroute_cross": {
+      "service": "Midtown Direct",
+      "geographic_point": [
+        -74.01329614129169,
+        40.75894940673966
+      ],
+      "display_px": [
+        1171.1199683275481,
+        476.34524405775596
+      ]
+    },
+    "active_segments": [
+      "work_christopher",
+      "path_christopher",
+      "walk_hobpath",
+      "hoboken_east",
+      "joint_broad",
+      "common",
+      "work_canal",
+      "q",
+      "herald_ferry",
+      "ferry",
+      "walk_hobferry",
+      "work_wtc",
+      "path_newark",
+      "nlr"
+    ],
+    "background_segments": [
+      "herald_penn",
+      "usual_east"
+    ],
+    "background_opacity": 0.18,
+    "network_segments_drawn_once": true
+  },
+  "palette": {
+    "njt": "#a46039",
+    "path": "#6e5a90",
+    "ferry": "#1685b0",
+    "walk": "#536e65",
+    "nlr": "#44856b",
+    "subway": "#ba921e"
+  },
+  "station_order": [
+    "Newark Broad Street",
+    "Summit Station"
+  ],
+  "common_polyline": [
+    [
+      167.94060835478308,
+      592.9887010066537
+    ],
+    [
+      125,
+      575
+    ],
+    [
+      108,
+      650
+    ],
+    [
+      85,
+      735
+    ]
+  ],
+  "compressed_section": "Newark Broad Street to Summit only",
+  "geographic_transform": {
+    "anchor": "Hoboken Terminal",
+    "anchor_px": [
+      1080,
+      690
+    ],
+    "px_per_m": 0.075
+  },
+  "line_widths_px": {
+    "njt": 6,
+    "sleepers": 3,
+    "path": 6,
+    "nlr": 6,
+    "walk": 2,
+    "subway": 6.6,
+    "ferry": 6.6
+  },
+  "footprint_dimension_multiplier": 2,
+  "footprint_spacing_px": 38,
+  "sleeper_spacing_px": 24,
+  "background_opacity": 0.18,
+  "terrain": {
+    "source": "USGS 3DEP numeric bare-earth DEM",
+    "dem_file": "usgs_3dep_full_canvas_utm18.tif",
+    "dem_sha256": "a10a6ce46be79f6fb6bac7b85909623d7f856ea3d1100184f3277c92859095a3",
+    "display_layer_sha256": "8b33758e5de1d958a2f3de5c88861c2ef2d7e7a4066f1854c99ad03ecb6a87da",
+    "water_mask_file": "water_canvas.geojson",
+    "water_mask_sha256": "ce69e29a0a6d8c44207c418c247dc4038b13677fee94e9d2eb368410d0dc9fb4",
+    "target_affine": [
+      13.333333333333334,
+      0.0,
+      567670.5756076573,
+      0.0,
+      -13.333333333333334,
+      4518978.220093087
+    ],
+    "target_crs": "EPSG:32618",
+    "class_breaks_m": [
+      5,
+      15,
+      35
+    ],
+    "class_colors": [
+      "#eaf0ec",
+      "#dde6df",
+      "#cddbd0",
+      "#bacdbf"
+    ],
+    "class_pixel_counts": [
+      734584,
+      335685,
+      309587,
+      202352
+    ],
+    "layout_row_clip": null,
+    "schematic_west_clip": null,
+    "state_clip": null,
+    "canvas_land_pixels": 1582208,
+    "land_pixels_with_valid_elevation": 1582208,
+    "land_coverage_fraction": 1.0,
+    "land_pixels_on_edges": {
+      "left": 1199,
+      "right": 1126,
+      "top": 1456,
+      "bottom": 1038
+    },
+    "valid_display_bbox_xyxy": [
+      0,
+      0,
+      1600,
+      1200
+    ],
+    "scope": "All visible NJ/NY land across the full geographic canvas; no layout, state or schematic-overlay clipping. Water masked from Census 2025 area-water polygons."
+  },
+  "gallery_review_widths": [
+    862,
+    350
+  ],
+  "gif_duration_ms": 12000
+}

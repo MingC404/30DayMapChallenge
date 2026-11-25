@@ -1,0 +1,10 @@
+{
+  "24/outputs/analysis.json": "a00c5da09dc16c408530f7e65132b5a590e78618c6b600386278d53276f04da4",
+  "24/outputs/landing_closures.csv": "1a84725ff7ab15ccfd2a97867056cb0f5340d733793b581dc84fe74e05338557",
+  "24/outputs/stop_grouping.csv": "490a34d27d6bea22166dbdb42595b02a5b6a6cc220148ef5238421625d0c91e3",
+  "24/outputs/validation.json": "32b1e63ff41fbc5b7b075bd088aa7a24bbd6ff829ab9f0da45d877d4d6a8e1fe",
+  "24/data/gtfs.zip": "4f917b925de3c1f018d8e9a53bb5f5fd041b034e91f430232e22ca3603149e87",
+  "24/data/land.geojson": "7aa44d9fb611f2f518a226ff994a6516a261a8ce982ccf1e7b37d663687f443c",
+  "24/data/land_metadata.json": "b33317b5d096c523c72e02fd61a47e1326a6a67336a976bd8e80b4d6db03dee1",
+  "24/data/source.json": "b46bcb37f7bb25c15e89c2522d4c63874a439bc3819d1bfbc9802c8166917af6"
+}

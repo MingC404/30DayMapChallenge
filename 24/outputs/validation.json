@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "active_ferry_landings": 25,
+  "shared_landings_tested": 4,
+  "active_trips": 259,
+  "stop_times": 1580,
+  "distinct_active_landings_within_250m": [],
+  "selected_alternate_path": [
+    "SG",
+    "11",
+    "SB",
+    "17",
+    "ER"
+  ],
+  "image_size": null,
+  "prototype_png_present": false,
+  "archive_note": "Superseded artwork may be removed; analytical data and all regeneration scripts are retained."
+}

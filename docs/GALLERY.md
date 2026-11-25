@@ -1,5 +1,29 @@
 # Gallery maintenance
 
+## Day 24 / Network — Getting Home to Summit
+
+The confirmed GIF is the main gallery media, copied byte for byte to `assets/24/getting_home_to_summit.gif`; `assets/24/getting_home_to_summit.png` is the static download / fallback. Both retain the formal source filenames. Ming Cao is the author. Four 3-second frames form a 12-second infinite loop; no composition, route, legend or playback timing is changed. No estimated commute time is added to the image.
+
+My husband works in SoHo and lives in Summit, New Jersey. Sometimes his journey home takes more than three hours, and I find myself wondering what happened along the way. I made this map to understand his route home and the connections it depends on, hoping for a more reliable and comfortable public transit journey.
+
+The animation compares his usual commute with alternatives during the Portal North Bridge cutover. I used published transit schedules and service advisories to check route patterns and transfer points, then drew each option as a schematic over a geographic basemap with Census TIGER/Line water polygons and USGS 3DEP elevation data. The maps show how the connections change during the reroute. Historical door-to-door travel times were not verified.
+
+Alt text: Animated schematic map of the commute from SoHo to Summit, New Jersey, showing the usual route and alternatives during a rail reroute.
+
+The methods wording names the actual Census TIGER/Line water basemap with USGS 3DEP rather than OpenStreetMap. `24/GALLERY_BLURB.md` records this factual correction; the personal motivation remains verbatim. Full source and temporal-verification limits are in `24/summit/README.md`.
+
+Use `node 24/scripts/update_gallery.cjs` for scoped staging and `node 24/scripts/check_gallery.cjs` for a project-prefix browser check. The updater preserves all other rows and CSS. The shared generator understands `descriptionParagraphs`, but retain the scoped updater to preserve older non-registry additions. GIF/PNG assets are byte-identical, and reports are in `24/review/`. No screenshots or temporary animation frames are retained.
+
+## Day 23 / Senses: Taste - personal collection final
+
+Day 23 follows the Day 22 GIF-entry format. The main image is `assets/23/day23_a_tasting_map_of_tea.gif`, copied byte for byte from the approved `23/outputs/` file. Its four tasting themes each hold for 2 seconds, followed by a 3-second full overview, looping indefinitely at the original 1600 x 1200 size. A separate `assets/23/day23_a_tasting_map_of_tea.png` link provides the unchanged static overview. The title is **A Tasting Map of Tea**, by **Ming Cao**.
+
+This tasting map brings together selected regional teas and tea drinks across Asia. The animation highlights groups of tasting notes and ends with the full map, where shaded regions locate the teas and cup icons mark examples of how tea is served.
+
+Alt text: Animated map of selected Asian teas and tea drinks, highlighting groups of tasting notes before showing all entries together.
+
+`23/scripts/update_gallery.cjs` updates only the D23 registry object, actual gallery row, manifest entry and its two assets. Other entries and CSS stay unchanged. Use this scoped updater rather than rebuilding older scoped additions. `23/scripts/check_gallery.cjs` previews the actual `docs/` tree under `/30DayMapChallenge/`, verifies the Day 22 -> Day 23 order, exact copy and alt text, responsive layout, media links, full-size image click and all five GIF frames recurring across multiple loops. Review reports are in `23/review/`; no screenshots or temporary frames are retained. The deployment files are ready in `docs/`; committing, pushing and remote deployment are left to the owner.
+
 ## Day 22 / Projections — personal collection final
 
 Day 22 displays `22/outputs/day22_the_pacific_reprojected.gif`: two confirmed 1600 × 1200 frames, 1000 ms each, a 2-second direct-cut cycle, infinite looping. The original Mercator and Equal Earth PNGs remain unchanged and are linked separately, following Day 20's GIF-entry pattern. The exact owner-supplied English paragraph in `22/GALLERY_BLURB.md` appears beside the GIF on desktop and above it on mobile.

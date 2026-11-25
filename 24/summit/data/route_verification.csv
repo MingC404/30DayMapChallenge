@@ -1,0 +1,5 @@
+﻿route,origin,destination,legs,direction,verification,total_minutes
+usual,SoHo / Work,Summit Station,work_canal > q > herald_penn > usual_east > joint_broad > common,Uptown / 96 St,Usual pattern; regular M&E reference 2026-11-17. Midtown Direct not running on cutover weekday.,not established
+path,SoHo / Work,Summit Station,work_christopher > path_christopher > walk_hobpath > hoboken_east > joint_broad > common,Hoboken,Weekday HOB–33 line and cutover M&E service-plan verified; no historical timed itinerary.,not established
+ferry,SoHo / Work,Summit Station,work_canal > q > herald_ferry > ferry > walk_hobferry > hoboken_east > joint_broad > common,Uptown / 96 St,Q weekday pattern and dated W39–Hoboken ferry cutover plan verified; no historical timed itinerary.,not established
+newark,SoHo / Work,Summit Station,work_wtc > path_newark > nlr > common,Newark,PATH weekday topology and continuing M&E plan verified; NLR station link verified; no historical timed itinerary.,not established

@@ -1,0 +1,726 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="referrer" content="no-referrer" /><meta http-equiv="Content-Language" content="en" /><link rel="shortcut icon" href="../images/favicon.ico" />
+    
+<style>
+        
+
+        .text-container {
+            width: 500px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #1a237e;
+            padding: 5px;
+            border: 1px solid #ccc;
+
+            /* single line */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Appear animation */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .text-container:hover {
+            color: #d32f2f;
+        }
+		
+		
+
+.top-leaders {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+/* LEFT & RIGHT LEADERS */
+.leader {
+    text-align: center;
+}
+
+.leader img {
+    height: 125px;
+}
+
+.leader-name {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.leader-title {
+    font-size: 11px;
+    color: #666;
+}
+
+/* CENTER HEADER */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.divmastertopright .link img {
+    height: 55px;
+    margin-left: 8px;
+}
+
+/* NAV */
+.navPart {
+    margin-top: 5px;
+}
+
+    </style>
+
+    <title>
+	FAQ
+</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/accessibilityCss.css" />
+    <link rel="stylesheet" type="text/css" href="/css/AllInlineCss.css" />
+    <link rel="stylesheet" type="text/css" href="/css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/css/new-slider.css" />
+    
+
+    
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.roundabout.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+    
+ <!--<div id="overlay">
+        <div id="popup" style="padding: 20px;
+  background-color: rgba(48, 93, 140, 0.5);
+  color: #fff;">
+            <span class="close-btn">&times;</span>
+			<h4>
+			टी बोर्ड भारत में आपका स्वागत है<br>
+			Welcome to Tea Board India<br>
+
+			वेबसाइट में प्रवेश करने के लिए अपनी पसंदीदा भाषा का चयन करें<br>
+			Select your Preferred Language to Enter the Website
+			</h4>
+			
+           <button type="button" class="btn-view" onclick="confirmLanguageChange1('0', 'English')">
+    English
+</button>
+
+<button type="button" class="btn-view" onclick="confirmLanguageChange1('1', 'हिंदी')">
+    हिंदी
+</button>
+               
+     </div>
+      </div> -->
+<!-----------------------------JAVASCRIPT--------------------------------------------->
+     <script>
+         // Function to close the pop-up
+         document.querySelector('.close-btn').onclick = function () {
+             document.getElementById('overlay').style.display = 'none';
+         };
+
+         // Optionally, automatically close the pop-up after a few seconds (e.g., 5 seconds)
+         setTimeout(function () {
+             document.getElementById('overlay').style.display = 'none';
+         }, 100000);
+    </script> 
+    <script>
+        function confirmLanguageChange1(langValue, langText) {
+            var confirmationMessage = "The language of the website will be translated into " + langText;
+
+            if (confirm(confirmationMessage)) {
+                // Close overlay before postback
+                closeOverlay();
+
+                // Small delay to allow UI update (optional but smoother)
+                setTimeout(function () {
+                    __doPostBack('ln_ChangeLang', langValue);
+                }, 200);
+            }
+        }
+
+        function closeOverlay() {
+            var overlay = document.getElementById("overlay");
+            if (overlay) {
+                overlay.style.display = "none";
+            }
+        }
+</script>
+    
+    
+            <script type="text/javascript">
+                function confirmLanguageChange(dropdown) {
+                    var selectedLanguage = dropdown.options[dropdown.selectedIndex].text;
+                    var confirmationMessage = "The language of the website will be translated into " + selectedLanguage;
+                    if (confirm(confirmationMessage)) {
+                        __doPostBack(dropdown.id, '');
+                    } else {
+                        // If the user cancels, reset the dropdown to its previous value
+                        dropdown.selectedIndex = dropdown.initialIndex;
+                    }
+                }
+
+                function storeInitialIndex(dropdown) {
+                    dropdown.initialIndex = dropdown.selectedIndex;
+                }
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/jquery.quicksand.js" type="text/javascript"></script>
+    <script src="/js/jquery.easing.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+    <script src="/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+
+    <script src="/js/MasterPageJquiry.js?version=2" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/SetValueLocalStorage.js"></script>
+    <script src="/js/MasterPage.js?version=4" type="text/javascript"></script>
+
+    
+
+    <link href="/css/prettyPhoto.css" rel="stylesheet" type="text/css" media="all" />
+    
+    
+ 
+<script async data-id="101437888" src="//static.getclicky.com/js"></script>
+
+<meta http-equiv="keywords" name="keywords" content="FAQ" /><meta http-equiv="description" name="description" content="FAQ" /><meta http-equiv="title" name="title" content="FAQ" /></head>
+
+<body id="MasterBody" style="background-color:#f5f5f5">
+
+    <noscript>
+        <div id="noscriptContainer">
+            Java Script is not enabled in your browser. Please enable Java Script to ensure proper functionality of the website.</div>
+    </noscript>
+    <div id="text-resize">
+
+    
+
+
+
+
+        <form method="post" action="./NDQ=" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="95BE0DC9" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2NBM84Qq19LcauCbGebKqka5beKpFg/eQ5XuO2JToZ7/Juac6zJ5/uJRHhNpsMg6uab42aqBQX5Pskj9DHfqX8JSSyhSCu9uQc5//hX3memVnFY1KMCmteoqbpCAYmdOxMQV30regkUEe1rFkCLHxHW+ONX3UYtnV1daPv0nA0bViAYWWS1Yg28nuMfn9fzuqu0zFnmDuW1fXtFWtFqIgw==" />
+        <div id="wrapper">
+        <div class="header-fixed">
+        <div class="toppart">
+            <div class="mainWidth clearfix"> 
+            <div class="divmastersocial grid-align-center">
+                <a id="welcomeENG" class="leader-name">टी बोर्ड इंडिया में आपका स्वागत है</a>
+                    <a title="Twitter" target="_blank" onclick="confirmExternalLink('https://twitter.com/teaboardofindia');" rel="noopener noreferrer">
+                        <img src="/images/twitter_x.png" alt="Twitter" /></a>&nbsp;
+                    <a target="_blank"  onclick="confirmExternalLink('https://www.facebook.com/TeaBoardIndia');" title="Facebook" rel="noopener noreferrer">
+                        <img src="/images/facebook.png" alt="Facebook" /></a>&nbsp;
+                    
+
+                </div>
+            <div class="up-menu">                          
+                <a title="Site Map" class="skipfont" href="/screenreaderaccess"><span id="ScreenReaderAccessID" class="leader-name skipfont">स्क्रीन रीडर एक्सेस</span></a>
+                <a href="../#" id="incfont" class="button buttonfont">अ+</a> 
+                <a href="../#" id="norfont" class="button buttonfont">अ</a> 
+                <a href="../#" id="decfont" class="button buttonfont">अ-</a> 
+                <a href="../#maincontent" id="skipfont" title="Skip to main content" class="skipfont">मुख्य सामग्री पर जाएँ</a>
+                <a title="Accessibility Options" class="skipfont" href="/accessibilityoption"><span id="accessibilityOptionsID">अभिगम्यता के विकल्प</span>
+                </a>
+                
+                <a>
+                
+                    
+                <select name="ctl00$ln_ChangeLang" id="ln_ChangeLang" class="lang" onchange="confirmLanguageChange(this)" onfocus="storeInitialIndex(this)">
+	<option value="0">English</option>
+	<option selected="selected" value="1">हिंदी</option>
+
+</select>
+                    
+                
+                    
+                 
+                </select>
+                </a>
+                
+                
+                
+                </div>                  
+        </div>
+        </div>
+                    <div class="top-leaders">
+
+    <!-- LEFT: President -->
+    <div class="leader">
+        <img src="/image/president_of_india1.jpg" 
+             alt="" />
+    <div id="lblPresidentName" class="leader-name">श्रीमती द्रौपदी मुर्मु</div>
+    <div id="lblPresidentTitle" class="leader-title">भारत की माननीय राष्ट्रपति</div>
+    </div>
+
+    <!-- CENTER: LOGO + ICONS -->
+    <div class="main-header">
+
+        <div class="logo">
+            <a href="/home">
+                <img src="/images/logo.png" 
+                     alt="Tea Board India" />
+            </a>
+        </div>
+
+        <div class="divmastertopright">
+            <div class="link">
+<!--<marquee behavior="scroll" direction="left" scrollamount="5" style="width: 475px;">
+    <a title="" target="_blank"  href="https://dtdrc.teamarketplace.in/"  rel="noopener noreferrer">Click here to submit online application for the Tea Sommelier Course</a></marquee>-->
+  
+              
+
+                  <a title="Swach Bharat"  target="_blank" onclick="confirmExternalLink('https://swachhbharatmission.ddws.gov.in/');" rel="noopener noreferrer"><img id="" alt="Swach Bharat" src="/images/swach-bharat.png" title="" width="auto" /></a>
+
+					<a title="Azadi Ka Amrit Mahotsav"  target="_blank" onclick="confirmExternalLink('https://amritkaal.nic.in/');" rel="noopener noreferrer"><img id="" alt="Azadi Ka Amrit Mahotsav" src="/images/Azadi-Ka-Amrit-Mahotsav.png" title="" width="auto"  /></a>
+            
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- RIGHT: Prime Minister -->
+    <div class="leader">
+        <img src="/image/PM1.jpg" 
+             alt="" />
+    <div id="lblPMName" class="leader-name">श्री नरेन्द्र दामोदरदास मोदी</div>
+    <div id="lblPMTitle" class="leader-title">भारत के माननीय प्रधानमंत्री</div>
+    </div>
+
+</div>
+
+<!-- NAVIGATION -->
+<div class="main header">
+<div class="navPart clearfix">
+            <div class="mainWidth marauto floatNone">
+                <!-- search part start here -->
+
+                <!-- search part end here -->
+                <!-- nav part start here -->
+                
+                <ul class="mainNav"><li><a class="home" href="/home">Home</a></li><li><a title="चाय विकास" tabindex="0">चाय विकास</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDCSM/MjIyMw==">लघु चाय उत्पादकों की सूची</a></li><li><a href="/TEABOARDPAGE/MjIyNA==">गतिविधियाँ</a></li></ul></div></div></li><li><a title="योजनाएं" tabindex="0">योजनाएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjIyNQ==">विविरणात्मक योजनाएं</a></li></ul></div></div></li><li><a title="अनुसंधान" tabindex="0">अनुसंधान</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MTQz">प्राथमिकता वाले क्षेत्रों</a></li><li><a href="/TEABOARDPAGE/MjIyNw==">समाचार/ घटनाएं</a></li><li><a href="/TEABOARDPAGE/MjIyOA==">स्वस्थ जीवन हेतु चाय</a></li><li><a href="/TEABOARDPAGE/MjIzNQ==">डीटीआर डीसी का प्रकाशन</a></li><li><a href="/TEABOARDPAGE/MjIyOQ==">डीटीआरडीसी</a></li><li><a href="/TEABOARDPAGE/MjIzMA==">गुणवत्ता नियंत्रण प्रयोगशाला</a></li><li><a href="/TEABOARDPAGE/MjIzNA==">उपासी टीआरएफ का प्रकाशन</a></li><li><a href="/TEABOARDPAGE/MjIzMw==">टीआरए का प्रकाशन</a></li></ul></div></div></li><li><a title="संर्वधन" tabindex="0">संर्वधन</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjIzNg==">अंतर्राष्ट्रीय कार्यक्रम</a></li><li><a href="/TEABOARDPAGE/MjIzNw==">घरेलू कार्यक्रम</a></li><li><a href="/TEABOARDCSM/MjIzOQ==">चाय के बारे में</a></li><li><a href="/TEABOARDPAGE/MzM1Mw==">मानक संचालन प्रक्रियाएं (एसओपी)</a></li></ul></div></div></li><li><a title="विविधताएं" tabindex="0">विविधताएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDCSM/MjI0MA==">दार्जिलिंग</a></li><li><a href="/TEABOARDCSM/MjI0MQ==">असम</a></li><li><a href="/TEABOARDCSM/MjI0Mg==">नीलगिरी</a></li><li><a href="/TEABOARDCSM/MjI0Mw==">कांगड़ा</a></li><li><a href="/TEABOARDCSM/MjI0NQ==">डुअर्स-तराई</a></li><li><a href="/TEABOARDCSM/MjI0Ng==">मसाला चाय</a></li><li><a href="/TEABOARDCSM/MjI0Nw==">सिक्किम चाय</a></li><li><a href="/TEABOARDCSM/MjI4MA==">त्रिपुरा चाय</a></li></ul></div></div></li><li><a title="सांख्यिकी" tabindex="0">सांख्यिकी</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjI3Mg==">उत्पादन</a></li><li><a href="/TEABOARDPAGE/MjI3MQ==">निर्यात</a></li><li><a href="/TEABOARDCSM/MzM1NA==">आयात</a></li><li><a href="/TEABOARDCSM/MzM1NQ==">मूल्य</a></li><li><a href="/TEABOARDCSM/MzM1Ng==">उपभोग (खपत)</a></li><li><a href="/TEABOARDCSM/MzM1Nw==">क्षेत्र</a></li><li><a href="/TEABOARDPAGE/MTM5">वैश्विक चाय</a></li><li><a href="/TEABOARDPAGE/MjI1Mg==">मासिक औसत नीलामी मूल्य</a></li></ul></div></div></li><li><a title="विनियामक गतिविधियां" tabindex="0">विनियामक गतिविधियां</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="http://www.teaboard.org/">फार्म-ई मासिक विवरणी</a></li><li><a href="/TEABOARDPAGE/MjI1NQ==">नीलगिरि अर्थोडॉक्स के प्रयोग हेतु लाईसेंस</a></li><li><a href="/TEABOARDPAGE/MjI1Ng==">असम अर्थोडॉक्स के प्रयोग हेतु लाईसेंस</a></li><li><a href="/TEABOARDCSM/MjI1Nw==">दार्जिलिंग जीआई संरक्षण</a></li><li><a href="/TEABOARDPAGE/MjI1OA==">सूचीबद्ध परिक्षण एजेंसियाँ/प्रयोगशालाएं</a></li><li><a href="/TEABOARDPAGE/MjI1OQ==">असम लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2MA==">डुअर्स-तराई लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2MQ==">नीलगिरि लोगो के प्रयोग हेतु अनुमति</a></li><li><a href="/TEABOARDPAGE/MjI2Mg==">इंडिया लोगो लोगो के प्रयोग हेतु अनुमति</a></li></ul></div></div></li><li><a title="घोषणा" tabindex="0">घोषणा</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="/TEABOARDPAGE/MjI2NA==">सूचनाएं एवं परिपत्र</a></li><li><a href="/TEABOARDPAGE/MjI2NQ==">रिक्तियाँ</a></li><li><a href="/TEABOARDPAGE/MjI2Ng==">निविदाएं</a></li><li><a href="/TEABOARDPAGE/MjI2Nw==">इंडिया टी समाचार</a></li><li><a href="/TEABOARDPAGE/MjI2OA==">प्रेस विज्ञप्ति</a></li><li><a href="/TEABOARDPAGE/MjI2OQ==">टी फाईल</a></li></ul></div></div></li><li><a title="ई-सेवाएं" tabindex="0">ई-सेवाएं</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="https://onlineapps.teaboard.gov.in/">लाइसेंस के लिए ऑनलाइन आवेदन</a></li><li><a href="https://onlineapps.teaboard.gov.in/">ई-रिटर्न जमा करना</a></li><li><a href="https://darjeelingtea.teaboard.gov.in/DarjeelingTea/Index.html?id=45370523">उदगम प्रमाण पत्र</a></li><li><a href="https://www.teaauction.gov.in/">ई-नीलामी पोर्टल</a></li><li><a href="https://emarketplace.teaboard.gov.in/">जोरहाट नीलामी पोर्टल</a></li><li><a href="https://teawaste.teaauction.gov.in/">चाय अपशिष्ट पोर्टल</a></li><li><a href="https://teacouncil.teaauction.gov.in/">चाय परिषद पोर्टल</a></li><li><a href="https://teacouncil.teaauction.gov.in/" title="External website that opens in a new window" onclick="return confirmExternalLink()" target="_blank" rel="noopener noreferrer">सर्विस प्लस पोर्टल</a></li><li><a href="https://www.teaboard.gov.in/TEABOARDCSM/NDM=#centralized-video">केंद्रीकृत वीडियो कॉन्फ्रेंस सुविधा</a></li></ul></div></div></li><li><a title="ई-पत्रिका" tabindex="0">ई-पत्रिका</a><div class="sub_menu sub_menu01 width240"><div class="menu"><ul class="sublinks"><li><a href="https://heyzine.com/flip-book/c7cad3bd93.html">चायनामा - प्रथम संस्करण</a></li></ul></div></div></li></ul>
+                <!-- nav part end here -->
+                <div class="search-toggle">
+                <button class="search-icon icon-search" type="button"><img id="Img2" alt="search" src="/images/search.png"
+                        width="18" height="18" /></button>
+                <button class="search-icon icon-close" type="button"><img id="Img3" alt="Close" src="/images/close.png"
+                        width="18" height="18" /></button>
+              </div>
+                <div class="search-container">
+    <input name="ctl00$search_content" type="text" id="search_content" class="" value="Search keyword" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Search keyword&#39;;}" onfocus="if(this.value == &#39;Search keyword&#39;) {this.value = &#39;&#39;;}" placeholder="Search terms..." />
+                         <a id="sub" title="Search" class="search-icon" style="cursor: pointer" href="javascript:__doPostBack(&#39;ctl00$sub&#39;,&#39;&#39;)">
+                        <img src="/images/search.png" width="19" height="19" alt="Search" /></a>
+
+  </div>
+            </div>
+            </div>
+			
+			</div>
+            <div>
+                
+<div class="mainWidth innerBanner">
+    	<div class="innerBannerImg">
+   	    	<img src="/images/about-banner.png" alt="About Banner" width="726" height="178" alt="About Banner Image" />
+        </div>
+        <div class="headBanner">
+        	<h2 id="contn_head_text_top">FAQ</h2>
+            <p id="contn_sub_text_top"></p>
+        </div>
+  	</div>
+    <div class="bredcum mainWidth">
+    	<p><a href="/home">Home</a> <b>&raquo;</b><span id="contn_page_title_bn">FAQ</span></p></p>
+    </div>
+    <div class="mainWidth marTop20" id="maincontent">
+    	<!-- left part start here -->
+    	<div class="innerLeft" style=" display:none">
+        	
+            <div class="box224 noMarL marTop25"><h3 class="textHead">Tea Board</h3><ul class="leftNav"></ul></div><div class="box224 noMarL marTop25"><h3 class="textHead">ताज़ा खबरें<a class="more" href="/LATEST-NEWS">आगे</a></h3><p class="newsDate marTop20">अंतिम अपडेटः 11/6/2026 12:39:07 PM</p><ul class="news"><li><a href="/pdf/NABL_Hindi_pdf3489.pdf" target="_blank" rel="noopener noreferrer">एकीकृत मूल्यांकन योजना के अंतर्गत ट....[सूचीबद्ध परिक्षण एजेंसिया...]</a></li><li><a href="/pdf/79_2026_dt_14_07_0001_pdf1774.pdf" target="_blank" rel="noopener noreferrer">टी बोर्ड, क्षेत्रीय कार्यालय, कून्न....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/80_2026_dt_14_07_0001_pdf5618.pdf" target="_blank" rel="noopener noreferrer">टी बोर्ड, क्षेत्रीय कार्यालय, कून्न....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/81_2026_dt_15_07_0001_pdf61.pdf" target="_blank" rel="noopener noreferrer">बोर्ड के अधिकारियों के स्थानांतरण क....[कार्यालय ज्ञापन...]</a></li><li><a href="/pdf/82_2026_dt_17_07_0001_pdf5147.pdf" target="_blank" rel="noopener noreferrer">बंदरगाहों पर चाय के नमूने लेने के क....[कार्यालय ज्ञापन...]</a></li></ul></div><div class="box224 noMarL"><h3 class="textHead">उत्पाद<a class="more"></a></h3><div id="slides2"><div class="slides_container"><div><div class="bannerImg"><img alt="World Gold Standard" src="/images/product0.jpg" style="width:176px;height:123px" title="World Gold Standard"></img><p>World Gold Standard<span>World Gold Standard</span></p></div></div><div><div class="bannerImg"><img alt="Darjeeling" src="/images/product1.jpg" style="width:176px;height:123px" title="Darjeeling"></img><p>Darjeeling<span>Darjeeling</span></p></div></div><div><div class="bannerImg"><img alt="Assam" src="/images/product2.jpg" style="width:176px;height:123px" title="Assam"></img><p>Assam<span>Assam</span></p></div></div><div><div class="bannerImg"><img alt="License to Use Assam Orthodox" src="/images/product3.jpg" style="width:176px;height:123px" title="License to Use Assam Orthodox"></img><p>License to Use Assam Orthodox<span>License to Use Assam Orthodox</span></p></div></div><div><div class="bannerImg"><img alt="Nilgiri" src="/images/product4.jpg" style="width:176px;height:123px" title="Nilgiri"></img><p>Nilgiri<span>Nilgiri</span></p></div></div><div><div class="bannerImg"><img alt="License to Use Nilgiri Orthodox" src="/images/product5.jpg" style="width:176px;height:123px" title="License to Use Nilgiri Orthodox"></img><p>License to Use Nilgiri Orthodox<span>License to Use Nilgiri Orthodox</span></p></div></div><div><div class="bannerImg"><img alt="Kangra" src="/images/product6.jpg" style="width:176px;height:123px" title="Kangra"></img><p>Kangra<span>Kangra</span></p></div></div><div><div class="bannerImg"><img alt="Dooars-Terai" src="/images/product7.jpg" style="width:176px;height:123px" title="Dooars-Terai"></img><p>Dooars-Terai<span>Dooars-Terai</span></p></div></div><div><div class="bannerImg"><img alt="Sikkim" src="/images/product8.jpg" style="width:176px;height:123px" title="Sikkim"></img><p>Sikkim<span>Sikkim</span></p></div></div><div><div class="bannerImg"><img alt="Tripura" src="/images/product9.jpg" style="width:176px;height:123px" title="Tripura"></img><p>Tripura<span>Tripura</span></p></div></div><div><div class="bannerImg"><img alt="200 years of Assam Tea" src="/images/product10.jpg" style="width:176px;height:123px" title="200 years of Assam Tea"></img><p>200 years of Assam Tea<span>200 years of Assam Tea</span></p></div></div><div><div class="bannerImg"><img alt="200 years of Assam Tea." src="/images/product11.jpg" style="width:176px;height:123px" title="200 years of Assam Tea."></img><p>200 years of Assam Tea.<span>200 years of Assam Tea.</span></p></div></div></div></div></div>
+            
+            
+
+           
+            
+        </div>
+        <!-- left part end here -->
+        
+        <!-- right part start here -->
+        <div class="clearfix paddBottom10">
+        	<h1 id="contn_head_text">FAQ</h1>
+             <div id="contn_contnabout" class="text"><div class="faq-cont">
+	<!-- <div class="mailto">For submitting qustion, please mail at: <a href="mailto:faq@teaboard.gov.in">faq@teaboard.gov.in</a></div>--><!--<div align="center">FAQ will be updated soon.</div>-->
+	<ul>
+		<li>
+			<div class="qus">
+				In case an applicant has done the field work under the Plantation Development Scheme and Small Growers Development component / purchased Machinery and completed civil work /Certifications done under QUPDS on or after the cut-off date 10-12-2014 and yet to be applied, whether such applications can be considered or not?</div>
+			<div class="ans">
+				In terms of recent MOCI directive effective date of XII plan Scheme is 10.12.2014. In case of replanting and rejuvenation, the enhanced subsidy rate will be effective considering the date of planting / rejuvenation pruning. Since replanting / rejuvenation pruning is a continued activity of XI plan period, therefore, those applicant who have submitted the application &amp; commenced the field work (Replanting/ Rejuvenation pruning ) on or after 10.12.2014 are eligible to avail the benefit of enhanced subsidy rate . Subsidy for procurement of irrigation equipment is also a continued activity of XI plan period, therefore the applicant who had already applied on or after 10.12.2014 will get the benefit of enhanced rate. However, New planting activity for the big growers, has been introduced newly in the XII plan, therefore the applicant, who has commenced the work on or after 10.12.2014 and within 30.06.2015 may be allowed to submit the application to the Board&rsquo;s nearest filed office latest by 30.09.2015 along with all the supporting documents as per the XII plan scheme guide lines. In case of field mechanization activity also the items viz. pruning machine and Harvesting machine, which has been procured on or after 10.12.2014 and within 30.06.2015, for which the applicant may be allowed to submit the application to the Board&rsquo;s nearest field offices latest by 30.09.2015. The sanctioning authority is allowed to consider such cases within the stipulated period as a special consideration. In case of Small Grower Development activity also the aforesaid modalities will be followed. However, since new planting activity for Small Growers is a XI plan continued activity, the above stated special consideration may not require and the applicant who has already submitted the application and commenced planting on or after 10.12.2014 will be eligible to get the benefit of enhanced rate of subsidy. In respect of Component- Quality Up-gradation &amp; Diversification( QUPD)- a) In connection with the applications for value addition, setting up of specialty tea units, warehousing activities &amp; certification activities- those factories applied after H.O. circular dated 11.12.2013 and undertaken the work may be processed as per XI plan guidelines. But who have executed the work but yet to apply may not be allowed. b) In connection with the factory up-gradation- those who have applied after 10.12.2014 and undertaken the work may be processed as per XII Plan guidelines. Application submitted prior to this date will not be accepted. c) In respect of Orthodox Tea Production subsidy (OTPS) - circular issued by H.O. on 28.12.2012 may be followed and hence it is expected that applications are regularly being submitted by the factories. In regard to late submission the decision of the Board may be followed which was circulated earlier.</div>
+		</li>
+		<li>
+			<div class="qus">
+				As SPTF scheme is not in operation in the XII Plan, whether Screening Committee proceedings is needed to be conducted for the old/2nd installment cases?</div>
+			<div class="ans">
+				In XII Plan guidelines under Plantation Development component there is no provision of Screening Committee.</div>
+		</li>
+		<li>
+			<div class="qus">
+				In case of Rejuvenation pruning and infilling, if the sectional yield is more than the garden average yield and if the same is duly justified by UPASI Advisory Officer , whether NOC can be issued to such Tea Estates or not (i.e. in the 12th Plan guidelines the applicability of sectional yield is not mentioned in the Rejuvenation Pruning activity)?</div>
+			<div class="ans">
+				In XII Plan scheme guidelines, Sectional average yield vis-&agrave;-vis Garden Average yield is not an eligibility criteria for considering the Rejuvenation Subsidy application.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Whether, those Self Help Groups (SHGs) that have already availed the Revolving Corpus Fund (RCF) of Rs. 5.0 lakh under the XI Plan,can once again claim for benefits on the basis of the tea area at the rate of Rs.15,000/-per ha as per the XII Plan scheme guidelines?</div>
+			<div class="ans">
+				Since as per provision of the scheme, it is one time capital grant,therefore, the Self Help Group(SHG) who has already availed the benefit during the XI plan is not eligible to receive grant for revolving corpus fund again. However, the Self Help Group (SHG) who has submitted application on or after 10.12.2014( effective operational date for XII Plan Tea Development &amp; Promotion Scheme) and received financial assistance under the head One Time Grant for common facilities to the SHG based on XI Plan scheme guidelines, may be reviewed and the subsidy may be considered at enhanced rate applicable for XII plan scheme. The difference in the eligible amount considering the XII plan guidelines may be paid to the SHG.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Why should we drink Tea?</div>
+			<div class="ans">
+				Tea is second only to water in worldwide beverage consumption. It is taken primarily as a hot drink for its stimulating effects .Drinking tea has many health benefits. It lowers blood pressure, protects the heart, helps to prevent obesity, prevents tooth decay and increases immunity, etc.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Tea contains tannins: are they bad?</div>
+			<div class="ans">
+				The main cause of confusion concerning tea tannins is that they are often mistaken to be associated with tannnic acid which is used for tanning leather. However this is false. Tea tannins are polyphenolic compounds that have antioxidant property.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Why are antioxidants present in tea beneficial for us?</div>
+			<div class="ans">
+				Growing evidence indicates that chronic and acute overproduction of reactive oxygen species (ROS) are integral phenomenon in the development of several diseases like heart disease, diabetes, cancer, hypertension etc. Antioxidants present in tea prevent or slow the oxidative damage to our body. Antioxidants present in the tea acts as &quot;ROS scavenger&quot; thereby preventing and repairing the damages done by these free radicals. Antioxidants present in tea enhances immune defense and therefore lower the risk of cancer and infection.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Does Tea increases alertness?</div>
+			<div class="ans">
+				Preliminary research has shown that caffeine in tea is responsible for alertness across the day in the tea drinkers. Studies have revealed that L-theanine in combination with caffeine might be responsible for the positive effect of tea on alertness.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Does Tea disturb sleep?</div>
+			<div class="ans">
+				Anecdotally, many people avoid drinking tea in the evening as they are concerned that caffeine may adversely affect their sleep. Apart from flavonoids tea also contains a unique amino acid, L-theanine. Evidences suggest that L theanine has the ability to promote quality sleep.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Does Tea promote hydration?</div>
+			<div class="ans">
+				There is a common myth that tea acts as a diuretic may therefore might compromise hydration. Scientists believe that if tea is taken regularly, a tolerance to caffeine develops and the diuretic effect is diminished. Moreover tea can provide an important source of fluids and can contribute to the body&#39;s hydration levels.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What is the difference between black tea and green tea?</div>
+			<div class="ans">
+				Green tea and black tea are made from the same tea plant, Camellia sinensis. Green tea is made by the leaves being withered, then steamed or pan fried, before being rolled and then dried. It undergoes very minimal oxidation. Green tea contains catechins (catechin, epicatechin, epigallocatechin, epicatechin gallate, epigallocatechin gallate) which represent 80&ndash;90% and flavonols (kaempferol, quercetin and myricetin glycosides) which is &lt;10% of total flavonoids. The black tea leaf making process involves and additional step of aeration of the cut, withering leaves for several hours. The catechins are turned from the monomer structure to become the dimers that are the theaflavins and the oligomers that are thearubigins The catechin content of black tea is only 20&ndash;30%, whilst the theaflavins and thearubigins represent 10 and 50&ndash;60% of total flavonoids respectively.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Which type of tea is healthier for you?</div>
+			<div class="ans">
+				Both black and green have different types of polyphenolic compounds. All these polyphenolic compounds have antioxidant property. So both types of tea are beneficial for health.</div>
+		</li>
+		<li>
+			<div class="qus">
+				How do you brew the black tea? And what will happen if water is boiled for too long while making tea?</div>
+			<div class="ans">
+				Water is boiled. 1 teaspoon of tea is placed for each cup into the teapot. Boiling water is poured into the teapot. Tea pot is covered 3-5 minutes according to taste. The longer the steeping time the stronger the tea. Boiling water for too long does affect the quality of tea. The desirable taste of tea is due to interaction of two of its main components, caffeine and polyphenols. Each component is bitter on its own but as a complex the compounds moderate each other. Complex formation leads to the desirable taste often described as &ldquo;tangy astrigency&rdquo; This complex contributes to the formation of the colored precipitation or &lsquo;cream&rsquo; when tea liquor is allowed to cool. Normal tap water is slightly acidic because dissolved CO2 gas is present in it. Slightly acidic water enhances the colour and taste of tea. A high temperature changes the acidity of water as carbon-dioxide is driven out during the process. Therefore re-boiled water might well brew tea of a different color and strength and is unsuitable to brew a good cup of tea.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Why theaflavins are considered as important quality parameter for black tea?</div>
+			<div class="ans">
+				Theaflavin, which are thought to be responsible for colors, briskness and taste, and therefore considered to be important for the quality of black tea. Theaflavins contribute to the health benefits of drinking black tea.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Why is Darjeeling tea so special?</div>
+			<div class="ans">
+				Darjeeling tea is widely and universally acknowledged to be the finest tea, because its unique muscatel flavor. Reports suggest aroma molecules including linalool , geraniol, benzyl alcohol , 2-phenyl ethanol , mehyl salicylate, hexanoic acid, (Z)-3-hexenoic acid, (E)-2-hexenoic acid, t-geranic acid, dihydroactinidiolide, N- ethylsuccimide, 2,6-dimethy1-3,7-octadiene-2,6-diol, and 3,7-dimethy1-1,5,7-octatrien-3-o1 etc contributes to the flavor of Darjeeling tea.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What is Organic tea?</div>
+			<div class="ans">
+				The manufacture of organic tea is carried-out without the using chemical fertilizers, Pesticides and insecticides as a result the made tea doesn&rsquo;t contain any harmful chemical residues which can bring about adverse health effects.</div>
+		</li>
+		<li>
+			<div class="qus">
+				How should we store tea at home?</div>
+			<div class="ans">
+				To preserve freshness of tea it should be stored in a cool and dry place, in a container that is opaque and airtight. An airtight tin is best. Since tea absorbs other odors very easily, it should be stored away from any strong-smelling foods.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What is the average crop loss in tea due to pests?</div>
+			<div class="ans">
+				Estimate suggested that the average annual loss of tea crop in North-East India due to pest, disease and weeds is about 85 million Kg, valued at Rs. 425 crores. The crop loss in tea accounted for anywhere between 6-14% due to the ravages of insect pests.</div>
+		</li>
+		<li>
+			<div class="qus">
+				How these pests are controlled?</div>
+			<div class="ans">
+				Pest control in tea is mainly achieved by the use of synthetic pesticides that have CIB label claim for tea. However, since the 1970, an emphasis on Integrated Pest Management (IPM) practices was given to reduce the pesticide load.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What are the common problems associated with the overuse of chemical pesticides?</div>
+			<div class="ans">
+				Overuse of chemical pesticides can cause secondary pest outbreak together with problems of pesticide residue in made tea. Possibility of development of insect-pest resistance against these insecticides cannot be altogether ignored. In addition to residue problem, other factors such as tainting of tea, toxic hazards to operators and natural enemies of insect-pests can also cause great disturbance.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What amount of pesticide is used in tea in India?</div>
+			<div class="ans">
+				The average use pattern of chemical pesticides was estimated to be 11.5 kg per ha in the Assam valley and Cachar, 16.75 kg per ha in Dooars and Terai and 7.35 kg per ha in Darjeeling (Barbora and Biswas, 1996). In a recent survey, synthetic pesticides constituted 85% of the total pesticides used, while 15% were of organic and inorganic origin in tea gardens of Dooars in which, acaricides accounted for 25% (3.60 litre per ha) and insecticides 60% (8.46 litre per ha). Within the synthetic insecticides, organophosphate compounds (64% - 5 rounds per year) were the most preferred followed by organochlorine (26% - 2 rounds per year) and synthetic pyrethroids (9% - 7 rounds per year).</div>
+		</li>
+		<li>
+			<div class="qus">
+				What are the Pesticide regulations in India with respect to tea?</div>
+			<div class="ans">
+				In India, the concentration of pesticides in food is regulated by two laws (1) the Food Safety and Standards Act, 2006 (erstwhile Prevention of Food Adulteration act 1954) and (2) the Insecticide Act, 1968. The new pesticides molecules are to be registered with CIB&amp;RC before their actual use in agriculture. The Registration Committee of Central Insecticide Board formed under the insecticide act 1968 has the responsibility to check the data requirement of new pesticides and to ensure that pesticide allowed for use will not leave the residues on food commodities above MRLs. It is also liased with international bodies like EPA, FAO, WHO, Codex etc. on pesticide residues. The Government of India, MOC&amp;I vide its order ref. S0486 (E) dated 01.04.2005 has issued the Tea Distribution and Export Control Order, 2005 which will help the country to limit the presence of undesirable substances in tea.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What is MRL?</div>
+			<div class="ans">
+				MRLs are defined as the maximum concentration of pesticide residue (expressed as milligrams of residue per kilogram of food/animal feeding stuff) likely to occur in or on food and feeding stuffs after the use of pesticides according to Good Agricultural Practice (GAP), i.e. when the pesticide has been applied in line with the product label recommendations and in keeping with local environmental and other conditions). MRLs are primarily trading standards, but they also help ensure that residue levels do not pose unacceptable risks for consumers.</div>
+		</li>
+		<li>
+			<div class="qus">
+				How MRL&rsquo;s are determined?</div>
+			<div class="ans">
+				Once residues are demonstrated to be safe for consumers, MRLs are set based on rigorous evaluation of each pesticide legally authorized. They act as an indicator of the correct use of pesticides, and ensure compliance with legal requirements for low residues on food. MRLs are trading standards used to ensure that imported and exported food is safe to eat. For example, where there is an approved use of the compound on a particular crop, the MRL is generally set at a value determined from field trials (i.e. where the crop has been treated with the pesticide and samples of the crop have been analysed to determine residue levels). MRLs can typically be less than a milligram (mg) of pesticide residue in a kilogram of food (1mg/kg or less than one in a million) up to 5 mg/kg or more.</div>
+		</li>
+		<li>
+			<div class="qus">
+				How many pesticides are currently having label claim from CIB&amp;RC for use in tea?</div>
+			<div class="ans">
+				At present, 35 pesticides have label claim for use in tea as approved by CIB&amp;RC. Among these, there are 23 insecticides, 6 fungicides and 6 herbicides.</div>
+		</li>
+		<li>
+			<div class="qus">
+				What is the purpose of MRL&rsquo;s?</div>
+			<div class="ans">
+				MRLs are intended primarily as a check that the pesticide is being used correctly (i.e. that the GAP is being observed) and to assist international trade in treated produce.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Is MRL determined for tea or for liquor?</div>
+			<div class="ans">
+				Actually, the MRL is fixed on the commodity on sale. Since black tea is the commodity which is on sale, MRL is fixed on black tea. But it is the liquor, which we drink and not the made tea. It was found that the quantum of pesticide residues that is transferred into liquor is much less than that present in the made tea.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Why MRL&rsquo;s are different in different countries?</div>
+			<div class="ans">
+				MRL&rsquo;s are basically based on Toxicological data and GAP. Since, the food habit of different countries vary according to the prefer ability, Fixation of MRL&rsquo;s of a particular pesticides vary accordingly across the regions of the world.</div>
+		</li>
+		<li>
+			<div class="qus">
+				How MRL&rsquo;s are fixed in International scenario?</div>
+			<div class="ans">
+				The joint meeting on pesticide residues (JMPR), is an international expert group that consists of the food and agriculture organization (FAO), panel of experts on pesticide residues in food and environment and the world health organization (WHO) core assessment group, has been meeting regularly since 1963. The objective of the JMPR is to recommend MRLs for pesticide residues in food and feed, based on scientific evaluations which are adopted by CODEX through codex committee on pesticide residues (CCPR) for use as international standards by the World Trade Organization (WTO) under the Sanitation and Phytosanitation (SPS) agreement in agricultural commodities moving in international trade. The FAO panel of experts is responsible for reviewing the residue, analytical aspects, metabolism, environmental fate and use pattern of pesticides and for estimating MRLs that might occur as a result of the use of pesticides according to good agricultural practices (GAP). The WHO core assessment group is responsible for reviewing toxicological and related data and for estimating, where possible, acceptable daily intakes (ADIs) for humans of the pesticides.</div>
+		</li>
+		<li>
+			<div class="qus">
+				Is it possible to produce residue free tea?</div>
+			<div class="ans">
+				The tea plantations of India offer congenial environment for a large number of pests, diseases and weeds necessitating judicious use of chemical pesticides. Further, the shorter interval between treatment and plucking of shoots as compared to other crops make it difficult to keep residues low. However, high temperature during tea processing offers scope for degradation of some pesticides. But indiscriminate use of pesticides can invariably leave residues which may render the tea unsuitable for consumption and trade.</div>
+		</li>
+	</ul>
+	<h4>
+		FAQ Videos</h4>
+	<ul style="list-style-type: decimal">
+		<li>
+			<a href="../Video/faq/How_to_fill_Online_Application.webm" target="_blank">Click here to watch video on how to fill-up online application for obtaining Exporter License</a></li>
+		<li>
+			<a href="../Video/faq/How_to_fill_Print_Application.webm" target="_blank">Click here to watch video on how to print filled-in application forms</a></li>
+		<li>
+			<a href="../Video/faq/How_to_upload_Documents.webm" target="_blank">Click here to watch video on how to upload supporting documents</a></li>
+		<li>
+			<a href="../Video/faq/How_to_Make_Online_Payment.webm" target="_blank">Click here to watch video on how to make online payments</a></li>
+		<li>
+			<a href="../Video/faq/Payment_Issues.webm" target="_blank">Click here to watch video on what to do in case of any payment related issues</a></li>
+		<li>
+			<a href="../Video/faq/NABL_Labs.mp4" target="_blank">Click here to watch video on how to see the Enlisted Inspect Agencies/Laboratories</a></li>
+		<li>
+			<a href="../Video/faq/Tea_Testing_Parameters.mp4" target="_blank">Click here to watch video on how to check Tea Testing parameters</a></li>
+		<li>
+			<a href="../Video/faq/Assistance_to_FPO-FPC_Application_Process.mp4" target="_blank">Click here to watch video on how to apply for Assistance to FPO/FPC</a></li>
+		<li>
+			<a href="../Video/faq/Field_Mechanisation_Application_process.mp4" target="_blank">Click here to watch video on how to apply for Field Mechanisation</a></li>
+	</ul>
+</div>
+</div>
+                                
+                <button onclick="JavaScript: window.history.back(1); return false;" class="btnback">Back</button>
+        </div>
+
+        <!-- right part end here -->
+    </div>
+    
+
+            </div>
+               
+               
+            
+                <div class="footer clearfix">
+                <div class="mainWidth clearfix">
+                    
+                            
+                    <ul class="footerLinks"><li><a title="कर्मचारी अनुभाग | " href="/TEABOARDCSM/MjI3NA==">कर्मचारी अनुभाग</a></li><li><a title="वेबसाइट नीतियां | " href="/TEABOARDCSM/MzMwMA==">वेबसाइट नीतियां</a></li><li><a title="लोक शिकायत | " href="/TEABOARDCSM/NTc=">लोक शिकायत</a></li><li><a title="साईट मानचित्र | " href="/SiteMap">साईट मानचित्र</a></li><li><a title="सहायता | " href="/TEABOARDCSM/MjE4Mw==">सहायता</a></li><li><a title="आवश्यक लिंक | " href="/TEABOARDCSM/MzMwMw==">आवश्यक लिंक</a></li><li><a class="" title="छुट्टियों की सूची | " href="/TEABOARDPAGE/MzMxNw==">छुट्टियों की सूची</a></li><li><a href="/feedback" class="noBdr"> प्रतिक्रिया</a></li></ul>
+                  </div> 
+                </div>
+                <div class="footer-menu clearfix">
+                  
+                    <ul class="topLink"><li><a href="/home" class="cursor">मुख पृष्ठ</a></li><li><a title="हमारे बारे में" href="/TEABOARDCSM/NA==">हमारे बारे में</a></li><li><a title="दृष्टि एवं मिशन" href="/TEABOARDCSM/NDU=">दृष्टि एवं मिशन</a></li><li><a title="सा. पू. प्र." href="/TEABOARDCSM/NDQ=">सा. पू. प्र.</a></li><li><a title="आर.टी.आई" href="/TEABOARDCSM/NDY=">आर.टी.आई</a></li><li><a title="हमसे संपर्क करें" href="/TEABOARDCSM/NDM=">हमसे संपर्क करें</a></li><li><a title="निदेशिका" href="/TEABOARDCSM/MjIxOQ==">निदेशिका</a></li><li><a title="वेब सूचना प्रबंधक" href="/TEABOARDCSM/MzI5OQ==">वेब सूचना प्रबंधक</a></li></ul>
+                </div>
+
+
+  <div class="copyright">
+               <ul class="grid-justify-flex-center grid-align-center">
+			   <div class="divmastersocial grid-align-center" >
+                    <a style = "font-size: 16px; font-weight:bold"> Share With  </a>
+                  <li><a title="Twitter" onclick="confirmExternalLink('https://twitter.com/teaboardofindia');" ><img src="/images/twitter_x.png" alt="Twitter" /></a>&nbsp;</li>
+                  <li><a title="Facebook" onclick="confirmExternalLink('https://www.facebook.com/TeaBoardIndia');" ><img src="/images/facebook.png" alt="Facebook" /></a>&nbsp;</li>
+               
+               </ul>
+            </div>
+
+
+
+
+             <div class="copyright-details">
+                    
+                    <p>© Ownership Information: Website belongs to Tea Board India, Department of Commerce.</p>
+                    <p>Copyright 2026 (with latest amendments), 
+                    all rights reserved with Tea Board India, Department of Commerce, Ministry of Commerce and Industry, Government of India.</p>
+                    <p>The site is best viewed in Chrome 92.0 , Firefox 89.0 or Microsoft Edge 92.0</p>
+                    <p> <span id="page_last_update" style="color: #000;">Last Updated: Friday, 20 Nov 2026 16:14:49</span> </p>
+                    
+                
+                
+
+                </div>
+
+
+           
+    <div class="copyright-img">             
+      
+            
+            <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=www.teaboard.gov.in&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" style = "width:60px"/>
+    </a>
+</p>
+            </div>      
+        </div>        
+
+
+  
+    <div class="copyright">
+    <div class="no-user-online">         
+        <span>No of Users Online:
+        1015</span>
+      </div>
+ </div>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+javascript:SetAccessibilityData(); //]]>
+</script>
+</form>
+    </div>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-93237025-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        $('.search-toggle').addClass('closed');
+
+        $('.search-toggle .search-icon').click(function (e) {
+            if ($('.search-toggle').hasClass('closed')) {
+                $('.search-toggle').removeClass('closed').addClass('opened');
+                $('.search-toggle, .search-container').addClass('opened');
+                $('#search-terms').focus();
+            } else {
+                $('.search-toggle').removeClass('opened').addClass('closed');
+                $('.search-toggle, .search-container').removeClass('opened');
+            }
+        });
+    </script>
+<script>
+    const messages = [
+        "PMCSPY - WB Tea Garden Workers / Small Tea Growers Apply Here",
+        "PMCSPY – WB हेतु चाय बागान श्रमिकों / लघु चाय उत्पादकों आवेदन करें",
+        "PMCSPY – WB-এর জন্য চা বাগান শ্রমিক / ক্ষুদ্র চা চাষিরা এখানে আবেদন করুন"
+    ];
+
+    let index = 0;
+    const textElement = document.getElementById("text");
+
+    function changeText() {
+        textElement.classList.remove("fade-in");
+        void textElement.offsetWidth; // restart animation
+        textElement.textContent = messages[index];
+        textElement.classList.add("fade-in");
+
+        index = (index + 1) % messages.length;
+    }
+
+    changeText();
+    setInterval(changeText, 1000); // 1 second
+
+    function redirectLink() {
+        window.location.href =
+            "https://services.teaboard.gov.in/directApply.do?serviceId=3253";
+    }
+</script>
+</body>
+</html>
+

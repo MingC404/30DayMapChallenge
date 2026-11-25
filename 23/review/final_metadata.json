@@ -1,0 +1,1473 @@
+{
+  "template": {
+    "canvas": [
+      1600,
+      1200
+    ],
+    "anchors": {
+      "day": [
+        84.0,
+        82.0
+      ],
+      "title": [
+        84.0,
+        138.0
+      ],
+      "subtitle": [
+        84.0,
+        175.0
+      ]
+    },
+    "sizes": {
+      "day": 17.599999999999998,
+      "title": 44.800000000000004,
+      "subtitle": 19.2,
+      "caption": 16,
+      "source": 14,
+      "author": 17
+    },
+    "fonts": {
+      "day": "seguisb.ttf",
+      "title": "georgia.ttf",
+      "subtitle": "segoeui.ttf",
+      "caption": "segoeui.ttf",
+      "source": "segoeui.ttf",
+      "author": "segoeui.ttf"
+    },
+    "attribution_baseline": 1123,
+    "author_baseline": 1157,
+    "left": 84,
+    "right": 1535,
+    "dpi": 300,
+    "source": "19/artwork.mjs",
+    "reference_png": "19/day19.png",
+    "source_sha256": "5aac3924b24dd363c77b507c79189ad8580ae080215634199445f17c6eaab820"
+  },
+  "canvas": [
+    1600,
+    1200
+  ],
+  "projection": "Mercator; lon_0=108; map center (108,23) at pixel (800,650); 0.00017 px/metre",
+  "texts": [
+    {
+      "id": null,
+      "text": "A Tasting Map of Tea",
+      "role": "title",
+      "box": [
+        83.0,
+        104.33333333333333,
+        504.0,
+        147.66666666666666
+      ]
+    },
+    {
+      "id": null,
+      "text": "Selected regional teas and tea drinks across Asia",
+      "role": "subtitle",
+      "box": [
+        84.0,
+        160.66666666666666,
+        497.6666666666667,
+        179.66666666666666
+      ]
+    },
+    {
+      "id": null,
+      "text": "INDIA",
+      "role": "source",
+      "box": [
+        175.4976566497353,
+        740.4662965393876,
+        211.83098998306863,
+        750.4662965393876
+      ]
+    },
+    {
+      "id": null,
+      "text": "CHINA",
+      "role": "source",
+      "box": [
+        781.0756865651434,
+        262.06590123289146,
+        822.7423532318102,
+        272.06590123289146
+      ]
+    },
+    {
+      "id": null,
+      "text": "JAPAN",
+      "role": "source",
+      "box": [
+        1348.8050896108389,
+        237.27461063585474,
+        1390.1384229441721,
+        247.27461063585474
+      ]
+    },
+    {
+      "id": null,
+      "text": "THAILAND",
+      "role": "source",
+      "box": [
+        667.5298059560046,
+        779.8042504563468,
+        733.1964726226712,
+        789.8042504563468
+      ]
+    },
+    {
+      "id": null,
+      "text": "PHILIPPINES",
+      "role": "source",
+      "box": [
+        1046.0160746531346,
+        838.0845678018053,
+        1122.349407986468,
+        848.0845678018053
+      ]
+    },
+    {
+      "id": null,
+      "text": "INDONESIA",
+      "role": "source",
+      "box": [
+        894.6215671742826,
+        1122.2090320217962,
+        966.2882338409494,
+        1132.2090320217962
+      ]
+    },
+    {
+      "id": "cn-2662",
+      "text": "Anji Bai Cha",
+      "role": "day",
+      "box": [
+        1030.0,
+        465.6666666666667,
+        1127.0,
+        483.3333333333333
+      ]
+    },
+    {
+      "id": "cn-2662",
+      "text": "Brisk, mellow",
+      "role": "subtitle",
+      "box": [
+        1030.0,
+        487.6666666666667,
+        1141.3333333333333,
+        504.6666666666667
+      ]
+    },
+    {
+      "id": "cn-2662",
+      "text": "Anji / Zhejiang",
+      "role": "source",
+      "box": [
+        1030.0,
+        514.3333333333334,
+        1120.3333333333333,
+        528.3333333333334
+      ]
+    },
+    {
+      "id": "yame",
+      "text": "Yame Gyokuro",
+      "role": "day",
+      "box": [
+        1275.0,
+        457.0,
+        1393.6666666666667,
+        474.3333333333333
+      ]
+    },
+    {
+      "id": "yame",
+      "text": "Umami",
+      "role": "subtitle",
+      "box": [
+        1275.0,
+        484.0,
+        1336.3333333333333,
+        498.3333333333333
+      ]
+    },
+    {
+      "id": "yame",
+      "text": "Fukuoka / Yame \u00b7 Kyushu",
+      "role": "source",
+      "box": [
+        1275.0,
+        510.3333333333333,
+        1430.3333333333333,
+        524.3333333333334
+      ]
+    },
+    {
+      "id": "uji-matcha",
+      "text": "Uji matcha",
+      "role": "day",
+      "box": [
+        1380.0,
+        326.6666666666667,
+        1466.0,
+        344.3333333333333
+      ]
+    },
+    {
+      "id": "uji-matcha",
+      "text": "Umami",
+      "role": "subtitle",
+      "box": [
+        1380.0,
+        354.0,
+        1441.3333333333333,
+        368.3333333333333
+      ]
+    },
+    {
+      "id": "uji-matcha",
+      "text": "Kyoto / Uji \u00b7 Kansai",
+      "role": "source",
+      "box": [
+        1380.0,
+        380.6666666666667,
+        1496.0,
+        394.3333333333333
+      ]
+    },
+    {
+      "id": "shan-tuyet",
+      "text": "Shan Tuyet green tea",
+      "role": "day",
+      "box": [
+        666.0,
+        712.0,
+        836.6666666666666,
+        729.3333333333334
+      ]
+    },
+    {
+      "id": "shan-tuyet",
+      "text": "Hoang Su Phi / N. Vietnam",
+      "role": "source",
+      "box": [
+        666.0,
+        739.3333333333334,
+        832.0,
+        753.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2721",
+      "text": "Yingde",
+      "role": "caption",
+      "box": [
+        874.0,
+        603.0,
+        923.0,
+        618.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2721",
+      "text": "black tea",
+      "role": "caption",
+      "box": [
+        874.0,
+        623.0,
+        936.6666666666666,
+        635.0
+      ]
+    },
+    {
+      "id": "cn-2721",
+      "text": "Sweet",
+      "role": "subtitle",
+      "box": [
+        874.0,
+        644.0,
+        925.0,
+        658.3333333333334
+      ]
+    },
+    {
+      "id": "assam",
+      "text": "Assam black tea",
+      "role": "day",
+      "box": [
+        540.0,
+        522.0,
+        669.6666666666666,
+        535.3333333333334
+      ]
+    },
+    {
+      "id": "assam",
+      "text": "Malty aroma",
+      "role": "subtitle",
+      "box": [
+        540.0,
+        543.6666666666666,
+        648.0,
+        562.6666666666666
+      ]
+    },
+    {
+      "id": "assam",
+      "text": "Assam",
+      "role": "source",
+      "box": [
+        540.0,
+        571.0,
+        580.0,
+        581.0
+      ]
+    },
+    {
+      "id": "darjeeling",
+      "text": "Darjeeling tea",
+      "role": "day",
+      "box": [
+        300.0,
+        601.6666666666666,
+        412.3333333333333,
+        619.3333333333334
+      ]
+    },
+    {
+      "id": "darjeeling",
+      "text": "Muscat grape",
+      "role": "subtitle",
+      "box": [
+        300.0,
+        624.3333333333334,
+        417.0,
+        642.6666666666666
+      ]
+    },
+    {
+      "id": "darjeeling",
+      "text": "aroma",
+      "role": "subtitle",
+      "box": [
+        300.0,
+        651.0,
+        354.6666666666667,
+        661.3333333333334
+      ]
+    },
+    {
+      "id": "darjeeling",
+      "text": "Darjeeling / West Bengal",
+      "role": "source",
+      "box": [
+        300.0,
+        673.3333333333334,
+        453.0,
+        687.3333333333334
+      ]
+    },
+    {
+      "id": "nilgiri",
+      "text": "Nilgiri Orthodox",
+      "role": "day",
+      "box": [
+        295.0,
+        841.6666666666666,
+        427.3333333333333,
+        859.3333333333334
+      ]
+    },
+    {
+      "id": "nilgiri",
+      "text": "Floral, brisk",
+      "role": "subtitle",
+      "box": [
+        295.0,
+        868.6666666666666,
+        392.0,
+        885.6666666666666
+      ]
+    },
+    {
+      "id": "nilgiri",
+      "text": "Nilgiris \u00b7 Tamil Nadu",
+      "role": "source",
+      "box": [
+        295.0,
+        895.3333333333334,
+        419.6666666666667,
+        909.3333333333334
+      ]
+    },
+    {
+      "id": "nuwara-eliya",
+      "text": "Nuwara Eliya tea",
+      "role": "day",
+      "box": [
+        345.0,
+        911.6666666666666,
+        479.3333333333333,
+        929.3333333333334
+      ]
+    },
+    {
+      "id": "nuwara-eliya",
+      "text": "Delicate, fragrant",
+      "role": "subtitle",
+      "box": [
+        345.0,
+        938.3333333333334,
+        491.6666666666667,
+        957.6666666666666
+      ]
+    },
+    {
+      "id": "nuwara-eliya",
+      "text": "Nuwara Eliya / Central Province",
+      "role": "source",
+      "box": [
+        345.0,
+        965.3333333333334,
+        538.0,
+        979.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2663",
+      "text": "Anxi Tieguanyin",
+      "role": "day",
+      "box": [
+        990.0,
+        611.6666666666666,
+        1119.3333333333333,
+        629.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2663",
+      "text": "Fruity",
+      "role": "subtitle",
+      "box": [
+        990.0,
+        634.0,
+        1037.6666666666667,
+        652.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2663",
+      "text": "Anxi / Fujian",
+      "role": "source",
+      "box": [
+        990.0,
+        660.6666666666666,
+        1066.6666666666667,
+        674.3333333333334
+      ]
+    },
+    {
+      "id": "tw-beauty",
+      "text": "Oriental Beauty",
+      "role": "day",
+      "box": [
+        1110.0,
+        665.6666666666666,
+        1234.6666666666667,
+        683.3333333333334
+      ]
+    },
+    {
+      "id": "tw-beauty",
+      "text": "Honeyed",
+      "role": "subtitle",
+      "box": [
+        1110.0,
+        687.6666666666666,
+        1186.6666666666667,
+        706.6666666666666
+      ]
+    },
+    {
+      "id": "tw-beauty",
+      "text": "Emei / Northern Taiwan",
+      "role": "source",
+      "box": [
+        1110.0,
+        714.3333333333334,
+        1256.3333333333333,
+        726.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2666",
+      "text": "Huoshan Huang Ya",
+      "role": "day",
+      "box": [
+        830.0,
+        337.0,
+        985.0,
+        354.3333333333333
+      ]
+    },
+    {
+      "id": "cn-2666",
+      "text": "Sweet, mellow",
+      "role": "subtitle",
+      "box": [
+        830.0,
+        363.6666666666667,
+        952.0,
+        380.6666666666667
+      ]
+    },
+    {
+      "id": "cn-2666",
+      "text": "Huoshan \u00b7 Anhui",
+      "role": "source",
+      "box": [
+        830.0,
+        390.3333333333333,
+        932.6666666666666,
+        401.0
+      ]
+    },
+    {
+      "id": "cn-2710",
+      "text": "Fuding white tea",
+      "role": "day",
+      "box": [
+        1025.0,
+        543.6666666666666,
+        1159.6666666666667,
+        561.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2710",
+      "text": "Floral",
+      "role": "subtitle",
+      "box": [
+        1025.0,
+        565.6666666666666,
+        1071.6666666666667,
+        580.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2710",
+      "text": "Fuding / Fujian",
+      "role": "source",
+      "box": [
+        1025.0,
+        592.3333333333334,
+        1118.0,
+        606.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2668",
+      "text": "Pu'er (ripe)",
+      "role": "caption",
+      "box": [
+        642.0,
+        584.0,
+        718.6666666666666,
+        599.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2668",
+      "text": "Mellow,",
+      "role": "subtitle",
+      "box": [
+        642.0,
+        604.6666666666666,
+        708.3333333333334,
+        621.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2668",
+      "text": "sweet",
+      "role": "subtitle",
+      "box": [
+        642.0,
+        629.3333333333334,
+        691.0,
+        642.3333333333334
+      ]
+    },
+    {
+      "id": "cn-2705",
+      "text": "Hengxian",
+      "role": "caption",
+      "box": [
+        776.0,
+        603.0,
+        842.3333333333334,
+        618.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2705",
+      "text": "jasmine tea",
+      "role": "caption",
+      "box": [
+        774.3333333333334,
+        623.0,
+        855.6666666666666,
+        638.6666666666666
+      ]
+    },
+    {
+      "id": "cn-2705",
+      "text": "Jasmine",
+      "role": "subtitle",
+      "box": [
+        776.0,
+        644.0,
+        843.6666666666666,
+        658.3333333333334
+      ]
+    },
+    {
+      "id": "thai-iced-tea",
+      "text": "Thai iced tea",
+      "role": "day",
+      "box": [
+        690.0,
+        811.6666666666666,
+        792.0,
+        825.3333333333334
+      ]
+    },
+    {
+      "id": "thai-iced-tea",
+      "text": "Milk, sugar, ice",
+      "role": "subtitle",
+      "box": [
+        690.0,
+        838.6666666666666,
+        816.6666666666666,
+        857.6666666666666
+      ]
+    },
+    {
+      "id": "thai-iced-tea",
+      "text": "Cha yen / Bangkok",
+      "role": "source",
+      "box": [
+        690.0,
+        866.3333333333334,
+        806.6666666666666,
+        880.3333333333334
+      ]
+    },
+    {
+      "id": "masala-chiya",
+      "text": "Masala chiya",
+      "role": "day",
+      "box": [
+        230.0,
+        490.6666666666667,
+        333.3333333333333,
+        508.3333333333333
+      ]
+    },
+    {
+      "id": "masala-chiya",
+      "text": "Milk, sugar,",
+      "role": "subtitle",
+      "box": [
+        230.0,
+        517.6666666666666,
+        327.6666666666667,
+        536.6666666666666
+      ]
+    },
+    {
+      "id": "masala-chiya",
+      "text": "spices",
+      "role": "subtitle",
+      "box": [
+        230.0,
+        541.0,
+        281.6666666666667,
+        559.3333333333334
+      ]
+    },
+    {
+      "id": "masala-chiya",
+      "text": "Kathmandu / Nepal",
+      "role": "source",
+      "box": [
+        230.0,
+        568.3333333333334,
+        350.6666666666667,
+        582.3333333333334
+      ]
+    },
+    {
+      "id": null,
+      "text": "Regional teas",
+      "role": "day",
+      "box": [
+        84.0,
+        1001.6666666666666,
+        192.33333333333334,
+        1019.3333333333334
+      ]
+    },
+    {
+      "id": null,
+      "text": "Green",
+      "role": "caption",
+      "box": [
+        110.0,
+        1038.6666666666667,
+        152.33333333333334,
+        1050.0
+      ]
+    },
+    {
+      "id": null,
+      "text": "Black",
+      "role": "caption",
+      "box": [
+        285.0,
+        1038.0,
+        321.6666666666667,
+        1050.0
+      ]
+    },
+    {
+      "id": null,
+      "text": "Oolong",
+      "role": "caption",
+      "box": [
+        460.0,
+        1038.0,
+        513.0,
+        1053.6666666666667
+      ]
+    },
+    {
+      "id": null,
+      "text": "Yellow",
+      "role": "caption",
+      "box": [
+        635.0,
+        1038.0,
+        681.3333333333334,
+        1050.0
+      ]
+    },
+    {
+      "id": null,
+      "text": "White",
+      "role": "caption",
+      "box": [
+        110.0,
+        1072.0,
+        151.66666666666666,
+        1084.0
+      ]
+    },
+    {
+      "id": null,
+      "text": "Dark",
+      "role": "caption",
+      "box": [
+        285.0,
+        1072.0,
+        318.0,
+        1084.0
+      ]
+    },
+    {
+      "id": null,
+      "text": "Scented green",
+      "role": "caption",
+      "box": [
+        460.0,
+        1072.0,
+        561.3333333333334,
+        1087.6666666666667
+      ]
+    },
+    {
+      "id": null,
+      "text": "Tea drinks",
+      "role": "day",
+      "box": [
+        850.0,
+        1001.6666666666666,
+        932.6666666666666,
+        1015.3333333333334
+      ]
+    },
+    {
+      "id": null,
+      "text": "Cups mark drinking examples.",
+      "role": "caption",
+      "box": [
+        886.0,
+        1036.0,
+        1096.6666666666667,
+        1051.6666666666667
+      ]
+    },
+    {
+      "id": null,
+      "text": "Shading groups selected teas by broader region.",
+      "role": "caption",
+      "box": [
+        850.0,
+        1066.0,
+        1190.3333333333333,
+        1081.6666666666667
+      ]
+    },
+    {
+      "id": null,
+      "text": "Neutral shading: multiple tea types in one region.",
+      "role": "caption",
+      "box": [
+        850.0,
+        1094.0,
+        1196.6666666666667,
+        1109.6666666666667
+      ]
+    },
+    {
+      "id": null,
+      "text": "Sources: official tea records, tourism sources, GIZ, MICHELIN | Natural Earth / GeoNames / geoBoundaries. Details: README.",
+      "role": "source",
+      "box": [
+        84.0,
+        1112.3333333333333,
+        848.6666666666666,
+        1126.3333333333333
+      ]
+    },
+    {
+      "id": null,
+      "text": "Ming Cao",
+      "role": "author",
+      "box": [
+        84.0,
+        1144.6666666666667,
+        157.0,
+        1161.3333333333333
+      ]
+    }
+  ],
+  "anchors": [
+    {
+      "id": "yame",
+      "lon": 130.78673,
+      "lat": 33.24831,
+      "pixel": [
+        1231.223220675448,
+        430.77575541517376
+      ],
+      "radius": 1.8,
+      "treatment": "broader display region"
+    },
+    {
+      "id": "uji-matcha",
+      "lon": 135.80325,
+      "lat": 34.89044,
+      "pixel": [
+        1326.1574175076744,
+        393.4306658890709
+      ],
+      "radius": 1.8,
+      "treatment": "broader display region"
+    },
+    {
+      "id": "shan-tuyet",
+      "lon": 104.66667,
+      "lat": 22.75,
+      "pixel": [
+        736.9190182981898,
+        655.1057082306376
+      ],
+      "radius": 1.8,
+      "treatment": "broader display region"
+    },
+    {
+      "id": "nilgiri",
+      "lon": 76.69521,
+      "lat": 11.4134,
+      "pixel": [
+        207.57834202763843,
+        878.6089876674067
+      ],
+      "radius": 1.8,
+      "treatment": "broader display region"
+    },
+    {
+      "id": "nuwara-eliya",
+      "lon": 80.78286,
+      "lat": 6.97078,
+      "pixel": [
+        284.93431183962946,
+        963.2431222077157
+      ],
+      "radius": 1.8,
+      "treatment": "broader display region"
+    },
+    {
+      "id": "cn-2666",
+      "lon": 116.27459,
+      "lat": 31.28649,
+      "pixel": [
+        956.5909347049294,
+        474.47587896151185
+      ],
+      "radius": 1.8,
+      "treatment": "broader display region"
+    }
+  ],
+  "badges": [
+    {
+      "id": "cn-2662",
+      "center": [
+        1015,
+        472
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "yame",
+      "center": [
+        1260,
+        463
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "uji-matcha",
+      "center": [
+        1365,
+        333
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "shan-tuyet",
+      "center": [
+        651,
+        718
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "cn-2721",
+      "center": [
+        859,
+        608
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "assam",
+      "center": [
+        525,
+        528
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "darjeeling",
+      "center": [
+        285,
+        608
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "nilgiri",
+      "center": [
+        280,
+        848
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "nuwara-eliya",
+      "center": [
+        330,
+        918
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "cn-2663",
+      "center": [
+        975,
+        618
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "tw-beauty",
+      "center": [
+        1095,
+        672
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "cn-2666",
+      "center": [
+        815,
+        343
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "cn-2710",
+      "center": [
+        1010,
+        550
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "cn-2668",
+      "center": [
+        627,
+        589
+      ],
+      "scale": 0.3
+    },
+    {
+      "id": "cn-2705",
+      "center": [
+        761,
+        608
+      ],
+      "scale": 0.3
+    }
+  ],
+  "leaders": [
+    {
+      "id": "yame",
+      "points": [
+        [
+          1231.223220675448,
+          430.77575541517376
+        ],
+        [
+          1264.0,
+          446.0
+        ]
+      ],
+      "length_px": 36.13993478230136
+    },
+    {
+      "id": "uji-matcha",
+      "points": [
+        [
+          1326.1574175076744,
+          393.4306658890709
+        ],
+        [
+          1369.0,
+          393.4306658890709
+        ]
+      ],
+      "length_px": 42.84258249232562
+    },
+    {
+      "id": "shan-tuyet",
+      "points": [
+        [
+          736.9190182981898,
+          655.1057082306376
+        ],
+        [
+          736.9190182981898,
+          701.0
+        ]
+      ],
+      "length_px": 45.89429176936244
+    },
+    {
+      "id": "nilgiri",
+      "points": [
+        [
+          207.57834202763843,
+          878.6089876674067
+        ],
+        [
+          284.0,
+          878.6089876674067
+        ]
+      ],
+      "length_px": 76.42165797236157
+    },
+    {
+      "id": "nuwara-eliya",
+      "points": [
+        [
+          284.93431183962946,
+          963.2431222077157
+        ],
+        [
+          334.0,
+          963.2431222077157
+        ]
+      ],
+      "length_px": 49.06568816037054
+    },
+    {
+      "id": "cn-2666",
+      "points": [
+        [
+          956.5909347049294,
+          474.47587896151185
+        ],
+        [
+          956.5909347049294,
+          412.0
+        ]
+      ],
+      "length_px": 62.47587896151185
+    }
+  ],
+  "placements": [
+    {
+      "id": "cn-2662",
+      "display_region": "Zhejiang",
+      "direct": true,
+      "label_bbox": [
+        1030.0,
+        465.6666666666667,
+        1141.3333333333333,
+        528.3333333333334
+      ],
+      "bbox_region_coverage": 0.16643415178571427,
+      "glyph_region_coverage": 0.1418779986291981
+    },
+    {
+      "id": "yame",
+      "display_region": "Kyushu",
+      "direct": false,
+      "label_bbox": [
+        1275.0,
+        457.0,
+        1430.3333333333333,
+        524.3333333333334
+      ],
+      "bbox_region_coverage": 0.0
+    },
+    {
+      "id": "uji-matcha",
+      "display_region": "Kansai",
+      "direct": false,
+      "label_bbox": [
+        1380.0,
+        326.6666666666667,
+        1496.0,
+        394.3333333333333
+      ],
+      "bbox_region_coverage": 0.0
+    },
+    {
+      "id": "shan-tuyet",
+      "display_region": "Ha Giang (source-era)",
+      "direct": false,
+      "label_bbox": [
+        666.0,
+        712.0,
+        836.6666666666666,
+        753.3333333333334
+      ],
+      "bbox_region_coverage": 0.0
+    },
+    {
+      "id": "cn-2721",
+      "display_region": "Guangdong",
+      "direct": true,
+      "label_bbox": [
+        874.0,
+        603.0,
+        936.6666666666666,
+        658.3333333333334
+      ],
+      "bbox_region_coverage": 0.8874716553287982,
+      "glyph_region_coverage": 0.9313850063532402
+    },
+    {
+      "id": "assam",
+      "display_region": "Assam",
+      "direct": true,
+      "label_bbox": [
+        540.0,
+        522.0,
+        669.6666666666666,
+        581.0
+      ],
+      "bbox_region_coverage": 0.07102564102564103,
+      "glyph_region_coverage": 0.08534850640113797
+    },
+    {
+      "id": "darjeeling",
+      "display_region": "West Bengal",
+      "direct": true,
+      "label_bbox": [
+        300.0,
+        601.6666666666666,
+        453.0,
+        687.3333333333334
+      ],
+      "bbox_region_coverage": 0.17644424540976264,
+      "glyph_region_coverage": 0.04880294659300184
+    },
+    {
+      "id": "nilgiri",
+      "display_region": "Tamil Nadu",
+      "direct": false,
+      "label_bbox": [
+        295.0,
+        841.6666666666666,
+        427.3333333333333,
+        909.3333333333334
+      ],
+      "bbox_region_coverage": 0.0
+    },
+    {
+      "id": "nuwara-eliya",
+      "display_region": "Central Province",
+      "direct": false,
+      "label_bbox": [
+        345.0,
+        911.6666666666666,
+        538.0,
+        979.3333333333334
+      ],
+      "bbox_region_coverage": 0.0
+    },
+    {
+      "id": "cn-2663",
+      "display_region": "Fujian",
+      "direct": true,
+      "label_bbox": [
+        990.0,
+        611.6666666666666,
+        1119.3333333333333,
+        674.3333333333334
+      ],
+      "bbox_region_coverage": 0.008173076923076924,
+      "glyph_region_coverage": 0.01355421686746988
+    },
+    {
+      "id": "tw-beauty",
+      "display_region": "Northern Taiwan",
+      "direct": true,
+      "label_bbox": [
+        1110.0,
+        665.6666666666666,
+        1256.3333333333333,
+        726.6666666666666
+      ],
+      "bbox_region_coverage": 0.0,
+      "glyph_region_coverage": 0.0
+    },
+    {
+      "id": "cn-2666",
+      "display_region": "Anhui",
+      "direct": false,
+      "label_bbox": [
+        830.0,
+        337.0,
+        985.0,
+        401.0
+      ],
+      "bbox_region_coverage": 0.003155818540433925
+    },
+    {
+      "id": "cn-2710",
+      "display_region": "Fujian",
+      "direct": true,
+      "label_bbox": [
+        1025.0,
+        543.6666666666666,
+        1159.6666666666667,
+        606.3333333333334
+      ],
+      "bbox_region_coverage": 0.011921296296296296,
+      "glyph_region_coverage": 0.012509197939661517
+    },
+    {
+      "id": "cn-2668",
+      "display_region": "Yunnan",
+      "direct": true,
+      "label_bbox": [
+        642.0,
+        584.0,
+        718.6666666666666,
+        642.3333333333334
+      ],
+      "bbox_region_coverage": 1.0,
+      "glyph_region_coverage": 1.0
+    },
+    {
+      "id": "cn-2705",
+      "display_region": "Guangxi",
+      "direct": true,
+      "label_bbox": [
+        774.3333333333334,
+        603.0,
+        855.6666666666666,
+        658.3333333333334
+      ],
+      "bbox_region_coverage": 0.9943379790940766,
+      "glyph_region_coverage": 1.0
+    }
+  ],
+  "palette": {
+    "paper": "#f3eedf",
+    "land": "#e3d1aa",
+    "leaves": {
+      "Green": "#386b50",
+      "Black": "#a14b34",
+      "Oolong": "#327e8b",
+      "Yellow": "#b18b22",
+      "White": "#8b86b3",
+      "Dark": "#634b3e",
+      "Scented green": "#b54f79"
+    },
+    "regions": {
+      "Green": "#a8c69b",
+      "Black": "#d6a389",
+      "Oolong": "#9ec7c5",
+      "Yellow": "#e0c777",
+      "White": "#c5bbdb",
+      "Dark": "#baa38e",
+      "Scented green": "#d8a5bb",
+      "Mixed": "#c9bda5"
+    }
+  },
+  "coverage": [
+    {
+      "id": "zhejiang",
+      "visible_pixels": 3631,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "fujian",
+      "visible_pixels": 4261,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "anhui",
+      "visible_pixels": 5613,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "yunnan",
+      "visible_pixels": 13864,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "guangxi",
+      "visible_pixels": 8355,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "guangdong",
+      "visible_pixels": 6072,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "northern_taiwan",
+      "visible_pixels": 251,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "assam",
+      "visible_pixels": 2901,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "west_bengal",
+      "visible_pixels": 3034,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "kyushu",
+      "visible_pixels": 1570,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "tamil_nadu",
+      "visible_pixels": 3931,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "kansai",
+      "visible_pixels": 1334,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "central_province",
+      "visible_pixels": 181,
+      "non_land_pixels": 0
+    },
+    {
+      "id": "ha_giang_(source-era)",
+      "visible_pixels": 279,
+      "non_land_pixels": 0
+    }
+  ],
+  "feather": "Gaussian 1.1 px, multiplied by original display region and land mask",
+  "display_regions": 14,
+  "tea_count": 15,
+  "direct_label_count": 9,
+  "input_sha256": {
+    "data/tasting/final_regions.geojson": "7f8fd1ef7831f862f11d8829f6fd5ae4ea7edb85dee4d6b373c59575f7e2df4e",
+    "data/tasting/final_region_audit.json": "3798f9119d322346fdfad1d2f8ceb0a04f2ae613925e128acc4086e6e66f271f",
+    "data/template.json": "0baea5a9c7d233575ddfd18e3502c737b1c1b31e70c329d54ce3b4fe84bd3a29",
+    "data/tasting/raw/ne_50m_admin_0_countries.geojson": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+  },
+  "png_sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93",
+  "tea_drinks": [
+    {
+      "id": "thai-iced-tea",
+      "pixel": [
+        658.0949002499224,
+        833.510938431853
+      ],
+      "lon": 100.50144,
+      "lat": 13.75398,
+      "symbol": "cup",
+      "shaded": false
+    },
+    {
+      "id": "masala-chiya",
+      "pixel": [
+        370.8079258855154,
+        552.0413236345419
+      ],
+      "lon": 85.3206,
+      "lat": 27.70169,
+      "symbol": "cup",
+      "shaded": false
+    }
+  ],
+  "drink_count": 2,
+  "requested_leader_free_ids": [
+    "assam",
+    "cn-2662",
+    "cn-2663",
+    "cn-2710",
+    "darjeeling",
+    "tw-beauty"
+  ]
+}

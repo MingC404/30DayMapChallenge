@@ -20,6 +20,8 @@ Maps and spatial illustrations by **Ming Cao**.
 | 16 / Collaborative Map | Why Are the Trains Late? | [Project notes](16/README.md) · [Personal collection](https://mingc404.github.io/30DayMapChallenge/#day-16) · [GIF](16/outputs/day16_njt_disruptions.gif) · [PNG](16/outputs/day16_njt_disruptions.png) |
 | 21 / OpenStreetMap | Three Street Fabrics of Manhattan | [PNG](21/outputs/day21_three_street_fabrics_of_manhattan.png) · [Notes](21/README.md) · Local gallery entry prepared |
 | 22 / Projections | The Pacific, Reprojected | [GIF](22/outputs/day22_the_pacific_reprojected.gif) · [Mercator PNG](22/outputs/day22_merc.png) · [Equal Earth PNG](22/outputs/day22_eqearth.png) · [Notes](22/README.md) |
+| 23 / Senses: Taste | A Tasting Map of Tea | [GIF](23/outputs/day23_a_tasting_map_of_tea.gif) / [Static PNG](23/outputs/day23_a_tasting_map_of_tea.png) / [Notes](23/README.md) / [Personal collection](docs/index.html#day-23) |
+| 24 / Network | Getting Home to Summit | [GIF](24/summit/outputs/getting_home_to_summit.gif) / [Static PNG](24/summit/outputs/getting_home_to_summit.png) / [Notes](24/README.md) / [Personal collection](docs/index.html#day-24) |
 
 Numbered folders contain each map's scripts and outputs. Shared original data, metadata and licenses are in `data_raw/`; generated web pages are in `docs/`. Each day's README identifies its sources and limits. Maps use NYC Open Data, OpenStreetMap, institutional collections and other credited sources; data timestamps do not imply current field verification.
 

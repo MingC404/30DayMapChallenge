@@ -1,0 +1,9 @@
+{
+  "confirmed_base_pixels_sha256": "39991e95d475b2fa319337b132658698140f45bfad1a5bb78647dcad467c08f3",
+  "confirmation": "Pixel comparison against the confirmed production-trial basemap passed before old images were removed.",
+  "canvas": [
+    1600,
+    1200
+  ],
+  "style_template": "data/template.json"
+}

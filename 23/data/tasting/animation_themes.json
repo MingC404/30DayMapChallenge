@@ -1,0 +1,15 @@
+{
+  "note": "Editorial tasting themes for reading the map, not mutually exclusive chemical or processing classes. Original specific labels and source records are unchanged.",
+  "themes": [
+    {"title": "Umami & brisk", "duration_ms": 2000, "ids": ["uji-matcha", "yame", "cn-2662"]},
+    {"title": "Floral & fruity", "duration_ms": 2000, "ids": ["darjeeling", "cn-2710", "cn-2663", "cn-2705", "nilgiri", "nuwara-eliya"]},
+    {"title": "Malty, mellow & sweet", "duration_ms": 2000, "ids": ["assam", "cn-2666", "cn-2668", "cn-2721", "tw-beauty"]},
+    {"title": "Milk & spice", "duration_ms": 2000, "ids": ["thai-iced-tea", "masala-chiya"], "keep_static_region_colors": true}
+  ],
+  "overview": {"title": "All teas & drinks", "duration_ms": 3000},
+  "overview_only": {"shan-tuyet": "The same-product tourism source gives tea and origin but no verified sensory note. Visible, muted, in theme frames; fully visible in overview."},
+  "inactive_label_opacity": 0.30,
+  "inactive_region_opacity": 0.22,
+  "shared_neutral_regions": ["Fujian"],
+  "theme_label": {"position": [84, 230], "role": "subtitle"}
+}

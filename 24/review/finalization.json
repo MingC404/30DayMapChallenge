@@ -1,0 +1,58 @@
+{
+  "scope": "D24 and personal collection files only; all pre-existing other-day rows and CSS preserved.",
+  "updated_collection_files": [
+    "README.md",
+    "docs/index.html",
+    "docs/GALLERY.md",
+    "docs/gallery-manifest.json",
+    "scripts/gallery_entries.json",
+    "scripts/prepare_gallery.cjs"
+  ],
+  "added_gallery_assets": [
+    "docs/assets/24/getting_home_to_summit.gif",
+    "docs/assets/24/getting_home_to_summit.png"
+  ],
+  "updated_d24_files": [
+    "24/README.md",
+    "24/summit/README.md",
+    "24/scripts/validate.py",
+    "24/scripts/validate_summit.py",
+    "24/outputs/validation.json",
+    "24/summit/outputs/validation.json",
+    "24/summit/outputs/ferry_preserved_checksums.json"
+  ],
+  "added_d24_files": [
+    "24/gallery-entry.json",
+    "24/GALLERY_BLURB.md",
+    "24/FERRY_RESEARCH.md",
+    "24/scripts/update_gallery.cjs",
+    "24/scripts/check_gallery.cjs",
+    "24/review/gallery_scope.json",
+    "24/review/gallery_validation.json",
+    "24/review/cleanup_gallery.json",
+    "24/review/finalization.json"
+  ],
+  "deleted_superseded_files": [
+    "24/outputs/where_ferry_routes_meet.png",
+    "24/outputs/render_manifest.json",
+    "24/outputs/render_data.json"
+  ],
+  "confirmed_artwork_unchanged": {
+    "24/summit/outputs/getting_home_to_summit.gif": "142f3f99a6c93bb5fc562c3e60c029385955be64f4e334f61ff2fafbc72d29e6",
+    "24/summit/outputs/getting_home_to_summit.png": "f285181345668361b8aba5d1378a671a4e042b8f92be88373a5c70af0e2006e9"
+  },
+  "copy_review": "Personal motivation and supplied alt text preserved verbatim. Methods phrase corrected from OpenStreetMap to the actual Census TIGER/Line water basemap with USGS 3DEP. Historical door-to-door times remain unverified; no estimated commute duration is added to the image.",
+  "local_preview": "http://127.0.0.1:8026/30DayMapChallenge/#day-24",
+  "verification": [
+    "D24 follows D23 in chronological order",
+    "Two paragraphs, exact alt text, title and author match entry metadata",
+    "Responsive layout tested at 1440, 390 and 320 viewport widths",
+    "GIF and PNG local links return 200 under the project prefix",
+    "Published assets are byte-identical to the confirmed files",
+    "Four 3-second GIF states recur across more than two browser-observed loops",
+    "Full-size GIF opens correctly",
+    "Scoped updater is idempotent and leaves other entries/CSS unchanged",
+    "Ferry research data and scripts pass archived-network validation"
+  ],
+  "git_actions": "No staging, commit, push or remote deployment. Changes remain in workspace."
+}

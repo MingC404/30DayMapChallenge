@@ -1,0 +1,1451 @@
+[
+  {
+    "scope": "E:\\MUSA\\30DayMapChallenge\\23",
+    "reference_check": "No external repository references; no retained renderer or Markdown dependency on removed paths.",
+    "final_png_sha256": "53efe251c6ae72347214a08ffe61cb737c9c53a5719209993d3c587a833525b7",
+    "removed_files": [
+      {
+        "path": "data/label_evidence.json",
+        "bytes": 998,
+        "sha256": "b9df93692171ec0380102c20bbb9f31edd02598bad6f4af3bb38013fd00ce474",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/languages.json",
+        "bytes": 29368,
+        "sha256": "6025601da2b15ef1d2b5dff199d33e4f4aaa18fec6fa40feddaada10d73b4c40",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/ne_110m_land.geojson",
+        "bytes": 138160,
+        "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/sources.json",
+        "bytes": 1698,
+        "sha256": "ece1c6302fcec735ada787284fe1948871c879dd7abf6f27c9b927813d2469f6",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "outputs/day23_tea_by_name_tea_by_taste.png",
+        "bytes": 197173,
+        "sha256": "fc47efc1979d392ae0bf7556a8b81bc18474507687eb81de97224d1e7fe8d276",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "review/final_350.png",
+        "bytes": 56488,
+        "sha256": "210946eb8e34cc266038f72439a631ff2d96a1a60638d77c5a905769b3ccd66f",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/final_862.png",
+        "bytes": 219797,
+        "sha256": "0af75139d35c765eb3fd8c61248a5f834e934c6f0fe38a696657a9e06044b07e",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/gallery_350.png",
+        "bytes": 43379,
+        "sha256": "bbd76d30180aa91afdbe2ab37528b8a02c5158b3f6f9d9ab1fdd2e4f64371489",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/gallery_862.png",
+        "bytes": 158502,
+        "sha256": "4b97e92061101a025664d96ed96a0cf0443e87069b203f4b8ec70425e827200e",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/production_350.png",
+        "bytes": 56078,
+        "sha256": "c30b174297be21e6f58f40e4c8b505eaeb0d2b9c1e69f4b6ea694685ded1fd40",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/production_862.png",
+        "bytes": 211958,
+        "sha256": "a85014d0871acf2f1d1953733f3d93f3143a4d261afa7fe1fdf7b5a582520de1",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/production_leaders.json",
+        "bytes": 2458,
+        "sha256": "f0d30b8261e2270e7eb7204ea617a0534ef5fa4edba77d7429a98ec3da2e1324",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/production_metadata.json",
+        "bytes": 30822,
+        "sha256": "ddb9d384f87f6b7a134692aa3a6078f9b9de9f395913accda51f65ba77914f6e",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/production_validation.json",
+        "bytes": 1652,
+        "sha256": "46758c70762457eb4f7138e583b453d875e3d262a566409811298f8f4ad478cc",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/render_metadata.json",
+        "bytes": 4417,
+        "sha256": "40dcd253417c46b637820ac7227fa8816a2c515553889753c20069531025c790",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/tasting_350.png",
+        "bytes": 54964,
+        "sha256": "5d868b1c6f231469432e08d397a831e21889649bb24f92680f9f5382f51d2975",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/tasting_862.png",
+        "bytes": 205190,
+        "sha256": "98380ef40e1d198ee2cd661d5ed2c5d8735da4f76371d9781fad482f28e6b59f",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/tasting_leaders.json",
+        "bytes": 2459,
+        "sha256": "2a72acc56b2bf9b2bd51dd3167e82363b0d26d308f1bd65146d2a50e1fe148b1",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/tasting_metadata.json",
+        "bytes": 14166,
+        "sha256": "db28a57892d7cfe3be46ca39ce99df405a937182a796ce2412058d8ee21885da",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/tasting_validation.json",
+        "bytes": 614,
+        "sha256": "0a465999c962a5138bbe51c85a1d0e8e8c90937db3c9c85df94899b12e29f4f4",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "scripts/acquire.py",
+        "bytes": 2563,
+        "sha256": "7dccbafe5f4bfc73ddee27515ddc769bc21cf4da3eded33a53295270d5ea2fa1",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/acquire_production_areas.py",
+        "bytes": 2215,
+        "sha256": "7c27ed51254ba157f7e600d3dba39d3788c68c15a457564c2a7662885e6c910b",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/acquire_tasting.py",
+        "bytes": 2725,
+        "sha256": "c1271260c95ce80864f7726087ed76db3864a61d401009e73e9035864f98dbaa",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/build_production_areas.py",
+        "bytes": 8828,
+        "sha256": "9a820c11282467efe330e8256048ca357db909cd2f00a3d31087b809dd5434ea",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/render.py",
+        "bytes": 4338,
+        "sha256": "5c1065dc830d1e1c44a4ae75e163ae50794e1b8b37d1ac316b03865fac02d92e",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/render_production_preview.py",
+        "bytes": 9861,
+        "sha256": "868b37cc3ac3481b8ff38b16e9e423433ee97c0845bd080003da01908c800249",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/render_tasting.py",
+        "bytes": 8099,
+        "sha256": "85a5101cba0f610f4eeaa2c05e2e3765a9e468b5271d4d22973ed7cf9dc0a8b9",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/render_three_tea_preview.py",
+        "bytes": 5458,
+        "sha256": "ee9853cc83736805dfd9d809d0eeebb4851b3655aa3d9969bf40c17c2b5e8417",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/validate_production_preview.py",
+        "bytes": 4080,
+        "sha256": "a2771402742b353b75501f8a6a0aeec7147d0c0e35a27a22ccc1bff0fe44f81b",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "scripts/validate_tasting.py",
+        "bytes": 3680,
+        "sha256": "324e5ec24bfd2001c09ec1655bd49931567651443c47314d38fb57f1d8866180",
+        "reason": "Superseded renderer, acquisition step or validation tied to earlier versions"
+      },
+      {
+        "path": "outputs/tasting/day23_a_tasting_map_of_tea.png",
+        "bytes": 367933,
+        "sha256": "1df1a8880f6855535170954aeb13f2b891e8b86e3bddd733598bc9fa2ba22b7f",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/basemap.png",
+        "bytes": 202417,
+        "sha256": "1efc3146683e9fa3494e096753a3ce8995c9f335d93d0ed830a1acc043a8f41e",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels.png",
+        "bytes": 214798,
+        "sha256": "40a5b73cc91aaf82fc7313478f3caa10f8795284202907a8a576fa138884b287",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_black.png",
+        "bytes": 40713,
+        "sha256": "0dcb59e26d49e8a68f912a56b476a4e57d604f43d208b092b705e8bac01102df",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_dark.png",
+        "bytes": 16321,
+        "sha256": "73c99bd1f0c261fbcae85e2c9e46a954b4105c26d6117a9e892a195d1eb1abe5",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_green.png",
+        "bytes": 30702,
+        "sha256": "2b9377e8f5293f4ff01157d5d0569ac12f615893f272c385951918eae03273eb",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_oolong.png",
+        "bytes": 24655,
+        "sha256": "8775e82c491143a2d5e72144f154b6fc0077e7a24a7fab81b7117d31132e9eeb",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_scented_green.png",
+        "bytes": 16820,
+        "sha256": "2099153e764583f89fb9368bd7509e0d2450da06f4e12d16c580554b095772d1",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_static.png",
+        "bytes": 109038,
+        "sha256": "eb1451815fbb43d35d80fbdb814dbfef02398f4f6a5bf2f38e3fc0a63bd01d73",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_white.png",
+        "bytes": 15730,
+        "sha256": "226e55d1c0c4115b3b13e45a79de72ddffc67a81507574b047425c93bde19aa7",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/labels_yellow.png",
+        "bytes": 16986,
+        "sha256": "282efb693b9d0335089edbf2817f9d65ca315d681fe63a0cb4056d3504406332",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_black.png",
+        "bytes": 16108,
+        "sha256": "7a3f103af37926d74174c410c4adc402b4d2a968df48069c4ae8b37ea244899e",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_dark.png",
+        "bytes": 9897,
+        "sha256": "5a2cbecb0cbf2fae30da82af242a022fd1c9a272c9da3c79bccdb399ba54a487",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_green.png",
+        "bytes": 14200,
+        "sha256": "8ef3ee29b84fcf35352b532b4dd6aa951023587228ce9ea59d446202e38d0e9c",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_leaves.png",
+        "bytes": 36609,
+        "sha256": "5cecf1019f0d84131f29075cd37cf0f2a7f69f3de3b06e49d80a0ada4f94315a",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_oolong.png",
+        "bytes": 12360,
+        "sha256": "2228abc15a3cd82299538eb8bf3f8b73916390dd624118acd7675924010c76a0",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_scented_green.png",
+        "bytes": 9901,
+        "sha256": "38e429731be5966857464e164fce31840fd1829dac58394e5a7e56ed54cab5fb",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_white.png",
+        "bytes": 9931,
+        "sha256": "dcf2d9622bbc9aa2a1fe0f3cb472cd2667964c5dd7bd223104aaf568d0d54c52",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/layers/tea_yellow.png",
+        "bytes": 10058,
+        "sha256": "fa06a205b5a52831c7056db2d8ceb4121ca17d5c620b57b07ad696d776473122",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/day23_documented_production_areas.png",
+        "bytes": 382139,
+        "sha256": "b8f803d2a992276ba31d04b7b2a4c6784a4991399119c2f408ea3772af7c1f71",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/three_tea_preview/day23_a_tasting_map_of_tea.png",
+        "bytes": 268257,
+        "sha256": "3931103efec2852398613db70ceab0292442a971702c9e4021f8ead62f04dc29",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/three_tea_preview/layers/basemap.png",
+        "bytes": 202417,
+        "sha256": "1efc3146683e9fa3494e096753a3ce8995c9f335d93d0ed830a1acc043a8f41e",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/three_tea_preview/layers/labels.png",
+        "bytes": 111399,
+        "sha256": "8c7751d57231d36a01b753b002a324ed57b681c0af1484636aef6da973b4ec78",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/three_tea_preview/layers/tea_leaves.png",
+        "bytes": 13909,
+        "sha256": "0d76230acc459ace8daf024693d5c563c081fddc1a96675762d1262ddd4250d3",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/area_cn-2662.png",
+        "bytes": 8496,
+        "sha256": "640e170721153f6ad252acb7e71299e0161d5322a152e0627e41a14f85462ef2",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/area_cn-2663.png",
+        "bytes": 8644,
+        "sha256": "9ee5842e7db07ac553972e636419f8264198d220d3a8e0b0a3b0499e6501d207",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/area_yame.png",
+        "bytes": 9538,
+        "sha256": "7d06cf68fd27df9923c0a17e68aa9e940f03d926d11d76ec719b5653918e2fd6",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/basemap.png",
+        "bytes": 202417,
+        "sha256": "1efc3146683e9fa3494e096753a3ce8995c9f335d93d0ed830a1acc043a8f41e",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels.png",
+        "bytes": 232241,
+        "sha256": "1ab569c6ebfd3aee3f34a5e7f1171b36c388b817154653e6bd2b38b2e123f1c0",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_black.png",
+        "bytes": 45264,
+        "sha256": "edae3730c08507f3a364ba6f6f2e3973ef4f277a82bf928e0da481567b63b084",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_dark.png",
+        "bytes": 16321,
+        "sha256": "73c99bd1f0c261fbcae85e2c9e46a954b4105c26d6117a9e892a195d1eb1abe5",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_green.png",
+        "bytes": 31292,
+        "sha256": "141952b53bc483eacda7a53b15bc565ee40035aeb904af69b5a07ca5352cb85f",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_oolong.png",
+        "bytes": 25293,
+        "sha256": "6a99604839c0f0e446e9c6f929da00345e2afd6abec65cee60d73224971d5020",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_scented_green.png",
+        "bytes": 16820,
+        "sha256": "2099153e764583f89fb9368bd7509e0d2450da06f4e12d16c580554b095772d1",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_static.png",
+        "bytes": 121025,
+        "sha256": "5f961aa43d604f9b1e00cf7bdd053c95e732e7c9372b52544e8c19811a12b0a5",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_white.png",
+        "bytes": 15730,
+        "sha256": "226e55d1c0c4115b3b13e45a79de72ddffc67a81507574b047425c93bde19aa7",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/labels_yellow.png",
+        "bytes": 16986,
+        "sha256": "282efb693b9d0335089edbf2817f9d65ca315d681fe63a0cb4056d3504406332",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/production_areas.png",
+        "bytes": 11532,
+        "sha256": "1f60c0c5684885a72e5cd7a2dcc24d77d7ade41b7b80a57b12f3dafe73b7eab7",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_black.png",
+        "bytes": 16108,
+        "sha256": "7a3f103af37926d74174c410c4adc402b4d2a968df48069c4ae8b37ea244899e",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_dark.png",
+        "bytes": 9897,
+        "sha256": "5a2cbecb0cbf2fae30da82af242a022fd1c9a272c9da3c79bccdb399ba54a487",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_green.png",
+        "bytes": 11024,
+        "sha256": "32f539720a26d867866cd85418e16fda7b78827a137bc85a55c6a6fbce0dca3d",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_leaves.png",
+        "bytes": 31606,
+        "sha256": "b1e365515e3148138109055dab17b6a0bd804309fc209e060788de0073512e05",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_oolong.png",
+        "bytes": 10515,
+        "sha256": "c8b256ce59d23ae21410d35d21f0fc3c81bd6aa95b11054eadb7c608c7a72cda",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_scented_green.png",
+        "bytes": 9901,
+        "sha256": "38e429731be5966857464e164fce31840fd1829dac58394e5a7e56ed54cab5fb",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_white.png",
+        "bytes": 9931,
+        "sha256": "dcf2d9622bbc9aa2a1fe0f3cb472cd2667964c5dd7bd223104aaf568d0d54c52",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "outputs/tasting/production_trial/layers/tea_yellow.png",
+        "bytes": 10058,
+        "sha256": "fa06a205b5a52831c7056db2d8ceb4121ca17d5c620b57b07ad696d776473122",
+        "reason": "Superseded map or its obsolete layers"
+      },
+      {
+        "path": "data/raw/138A-brm.html",
+        "bytes": 8078,
+        "sha256": "3cfddf32d12b187db1a5884f5781002102ee3524deb5136b13f4ea5080f76957",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/138A-eng.html",
+        "bytes": 7889,
+        "sha256": "cde3c5c1dd0234908ae3d3608d07dc761bda5aaa8180e894058060dce5e20e95",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/138A-jpn.html",
+        "bytes": 8100,
+        "sha256": "0653b6ef01eb09d85c47e757c4ac3a839b24343774b43956f47d258b4973cb02",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/138A-mnd.html",
+        "bytes": 8098,
+        "sha256": "5289f379b9e8b08f306ffee6911bc71acd9605062841885289a65e015d289e6b",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/138A-pol.html",
+        "bytes": 7857,
+        "sha256": "47fbfa1c17184726dc64734820859a6d069e2a361d1e33fc5d8b2bfd05670b3b",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/138A.html",
+        "bytes": 310160,
+        "sha256": "b914e0fd6f616b914beb5a9ffabe4b9eed40e624a9a44b8b758bc279db9b461d",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/chapter138.html",
+        "bytes": 17276,
+        "sha256": "81714bcece478bc43cdfb7ca9edc42eb2f50c5ad2e549a7863cabc802d77a2f7",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/raw/maff-yame.html",
+        "bytes": 13552,
+        "sha256": "08ed842ba9342b7d84b7a2a88d6bfe6cd895f090aab8972dd5f577cec1d29732",
+        "reason": "Superseded WALS concept source / duplicate MAFF source; final tea evidence retained elsewhere"
+      },
+      {
+        "path": "data/tasting/documented_production_areas.geojson",
+        "bytes": 154959,
+        "sha256": "9e979493529aac8aafc8222166cf9549c32b69929180657424e7ffbc97623feb",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/production_area_table.csv",
+        "bytes": 8757,
+        "sha256": "43353bcaeb271c191bd5cef3e02e11a3290176863f085a4ab9606389409d6ca2",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/production_area_table.json",
+        "bytes": 14690,
+        "sha256": "facf5c35b64bad11c90ccdaa4ad73e6e39ff1ad40176241cc48981dd3fae663e",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/sources.json",
+        "bytes": 1316,
+        "sha256": "673bd059d6b63819f02868d3cd93438f92060c27bd2d8cdbf625e23c2011a3db",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/context_manifest.json",
+        "bytes": 4474,
+        "sha256": "d947a0313ced49a9830ee5eed64c416612922d6a43e9902868d6a19ae4156fe5",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/geonames-cities500.zip",
+        "bytes": 13936446,
+        "sha256": "62b4e0f53cbdeafc4644ed011857e70024047ad43dca2ae3bf30d503a0710476",
+        "reason": "Redundant full-country gazetteer download; exact used source rows retained in representative_places.tsv"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/geonames-CN.zip",
+        "bytes": 32237620,
+        "sha256": "dcaefcb5cfe82037bf2cf2ff18b822beb495d1c694fc45333e172c579c65843f",
+        "reason": "Redundant full-country gazetteer download; exact used source rows retained in representative_places.tsv"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/geonames-JP.zip",
+        "bytes": 4960155,
+        "sha256": "24e497fca2ca932f070aa3f2e88c098e24d43ee405ae6b37e7ec3076d2a2d94f",
+        "reason": "Redundant full-country gazetteer download; exact used source rows retained in representative_places.tsv"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/geonames-TW.zip",
+        "bytes": 2299832,
+        "sha256": "4e6e6fe0e20e2b7768f7af5967328a1a330c22e5481484f4cfe35f465fd00c82",
+        "reason": "Redundant full-country gazetteer download; exact used source rows retained in representative_places.tsv"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/manifest.json",
+        "bytes": 5379,
+        "sha256": "8546ca484695d1d13d75bd52fd3c067daedbabb2c31543f964d9b71d86296e4c",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/catalogue_sources/taiwan-biluochun.html",
+        "bytes": 93843,
+        "sha256": "2b9c8dd733ad2e0cd6868d469acaa4dd87ae29d6a4f2abf95cda548851e86ea9",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": "data/tasting/production_sources/manifest.json",
+        "bytes": 1997,
+        "sha256": "69d96939b14d82f227ab6cec30f08d6d3bfb3a25efef8ac3f69f07ac9c8a8260",
+        "reason": "Superseded concept data, trial table or obsolete acquisition manifest"
+      },
+      {
+        "path": ".cache/python/pypdf/constants.py",
+        "bytes": 24528,
+        "sha256": "1e5caf05a85f11829bc848473aa3ea78793ed684073a3591d341f2ceb2d8d687",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/errors.py",
+        "bytes": 1947,
+        "sha256": "070d56f61c4eb03830ab053a628436974f89894c93aba979423542afe5b81850",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/filters.py",
+        "bytes": 40717,
+        "sha256": "55aeacb764acc80b971454574026c2f7dc5073f7d1edac26df4f9c8db977e6cf",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/pagerange.py",
+        "bytes": 8098,
+        "sha256": "7a37288f6a137949388c07803c8ce0aa72f24a741fa7dfcdb5b984f8b2dbd754",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/papersizes.py",
+        "bytes": 1413,
+        "sha256": "e93cf9b1f34dff724e51aa58f3753e95a928867a57600d2148440d98e54b14bf",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/py.typed",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/types.py",
+        "bytes": 1699,
+        "sha256": "eb283ad86ea4e5206e8ded325cd7e0eaf4f6951b997e68dd72e86a949f4185a1",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/xmp.py",
+        "bytes": 32387,
+        "sha256": "4c4956bab086ca99c75624096326f5a577d78b0a010d48b7fa12df50e5dce07c",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_cmap.py",
+        "bytes": 21735,
+        "sha256": "e8eed582cf05800eeb7e441a435e3ab6840eb0af2ecb13a023f4a0a6d8091ad1",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_configuration.py",
+        "bytes": 12195,
+        "sha256": "fc5dcaf4e83f532293dd55af864e36f2608df0727c0a70a1c9290c775e23a085",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_doc_common.py",
+        "bytes": 68964,
+        "sha256": "dfbea57af99eedc23cc3d31c794fd86bc653ebec8de64cd60dadcf4ee9b83124",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_encryption.py",
+        "bytes": 56970,
+        "sha256": "f5ed97cc1f0d7b8e03e6a23ce5410e1c6fa8036b8ac93cb3247d7675e4aec964",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_page.py",
+        "bytes": 105902,
+        "sha256": "b28eefc0a040e857316cc361e2cdceca0482169fd937cc930259030c3a00c456",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_page_labels.py",
+        "bytes": 24239,
+        "sha256": "0c0f0367698bbdada2dc87d97c5bf4a1d6e11b0b53b23bba8947852f5ae45272",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_protocols.py",
+        "bytes": 2305,
+        "sha256": "d577878c10086fbda7ffc2a894cf70cd0aa896cb801023c1eb55d4b93a25f508",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_reader.py",
+        "bytes": 79850,
+        "sha256": "bdf9aabc61089a6889f248660ca75af6002ad950f6a86e733fb9892f52346bfb",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_utils.py",
+        "bytes": 27392,
+        "sha256": "7529fc21ba8a6a5da7e5f43d9698738c884fb7711c901873e9f7def168b2b075",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_version.py",
+        "bytes": 22,
+        "sha256": "cc8cdbc04a31cbf50d3e676730f7bdef5a5c5204af154748769ce3cdefe22982",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_writer.py",
+        "bytes": 147866,
+        "sha256": "95df7c5c5fb69c1239583eea5d6256678105d5fedc367eb6b41f49443c4bcac8",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__init__.py",
+        "bytes": 1494,
+        "sha256": "d7786f1b3cb2e52e28b1085f0ea150fa7f029baad252b29af7415c790871f7df",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf-7.1.1.dist-info/INSTALLER",
+        "bytes": 4,
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf-7.1.1.dist-info/METADATA",
+        "bytes": 7589,
+        "sha256": "ba172e01943c9bf5452fa33a2de42d90284f18f5505d8dc17567f8533079c345",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf-7.1.1.dist-info/RECORD",
+        "bytes": 8850,
+        "sha256": "356854f3c73b0c7f9398fdb5aefb1be829bfd259831f31fa4b4d1b902ea1580a",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf-7.1.1.dist-info/REQUESTED",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf-7.1.1.dist-info/WHEEL",
+        "bytes": 81,
+        "sha256": "acb244f0e2cf0596f3eedab1b35c83fb003e0036b511ce4fb9853e63f3cd5832",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf-7.1.1.dist-info/licenses/LICENSE",
+        "bytes": 1605,
+        "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/actions/_actions.py",
+        "bytes": 7702,
+        "sha256": "669a3c3f08082d586031c3bd26331bac6a0914e1beb884d8c8d7b7a8da35a67a",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/actions/__init__.py",
+        "bytes": 391,
+        "sha256": "d8bdd81ef60846bab097640490991e4b63bd6b521eb0356ed696e24854299518",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/_base.py",
+        "bytes": 961,
+        "sha256": "608453cd3764aa3f035164939b2d1fae47d3af88e87b91d41b344e5287f8a08a",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/_markup_annotations.py",
+        "bytes": 11730,
+        "sha256": "db21daaa564b2547fddd9be8466cb938ed64412dd762a2a837991ed3f5b04177",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/_non_markup_annotations.py",
+        "bytes": 3654,
+        "sha256": "3c515ef1b6916d0be44272cc928e43cd3ed5c37307f6cd5abd8d241da66c9806",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/__init__.py",
+        "bytes": 990,
+        "sha256": "7f693ffa3027dfd082076ecac50fdef771a29e7ce40076d49e749e1899758f21",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_appearance_stream.py",
+        "bytes": 43800,
+        "sha256": "4f572ec49a2c290b0389ed7b30758ac21855f1c3b8efc71eeb013e29ebfe22b4",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_base.py",
+        "bytes": 32081,
+        "sha256": "89f692a309a62a3c229eada17e02bd514bff7681f94c015b692cc42300aa778c",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_color.py",
+        "bytes": 3175,
+        "sha256": "8477a7e6d03331cc6ab8b1eaeaa31a5192f244e24070de99f039f35d926f7745",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_data_structures.py",
+        "bytes": 74893,
+        "sha256": "b0a202a5e2af65719c4b4dbb35e9e38c79002015c9d1d3ede95a3534e12ce7fe",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_files.py",
+        "bytes": 19754,
+        "sha256": "7b1e639fb08ce2b4d0133fa3ceef1b2b661f9217ab8ef2ecbbb8409e45e23148",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_fit.py",
+        "bytes": 5490,
+        "sha256": "1bf721b67435d40fdc2b7187ee56eff7b7aa6da2d7d66a2b6c2ff1ebac17d7ae",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_font.py",
+        "bytes": 44016,
+        "sha256": "03628263532c0da3dc56d97166cb1a3d89671ebee88af34692c9758d14dbb462",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_image_inline.py",
+        "bytes": 21608,
+        "sha256": "513b65fd094e97942791a01d75a297da87152b607962f2655ffd1bc7faa99f1b",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_image_xobject.py",
+        "bytes": 33876,
+        "sha256": "e8d334172d16d9e853f97626f3b5a05614c9ad76b17d34065d3c5968820869e3",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_link.py",
+        "bytes": 6800,
+        "sha256": "f5ad377dc84f0aa617a4b83d15d21f7bd8ac61dd10a581487e7b9dd22d3e1d0f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_outline.py",
+        "bytes": 796,
+        "sha256": "298a30b6ccb2ac056b4590b822d29e3c63132d0927274d239a1a626c39a7034f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_rectangle.py",
+        "bytes": 3956,
+        "sha256": "393006cf361f7cd918869193e3184edb15223c9c2cd306f05e609a51a1926824",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_utils.py",
+        "bytes": 9379,
+        "sha256": "5ea93f195d58fc4c57407b3dc1971543fcd32af0a3589c9be1434d778957bacb",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/_viewerpref.py",
+        "bytes": 7448,
+        "sha256": "e8203221eda8e418d673feee106499fa776ec923108fc3be79bb9c609b8cce6c",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__init__.py",
+        "bytes": 3525,
+        "sha256": "3bbfbe5ca9a0e6fd1f3f7718960def531794e3c35ceec6b204cb03119eb546b5",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/adobe_glyphs.py",
+        "bytes": 577665,
+        "sha256": "69ac4e46ea50409ee46cb0c76e35a280b67aa60f06f7fe5ea832a2349c72923e",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/core_font_metrics.py",
+        "bytes": 114976,
+        "sha256": "dbb26cac9a39511246215ed90ce09427259f066e8b0567aaeefdce5b3a05f21f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/pdfdoc.py",
+        "bytes": 4269,
+        "sha256": "c5f4af30562cbf1b9a490d14bbdbd90ca681d16bbce61d6e0a20758bdac07145",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/std.py",
+        "bytes": 2630,
+        "sha256": "0f240cb84a40184a52f6ecb58d67f87278fe92a4a13ce0228f9b08ed0d580fc1",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/symbol.py",
+        "bytes": 6668,
+        "sha256": "a65c125f9a8d5a4cd750fa4104621dc2ff75238b305f7176566c50f507ef4272",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/zapfding.py",
+        "bytes": 6695,
+        "sha256": "bb42160371dcf65235b4bdbeeadcddd2df733f281bc2ca103915484425b0c0ba",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/_codecs.py",
+        "bytes": 10980,
+        "sha256": "5744ef86f7ef96e42cc02aa0582d508a8abf04aa020a367a60e12bf4a73bf95c",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__init__.py",
+        "bytes": 1519,
+        "sha256": "574b0332eb98897f512be3fafb06e7724b81618c1f03014ca49823e13683dffe",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/_base.py",
+        "bytes": 1735,
+        "sha256": "34505711d85bae0f64d353d57cd37f93b94401897606481720e8b9a1f53ff91f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/_cryptography.py",
+        "bytes": 7145,
+        "sha256": "12cee92afac0a1ecc1ecb7036a26365af4b3920d310dadb05f66651485f6cd16",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/_fallback.py",
+        "bytes": 3648,
+        "sha256": "8ea49f2cd05a99bbbaebe38e0ab5067c0632470af4f55caed3bcdb934a456230",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/_pycryptodome.py",
+        "bytes": 4050,
+        "sha256": "bd9102129a13f4ebe9a46ebb74aec456de51e5aa491bd5fce588a3479ed2a6f6",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/__init__.py",
+        "bytes": 2770,
+        "sha256": "c5441b160310bca31a38e4f7454756ddb4bc7d94a147c3c13b3eab7ac7f05855",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_text_extractor.py",
+        "bytes": 17452,
+        "sha256": "af20c1ef91aa764b28cba2ba8b090dd3eb131975c4d62ec176c49ab5e514cc8e",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/__init__.py",
+        "bytes": 13424,
+        "sha256": "dfc5146f9165523250893764eecd54908dbc3aeafdf3376f1881bddd21c23dbc",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/constants.cpython-314.pyc",
+        "bytes": 29081,
+        "sha256": "b756de7d842a4ec1bfd4669c0d856ebb4f215d11bfd30d0534be54f7d13e7930",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/errors.cpython-314.pyc",
+        "bytes": 3944,
+        "sha256": "621b962732d8b9cf989201a787ab4dacc7ba2428951f3541175756b254d6e1bb",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/filters.cpython-314.pyc",
+        "bytes": 46223,
+        "sha256": "ac12888fcdc6d97ce1fff0f9ef697f966d7fa3a0c384fccf0cbff873808350ce",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/pagerange.cpython-314.pyc",
+        "bytes": 12422,
+        "sha256": "686618d36997754b18f8194c61ce4513faed2faa0cc692de770fe7f4d3bdb41c",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/papersizes.cpython-314.pyc",
+        "bytes": 1773,
+        "sha256": "351be45d9e7d59935e3614bb41c51ed9fe029a070b44c79582d2b3d27ca4a42f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/types.cpython-314.pyc",
+        "bytes": 2388,
+        "sha256": "dcaf48e6dac0beb9a6726e08968aabce58e3159ff4c53d7ca8f0712f94fe97ca",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/xmp.cpython-314.pyc",
+        "bytes": 55435,
+        "sha256": "bf79ecf664df80ff3589c6eecba08bf96dbb11402559b0e5f955d13123199176",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_cmap.cpython-314.pyc",
+        "bytes": 25174,
+        "sha256": "299d5d47be5ea1a523ee661ebea9ff7fd2d46d2a802ecf067139a6119ee86667",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_configuration.cpython-314.pyc",
+        "bytes": 10794,
+        "sha256": "6169b162fbb106b6360212dc14c63091b7ede5e5748b79080f32bf3d2208988e",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_doc_common.cpython-314.pyc",
+        "bytes": 87862,
+        "sha256": "3e52b1d0160750b534e1941e1a700419a22cb564a9fceb9d7c439f59c1c93387",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_encryption.cpython-314.pyc",
+        "bytes": 65264,
+        "sha256": "5fe6c9a22827ad41b17285fa954b0814bc7d14226c1cbf9892af38d976b8eb0d",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_page.cpython-314.pyc",
+        "bytes": 132127,
+        "sha256": "3325fc93066a15846d59cef0c75ca854217d5a71cc6457f41820abcd464deb94",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_page_labels.cpython-314.pyc",
+        "bytes": 31156,
+        "sha256": "bbfe4617d48374496e7ce442e157f99c1f35592d2f2b913911aebe9f3cb6c56e",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_protocols.cpython-314.pyc",
+        "bytes": 7379,
+        "sha256": "a618d82ff454d5ead0f486394d3f4b5f41847bb4acdad2a86aeefa69b11a3070",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_reader.cpython-314.pyc",
+        "bytes": 80620,
+        "sha256": "ffabf9588f998323db464305e2fb8f11b742cc55fc2167dc27a77dab2d051e86",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_utils.cpython-314.pyc",
+        "bytes": 39678,
+        "sha256": "fa768b9c9c376789edc002b06c2bdae8f072623f82a2ce7059357971744a77d9",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_version.cpython-314.pyc",
+        "bytes": 208,
+        "sha256": "9b9d8faa066e1ea814714c70c19cf620d4adada59639b428694acbcc5fd9e1dd",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/_writer.cpython-314.pyc",
+        "bytes": 179103,
+        "sha256": "c7b88472b2fcf5c0d8e201bcc90730acc965ab5bacdf3b06963f25cb7c7d8fea",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 1667,
+        "sha256": "8eb36528c8373675bec75ead3082642444783a9a0198eada455d9007cfaacb78",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/_fixed_width_page.py",
+        "bytes": 19932,
+        "sha256": "23e232c98ab0700d7269b88b517e0e3bfeb3e9cc6bf7d04def28b05901e692b6",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/_text_state_manager.py",
+        "bytes": 9651,
+        "sha256": "f1a9e114381df0118eef2d0673c25eff8499a3c44d1dcd26ab8989e81899cfb8",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/_text_state_params.py",
+        "bytes": 6587,
+        "sha256": "cc6e956be1c726402d30864df688ec3740c109ee74f64f73babdd94bf465cdab",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/__init__.py",
+        "bytes": 348,
+        "sha256": "56adb80f37575f9af91995d319579011c9212ed332099acdf207db4a506efecc",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/__pycache__/_text_extractor.cpython-314.pyc",
+        "bytes": 22833,
+        "sha256": "6b7c76061738f75a48ef02b423d3ea35cabf084bd89e24e83f54753a0f0fd50d",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 18954,
+        "sha256": "441588b3b08fa3d34154f76d90a17f8360f6b3e6886f88a0dbe46fe53ef74111",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/__pycache__/_fixed_width_page.cpython-314.pyc",
+        "bytes": 24474,
+        "sha256": "70eb571334d452e57253f203d409c651653aa254ea9389ce784bb17c548a6485",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/__pycache__/_text_state_manager.cpython-314.pyc",
+        "bytes": 14406,
+        "sha256": "e676d38328b37244d8a1a5cec9ad5027bce613fa9d38c2ce6b400712c35d12f1",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/__pycache__/_text_state_params.cpython-314.pyc",
+        "bytes": 11568,
+        "sha256": "228c7632a79dd7e35b6381b4a0487f118868228b248da04428cb88fb4331fc9a",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_text_extraction/_layout_mode/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 522,
+        "sha256": "89f5fd268aa74c6eefd867a6c282bfc036f1b4e22004dde40e740c9790f6e726",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/__pycache__/_base.cpython-314.pyc",
+        "bytes": 1360,
+        "sha256": "4558771ebf5060d6613a100c6c3904c0dd8930fc8275a12c68126edd5b94b9f9",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/__pycache__/_cryptography.cpython-314.pyc",
+        "bytes": 11595,
+        "sha256": "ff8a09883a19b2c3907abb058f15f1700730c4ba848e74302691e31c95defe30",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/__pycache__/_fallback.cpython-314.pyc",
+        "bytes": 6009,
+        "sha256": "494071ccb5bde5b254b6dd4d17355121745ae0eb955b0775a347c4332017a956",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/__pycache__/_pycryptodome.cpython-314.pyc",
+        "bytes": 7040,
+        "sha256": "c40e9fc62bd3e80772a94aba0827abac9832dace6d2f5508113ff169f0326021",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_crypt_providers/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 995,
+        "sha256": "5dd4319767deab61e51161ae3614b8c300a988f46e54bd53111b1f517ec0690d",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/adobe_glyphs.cpython-314.pyc",
+        "bytes": 875773,
+        "sha256": "9068906666cb7648e0833673d95a56807329d841b63f87760b392adcd46a7a53",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/core_font_metrics.cpython-314.pyc",
+        "bytes": 102533,
+        "sha256": "7a233cbf191149a9b5101f86051c00669b5b862e2f35403160eb3780b370cf65",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/pdfdoc.cpython-314.pyc",
+        "bytes": 5878,
+        "sha256": "02cedf67ca48b2d96230bcf3750c784a6a30aae9ad2178dff4d5d92b1ff4f196",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/std.cpython-314.pyc",
+        "bytes": 5772,
+        "sha256": "3aa3fffee2d37235eee51ff3b15ab53fd85bce99f4a27cd66bf62e828eaf19be",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/symbol.cpython-314.pyc",
+        "bytes": 6200,
+        "sha256": "1289cc52539b0c448bc62badbefbadb34bd7f49d7921ac17b9ec01edf375b0a8",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/zapfding.cpython-314.pyc",
+        "bytes": 6434,
+        "sha256": "c6cc325a7db1e331d86f6d5616c6dbc0486244665a5448598307334e299fe829",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/_codecs.cpython-314.pyc",
+        "bytes": 13008,
+        "sha256": "238210a501f3e6b53926895af9b5e9567be710322f745f7a4e0e0ef6ed328946",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/_codecs/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 3077,
+        "sha256": "70e90fe4d6a98c40044403611e10fc40bf9c8eabeb9b13021decb7fef78520ec",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_appearance_stream.cpython-314.pyc",
+        "bytes": 42687,
+        "sha256": "54724c0a4f887eef87b50c49b285bbfe78390191198f4a6d0aba0707d046dfe1",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_base.cpython-314.pyc",
+        "bytes": 54301,
+        "sha256": "77dbcc503960b0e757e3573202001fc7e38dbf54a983b2468382f72e69dcad27",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_color.cpython-314.pyc",
+        "bytes": 6152,
+        "sha256": "3b25cf0edeb8050b8dc309cb34a76dc48a36d052527ec6e06a9b1934d0291003",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_data_structures.cpython-314.pyc",
+        "bytes": 98214,
+        "sha256": "c9944b75e2f3ef5bd3d777392fb7527cfb1d6ceeb73ddbf6a98a0a3dd15d0421",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_files.cpython-314.pyc",
+        "bytes": 27397,
+        "sha256": "7cf1069708559ed8dcc1124261e53227887fcb4001fbce00bae7c3e042746e6f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_fit.cpython-314.pyc",
+        "bytes": 8189,
+        "sha256": "b358ec57ee917d2961a3f1ffc89c260fcdcd63a5fa56e19430f3f939ae73091c",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_font.cpython-314.pyc",
+        "bytes": 45279,
+        "sha256": "599166446c38c406970c33133aabc6cb4caa11c65b86e7ab2ff82f19df6d50b6",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_image_inline.cpython-314.pyc",
+        "bytes": 20479,
+        "sha256": "77c754049e6da61ac9242323493948392e472d1f685aa57169ae93f8ad22f221",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_image_xobject.cpython-314.pyc",
+        "bytes": 37791,
+        "sha256": "c3689f2a0f706a157245316304b09208be2869e3d119a9d4df368007ac9b2d89",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_link.cpython-314.pyc",
+        "bytes": 8577,
+        "sha256": "5c6d205f343a4a98a6913c06057c09bcf6b7736abd628a3a074591d4e804584a",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_outline.cpython-314.pyc",
+        "bytes": 1841,
+        "sha256": "419627208867e494f767ce6bf07a12f24b9cf049db19868b7c21470fe08fea41",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_rectangle.cpython-314.pyc",
+        "bytes": 10990,
+        "sha256": "73e28fe041e933006b644fe0c0776a3d00569e1bbaf99b8a06f65fdb76ac9a1a",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_utils.cpython-314.pyc",
+        "bytes": 11687,
+        "sha256": "226cc91f3b931b4c4773da6e5d50533d37e6be9d4d449238412abbb58b278669",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/_viewerpref.cpython-314.pyc",
+        "bytes": 12017,
+        "sha256": "c94330ad8b10f6b1ecfee4799bee6a613eef216884ea9f313465a577d8f25c25",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/generic/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 2659,
+        "sha256": "be1b2a8e7b053cdb96ac9d698b36257298e3b2ea7e28331f020a3a2e3e73e0aa",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/__pycache__/_base.cpython-314.pyc",
+        "bytes": 2128,
+        "sha256": "a2f9feebd7d065188e99a42747e7803b3dbfc9523474b6d826f0cd08597ca4c1",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/__pycache__/_markup_annotations.cpython-314.pyc",
+        "bytes": 17484,
+        "sha256": "21e5f308e1ebbc3f753aec07fe423b3d46fd0f38546d18c795f0a069c743628d",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/__pycache__/_non_markup_annotations.cpython-314.pyc",
+        "bytes": 5261,
+        "sha256": "f695a85fd0baa9cce09c362b3a8ba2b38d53a28b8ba5607249bf60f2e5887a37",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/annotations/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 1156,
+        "sha256": "cc0a1ad1fa91d193d72ce4eb51a64614a6b044b2ddfe5ad3a1ff4341f548faed",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/actions/__pycache__/_actions.cpython-314.pyc",
+        "bytes": 10094,
+        "sha256": "75b249467c20907fdc6fd04ce668fa911edae9711ad92f4ac93aa09c25fe040f",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      },
+      {
+        "path": ".cache/python/pypdf/actions/__pycache__/__init__.cpython-314.pyc",
+        "bytes": 584,
+        "sha256": "55d3b524308d6addcb72ed03481528c93372bc818e5b0fe5518126c936ce9e84",
+        "reason": "Temporary local PDF-reader installation and bytecode cache"
+      }
+    ],
+    "total_files": 221,
+    "total_bytes": 62808320
+  },
+  {
+    "scope": "E:\\MUSA\\30DayMapChallenge\\23",
+    "reference_check": "No external repository references; no retained renderer or Markdown dependency on removed paths.",
+    "final_png_sha256": "ed2404ca01c3378a8ee222d81709cbe4c6de4da3e6fcb5b1acc4da813f6e94d5",
+    "removed_files": [
+      {
+        "path": "review/final_350.png",
+        "bytes": 58393,
+        "sha256": "f805d9799b2eb6f1655d5e4118f02c98c51bfcedd443f9a8cba1824073e936bd",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/final_862.png",
+        "bytes": 223034,
+        "sha256": "d024bd11eb8deda4976efcc109b7fec6ebb4d9638d1ed8d12e83b14a0a453af4",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "outputs/layers/region_cn-2662.png",
+        "bytes": 10537,
+        "sha256": "888d4e759771264257735f476c83af42621586a8709083c8349a042ec756f18a",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_cn-2663.png",
+        "bytes": 10590,
+        "sha256": "be00f240d5dc3dd46acb5bcb6a2769f6e5c44e5b1a8a984dadb060a4b944d734",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_cn-2666.png",
+        "bytes": 10561,
+        "sha256": "dd42d084771c6d4507e1f36481a259bd79bf623af8402e54aab0c1dffbd665c9",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_cn-2668.png",
+        "bytes": 11909,
+        "sha256": "d68f24869f44180d312826eeb1f5008f4eeddc4d19818d2b1b2e49a903eee69b",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_cn-2705.png",
+        "bytes": 10625,
+        "sha256": "15446aaaa3e835c56122e6d9be96e33578e07a96f7e9ec73c53bbec516d9d223",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_cn-2710.png",
+        "bytes": 10503,
+        "sha256": "0269717884b18edda68b268f7fcc5e8e35e7b8569ca074ad391c383337c5bbc4",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_cn-2721.png",
+        "bytes": 10759,
+        "sha256": "cbe913895608cd6cc3e70dd84f2db708c168025e15dd1ecbb356091c5b33c407",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_nilgiri.png",
+        "bytes": 10561,
+        "sha256": "1e99ac3ceb3735709e5ec3012da0f05202a9b5286e9d1c666b6c19a3e2159dcd",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_tw-beauty.png",
+        "bytes": 10313,
+        "sha256": "37babc98c1e7da4626130931ea7d312aad904ec21fdde216af89b255fa043f2d",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      },
+      {
+        "path": "outputs/layers/region_yame.png",
+        "bytes": 10811,
+        "sha256": "aa247df8d1b454dc425fef67f22a4a261358d300e8c2825bdab93323142083ef",
+        "reason": "Superseded per-tea region layer replaced by broader display regions"
+      }
+    ],
+    "total_files": 12,
+    "total_bytes": 388596
+  },
+  {
+    "scope": "E:\\MUSA\\30DayMapChallenge\\23",
+    "reference_check": "No external repository references; no retained renderer or Markdown dependency on removed paths.",
+    "final_png_sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93",
+    "removed_files": [
+      {
+        "path": "review/final_350.png",
+        "bytes": 61061,
+        "sha256": "62608b681483fd72780c6ef28fad470c60245c072deac90461dd61c025a0c1e4",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "review/final_862.png",
+        "bytes": 239530,
+        "sha256": "7ee6056fc2074480385f9e70c3a7473a67daddae66df3608e2efcd1d2ea44ce7",
+        "reason": "Superseded review / temporary inspection artifact"
+      },
+      {
+        "path": "data/tasting/production_sources/lka_download.geojson",
+        "bytes": 174545,
+        "sha256": "aef852a66d3502fa98d02e0c361ab7aef614cfd62f7f05d7c8da1f16dfa6f4d0",
+        "reason": "Redundant full-country download; selected display province and pinned provenance retained"
+      },
+      {
+        "path": "data/tasting/production_sources/vnm_download.geojson",
+        "bytes": 536751,
+        "sha256": "010bff8d3244064bc8001033ba79acc1215a1fb6e568f6f8a90da7ecec2c2fc5",
+        "reason": "Redundant full-country download; selected display province and pinned provenance retained"
+      }
+    ],
+    "total_files": 4,
+    "total_bytes": 1011887
+  }
+]

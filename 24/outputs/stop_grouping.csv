@@ -1,0 +1,51 @@
+﻿stop_id,stop_name,lat,lon,active_ferry,landing_id,basis
+4,Hunters Point South,40.741838,-73.961322,True,4,Single active ferry stop_id; all feed stops audited separately
+8,South Williamsburg,40.708743,-73.970224,True,8,Single active ferry stop_id; all feed stops audited separately
+11,Atlantic Ave/BBP Pier 6,40.692315,-74.002073,True,11,Single active ferry stop_id; all feed stops audited separately
+16,Beach Channel Dr/Beach 108th Street,40.583846,-73.831658,False,,Exact identity audit; inactive/bus stops excluded
+17,East 34th Street,40.743912,-73.970731,True,17,Single active ferry stop_id; all feed stops audited separately
+18,Greenpoint,40.731365,-73.963617,True,18,Single active ferry stop_id; all feed stops audited separately
+19,North Williamsburg,40.720838,-73.964902,True,19,Single active ferry stop_id; all feed stops audited separately
+20,Dumbo/Fulton Ferry,40.703652,-73.995671,True,20,Single active ferry stop_id; all feed stops audited separately
+23,Bay Ridge,40.639858,-74.038130,True,23,Single active ferry stop_id; all feed stops audited separately
+24,Red Hook/Atlantic Basin,40.680957,-74.013358,True,24,Single active ferry stop_id; all feed stops audited separately
+25,Roosevelt Island,40.756811,-73.952482,True,25,Single active ferry stop_id; all feed stops audited separately
+37,Beach Channel Dr/Beach 54th Street,40.595130,-73.784960,False,,Exact identity audit; inactive/bus stops excluded
+39,Rockaway Beach Boulevard & Beach 86th Street,40.587630,-73.811180,False,,Exact identity audit; inactive/bus stops excluded
+43,Rockaway Beach Boulevard & Beach 86th Street,40.587523,-73.811179,False,,Exact identity audit; inactive/bus stops excluded
+45,Beach Channel Dr/Beach 54th Street,40.595027,-73.784696,False,,Exact identity audit; inactive/bus stops excluded
+46,Beach Channel Dr/Beach 41st Street,40.595763,-73.772531,False,,Exact identity audit; inactive/bus stops excluded
+48,Rockaway Point Boulevard & Beach 169th Street,40.567088,-73.882577,False,,Exact identity audit; inactive/bus stops excluded
+49,Jacob Riis Park Road/Bath House,40.566157,-73.872477,False,,Exact identity audit; inactive/bus stops excluded
+50,Rockaway Beach Boulevard & Beach 149th Street,40.569455,-73.863687,False,,Exact identity audit; inactive/bus stops excluded
+51,Rockaway Beach Boulevard & Beach 135th Street,40.573903,-73.852874,False,,Exact identity audit; inactive/bus stops excluded
+52,Rockaway Beach Boulevard & Beach 127th Street,40.576762,-73.845900,False,,Exact identity audit; inactive/bus stops excluded
+55,Rockaway Beach Boulevard & Beach 118th Street,40.579197,-73.839208,False,,Exact identity audit; inactive/bus stops excluded
+56,Rockaway Beach Boulevard & Beach 127th Street,40.576892,-73.845939,False,,Exact identity audit; inactive/bus stops excluded
+57,Rockaway Beach Boulevard & Beach 135th Street,40.574118,-73.852720,False,,Exact identity audit; inactive/bus stops excluded
+58,Rockaway Beach Boulevard & Beach 149th Street,40.569306,-73.864512,False,,Exact identity audit; inactive/bus stops excluded
+61,Beach Channel Dr/Beach 41st Street,40.595872,-73.772849,False,,Exact identity audit; inactive/bus stops excluded
+62,Beach Channel Dr/Beach 36th Street,40.596245,-73.769140,False,,Exact identity audit; inactive/bus stops excluded
+65,Governors Island,40.691412,-74.012327,True,65,Single active ferry stop_id; all feed stops audited separately
+87,Wall St/Pier 11,40.703161,-74.006144,True,87,Single active ferry stop_id; all feed stops audited separately
+88,Rockaway,40.584228,-73.831596,True,88,Single active ferry stop_id; all feed stops audited separately
+89,Astoria,40.771720,-73.935714,True,89,Single active ferry stop_id; all feed stops audited separately
+90,Long Island City,40.748420,-73.957725,True,90,Single active ferry stop_id; all feed stops audited separately
+103,Rockaway Beach Boulevard & Beach 67th Street,40.590691,-73.796310,False,,Exact identity audit; inactive/bus stops excluded
+104,Rockaway Beach Boulevard & Beach 96th Street,40.585406,-73.817963,False,,Exact identity audit; inactive/bus stops excluded
+105,Rockaway Beach Boulevard & Beach 77th Street,40.588359,-73.804725,False,,Exact identity audit; inactive/bus stops excluded
+112,Soundview,40.804202,-73.848703,True,112,Single active ferry stop_id; all feed stops audited separately
+113,East 90th St,40.777475,-73.942172,True,113,Single active ferry stop_id; all feed stops audited separately
+114,Stuyvesant Cove,40.731979,-73.972922,True,114,Single active ferry stop_id; all feed stops audited separately
+115,Corlears Hook,40.710159,-73.979244,True,115,Single active ferry stop_id; all feed stops audited separately
+118,Sunset Park/BAT,40.646276,-74.026436,True,118,Single active ferry stop_id; all feed stops audited separately
+120,Brooklyn Navy Yard,40.701792,-73.973576,True,120,Single active ferry stop_id; all feed stops audited separately
+136,Battery Park City/Vesey St.,40.715029,-74.017775,True,136,Single active ferry stop_id; all feed stops audited separately
+137,St. George,40.646072,-74.074231,True,137,Single active ferry stop_id; all feed stops audited separately
+138,Midtown West 39th St-Pier 79,40.760323,-74.004075,True,138,Single active ferry stop_id; all feed stops audited separately
+141,Ferry Point Park,40.805455,-73.837305,True,141,Single active ferry stop_id; all feed stops audited separately
+142,Rockaway Beach Boulevard & Beach 102nd Street,40.583830,-73.823620,False,,Exact identity audit; inactive/bus stops excluded
+145,Rockaway Beach Boulevard & Beach 118th Street,40.579155,-73.839088,False,,Exact identity audit; inactive/bus stops excluded
+149,Rockaway Beach Boulevard & Beach 96th Street,40.585465,-73.817660,False,,Exact identity audit; inactive/bus stops excluded
+150,Rockaway Beach Boulevard & Beach 79th Street,40.588152,-73.805308,False,,Exact identity audit; inactive/bus stops excluded
+151,Rockaway Beach Boulevard & Beach 67th Street,40.590786,-73.795489,False,,Exact identity audit; inactive/bus stops excluded

@@ -1,0 +1,18 @@
+{
+  "other_rows_and_css_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "other_manifest_entries_unchanged": true,
+  "description": "This tasting map brings together selected regional teas and tea drinks across Asia. The animation highlights groups of tasting notes and ends with the full map, where shaded regions locate the teas and cup icons mark examples of how tea is served.",
+  "alt": "Animated map of selected Asian teas and tea drinks, highlighting groups of tasting notes before showing all entries together.",
+  "assets": [
+    {
+      "path": "assets/23/day23_a_tasting_map_of_tea.gif",
+      "sha256": "3bb76c36d77d40d5474c07885401375d4ae037f90d3cee7b44e6d502b8ac964c"
+    },
+    {
+      "path": "assets/23/day23_a_tasting_map_of_tea.png",
+      "sha256": "3e225571f9209fc3256f81b70847900d0c3337045c867a7e2deed91d88618f93"
+    }
+  ],
+  "status": "Personal collection prepared in local workspace; no commit, push or remote deployment."
+}
