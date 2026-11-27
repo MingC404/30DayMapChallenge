@@ -11,7 +11,7 @@
         900,
         1260
       ],
-      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "src": "http://127.0.0.1:61558/30DayMapChallenge/assets/27/among_the_giants.gif",
       "objectFit": "contain",
       "no_horizontal_overflow": true
     },
@@ -26,7 +26,7 @@
         900,
         1260
       ],
-      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "src": "http://127.0.0.1:61558/30DayMapChallenge/assets/27/among_the_giants.gif",
       "objectFit": "contain",
       "no_horizontal_overflow": true
     },
@@ -41,7 +41,7 @@
         900,
         1260
       ],
-      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "src": "http://127.0.0.1:61558/30DayMapChallenge/assets/27/among_the_giants.gif",
       "objectFit": "contain",
       "no_horizontal_overflow": true
     },
@@ -56,7 +56,7 @@
         900,
         1260
       ],
-      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "src": "http://127.0.0.1:61558/30DayMapChallenge/assets/27/among_the_giants.gif",
       "objectFit": "contain",
       "no_horizontal_overflow": true
     }
@@ -115,7 +115,7 @@
     "潇湘图",
     "松阴飞瀑图"
   ],
-  "only_two_credit_lines_added": true,
+  "only_description_and_collage_credits_updated": true,
   "psd_png_gif_byte_unchanged": true,
   "other_cards_and_styles_unchanged": true,
   "other_mist_clouds_unchanged": true,

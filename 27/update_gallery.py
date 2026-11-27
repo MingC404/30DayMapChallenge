@@ -51,7 +51,7 @@ def main():
     assert [w['title'] for w in audit['works']]==[w['title'] for w in spec['collageSources']]
     assert sha(DAY/'outputs/among_the_giants_layers.psd')==audit['source_psd_sha256']
     painting_links='、'.join(f'<a href="{esc(w["url"])}" title="{esc(w["artist"])}" target="_blank" rel="noopener noreferrer" style="white-space:nowrap">《{esc(w["title"])}》</a>' for w in spec['collageSources'])
-    credits=f'<p class="tools collage-credits"><span class="collage-sources">古画拼贴素材｜{painting_links}</span><br><span class="collage-process">{esc(spec["collageProcess"])}</span></p>'
+    credits=f'<p class="tools collage-credits"><span class="collage-sources">{painting_links}</span><br><span class="collage-process">{esc(spec["collageProcess"])}</span></p>'
     links=''.join(f'<a href="{a["path"]}" target="_blank" rel="noopener noreferrer">{esc(a["label"])}</a>' for a in assets)
     links+='<a href="https://github.com/MingC404/30DayMapChallenge/blob/main/27/README.md" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>'
     links+=''.join(f'<a href="{esc(a["url"])}" target="_blank" rel="noopener noreferrer">{esc(a["label"])}</a>' for a in spec['sourceLinks'])
@@ -75,7 +75,7 @@ def main():
     lines.insert(at,'| 27 / New Tool | Among the Giants | [GIF](27/outputs/among_the_giants_summit_mist.gif) / [Static PNG](27/outputs/among_the_giants_final.png) / [Notes](27/README.md) / [Personal collection](docs/index.html#day-27) |')
     write(p,'\n'.join(lines))
     p=DOC/'GALLERY.md';text=re.sub(r'^## Day 27 /[^\n]*\n[\s\S]*?(?=^## |\Z)','',read(p),flags=re.M)
-    source_markdown='古画拼贴素材｜'+'、'.join(f'[《{w["title"]}》]({w["url"]})' for w in spec['collageSources'])
+    source_markdown='、'.join(f'[《{w["title"]}》]({w["url"]})' for w in spec['collageSources'])
     section='## Day 27 / New Tool — Among the Giants\n\n'+spec['description']+'\n\n'+source_markdown+'  \n'+spec['collageProcess']+'\n\nBy Ming Cao. Animated display: `assets/27/among_the_giants.gif` (900 × 1260, 14.4 seconds). Static cover / reduced-motion and error fallback: `assets/27/among_the_giants.png` (1800 × 2520), exported from the owner-adjusted Photoshop PSD. Both are byte-identical copies of the final D27 files. The summit mist has wider feathering; the other two mist fields and the static PNG remain unchanged.\n\nData and classical painting sources, full attribution and reuse limits: `27/README.md#data-sources` and `27/README.md#painting-sources`. The card uses the owner-supplied English description verbatim. The seven credited works are audited against visible, canvas-clipped PSD layers and the published PNG; see `27/review/collage_source_audit.json`. Unused Ma Yuan, Tang Yin and other reference works are excluded. PSD, working layers and intermediate materials stay under `27/`; only PNG and GIF are copied to `docs/assets/27/`.\n\nRun `27/update_gallery.py` and `node 27/check_gallery.cjs` for the scoped update and project-prefix desktop/mobile playback and fallback verification. No commit, push or deployment.\n\n'
     write(p,text.replace('# Gallery maintenance\n\n','# Gallery maintenance\n\n'+section,1))
     write(DAY/'review/gallery_scope.json',json.dumps(dict(assets=hashes,other_cards_and_styles_unchanged=True,manual_psd_unchanged=True,static_png_unchanged=True,only_png_and_gif_copied=True),indent=2))

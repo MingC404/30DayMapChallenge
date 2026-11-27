@@ -2,9 +2,9 @@
 
 ## Day 27 / New Tool — Among the Giants
 
-I used PyVista to render the terrain of Lalashan, Taiwan, and traced the giant-tree trail across its slopes. Trees and waterfalls collaged from classical Chinese paintings bring the landscape into dialogue with the terrain model, while drifting mist reveals and conceals the ridges.
+I often worked with collage and painting while studying and working in historic preservation. For this map, I wanted to see how those techniques could work with a 3D terrain model. I used Python and PyVista to build the mountain form of Lalashan, Taiwan, from a digital elevation model (DEM), then traced the giant-tree trail across its slopes. The trees and waterfalls were cut from the classical Chinese paintings listed below and collaged in Photoshop.
 
-古画拼贴素材｜[《早春图》](https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full)、[《树色平远图》](https://www.metmuseum.org/art/collection/search/39668)、[《双松平远图》](https://www.metmuseum.org/art/collection/search/40508)、[《江渚风林图》](https://www.metmuseum.org/art/collection/search/41154)、[《素庵图》](https://www.metmuseum.org/art/collection/search/39550)、[《潇湘图》](https://www.dpm.org.cn/collection/paint/234585.html)、[《松阴飞瀑图》](https://www.metmuseum.org/art/collection/search/45778)  
+[《早春图》](https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full)、[《树色平远图》](https://www.metmuseum.org/art/collection/search/39668)、[《双松平远图》](https://www.metmuseum.org/art/collection/search/40508)、[《江渚风林图》](https://www.metmuseum.org/art/collection/search/41154)、[《素庵图》](https://www.metmuseum.org/art/collection/search/39550)、[《潇湘图》](https://www.dpm.org.cn/collection/paint/234585.html)、[《松阴飞瀑图》](https://www.metmuseum.org/art/collection/search/45778)  
 Collaged in Photoshop.
 
 By Ming Cao. Animated display: `assets/27/among_the_giants.gif` (900 × 1260, 14.4 seconds). Static cover / reduced-motion and error fallback: `assets/27/among_the_giants.png` (1800 × 2520), exported from the owner-adjusted Photoshop PSD. Both are byte-identical copies of the final D27 files. The summit mist has wider feathering; the other two mist fields and the static PNG remain unchanged.

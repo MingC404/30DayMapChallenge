@@ -22,7 +22,7 @@ const strip=s=>s.replace(/<article id="day-27"(?=\s|>)[\s\S]*?<\/article>\n?/g,'
   assert.equal(await card.locator('.day').innerText(),'DAY 27 / NEW TOOL');
   assert.equal(await card.getAttribute('data-author'),'Ming Cao');
   assert.equal(await card.locator('.collage-process').innerText(),'Collaged in Photoshop.');
-  assert.equal(await card.locator('.collage-sources').innerText(),'古画拼贴素材｜'+spec.collageSources.map(w=>'《'+w.title+'》').join('、'));
+  assert.equal(await card.locator('.collage-sources').innerText(),spec.collageSources.map(w=>'《'+w.title+'》').join('、'));
   assert.equal(await card.locator('.collage-sources a').count(),7);
   for(const work of spec.collageSources){
    const link=card.locator('.collage-sources').getByRole('link',{name:'《'+work.title+'》',exact:true});
@@ -87,10 +87,10 @@ const strip=s=>s.replace(/<article id="day-27"(?=\s|>)[\s\S]*?<\/article>\n?/g,'
   assert.deepEqual(fs.readdirSync(path.join(root,'docs/assets/27')).sort(),['among_the_giants.gif','among_the_giants.png']);
   const creditBefore=JSON.parse(read(path.join(__dirname,'review/collage_credit_baseline.json')));
   for(const [rel,digest] of Object.entries(creditBefore.artwork_hashes))assert.equal(hash(fs.readFileSync(path.join(root,rel))),digest);
-  const removeCredit=s=>s.replace(/<p class="tools collage-credits">[\s\S]*?<\/p>/g,'');
-  for(const rel of ['docs/index.html','scripts/maps_index_template.html'])assert.equal(removeCredit(read(path.join(root,rel))),creditBefore[rel]);
+  const removeEditableCopy=s=>s.replace(/<article id="day-27"(?=\s|>)[\s\S]*?<\/article>/g,card=>card.replace(/<p class="description">[\s\S]*?<\/p>/,'').replace(/<p class="tools collage-credits">[\s\S]*?<\/p>/g,''));
+  for(const rel of ['docs/index.html','scripts/maps_index_template.html'])assert.equal(removeEditableCopy(read(path.join(root,rel))),removeEditableCopy(creditBefore[rel]));
   report.credited_visible_work_titles=spec.collageSources.map(w=>w.title);
-  report.only_two_credit_lines_added=true;report.psd_png_gif_byte_unchanged=true;
+  report.only_description_and_collage_credits_updated=true;report.psd_png_gif_byte_unchanged=true;
   assert.deepEqual(report.errors,[]);
   report.other_cards_and_styles_unchanged=true;report.other_mist_clouds_unchanged=true;report.only_final_png_gif_published=true;report.passed=true;
   fs.writeFileSync(path.join(__dirname,'review/gallery_validation.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

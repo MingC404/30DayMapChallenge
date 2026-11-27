@@ -34,9 +34,9 @@
 
 ## Gallery description
 
-I used PyVista to render the terrain of Lalashan, Taiwan, and traced the giant-tree trail across its slopes. Trees and waterfalls collaged from classical Chinese paintings bring the landscape into dialogue with the terrain model, while drifting mist reveals and conceals the ridges.
+I often worked with collage and painting while studying and working in historic preservation. For this map, I wanted to see how those techniques could work with a 3D terrain model. I used Python and PyVista to build the mountain form of Lalashan, Taiwan, from a digital elevation model (DEM), then traced the giant-tree trail across its slopes. The trees and waterfalls were cut from the classical Chinese paintings listed below and collaged in Photoshop.
 
-古画拼贴素材｜[《早春图》](https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full)、[《树色平远图》](https://www.metmuseum.org/art/collection/search/39668)、[《双松平远图》](https://www.metmuseum.org/art/collection/search/40508)、[《江渚风林图》](https://www.metmuseum.org/art/collection/search/41154)、[《素庵图》](https://www.metmuseum.org/art/collection/search/39550)、[《潇湘图》](https://www.dpm.org.cn/collection/paint/234585.html)、[《松阴飞瀑图》](https://www.metmuseum.org/art/collection/search/45778)  
+[《早春图》](https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full)、[《树色平远图》](https://www.metmuseum.org/art/collection/search/39668)、[《双松平远图》](https://www.metmuseum.org/art/collection/search/40508)、[《江渚风林图》](https://www.metmuseum.org/art/collection/search/41154)、[《素庵图》](https://www.metmuseum.org/art/collection/search/39550)、[《潇湘图》](https://www.dpm.org.cn/collection/paint/234585.html)、[《松阴飞瀑图》](https://www.metmuseum.org/art/collection/search/45778)  
 Collaged in Photoshop.
 
 By Ming Cao. 本地条目为 `docs/index.html#day-27`，位于D26与D28之间。公开资源仅为 `docs/assets/27/among_the_giants.png` 和 `among_the_giants.gif`，分别逐字节复制自手调PSD导出的最终PNG与最新云雾GIF；PSD和工作图层留在27目录。GIF为正常展示，PNG为减少动态效果和加载失败时的静态回退，也可单独下载。运行 `27/update_gallery.py` 更新此条目，运行 `node 27/check_gallery.cjs` 进行本地浏览器验证，不部署、不commit或push。

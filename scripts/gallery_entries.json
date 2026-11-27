@@ -739,7 +739,7 @@
     "theme": "New Tool",
     "title": "Among the Giants",
     "author": "Ming Cao",
-    "description": "I used PyVista to render the terrain of Lalashan, Taiwan, and traced the giant-tree trail across its slopes. Trees and waterfalls collaged from classical Chinese paintings bring the landscape into dialogue with the terrain model, while drifting mist reveals and conceals the ridges.",
+    "description": "I often worked with collage and painting while studying and working in historic preservation. For this map, I wanted to see how those techniques could work with a 3D terrain model. I used Python and PyVista to build the mountain form of Lalashan, Taiwan, from a digital elevation model (DEM), then traced the giant-tree trail across its slopes. The trees and waterfalls were cut from the classical Chinese paintings listed below and collaged in Photoshop.",
     "collageSources": [
       {
         "title": "早春图",
