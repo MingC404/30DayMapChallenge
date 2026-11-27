@@ -47,12 +47,12 @@
   ],
   "local_links": [
     {
-      "path": "/30DayMapChallenge/assets/26/where_the_river_drops_enfield.gif",
+      "path": "/30DayMapChallenge/assets/26/looking_for_the_falls_enfield.gif",
       "status": 200,
       "content_type": "image/gif"
     },
     {
-      "path": "/30DayMapChallenge/assets/26/where_the_river_drops_enfield_overview.png",
+      "path": "/30DayMapChallenge/assets/26/looking_for_the_falls_enfield_overview.png",
       "status": 200,
       "content_type": "image/png"
     }
@@ -85,7 +85,7 @@
     25,
     26
   ],
-  "browser_distinct_animation_states": 23,
+  "browser_distinct_animation_states": 24,
   "playback_observed_ms": 37800,
   "animation": {
     "frames": 279,

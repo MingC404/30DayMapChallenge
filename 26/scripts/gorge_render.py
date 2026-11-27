@@ -17,7 +17,7 @@ def mapxy(a):
 def base(a):
  im=Image.new('RGB',(W*S,H*S),BG);d=ImageDraw.Draw(im);x=84
  for c in 'DAY 26 / WATER':text(d,x,82,c,17.6,MUTED,'seguisb.ttf');x+=style.font(17.6,'seguisb.ttf').getlength(c)/S+17.6*.08
- text(d,84,146,'Where the River Drops',44.8,INK,'georgia.ttf');text(d,84,187,'Enfield Creek · Robert H. Treman State Park, New York',19.2)
+ text(d,84,146,'Looking for the Falls',44.8,INK,'georgia.ttf');text(d,84,187,'Enfield Creek · Robert H. Treman State Park, New York',19.2)
  text(d,1050,251,'ENFIELD CREEK / FULL REACH',18,MUTED);mx,my,sc=mapxy(a);line(d,list(zip(mx,my)),GRID,4);line(d,list(zip(mx,my)),MUTED,1.3)
  text(d,mx[0]-8,my[0]+7,'A',17,INK,anchor='rs');text(d,mx[-1]+10,my[-1]+7,'B',17,INK)
  line(d,[(1485,310),(1485,280)],INK,1.2);d.polygon([(1485*S,274*S),(1480*S,286*S),(1490*S,286*S)],fill=INK);text(d,1485,266,'N',17,MUTED,anchor='ms')
@@ -98,7 +98,7 @@ def schedule(a,events):
 def main():
  global BASE,CAMERA
  O.mkdir(parents=True,exist_ok=True);V.mkdir(parents=True,exist_ok=True);a=np.genfromtxt(D/'samples.csv',delimiter=',',names=True);events=json.loads((D/'selected_descents.json').read_text(encoding='utf8'));z=a['raw_dem_elevation_m'];centers=np.array([.5*(np.max(z[i:i+WINDOW+1])+np.min(z[i:i+WINDOW+1])) for i in range(len(z)-WINDOW)]);CAMERA=gaussian_filter1d(centers,12,mode='nearest');BASE=base(a)
- overview=render(a,events,overview=True);overview.save(O/'where_the_river_drops_enfield_overview.png',dpi=(150,150))
+ overview=render(a,events,overview=True);overview.save(O/'looking_for_the_falls_enfield_overview.png',dpi=(150,150))
  examples=[overview]
  for e in events:
   im=render(a,events,e['chainage_m']-WINDOW/2,e);examples.append(im)
@@ -108,7 +108,7 @@ def main():
  for i,im in enumerate(examples):sheet.paste(im,(0,H*i))
  learned=sheet.quantize(colors=249,method=Image.Quantize.MEDIANCUT).getpalette()[:249*3];colors=[]
  for c in [BG,INK,MUTED,BLUE,GRID,FILL,AMBER]:colors.extend(bytes.fromhex(c[1:]))
- pal=Image.new('P',(1,1));pal.putpalette(colors+learned);seq=schedule(a,events);first=render(a,events,0);last=render(a,events,float(a['distance_m'][-1]-WINDOW));previous=None;records=[];target=O/'where_the_river_drops_enfield_preview.gif';byid={e['id']:e for e in events}
+ pal=Image.new('P',(1,1));pal.putpalette(colors+learned);seq=schedule(a,events);first=render(a,events,0);last=render(a,events,float(a['distance_m'][-1]-WINDOW));previous=None;records=[];target=O/'looking_for_the_falls_enfield_preview.gif';byid={e['id']:e for e in events}
  with target.open('wb') as out:
   for i,item in enumerate(seq):
    mode=item['mode']
@@ -129,6 +129,6 @@ def main():
    records.append(rec);previous=frame
    if i%40==0:print('FRAME',i,'/',len(seq),flush=True)
   out.write(b';')
- manifest={'canvas':[W,H],'gif':target.name,'overview':'where_the_river_drops_enfield_overview.png','cycle_ms':sum(r['duration_ms'] for r in records),'frames':records,'local_width_m':WINDOW,'local_height_span_m':HEIGHT,'local_tick_spacing_m':10,'overview_y_limits_m':[120,300],'main_stroke_supersample_pixels':10,'previous_ganoga_stroke_supersample_pixels':7,'line_increase_percent':100*(10/7-1),'static_before_gif':True,'main_curve':'raw native DEM samples','camera_note':'Vertical camera translates with fixed 70m span; 10m ticks and pixels/meter are identical in every local frame. Final frames return to the full reach.'}
+ manifest={'canvas':[W,H],'gif':target.name,'overview':'looking_for_the_falls_enfield_overview.png','cycle_ms':sum(r['duration_ms'] for r in records),'frames':records,'local_width_m':WINDOW,'local_height_span_m':HEIGHT,'local_tick_spacing_m':10,'overview_y_limits_m':[120,300],'main_stroke_supersample_pixels':10,'previous_ganoga_stroke_supersample_pixels':7,'line_increase_percent':100*(10/7-1),'static_before_gif':True,'main_curve':'raw native DEM samples','camera_note':'Vertical camera translates with fixed 70m span; 10m ticks and pixels/meter are identical in every local frame. Final frames return to the full reach.'}
  (V/'animation_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf8');print(target,target.stat().st_size,manifest['cycle_ms'],flush=True)
 if __name__=='__main__':main()

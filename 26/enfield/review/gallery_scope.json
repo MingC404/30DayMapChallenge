@@ -2,12 +2,12 @@
   "other_cards_and_css_unchanged": true,
   "other_registry_entries_unchanged": true,
   "artwork_sha256": {
-    "26/enfield/outputs/where_the_river_drops_enfield_preview.gif": "824bd9863a8de059522efc4a5c7d769329a17b30c6f1ef9fb1e643196aacefd6",
-    "26/enfield/outputs/where_the_river_drops_enfield_overview.png": "280d449aed1cf3f562afe1ea72ed390f9cf15aa2af59102f92e3d3c8ff23d546"
+    "26/enfield/outputs/looking_for_the_falls_enfield_preview.gif": "767dba72e9fde355255912ddd9598a6236e3f49853d169f70cb92e15df6577f3",
+    "26/enfield/outputs/looking_for_the_falls_enfield_overview.png": "97220ab17b5c6a20847183579ea1406273906417d5a1f35a08dcf3bb6b1f3848"
   },
   "assets": [
-    "assets/26/where_the_river_drops_enfield.gif",
-    "assets/26/where_the_river_drops_enfield_overview.png"
+    "assets/26/looking_for_the_falls_enfield.gif",
+    "assets/26/looking_for_the_falls_enfield_overview.png"
   ],
   "status": "Local update only; no commit, push or deployment."
 }

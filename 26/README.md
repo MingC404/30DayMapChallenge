@@ -1,9 +1,9 @@
-# Day 26 / Water — Where the River Drops
+# Day 26 / Water — Looking for the Falls
 
 Ming Cao · Enfield Creek, Enfield Glen, Robert H. Treman State Park, New York.
 
-- [Final downstream GIF](enfield/outputs/where_the_river_drops_enfield_preview.gif)
-- [Final static overview](enfield/outputs/where_the_river_drops_enfield_overview.png)
+- [Final downstream GIF](enfield/outputs/looking_for_the_falls_enfield_preview.gif)
+- [Final static overview](enfield/outputs/looking_for_the_falls_enfield_overview.png)
 - [Methods, sources, sampling and reproduction](enfield/README.md)
 - [Gallery entry](../docs/index.html#day-26)
 - [Gallery specification](gallery-entry.json)

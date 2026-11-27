@@ -688,7 +688,7 @@
   {
     "day": "26",
     "theme": "Water",
-    "title": "Where the River Drops",
+    "title": "Looking for the Falls",
     "author": "Ming Cao",
     "description": "I followed Enfield Creek downstream through Enfield Glen, New York, to see how a series of waterfalls appears in a river’s elevation profile. The animation links each highlighted drop in the profile to the same reach on the map, showing where the creek descends in steps.",
     "tools": [
@@ -706,16 +706,16 @@
     ],
     "media": [
       {
-        "source": "26/enfield/outputs/where_the_river_drops_enfield_preview.gif",
-        "path": "assets/26/where_the_river_drops_enfield.gif",
+        "source": "26/enfield/outputs/looking_for_the_falls_enfield_preview.gif",
+        "path": "assets/26/looking_for_the_falls_enfield.gif",
         "label": "View animation",
-        "alt": "Animation linking the Enfield Creek channel map with its longitudinal elevation profile, highlighting successive elevation drops while moving downstream."
+        "alt": "Looking for the Falls: animation linking the Enfield Creek channel map with its longitudinal elevation profile, highlighting successive elevation drops while moving downstream."
       }
     ],
     "downloads": [
       {
-        "source": "26/enfield/outputs/where_the_river_drops_enfield_overview.png",
-        "path": "assets/26/where_the_river_drops_enfield_overview.png",
+        "source": "26/enfield/outputs/looking_for_the_falls_enfield_overview.png",
+        "path": "assets/26/looking_for_the_falls_enfield_overview.png",
         "label": "Static overview PNG"
       }
     ],

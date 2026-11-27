@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "title": "Looking for the Falls",
+  "static_change_bounds_xyxy": [
+    81,
+    109,
+    543,
+    159
+  ],
+  "static_pixels_outside_title_unchanged": true,
+  "all_279_frames_verified_against_retitled_renderer": true,
+  "all_headers_identical_as_checked_by_gorge_verify": true,
+  "all_frame_modes_windows_focus_and_durations_unchanged": true,
+  "renderer_diff_exactly_title_and_output_basenames": true,
+  "canvas": [
+    1600,
+    1200
+  ],
+  "frames": 279,
+  "cycle_ms": 33750,
+  "final_artwork_sha256": {
+    "looking_for_the_falls_enfield_overview.png": "97220ab17b5c6a20847183579ea1406273906417d5a1f35a08dcf3bb6b1f3848",
+    "looking_for_the_falls_enfield_preview.gif": "767dba72e9fde355255912ddd9598a6236e3f49853d169f70cb92e15df6577f3"
+  },
+  "data_and_signature_unchanged": true,
+  "gallery_project_prefix": "/30DayMapChallenge/",
+  "gallery_validation_passed": true,
+  "old_output_copies_removed": true,
+  "no_old_title_or_enfield_basename_references": true,
+  "other_day_files_unchanged": true,
+  "input_data_files_unchanged": true
+}

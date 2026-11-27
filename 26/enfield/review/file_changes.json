@@ -1,5 +1,5 @@
 {
-  "perspective": "Git working tree relative to HEAD; retained untracked Enfield draft files also appear as additions.",
+  "perspective": "Historical finalization inventory from 2026-11-25; retained paths follow the current title. Current title-only re-export checks are in title_rename_validation.json.",
   "added": [
     "26/.gitignore",
     "26/FINALIZATION.md",
@@ -45,8 +45,8 @@
     "26/enfield/data/selected_descents.json",
     "26/enfield/data/site_decision.json",
     "26/enfield/data/source_hashes.json",
-    "26/enfield/outputs/where_the_river_drops_enfield_overview.png",
-    "26/enfield/outputs/where_the_river_drops_enfield_preview.gif",
+    "26/enfield/outputs/looking_for_the_falls_enfield_overview.png",
+    "26/enfield/outputs/looking_for_the_falls_enfield_preview.gif",
     "26/enfield/requirements.txt",
     "26/enfield/review/E1_audit.jpg",
     "26/enfield/review/E2_audit.jpg",
@@ -75,8 +75,8 @@
     "26/scripts/gorge_select.py",
     "26/scripts/gorge_verify.py",
     "26/scripts/update_gallery.py",
-    "docs/assets/26/where_the_river_drops_enfield.gif",
-    "docs/assets/26/where_the_river_drops_enfield_overview.png"
+    "docs/assets/26/looking_for_the_falls_enfield.gif",
+    "docs/assets/26/looking_for_the_falls_enfield_overview.png"
   ],
   "modified": [
     "26/README.md",

@@ -1,12 +1,12 @@
 # Gallery maintenance
 
-## Day 26 / Water — Where the River Drops
+## Day 26 / Water — Looking for the Falls
 
 By Ming Cao. Enfield Creek through Enfield Glen, Robert H. Treman State Park, New York. Main media is the confirmed 1600 × 1200, 33.75-second GIF; the static overview PNG is a separate download, following Day 25. Both published assets are byte-identical copies of the final artwork.
 
 I followed Enfield Creek downstream through Enfield Glen, New York, to see how a series of waterfalls appears in a river’s elevation profile. The animation links each highlighted drop in the profile to the same reach on the map, showing where the creek descends in steps.
 
-Alt text: Animation linking the Enfield Creek channel map with its longitudinal elevation profile, highlighting successive elevation drops while moving downstream.
+Alt text: Looking for the Falls: animation linking the Enfield Creek channel map with its longitudinal elevation profile, highlighting successive elevation drops while moving downstream.
 
 Method: 3,584 m of one downstream creek path; USGS 3DHP geometry checked against the DEM valley floor; native 1 m USGS 3DEP NY_FingerLakes_2020_A20 OPR, EPSG:6347, meters NAVD88 / GEOID12B. Original samples are drawn; light smoothing and lateral samples only aid screening. Four raw endpoint-median descent estimates are 35.6, 3.4, 5.3 and 13.4 m. Two are recorded waterfall reaches, two remain DEM candidates. Local windows are 400 m wide with a 70 m vertical span and 10 m ticks. Public records validate locations rather than set plotted heights.
 

@@ -1,9 +1,9 @@
-# Where the River Drops — final Enfield Creek study
+# Looking for the Falls — final Enfield Creek study
 
 Ming Cao · Day 26 / Water. Confirmed final version.
 
-- [Static overview](outputs/where_the_river_drops_enfield_overview.png)
-- [Downstream GIF](outputs/where_the_river_drops_enfield_preview.gif): 1600 × 1200, 279 frames, 33.75 seconds.
+- [Static overview](outputs/looking_for_the_falls_enfield_overview.png)
+- [Downstream GIF](outputs/looking_for_the_falls_enfield_preview.gif): 1600 × 1200, 279 frames, 33.75 seconds.
 - [Sampling and frame validation](review/validation.json)
 - [Gallery validation](review/gallery_validation.json)
 

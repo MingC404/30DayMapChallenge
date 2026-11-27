@@ -25269,14 +25269,15 @@
     }
   ],
   "final_media_before": {
-    "where_the_river_drops_enfield_overview.png": "280d449aed1cf3f562afe1ea72ed390f9cf15aa2af59102f92e3d3c8ff23d546",
-    "where_the_river_drops_enfield_preview.gif": "824bd9863a8de059522efc4a5c7d769329a17b30c6f1ef9fb1e643196aacefd6"
+    "looking_for_the_falls_enfield_overview.png": "280d449aed1cf3f562afe1ea72ed390f9cf15aa2af59102f92e3d3c8ff23d546",
+    "looking_for_the_falls_enfield_preview.gif": "824bd9863a8de059522efc4a5c7d769329a17b30c6f1ef9fb1e643196aacefd6"
   },
   "initial_D26_files": 337,
   "only_D26_cleanup": true,
   "executed": true,
   "all_cleanup_targets_absent": true,
-  "approved_media_byte_identical": true,
   "removed_original_files": 4202,
-  "removed_original_bytes": 473593652
+  "removed_original_bytes": 473593652,
+  "media_snapshot_note": "Historical hashes from the completed cleanup, before the later title-only re-export. Keys follow the current filenames; current artwork hashes are in validation.json.",
+  "approved_media_byte_identical_at_cleanup": true
 }
