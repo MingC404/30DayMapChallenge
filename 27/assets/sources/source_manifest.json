@@ -1,0 +1,53 @@
+[
+  {
+    "file": "guo_xi_old_trees.jpg",
+    "artist": "Guo Xi",
+    "title": "Old Trees, Level Distance",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "1981.276",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP167812_CRD.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/39668",
+    "rights": "CC0, museum Open Access; official API isPublicDomain=true",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      3508,
+      1872
+    ],
+    "bytes": 1692680,
+    "sha256": "d0623ddb41ac34da4912cac8b83a82636a2922077385c1010cd7a0bd92a2f33c"
+  },
+  {
+    "file": "dong_yuan_xiaoxiang.jpg",
+    "artist": "Dong Yuan",
+    "title": "Xiao and Xiang Rivers",
+    "collection": "The Palace Museum, Beijing",
+    "accession": "new 00147099",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Xiao_and_Xiang_rivers.jpg",
+    "record_url": "https://commons.wikimedia.org/wiki/File:Xiao_and_Xiang_rivers.jpg",
+    "rights": "Public Domain Mark; PD-old-100-expired on actual Commons file, not a museum CC0 grant",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      8475,
+      3000
+    ],
+    "bytes": 8917352,
+    "sha256": "c93325a9674fe3d2e8d5a48fc709196f8b589ca26cf82736e3cddff1b8a0f396"
+  },
+  {
+    "file": "ma_yuan_waterfall.jpg",
+    "artist": "Ma Yuan",
+    "title": "Scholar viewing a waterfall",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "1973.120.9",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP154090.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/40086",
+    "rights": "CC0 under Met Open Access; official API isPublicDomain=true",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      3407,
+      3000
+    ],
+    "bytes": 2987942,
+    "sha256": "2ba5d31803f54c802f6e50f99ea36055953d31110496885fd8c8243899c5bbf1"
+  }
+]

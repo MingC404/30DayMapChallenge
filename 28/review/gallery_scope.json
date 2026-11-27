@@ -1,0 +1,13 @@
+{
+  "other_cards_and_styles_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "artwork_sha256": {
+    "28/the_wanderer.gif": "4146df63375967996ed3bd2d43f4f73cbad8760215ed32840af89943e5920e22",
+    "28/the_wanderer.png": "2ba5c96992ee01685f43514e4e6e31d3c1bee5ea1a3ff931d236f2eb8cf57f47"
+  },
+  "assets": [
+    "assets/28/the_wanderer.gif",
+    "assets/28/the_wanderer.png"
+  ],
+  "status": "Local gallery prepared; no commit, push or deployment."
+}

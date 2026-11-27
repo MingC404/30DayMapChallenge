@@ -1,0 +1,225 @@
+{
+  "layer_count": 21,
+  "canvas": [
+    1800,
+    2520
+  ],
+  "reimported_layer_stack_max_error": 0,
+  "embedded_preview_max_error": 1,
+  "embedded_preview_mean_error": 4.556143445032334e-06,
+  "layers": [
+    {
+      "name": "sky_background",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "terrain_pale_ink",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "reference_gps_track",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "candidate_locations",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "entrance_marker",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "grove_dong_yuan_distant",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "new_dense_grove_wang_meng",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "new_single_pine_zhao_mengfu",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "new_sparse_grove_ni_zan",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "main_tree_guo_xi",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "day_kicker",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "title",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "subtitle",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "legend_symbols",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "legend_text",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "entrance_label",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "collage_caption",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "position_note",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "terrain_source",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "art_source",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "signature",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    }
+  ],
+  "photoshop_application_open_tested": false,
+  "text_is_raster_in_psd": true,
+  "editable_text_script": "make_text_editable.jsx"
+}

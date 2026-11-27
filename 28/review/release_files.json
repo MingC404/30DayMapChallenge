@@ -1,0 +1,75 @@
+{
+  "final_outputs": [
+    "28/the_wanderer.png",
+    "28/the_wanderer.gif"
+  ],
+  "gallery_assets": [
+    "docs/assets/28/the_wanderer.gif",
+    "docs/assets/28/the_wanderer.png"
+  ],
+  "updated_shared_files": [
+    "docs/index.html",
+    "scripts/gallery_entries.json",
+    "docs/gallery-manifest.json",
+    "docs/GALLERY.md",
+    "README.md",
+    "scripts/maps_index_template.html"
+  ],
+  "day28_release_files": [
+    "28/.gitignore",
+    "28/README.md",
+    "28/check_gallery.cjs",
+    "28/clean_release.py",
+    "28/data/route.json",
+    "28/gallery-entry.json",
+    "28/prepare_route.py",
+    "28/render.py",
+    "28/render_report.json",
+    "28/requirements.txt",
+    "28/review/cleanup.json",
+    "28/review/gallery_baseline.json",
+    "28/review/gallery_scope.json",
+    "28/review/gallery_validation.json",
+    "28/review/release_files.json",
+    "28/the_wanderer.gif",
+    "28/the_wanderer.png",
+    "28/update_gallery.py",
+    "28/validation.json",
+    "28/verify.py"
+  ],
+  "deleted_files": [
+    "28/autumn_flaneuse.png",
+    "28/autumn_flaneuse.gif",
+    "28/preview.png",
+    "28/gallery_size_check.png",
+    "28/gallery_size_check.gif",
+    "28/motion_review.png",
+    "28/pause_1.png",
+    "28/pause_2.png",
+    "28/windows_preview.png",
+    "28/data/fixed_map.png",
+    "28/data/osm.xml",
+    "28/finish_edits.py",
+    "28/.gitkeep",
+    "28/.work/fixed_map.png",
+    "28/.work/gallery-1280.png",
+    "28/.work/gallery-390.png",
+    "28/.work/gallery_size_check.gif",
+    "28/.work/gallery_size_check.png",
+    "28/.work/motion_review.png",
+    "28/.work/pause_1.png",
+    "28/.work/pause_2.png",
+    "28/.work/preview.png",
+    "28/.work/windows_preview.png"
+  ],
+  "source_inputs_preserved": [
+    "data_raw/day08_utopia/rittenhouse_walnut.osm",
+    "data_raw/day08_utopia/rittenhouse_sources.json",
+    "28/data/route.json"
+  ],
+  "validation": {
+    "geometry_and_animation": "28/validation.json",
+    "desktop_mobile_browser": "28/review/gallery_validation.json"
+  },
+  "commit_push_deployment_performed": false
+}

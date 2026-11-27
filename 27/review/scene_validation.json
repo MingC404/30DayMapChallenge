@@ -1,0 +1,97 @@
+{
+  "input_sha256": {
+    "18\\oblique\\scene_mesh_epsg3826.npz": "daae24cb75b57bb0a7f7a0d9fc5ae83f884bae17016ec4b4059c40fdc442aeed",
+    "18\\oblique\\composition_dem_30m.tif": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b",
+    "18\\oblique\\composition_dem_source.json": "6767537abf9bc42dd6e789ff89a05816cf50d85c7e492625ddc62d913154d51d",
+    "18\\oblique\\camera_c.json": "9f702cf23e120f92a529a3ff46f228c6e58aae14b106122fd50459a986f36164",
+    "18\\research\\data\\official_communication_points.geojson": "8a6d02e86d40ed8e3e90325d14d549c37cb44d4e2b015b59cbcc40a54531122e"
+  },
+  "original_vertices_retained": 1804,
+  "original_faces_retained": 3440,
+  "extended_vertices": 36000,
+  "extended_faces": 29696,
+  "original_overlap_max_z_difference_m": 0,
+  "azimuth_deg": 315.0,
+  "elevation_deg": 42.0,
+  "parallel_scale": 661.5,
+  "orthographic_height_m": 1323.0,
+  "focus_local_render_xyz": [
+    86.36205286123673,
+    -126.55400230388004,
+    167.20758573241372
+  ],
+  "horizontal_world_width_m": 945.0,
+  "canvas_px": [
+    1800,
+    2520
+  ],
+  "zoom_out_horizontal_fraction": 0.05,
+  "focus_up_m": 225,
+  "terrain_extension": "NW foreground only, preserving adopted distant profile",
+  "candidate_projections": {
+    "1": [
+      1019.1579220979974,
+      1781.414059841608
+    ],
+    "2": [
+      864.5113354919541,
+      1653.3727993246612
+    ],
+    "3": [
+      721.5936019343915,
+      1486.7037345541758
+    ],
+    "4": [
+      734.3741956514868,
+      1465.4112244462121
+    ],
+    "5": [
+      1004.5148827412473,
+      1325.8464624055775
+    ],
+    "6": [
+      946.5709385790458,
+      1283.3824382364521
+    ],
+    "7": [
+      910.7250518624988,
+      1259.010747266481
+    ],
+    "8": [
+      789.9128657858911,
+      1344.541308617535
+    ],
+    "12": [
+      455.01330728999017,
+      1190.416858367539
+    ],
+    "14": [
+      508.99293713893314,
+      1401.7937871547758
+    ],
+    "15": [
+      428.3700339101819,
+      1479.0427007314086
+    ],
+    "16": [
+      297.4095207161545,
+      1503.4587390255624
+    ],
+    "19": [
+      454.76822393114986,
+      1623.0167748522438
+    ],
+    "20": [
+      565.8753031653025,
+      1510.7228298992702
+    ],
+    "21": [
+      568.6277496871787,
+      1548.4175021356496
+    ]
+  },
+  "entrance_projection": [
+    1501.792385595902,
+    2379.5310359395226
+  ]
+}

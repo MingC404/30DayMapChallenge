@@ -1,0 +1,630 @@
+{
+  "checked_files": 156,
+  "changed_files": 0,
+  "files": [
+    {
+      "path": "18/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18/cleanup_after.json",
+      "sha256": "60427a9351cdd9bbed08a529592efc2f88ab8e90d01a0d87f2bf5122e5f88373"
+    },
+    {
+      "path": "18/cleanup_before.json",
+      "sha256": "802650b6c5e9fc0a85862fb4193fd617d228f1c37b802915886806a7ddd0ee0d"
+    },
+    {
+      "path": "18/cleanup_plan.json",
+      "sha256": "141003efd56900329fb9f14cb766c70de2053561344e570db5de856e4498b0d7"
+    },
+    {
+      "path": "18/cleanup_report.md",
+      "sha256": "26587f2c269ec8479004a35bdc08818d5d7d1f179333bb025bcb061280aeb262"
+    },
+    {
+      "path": "18/NOTICE.md",
+      "sha256": "ac1fee20bb9195f25a8b8d7324cc617c8f7745244ea7777999d6c7a6fbda59bf"
+    },
+    {
+      "path": "18/README.md",
+      "sha256": "bf760a93a73d99e02310cc29f29cb90effca541fa402dd0d5f63be8e8344eecb"
+    },
+    {
+      "path": "18/.uv-cache/.gitignore",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "path": "18/.uv-cache/.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18/.uv-cache/CACHEDIR.TAG",
+      "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
+    },
+    {
+      "path": "18/.uv-cache/interpreter-v4/5843cb353efc6d76/c5e473e5b024527e.msgpack",
+      "sha256": "7f4cdd5439bba4e0f132249adc526fe204c9f612cbd118ce8f63a4485fa4887a"
+    },
+    {
+      "path": "18/.uv-cache/sdists-v9/.git",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18/.uv-cache/sdists-v9/.gitignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18/ai_reference/export_references.py",
+      "sha256": "c18cd86b3bb0d8d4c7b9674d5698fe904ad2219703d031c5c0c371187c133190"
+    },
+    {
+      "path": "18/ai_reference/gis_overlay_reference.png",
+      "sha256": "35708f24785be758f2a37eb4d1f535d2195b996b7bd0caadba06cd4045c6dbbc"
+    },
+    {
+      "path": "18/ai_reference/projection_parameters.json",
+      "sha256": "3cfb6ceba3842da124d0376a44b171a496bba9ba1b54b2184c496a5c2671a2fd"
+    },
+    {
+      "path": "18/ai_reference/README.md",
+      "sha256": "69b4eb6ebafdb89130c75b3147bd06bf52ea141adc599a6b12ca7bc5839917ef"
+    },
+    {
+      "path": "18/ai_reference/terrain_reference.png",
+      "sha256": "d2c3b7ac62a2a76ad86642a5604b7941ab1c0dcbd69880c8e8ab2b10d09f5161"
+    },
+    {
+      "path": "18/ink_study/A_structural_ink.png",
+      "sha256": "c54b91d0cb2525e063bfb390a4ee53bffda2bfd33ae49f25d48c461560d0f68e"
+    },
+    {
+      "path": "18/ink_study/brushwork_notes.md",
+      "sha256": "90e40a9828180d5230811e1aa16f98cfebe6df2f488a110423dd8cf63ebf9dce"
+    },
+    {
+      "path": "18/ink_study/brushwork_validation.json",
+      "sha256": "4de8bf26dad5bdeda630ef1502389d4b01104b468866ee851846c6b92259e6e5"
+    },
+    {
+      "path": "18/ink_study/B_atmospheric_ink.png",
+      "sha256": "999fe984b1faea4d7b7a9b9e218c28afef0e28f7853239f444d85311d2c08ab3"
+    },
+    {
+      "path": "18/ink_study/mountain_brushwork.png",
+      "sha256": "a092e2c9a844477d4b18bc58b369441ad31a02b384d6db0fa654631d61720c6f"
+    },
+    {
+      "path": "18/ink_study/render_brushwork.py",
+      "sha256": "cec41f6fce838b1793ce4d599df8f8c093462191b2512ebc13425efec3405166"
+    },
+    {
+      "path": "18/ink_study/render_ink.py",
+      "sha256": "0800ec532c2dd8a98657ba595a18418b02f2ec413d84bc719f0a8d3e3086b09f"
+    },
+    {
+      "path": "18/oblique/art_validation.json",
+      "sha256": "0d0bfd5fc787798d2776604b29fb750acef4364ba926ca44b9948bd7dd50092a"
+    },
+    {
+      "path": "18/oblique/build_study.py",
+      "sha256": "7c0d9424502b439f600ad5d6b91661a7f43172d12b0afdd2708cc083f800ff4e"
+    },
+    {
+      "path": "18/oblique/camera_c.json",
+      "sha256": "9f702cf23e120f92a529a3ff46f228c6e58aae14b106122fd50459a986f36164"
+    },
+    {
+      "path": "18/oblique/camera_comparison.csv",
+      "sha256": "dd10470b041a27a2eca0bcd31021e878dbe5d63ab8669fdf1f01077a2961379e"
+    },
+    {
+      "path": "18/oblique/camera_comparison.json",
+      "sha256": "5958b3d02e23e22c0d9980c8dd2aa41dd5be33267cdfe6563602dfaf2f0c074e"
+    },
+    {
+      "path": "18/oblique/camera_composition.json",
+      "sha256": "163b2d378e57279daf8391ecb5897ea469834e14d65433e7fff546f75154c6c8"
+    },
+    {
+      "path": "18/oblique/camera_study.md",
+      "sha256": "019c191fb933e872c0223a97990df148cf1241fa5613e624ce1406dda48ab3aa"
+    },
+    {
+      "path": "18/oblique/composition_dem_30m.tif",
+      "sha256": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b"
+    },
+    {
+      "path": "18/oblique/composition_dem_source.json",
+      "sha256": "6767537abf9bc42dd6e789ff89a05816cf50d85c7e492625ddc62d913154d51d"
+    },
+    {
+      "path": "18/oblique/composition_revision.md",
+      "sha256": "9043498478d7a8601b1ddf8f9d7f826e5e267af7375d0c220ecafc7daf17170b"
+    },
+    {
+      "path": "18/oblique/composition_validation.json",
+      "sha256": "fa0c405c7b74cec23e597cdde3b13e3d56e89b3c6cf3d9d634ce542b964ab596"
+    },
+    {
+      "path": "18/oblique/extend_composition_dem.py",
+      "sha256": "1c9312672a7352b070ddac7c3dc93d10e00cf54619295f5444a9d6781613ab66"
+    },
+    {
+      "path": "18/oblique/finalize_docs.py",
+      "sha256": "3431fb2e9425ffacb72fdaa12543ab47652e4445033b2d3bcd9141fd801c28d5"
+    },
+    {
+      "path": "18/oblique/finish_audit.py",
+      "sha256": "2a685d668431e420e527bd6436f9a9346169d92c02b00f13fd8712570bde272d"
+    },
+    {
+      "path": "18/oblique/prepare_cleanup.py",
+      "sha256": "c8a69afdb47a7c8933f1aaa831b4a72da30d550043552c32333f7821ccac9060"
+    },
+    {
+      "path": "18/oblique/README.md",
+      "sha256": "1ac13890c070a0955e161530a0d243dea176ab60dd5aebad6a46fad1797159fc"
+    },
+    {
+      "path": "18/oblique/render_art.py",
+      "sha256": "c162c453dbddc894ca172da5e1a996a2ee173a359059b3be3c01f7729ed89b37"
+    },
+    {
+      "path": "18/oblique/scene.json",
+      "sha256": "c1d7bbf9d6127a0d5671b9999d1fb03e4a0fba2a5230502f9d716a8e7176373e"
+    },
+    {
+      "path": "18/oblique/scene_mesh_epsg3826.npz",
+      "sha256": "daae24cb75b57bb0a7f7a0d9fc5ae83f884bae17016ec4b4059c40fdc442aeed"
+    },
+    {
+      "path": "18/oblique/shanshui_C_art.png",
+      "sha256": "679bff6e1c2021c36734dfb448c5b2df569b76095191118e0756a166226aafdf"
+    },
+    {
+      "path": "18/oblique/shanshui_C_composition.png",
+      "sha256": "7746429008d54d8817724a92558917c85669993d55242cba082275b6ff937c94"
+    },
+    {
+      "path": "18/oblique/validation.json",
+      "sha256": "af7d338bd8e3ebd3f4f2e8ece8da8b35a5c7f8804c80977308c296b2df078c62"
+    },
+    {
+      "path": "18/research/.gitignore",
+      "sha256": "0572832eb6ecab28ff4a6a38432fa51326e71ed54ca6bdd825c36d4005c1b1eb"
+    },
+    {
+      "path": "18/research/cartographic_feasibility.md",
+      "sha256": "708ced78d5179a2845bcb40f437334683293e91856ddb45b14b8ef87842f47c7"
+    },
+    {
+      "path": "18/research/cartographic_options.md",
+      "sha256": "8d5929501878d83d23633cb490066efe08c28d4b8864ef06060546afb1499b04"
+    },
+    {
+      "path": "18/research/data_feasibility.md",
+      "sha256": "215c4a7924a89b7707833de42344a1a28cf2f23f04df61b56d523f175c4bfdfd"
+    },
+    {
+      "path": "18/research/README.md",
+      "sha256": "c0717427a9273306479b559518b5aad0d7d36658f4a0540548519fb8be11f4b5"
+    },
+    {
+      "path": "18/research/review_20261120.md",
+      "sha256": "57beef134fb6ea288aea9d26599cd57ab90364ebe08c2fa8361e2885e621a49c"
+    },
+    {
+      "path": "18/research/sources.md",
+      "sha256": "7c151b671501b51761ccbbfdac76c0cdb48da7d959f49d8ec81d72919ad0dcde"
+    },
+    {
+      "path": "18/research/source_manifest.json",
+      "sha256": "4ad55dad76e05f073a882b486a6382cbd2c17a900c6fc373d853084d4f937813"
+    },
+    {
+      "path": "18/research/terrain_feasibility.md",
+      "sha256": "cedec9891b13ab6b22c9fe50218615a16a1967f353a78c7d43084ddc97f98687"
+    },
+    {
+      "path": "18/research/trails_feasibility.md",
+      "sha256": "6a2acf2ef7ff3663f1c3a808d5c17e7c1948ca83baf680ed073281d8d30b0648"
+    },
+    {
+      "path": "18/research/trail_sources.md",
+      "sha256": "ba03d99ebb4009f5ed0216796d7a7907fdf7543268343c9abdb3cc32d97f29fe"
+    },
+    {
+      "path": "18/research/trees_feasibility.md",
+      "sha256": "4cc5601925ba03e9752b06b13ed7d6e0d0ff9a16851be63da68df673aa9ed1e9"
+    },
+    {
+      "path": "18/research/tree_inventory.csv",
+      "sha256": "0dd58accc0bd34537ef793d8ddc2d5572ea4b260018ad741036ab2700d493b9e"
+    },
+    {
+      "path": "18/research/data/official_communication_points.csv",
+      "sha256": "5caa289d95c318456b5db714f55a4557196ae0c9960d4b8694e65d302d22ca33"
+    },
+    {
+      "path": "18/research/data/official_communication_points.geojson",
+      "sha256": "8a6d02e86d40ed8e3e90325d14d549c37cb44d4e2b015b59cbcc40a54531122e"
+    },
+    {
+      "path": "18/research/data/osm_pedestrian_ways.geojson",
+      "sha256": "f6f2ae584a14da53774c33b6b4915e39ae4f79d4a368ae7115c44328cc367539"
+    },
+    {
+      "path": "18/research/data/osm_tree_candidates.csv",
+      "sha256": "90c176b41205264fc500edb45741e3d04a772be289cfe315e505b5d1cf6a09a4"
+    },
+    {
+      "path": "18/research/data/osm_tree_candidates.geojson",
+      "sha256": "4e365cd85f72d9a94cee6ed4384b6a22fb57b0655d1412916101128393e41b61"
+    },
+    {
+      "path": "18/research/data/position_comparison.csv",
+      "sha256": "e1a01beaef77a61dcd5e2c360ccb1f9ef94011cab2b13bc53cc1dc9a2e4751e4"
+    },
+    {
+      "path": "18/research/data/public_track_20240802.geojson",
+      "sha256": "4d13719556d7ccc49fdd87efb4fc2ec14697595ff5a3764a05b6ef67545491d6"
+    },
+    {
+      "path": "18/research/data/public_track_20240802.gpx",
+      "sha256": "17f0224bca1edd4a019668758cb4ba723c4077ef99215e8acec3e9cab68c617b"
+    },
+    {
+      "path": "18/research/data/reference_sheets_5k.geojson",
+      "sha256": "8f6e4c5c912090394d554cd705a559285f89914c805727389030cdb84deb664d"
+    },
+    {
+      "path": "18/research/data/trail_control_point_distances.csv",
+      "sha256": "2491c7049b23ca28ade23eee4c87fdb44406c1c2c64e1bd1fe56b1d779c52b66"
+    },
+    {
+      "path": "18/research/data/tree_inventory_1_24.csv",
+      "sha256": "86b7aded87f94f8ef118166474a657c42dcc05a9a24a427d409f0102da37b61b"
+    },
+    {
+      "path": "18/research/data/validation_summary.json",
+      "sha256": "9a21f40d2d0cd132aea2202574b6a0f95644bc243ac111c93ac16504114f70a1"
+    },
+    {
+      "path": "18/research/scripts/analyze_data.py",
+      "sha256": "d9532d789aafcc34c834452a1bed0c6c51b8d1bc066bb4a42934b12b14398a15"
+    },
+    {
+      "path": "18/research/scripts/fetch_sources.py",
+      "sha256": "d1f2ee29103496f6348a0415bbcba6ac78a6ee40ba9ce8438e30090e1f72a33c"
+    },
+    {
+      "path": "18/research/scripts/validate_research.py",
+      "sha256": "6772202d32a96a22fddbc161d439dd6a3fff67b4e7fd59c1284317ad3b9eeffd"
+    },
+    {
+      "path": "18/research/sources/communication_11502.pdf",
+      "sha256": "d17d6b85034efd665bed8fa16338a927ba4ed2a74721fb6223f98371dbd41b5c"
+    },
+    {
+      "path": "18/research/sources/communication_11502.pdf.headers",
+      "sha256": "176d8d9879a42489bbb78a7d827fc109bcf12444c58895cbc616e5be08d8ecfe"
+    },
+    {
+      "path": "18/research/sources/communication_11502.txt",
+      "sha256": "3771eff90c207c2a319e1e1209e24e2bda6c36530a4a8c5a1729a1c81fe23185"
+    },
+    {
+      "path": "18/research/sources/download_log.json",
+      "sha256": "c1c6aa7deab3edb241137d0c7a0a34c592132c6f017dfbe81986c31649023e04"
+    },
+    {
+      "path": "18/research/sources/dtm_2026_catalog.csv",
+      "sha256": "b7380a8c9afd479d03705c5276b85e72e91cfeb8cf20433512efe075b5ba5206"
+    },
+    {
+      "path": "18/research/sources/dtm_faq.html",
+      "sha256": "6f4bd4db13c9befc566ec761af661b6c8d4e78ae83192e72a130dd5997c6da66"
+    },
+    {
+      "path": "18/research/sources/dtm_openapi.json",
+      "sha256": "d85959877f7fdc30d0217c9d411ae7c6fbe94e3360e74795e222b2152338791c"
+    },
+    {
+      "path": "18/research/sources/dtm_openapi.json.headers",
+      "sha256": "606f4d58e495144b0e2c094345e512a561a576d37640e08e611d5242d8bd7420"
+    },
+    {
+      "path": "18/research/sources/dtm_sheet_template.csv",
+      "sha256": "3004c7e2f988563dcca93dbc5f1f789001e963212adc1a27d59540df9f3f4da7"
+    },
+    {
+      "path": "18/research/sources/moidemd_fetch_reference.py",
+      "sha256": "ff9b6383439c051f572076fbf534c82a9cd7bae747ced2ac9dc57c1cf5ddd3e0"
+    },
+    {
+      "path": "18/research/sources/moidemd_readme.md",
+      "sha256": "ff6ff434da284e1df95d95e002d50be56105565e62aa6c4c40959bb2b8f2c1ba"
+    },
+    {
+      "path": "18/research/sources/nlsc_5k_index.zip",
+      "sha256": "27e402b9075a9d241d383da49b1a66077e0bfe978c7a0aecd60bc8d68504994f"
+    },
+    {
+      "path": "18/research/sources/odc_10m.html",
+      "sha256": "e1ee39515ded9ce23c5f3beea9d81382e871afced453d35f739bc5e59f9dc68d"
+    },
+    {
+      "path": "18/research/sources/odc_10m.html.headers",
+      "sha256": "d83c15d436071a022a2ab100705dd666e4eb6b833ec6a5c7b9868bbf0bbd4273"
+    },
+    {
+      "path": "18/research/sources/official_224.jpg",
+      "sha256": "b7c616c8ae49256991f35064d113fa57a076be3e1ab8a0c1e6d3be01cab6c3b5"
+    },
+    {
+      "path": "18/research/sources/official_224.jpg.headers",
+      "sha256": "722cff3d24d1740356a901379d61a1d43640ded6b31914888829641cb1dbfe5b"
+    },
+    {
+      "path": "18/research/sources/official_225.jpg",
+      "sha256": "aecf8a50e872aa19bf6022b9bd1a52bb96348e36d2cbd5c2473a781037576485"
+    },
+    {
+      "path": "18/research/sources/official_225.jpg.headers",
+      "sha256": "7a6ab3a6262538750fccd1a8a80e0f0df150252e59be386d4de125ddd39e8a8a"
+    },
+    {
+      "path": "18/research/sources/official_226.jpg",
+      "sha256": "4fb4381c7be0d50be3d5684a9e613f9c222651a36e8fad7326bc343eed6f6d97"
+    },
+    {
+      "path": "18/research/sources/official_226.jpg.headers",
+      "sha256": "62511dc79d275e66e0fc55c60013e40b013e7cb40a712ec723df9051b41f1afd"
+    },
+    {
+      "path": "18/research/sources/official_age_20230412.html",
+      "sha256": "085746073d43bd15c7a3d0474d00fb5385a8b751e43f7e2236efa37aca60daa5"
+    },
+    {
+      "path": "18/research/sources/official_age_20230412.html.headers",
+      "sha256": "94018c8cdc7e5e39af1bb3d1de6acb1d2741c5298605ce460ffbefe0337a7540"
+    },
+    {
+      "path": "18/research/sources/official_park.html",
+      "sha256": "547621f5242fbe15e8c253e2d63ed3480d7d47c127a110b51a36a386cb8259e4"
+    },
+    {
+      "path": "18/research/sources/official_park.html.headers",
+      "sha256": "3eb88e75e2163e0f1f9ff981e7840d0559766e2cb63966ebad23869da94919b5"
+    },
+    {
+      "path": "18/research/sources/osm_api_bbox.osm",
+      "sha256": "e74652061ff58f013410ba25b2a63079cab4d282237f5cfd6dbc248e511df88f"
+    },
+    {
+      "path": "18/research/sources/osm_api_bbox.osm.headers",
+      "sha256": "b4f186f0e5f7abb9d3acaf5619399c3e841cd1396d881d9551989d209676d3e7"
+    },
+    {
+      "path": "18/research/sources/osm_overpass_error.html",
+      "sha256": "7cd905d731bc5983f218aa91824747ef52e7b2cef4a2bf4aa2adba91dc3e61e6"
+    },
+    {
+      "path": "18/research/sources/public_gpx_download_response",
+      "sha256": "17f0224bca1edd4a019668758cb4ba723c4077ef99215e8acec3e9cab68c617b"
+    },
+    {
+      "path": "18/research/sources/public_gpx_download_response.headers",
+      "sha256": "52b018b5850cf7fd866cfe9e43ef29ca8c0e965e8bcd36a33b4083093dec8ccb"
+    },
+    {
+      "path": "18/research/sources/schema_hdr.zip.headers",
+      "sha256": "526b4318eb6d83d9d6bb42f4354f5b9ab3da5318f7cad5e713814881b943b194"
+    },
+    {
+      "path": "18/research/sources/schema_hdr_http403.html",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "path": "18/research/sources/taiwanoutdoors.html",
+      "sha256": "f6600b86b5db7cc732d1997ebb4d963a7f1d3746a871c9f6ba11d439ce06fd61"
+    },
+    {
+      "path": "18/research/sources/taiwanoutdoors.html.headers",
+      "sha256": "f920b6b0f395dacda27638d059df0fa2799a5828999374064e4fe64f46874139"
+    },
+    {
+      "path": "18/research/sources/taoyuan_range_retry.bin",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "path": "18/research/sources/taoyuan_range_retry.headers",
+      "sha256": "30c2ae7874d6a83608cf082012128b6e2b9c13887f5193d7333e8c0615cb2405"
+    },
+    {
+      "path": "18/research/sources/taoyuan_zip_tail.bin.headers",
+      "sha256": "526b4318eb6d83d9d6bb42f4354f5b9ab3da5318f7cad5e713814881b943b194"
+    },
+    {
+      "path": "18/terrain/.gitignore",
+      "sha256": "0572832eb6ecab28ff4a6a38432fa51326e71ed54ca6bdd825c36d4005c1b1eb"
+    },
+    {
+      "path": "18/terrain/provenance_manifest.json",
+      "sha256": "f192a35f3415447cdd2a5406432a2d02861f70a7ce012e6285961f7a5161998a"
+    },
+    {
+      "path": "18/terrain/README.md",
+      "sha256": "945f49213123e1ab1a26a16b8593b5ab0db7be306e424a8c04728522b9e9ce6b"
+    },
+    {
+      "path": "18/terrain/research_preservation_baseline.json",
+      "sha256": "d84f1d1aadf99288323ed0f9450dd4b05f8fa2e6be8a84bb9f61d6867e107717"
+    },
+    {
+      "path": "18/terrain/validation.json",
+      "sha256": "85e867372e48855d2b015efd685c8d392286d388d03a5d2b5f45d077d45dd45a"
+    },
+    {
+      "path": "18/terrain/data/analysis_summary.json",
+      "sha256": "3859336cfbc06268570b4b4c715b3f957245b368f7ea170d2f09a1c9c23a87db"
+    },
+    {
+      "path": "18/terrain/data/contours_20m.geojson",
+      "sha256": "d7e6e7a875070cff36b95ece3854f653185536a40376703b40c9016d46c7ac60"
+    },
+    {
+      "path": "18/terrain/data/copernicus_glo30_native_aoi.tif",
+      "sha256": "e20e111f917d19322bb04536ec8e0e3b56dd8b667fe0d8532210d30f4a5b308e"
+    },
+    {
+      "path": "18/terrain/data/dem_acquisition.json",
+      "sha256": "e9f00425428b211ff94284f8a19da763bb18f321ee11d6d6f09421d6074eef66"
+    },
+    {
+      "path": "18/terrain/data/dem_glo30_tm2_30m.tif",
+      "sha256": "ca2a908d889280f9266a884265284d89c33c7f425772615ed79e76cca893fe4f"
+    },
+    {
+      "path": "18/terrain/data/elevation_distribution.csv",
+      "sha256": "d0dee186ee61369c098ce87eedfb1be4cc5719b4d124eefe3644b717971b5433"
+    },
+    {
+      "path": "18/terrain/data/hillshade_multidirectional.tif",
+      "sha256": "91d877ee1377edaf6953a5d1a6ba84402aa9138cafe0325f8d56b1978f142c17"
+    },
+    {
+      "path": "18/terrain/data/hillshade_nw.tif",
+      "sha256": "fb01ac046429e07e337a35ca342c9354a37a341df8e93de96b35d7b95bfa2d49"
+    },
+    {
+      "path": "18/terrain/data/ridge_candidate_mask.tif",
+      "sha256": "85d5eae1985e77d2629364f1797f1f462021fffcb916081067b3a22261524fa8"
+    },
+    {
+      "path": "18/terrain/data/ridge_valley_candidates.geojson",
+      "sha256": "a38db3c07ebefb11c23c43c3610b4f88b7011c2e1aa6f79c7ddf9f004f99b5f5"
+    },
+    {
+      "path": "18/terrain/data/slope_degrees.tif",
+      "sha256": "f9ae3e61e045ab9289b8830eccbaacab342577b68f67f08955cdd9ef8cb2e1e6"
+    },
+    {
+      "path": "18/terrain/data/terrain_diagnostics.pdf",
+      "sha256": "45280e77c724a42e379a6e5423982ecfcb9b151713bb48b316f0da8304943b21"
+    },
+    {
+      "path": "18/terrain/data/tpi_150m.tif",
+      "sha256": "83c4f8ba2b950c2bf43998f0db6924f8c3fa953a1ae028fc06b5282c3b4f68bd"
+    },
+    {
+      "path": "18/terrain/data/valley_candidate_mask.tif",
+      "sha256": "4a7e609a10ce1d1a1a6c975ab72b172ea3605c614d2d20eaede9910b19b91c63"
+    },
+    {
+      "path": "18/terrain/scripts/acquire_dem.py",
+      "sha256": "e312241201a2bc02f14299e25bbb91c927598c73bee030dfdeab987d27a73c2a"
+    },
+    {
+      "path": "18/terrain/scripts/analyze_terrain.py",
+      "sha256": "3c589d5d6d15667ad0ba06cbf95cec731c3ee04fc3b888568f6209ae84b67eeb"
+    },
+    {
+      "path": "18/terrain/scripts/check_moi.py",
+      "sha256": "c947434fc57e666ded5934af5e9baca0f62517a8e6971b361a76281b86a1162f"
+    },
+    {
+      "path": "18/terrain/sources/copernicus_aws_readme.html",
+      "sha256": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2"
+    },
+    {
+      "path": "18/terrain/sources/copernicus_glo30_license.pdf",
+      "sha256": "9cd37d37ea654bbcaf0a2e059e6a3a5b5f76072824d8dd860ccf274ada8951bd"
+    },
+    {
+      "path": "18/terrain/sources/copernicus_product.html",
+      "sha256": "8e5ddcfd3cee83dcb30d1e5c3594161258a55156a0146a36d007424e2d3f6c4c"
+    },
+    {
+      "path": "18/terrain/sources/copernicus_registry.html",
+      "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca"
+    },
+    {
+      "path": "18/terrain/sources/copernicus_tile_header.bin",
+      "sha256": "99164d5feb9f010b84804a286ea4644ddd5eda24074b59e87e2270b9e42f5ecc"
+    },
+    {
+      "path": "18/terrain/sources/copernicus_tile_range.headers",
+      "sha256": "8fb94219eb2a82bd00493be98f0b60ffce06ca2555f02bcb611f303d7c3687c1"
+    },
+    {
+      "path": "18/terrain/sources/License-COPDEM-30.pdf",
+      "sha256": "9cd37d37ea654bbcaf0a2e059e6a3a5b5f76072824d8dd860ccf274ada8951bd"
+    },
+    {
+      "path": "18/terrain/sources/moi_2025_taoyuan.headers",
+      "sha256": "49624badf2dcda48a1e3e3c356ade717e1d0943e236ca069481f8323fe821309"
+    },
+    {
+      "path": "18/terrain/sources/moi_2025_taoyuan.response",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "path": "18/terrain/sources/moi_2026_retry.body",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "path": "18/terrain/sources/moi_2026_retry.headers",
+      "sha256": "c24321af35b3ecfdcad89d3d0a8bca91091ced863999e689ba2e3255cd815325"
+    },
+    {
+      "path": "18/terrain/sources/moi_alternate_catalog.csv",
+      "sha256": "5f6e853ccb044d7b76dbe95f4a8a3890f9d5f0613105e0428743f36658aa8869"
+    },
+    {
+      "path": "18/terrain/sources/moi_official_legacy_host.headers",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "18/terrain/sources/moi_other_catalog.csv",
+      "sha256": "5f6e853ccb044d7b76dbe95f4a8a3890f9d5f0613105e0428743f36658aa8869"
+    },
+    {
+      "path": "18/terrain/sources/moi_probe_log.json",
+      "sha256": "fff27718a5f62afd63d31c384b8b1de02bbe81f27121eff39897ff83e531e66e"
+    },
+    {
+      "path": "18/terrain/sources/moi_schema_control.headers",
+      "sha256": "71b5dd03d12c883d7ea0c2727b15b1c3b178e36de19ae3ce2c5f44596681b7d2"
+    },
+    {
+      "path": "18/terrain/sources/moi_schema_control.response",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "path": "18/terrain/sources/moi_schema_retry.body",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    },
+    {
+      "path": "18/terrain/sources/moi_schema_retry.headers",
+      "sha256": "4e93fa303802939ed2b55feb426c801246d52e38e1546e392c0684f71e1ef1cd"
+    },
+    {
+      "path": "18/terrain/sources/official_opdadm_control.bin",
+      "sha256": "27e402b9075a9d241d383da49b1a66077e0bfe978c7a0aecd60bc8d68504994f"
+    },
+    {
+      "path": "18/terrain/sources/official_opdadm_control.headers",
+      "sha256": "80a543a4064f96508aebcfc94dd208593c3b8bf3ece2e2915fbb59f1fab3bab1"
+    },
+    {
+      "path": "18/terrain/sources/tgos_home_control.headers",
+      "sha256": "5c4dc7630957b4e0c1e8c0e53e725d16af469fc7b4ef3917eda407401f7fe760"
+    },
+    {
+      "path": "18/terrain/sources/tgos_home_control.html",
+      "sha256": "c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f"
+    }
+  ]
+}

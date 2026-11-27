@@ -1,0 +1,150 @@
+{
+  "scope": "Day 28 known draft outputs and temporary review media only",
+  "reference_check": "Current render, route, verification, gallery scripts, README and gallery registries reference final output names; final source/assets match byte for byte.",
+  "removed": [
+    {
+      "path": "28/autumn_flaneuse.png",
+      "bytes": 1492453,
+      "sha256": "e4387e3b559c03e1d818d88fb2210cb4f5c8f48c6e7b6238702d2badae85d208",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/autumn_flaneuse.gif",
+      "bytes": 818176,
+      "sha256": "de842291fb02790eef1ce6e504718972aa65fbaae22e8a6378d0a7c64b629644",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/preview.png",
+      "bytes": 750158,
+      "sha256": "d752de6b0c1f853a74e4c6cd83a25b07f867db79d66688a06e735f67ff05cffb",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/gallery_size_check.png",
+      "bytes": 171656,
+      "sha256": "51c1fe16a9c0d89493c0d426747448d3e558919ab0e5dde7f99958ec8f5a597b",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/gallery_size_check.gif",
+      "bytes": 472646,
+      "sha256": "323adcd7c176b5025e7fd41aba6d5cf9836762924db553638a3c72eb5f8b592a",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/motion_review.png",
+      "bytes": 238642,
+      "sha256": "738e4e88ab861893ef5fc6fa2cc0c504fee203b3b601e9bfdcfffb8311fd9b68",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/pause_1.png",
+      "bytes": 1032787,
+      "sha256": "36cf443017245aa2fd0f3a0d86dc3321146224f7380dd163fd2b8e1448c9ad52",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/pause_2.png",
+      "bytes": 1032590,
+      "sha256": "d017b356759c6e1dc43abcaa203ea8ecc3cba9cf31f18a50699c96bf1fb3b5ee",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/windows_preview.png",
+      "bytes": 1031243,
+      "sha256": "d3e386cc77e0be40ef0ce5718a77ac28641b31639bafe1be3a9aaddf902116a0",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/data/fixed_map.png",
+      "bytes": 1533598,
+      "sha256": "608dcbefa3eb61102b9b6314047678ab365bc25e315af93f6592468ec75deed5",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/data/osm.xml",
+      "bytes": 4009847,
+      "sha256": "2ebe6acd2a68b1647a04c622ec6b0a492bfc0dbb869c99679bef01841df36940",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/finish_edits.py",
+      "bytes": 6512,
+      "sha256": "e9dc84213dc523b9b6193d1805823288cd7063c5e4e5002ea4335a61718f5010",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Superseded draft export / unused prior input"
+    },
+    {
+      "path": "28/.work/fixed_map.png",
+      "bytes": 1533041,
+      "sha256": "82f538a47653395005c70a3301e290ed6f71fc0555fbb662e65d9ae761b9f5f4",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/gallery-1280.png",
+      "bytes": 602497,
+      "sha256": "872f192d148e96452c2eb707baa4d13f115f2f117ddcad91d594508f4f6e126a",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/gallery-390.png",
+      "bytes": 149289,
+      "sha256": "9f736191dfe15a2b9bf364a6ae6fa2d7b06fb7570adc86adb64dc9541c4983c9",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/gallery_size_check.gif",
+      "bytes": 583323,
+      "sha256": "c33bdf58511af09109f0f397f6eb17812b9a3a55222c9c9dd3679c636c894509",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/gallery_size_check.png",
+      "bytes": 171568,
+      "sha256": "581b821a21cf8763d4c4062c0066240287dec5cf85469bb287d2e3bf702cf6b6",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/motion_review.png",
+      "bytes": 224322,
+      "sha256": "9c53833e633ab08bad2fe58c922eda723378d820f3a67fb4b25ccfce3a89e07e",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/pause_1.png",
+      "bytes": 1032292,
+      "sha256": "3590e36a1142744f4f3191bfbb8afe84e2b65b49e7f11727cef7cfc24b1fb5e5",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/pause_2.png",
+      "bytes": 1032063,
+      "sha256": "a568564c690b5319f9f698b06c40fd062f421835cc08504a77bdd6dd2159d32d",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/preview.png",
+      "bytes": 749640,
+      "sha256": "27314e8320c969ab4d6cf4611844eb7de25c51ab90e902ff76c9fc2902baa3c4",
+      "reason": "Disposable render / browser review media; verification records retained"
+    },
+    {
+      "path": "28/.work/windows_preview.png",
+      "bytes": 1030788,
+      "sha256": "a22f19092ef779b575b01a9b5eecb627fe482255fde661a386054a90586580ea",
+      "reason": "Disposable render / browser review media; verification records retained"
+    }
+  ],
+  "removed_bytes": 19699131,
+  "source_inputs_preserved": [
+    "data_raw/day08_utopia/rittenhouse_walnut.osm",
+    "data_raw/day08_utopia/rittenhouse_sources.json",
+    "28/data/route.json"
+  ]
+}

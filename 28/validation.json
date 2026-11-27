@@ -1,0 +1,99 @@
+{
+  "title": "The Wanderer",
+  "inspiration": "Inspired by Baudelaire’s flâneur.",
+  "scene": "Rittenhouse Square, Philadelphia",
+  "png_size": [
+    1800,
+    1800
+  ],
+  "gif_size": [
+    1080,
+    1080
+  ],
+  "encoded_frames": 584,
+  "duration_ms": 58600,
+  "loop": 0,
+  "fixed_map_pixels_changed_outside_feet_and_caption": 0,
+  "title_and_inspiration_identical_across_frames": true,
+  "mapped_footway_edges": 54,
+  "verified_plaza_connectors": 7,
+  "traced_building_free_walnut_sidewalk": 1,
+  "pool_way_ids": [
+    "83143746",
+    "1532425180"
+  ],
+  "artist_inside_source_paved_space": true,
+  "windows_progress_strictly_forward": true,
+  "feet_alternate": true,
+  "pause_choreography": [
+    {
+      "caption": "Stopped for the ginkgo",
+      "forward_and_back_m": [
+        0.816,
+        0.612,
+        -0.51,
+        0.816
+      ],
+      "held_landings": 5
+    },
+    {
+      "caption": "Paused by the red berries",
+      "forward_and_back_m": [
+        0.816,
+        0.612,
+        -0.51,
+        0.816
+      ],
+      "held_landings": 5
+    }
+  ],
+  "stride_comparison": {
+    "windows": {
+      "median_screen_px_per_300ms": 8.0,
+      "samples": 36
+    },
+    "tables": {
+      "median_screen_px_per_300ms": 8.5,
+      "samples": 35
+    },
+    "shade": {
+      "median_screen_px_per_300ms": 18.73,
+      "samples": 6
+    },
+    "trees": {
+      "median_screen_px_per_300ms": 9.65,
+      "samples": 29
+    },
+    "pool": {
+      "median_screen_px_per_300ms": 12.68,
+      "samples": 8
+    },
+    "musician": {
+      "median_screen_px_per_300ms": 7.1,
+      "samples": 9
+    },
+    "open": {
+      "median_screen_px_per_300ms": 76.0,
+      "samples": 30
+    }
+  },
+  "gallery_390_px_advance_per_300ms": {
+    "windows": 1.73,
+    "tables": 1.84,
+    "shade": 4.06,
+    "trees": 2.09,
+    "pool": 2.75,
+    "musician": 1.54,
+    "open": 16.47
+  },
+  "footprint_enlargement": 1.15,
+  "source_hash_unchanged": true,
+  "gallery_check_sizes": [
+    390,
+    390
+  ],
+  "file_bytes": {
+    "the_wanderer.png": 1532985,
+    "the_wanderer.gif": 965411
+  }
+}

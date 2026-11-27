@@ -119,6 +119,11 @@
       "day": "26",
       "interactive": null,
       "status": "local-assets-ready"
+    },
+    {
+      "day": "28",
+      "interactive": null,
+      "status": "local-assets-ready"
     }
   ],
   "managedAssets": [
@@ -187,7 +192,9 @@
     "assets/25/day25_elevation.png",
     "assets/25/day25_population.png",
     "assets/26/looking_for_the_falls_enfield.gif",
-    "assets/26/looking_for_the_falls_enfield_overview.png"
+    "assets/26/looking_for_the_falls_enfield_overview.png",
+    "assets/28/the_wanderer.gif",
+    "assets/28/the_wanderer.png"
   ],
   "restrictedSourcesExcluded": [
     "13"

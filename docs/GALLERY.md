@@ -1,5 +1,15 @@
 # Gallery maintenance
 
+## Day 28 / Senses: Feeling — The Wanderer
+
+Inspired by Baudelaire’s flâneur, The Wanderer follows an autumn stroll through Philadelphia’s Rittenhouse Square. Footprints quicken across open stretches and slow near café tables, autumn trees, and a street accordionist. The route and its changing pace are illustrated.
+
+By Ming Cao. The animated cover is `assets/28/the_wanderer.gif` (1080 × 1080); the static download is `assets/28/the_wanderer.png` (1800 × 1800). Both are byte-identical copies of the final Day 28 files. Alt text is maintained in `28/gallery-entry.json` and `scripts/gallery_entries.json`.
+
+Real OSM streets, footprints, paths and pool geometry underlie an illustrated walk. The north Walnut sidewalk is explicitly traced between mapped crossings; pool-side connectors are checked against the pedestrian plaza, excluding gardens, the hut and water. Trees, shade, outdoor dining, the accordionist and pace are schematic. Full sources and reproduction steps: `28/README.md`.
+
+Run `python 28/update_gallery.py` for the scoped update and `node 28/check_gallery.cjs` for desktop/mobile local browser validation. Other cards and CSS are preserved. Commit, push and publication remain with the owner.
+
 ## Day 26 / Water — Looking for the Falls
 
 By Ming Cao. Enfield Creek through Enfield Glen, Robert H. Treman State Park, New York. Main media is the confirmed 1600 × 1200, 33.75-second GIF; the static overview PNG is a separate download, following Day 25. Both published assets are byte-identical copies of the final artwork.

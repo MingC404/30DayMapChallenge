@@ -1,0 +1,12 @@
+{
+  "canvas_px": [1800, 2520],
+  "azimuth_deg": 315,
+  "elevation_deg": 42,
+  "horizontal_world_width_m": 945,
+  "orthographic_height_m": 1323,
+  "parallel_scale": 661.5,
+  "focus_right_m": 28.42,
+  "focus_up_m": 225,
+  "vertical_exaggeration": 1.2,
+  "source": "Previous 900 m horizontal field widened by 5%; portrait height chosen by user to retain summit and entrance"
+}

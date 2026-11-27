@@ -1,0 +1,15 @@
+{
+  "selection": "Restored local slope camera, before the full-bleed revision",
+  "provenance": "Earlier Day 27 render.py and render output inspected in this conversation; not committed in Git",
+  "azimuth_deg": 315,
+  "elevation_deg": 42,
+  "parallel_scale": 450,
+  "orthographic_height_m": 900,
+  "focus_right_m": 28.42,
+  "focus_up_m": -68.01,
+  "target_xyz_epsg3826_egm2008": [294300.0, 2733845.0, 1707.492919921875],
+  "vertical_exaggeration": 1.2,
+  "original_render_viewport_px": [1800, 1250],
+  "current_render_viewport_px": [1800, 1800],
+  "note": "Keep camera world extent and focal point; expand rendering to the entire page, no masks, no forced terrain coverage. Square output narrows horizontal extent at the same orthographic height."
+}

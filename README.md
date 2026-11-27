@@ -24,6 +24,7 @@ Maps and spatial illustrations by **Ming Cao**.
 | 24 / Network | Getting Home to Summit | [GIF](24/summit/outputs/getting_home_to_summit.gif) / [Static PNG](24/summit/outputs/getting_home_to_summit.png) / [Notes](24/README.md) / [Personal collection](docs/index.html#day-24) |
 | 25 / Is This a Map? | Taiwan: Two Landscapes | [GIF](25/outputs/day25_taiwan_two_landscapes.gif) / [Elevation PNG](25/outputs/day25_elevation.png) / [Population PNG](25/outputs/day25_population.png) / [Notes](25/README.md) / [Personal collection](docs/index.html#day-25) |
 | 26 / Water | Looking for the Falls | [GIF](26/enfield/outputs/looking_for_the_falls_enfield_preview.gif) / [Static PNG](26/enfield/outputs/looking_for_the_falls_enfield_overview.png) / [Notes](26/README.md) / [Personal collection](docs/index.html#day-26) |
+| 28 / Senses: Feeling | The Wanderer | [GIF](28/the_wanderer.gif) / [Static PNG](28/the_wanderer.png) / [Notes](28/README.md) / [Personal collection](docs/index.html#day-28) |
 
 Numbered folders contain each map's scripts and outputs. Shared original data, metadata and licenses are in `data_raw/`; generated web pages are in `docs/`. Each day's README identifies its sources and limits. Maps use NYC Open Data, OpenStreetMap, institutional collections and other credited sources; data timestamps do not imply current field verification.
 

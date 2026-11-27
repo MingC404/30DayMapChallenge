@@ -1,0 +1,42 @@
+{
+  "day": "28",
+  "theme": "Senses: Feeling",
+  "title": "The Wanderer",
+  "author": "Ming Cao",
+  "description": "Inspired by Baudelaire’s flâneur, The Wanderer follows an autumn stroll through Philadelphia’s Rittenhouse Square. Footprints quicken across open stretches and slow near café tables, autumn trees, and a street accordionist. The route and its changing pace are illustrated.",
+  "tools": [
+    "Python",
+    "OpenStreetMap",
+    "NumPy",
+    "Shapely",
+    "Pillow"
+  ],
+  "evidence": [
+    "28/README.md",
+    "28/data/route.json",
+    "28/render_report.json",
+    "28/validation.json"
+  ],
+  "media": [
+    {
+      "source": "28/the_wanderer.gif",
+      "path": "assets/28/the_wanderer.gif",
+      "label": "View animation",
+      "alt": "The Wanderer: animated autumn stroll through Rittenhouse Square, Philadelphia. Alternating footprints hurry across open paths, slow at café tables, windows, the pool and an accordionist, and linger by golden ginkgo and red berries."
+    }
+  ],
+  "downloads": [
+    {
+      "source": "28/the_wanderer.png",
+      "path": "assets/28/the_wanderer.png",
+      "label": "Static PNG",
+      "alt": "The Wanderer: illustrated Rittenhouse Square street and park map with the full walking route, autumn trees, café tables, a pool, an accordionist and footsteps showing changes of pace."
+    }
+  ],
+  "sourceLinks": [
+    {
+      "label": "OpenStreetMap credits",
+      "url": "https://www.openstreetmap.org/copyright"
+    }
+  ]
+}

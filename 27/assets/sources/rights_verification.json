@@ -1,0 +1,16 @@
+{
+  "checked": "2026-11-27",
+  "Met": {
+    "object_api": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39668",
+    "isPublicDomain": true,
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "policy_summary": "Museum public-domain Open Access images are offered under CC0 for unrestricted use, including adaptation.",
+    "policy_html_download": "HTTP 429; policy was successfully inspected through web tool; no error page retained as evidence"
+  },
+  "Commons": {
+    "file_page": "https://commons.wikimedia.org/wiki/File:Xiao_and_Xiang_rivers.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Xiao_and_Xiang_rivers.jpg",
+    "rights_on_file_page": "Public Domain Mark / PD-old-100-expired",
+    "museum_permission_claimed": false
+  }
+}
