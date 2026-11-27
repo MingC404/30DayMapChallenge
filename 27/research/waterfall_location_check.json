@@ -1,0 +1,18 @@
+{
+  "checked": "2026-11-27",
+  "official_tourism_url": "https://travel.tycg.gov.tw/zh-cn/Travel/Attraction/63",
+  "official_indexed_caption": "??????????????",
+  "official_park_url": "https://recreation.forest.gov.tw/Forest/RA?typ_id=0200005",
+  "map_reviewed": "../18/research/sources/official_224.jpg",
+  "dsm_bounds_epsg3826": [
+    291450,
+    2731100,
+    296850,
+    2737100
+  ],
+  "finding": "Park waterfall existence is suggested by the official indexed photo caption, but no independently verifiable waterfall coordinate was obtained. The stored official trail map and D18 research do not provide a waterfall survey point.",
+  "verified_waterfall_location": null,
+  "all_delivered_waterfalls_illustrative": true,
+  "dem_use": "Only choose a downward visual direction, never infer a real waterfall or measured waterfall height.",
+  "retrieved_page_limitation": "Official tourism page requires client-side JavaScript; downloaded HTML alone does not establish a coordinate."
+}

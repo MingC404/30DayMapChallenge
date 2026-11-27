@@ -1,5 +1,18 @@
 # Gallery maintenance
 
+## Day 27 / New Tool — Among the Giants
+
+I used PyVista to render the terrain of Lalashan, Taiwan, and traced the giant-tree trail across its slopes. Trees and waterfalls collaged from classical Chinese paintings bring the landscape into dialogue with the terrain model, while drifting mist reveals and conceals the ridges.
+
+古画拼贴素材｜[《早春图》](https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full)、[《树色平远图》](https://www.metmuseum.org/art/collection/search/39668)、[《双松平远图》](https://www.metmuseum.org/art/collection/search/40508)、[《江渚风林图》](https://www.metmuseum.org/art/collection/search/41154)、[《素庵图》](https://www.metmuseum.org/art/collection/search/39550)、[《潇湘图》](https://www.dpm.org.cn/collection/paint/234585.html)、[《松阴飞瀑图》](https://www.metmuseum.org/art/collection/search/45778)  
+Collaged in Photoshop.
+
+By Ming Cao. Animated display: `assets/27/among_the_giants.gif` (900 × 1260, 14.4 seconds). Static cover / reduced-motion and error fallback: `assets/27/among_the_giants.png` (1800 × 2520), exported from the owner-adjusted Photoshop PSD. Both are byte-identical copies of the final D27 files. The summit mist has wider feathering; the other two mist fields and the static PNG remain unchanged.
+
+Data and classical painting sources, full attribution and reuse limits: `27/README.md#data-sources` and `27/README.md#painting-sources`. The card uses the owner-supplied English description verbatim. The seven credited works are audited against visible, canvas-clipped PSD layers and the published PNG; see `27/review/collage_source_audit.json`. Unused Ma Yuan, Tang Yin and other reference works are excluded. PSD, working layers and intermediate materials stay under `27/`; only PNG and GIF are copied to `docs/assets/27/`.
+
+Run `27/update_gallery.py` and `node 27/check_gallery.cjs` for the scoped update and project-prefix desktop/mobile playback and fallback verification. No commit, push or deployment.
+
 ## Day 28 / Senses: Feeling — The Wanderer
 
 Inspired by Baudelaire’s flâneur, The Wanderer follows an autumn stroll through Philadelphia’s Rittenhouse Square. Footprints quicken across open stretches and slow near café tables, autumn trees, and a street accordionist. The route and its changing pace are illustrated.

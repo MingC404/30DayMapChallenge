@@ -3,7 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const {chromium}=require('../02/.deps-js/node_modules/playwright');
 const {createServer}=require('../19/scripts/preview_gallery.cjs');
 const root=path.resolve(__dirname,'..'),spec=require('./gallery-entry.json'),review=path.join(__dirname,'review'),work=path.join(__dirname,'.work');
-const read=p=>fs.readFileSync(p,'utf8').replace(/^\uFEFF/,'');
+const read=p=>fs.readFileSync(p,'utf8').replace(/^\uFEFF/,'').replace(/\r\n/g,'\n');
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 (async()=>{
  fs.mkdirSync(work,{recursive:true});const server=createServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser;
@@ -26,6 +26,15 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
    const h=await card.locator('header').boundingBox(),m=await img.boundingBox();if(width<760)assert(m.y>=h.y+h.height);else assert(h.x+h.width<m.x);
    if(width===1280||width===390)await card.screenshot({path:path.join(work,`gallery-${width}.png`),animations:'allow'});
    report.viewports.push({viewport_width:width,...size,no_horizontal_overflow:true});
+  }
+  report.display_fit=[];
+  for(const [width,height] of [[1366,768],[1280,600],[390,740],[320,640]]){
+   await page.setViewportSize({width,height});await card.scrollIntoViewIfNeeded();
+   await card.evaluate(e=>e.scrollIntoView({block:'start'}));
+   const fit=await img.evaluate(e=>{const r=e.getBoundingClientRect(),grid=e.closest('.media-grid').getBoundingClientRect();return {width:r.width,height:r.height,top:r.top,bottom:r.bottom,grid_width:grid.width,viewport_height:innerHeight}});
+   assert(fit.height<=height-64+.1);assert(fit.top>=-1 && fit.bottom<=height+1);
+   assert(fit.width<=fit.grid_width*.7+.1);
+   report.display_fit.push({viewport:[width,height],...fit,whole_image_visible:true});
   }
   for(const url of await card.locator('a').evaluateAll(es=>[...new Set(es.map(e=>e.href))])){
    if(!url.startsWith(base))continue;const response=await page.request.get(url);assert.equal(response.status(),200);report.local_links.push({path:new URL(url).pathname,status:200,content_type:response.headers()['content-type']});

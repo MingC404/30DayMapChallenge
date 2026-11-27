@@ -2,8 +2,8 @@
   "viewports": [
     {
       "viewport_width": 1440,
-      "width": 862.25,
-      "height": 862.25,
+      "width": 603.5625,
+      "height": 603.5625,
       "natural": [
         1080,
         1080
@@ -13,8 +13,8 @@
     },
     {
       "viewport_width": 1280,
-      "width": 780.640625,
-      "height": 780.640625,
+      "width": 546.4375,
+      "height": 546.4375,
       "natural": [
         1080,
         1080
@@ -24,8 +24,8 @@
     },
     {
       "viewport_width": 390,
-      "width": 350,
-      "height": 350,
+      "width": 245,
+      "height": 245,
       "natural": [
         1080,
         1080
@@ -35,8 +35,8 @@
     },
     {
       "viewport_width": 320,
-      "width": 292,
-      "height": 292,
+      "width": 204.390625,
+      "height": 204.390625,
       "natural": [
         1080,
         1080
@@ -85,6 +85,60 @@
     25,
     26,
     28
+  ],
+  "display_fit": [
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "width": 587.375,
+      "height": 587.375,
+      "top": 45.453125,
+      "bottom": 632.828125,
+      "grid_width": 839.125,
+      "viewport_height": 768,
+      "whole_image_visible": true
+    },
+    {
+      "viewport": [
+        1280,
+        600
+      ],
+      "width": 536,
+      "height": 536,
+      "top": -0.15625,
+      "bottom": 535.84375,
+      "grid_width": 780.640625,
+      "viewport_height": 600,
+      "whole_image_visible": true
+    },
+    {
+      "viewport": [
+        390,
+        740
+      ],
+      "width": 245,
+      "height": 245,
+      "top": 399.671875,
+      "bottom": 644.671875,
+      "grid_width": 350,
+      "viewport_height": 740,
+      "whole_image_visible": true
+    },
+    {
+      "viewport": [
+        320,
+        640
+      ],
+      "width": 204.390625,
+      "height": 204.390625,
+      "top": 354.921875,
+      "bottom": 559.3125,
+      "grid_width": 292,
+      "viewport_height": 640,
+      "whole_image_visible": true
+    }
   ],
   "browser_distinct_animation_states": 10,
   "playback_observed_ms": 3150,

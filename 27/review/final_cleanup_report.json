@@ -1,0 +1,133 @@
+{
+  "scope": "27 only",
+  "removed": [
+    {
+      "path": "outputs/photoshop_layers.zip",
+      "bytes": 2691160,
+      "sha256": "e07263486ad32c48ce5b58b748a2ee24ce152620c68608d02837ec192728b101",
+      "references_checked": [
+        "add_ridge_mist.py",
+        "build_layers.py",
+        "compose_once.py",
+        "review/cleanup_report.json"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "outputs/gallery_size_check.png",
+      "bytes": 369516,
+      "sha256": "e347d82797272682e3df1dceddede9e0e9ebe066a9b81e645a4aac2aefd5227a",
+      "references_checked": [
+        "add_ridge_mist.py",
+        "build_layers.py",
+        "compose_early_spring.py",
+        "compose_once.py",
+        "compose_ridge_valley.py"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/boundary_mist_check.png",
+      "bytes": 387221,
+      "sha256": "688bc60c3202ab5af728a094853e5adbec22ddf384620146493d6b96e0ef4e62",
+      "references_checked": [
+        "compose_boundary_mist.py"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/composition_tweak_low.png",
+      "bytes": 148201,
+      "sha256": "0b7863e2089190014e6a65d330ffe96182302fceb034ed86759cdbf1510f946b",
+      "references_checked": [
+        "compose_once.py"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/early_spring_painting_inspection.png",
+      "bytes": 1690715,
+      "sha256": "bb17230f9d6e28a338184e04c9a54e4a81b6d31cb0a8e0aba64e8b8bafe4e594",
+      "references_checked": [],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/early_spring_ridge_cutout_inspection.png",
+      "bytes": 239403,
+      "sha256": "487993666d6a27d96149ac66ccebdce6bde31f0c7b45641726674233a945ee3d",
+      "references_checked": [],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/final_feather_check.png",
+      "bytes": 385057,
+      "sha256": "d21023dded5840f28c3a9b98e7bb3af776de20e66e8c72394249da1489e94272",
+      "references_checked": [
+        "final_feather.py"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/hand_edited_psd_check.png",
+      "bytes": 434710,
+      "sha256": "d4570d3d794fad66c575c0b559fa2663e517886783dd96cb00ebf1f7d29b89a6",
+      "references_checked": [
+        "export_saved_psd.py"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/ridge_valley/ridge_detail_check.png",
+      "bytes": 129903,
+      "sha256": "328665198193e3fa1125e319977aed201c123fec3be0f9356ab0773b1ffc87e5",
+      "references_checked": [],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "review/final_animation/motion_check.png",
+      "bytes": 202137,
+      "sha256": "af811bd06ebafbd9746ee2269db4f8e913d63aefb5a0d7b139754945ddd5208a",
+      "references_checked": [
+        "animate_final_mist.py"
+      ],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "assets/sources/guo_xi_early_spring.jpg",
+      "bytes": 62610,
+      "sha256": "a77942cf96654857c3cafd6af86a9ece39ca8fe90091a5f35fd839ea871a1543",
+      "references_checked": [],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "assets/sources/npm_early_spring_download.json",
+      "bytes": 265,
+      "sha256": "bc83e56d9f0a9bf45db6e65dbf3e3d8ebbff2b37c76fe998f4de2e31dfc8f3eb",
+      "references_checked": [],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    },
+    {
+      "path": "assets/sources/npm_early_spring_iiif_1.txt",
+      "bytes": 2027,
+      "sha256": "e178a3cb5c342356d39ad17b4faee0c913e8dbaeb13392d716ae69f4ee7f3d72",
+      "references_checked": [],
+      "reference_class": "Output writers / historical audit only; no current input or README link."
+    }
+  ],
+  "count": 13,
+  "bytes_removed": 6742925,
+  "required_final_files_unchanged": true,
+  "temporary_frame_files_created": false,
+  "psd_kept_original": true,
+  "animation_inputs_kept": true,
+  "source_licenses_kept": true,
+  "d18_changed": false,
+  "gallery_changed": false,
+  "uncertain_files_retained": [
+    "All referenced historical previews and layer PNGs",
+    ".venv/",
+    ".uv-cache/",
+    "Original art and extraction masks",
+    "D18 camera and source references"
+  ]
+}

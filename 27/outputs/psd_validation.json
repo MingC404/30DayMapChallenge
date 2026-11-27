@@ -1,12 +1,12 @@
 {
-  "layer_count": 21,
+  "layer_count": 31,
   "canvas": [
     1800,
     2520
   ],
   "reimported_layer_stack_max_error": 0,
   "embedded_preview_max_error": 1,
-  "embedded_preview_mean_error": 4.556143445032334e-06,
+  "embedded_preview_mean_error": 0.0004138741916519694,
   "layers": [
     {
       "name": "sky_background",
@@ -20,6 +20,86 @@
     },
     {
       "name": "terrain_pale_ink",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Terrain - ink depth grading",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Cloud-curl dry brush - near_shadow_left",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Cloud-curl dry brush - near_shadow_right",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Ridge collage - Guo Xi main crag",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Ridge collage - Guo Xi side rock and treetops",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Ridge collage - Guo Xi distant ink",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Valley reserve - left_valley_reserve",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "Valley reserve - right_shoulder_reserve",
       "bounds": [
         0,
         0,
@@ -100,6 +180,26 @@
     },
     {
       "name": "main_tree_guo_xi",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "waterfall_main_wen",
+      "bounds": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "exact_visible_pixels": true
+    },
+    {
+      "name": "waterfall_distant_wen",
       "bounds": [
         0,
         0,

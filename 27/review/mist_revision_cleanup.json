@@ -1,0 +1,271 @@
+{
+  "removed": [
+    {
+      "path": "outputs/among_the_giants_final.gif",
+      "bytes": 3997024,
+      "sha256": "c67776586b1a765416d5230781e62025391ad840d8ad1f3be0d2adca7e5a39f1",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "outputs/offscreen_test.png",
+      "bytes": 10126,
+      "sha256": "6c3e1ffd4fd1677f12b396d919de5b94e497c305cbb851a24f927c351a777fef",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "outputs/comparison_C.png",
+      "bytes": 349250,
+      "sha256": "0d75aa2160557db04e3a53104cf612676ce6b998465d5cb491ad0db1814e299a",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/guo_bent_crop.png",
+      "bytes": 778483,
+      "sha256": "a04f73bd84a7f8862b67af1fbf1411b2e2accf38d1edc4a8fbc09c6b14dbdcf5",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/guo_sparse_crop.png",
+      "bytes": 263406,
+      "sha256": "eab82daa3118c9298d225d6728a7a42fab87c374d8a323437cb25cae8e57f52b",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/lighting_A.png",
+      "bytes": 168318,
+      "sha256": "bcd7af13918a5894c22f444e90aae8cd620cd5353b72cf5186c21eaa3a0252a3",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/lighting_A_with_collage.png",
+      "bytes": 171893,
+      "sha256": "688fda5a9685040014a4ac79e1e708502eadcc573ed8ef76c4729a41a7339c68",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/lighting_B.png",
+      "bytes": 202640,
+      "sha256": "b83b1b86170a11f500b325ae8bb72c933ac4ffea5abeb9356727ea964a831962",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/lighting_B_with_collage.png",
+      "bytes": 197439,
+      "sha256": "fba5a137623278061c4c25edc723d3c636ebeac29403233e6d9a132d0537f630",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/ma_cascade_detail.png",
+      "bytes": 660889,
+      "sha256": "e6c49b948729adc921f84bb33f5e04df6ad8291911131139ec9bd4855a140439",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/ma_water_crop.png",
+      "bytes": 893791,
+      "sha256": "22a960e83b8c53cc0ae7342539278d7c21d644fdb6dfd4898cb7ddfd86b23acd",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/new_materials_contact_sheet.png",
+      "bytes": 572405,
+      "sha256": "0771c673bf64cb0ee3cec7847fdea43fb8933230dc4bb05980aa3b8ebdb13831",
+      "references_checked": [
+        "prepare_new_collage.py"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/sky_boundary_full_resolution_isolated.png",
+      "bytes": 17958,
+      "sha256": "ae1164969d0278c35311f5363e2185861db07b718d6bf029fcb1c88f4bc8c007",
+      "references_checked": [
+        "build_layers.py",
+        "README.md"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/sky_boundary_isolated.png",
+      "bytes": 3046,
+      "sha256": "2859f79178b867676fa6a2d0379868149aa4471ac353af2a9ffc176735e15820",
+      "references_checked": [
+        "preview_sky.py",
+        "README.md"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/sky_camera_study.png",
+      "bytes": 851985,
+      "sha256": "f74f52664302225ed91555bcc8995502d65982ad646fc9d7722b0381e3e35587",
+      "references_checked": [
+        "README.md"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/sky_composition_no_collage.png",
+      "bytes": 304920,
+      "sha256": "721a8a43c4bca5e419434b5d6a5968c18965ec0bcb221c67a79a6401bab82578",
+      "references_checked": [
+        "preview_sky.py"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/sky_composition_with_track.png",
+      "bytes": 312056,
+      "sha256": "78887761687ba65223b235915b07730f3cc454095fff50366a0fd46ab15ce146",
+      "references_checked": [
+        "preview_sky.py"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/sky_wireframe.png",
+      "bytes": 395176,
+      "sha256": "9abd4aea7f24c136cf4b45e9eb3cb1c59cc65252abc5f18e30fdcfb574960ae2",
+      "references_checked": [
+        "preview_sky.py"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/tang_water_crop.png",
+      "bytes": 576211,
+      "sha256": "8e41d761e0123c7ac06eaf84daef007fc4aa5cf8e977bb8db763f56861747dd0",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/wang_dense_crop.png",
+      "bytes": 1082271,
+      "sha256": "8263c1ce628ce324d15a54c89388f09994255f9e84d2ba8d865f4d18e41aebde",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/waterfall_cutouts.png",
+      "bytes": 77051,
+      "sha256": "45f337e26ea5859a9142c9b12e39ccac01da569692374a80778b8df11042b270",
+      "references_checked": [
+        "prepare_waterfalls.py"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/wen_water_crop.png",
+      "bytes": 459155,
+      "sha256": "249f3cfe4c96a2010c1fdf5e7c00075b343b0945b13d97783a54225ad31963e1",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/drybrush_banks/among_the_giants_preview.png",
+      "bytes": 424362,
+      "sha256": "1084a7f973991a341c6bfacee67940ed82a7581f429c8adc12d184f580d94e31",
+      "references_checked": [
+        "compose_early_spring.py",
+        "compose_ridge_valley.py",
+        "preview_drybrush_banks.py",
+        "review/cleanup_report.json"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/drybrush_banks/apex_mist.png",
+      "bytes": 11222,
+      "sha256": "bbee4c1d369208016e265858d14bc776e9523cedfc33128ac393ef4874fb2bc0",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/drybrush_banks/downslope_dry_brush.png",
+      "bytes": 4319,
+      "sha256": "75ab91d0ed8aff1f12f8ec441deb41ed8e3b899269071c6798eb633457e941cd",
+      "references_checked": [
+        "preview_drybrush_banks.py"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/drybrush_banks/left_shoulder_mist.png",
+      "bytes": 12416,
+      "sha256": "a0ee9ef8ee6bad601ca2e301ef90f2b9794ed9ba19874192b548ce8b9ba43090",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/drybrush_banks/right_diagonal_mist.png",
+      "bytes": 13903,
+      "sha256": "8cd10e4d7ffbcc5b08b4d36db409ee9c229314ad21ebf960a298e7c2770d8342",
+      "references_checked": [],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/early_spring/among_the_giants_preview.png",
+      "bytes": 355124,
+      "sha256": "352b125cbe02c61b5216cd3f5b21b9d5f29a0a434425de94b5de9fd1296e2f03",
+      "references_checked": [
+        "compose_early_spring.py",
+        "compose_ridge_valley.py",
+        "preview_drybrush_banks.py",
+        "review/cleanup_report.json"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/final_animation/motion_check.png",
+      "bytes": 240108,
+      "sha256": "d1add30ff10dbcf08d5d4f079b906c911b5d08c61244f430674d572d28df3046",
+      "references_checked": [
+        "animate_final_mist.py",
+        "cleanup_final_outputs.py",
+        "review/final_cleanup_report.json"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    },
+    {
+      "path": "review/ridge_valley/among_the_giants_preview.png",
+      "bytes": 386531,
+      "sha256": "17c64bf7d260036e8017a3a038ead9dbdab5610c5527d3337dde4a901269f94e",
+      "references_checked": [
+        "compose_early_spring.py",
+        "compose_ridge_valley.py",
+        "preview_drybrush_banks.py",
+        "review/cleanup_report.json"
+      ],
+      "reason": "Superseded GIF or derived historical inspection image; no current export/animation input. Any historical writer references regenerate the image. Original paintings, cutouts, plans and camera files retained."
+    }
+  ],
+  "count": 30,
+  "bytes_removed": 13793478,
+  "final_files_preserved": {
+    "outputs/among_the_giants_layers.psd": "7d1fdf395e63fca9e7f38683b07b3e54daab2efdfb0bad172f0ac092e40bdf22",
+    "outputs/among_the_giants_final.png": "a4dc2edcfef935fa7e3fe15030a452ab5c18e3919e313fcda06ab1b4c98fa308",
+    "outputs/among_the_giants_mist_loop.gif": "a28a346b8d2209a7421f7821a72f1cf7427c7eb0442306a74ed0f7acb7782799"
+  },
+  "retained": [
+    "Hand-edited PSD",
+    "Final RGB PNG",
+    "New formal GIF and low-resolution preview GIF",
+    "All original paintings and extracted tree/waterfall/ridge assets",
+    "Animation and composition input masks",
+    "Source licensing records and camera/DEM references",
+    ".venv and .uv-cache"
+  ],
+  "d18_modified": false,
+  "gallery_modified": false
+}

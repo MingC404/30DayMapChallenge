@@ -1,0 +1,178 @@
+[
+  {
+    "name": "early_spring_main_ridge",
+    "role": "Main summit crag and its sparse pines",
+    "crop": [
+      370,
+      50,
+      620,
+      300
+    ],
+    "opacity": 0.72,
+    "polygon": [
+      [
+        373,
+        53
+      ],
+      [
+        562,
+        53
+      ],
+      [
+        576,
+        113
+      ],
+      [
+        615,
+        149
+      ],
+      [
+        617,
+        222
+      ],
+      [
+        602,
+        284
+      ],
+      [
+        448,
+        297
+      ],
+      [
+        377,
+        262
+      ]
+    ],
+    "source_file": "assets\\sources\\guo_xi_early_spring_6mp.jpg",
+    "source_size": [
+      2011,
+      2876
+    ],
+    "crop_source_pixels": [
+      827,
+      112,
+      1385,
+      670
+    ],
+    "reference_size": [
+      900,
+      1287
+    ],
+    "output": "assets/cutouts/early_spring_main_ridge.png",
+    "license": "CC BY 4.0",
+    "source_sha256": "926cd14729709ad30080ff4d0003a86fb63cd538617444a8c572e32330c6b002",
+    "processing": "Hand outline; local silk subtraction; gray-green ink; rock feet fade into slope."
+  },
+  {
+    "name": "early_spring_side_ridge",
+    "role": "Left upper outcrop, rock rim and sparse treetops",
+    "crop": [
+      120,
+      270,
+      355,
+      450
+    ],
+    "opacity": 0.64,
+    "polygon": [
+      [
+        123,
+        273
+      ],
+      [
+        320,
+        273
+      ],
+      [
+        321,
+        345
+      ],
+      [
+        352,
+        390
+      ],
+      [
+        352,
+        429
+      ],
+      [
+        313,
+        447
+      ],
+      [
+        130,
+        443
+      ]
+    ],
+    "source_file": "assets\\sources\\guo_xi_early_spring_6mp.jpg",
+    "source_size": [
+      2011,
+      2876
+    ],
+    "crop_source_pixels": [
+      268,
+      603,
+      793,
+      1006
+    ],
+    "reference_size": [
+      900,
+      1287
+    ],
+    "output": "assets/cutouts/early_spring_side_ridge.png",
+    "license": "CC BY 4.0",
+    "source_sha256": "926cd14729709ad30080ff4d0003a86fb63cd538617444a8c572e32330c6b002",
+    "processing": "Hand outline; local silk subtraction; gray-green ink; rock feet fade into slope."
+  },
+  {
+    "name": "early_spring_far_ridge",
+    "role": "Upper right crag with a few thin skyline pines",
+    "crop": [
+      587,
+      135,
+      740,
+      285
+    ],
+    "opacity": 0.3,
+    "polygon": [
+      [
+        590,
+        138
+      ],
+      [
+        737,
+        138
+      ],
+      [
+        737,
+        260
+      ],
+      [
+        700,
+        282
+      ],
+      [
+        594,
+        267
+      ]
+    ],
+    "source_file": "assets\\sources\\guo_xi_early_spring_6mp.jpg",
+    "source_size": [
+      2011,
+      2876
+    ],
+    "crop_source_pixels": [
+      1312,
+      302,
+      1653,
+      637
+    ],
+    "reference_size": [
+      900,
+      1287
+    ],
+    "output": "assets/cutouts/early_spring_far_ridge.png",
+    "license": "CC BY 4.0",
+    "source_sha256": "926cd14729709ad30080ff4d0003a86fb63cd538617444a8c572e32330c6b002",
+    "processing": "Hand outline; local silk subtraction; gray-green ink; rock feet fade into slope."
+  }
+]

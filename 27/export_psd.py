@@ -10,12 +10,22 @@ DAY=Path(__file__).resolve().parent;OUT=DAY/'outputs';L=OUT/'photoshop_layers'
 def export(manifest,texts):
  w,h=manifest['canvas'];psd=PSDImage.new('RGBA',(w,h),depth=8)
  for r in manifest['layers']:
-  psd.create_pixel_layer(Image.open(L/r['file']).convert('RGBA'),name=r['name'],top=0,left=0,compression=Compression.RLE)
+  source=Image.open(L/r['file']).convert('RGBA')
+  if r.get('mask_file'):
+   source.putalpha(255)
+  created=psd.create_pixel_layer(source,name=r['name'],top=0,left=0,compression=Compression.RLE)
+  if r.get('mask_file'):
+   created.create_mask(Image.open(L/r['mask_file']).convert('L'),top=0,left=0)
  path=OUT/'among_the_giants_layers.psd';psd.save(path)
  reopened=PSDImage.open(path);checks=[];assert len(reopened)==len(manifest['layers'])
  merged=Image.new('RGBA',(w,h),(0,0,0,0))
  for layer,r in zip(reopened,manifest['layers']):
   im=layer.topil().convert('RGBA');source=Image.open(L/r['file']).convert('RGBA')
+  if r.get('mask_file'):
+   assert layer.has_mask()
+   saved_mask=layer.mask.topil().convert('L')
+   assert np.array_equal(np.array(saved_mask),np.array(Image.open(L/r['mask_file']).convert('L')))
+   im.putalpha(saved_mask)
   assert layer.name==r['name'] and layer.left==0 and layer.top==0 and im.size==(w,h)
   aa=np.array(im);bb=np.array(source);mask=bb[:,:,3]>0
   assert np.array_equal(aa[:,:,3],bb[:,:,3]) and np.array_equal(aa[:,:,:3][mask],bb[:,:,:3][mask])

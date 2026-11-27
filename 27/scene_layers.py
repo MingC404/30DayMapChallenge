@@ -26,6 +26,7 @@ class Scene:
    z=ds.read(1); t=ds.transform
    assert np.isfinite(z).all() and (z>0).all()
   ny,nx=z.shape
+  self.grid_z=z.astype(float);self.grid_transform=t;self.grid_shape=(ny,nx)
   xx,yy=np.meshgrid(t.c+(np.arange(nx)+.5)*30,t.f-(np.arange(ny)+.5)*30)
   full=np.c_[xx.ravel(),yy.ravel(),z.ravel()]
   cc=np.rint((old[:,0]-t.c)/30-.5).astype(int)
@@ -63,6 +64,13 @@ class Scene:
   self.roots={int(n):r for n,r in zip(a['tree_numbers'],a['tree_xyz'])}
 
  def world(self,xyz):return (np.asarray(xyz,dtype=float)-self.center)*[1,1,1.2]
+ def ground(self,xy):
+  xy=np.asarray(xy);t=self.grid_transform;z=self.grid_z;ny,nx=z.shape
+  u=(xy[...,0]-t.c)/30-.5;v=(t.f-xy[...,1])/30-.5
+  col=np.clip(np.floor(u).astype(int),0,nx-2);row=np.clip(np.floor(v).astype(int),0,ny-2)
+  u=np.clip(u-col,0,1);v=np.clip(v-row,0,1)
+  return np.where(u>=v,(1-u)*z[row,col]+(u-v)*z[row,col+1]+v*z[row+1,col+1],
+       (1-v)*z[row,col]+u*z[row+1,col+1]+(v-u)*z[row+1,col])
  def project(self,xyz,size=SIZE):
   q=self.world(xyz)-self.focus
   return np.stack([size/2+(q@self.right)*size/self.width_world,size*HEIGHT/SIZE/2-(q@self.up)*size/self.width_world],axis=-1)
@@ -78,16 +86,17 @@ class Scene:
   actor=p.add_mesh(mesh,scalars='tone',rgb=True,smooth_shading=True,
       ambient=cfg['ambient'],diffuse=cfg['diffuse'],specular=0,show_scalar_bar=False)
   p.add_light(pv.Light(position=cfg['light'],focal_point=(0,0,0),intensity=1))
-  if mode not in ('terrain','diagnostic'):
+  if mode not in ('terrain','diagnostic','wireframe','composition'):
    # Nonzero shader alpha avoids VTK's zero-alpha discard, keeps depth writes,
    # but rounds to zero in 8-bit PNG. Buried-geometry regression is recorded.
    actor.GetShaderProperty().AddFragmentShaderReplacement('//VTK::Light::Impl',True,
       '//VTK::Light::Impl\n gl_FragData[0] = vec4(0.0,0.0,0.0,0.00001);',False)
-  if mode in ('diagnostic','boundary'):
+  if mode=='wireframe':p.add_mesh(mesh,style='wireframe',color='#7a8479',line_width=.5,opacity=.35,lighting=False)
+  if mode in ('diagnostic','boundary','wireframe'):
    edge=self.mesh.extract_feature_edges(boundary_edges=True,feature_edges=False,manifold_edges=False,non_manifold_edges=False)
    edge.points[:,2]+=.3
    p.add_mesh(edge,color='#d600a6',line_width=3,lighting=False)
-  if mode=='trail':
+  if mode in ('trail','composition'):
    seg=self.a['track_segments_xyz'].copy();seg[:,:,2]+=1
    line=pv.PolyData(self.world(seg).reshape(-1,3))
    line.lines=np.c_[np.full(len(seg),2),np.arange(len(seg)*2).reshape(-1,2)].ravel()
@@ -111,12 +120,15 @@ class Scene:
 
  def validate(self):
   assert all(sha(DAY.parent/k)==h for k,h in self.hashes.items())
+  track=self.project(self.a['track_segments_xyz'].reshape(-1,3))
   return dict(input_sha256=self.hashes,original_vertices_retained=1804,original_faces_retained=3440,
       extended_vertices=len(self.v),extended_faces=len(self.f),original_overlap_max_z_difference_m=0,
       azimuth_deg=self.az,elevation_deg=self.elev,parallel_scale=self.scale,orthographic_height_m=2*self.scale,
       focus_local_render_xyz=self.focus.tolist(),horizontal_world_width_m=self.width_world,
-      canvas_px=[SIZE,HEIGHT],zoom_out_horizontal_fraction=.05,focus_up_m=225,
+      canvas_px=[SIZE,HEIGHT],focus_up_m=CAMERA['focus_up_m'],
       terrain_extension='NW foreground only' if self.foreground_only else 'Full existing D18 extended DSM; all directions',
+      reference_track_projected_bounds=[track.min(axis=0).tolist(),track.max(axis=0).tolist()],
+      all_reference_track_vertices_in_frame=bool((track[:,0]>=0).all() and (track[:,0]<SIZE).all() and (track[:,1]>=0).all() and (track[:,1]<HEIGHT).all()),
       candidate_projections={str(n):self.project(r).tolist() for n,r in self.roots.items()},entrance_projection=self.project(self.entry).tolist())
 
 if __name__=='__main__':

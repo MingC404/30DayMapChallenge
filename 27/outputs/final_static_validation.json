@@ -1,0 +1,530 @@
+{
+  "source": "outputs/among_the_giants_layers.psd",
+  "source_psd_sha256": "7d1fdf395e63fca9e7f38683b07b3e54daab2efdfb0bad172f0ac092e40bdf22",
+  "png": "outputs/among_the_giants_final.png",
+  "png_sha256": "a4dc2edcfef935fa7e3fe15030a452ab5c18e3919e313fcda06ab1b4c98fa308",
+  "canvas": [
+    1800,
+    2520
+  ],
+  "export_method": "Photoshop-saved full-resolution merged RGB, not third-party layer recomposition",
+  "writer": "Adobe Photoshop",
+  "saved_layer_state": [
+    {
+      "name": "sky_background",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "terrain_pale_ink",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        229,
+        1800,
+        2520
+      ],
+      "mask": true
+    },
+    {
+      "name": "Terrain - ink depth grading",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": true
+    },
+    {
+      "name": "Cloud-curl dry brush - near_shadow_left",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "Cloud-curl dry brush - near_shadow_right",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "Ridge collage - Guo Xi main crag",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        479,
+        160,
+        1320,
+        907
+      ],
+      "mask": false
+    },
+    {
+      "name": "Ridge collage - Guo Xi side rock and treetops",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        1630,
+        1112,
+        1972,
+        1406
+      ],
+      "mask": false
+    },
+    {
+      "name": "Ridge collage - Guo Xi distant ink",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        1320,
+        691,
+        1660,
+        982
+      ],
+      "mask": false
+    },
+    {
+      "name": "Valley reserve - left_valley_reserve",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": true
+    },
+    {
+      "name": "Valley reserve - right_shoulder_reserve",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": true
+    },
+    {
+      "name": "reference_gps_track",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "candidate_locations",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "entrance_marker",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "grove_dong_yuan_distant",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        -141,
+        833,
+        271,
+        1077
+      ],
+      "mask": false
+    },
+    {
+      "name": "new_dense_grove_wang_meng copy",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        777,
+        1428,
+        1046,
+        1667
+      ],
+      "mask": false
+    },
+    {
+      "name": "new_dense_grove_wang_meng",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        1406,
+        1786,
+        1675,
+        2025
+      ],
+      "mask": false
+    },
+    {
+      "name": "new_single_pine_zhao_mengfu copy",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        737,
+        1258,
+        872,
+        1509
+      ],
+      "mask": false
+    },
+    {
+      "name": "new_single_pine_zhao_mengfu",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 145,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        -170,
+        -463,
+        1630,
+        2057
+      ],
+      "mask": false
+    },
+    {
+      "name": "new_sparse_grove_ni_zan",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        -75,
+        1474,
+        778,
+        2641
+      ],
+      "mask": false
+    },
+    {
+      "name": "main_tree_guo_xi",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        1124,
+        1482,
+        1346,
+        1747
+      ],
+      "mask": false
+    },
+    {
+      "name": "waterfall_main_wen",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 163,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        1082,
+        1021,
+        1247,
+        1234
+      ],
+      "mask": false
+    },
+    {
+      "name": "waterfall_distant_wen",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        660,
+        1027,
+        711,
+        1314
+      ],
+      "mask": false
+    },
+    {
+      "name": "Group 1",
+      "kind": "group",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.PASS_THROUGH",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "day_kicker",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "title",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "subtitle",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "legend_symbols",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "legend_text",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "entrance_label",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "collage_caption",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "position_note",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "terrain_source",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "art_source",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    },
+    {
+      "name": "signature",
+      "kind": "pixel",
+      "visible": true,
+      "effective_visible": true,
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "bbox": [
+        0,
+        0,
+        1800,
+        2520
+      ],
+      "mask": false
+    }
+  ],
+  "source_psd_unchanged": true,
+  "png_vs_photoshop_saved_composite_max_error": 0,
+  "auxiliary_zero_channel_ignored": true,
+  "icc_profile_embedded": false,
+  "rgb_channel_values_preserved": true,
+  "psd_has_external_layer_resources": false
+}

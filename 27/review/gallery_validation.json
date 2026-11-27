@@ -1,0 +1,124 @@
+{
+  "viewports": [
+    {
+      "viewport": [
+        1440,
+        1100
+      ],
+      "width": 732.90625,
+      "height": 1026.0625,
+      "natural": [
+        900,
+        1260
+      ],
+      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "width": 502.84375,
+      "height": 703.96875,
+      "natural": [
+        900,
+        1260
+      ],
+      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": [
+        390,
+        840
+      ],
+      "width": 297.5,
+      "height": 416.5,
+      "natural": [
+        900,
+        1260
+      ],
+      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    },
+    {
+      "viewport": [
+        320,
+        640
+      ],
+      "width": 248.1875,
+      "height": 347.453125,
+      "natural": [
+        900,
+        1260
+      ],
+      "src": "http://127.0.0.1:63116/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "objectFit": "contain",
+      "no_horizontal_overflow": true
+    }
+  ],
+  "local_links": [
+    {
+      "path": "/30DayMapChallenge/assets/27/among_the_giants.gif",
+      "status": 200,
+      "content_type": "image/gif"
+    },
+    {
+      "path": "/30DayMapChallenge/assets/27/among_the_giants.png",
+      "status": 200,
+      "content_type": "image/png"
+    }
+  ],
+  "errors": [],
+  "status": "Local gallery preview; no commit, push or deployment.",
+  "day_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "distinct_browser_animation_states": 9,
+  "reduced_motion_png_fallback": true,
+  "failed_gif_png_fallback": true,
+  "credited_visible_work_titles": [
+    "早春图",
+    "树色平远图",
+    "双松平远图",
+    "江渚风林图",
+    "素庵图",
+    "潇湘图",
+    "松阴飞瀑图"
+  ],
+  "only_two_credit_lines_added": true,
+  "psd_png_gif_byte_unchanged": true,
+  "other_cards_and_styles_unchanged": true,
+  "other_mist_clouds_unchanged": true,
+  "only_final_png_gif_published": true,
+  "passed": true
+}

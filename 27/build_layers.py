@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 from scene_layers import Scene,SIZE,HEIGHT,BG,OCHRE,DOT,PRESETS
 DAY=Path(__file__).resolve().parent;OUT=DAY/'outputs';L=OUT/'photoshop_layers';REVIEW=DAY/'review'
-W,H=SIZE,HEIGHT;INK='#35473c';MUTED='#59675a';SELECTED='A'
+W,H=SIZE,HEIGHT;INK='#35473c';MUTED='#59675a';SELECTED='B'
 def blank():return Image.new('RGBA',(W,H),(0,0,0,0))
 def font(n,file):return ImageFont.truetype('C:/Windows/Fonts/'+file,n)
 
@@ -32,9 +32,12 @@ def main():
  ta[:,:,:3]=np.clip(ta[:,:,:3].astype(float)+rng.normal(0,.45,(H,W,1)),0,255).astype(np.uint8)
  put('terrain_pale_ink',Image.fromarray(ta),'terrain',lighting=SELECTED)
  assert np.all(ta[-1,:,3]==255),'Foreground must naturally cover the bottom edge.'
+ from atmosphere import mist_layers,waterfall_layers
+ fog_records=[]
+ for name,im,info in mist_layers():put(name,im,'local_mist',**info);fog_records.append(info)
  boundary,_=scene.render(SELECTED,mode='boundary')
- visible_boundary=int(np.count_nonzero(np.array(boundary)[:,:,3]));assert visible_boundary==0
- boundary.save(REVIEW/'boundary_after_full_resolution_isolated.png')
+ visible_boundary=int(np.count_nonzero(np.array(boundary)[:,:,3]))
+ boundary.save(REVIEW/'sky_boundary_full_resolution_isolated.png')
  for mode,name in [('trail','reference_gps_track'),('candidates','candidate_locations'),('entrance','entrance_marker')]:
   im,_=scene.render(SELECTED,mode=mode);put(name,im,mode)
  probe,_=scene.render(SELECTED,600,'buried_probe');buried=int(np.count_nonzero(np.array(probe)[:,:,3]))
@@ -51,11 +54,13 @@ def main():
    candidate_vicinity=anchor,artistic_offset_px=list(offset),foot_fraction=foot.tolist() if isinstance(foot,np.ndarray) else foot)
   if anchor is not None:rec.update(candidate_projected_px=p.tolist(),artistic_foot_px=(np.array(pos)+foot*np.array(cut.size)).tolist())
   placements.append(rec)
- collage('grove_dong_yuan_distant','dong_yuan_grove.png',330,.70,pos=[1280,1120])
- collage('new_dense_grove_wang_meng','new_wang_dense_grove.png',370,.64,pos=[1100,780])
- collage('new_single_pine_zhao_mengfu','new_zhao_single_pine.png',185,.90,anchor=16,foot=(.35,.97),offset=(16,-8))
- collage('new_sparse_grove_ni_zan','new_ni_sparse_grove.png',300,.83,pos=[120,1940])
- collage('main_tree_guo_xi','guo_xi_main_tree.png',310,1,anchor=1,foot=(.76,.93),offset=(28,-8))
+ collage('grove_dong_yuan_distant','dong_yuan_grove.png',260,.63,pos=[1210,1270])
+ collage('new_dense_grove_wang_meng','new_wang_dense_grove.png',270,.60,pos=[1110,1050])
+ collage('new_single_pine_zhao_mengfu','new_zhao_single_pine.png',140,.90,anchor=16,foot=(.35,.97),offset=(16,-8))
+ collage('new_sparse_grove_ni_zan','new_ni_sparse_grove.png',220,.83,pos=[170,2000])
+ collage('main_tree_guo_xi','guo_xi_main_tree.png',220,1,anchor=1,foot=(.76,.93),offset=(28,-8))
+ water_records=[]
+ for name,im,info in waterfall_layers():put(name,im,'waterfall_collage',**info);water_records.append(info)
  textlayer('day_kicker',[(94,90,'DAY 27 / NEW TOOL',20,MUTED,'segoeui.ttf','ls')])
  textlayer('title',[(94,174,'Among the Giants',64,INK,'georgia.ttf','ls')])
  textlayer('subtitle',[(94,222,'The giant-tree trail at Lalashan, Taiwan',27,INK,'segoeui.ttf','ls')])
@@ -64,10 +69,10 @@ def main():
  textlayer('legend_text',[(158,295,'Reference GPS track',22,INK,'segoeui.ttf','ls'),(518,295,'Candidate tree locations',22,INK,'segoeui.ttf','ls')])
  entry=scene.project(scene.entry)
  textlayer('entrance_label',[(round(entry[0])-14,round(entry[1])-22,'Entrance / Visitor center',23,INK,'segoeui.ttf','rs')])
- textlayer('collage_caption',[(94,H-170,'Tree collage from classical ink paintings',23,INK,'segoeui.ttf','ls')])
- textlayer('position_note',[(94,H-135,'Candidate locations unverified · tree forms are artistic · not for navigation',20,MUTED,'segoeui.ttf','ls')])
+ textlayer('collage_caption',[(94,H-170,'Tree and waterfall collage from classical ink paintings.',23,INK,'segoeui.ttf','ls')])
+ textlayer('position_note',[(94,H-135,'Candidate locations unverified · artistic tree forms · GPS: Taiwan Outdoors · not for navigation',20,MUTED,'segoeui.ttf','ls')])
  textlayer('terrain_source',[(94,H-85,'Copernicus GLO-30 DSM (nominal 30 m) · EPSG:3826 / EGM2008 · © OpenStreetMap contributors',18,MUTED,'segoeui.ttf','ls')])
- textlayer('art_source',[(94,H-54,'Art: Guo Xi, Zhao Mengfu, Ni Zan, Wang Meng / The Met, CC0 · Dong Yuan / Commons, public domain',16,MUTED,'segoeui.ttf','ls')])
+ textlayer('art_source',[(94,H-54,'Art: Guo Xi, Zhao Mengfu, Ni Zan, Wang Meng, Wen Zhengming / The Met, CC0 · Dong Yuan / Commons, PD',15,MUTED,'segoeui.ttf','ls')])
  textlayer('signature',[(W-94,H-54,'Ming Cao',23,INK,'segoeui.ttf','rs')])
  composite=blank()
  for r in layers:composite=Image.alpha_composite(composite,Image.open(L/r['file']).convert('RGBA'))
@@ -81,9 +86,10 @@ def main():
   text_layers='PSD contains raster labels for exact preview; optional JSX creates editable Photoshop type.',placements=placements)
  (L/'layer_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
  (L/'editable_text.json').write_text(json.dumps(texts,indent=2),encoding='utf8')
- report=scene.validate();report.update(lighting_selected=SELECTED,lighting_reason='Paler valleys and quieter relief behind ink lines',
+ report=scene.validate();report.update(lighting_selected=SELECTED,lighting_reason='Slightly stronger side light separates near slopes, valleys and distant ridges',
   bottom_edge_terrain_coverage=1.0,buried_probe_visible_pixels=buried,layer_count=len(layers),layer_composite_exact=True,
   visible_mesh_boundary_pixels_full_resolution=visible_boundary,
+  terrain_sky_fraction=float(np.mean(ta[:,:,3]==0)),local_mist=fog_records,waterfalls=water_records,
   collage_placements=placements,elapsed_render_seconds=round(time.perf_counter()-started,2))
  (OUT/'render_report.json').write_text(json.dumps(report,indent=2),encoding='utf8')
  verify=blank()

@@ -21,7 +21,9 @@ esc=lambda s:html.escape(s,quote=True)
 links=''.join(f'<a href="{m["path"]}" target="_blank" rel="noopener noreferrer">{esc(m["label"])}</a>' for m in files)
 links+='<a href="https://github.com/MingC404/30DayMapChallenge/tree/main/28" target="_blank" rel="noopener noreferrer">Source &amp; methods</a>'
 links+=''.join(f'<a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">{esc(s["label"])}</a>' for s in spec['sourceLinks'])
-row=f'<article id="day-28" aria-labelledby="title-28" data-author="Ming Cao"><header><p class="day">DAY 28 / SENSES: FEELING</p><h2 id="title-28">The Wanderer</h2><p class="description">{esc(spec["description"])}</p><p class="tools">{esc(" · ".join(spec["tools"]))}</p><nav class="links" aria-label="Day 28 resources">{links}</nav></header><div class="media-grid"><figure><a class="cover-link" href="{files[0]["path"]}" target="_blank" rel="noopener noreferrer" aria-label="The Wanderer — Open full-size animation (new tab)"><img src="{files[0]["path"]}" alt="{esc(files[0]["alt"])}" width="1080" height="1080" loading="lazy"></a></figure></div></article>\n'
+display_scale=spec['media'][0].get('displayScale',1)
+figure_style=f' style="width:{display_scale*100:g}%;max-width:calc(100svh - 64px);margin-inline:auto"'
+row=f'<article id="day-28" aria-labelledby="title-28" data-author="Ming Cao"><header><p class="day">DAY 28 / SENSES: FEELING</p><h2 id="title-28">The Wanderer</h2><p class="description">{esc(spec["description"])}</p><p class="tools">{esc(" · ".join(spec["tools"]))}</p><nav class="links" aria-label="Day 28 resources">{links}</nav></header><div class="media-grid"><figure{figure_style}><a class="cover-link" href="{files[0]["path"]}" target="_blank" rel="noopener noreferrer" aria-label="The Wanderer — Open full-size animation (new tab)"><img src="{files[0]["path"]}" alt="{esc(files[0]["alt"])}" width="1080" height="1080" loading="lazy"></a></figure></div></article>\n'
 card=r'<article id="day-28"(?=\s|>)[\s\S]*?</article>\n?'
 for p in [DOC/'index.html',R/'scripts/maps_index_template.html']:
  before=read(p);without=re.sub(card,'',before)

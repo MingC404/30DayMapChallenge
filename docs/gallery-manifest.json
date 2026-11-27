@@ -121,6 +121,11 @@
       "status": "local-assets-ready"
     },
     {
+      "day": "27",
+      "interactive": null,
+      "status": "local-assets-ready"
+    },
+    {
       "day": "28",
       "interactive": null,
       "status": "local-assets-ready"
@@ -194,7 +199,9 @@
     "assets/26/looking_for_the_falls_enfield.gif",
     "assets/26/looking_for_the_falls_enfield_overview.png",
     "assets/28/the_wanderer.gif",
-    "assets/28/the_wanderer.png"
+    "assets/28/the_wanderer.png",
+    "assets/27/among_the_giants.gif",
+    "assets/27/among_the_giants.png"
   ],
   "restrictedSourcesExcluded": [
     "13"

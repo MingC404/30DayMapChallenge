@@ -1,0 +1,15 @@
+{
+  "canvas_px": [
+    1800,
+    2520
+  ],
+  "azimuth_deg": 315,
+  "elevation_deg": 18,
+  "horizontal_world_width_m": 1800,
+  "orthographic_height_m": 2520,
+  "parallel_scale": 1260,
+  "focus_right_m": 28.42,
+  "focus_up_m": 450,
+  "vertical_exaggeration": 1.2,
+  "source": "D18 C camera bearing 315/elevation18 restored as far-view reference; full existing DSM and portrait framing with sky"
+}

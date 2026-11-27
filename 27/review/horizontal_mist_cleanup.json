@@ -1,0 +1,64 @@
+{
+  "removed": [
+    {
+      "path": "outputs/among_the_giants_mist_loop.gif",
+      "bytes": 10915425,
+      "sha256": "a28a346b8d2209a7421f7821a72f1cf7427c7eb0442306a74ed0f7acb7782799",
+      "references_checked": [
+        "review/mist_revision_cleanup.json"
+      ],
+      "reason": "Superseded GIF or unused old animation mask/metadata/check output; current animation uses procedural full-canvas fog only."
+    },
+    {
+      "path": "animation/fixed_content_protection.png",
+      "bytes": 61002,
+      "sha256": "9d22b52708db6035e389cbd26a95637ef35a44ee3528882b91be7a8ea05ebabc",
+      "references_checked": [],
+      "reason": "Superseded GIF or unused old animation mask/metadata/check output; current animation uses procedural full-canvas fog only."
+    },
+    {
+      "path": "animation/valley_guide_0.png",
+      "bytes": 22047,
+      "sha256": "c077d7c863770808a4394b8780f882de5adeaccd85c6c57158f08a15aeae9335",
+      "references_checked": [],
+      "reason": "Superseded GIF or unused old animation mask/metadata/check output; current animation uses procedural full-canvas fog only."
+    },
+    {
+      "path": "animation/valley_guide_1.png",
+      "bytes": 26920,
+      "sha256": "e457df3dedfc62611fc19f5e33a7960012b129fbf3bd3150dedebf7a35c1e2c8",
+      "references_checked": [],
+      "reason": "Superseded GIF or unused old animation mask/metadata/check output; current animation uses procedural full-canvas fog only."
+    },
+    {
+      "path": "animation/saved_psd_metadata.xmp",
+      "bytes": 14463,
+      "sha256": "5cf861d34c41eab17d9cff134c32bb73fa139aaecbc54e4e5e4d68edf64815ce",
+      "references_checked": [],
+      "reason": "Superseded GIF or unused old animation mask/metadata/check output; current animation uses procedural full-canvas fog only."
+    },
+    {
+      "path": "review/final_animation/motion_check.png",
+      "bytes": 303042,
+      "sha256": "f16ceb5c234e1343d4bab8998e92bf3f8b6faae51439121993b17137dc696b9c",
+      "references_checked": [
+        "animate_final_mist.py",
+        "cleanup_final_outputs.py",
+        "review/final_cleanup_report.json",
+        "review/mist_revision_cleanup.json"
+      ],
+      "reason": "Superseded GIF or unused old animation mask/metadata/check output; current animation uses procedural full-canvas fog only."
+    }
+  ],
+  "count": 6,
+  "bytes_removed": 11342899,
+  "final_files_preserved": {
+    "outputs/among_the_giants_layers.psd": "7d1fdf395e63fca9e7f38683b07b3e54daab2efdfb0bad172f0ac092e40bdf22",
+    "outputs/among_the_giants_final.png": "a4dc2edcfef935fa7e3fe15030a452ab5c18e3919e313fcda06ab1b4c98fa308",
+    "outputs/among_the_giants_horizontal_mist.gif": "e861b411350d8bbb48776fbe62948516d6089feff2570240a97cfa7b7086eee9"
+  },
+  "original_png_and_psd_unchanged": true,
+  "source_materials_retained": true,
+  "d18_modified": false,
+  "gallery_modified": false
+}

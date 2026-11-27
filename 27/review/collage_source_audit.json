@@ -1,0 +1,206 @@
+{
+  "works": [
+    {
+      "title": "早春图",
+      "artist": "郭熙",
+      "url": "https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full",
+      "source_file": "assets/sources/guo_xi_early_spring_6mp.jpg",
+      "source_sha256": "926cd14729709ad30080ff4d0003a86fb63cd538617444a8c572e32330c6b002",
+      "extraction_record": "assets/cutouts/early_spring_ridge_materials.json",
+      "cutouts": [
+        "early_spring_main_ridge.png",
+        "early_spring_side_ridge.png",
+        "early_spring_far_ridge.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "Ridge collage - Guo Xi distant ink",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 28552,
+          "surviving_pixels_above_2_percent_alpha": 25172,
+          "surviving_alpha_equivalent_pixels": 1693.8458251953125
+        },
+        {
+          "name": "Ridge collage - Guo Xi side rock and treetops",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 14775,
+          "surviving_pixels_above_2_percent_alpha": 14775,
+          "surviving_alpha_equivalent_pixels": 2501.2861328125
+        },
+        {
+          "name": "Ridge collage - Guo Xi main crag",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 215355,
+          "surviving_pixels_above_2_percent_alpha": 215067,
+          "surviving_alpha_equivalent_pixels": 37899.59765625
+        }
+      ]
+    },
+    {
+      "title": "树色平远图",
+      "artist": "郭熙",
+      "url": "https://www.metmuseum.org/art/collection/search/39668",
+      "source_file": "assets/sources/guo_xi_old_trees.jpg",
+      "source_sha256": "d0623ddb41ac34da4912cac8b83a82636a2922077385c1010cd7a0bd92a2f33c",
+      "extraction_record": "assets/cutouts/extraction.json",
+      "cutouts": [
+        "guo_xi_main_tree.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "main_tree_guo_xi",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 10224,
+          "surviving_pixels_above_2_percent_alpha": 10224,
+          "surviving_alpha_equivalent_pixels": 3260.58837890625
+        }
+      ]
+    },
+    {
+      "title": "双松平远图",
+      "artist": "赵孟頫",
+      "url": "https://www.metmuseum.org/art/collection/search/40508",
+      "source_file": "assets/sources/zhao_mengfu_twin_pines.jpg",
+      "source_sha256": "2578bea9dbe509b34a0a0c11ebf6e3a4a79b70bf53b44dfff237710aebd9b47c",
+      "extraction_record": "assets/cutouts/new_materials.json",
+      "cutouts": [
+        "new_zhao_single_pine.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "new_single_pine_zhao_mengfu",
+          "visible": true,
+          "opacity": 145,
+          "clipped_canvas_pixels": 5937,
+          "surviving_pixels_above_2_percent_alpha": 5937,
+          "surviving_alpha_equivalent_pixels": 1168.030029296875
+        },
+        {
+          "name": "new_single_pine_zhao_mengfu copy",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 8387,
+          "surviving_pixels_above_2_percent_alpha": 8387,
+          "surviving_alpha_equivalent_pixels": 2638.364990234375
+        }
+      ]
+    },
+    {
+      "title": "江渚风林图",
+      "artist": "倪瓒",
+      "url": "https://www.metmuseum.org/art/collection/search/41154",
+      "source_file": "assets/sources/ni_zan_wind_trees.jpg",
+      "source_sha256": "05851e43e03e9bf12a7c365549ebe9ca69ab52c0cc83dd1bce2e164db9f9846f",
+      "extraction_record": "assets/cutouts/new_materials.json",
+      "cutouts": [
+        "new_ni_sparse_grove.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "new_sparse_grove_ni_zan",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 186791,
+          "surviving_pixels_above_2_percent_alpha": 185900,
+          "surviving_alpha_equivalent_pixels": 44676.625
+        }
+      ]
+    },
+    {
+      "title": "素庵图",
+      "artist": "王蒙",
+      "url": "https://www.metmuseum.org/art/collection/search/39550",
+      "source_file": "assets/sources/wang_meng_simple_retreat.jpg",
+      "source_sha256": "646875565422c7a3224c500b991abdeb520d19daa160612ab2b71af5ef50862c",
+      "extraction_record": "assets/cutouts/new_materials.json",
+      "cutouts": [
+        "new_wang_dense_grove.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "new_dense_grove_wang_meng",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 25939,
+          "surviving_pixels_above_2_percent_alpha": 25939,
+          "surviving_alpha_equivalent_pixels": 3153.082275390625
+        },
+        {
+          "name": "new_dense_grove_wang_meng copy",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 25939,
+          "surviving_pixels_above_2_percent_alpha": 25935,
+          "surviving_alpha_equivalent_pixels": 3149.59423828125
+        }
+      ]
+    },
+    {
+      "title": "潇湘图",
+      "artist": "董源",
+      "url": "https://www.dpm.org.cn/collection/paint/234585.html",
+      "source_file": "assets/sources/dong_yuan_xiaoxiang.jpg",
+      "source_sha256": "c93325a9674fe3d2e8d5a48fc709196f8b589ca26cf82736e3cddff1b8a0f396",
+      "extraction_record": "assets/cutouts/extraction.json",
+      "cutouts": [
+        "dong_yuan_grove.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "grove_dong_yuan_distant",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 19365,
+          "surviving_pixels_above_2_percent_alpha": 19365,
+          "surviving_alpha_equivalent_pixels": 2099.84716796875
+        }
+      ]
+    },
+    {
+      "title": "松阴飞瀑图",
+      "artist": "文徵明",
+      "url": "https://www.metmuseum.org/art/collection/search/45778",
+      "source_file": "assets/sources/wen_zhengming_pine_waterfall.jpg",
+      "source_sha256": "e44020f69c7d8aec7fa7b0b39d92d654450345b4c71a048616f9c0dd35372d1b",
+      "extraction_record": "assets/cutouts/waterfall_materials.json",
+      "cutouts": [
+        "waterfall_wen_main.png",
+        "waterfall_wen_far.png"
+      ],
+      "final_psd_layers": [
+        {
+          "name": "waterfall_distant_wen",
+          "visible": true,
+          "opacity": 255,
+          "clipped_canvas_pixels": 6052,
+          "surviving_pixels_above_2_percent_alpha": 6052,
+          "surviving_alpha_equivalent_pixels": 3103.062744140625
+        },
+        {
+          "name": "waterfall_main_wen",
+          "visible": true,
+          "opacity": 163,
+          "clipped_canvas_pixels": 5854,
+          "surviving_pixels_above_2_percent_alpha": 5854,
+          "surviving_alpha_equivalent_pixels": 3405.50830078125
+        }
+      ]
+    }
+  ],
+  "unique_visible_works": 7,
+  "visible_art_layers": 12,
+  "source_psd_sha256": "7d1fdf395e63fca9e7f38683b07b3e54daab2efdfb0bad172f0ac092e40bdf22",
+  "published_png_matches_saved_psd_composite": true,
+  "gallery_assets_match_final_working_files": true,
+  "gif_additions": "Three procedural mist overlays only; no additional painting pixels.",
+  "excluded": [
+    "马远《高士观瀑图》：备用松树/急流素材，无最终可见图层。",
+    "唐寅《观瀑图》：仅检查原画，未制作并使用最终拼贴。",
+    "范宽《雪景寒林图》等早期建议：仅作为备选参考，无最终拼贴。"
+  ],
+  "method": "Saved PSD layer alpha/mask/opacity, canvas clipping and upper-layer alpha occlusion; retained extraction/source records; published static image comparison. Visible works deduplicated across transformed/copied layers."
+}

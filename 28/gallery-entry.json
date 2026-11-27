@@ -22,7 +22,8 @@
       "source": "28/the_wanderer.gif",
       "path": "assets/28/the_wanderer.gif",
       "label": "View animation",
-      "alt": "The Wanderer: animated autumn stroll through Rittenhouse Square, Philadelphia. Alternating footprints hurry across open paths, slow at café tables, windows, the pool and an accordionist, and linger by golden ginkgo and red berries."
+      "alt": "The Wanderer: animated autumn stroll through Rittenhouse Square, Philadelphia. Alternating footprints hurry across open paths, slow at café tables, windows, the pool and an accordionist, and linger by golden ginkgo and red berries.",
+      "displayScale": 0.7
     }
   ],
   "downloads": [

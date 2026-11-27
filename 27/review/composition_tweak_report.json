@@ -1,0 +1,113 @@
+{
+  "input_sha256": {
+    "18\\oblique\\scene_mesh_epsg3826.npz": "daae24cb75b57bb0a7f7a0d9fc5ae83f884bae17016ec4b4059c40fdc442aeed",
+    "18\\oblique\\composition_dem_30m.tif": "e4cef11d11e351c0734ed8f7a611f41d54e3e3aa2faad37a2d52c0198b6f059b",
+    "18\\oblique\\composition_dem_source.json": "6767537abf9bc42dd6e789ff89a05816cf50d85c7e492625ddc62d913154d51d",
+    "18\\oblique\\camera_c.json": "9f702cf23e120f92a529a3ff46f228c6e58aae14b106122fd50459a986f36164",
+    "18\\research\\data\\official_communication_points.geojson": "8a6d02e86d40ed8e3e90325d14d549c37cb44d4e2b015b59cbcc40a54531122e"
+  },
+  "original_vertices_retained": 1804,
+  "original_faces_retained": 3440,
+  "extended_vertices": 36000,
+  "extended_faces": 29696,
+  "original_overlap_max_z_difference_m": 0,
+  "azimuth_deg": 315,
+  "elevation_deg": 42,
+  "parallel_scale": 661.5,
+  "orthographic_height_m": 1323.0,
+  "focus_local_render_xyz": [
+    91.09352075379488,
+    -131.2854701964382,
+    174.63903398718764
+  ],
+  "horizontal_world_width_m": 945,
+  "canvas_px": [
+    1800,
+    2520
+  ],
+  "focus_up_m": 235,
+  "terrain_extension": "NW foreground only",
+  "reference_track_projected_bounds": [
+    [
+      212.7856263515455,
+      1240.846006377318
+    ],
+    [
+      1587.2166446260107,
+      2464.8672275624203
+    ]
+  ],
+  "all_reference_track_vertices_in_frame": true,
+  "candidate_projections": {
+    "1": [
+      1019.1579220979974,
+      1800.4616788892267
+    ],
+    "2": [
+      864.5113354919541,
+      1672.42041837228
+    ],
+    "3": [
+      721.5936019343915,
+      1505.7513536017948
+    ],
+    "4": [
+      734.3741956514868,
+      1484.4588434938312
+    ],
+    "5": [
+      1004.5148827412473,
+      1344.8940814531966
+    ],
+    "6": [
+      946.5709385790458,
+      1302.4300572840712
+    ],
+    "7": [
+      910.7250518624987,
+      1278.0583663140999
+    ],
+    "8": [
+      789.9128657858911,
+      1363.588927665154
+    ],
+    "12": [
+      455.01330728999017,
+      1209.464477415158
+    ],
+    "14": [
+      508.9929371389331,
+      1420.8414062023949
+    ],
+    "15": [
+      428.3700339101818,
+      1498.0903197790276
+    ],
+    "16": [
+      297.4095207161545,
+      1522.5063580731814
+    ],
+    "19": [
+      454.76822393114986,
+      1642.0643938998628
+    ],
+    "20": [
+      565.8753031653025,
+      1529.7704489468892
+    ],
+    "21": [
+      568.6277496871787,
+      1567.4651211832686
+    ]
+  },
+  "entrance_projection": [
+    1501.792385595902,
+    2398.578654987142
+  ],
+  "scale_locked": true,
+  "low_resolution_previews": 1,
+  "full_resolution_exports": 1,
+  "existing_art_layers_unchanged": true,
+  "no_asset_search": true,
+  "no_dem_reconstruction": true
+}

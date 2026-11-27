@@ -67,6 +67,8 @@ The current environment is reused without modifying Day 27. Shapely can also be 
 
 For an interactive local gallery preview, run `node scripts/serve_gallery.cjs` and open `http://127.0.0.1:8026/30DayMapChallenge/#day-28`.
 
+The Day 28 gallery image is centered at 70% of its media column width, with a viewport-height cap so the full square can fit without scrolling through the image. Original PNG/GIF files and full-size links retain their original dimensions.
+
 ## Gallery description
 
 Inspired by Baudelaire’s flâneur, The Wanderer follows an autumn stroll through Philadelphia’s Rittenhouse Square. Footprints quicken across open stretches and slow near café tables, autumn trees, and a street accordionist. The route and its changing pace are illustrated.

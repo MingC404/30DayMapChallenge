@@ -1,0 +1,336 @@
+[
+  {
+    "asset": "waterfall_wen_main.png",
+    "source": "wen_zhengming_pine_waterfall.jpg",
+    "title": "Recluse playing the zither in a pine grove",
+    "artist": "Wen Zhengming",
+    "object_id": 45778,
+    "record_url": "https://www.metmuseum.org/art/collection/search/45778",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP-24654-002_crd.jpg",
+    "rights": "CC0 / Met Open Access",
+    "policy": "https://www.metmuseum.org/policies/image-resources",
+    "source_size": [
+      1678,
+      3687
+    ],
+    "crop_source_pixels": [
+      552,
+      1170,
+      688,
+      1565
+    ],
+    "source_contour": [
+      [
+        570,
+        1175
+      ],
+      [
+        584,
+        1188
+      ],
+      [
+        600,
+        1210
+      ],
+      [
+        619,
+        1230
+      ],
+      [
+        630,
+        1260
+      ],
+      [
+        646,
+        1300
+      ],
+      [
+        657,
+        1345
+      ],
+      [
+        667,
+        1400
+      ],
+      [
+        673,
+        1460
+      ],
+      [
+        677,
+        1515
+      ],
+      [
+        676,
+        1555
+      ],
+      [
+        650,
+        1558
+      ],
+      [
+        648,
+        1500
+      ],
+      [
+        644,
+        1455
+      ],
+      [
+        636,
+        1400
+      ],
+      [
+        626,
+        1350
+      ],
+      [
+        610,
+        1300
+      ],
+      [
+        594,
+        1265
+      ],
+      [
+        575,
+        1230
+      ],
+      [
+        560,
+        1210
+      ]
+    ],
+    "source_sha256": "e44020f69c7d8aec7fa7b0b39d92d654450345b4c71a048616f9c0dd35372d1b",
+    "role": "lower two-ribbon vertical fall; main illustrative cascade",
+    "used": true
+  },
+  {
+    "asset": "waterfall_wen_far.png",
+    "source": "wen_zhengming_pine_waterfall.jpg",
+    "title": "Recluse playing the zither in a pine grove",
+    "artist": "Wen Zhengming",
+    "object_id": 45778,
+    "record_url": "https://www.metmuseum.org/art/collection/search/45778",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP-24654-002_crd.jpg",
+    "rights": "CC0 / Met Open Access",
+    "policy": "https://www.metmuseum.org/policies/image-resources",
+    "source_size": [
+      1678,
+      3687
+    ],
+    "crop_source_pixels": [
+      553,
+      924,
+      616,
+      1184
+    ],
+    "source_contour": [
+      [
+        584,
+        928
+      ],
+      [
+        594,
+        930
+      ],
+      [
+        595,
+        954
+      ],
+      [
+        587,
+        979
+      ],
+      [
+        592,
+        995
+      ],
+      [
+        607,
+        1006
+      ],
+      [
+        610,
+        1018
+      ],
+      [
+        595,
+        1032
+      ],
+      [
+        582,
+        1045
+      ],
+      [
+        575,
+        1080
+      ],
+      [
+        572,
+        1118
+      ],
+      [
+        574,
+        1150
+      ],
+      [
+        581,
+        1178
+      ],
+      [
+        570,
+        1174
+      ],
+      [
+        562,
+        1150
+      ],
+      [
+        560,
+        1115
+      ],
+      [
+        562,
+        1082
+      ],
+      [
+        566,
+        1051
+      ],
+      [
+        577,
+        1030
+      ],
+      [
+        588,
+        1018
+      ],
+      [
+        585,
+        1008
+      ],
+      [
+        574,
+        1004
+      ],
+      [
+        578,
+        993
+      ],
+      [
+        580,
+        974
+      ],
+      [
+        580,
+        950
+      ]
+    ],
+    "source_sha256": "e44020f69c7d8aec7fa7b0b39d92d654450345b4c71a048616f9c0dd35372d1b",
+    "role": "upper narrow winding watercourse; distant illustrative cascade",
+    "used": true
+  },
+  {
+    "asset": "waterfall_ma_rapids.png",
+    "source": "ma_yuan_waterfall.jpg",
+    "title": "Scholar viewing a waterfall",
+    "artist": "Ma Yuan",
+    "object_id": 40086,
+    "record_url": "https://www.metmuseum.org/art/collection/search/40086",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP154090.jpg",
+    "rights": "CC0 / Met Open Access",
+    "policy": "https://www.metmuseum.org/policies/image-resources",
+    "source_size": [
+      3407,
+      3000
+    ],
+    "crop_source_pixels": [
+      2630,
+      2220,
+      3005,
+      2520
+    ],
+    "source_contour": [
+      [
+        2960,
+        2224
+      ],
+      [
+        2990,
+        2230
+      ],
+      [
+        2960,
+        2280
+      ],
+      [
+        2935,
+        2320
+      ],
+      [
+        2890,
+        2335
+      ],
+      [
+        2850,
+        2385
+      ],
+      [
+        2800,
+        2410
+      ],
+      [
+        2750,
+        2455
+      ],
+      [
+        2700,
+        2485
+      ],
+      [
+        2660,
+        2510
+      ],
+      [
+        2645,
+        2495
+      ],
+      [
+        2665,
+        2455
+      ],
+      [
+        2700,
+        2430
+      ],
+      [
+        2740,
+        2410
+      ],
+      [
+        2780,
+        2365
+      ],
+      [
+        2820,
+        2335
+      ],
+      [
+        2855,
+        2300
+      ],
+      [
+        2915,
+        2275
+      ],
+      [
+        2920,
+        2245
+      ]
+    ],
+    "source_sha256": "2ba5d31803f54c802f6e50f99ea36055953d31110496885fd8c8243899c5bbf1",
+    "role": "small rock-bound cascade/rapids alternative, not a tall vertical waterfall",
+    "used": false
+  }
+]

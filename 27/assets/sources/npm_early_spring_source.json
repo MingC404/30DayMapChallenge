@@ -1,0 +1,17 @@
+{
+  "artist": "Guo Xi",
+  "title": "Early Spring",
+  "collection": "The National Palace Museum, Taipei",
+  "record_url": "https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full",
+  "download_url": "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A000053N000000000PAA/full/!2011,2876/0/default.jpg",
+  "pixels": [
+    2011,
+    2876
+  ],
+  "sha256": "926cd14729709ad30080ff4d0003a86fb63cd538617444a8c572e32330c6b002",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "Official open-data page assigns middle-resolution images CC BY 4.0. Actual IIIF image requested at the documented middle-resolution bounding size 2011 x 2876, below six megapixels.",
+  "attribution": "Early Spring, The National Palace Museum, Taipei, CC BY 4.0 @ www.npm.gov.tw",
+  "changes": "Three cropped ridge/rock/treetop details, paper removed, recolored, resized and rotated."
+}

@@ -13,7 +13,8 @@
     "docs/gallery-manifest.json",
     "docs/GALLERY.md",
     "README.md",
-    "scripts/maps_index_template.html"
+    "scripts/maps_index_template.html",
+    "scripts/prepare_gallery.cjs"
   ],
   "day28_release_files": [
     "28/.gitignore",

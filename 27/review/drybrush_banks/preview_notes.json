@@ -1,0 +1,26 @@
+{
+  "canvas": [
+    630,
+    882
+  ],
+  "camera": {
+    "canvas_px": [
+      1800,
+      2520
+    ],
+    "azimuth_deg": 315,
+    "elevation_deg": 42,
+    "horizontal_world_width_m": 945,
+    "orthographic_height_m": 1323,
+    "parallel_scale": 661.5,
+    "focus_right_m": 28.42,
+    "focus_up_m": 235,
+    "vertical_exaggeration": 1.2,
+    "source": "Restore larger-track portrait camera, scale locked; framing shifted down 10 m in camera up basis. Existing adopted foreground scene reused."
+  },
+  "dry_brush_strokes": 59,
+  "reference": "18/oblique/render_art.py:117-131",
+  "old_mist_layers_excluded": true,
+  "source_terrain": "27/outputs/photoshop_layers/01_terrain_pale_ink.png",
+  "full_size_export_pending_user_confirmation": true
+}

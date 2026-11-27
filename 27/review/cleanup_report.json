@@ -1,0 +1,156 @@
+{
+  "scope": "27 only; cleanup, no rendering or design changes",
+  "removed": [
+    {
+      "path": "review/before_350_65.png",
+      "bytes": 2453700,
+      "sha256": "de115f2c6dea1fdbe962212ad3a7a9ee5064325ccd7014d412162f376f882333",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/boundary_after.png",
+      "bytes": 198447,
+      "sha256": "241c38acac4e913d4c81900d40363f7141128cc91d192fa53bfa27162c3cc479",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/boundary_after_full_resolution_isolated.png",
+      "bytes": 17690,
+      "sha256": "6fd6ff4b59f2d93bc4813c12e15829dbcd759ed34caee1e07d901c693e264e17",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/boundary_after_isolated.png",
+      "bytes": 2893,
+      "sha256": "7062648c7ace700cca538ac8e2ef40ff60ce978f81506801c73f65f71fc913b1",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/boundary_before.png",
+      "bytes": 163620,
+      "sha256": "70fdd1bba77b8bdf6acac64a20d4a02af0013a7e4e9716157b2085c64a35ccea",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/boundary_before_isolated.png",
+      "bytes": 8859,
+      "sha256": "760f9c5bd8227cc408896376bac60ff590a48215f0cc8762dc2f988a3229a80b",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/boundary_comparison.png",
+      "bytes": 249276,
+      "sha256": "8edfdefc7666e62a6d1d0b167ae8d11c688e7343a10a8179cabb8d64a35d4698",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/camera_comparison.png",
+      "bytes": 924096,
+      "sha256": "49db2a8cd4b71fdd7027e10a246891b1a7b8a45ec9146e0d8d3e1d2d267d0e26",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/current_small.png",
+      "bytes": 362151,
+      "sha256": "89305dc2a34cea52030e7d130ab400b6743d4ff2a07d5723eba2a67bab1f4080",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/depth_only_test.png",
+      "bytes": 2306,
+      "sha256": "12dd608bb1d8afc6cec6f9f0fe132cd8389d1cd0bdcdf814106eb46fe6d4d54f",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/dong_yuan_xiaoxiang_overview.png",
+      "bytes": 1354487,
+      "sha256": "eb22c46493581b0e6695c61eb9b54fa24d0d9d73ea379fb3e80a6e4ae4bd160d",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/guo_xi_old_trees_overview.png",
+      "bytes": 1635223,
+      "sha256": "77b2139f2c10050ab4f8a71e3c00d34ee5978d3e4260cb0b015b619c67c32b80",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/ma_yuan_waterfall_overview.png",
+      "bytes": 1286283,
+      "sha256": "292976f6d3caaabcea5ed83c7fdf2b05d0275ebe8fb6587c0d969d8aa77c41be",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/ni_zan_wind_trees_overview.png",
+      "bytes": 1157488,
+      "sha256": "2f7608b0d41661909795c77ba1a21c297cee2cacebd97a093c0cad513b5895c9",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/restored_camera_without_collage.png",
+      "bytes": 2388982,
+      "sha256": "7aede51ed2be8999212f3cd053c6d888410d5d58f16f29048510bc7d1337d475",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/restored_reference_viewport.png",
+      "bytes": 647350,
+      "sha256": "a1cf07ca76c08e70dc1db7188af6c14e3fbd4297da720acbbeb15e4eaafd951b",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/tang_yin_waterfall_overview.png",
+      "bytes": 1693782,
+      "sha256": "aad9ea4340fcedf8dbf523590d87ecb220404f185ec1aea466f585e4338e31be",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/wang_meng_simple_retreat_overview.png",
+      "bytes": 892058,
+      "sha256": "da5698cd552caab899c9d2cb0e7f27bfc0a6f36e01a84e81450a67c2e3d084e0",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/wen_zhengming_pine_waterfall_overview.png",
+      "bytes": 1166458,
+      "sha256": "5e022cd0462b62a4481536193c2a2a29102cf15dfe4e8d8b7be206becca9ddac",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/zhao_mengfu_twin_pines_overview.png",
+      "bytes": 872320,
+      "sha256": "15c1a5b71e0fbd19ebd745d01af5e6b67b0bfb0ac3aa58725497c854d3e72317",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    },
+    {
+      "path": "review/lighting_comparison.png",
+      "bytes": 360271,
+      "sha256": "f4eb17e70708ba1119a46b7dbf67d82789ae459ab96233ea81210abbc78c2a2a",
+      "reason": "Unreferenced derived review image; original sources, camera snapshots and scripts retained."
+    }
+  ],
+  "removed_count": 21,
+  "bytes_removed": 17837740,
+  "current_pair": [
+    "outputs/among_the_giants.png",
+    "outputs/among_the_giants_layers.psd"
+  ],
+  "latest_unapproved_preview": "review/drybrush_banks/among_the_giants_preview.png",
+  "psd_layer_count": 26,
+  "psd_external_links": false,
+  "png_psd_exact_match": true,
+  "protected_sha256": {
+    "outputs\\among_the_giants.png": "cc5d4c5bd58457b9801b85b856bbb9def8d84a7ed3b7f9393e27c749262adf72",
+    "outputs\\among_the_giants_layers.psd": "9786127670296384965269b95a2480a92628f56aded9d97ffeab447beff2e462",
+    "outputs\\photoshop_layers\\01_terrain_pale_ink.png": "20545614fd29353de8575d8c24f442d62838a635cb60fac145ac1adc19d10dc9",
+    "review\\drybrush_banks\\among_the_giants_preview.png": "1084a7f973991a341c6bfacee67940ed82a7581f429c8adc12d184f580d94e31"
+  },
+  "retained_uncertain": [
+    ".venv/",
+    ".uv-cache/",
+    "review/*_crop.png",
+    "outputs/photoshop_layers.zip",
+    "all contour and layer masks"
+  ],
+  "d18_modified": false,
+  "readme_local_links_valid": true
+}

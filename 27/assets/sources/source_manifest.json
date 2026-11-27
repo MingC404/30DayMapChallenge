@@ -49,5 +49,116 @@
     ],
     "bytes": 2987942,
     "sha256": "2ba5d31803f54c802f6e50f99ea36055953d31110496885fd8c8243899c5bbf1"
+  },
+  {
+    "file": "zhao_mengfu_twin_pines.jpg",
+    "artist": "Zhao Mengfu",
+    "title": "Twin Pines, Level Distance",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "1973.120.5",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP153682.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/40508",
+    "rights": "CC0 / Met Open Access; official API isPublicDomain=true; reuse and adaptation permitted",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      3919,
+      951
+    ],
+    "bytes": 905726,
+    "sha256": "2578bea9dbe509b34a0a0c11ebf6e3a4a79b70bf53b44dfff237710aebd9b47c"
+  },
+  {
+    "file": "ni_zan_wind_trees.jpg",
+    "artist": "Ni Zan",
+    "title": "Wind among the Trees on the Riverbank",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "1989.363.39",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DT6291.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/41154",
+    "rights": "CC0 / Met Open Access; official API isPublicDomain=true; reuse and adaptation permitted",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      2492,
+      4000
+    ],
+    "bytes": 2238194,
+    "sha256": "05851e43e03e9bf12a7c365549ebe9ca69ab52c0cc83dd1bce2e164db9f9846f"
+  },
+  {
+    "file": "wang_meng_simple_retreat.jpg",
+    "artist": "Wang Meng",
+    "title": "Simple Retreat",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "2012.526.2",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP274196.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/39550",
+    "rights": "CC0 / Met Open Access; official API isPublicDomain=true; reuse and adaptation permitted",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      1972,
+      3880
+    ],
+    "bytes": 1685310,
+    "sha256": "646875565422c7a3224c500b991abdeb520d19daa160612ab2b71af5ef50862c"
+  },
+  {
+    "file": "wen_zhengming_pine_waterfall.jpg",
+    "artist": "Wen Zhengming",
+    "title": "Recluse playing the zither in a pine grove",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "1982.1.6",
+    "credit_line": "Edward Elliott Family Collection, Purchase, The Dillon Fund Gift, 1982",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP-24654-002_crd.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/45778",
+    "rights": "CC0 / Met Open Access; official API isPublicDomain=true",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      1678,
+      3687
+    ],
+    "bytes": 1575483,
+    "sha256": "e44020f69c7d8aec7fa7b0b39d92d654450345b4c71a048616f9c0dd35372d1b",
+    "used_in_current_composite": true
+  },
+  {
+    "file": "tang_yin_waterfall.jpg",
+    "artist": "Tang Yin",
+    "title": "Gazing at a Waterfall",
+    "collection": "The Metropolitan Museum of Art",
+    "accession": "1982.7.2",
+    "credit_line": "Purchase, The Dillon Fund Gift, 1982",
+    "download_url": "https://images.metmuseum.org/CRDImages/as/original/DP153572.jpg",
+    "record_url": "https://www.metmuseum.org/art/collection/search/45772",
+    "rights": "CC0 / Met Open Access; official API isPublicDomain=true",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      2000,
+      1033
+    ],
+    "bytes": 1607985,
+    "sha256": "170deb0b09b62b094203224549b83051dffbd054b48592342f93358d516f6d1e",
+    "used_in_current_composite": false
+  },
+  {
+    "file": "guo_xi_early_spring_6mp.jpg",
+    "artist": "Guo Xi",
+    "title": "Early Spring",
+    "collection": "The National Palace Museum, Taipei",
+    "record_url": "https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full",
+    "download_url": "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A000053N000000000PAA/full/!2011,2876/0/default.jpg",
+    "rights": "CC BY 4.0; adapted",
+    "attribution": "Early Spring, The National Palace Museum, Taipei, CC BY 4.0 @ www.npm.gov.tw",
+    "retrieved": "2026-11-27",
+    "pixels": [
+      2011,
+      2876
+    ],
+    "bytes": 679361,
+    "sha256": "926cd14729709ad30080ff4d0003a86fb63cd538617444a8c572e32330c6b002"
   }
 ]

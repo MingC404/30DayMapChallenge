@@ -1,0 +1,44 @@
+{
+  "canvas": [
+    1800,
+    2520
+  ],
+  "layer_count": 31,
+  "original_layers_unchanged": {
+    "00_sky_background.png": "462634a1a0ade60792bca33fbfdb8baaffe4b8c8e038749c5b705dd4c35e9434",
+    "01_terrain_pale_ink.png": "20545614fd29353de8575d8c24f442d62838a635cb60fac145ac1adc19d10dc9",
+    "01s0_early_spring.png": "e6605792ef3a67ef86ebb6ab6e757e9970b2c179b574cd7604ccb61c3261b73d",
+    "01s1_early_spring.png": "46ffd8fefc02706e0bf3a427fa083a9579af25def98e100fe695401678baefaf",
+    "01s2_early_spring.png": "7c52ef74bca66cce86de92d51ff43b7b83a726d1d5109048c477f3dc73dbc0e5",
+    "04_reference_gps_track.png": "d0ca3a4b7dedbb8775933978121c938bf5b91229c469838d94b3ab8f6823f128",
+    "05_candidate_locations.png": "1604d8912bc7eb1c4d8e478204b1f9e90576433830e04cf08cd895c168451d8d",
+    "06_entrance_marker.png": "8ddffa766ebbcd19fd4b54f47697d8e9aaef549007f93a79f554b97cfa7c820c",
+    "07_grove_dong_yuan_distant.png": "21dc0a50cdbb4cfda7fdcbc34f85daa27f51a3f812d0d62e45fbb178cdc4cc78",
+    "08_new_dense_grove_wang_meng.png": "710236a490b82616ec60db5013bcd5fb5f83c410d78cce2fbc724eb1dd88d5f1",
+    "09_new_single_pine_zhao_mengfu.png": "90b1f8920cfaa6855dba4ff7d6060edd42c1e356ba02bef749f1de28ea1c10c8",
+    "10_new_sparse_grove_ni_zan.png": "a990eea94e4b2d79ce11e2088338d2d52bfaf15d8a62375b7f56f2c2b53ca8fc",
+    "11_main_tree_guo_xi.png": "68e6dd0d3c44db91908d10d95477a4489cb19afea5214a1ac10484a0cab81285",
+    "12_waterfall_main_wen.png": "d4e5269d30877480c733c3ef31302000cbcea9479e7eea605dd12607f7d6414f",
+    "13_waterfall_distant_wen.png": "6ffa0c8319507e6b7ea991e2fd7a53d86828d90ec548d343d6809a4dfcff8ef0",
+    "14_day_kicker.png": "ac495fec5bdafbf4e30290abacdc4f9d2a4d5a1f9b098ad45c37e9c8712d53ff",
+    "15_title.png": "9228b20d80a68afdfdbafe139d6e52b87c26c79e7603f3fe68f889eef2445095",
+    "16_subtitle.png": "586de3292ef8b8e2e13e0753b4171272b4eaabb331af4625ea700ae8544e4f32",
+    "17_legend_symbols.png": "1d115e9fe65f10a348555c1fbd6df91c360658c73bc8b0af828ed90761fe5448",
+    "18_legend_text.png": "a1965db3aaef14eb7ed4c6f8452cd760fc7c699e2e4871f1bc64d2477e77f66d",
+    "19_entrance_label.png": "f7bca795ad92e0fcb8609048d6c687c5404ec2aadb5dada7aebe87696f78f76a",
+    "21_position_note.png": "761d3bf80815ee8f0ce1d6c8a52ea4c39d0639a22bdd8998c9182fa7b2b02a67",
+    "22_terrain_source.png": "536c36fe3871606417995e68d57f9acae68f958cf5773137a253abe2ce3f6f29",
+    "24_signature.png": "150d06d215a42a3bdc8e18b6d685220d83dbf2df3539e0be23f812396d6fcf6e"
+  },
+  "clear_terrain_preserved": true,
+  "camera_locked": true,
+  "painting_source": "assets/sources/npm_early_spring_source.json",
+  "new_layers": [
+    "Ridge collage - Guo Xi main crag",
+    "Ridge collage - Guo Xi side rock and treetops",
+    "Ridge collage - Guo Xi distant ink",
+    "Valley reserve - left_valley_reserve",
+    "Valley reserve - right_shoulder_reserve"
+  ],
+  "terrain_color_rerendered": false
+}

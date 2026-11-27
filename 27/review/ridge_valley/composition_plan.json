@@ -1,0 +1,315 @@
+{
+  "camera": {
+    "canvas_px": [
+      1800,
+      2520
+    ],
+    "azimuth_deg": 315,
+    "elevation_deg": 42,
+    "horizontal_world_width_m": 945,
+    "orthographic_height_m": 1323,
+    "parallel_scale": 661.5,
+    "focus_right_m": 28.42,
+    "focus_up_m": 235,
+    "vertical_exaggeration": 1.2,
+    "source": "Restore larger-track portrait camera, scale locked; framing shifted down 10 m in camera up basis. Existing adopted foreground scene reused."
+  },
+  "source_terrain_sha256": "20545614fd29353de8575d8c24f442d62838a635cb60fac145ac1adc19d10dc9",
+  "projection_size": [
+    630,
+    882
+  ],
+  "paths": [
+    {
+      "name": "left_valley_reserve",
+      "anchors": [
+        [
+          45,
+          1210
+        ],
+        [
+          180,
+          1325
+        ],
+        [
+          295,
+          1445
+        ],
+        [
+          425,
+          1555
+        ],
+        [
+          535,
+          1650
+        ]
+      ],
+      "sky": [
+        -50,
+        1110
+      ],
+      "sky_at_start": true,
+      "spread": 67,
+      "opacity": 0.92,
+      "dem_anchors": [
+        {
+          "screen": [
+            13,
+            427
+          ],
+          "xyz": [
+            294809.2500862543,
+            2733935.1360478867,
+            1771.351646222327
+          ],
+          "tpi": -20.058472343281665
+        },
+        {
+          "screen": [
+            63,
+            464
+          ],
+          "xyz": [
+            294729.7991306111,
+            2733908.5209863517,
+            1737.1491761928314
+          ],
+          "tpi": -17.985802725890608
+        },
+        {
+          "screen": [
+            100,
+            509
+          ],
+          "xyz": [
+            294654.8167756147,
+            2733905.014488636,
+            1699.3801500405034
+          ],
+          "tpi": -23.349979344237
+        },
+        {
+          "screen": [
+            149,
+            544
+          ],
+          "xyz": [
+            294574.8574712855,
+            2733881.0290961307,
+            1670.2066941557964
+          ],
+          "tpi": -17.006745763118715
+        },
+        {
+          "screen": [
+            187,
+            578
+          ],
+          "xyz": [
+            294509.1709487152,
+            2733866.105445646,
+            1639.9504673586175
+          ],
+          "tpi": -13.587390386651805
+        }
+      ],
+      "projected_cloud_centers": [
+        [
+          -17.5,
+          388.5,
+          -170.508180560277
+        ],
+        [
+          13.499999999802299,
+          416.7987145132611,
+          -154.508180560277
+        ],
+        [
+          63.49999999992221,
+          453.79871451319315,
+          -154.20693327520368
+        ],
+        [
+          100.5000000000768,
+          498.79871451308753,
+          -146.974497199462
+        ],
+        [
+          149.5000000001065,
+          533.7987145130691,
+          -140.98619500880528
+        ],
+        [
+          187.49999999991223,
+          567.7987145131677,
+          -138.60562247527488
+        ]
+      ],
+      "foreground_occluded_pixels": 601
+    },
+    {
+      "name": "right_shoulder_reserve",
+      "anchors": [
+        [
+          990,
+          1230
+        ],
+        [
+          1100,
+          1120
+        ],
+        [
+          1220,
+          1010
+        ],
+        [
+          1330,
+          900
+        ],
+        [
+          1415,
+          810
+        ]
+      ],
+      "sky": [
+        1640,
+        590
+      ],
+      "sky_at_start": false,
+      "spread": 94,
+      "opacity": 0.98,
+      "dem_anchors": [
+        {
+          "screen": [
+            352,
+            435
+          ],
+          "xyz": [
+            294494.66412910185,
+            2733530.5944085717,
+            1710.1676971458164
+          ],
+          "tpi": -17.827366850931412
+        },
+        {
+          "screen": [
+            388,
+            392
+          ],
+          "xyz": [
+            294494.29978985875,
+            2733454.5912154475,
+            1742.3638879806122
+          ],
+          "tpi": -22.706613274584925
+        },
+        {
+          "screen": [
+            425,
+            356
+          ],
+          "xyz": [
+            294475.31395234424,
+            2733395.0882002497,
+            1781.420235944578
+          ],
+          "tpi": -18.09007651856473
+        },
+        {
+          "screen": [
+            459,
+            321
+          ],
+          "xyz": [
+            294462.57278105384,
+            2733335.7044798597,
+            1815.5446158851012
+          ],
+          "tpi": -10.331003218642763
+        },
+        {
+          "screen": [
+            495,
+            284
+          ],
+          "xyz": [
+            294445.4300935742,
+            2733276.4796349704,
+            1855.4526763296394
+          ],
+          "tpi": -3.334612116449989
+        }
+      ],
+      "projected_cloud_centers": [
+        [
+          352.50000000014336,
+          424.798714513048,
+          -250.90640293022807
+        ],
+        [
+          388.49999999974125,
+          381.79871451332406,
+          -264.8011674991694
+        ],
+        [
+          425.5000000000331,
+          345.7987145131105,
+          -254.73168791370236
+        ],
+        [
+          459.4999999997524,
+          310.7987145133055,
+          -251.84114222217167
+        ],
+        [
+          495.50000000009123,
+          273.79871451306343,
+          -241.91014421366498
+        ],
+        [
+          574.0,
+          206.5,
+          -257.910144213665
+        ]
+      ],
+      "foreground_occluded_pixels": 1217
+    }
+  ],
+  "placements": [
+    {
+      "name": "Ridge collage - Guo Xi main crag",
+      "asset": "early_spring_main_ridge.png",
+      "width": 330,
+      "height": 280,
+      "angle": -8,
+      "foot": [
+        865,
+        417
+      ]
+    },
+    {
+      "name": "Ridge collage - Guo Xi side rock and treetops",
+      "asset": "early_spring_side_ridge.png",
+      "width": 280,
+      "height": 197,
+      "angle": 17,
+      "foot": [
+        535,
+        650
+      ]
+    },
+    {
+      "name": "Ridge collage - Guo Xi distant ink",
+      "asset": "early_spring_far_ridge.png",
+      "width": 212,
+      "height": 153,
+      "angle": -17,
+      "foot": [
+        1265,
+        600
+      ]
+    }
+  ],
+  "reference": "User red-circle screenshot, normalized to the fixed 1800x2520 canvas.",
+  "method": "Screen anchors snap toward DEM concavities; world elevation varies; vapor depth and an artistic behind-shoulder ray offset are tested against the foreground surface. Sky exits are artistic extensions, not DEM geometry or a physical fog simulation."
+}

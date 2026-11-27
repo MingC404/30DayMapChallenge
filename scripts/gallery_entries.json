@@ -735,6 +735,91 @@
     ]
   },
   {
+    "day": "27",
+    "theme": "New Tool",
+    "title": "Among the Giants",
+    "author": "Ming Cao",
+    "description": "I used PyVista to render the terrain of Lalashan, Taiwan, and traced the giant-tree trail across its slopes. Trees and waterfalls collaged from classical Chinese paintings bring the landscape into dialogue with the terrain model, while drifting mist reveals and conceals the ridges.",
+    "collageSources": [
+      {
+        "title": "早春图",
+        "artist": "郭熙",
+        "url": "https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/47?dep=P&mode=full"
+      },
+      {
+        "title": "树色平远图",
+        "artist": "郭熙",
+        "url": "https://www.metmuseum.org/art/collection/search/39668"
+      },
+      {
+        "title": "双松平远图",
+        "artist": "赵孟頫",
+        "url": "https://www.metmuseum.org/art/collection/search/40508"
+      },
+      {
+        "title": "江渚风林图",
+        "artist": "倪瓒",
+        "url": "https://www.metmuseum.org/art/collection/search/41154"
+      },
+      {
+        "title": "素庵图",
+        "artist": "王蒙",
+        "url": "https://www.metmuseum.org/art/collection/search/39550"
+      },
+      {
+        "title": "潇湘图",
+        "artist": "董源",
+        "url": "https://www.dpm.org.cn/collection/paint/234585.html"
+      },
+      {
+        "title": "松阴飞瀑图",
+        "artist": "文徵明",
+        "url": "https://www.metmuseum.org/art/collection/search/45778"
+      }
+    ],
+    "collageProcess": "Collaged in Photoshop.",
+    "tools": [
+      "Python",
+      "PyVista",
+      "Pillow",
+      "Photoshop"
+    ],
+    "evidence": [
+      "27/README.md",
+      "27/outputs/final_static_validation.json",
+      "27/outputs/final_gif_validation.json",
+      "27/assets/sources/source_manifest.json"
+    ],
+    "media": [
+      {
+        "source": "27/outputs/among_the_giants_summit_mist.gif",
+        "path": "assets/27/among_the_giants.gif",
+        "staticFallback": "assets/27/among_the_giants.png",
+        "label": "View animation",
+        "alt": "Among the Giants: Lalashan's giant-tree trail across pale ink-green terrain, with classical Chinese painting trees, waterfalls and softly drifting horizontal mist.",
+        "displayScale": 0.85
+      }
+    ],
+    "downloads": [
+      {
+        "source": "27/outputs/among_the_giants_final.png",
+        "path": "assets/27/among_the_giants.png",
+        "label": "Static PNG",
+        "alt": "Among the Giants: the Photoshop-adjusted static map of Lalashan, Taiwan, with an ochre giant-tree trail, ink-painting trees, ridge details and waterfalls. By Ming Cao."
+      }
+    ],
+    "sourceLinks": [
+      {
+        "label": "Data sources",
+        "url": "https://github.com/MingC404/30DayMapChallenge/blob/main/27/README.md#data-sources"
+      },
+      {
+        "label": "Classical painting sources",
+        "url": "https://github.com/MingC404/30DayMapChallenge/blob/main/27/README.md#painting-sources"
+      }
+    ]
+  },
+  {
     "day": "28",
     "theme": "Senses: Feeling",
     "title": "The Wanderer",
@@ -758,7 +843,8 @@
         "source": "28/the_wanderer.gif",
         "path": "assets/28/the_wanderer.gif",
         "label": "View animation",
-        "alt": "The Wanderer: animated autumn stroll through Rittenhouse Square, Philadelphia. Alternating footprints hurry across open paths, slow at café tables, windows, the pool and an accordionist, and linger by golden ginkgo and red berries."
+        "alt": "The Wanderer: animated autumn stroll through Rittenhouse Square, Philadelphia. Alternating footprints hurry across open paths, slow at café tables, windows, the pool and an accordionist, and linger by golden ginkgo and red berries.",
+        "displayScale": 0.7
       }
     ],
     "downloads": [

@@ -1,0 +1,18 @@
+{
+  "cloud_count": 3,
+  "increased_density": true,
+  "coordinate_variable_shadowing_fixed": true,
+  "old_outputs_removed": [
+    {
+      "path": "outputs/among_the_giants_horizontal_mist.gif",
+      "bytes": 11300594,
+      "sha256": "e861b411350d8bbb48776fbe62948516d6089feff2570240a97cfa7b7086eee9"
+    },
+    {
+      "path": "review/final_animation/motion_check.png",
+      "bytes": 351550,
+      "sha256": "83e6b7ac7a65bafd3b2c12d689591344cec92af460cc59cfd2f60094d7c9fb98"
+    }
+  ],
+  "final_png_and_psd_unchanged": true
+}

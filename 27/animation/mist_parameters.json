@@ -1,0 +1,79 @@
+{
+  "final_png": "outputs/among_the_giants_final.png",
+  "source_png_sha256": "a4dc2edcfef935fa7e3fe15030a452ab5c18e3919e313fcda06ab1b4c98fa308",
+  "source_psd_sha256": "7d1fdf395e63fca9e7f38683b07b3e54daab2efdfb0bad172f0ac092e40bdf22",
+  "final_size": [
+    900,
+    1260
+  ],
+  "preview_size": [
+    360,
+    504
+  ],
+  "frames": 120,
+  "duration_ms": 120,
+  "loop": 0,
+  "blend": "New cloud overlays only; base pixels never moved or warped.",
+  "palette": "One global 256-color palette, no dithering; static-region pixel equality tested.",
+  "compositing": "Topmost vapor overlay. No terrain, cutout, object-protection or valley masks.",
+  "edge_method": "Unbounded Gaussian lobes with broad vertical feathering; no rectangular cloud sprites.",
+  "motion": "Horizontal only; each cloud center_y remains fixed.",
+  "clouds": [
+    {
+      "name": "upper floating mist",
+      "seed": 271,
+      "phase": 0.16,
+      "size": [
+        1100,
+        340
+      ],
+      "color": [
+        246,
+        246,
+        239
+      ],
+      "opacity": 0.95,
+      "x_start": -0.5,
+      "x_end": 1.5,
+      "center_y": 950
+    },
+    {
+      "name": "foreground floating mist",
+      "seed": 272,
+      "phase": 0.64,
+      "size": [
+        1250,
+        360
+      ],
+      "color": [
+        246,
+        246,
+        239
+      ],
+      "opacity": 0.91,
+      "x_start": -0.55,
+      "x_end": 1.55,
+      "center_y": 1830
+    },
+    {
+      "name": "summit floating mist",
+      "seed": 273,
+      "phase": 0.38,
+      "size": [
+        1020,
+        270
+      ],
+      "color": [
+        240,
+        240,
+        232
+      ],
+      "opacity": 0.93,
+      "feather_scale": 1.18,
+      "title_clearance": true,
+      "x_start": -0.5,
+      "x_end": 1.5,
+      "center_y": 560
+    }
+  ]
+}
